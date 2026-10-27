@@ -1,0 +1,66 @@
+Hauptseite
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Stochastics II
+Henryk Zähle
+Registration for this course
+is open until
+Monday, 26.10.2026 23:59
+.
+News
+Currently, no news are available
+Contents
+This course follows on from
+Stochastics I
+and covers the following topics:
+Conditioning on σ-algebras (conditional expectations, conditional distributions)
+Basic concepts of stochastic processes
+Kolmogorov’s extension theorem
+Poisson processes
+Gaussian processes
+Brownian motion
+Markov processes
+Martingales
+Recommended prerequisites
+A solid background in mathematics and a good knowledge of measure-theoretic probability theory at the level of
+Stochastics I
+.
+Lectures
+Tuesday, 10:15-11:45 am, in SR 6 (room 2.17) in building E2 4
+Thursday, 8:30-10:0 am, in SR 6 (room 2.17) in building E2 4
+The course materials can be accessed
+here
+.
+Tutorial
+Tuesday, 8:30-10:00, in SR 6 (room 2.17) in building E2 4
+The first tutorial will take place at 3 November.
+Assignments
+There will be weekly assignments, which will be uploaded on Tuesdays. They are available
+here
+.
+The submission deadline is the following Tuesday at 9:59 am, via CMS.
+Teams of two can be formed
+to submit solutions. The solutions will be discussed in the tutorials.
+Exam
+The oral examination will take place after the lecture period. To be eligible to take the examination, students must earn at least 50% of the total points available on the assignment sheets.
+Organisation
+Dr. Felix Sachse,
+sachse@math.uni-sb.de
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

@@ -1,0 +1,149 @@
+Course Information
+Courses
+Main Page
+Information
+Timetable
+Registration
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Audio-Visual Communication & Networks (WS 2026)
+Thorsten Herfet
+Quick Links
+Course Details
+Course Structure
+Matlab
+Literature
+Course Details
+Continuing the positive experience from the last semesters, we have decided to offer the course "Audio/Visual Communications & Networks" in a format that considers the possibility for as well students as lecturer and tutors to give and / or consume parts of the course online using webconference tools:
+One unit per week will be devoted to a pre-announced chapter of the underlying 5G NR eBook.
+The other units of the week based on a manuscript will be devoted to the mathematical background of the techniques introduced.
+Important:
+The course will be given
+synchronously
+, i.e. participation is live either in presence or online. An interactive manuscript will support preparation and reworking but cannot replace participation. We strongly encourage personal presence in the units.
+Introduction
+The course will focus on
+5G New Radio
+, which is the recently specified fifth generation cellular system.
+All students have access to a recent
+5GNR eBook
+(see
+Literature
+).
+Audio/Visual Communications & Networks
+will focus on 5G since from a telecommunications perspective the combination of audio/visual data – meaning inherently high data rate and putting high requirements on the real-time capabilities of the underlying network – and wireless transmission – that is unreliable and highly dynamic with respect to the channel characteristics and its capacity – is the most demanding application domain.
+The lecture will build on the foundation layed as well in „
+Signals and Systems / Signale und Systeme
+“ as in „
+Digital Transmission and Signal Processing
+“ and it will apply the building blocks introduced there. The course will aim at being self-contained, however, it will not be able to repeat basic mathematical concepts and tools introduced in „Digital Transmission and Signal Processing“.
+The course will introduce the frequency bands available for 5G and their characteristics with respect to propagation, it will shed light on several multiple access (MA) schemes like TDMA, FDMA, OFDMA and SDMA and the corresponding duplex schemes TDD and FDD. A part of the course will be devoted to so called MIMO (multiple input multiple output systems), since the use of several phase- and amplitude-correlated antennas has boosted the data-rate of telecommunications systems.
+Prerequisites
+„
+Audio/Visual Communications & Networks
+“ is a course during the main study period and by such requires a solid foundation of mathematics (differential and integral calculus) and probability theory. The course will build on the mathematical concepts and tools taught in „
+Digital Transmission and Signal Processing
+“ while trying to enable everyone to follow and to fill gaps by an accelerated study of the accompanying literature. „
+Signals and Systems
+“ as well as „
+Digital Transmission and Signal Processing
+“ are strongly recommended but not required.
+Course Structure
+Basic Rules
+Please note that small changes and corrections will be applied to the lecture notes throughout the semester. If you find mistakes or have suggestions how to enhance the lecture notes we appreciate your input!
+Please
+don’t hesitate
+to tell us if you have any comments or suggestions related to lecture notes, task sheets, exercises or even organizational things. We will improve it soon so you can benefit from it, not only future students.
+Lectures
+The lecture will be offered in a hybrid format (classroom plus remote participation via MS Teams). Under special circumstances it might be advantageous or even required to omit the classroom and switch to fully remote. This will be announced on time.
+MS Teams:
+AVCN WS 2026/27 Team
+(send a join request for remote participation)
+Place:
+Campus E1.3
+, Room:
+HS001
+(possible to join remotely via MS Teams)
+Time:
+Tuesday 10:30–11:45
+and
+Wednesday 12:15 - 13:45
+(start
+October 13
+th
+)
+Tutorials
+Moodle:
+AVCN (WS26)
+(enrol to access quizzes and assignments)
+Place:
+Campus C6.3
+, Room:
+9.05
+(in presence)
+Time:
+Thursday 14:15–15:45
+Quizzes
+Weekly Moodle quizzes with 15 minutes for 5 questions within the time below.
+Place:
+via Moodle (you can do it remotely or come to the lecture room early)
+Time:
+Tuesday 10:00–10:30
+Task Sheets
+Task sheets are published on the day succeeding the tutorials in Moodle.
+You submit your solution and work on the tasks up to and including the following tutorial.
+During the tutorial you can discuss and evolve your solutions.
+Exam Dates
+The exams will be held as
+ORAL
+exams.
+We will schedule all exam slots on the two dates as given below. The exact time of each slot and how you can choose a certain slot will be announced during the lecture.
+Main Exam
+CW07, February, 2027, Place: C6 3 10.02, Slots tbd
+Re-Exam
+CW11, March, 2027, Place: C6 3 10.02, Slots tbd
+Exam Eligibility
+The weekly quizzes and task sheets for this course will be divided into two parts, blocks A&B containing 6 quizzes and 6 task sheets each.
+You need a minimum of 19.2 points (40%) of the 48 points achievable in a block to pass a block. (Each quiz is worth 5 points and each task sheet is worth 3 points.)
+You must pass both block A and B to be eligible for the exam.
+Matlab
+UdS has a
+MATLAB campus license
+which can be used by all university students for non-commercial purposes.
+Literature
+Erik Dahlman, Stefan Parkvall, Johan Skold:
+"5G NR  : The Next Generation Wireless Access Technology", Elsevier Science & Technology, 2018.
+This book is available on:
+https://ebookcentral.proquest.com/lib/sulb/detail.action?docID=6353377
+.
+You need to create an account:
+https://ebookcentral.proquest.com/auth/lib/sulb/login.action
+Simon Haykin, Michael Moher:
+"Modern Wireless Communications", Prentice Hall, 2011
+Additional Material
+Aura Ganz, Zvi Ganz, Kitty Wongthavarawat:
+"Multimedia Wireless Networks - Technologies, Standards, and QoS", Prentice Hall, 2004
+Matthew S. Gast:
+"802.11ac: A Survival Guide", O'Reilly, 2013
+John G. Proakis, Masoud Salehi:
+"Communication Systems Engineering 2nd Edition", Prentice Hall, 2002
+Ulrich Reimers:
+"Digital Video Broadcasting - The Family of International Standards for Digital Video Broadcasting", Springer, 2005
+Claude E. Shannon, Warren Weaver:
+"The Mathematical Theory of Communication", University of Illinois Press, 1963
+William Stallings:
+"Wireless Communications & Networks 2nd Edition", Prentice Hall, 2005
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

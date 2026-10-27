@@ -1,0 +1,191 @@
+[
+  {
+    "title": "Formal analysis of real-world security protocols",
+    "course_url": "https://cms.cispa.saarland/farwsp2627",
+    "calendar_url": "https://cms.cispa.saarland/farwsp2627/termine/events/download",
+    "event_count": 0,
+    "error": ""
+  },
+  {
+    "title": "Imprecise Probabilistic Machine Learning",
+    "course_url": "https://cms.cispa.saarland/ipml",
+    "calendar_url": "https://cms.cispa.saarland/ipml/termine/events/download",
+    "event_count": 0,
+    "error": ""
+  },
+  {
+    "title": "Lean for Algorithms",
+    "course_url": "https://cms.cispa.saarland/lfa",
+    "calendar_url": "https://cms.cispa.saarland/lfa/termine/events/download",
+    "event_count": 0,
+    "error": ""
+  },
+  {
+    "title": "Side-Channel Attacks and Defenses",
+    "course_url": "https://cms.cispa.saarland/scad2627",
+    "calendar_url": "https://cms.cispa.saarland/scad2627/termine/events/download",
+    "event_count": 12,
+    "error": ""
+  },
+  {
+    "title": "Systems Security",
+    "course_url": "https://cms.cispa.saarland/syssec_26",
+    "calendar_url": "https://cms.cispa.saarland/syssec_26/termine/events/download",
+    "event_count": 31,
+    "error": ""
+  },
+  {
+    "title": "Foundations of Cybersecurity 1",
+    "course_url": "https://cms.cispa.saarland/cysec1_2627",
+    "calendar_url": "https://cms.cispa.saarland/cysec1_2627/termine/events/download",
+    "event_count": 65,
+    "error": ""
+  },
+  {
+    "title": "Security (WS 2026/2027)",
+    "course_url": "https://cms.cispa.saarland/sec2627",
+    "calendar_url": "https://cms.cispa.saarland/sec2627/termine/events/download",
+    "event_count": 0,
+    "error": ""
+  },
+  {
+    "title": "CySec Lab (english BSc CySec only!)",
+    "course_url": "https://cms.cispa.saarland/cyseclab26",
+    "calendar_url": "https://cms.cispa.saarland/cyseclab26/termine/events/download",
+    "event_count": 0,
+    "error": ""
+  },
+  {
+    "title": "CySec Project Winter Term '26/27",
+    "course_url": "https://cms.cispa.saarland/cysecproj2627",
+    "calendar_url": "https://cms.cispa.saarland/cysecproj2627/termine/events/download",
+    "event_count": 0,
+    "error": ""
+  },
+  {
+    "title": "Automata Learning: Learnability of Computational Models",
+    "course_url": "https://cms.cispa.saarland/alprosem26",
+    "calendar_url": "https://cms.cispa.saarland/alprosem26/termine/events/download",
+    "event_count": 1,
+    "error": ""
+  },
+  {
+    "title": "Usable Security in the Last Decade",
+    "course_url": "https://cms.cispa.saarland/usld",
+    "calendar_url": "https://cms.cispa.saarland/usld/termine/events/download",
+    "event_count": 33,
+    "error": ""
+  },
+  {
+    "title": "Autonomous Offensive Security",
+    "course_url": "https://cms.cispa.saarland/aos_wise26",
+    "calendar_url": "https://cms.cispa.saarland/aos_wise26/termine/events/download",
+    "event_count": 0,
+    "error": ""
+  },
+  {
+    "title": "Bachelor- and Master Seminar (Winter 2026/27)",
+    "course_url": "https://cms.cispa.saarland/bms_winter2627",
+    "calendar_url": "https://cms.cispa.saarland/bms_winter2627/termine/events/download",
+    "event_count": 0,
+    "error": ""
+  },
+  {
+    "title": "Computer Architecture (Seminar and Proseminar)",
+    "course_url": "https://cms.cispa.saarland/comparch_w26",
+    "calendar_url": "https://cms.cispa.saarland/comparch_w26/termine/events/download",
+    "event_count": 0,
+    "error": ""
+  },
+  {
+    "title": "Coping with computational hardness: approximation, moderately exponential-time, and parameterized algorithms",
+    "course_url": "https://cms.cispa.saarland/algseminar_26",
+    "calendar_url": "https://cms.cispa.saarland/algseminar_26/termine/events/download",
+    "event_count": 0,
+    "error": ""
+  },
+  {
+    "title": "Cybersecurity in Organizational Practice",
+    "course_url": "https://cms.cispa.saarland/orgsec26",
+    "calendar_url": "https://cms.cispa.saarland/orgsec26/termine/events/download",
+    "event_count": 0,
+    "error": ""
+  },
+  {
+    "title": "Deep Learning Efficiency: Smarter AI, Not Just Bigger",
+    "course_url": "https://cms.cispa.saarland/dle26",
+    "calendar_url": "https://cms.cispa.saarland/dle26/termine/events/download",
+    "event_count": 0,
+    "error": ""
+  },
+  {
+    "title": "Hack-a-Sat",
+    "course_url": "https://cms.cispa.saarland/hackasat",
+    "calendar_url": "https://cms.cispa.saarland/hackasat/termine/events/download",
+    "event_count": 0,
+    "error": ""
+  },
+  {
+    "title": "Humans and Trustworthy AI Systems",
+    "course_url": "https://cms.cispa.saarland/htai",
+    "calendar_url": "https://cms.cispa.saarland/htai/termine/events/download",
+    "event_count": 0,
+    "error": ""
+  },
+  {
+    "title": "Program Synthesis",
+    "course_url": "https://cms.cispa.saarland/ps_2627",
+    "calendar_url": "https://cms.cispa.saarland/ps_2627/termine/events/download",
+    "event_count": 0,
+    "error": ""
+  },
+  {
+    "title": "Reproducibility in Fuzzing",
+    "course_url": "https://cms.cispa.saarland/semrif26",
+    "calendar_url": "https://cms.cispa.saarland/semrif26/termine/events/download",
+    "event_count": 0,
+    "error": ""
+  },
+  {
+    "title": "Robustness in Generative AI",
+    "course_url": "https://cms.cispa.saarland/robgenai",
+    "calendar_url": "https://cms.cispa.saarland/robgenai/termine/events/download",
+    "event_count": 0,
+    "error": ""
+  },
+  {
+    "title": "Space Informatics Cybersecurity",
+    "course_url": "https://cms.cispa.saarland/spacesecurity2627",
+    "calendar_url": "https://cms.cispa.saarland/spacesecurity2627/termine/events/download",
+    "event_count": 0,
+    "error": ""
+  },
+  {
+    "title": "The Web Security Seminar",
+    "course_url": "https://cms.cispa.saarland/websecsem_wise26",
+    "calendar_url": "https://cms.cispa.saarland/websecsem_wise26/termine/events/download",
+    "event_count": 0,
+    "error": ""
+  },
+  {
+    "title": "Topics in Privacy-Preserving Machine Learning and Optimization",
+    "course_url": "https://cms.cispa.saarland/ppmlo2627",
+    "calendar_url": "https://cms.cispa.saarland/ppmlo2627/termine/events/download",
+    "event_count": 0,
+    "error": ""
+  },
+  {
+    "title": "Trustworthy Machine Learning",
+    "course_url": "https://cms.cispa.saarland/tml26",
+    "calendar_url": "https://cms.cispa.saarland/tml26/termine/events/download",
+    "event_count": 0,
+    "error": ""
+  },
+  {
+    "title": "Privacy Systems and Applications Seminar",
+    "course_url": "https://cms.cispa.saarland/psas26",
+    "calendar_url": "https://cms.cispa.saarland/psas26/termine/events/download",
+    "event_count": 0,
+    "error": ""
+  }
+]

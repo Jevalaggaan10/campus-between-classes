@@ -1,0 +1,115 @@
+Main Page
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+3D and 4D Computer Vision
+Vladislav Golyanik
+Registration for this course
+is open until
+Sunday, 01.11.2026 00:00
+.
+News
+First Exercise sheet and Q&A
+Written on
+22.10.26
+(last change on
+22.10.26
+)						by Gino Lanzo Hahn
+Dear students,
+Welcome to the 3D and 4D Computer Vision course.
+Since CMS has been down for the past day, please note these important updates:
+Exercise Sheet 1:
+Released today (22.10.2026) with a deadline of 04.11.2026.
+First Q&A Session:
+Scheduled for 29.10.2026 in Building E1.4, Room…
+Read more
+Dear students,
+Welcome to the 3D and 4D Computer Vision course.
+Since CMS has been down for the past day, please note these important updates:
+Exercise Sheet 1:
+Released today (22.10.2026) with a deadline of 04.11.2026.
+First Q&A Session:
+Scheduled for 29.10.2026 in Building E1.4, Room 023.
+The Q&A session will begin with a detailed rundown of the format of the tutoring encounters, followed by the actual Q&A.
+I highly recommend starting on the exercise sheet now so you can email your questions to the TA.
+Additionally, the slides for the first lecture are now available in the Materials section. As mentioned in class, future slides will be uploaded prior to each lecture to allow you to review the topics beforehand.
+3D and 4D Computer Vision
+Course Description
+Computer Vision is an interdisciplinary research field at the intersection of machine learning and signal processing. It studies techniques for automatic analysis and interpretation of visual and multi-modal input data. This lecture focuses on one of the advanced subfields of Computer Vision related to the inference of the observed higher-dimensional structures (3D and deformable 3D) from lower-dimensional observations (2D images).
+Our world is inherently non-rigid at different spatial and temporal scales. Reconstructing and modelling it in 4D from visual observations is a vibrant research field that remains challenging and that has numerous practical applications, for instance, in AR/VR/XR, computer game development, human-computer interaction and sport analytics. The frequent challenges of this field include the ill-posedness of the underlying optimisation problems and settings (e.g., monocular, which is of special interest in Computer Vision) and observed scene conditions (e.g., partial observations, low light or high-speed motions), among many others. The goal of the lecture "3D and 4D Computer Vision" is to introduce foundational concepts of 3D computer vision for deformable and composite scenes (4D = 3D + time) as well as results of the latest research in the field in a systematic and structured manner through generalisation of studied concepts from 3D to 4D cases.
+The lecture will cover the fundamentals of 3D computer vision applicable across a wide range of 3D and 4D settings (multiple view geometry, triangulation, stereo vision, bundle adjustment, linear transformations, parametrisations of rotations), different types of visual sensors (RGB, event and depth cameras), 3D and 4D scene representations, deformation models and regularisers, non-rigid structure from motion (NRSfM), shape-from-template, correspondence problems, novel-view synthesis of non-rigid scenes, generative and diffusion models in 4D vision, 3D human pose estimation, egocentric 4D vision as well as video generation of composite scenes. Apart from milestone methods in the field, the lecture will discuss several recent works on 4D vision including state-of-the-art approaches. This lecture is accompanied by triweekly theoretical exercises.
+Schedule and Other Details
+Course webpage:
+https://4dqv.mpi-inf.mpg.de/teaching/3D_and_4D_Computer_Vision_3rd/
+Workload:
+6 Credit Points
+Format:
+Weekly lectures + biweekly exercises
+Time:
+Wednesdays: 14:15 – 15:45 p.m. (lecture) / Thursdays: 14:15 – 15:45 p.m. (exercise)
+Location:
+Wednesdays: 002 in E1 5 / Thursdays: 023 in E 1 4
+Exam:
+Oral
+Exam admission:
+At least 50% of correctly completed exercises.
+Prerequisites
+The lecture "3D and 4D Computer Vision" targets students in the following programs: Visual Computing (M.Sc.), Computer Science (M.Sc.), and Data Science and Artificial Intelligence (M.Sc.).
+Some background in linear algebra, calculus, image processing, computer graphics and machine learning is recommended.
+Course Content
+21.10.26: Introduction and Fundamentals of 3D and 4D Computer Vision I
+28.10.26: Fundamentals of 3D and 4D Computer Vision II
+04.11.26: Scene Representations
+11.11.26: Correspondence Problems
+18.11.26: Multi-View Geometry and Structure from Motion
+25.11.26: Volumetric Rendering
+02.12.26: No Lecture
+09.12.26: General 4D Reconstruction (
+remote
+)
+16.12.26: No Lecture
+Holiday break
+06.01.27: No Lecture
+13.01.27: Human Pose Estimation (
+remote
+)
+20.01.27: Egocentric 4D Vision (
+remote tentatively
+)
+27.01.27: Generative Models
+03.02.27: Event-Based Vision
+10.02.27: Recap and Recent Research
+17.02.27: Recent Research
+Exercise Sheets and Q&A Sessions
+22.10.26: Exercise sheet 1 released
+29.10.26: Q&A Exercise sheet 1
+05.11.26: Exercise sheet 2 released + Solutions for Exercise sheet 1 presented
+12.11.26: Q&A Exercise sheet 2
+19.11.26: Exercise sheet 3 released + Solutions for Exercise sheet 2 presented
+26.11.26: Q&A Exercise sheet 3
+10.12.26: Exercise sheet 4 released + Solutions for Exercise sheet 3 presented
+17.12.26: Q&A Exercise sheet 4
+Holiday break
+14.01.27: Exercise sheet 5 released + Solutions for Exercise sheet 4 presented
+21.01.27: Q&A Exercise sheet 5
+28.01.27: Exercise sheet 6 released + Solutions for Exercise sheet 5 presented
+04.02.27: Q&A Exercise sheet 6
+11.02.27: Solutions for Exercise sheet 6 presented + Q&A Exam
+Please refer to the course timetable for detailed session timings and assignment submission deadlines.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

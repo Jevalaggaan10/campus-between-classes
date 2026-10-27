@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Main Page	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="4231d285cf1947148cfee86aa34b2ec9a0b05a05@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Sic/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Sic/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Sic/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Sic/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Sic/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/exml_2627/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/exml_2627/../system" class="navbar-brand">Courses</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/exml_2627/">Main Page</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Information</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/exml_2627/termine/calendar/index">Timetable</a></li><li><a class="dropdown-item" href="/exml_2627/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/exml_2627/students/register">Registration</a></li><li class="nav-item"><a class="nav-link" href="/exml_2627/landing">Personal Status</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/exml_2627/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="92da5c00b4cd6876f99fe6907fddc8377152536f9884f0e1368a53b71bf697ddcfbc6a8a6a24b74cc6d6865f596b9934ae4bec43dbd4cd8d813e30a032841b8d" id="Token1347947430" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Username" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Password" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Remember me</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.sic.saarland/exml_2627/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="e1aeb79f1d1410fa461a45d6e506e726b3948de2%3AUser.redirect" id="TokenFields1227983220" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked1171591397" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/exml_2627/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registration</a>        </li>
+        <li>
+            <a href="/exml_2627/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Forgot Password?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Enable dark mode            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Enable light mode            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/exml_2627/../system" class="site-logo" title="Front Page"><img src="/system/theme/Sic/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					Explainable Machine Learning				</h1>
+				<div>
+				<small class="text-muted">
+					Jonas Fischer				</small>
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	<p><i class="text-muted">Currently, no news are available</i></p></section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<h2>Explainable Machine Learning</h2>
+
+<h2>&nbsp;</h2>
+
+<h3>Overview</h3>
+
+<p>In this seminar we will discuss different methodologies in Explainable Machine Learning, which is concerned with understanding what information a Machine Learning system learned and how it uses this information for decision-making. We cover both seminal works as well as recent advancements in the field, including post-hoc explainability approaches and inherently interpretable model designs.</p>
+
+<p>The seminar will consistent of an introductory meeting with a lecture at the beginning of the semester introducing the field and distributing papers, and a three-day block course in the semester break covering paper and project presentations and discussions.</p>
+
+<p>Students are expected to read into their assigned paper, the related literature, prepare a talk, a paper summary with critical discussion, and conduct a practical project around their topic.</p>
+
+<p>&nbsp;</p>
+
+<h3>Course Information</h3>
+
+<p><strong>Semester:</strong>&nbsp; WS</p>
+
+<p><strong>Year:</strong>&nbsp; 2026/27</p>
+
+<p><strong>Requirements:</strong> The student has a solid understanding of Machine Learning and feels comfortable with Neural Networks (for example through lectures High Level Computer Vision, Neural Networks: Theory and Implementation, or Machine Learning).</p>
+
+<p><strong>Time and location:</strong></p>
+
+<p>Introductory lecture:&nbsp; 23.10.2026, 12:00&ndash;14:00, E1.5 (MPI-SWS) 029</p>
+
+<p>Block seminar: TBA</p>
+
+<p>Project showcase event:TBA</p>
+
+<p>Project hand-in deadline: TBA</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Registration:</strong>&nbsp; &nbsp;&nbsp; Registration is through the <a href="https://seminars.cs.uni-saarland.de/wise2627seminars" title="SIC seminar assignment system">SIC seminar assignment system</a>. Please do not directly register via the CMS.<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Lecturer:&nbsp; &nbsp;&nbsp;</strong>&nbsp; &nbsp; &nbsp;&nbsp; <a href="https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/people/jonas-fischer">Dr. Jonas Fischer</a>, <a class="internal-link" href="https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/people/bernt-schiele" title="Opens internal link in current window">Prof. Dr. Bernt Schiele</a></p>
+
+<p><strong>Teaching Assistants:&nbsp; &nbsp;&nbsp;</strong>&nbsp; &nbsp; &nbsp;<a href="https://robinhesse.github.io/">Robin Hesse</a>, <a href="https://swetamahajan.github.io/">Sweta Mahajan</a>, <a href="https://phamleyennhi.github.io/">Nhi Pham</a>, <a href="https://sukrutrao.github.io/">Sukrut Rao</a>, <a href="https://wolfstam.github.io/">Dr. Wolfgang Stammer</a></p>
+
+<p>&nbsp;</p>
+
+<h3>Material</h3>
+
+<p>We recommend<br />
+Interpretable Machine Learning - <em>A Guide for Making Black Box Models Explainable </em>by Christoph Molnar<br />
+The book can be accessed for <a href="https://christophm.github.io/interpretable-ml-book/">free online (external link)</a>, and as part of the Semesterapparat of the <a href="https://www.infomath-bib.de/en/welcome.shtml">UdS Math and CS library</a>.</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/en/privacy.html" target="_blank">Privacy Policy</a> | <a href="https://www.uni-saarland.de/en/legal-notice.html" target="_blank">Legal Notice</a><br/>
+	If you encounter technical problems, please contact <a href="mailto:cakecms@cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">the administrators</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

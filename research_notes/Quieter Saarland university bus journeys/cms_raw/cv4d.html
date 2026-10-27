@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Main Page	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="4231d285cf1947148cfee86aa34b2ec9a0b05a05@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Sic/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Sic/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Sic/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Sic/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Sic/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/cv4d/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/cv4d/../system" class="navbar-brand">Courses</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/cv4d/">Main Page</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Information</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/cv4d/termine/calendar/index">Timetable</a></li><li><a class="dropdown-item" href="/cv4d/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/cv4d/students/register">Registration</a></li><li class="nav-item"><a class="nav-link" href="/cv4d/landing">Personal Status</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/cv4d/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="2743cafa5221600837bfdea7855cd9a4f3274237e78859e4ef93a5179f445f6a4aeafa4b3ba4021942664ca7fceb7aad18756b1066387ef77141deeb7e6d02ad" id="Token661968253" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Username" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Password" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Remember me</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.sic.saarland/cv4d/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="5c3a019788bb20af28e9f2bbeb54ab5d04b52410%3AUser.redirect" id="TokenFields1202040571" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked1222539989" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/cv4d/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registration</a>        </li>
+        <li>
+            <a href="/cv4d/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Forgot Password?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Enable dark mode            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Enable light mode            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/cv4d/../system" class="site-logo" title="Front Page"><img src="/system/theme/Sic/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					3D and 4D Computer Vision				</h1>
+				<div>
+				<small class="text-muted">
+					Vladislav Golyanik				</small>
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					<div class="alert alert-info"><a href="/cv4d/students/register">Registration for this course</a> is open until <strong>Sunday, 01.11.2026 00:00</strong>.</div>
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	
+<table class="table">
+	<colgroup>
+				<col span="1" style="width: auto;" />
+	</colgroup>
+	<tbody>
+	<tr>						<td class="align-top">
+				<a id="newsElement1"></a>
+				<h4 class="fs-5"><a href="/cv4d/news/view/1">First Exercise sheet and Q&amp;A</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="22.10.2026 19:21:28">22.10.26</span>						(last change on <span data-bs-toggle="tooltip" data-bs-title="22.10.2026 19:22:27">22.10.26</span>)						by Gino Lanzo Hahn					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse1">
+					<p>Dear students,</p>
+
+<p>Welcome to the 3D and 4D Computer Vision course.<br />
+Since CMS has been down for the past day, please note these important updates:</p>
+
+<ul>
+	<li><strong>Exercise Sheet 1:</strong> Released today (22.10.2026) with a deadline of 04.11.2026.</li>
+	<li><strong>First Q&amp;A Session:</strong> Scheduled for 29.10.2026 in Building E1.4, Room&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse1" href="#newsElement1">Read more</a></li></ul>				</div>
+				<div class="collapse newsCollapse1">
+					<p>Dear students,</p>
+
+<p>Welcome to the 3D and 4D Computer Vision course.<br />
+Since CMS has been down for the past day, please note these important updates:</p>
+
+<ul>
+	<li><strong>Exercise Sheet 1:</strong> Released today (22.10.2026) with a deadline of 04.11.2026.</li>
+	<li><strong>First Q&amp;A Session:</strong> Scheduled for 29.10.2026 in Building E1.4, Room 023.</li>
+</ul>
+
+<p>The Q&amp;A session will begin with a detailed rundown of the format of the tutoring encounters, followed by the actual Q&amp;A.<br />
+I highly recommend starting on the exercise sheet now so you can email your questions to the TA.</p>
+
+<p>Additionally, the slides for the first lecture are now available in the Materials section. As mentioned in class, future slides will be uploaded prior to each lecture to allow you to review the topics beforehand.</p>
+				</div>
+							</td>
+		</tr>		
+		</tbody>
+</table>
+
+</section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<h2>3D and 4D Computer Vision</h2>
+
+<hr />
+<p><u><strong>Course Description </strong></u></p>
+
+<p>Computer Vision is an interdisciplinary research field at the intersection of machine learning and signal processing. It studies techniques for automatic analysis and interpretation of visual and multi-modal input data. This lecture focuses on one of the advanced subfields of Computer Vision related to the inference of the observed higher-dimensional structures (3D and deformable 3D) from lower-dimensional observations (2D images).<br />
+<br />
+Our world is inherently non-rigid at different spatial and temporal scales. Reconstructing and modelling it in 4D from visual observations is a vibrant research field that remains challenging and that has numerous practical applications, for instance, in AR/VR/XR, computer game development, human-computer interaction and sport analytics. The frequent challenges of this field include the ill-posedness of the underlying optimisation problems and settings (e.g., monocular, which is of special interest in Computer Vision) and observed scene conditions (e.g., partial observations, low light or high-speed motions), among many others. The goal of the lecture &quot;3D and 4D Computer Vision&quot; is to introduce foundational concepts of 3D computer vision for deformable and composite scenes (4D = 3D + time) as well as results of the latest research in the field in a systematic and structured manner through generalisation of studied concepts from 3D to 4D cases.</p>
+
+<p><br />
+The lecture will cover the fundamentals of 3D computer vision applicable across a wide range of 3D and 4D settings (multiple view geometry, triangulation, stereo vision, bundle adjustment, linear transformations, parametrisations of rotations), different types of visual sensors (RGB, event and depth cameras), 3D and 4D scene representations, deformation models and regularisers, non-rigid structure from motion (NRSfM), shape-from-template, correspondence problems, novel-view synthesis of non-rigid scenes, generative and diffusion models in 4D vision, 3D human pose estimation, egocentric 4D vision as well as video generation of composite scenes. Apart from milestone methods in the field, the lecture will discuss several recent works on 4D vision including state-of-the-art approaches. This lecture is accompanied by triweekly theoretical exercises.</p>
+
+<p>&nbsp;</p>
+
+<p><u><strong>Schedule and Other Details </strong></u></p>
+
+<p><strong>Course webpage:&nbsp;</strong><a href="https://4dqv.mpi-inf.mpg.de/teaching/3D_and_4D_Computer_Vision_3rd/">https://4dqv.mpi-inf.mpg.de/teaching/3D_and_4D_Computer_Vision_3rd/</a></p>
+
+<p><strong>Workload:</strong> 6&nbsp;Credit Points</p>
+
+<p><strong>Format:</strong> Weekly lectures + biweekly exercises</p>
+
+<p><strong>Time:</strong> Wednesdays: 14:15 &ndash; 15:45 p.m. (lecture) / Thursdays: 14:15 &ndash; 15:45 p.m. (exercise)</p>
+
+<p><strong>Location: </strong>Wednesdays: 002 in E1 5 / Thursdays: 023 in E 1 4</p>
+
+<p><strong>Exam: </strong>Oral&nbsp;</p>
+
+<p><strong>Exam admission:</strong> At least 50% of correctly completed&nbsp;exercises.</p>
+
+<p>&nbsp;</p>
+
+<p><strong><u>Prerequisites</u></strong></p>
+
+<p>The lecture &quot;3D and 4D Computer Vision&quot; targets students in the following programs: Visual Computing (M.Sc.), Computer Science (M.Sc.), and Data Science and Artificial Intelligence (M.Sc.).</p>
+
+<p>Some background in linear algebra, calculus, image processing, computer graphics and machine learning is recommended.</p>
+
+<p>&nbsp;</p>
+
+<p><u><strong>Course Content </strong></u></p>
+
+<p>21.10.26: Introduction and Fundamentals of 3D and 4D Computer Vision I<br />
+28.10.26: Fundamentals of 3D and 4D Computer Vision II<br />
+04.11.26: Scene Representations<br />
+11.11.26: Correspondence Problems<br />
+18.11.26: Multi-View Geometry and Structure from Motion<br />
+25.11.26: Volumetric Rendering<br />
+02.12.26:&nbsp;No Lecture<br />
+09.12.26: General 4D Reconstruction (<strong>remote</strong>)<br />
+16.12.26: No Lecture<br />
+Holiday break<br />
+06.01.27: No Lecture<br />
+13.01.27: Human Pose Estimation (<strong>remote</strong>)<br />
+20.01.27: Egocentric 4D Vision (<strong>remote tentatively</strong>)<br />
+27.01.27: Generative Models<br />
+03.02.27: Event-Based Vision<br />
+10.02.27: Recap and Recent Research<br />
+17.02.27: Recent Research</p>
+
+<p>&nbsp;</p>
+
+<p><u><strong>Exercise Sheets and Q&amp;A Sessions</strong></u></p>
+
+<p>22.10.26: Exercise sheet 1 released<br />
+29.10.26: Q&amp;A Exercise sheet&nbsp;1<br />
+05.11.26: Exercise sheet 2 released + Solutions for Exercise sheet&nbsp;1 presented<br />
+12.11.26: Q&amp;A Exercise sheet&nbsp;2<br />
+19.11.26: Exercise sheet 3 released + Solutions for Exercise sheet&nbsp;2 presented<br />
+26.11.26: Q&amp;A Exercise sheet&nbsp;3<br />
+10.12.26: Exercise sheet 4 released&nbsp;+ Solutions for Exercise sheet&nbsp;3 presented<br />
+17.12.26: Q&amp;A Exercise sheet&nbsp;4<br />
+Holiday break<br />
+14.01.27: Exercise sheet 5 released&nbsp;+ Solutions for Exercise sheet&nbsp;4 presented<br />
+21.01.27: Q&amp;A Exercise sheet&nbsp;5<br />
+28.01.27: Exercise sheet 6 released&nbsp;+ Solutions for Exercise sheet&nbsp;5 presented<br />
+04.02.27: Q&amp;A Exercise sheet&nbsp;6<br />
+11.02.27: Solutions for Exercise sheet&nbsp;6 presented + Q&amp;A Exam</p>
+
+<p>Please refer to the course timetable for detailed session timings and assignment submission deadlines.</p>
+
+<hr />	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/en/privacy.html" target="_blank">Privacy Policy</a> | <a href="https://www.uni-saarland.de/en/legal-notice.html" target="_blank">Legal Notice</a><br/>
+	If you encounter technical problems, please contact <a href="mailto:cakecms@cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">the administrators</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

@@ -1,0 +1,163 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//134.96.226.213//NONSGML kigkonsult.se iCalcreator 2.41.92//
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+UID:34663735-3366-4432-a439-633062663336
+X-WR-CALNAME:Artificial Empathic Technology Calendar
+X-WR-CALDESC:Events of the lecture Artificial Empathic Technology
+X-WR-TIMEZONE:Europe/Berlin
+BEGIN:VEVENT
+UID:30636431-3263-4537-a233-313262313731
+DTSTAMP:20261026T191845Z
+DESCRIPTION:Let us examine the distinctions between emotion-adaptive and ar
+ tificially empathic technologies\, encompassing their definitions\, applic
+ ation domains such as training\, education\, health coaching\, and caregiv
+ ing\, as well as the structure of courses and projects.
+DTSTART:20261022T080000Z
+DTEND:20261022T100000Z
+SUMMARY:From Social Computing to Artifically Empathic Technology
+END:VEVENT
+BEGIN:VEVENT
+UID:36383237-6636-4466-b832-303134643065
+DTSTAMP:20261026T191845Z
+DESCRIPTION:We are exploring the affect trinity\, basic\, dimensional\, app
+ raisal\, and constructivist models\, along with the component model and ob
+ servable signals\, and their limitations (“no fingerprint”) are considered
+  in the analysis.
+DTSTART:20261029T090000Z
+DTEND:20261029T110000Z
+SUMMARY:Affect\, emotion\, mood and other related concepts
+END:VEVENT
+BEGIN:VEVENT
+UID:31386532-6361-4137-b365-656535366533
+DTSTAMP:20261026T191845Z
+DESCRIPTION:Adopting the mindset and approach of an experimental researcher
+ : examining the distinction between science and common sense\, progressing
+  from observation to hypothesis formulation\, differentiating between corr
+ elation and experimentation\, understanding independent and dependent vari
+ ables\, utilizing between-subject and within-subject designs\, and address
+ ing threats to validity.
+DTSTART:20261105T090000Z
+DTEND:20261105T110000Z
+SUMMARY:Methods I: Thinking like an Experimenter
+END:VEVENT
+BEGIN:VEVENT
+UID:39636130-3366-4539-a632-353435316436
+DTSTAMP:20261026T191845Z
+DESCRIPTION:Differentiate between cognitive and affective empathy\, compass
+ ion\, Theory of Mind (ToM)\, mentalization\, CASA / Media Equation. And wh
+ at is the persona effect.
+DTSTART:20261112T090000Z
+DTEND:20261112T090000Z
+SUMMARY:Empathy\, Theory of Mind\, Mentalization
+END:VEVENT
+BEGIN:VEVENT
+UID:65333433-3339-4339-b236-383930306264
+DTSTAMP:20261026T191845Z
+DESCRIPTION:Exploring OCC appraisal theory\, the OCEAN personality model\, 
+ the PAD mood model\, and the decay of emotional intensity. In practice\, w
+ e are modeling characters in ALMA Explorer.
+DTSTART:20261119T090000Z
+DTEND:20261119T110000Z
+SUMMARY:Computational Affect + ALMA Explorer (hands-on)
+END:VEVENT
+BEGIN:VEVENT
+UID:30383261-6331-4231-a334-343562613937
+DTSTAMP:20261026T191845Z
+DESCRIPTION:Getting to know the agentic SIA research framework\, Visual Sce
+ neMaker. What are scenes\, and what is a sceneflow? Overview of plugins (A
+ LMA\, LLM\, ASR\, TTS\, Wizard of Oz)
+DTSTART:20261126T090000Z
+DTEND:20261126T110000Z
+SUMMARY:Interactive Systems + VisualSceneMaker web (hands-on)
+END:VEVENT
+BEGIN:VEVENT
+UID:62386661-6232-4139-a233-623961343636
+DTSTAMP:20261026T191845Z
+DESCRIPTION:Questionnaires and scale quality\, relational measures (felt se
+ curity\, perceived responsiveness\, empathic accuracy)\, power and sample 
+ size\, pilot study\, preregistration\, research ethics (consent\, data pro
+ tection). Also\, VisualSceneMaker StudyMaster.
+DTSTART:20261203T090000Z
+DTEND:20261203T110000Z
+SUMMARY:Methods II: Measurement and Running a Study
+END:VEVENT
+BEGIN:VEVENT
+UID:36356663-6132-4662-b532-313034363061
+DTSTAMP:20261026T191845Z
+DESCRIPTION:Understanding fundamental human values\, including safety\, aut
+ onomy\, and self-respect\, within the framework of goals\, social roles\, 
+ and cultural norms. What exactly are display rules? Explore current techno
+ logical approaches – for example\, values incorporated during design time 
+ (CCVSD)\, as runtime constraints (CARESSES)\, or as runtime objectives (Ar
+ tificially Empathic Technology) – and methods to determine whether these v
+ alues have been duly respected.
+DTSTART:20261210T110000Z
+DTEND:20261210T110000Z
+SUMMARY:Values and Norms: What an Empathic System Has to Achieve
+END:VEVENT
+BEGIN:VEVENT
+UID:34363936-3131-4732-b036-633435343333
+DTSTAMP:20261026T191845Z
+DESCRIPTION:Predictive processing\, Moser & von Zeppelin (structural\, situ
+ ational\, and communicative emotions)\, self versus display regulation\, M
+ ARSSI.
+DTSTART:20261217T090000Z
+DTEND:20261217T110000Z
+SUMMARY:KET I: Regulation and the Individual
+END:VEVENT
+BEGIN:VEVENT
+UID:37313838-3965-4637-b332-336435356264
+DTSTAMP:20261026T191845Z
+DESCRIPTION:Descriptive statistics\, t-tests\, ANOVA\, effect sizes\, repor
+ ting\, open science (p-hacking\, HARKing)
+DTSTART:20270107T090000Z
+DTEND:20270107T110000Z
+SUMMARY:Methods III: Data Analysis
+END:VEVENT
+BEGIN:VEVENT
+UID:63666338-3032-4639-b161-636332613662
+DTSTAMP:20261026T191845Z
+DESCRIPTION:Person objects and relationships\; inner and outer communicatio
+ n paths. Regulation vs. Co-Regulation\, especially repair\, as shown in th
+ e context of Mentalization-Based Therapy.
+DTSTART:20270114T090000Z
+DTEND:20270114T110000Z
+SUMMARY:KET II: Relationship and Social Interaction
+END:VEVENT
+BEGIN:VEVENT
+UID:61373162-3663-4231-b438-393931633835
+DTSTAMP:20261026T191845Z
+DESCRIPTION:Cost function over the value goals\, uncertainty\, explainabili
+ ty\, role and limits of LLMs\, deception/dependency\, uncanny valley\, gov
+ ernance (EU AI Act\, MEESTAR)\, outlook
+DTSTART:20270121T090000Z
+DTEND:20270121T110000Z
+SUMMARY:KET III: Making Values Computable\, and Limits
+END:VEVENT
+BEGIN:VEVENT
+UID:39633631-3539-4434-a463-323264613733
+DTSTAMP:20261026T191845Z
+DESCRIPTION:Presentations Part I
+DTSTART:20270128T090000Z
+DTEND:20270128T110000Z
+SUMMARY:Presentation of Student Projects
+END:VEVENT
+BEGIN:VEVENT
+UID:36626636-3762-4463-b963-373661346166
+DTSTAMP:20261026T191845Z
+DESCRIPTION:Presentations Part I
+DTSTART:20270204T090000Z
+DTEND:20270204T110000Z
+SUMMARY:Presentation of Student Projects
+END:VEVENT
+BEGIN:VEVENT
+UID:65386666-3862-4636-b164-336162626637
+DTSTAMP:20261026T191845Z
+DESCRIPTION:
+DTSTART:20270218T110000Z
+DTEND:20270218T110000Z
+SUMMARY:Exam
+END:VEVENT
+END:VCALENDAR

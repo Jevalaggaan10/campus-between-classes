@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//127.0.1.1//NONSGML kigkonsult.se iCalcreator 2.41.92//
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+UID:33616333-3736-4637-a565-643839323461
+X-WR-CALNAME:Computer Architecture (Seminar and Proseminar) Calendar
+X-WR-CALDESC:Events of the lecture Computer Architecture (Seminar and Prose
+ minar)
+X-WR-TIMEZONE:Europe/Berlin
+END:VCALENDAR

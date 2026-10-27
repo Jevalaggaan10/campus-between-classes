@@ -1,0 +1,1283 @@
+
+
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: https://ogp.me/ns#">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        
+<!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
+<title>ExoKit - Human Computer Interaction Lab, Saarland University</title>
+<meta name="description" content="ExoKit is targeted at researchers, hobbyists, and makers with basic electronics and programming skills (e.g., gained through Arduino-based projects)."/>
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://hci.cs.uni-saarland.de/projects/exokit/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="ExoKit - Human Computer Interaction Lab, Saarland University" />
+<meta property="og:description" content="ExoKit is targeted at researchers, hobbyists, and makers with basic electronics and programming skills (e.g., gained through Arduino-based projects)." />
+<meta property="og:url" content="https://hci.cs.uni-saarland.de/projects/exokit/" />
+<meta property="og:site_name" content="Human Computer Interaction Lab, Saarland University" />
+<meta property="og:updated_time" content="2026-10-12T11:09:40+00:00" />
+<meta property="og:image" content="https://hci.cs.uni-saarland.de/wp-content/uploads/people/staff/thumbnail-3.jpg" />
+<meta property="og:image:secure_url" content="https://hci.cs.uni-saarland.de/wp-content/uploads/people/staff/thumbnail-3.jpg" />
+<meta property="og:image:width" content="508" />
+<meta property="og:image:height" content="509" />
+<meta property="og:image:alt" content="ExoKit" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="ExoKit - Human Computer Interaction Lab, Saarland University" />
+<meta name="twitter:description" content="ExoKit is targeted at researchers, hobbyists, and makers with basic electronics and programming skills (e.g., gained through Arduino-based projects)." />
+<meta name="twitter:image" content="https://hci.cs.uni-saarland.de/wp-content/uploads/people/staff/thumbnail-3.jpg" />
+<!-- /Rank Math WordPress SEO plugin -->
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="Human Computer Interaction Lab, Saarland University &raquo; Feed" href="https://hci.cs.uni-saarland.de/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Human Computer Interaction Lab, Saarland University &raquo; Comments Feed" href="https://hci.cs.uni-saarland.de/comments/feed/" />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"wpemoji":"https:\/\/hci.cs.uni-saarland.de\/wp-includes\/js\/wp-emoji.js?ver=6.6.10","twemoji":"https:\/\/hci.cs.uni-saarland.de\/wp-includes\/js\/twemoji.js?ver=6.6.10"}};
+/**
+ * @output wp-includes/js/wp-emoji-loader.js
+ */
+
+/**
+ * Emoji Settings as exported in PHP via _print_emoji_detection_script().
+ * @typedef WPEmojiSettings
+ * @type {object}
+ * @property {?object} source
+ * @property {?string} source.concatemoji
+ * @property {?string} source.twemoji
+ * @property {?string} source.wpemoji
+ * @property {?boolean} DOMReady
+ * @property {?Function} readyCallback
+ */
+
+/**
+ * Support tests.
+ * @typedef SupportTests
+ * @type {object}
+ * @property {?boolean} flag
+ * @property {?boolean} emoji
+ */
+
+/**
+ * IIFE to detect emoji support and load Twemoji if needed.
+ *
+ * @param {Window} window
+ * @param {Document} document
+ * @param {WPEmojiSettings} settings
+ */
+( function wpEmojiLoader( window, document, settings ) {
+	if ( typeof Promise === 'undefined' ) {
+		return;
+	}
+
+	var sessionStorageKey = 'wpEmojiSettingsSupports';
+	var tests = [ 'flag', 'emoji' ];
+
+	/**
+	 * Checks whether the browser supports offloading to a Worker.
+	 *
+	 * @since 6.3.0
+	 *
+	 * @private
+	 *
+	 * @returns {boolean}
+	 */
+	function supportsWorkerOffloading() {
+		return (
+			typeof Worker !== 'undefined' &&
+			typeof OffscreenCanvas !== 'undefined' &&
+			typeof URL !== 'undefined' &&
+			URL.createObjectURL &&
+			typeof Blob !== 'undefined'
+		);
+	}
+
+	/**
+	 * @typedef SessionSupportTests
+	 * @type {object}
+	 * @property {number} timestamp
+	 * @property {SupportTests} supportTests
+	 */
+
+	/**
+	 * Get support tests from session.
+	 *
+	 * @since 6.3.0
+	 *
+	 * @private
+	 *
+	 * @returns {?SupportTests} Support tests, or null if not set or older than 1 week.
+	 */
+	function getSessionSupportTests() {
+		try {
+			/** @type {SessionSupportTests} */
+			var item = JSON.parse(
+				sessionStorage.getItem( sessionStorageKey )
+			);
+			if (
+				typeof item === 'object' &&
+				typeof item.timestamp === 'number' &&
+				new Date().valueOf() < item.timestamp + 604800 && // Note: Number is a week in seconds.
+				typeof item.supportTests === 'object'
+			) {
+				return item.supportTests;
+			}
+		} catch ( e ) {}
+		return null;
+	}
+
+	/**
+	 * Persist the supports in session storage.
+	 *
+	 * @since 6.3.0
+	 *
+	 * @private
+	 *
+	 * @param {SupportTests} supportTests Support tests.
+	 */
+	function setSessionSupportTests( supportTests ) {
+		try {
+			/** @type {SessionSupportTests} */
+			var item = {
+				supportTests: supportTests,
+				timestamp: new Date().valueOf()
+			};
+
+			sessionStorage.setItem(
+				sessionStorageKey,
+				JSON.stringify( item )
+			);
+		} catch ( e ) {}
+	}
+
+	/**
+	 * Checks if two sets of Emoji characters render the same visually.
+	 *
+	 * This function may be serialized to run in a Worker. Therefore, it cannot refer to variables from the containing
+	 * scope. Everything must be passed by parameters.
+	 *
+	 * @since 4.9.0
+	 *
+	 * @private
+	 *
+	 * @param {CanvasRenderingContext2D} context 2D Context.
+	 * @param {string} set1 Set of Emoji to test.
+	 * @param {string} set2 Set of Emoji to test.
+	 *
+	 * @return {boolean} True if the two sets render the same.
+	 */
+	function emojiSetsRenderIdentically( context, set1, set2 ) {
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, context.canvas.width, context.canvas.height );
+		context.fillText( set1, 0, 0 );
+		var rendered1 = new Uint32Array(
+			context.getImageData(
+				0,
+				0,
+				context.canvas.width,
+				context.canvas.height
+			).data
+		);
+
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, context.canvas.width, context.canvas.height );
+		context.fillText( set2, 0, 0 );
+		var rendered2 = new Uint32Array(
+			context.getImageData(
+				0,
+				0,
+				context.canvas.width,
+				context.canvas.height
+			).data
+		);
+
+		return rendered1.every( function ( rendered2Data, index ) {
+			return rendered2Data === rendered2[ index ];
+		} );
+	}
+
+	/**
+	 * Determines if the browser properly renders Emoji that Twemoji can supplement.
+	 *
+	 * This function may be serialized to run in a Worker. Therefore, it cannot refer to variables from the containing
+	 * scope. Everything must be passed by parameters.
+	 *
+	 * @since 4.2.0
+	 *
+	 * @private
+	 *
+	 * @param {CanvasRenderingContext2D} context 2D Context.
+	 * @param {string} type Whether to test for support of "flag" or "emoji".
+	 * @param {Function} emojiSetsRenderIdentically Reference to emojiSetsRenderIdentically function, needed due to minification.
+	 *
+	 * @return {boolean} True if the browser can render emoji, false if it cannot.
+	 */
+	function browserSupportsEmoji( context, type, emojiSetsRenderIdentically ) {
+		var isIdentical;
+
+		switch ( type ) {
+			case 'flag':
+				/*
+				 * Test for Transgender flag compatibility. Added in Unicode 13.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly (white flag emoji + transgender symbol).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					context,
+					'\uD83C\uDFF3\uFE0F\u200D\u26A7\uFE0F', // as a zero-width joiner sequence
+					'\uD83C\uDFF3\uFE0F\u200B\u26A7\uFE0F' // separated by a zero-width space
+				);
+
+				if ( isIdentical ) {
+					return false;
+				}
+
+				/*
+				 * Test for UN flag compatibility. This is the least supported of the letter locale flags,
+				 * so gives us an easy test for full support.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly ([U] + [N]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					context,
+					'\uD83C\uDDFA\uD83C\uDDF3', // as the sequence of two code points
+					'\uD83C\uDDFA\u200B\uD83C\uDDF3' // as the two code points separated by a zero-width space
+				);
+
+				if ( isIdentical ) {
+					return false;
+				}
+
+				/*
+				 * Test for English flag compatibility. England is a country in the United Kingdom, it
+				 * does not have a two letter locale code but rather a five letter sub-division code.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly (black flag emoji + [G] + [B] + [E] + [N] + [G]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					context,
+					// as the flag sequence
+					'\uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62\uDB40\uDC65\uDB40\uDC6E\uDB40\uDC67\uDB40\uDC7F',
+					// with each code point separated by a zero-width space
+					'\uD83C\uDFF4\u200B\uDB40\uDC67\u200B\uDB40\uDC62\u200B\uDB40\uDC65\u200B\uDB40\uDC6E\u200B\uDB40\uDC67\u200B\uDB40\uDC7F'
+				);
+
+				return ! isIdentical;
+			case 'emoji':
+				/*
+				 * Four and twenty blackbirds baked in a pie.
+				 *
+				 * To test for Emoji 15.0 support, try to render a new emoji: Blackbird.
+				 *
+				 * The Blackbird is a ZWJ sequence combining 🐦 Bird and ⬛ large black square.,
+				 *
+				 * 0x1F426 (\uD83D\uDC26) == Bird
+				 * 0x200D == Zero-Width Joiner (ZWJ) that links the code points for the new emoji or
+				 * 0x200B == Zero-Width Space (ZWS) that is rendered for clients not supporting the new emoji.
+				 * 0x2B1B == Large Black Square
+				 *
+				 * When updating this test for future Emoji releases, ensure that individual emoji that make up the
+				 * sequence come from older emoji standards.
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					context,
+					'\uD83D\uDC26\u200D\u2B1B', // as the zero-width joiner sequence
+					'\uD83D\uDC26\u200B\u2B1B' // separated by a zero-width space
+				);
+
+				return ! isIdentical;
+		}
+
+		return false;
+	}
+
+	/**
+	 * Checks emoji support tests.
+	 *
+	 * This function may be serialized to run in a Worker. Therefore, it cannot refer to variables from the containing
+	 * scope. Everything must be passed by parameters.
+	 *
+	 * @since 6.3.0
+	 *
+	 * @private
+	 *
+	 * @param {string[]} tests Tests.
+	 * @param {Function} browserSupportsEmoji Reference to browserSupportsEmoji function, needed due to minification.
+	 * @param {Function} emojiSetsRenderIdentically Reference to emojiSetsRenderIdentically function, needed due to minification.
+	 *
+	 * @return {SupportTests} Support tests.
+	 */
+	function testEmojiSupports( tests, browserSupportsEmoji, emojiSetsRenderIdentically ) {
+		var canvas;
+		if (
+			typeof WorkerGlobalScope !== 'undefined' &&
+			self instanceof WorkerGlobalScope
+		) {
+			canvas = new OffscreenCanvas( 300, 150 ); // Dimensions are default for HTMLCanvasElement.
+		} else {
+			canvas = document.createElement( 'canvas' );
+		}
+
+		var context = canvas.getContext( '2d', { willReadFrequently: true } );
+
+		/*
+		 * Chrome on OS X added native emoji rendering in M41. Unfortunately,
+		 * it doesn't work when the font is bolder than 500 weight. So, we
+		 * check for bold rendering support to avoid invisible emoji in Chrome.
+		 */
+		context.textBaseline = 'top';
+		context.font = '600 32px Arial';
+
+		var supports = {};
+		tests.forEach( function ( test ) {
+			supports[ test ] = browserSupportsEmoji( context, test, emojiSetsRenderIdentically );
+		} );
+		return supports;
+	}
+
+	/**
+	 * Adds a script to the head of the document.
+	 *
+	 * @ignore
+	 *
+	 * @since 4.2.0
+	 *
+	 * @param {string} src The url where the script is located.
+	 *
+	 * @return {void}
+	 */
+	function addScript( src ) {
+		var script = document.createElement( 'script' );
+		script.src = src;
+		script.defer = true;
+		document.head.appendChild( script );
+	}
+
+	settings.supports = {
+		everything: true,
+		everythingExceptFlag: true
+	};
+
+	// Create a promise for DOMContentLoaded since the worker logic may finish after the event has fired.
+	var domReadyPromise = new Promise( function ( resolve ) {
+		document.addEventListener( 'DOMContentLoaded', resolve, {
+			once: true
+		} );
+	} );
+
+	// Obtain the emoji support from the browser, asynchronously when possible.
+	new Promise( function ( resolve ) {
+		var supportTests = getSessionSupportTests();
+		if ( supportTests ) {
+			resolve( supportTests );
+			return;
+		}
+
+		if ( supportsWorkerOffloading() ) {
+			try {
+				// Note that the functions are being passed as arguments due to minification.
+				var workerScript =
+					'postMessage(' +
+					testEmojiSupports.toString() +
+					'(' +
+					[
+						JSON.stringify( tests ),
+						browserSupportsEmoji.toString(),
+						emojiSetsRenderIdentically.toString()
+					].join( ',' ) +
+					'));';
+				var blob = new Blob( [ workerScript ], {
+					type: 'text/javascript'
+				} );
+				var worker = new Worker( URL.createObjectURL( blob ), { name: 'wpTestEmojiSupports' } );
+				worker.onmessage = function ( event ) {
+					supportTests = event.data;
+					setSessionSupportTests( supportTests );
+					worker.terminate();
+					resolve( supportTests );
+				};
+				return;
+			} catch ( e ) {}
+		}
+
+		supportTests = testEmojiSupports( tests, browserSupportsEmoji, emojiSetsRenderIdentically );
+		setSessionSupportTests( supportTests );
+		resolve( supportTests );
+	} )
+		// Once the browser emoji support has been obtained from the session, finalize the settings.
+		.then( function ( supportTests ) {
+			/*
+			 * Tests the browser support for flag emojis and other emojis, and adjusts the
+			 * support settings accordingly.
+			 */
+			for ( var test in supportTests ) {
+				settings.supports[ test ] = supportTests[ test ];
+
+				settings.supports.everything =
+					settings.supports.everything && settings.supports[ test ];
+
+				if ( 'flag' !== test ) {
+					settings.supports.everythingExceptFlag =
+						settings.supports.everythingExceptFlag &&
+						settings.supports[ test ];
+				}
+			}
+
+			settings.supports.everythingExceptFlag =
+				settings.supports.everythingExceptFlag &&
+				! settings.supports.flag;
+
+			// Sets DOMReady to false and assigns a ready function to settings.
+			settings.DOMReady = false;
+			settings.readyCallback = function () {
+				settings.DOMReady = true;
+			};
+		} )
+		.then( function () {
+			return domReadyPromise;
+		} )
+		.then( function () {
+			// When the browser can not render everything we need to load a polyfill.
+			if ( ! settings.supports.everything ) {
+				settings.readyCallback();
+
+				var src = settings.source || {};
+
+				if ( src.concatemoji ) {
+					addScript( src.concatemoji );
+				} else if ( src.wpemoji && src.twemoji ) {
+					addScript( src.twemoji );
+					addScript( src.wpemoji );
+				}
+			}
+		} );
+} )( window, document, window._wpemojiSettings );
+
+/* ]]> */
+</script>
+<style type="text/css">.pt_splitter {
+	display: block;
+}</style><link rel='stylesheet' id='gsprojects-fa-icons-css' href='https://hci.cs.uni-saarland.de/wp-content/plugins/gs-projects-pro/gsprojects-files/assets/fa-icons/css/font-awesome.min.css?ver=2.1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='gsprojects-mfp-css-css' href='https://hci.cs.uni-saarland.de/wp-content/plugins/gs-projects-pro/gsprojects-files/assets/css/magnific-popup.css?ver=2.1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='gsprojects-custom-bootstrap-css' href='https://hci.cs.uni-saarland.de/wp-content/plugins/gs-projects-pro/gsprojects-files/assets/css/gs-projects-custom-bootstrap.css?ver=2.1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='gsprojects-owl-def-style-css' href='https://hci.cs.uni-saarland.de/wp-content/plugins/gs-projects-pro/gsprojects-files/assets/css/owl.theme.default.css?ver=2.1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='gsprojects-owl-caro-style-css' href='https://hci.cs.uni-saarland.de/wp-content/plugins/gs-projects-pro/gsprojects-files/assets/css/owl.carousel.css?ver=2.1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='gsprojects-nivo-style-css' href='https://hci.cs.uni-saarland.de/wp-content/plugins/gs-projects-pro/gsprojects-files/assets/css/nivo-slider.css?ver=2.1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='gs_projects_csutom_css-css' href='https://hci.cs.uni-saarland.de/wp-content/plugins/gs-projects-pro/gsprojects-files/assets/css/gs-projects-custom.css?ver=2.1.5' type='text/css' media='all' />
+<style id='cf-frontend-style-inline-css' type='text/css'>
+@font-face {
+	font-family: 'Helvetica Neue';
+	font-style: normal;
+	font-weight: 400;
+}
+@font-face {
+	font-family: 'HCI_Lab_Font';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('https://hci.cs.uni-saarland.de/wp-content/uploads/people/staff/V_custom.ttf') format('truetype');
+}
+</style>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://hci.cs.uni-saarland.de/wp-includes/css/dist/block-library/style.css?ver=6.6.10' type='text/css' media='all' />
+<style id='rank-math-toc-block-style-inline-css' type='text/css'>
+.wp-block-rank-math-toc-block nav ol{counter-reset:item}.wp-block-rank-math-toc-block nav ol li{display:block}.wp-block-rank-math-toc-block nav ol li:before{content:counters(item, ".") ". ";counter-increment:item}
+
+</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/**
+ * These rules are needed for backwards compatibility.
+ * They should match the button element rules in the base theme.json file.
+ */
+.wp-block-button__link {
+	color: #ffffff;
+	background-color: #32373c;
+	border-radius: 9999px; /* 100% causes an oval, but any explicit but really high value retains the pill shape. */
+
+	/* This needs a low specificity so it won't override the rules from the button element if defined in theme.json. */
+	box-shadow: none;
+	text-decoration: none;
+
+	/* The extra 2px are added to size solids the same as the outline versions.*/
+	padding: calc(0.667em + 2px) calc(1.333em + 2px);
+
+	font-size: 1.125em;
+}
+
+.wp-block-file__button {
+	background: #32373c;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='dashicons-css' href='https://hci.cs.uni-saarland.de/wp-includes/css/dashicons.css?ver=6.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='bg-shce-genericons-css' href='https://hci.cs.uni-saarland.de/wp-content/plugins/show-hidecollapse-expand/assets/css/genericons/genericons.css?ver=6.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='bg-show-hide-css' href='https://hci.cs.uni-saarland.de/wp-content/plugins/show-hidecollapse-expand/assets/css/bg-show-hide.css?ver=6.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='sp-news-public-css' href='https://hci.cs.uni-saarland.de/wp-content/plugins/sp-news-and-widget/assets/css/wpnw-public.css?ver=5.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='extp-google-fonts-css' href='//fonts.googleapis.com/css?family=Source+Sans+Pro%7CSource+Sans+Pro&#038;ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='animate-css-css' href='https://hci.cs.uni-saarland.de/wp-content/themes/vega/assets/css/animate.css?ver=6.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='chld_thm_cfg_parent-css' href='https://hci.cs.uni-saarland.de/wp-content/themes/vega/style.css?ver=6.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='vega-wp-googlefont1-css' href='//fonts.googleapis.com/css?family=Lato%3A400%2C400i%2C700%2C700i%2C900%2C900i&#038;subset=latin-ext&#038;ver=6.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css' href='https://hci.cs.uni-saarland.de/wp-content/themes/vega/assets/css/bootstrap.min.css?ver=6.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css' href='https://hci.cs.uni-saarland.de/wp-content/themes/vega/assets/css/font-awesome.min.css?ver=6.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-social-css' href='https://hci.cs.uni-saarland.de/wp-content/themes/vega/assets/css/bootstrap-social.css?ver=6.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='vega-wp-style-css' href='https://hci.cs.uni-saarland.de/wp-content/themes/vega-child/style.css?ver=3.0.0.1579100171' type='text/css' media='all' />
+<link rel='stylesheet' id='vega-wp-color-css' href='https://hci.cs.uni-saarland.de/wp-content/themes/vega/color-schemes/blue.css?ver=6.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='extp-font-awesome-css' href='https://hci.cs.uni-saarland.de/wp-content/plugins/teampress/css/font-awesome/css/fontawesome-all.min.css?ver=6.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='extp-lightbox-css' href='https://hci.cs.uni-saarland.de/wp-content/plugins/teampress/css/glightbox.css?ver=6.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='extp-teampress-css' href='https://hci.cs.uni-saarland.de/wp-content/plugins/teampress/css/style.css?ver=6.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='extp-teampress-imghover-css' href='https://hci.cs.uni-saarland.de/wp-content/plugins/teampress/css/imghover-style.css?ver=6.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='extp-teampress-list-css' href='https://hci.cs.uni-saarland.de/wp-content/plugins/teampress/css/style-list.css?ver=6.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='extp-teampress-tablecss-css' href='https://hci.cs.uni-saarland.de/wp-content/plugins/teampress/css/style-table.css?ver=6.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='extp-teampress-expand-css' href='https://hci.cs.uni-saarland.de/wp-content/plugins/teampress/css/collapse.css?ver=6.6.10' type='text/css' media='all' />
+<link rel='stylesheet' id='extp-teampress-modal-css' href='https://hci.cs.uni-saarland.de/wp-content/plugins/teampress/css/modal.css?ver=6.6.10' type='text/css' media='all' />
+<script type="text/javascript" src="https://hci.cs.uni-saarland.de/wp-includes/js/jquery/jquery.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://hci.cs.uni-saarland.de/wp-includes/js/jquery/jquery-migrate.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://hci.cs.uni-saarland.de/wp-content/plugins/teampress/js/teampress.js?ver=1.0" id="extp-teampress-js"></script>
+<link rel="https://api.w.org/" href="https://hci.cs.uni-saarland.de/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://hci.cs.uni-saarland.de/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.6.10" />
+<link rel='shortlink' href='https://hci.cs.uni-saarland.de/?p=3523' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://hci.cs.uni-saarland.de/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhci.cs.uni-saarland.de%2Fprojects%2Fexokit%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://hci.cs.uni-saarland.de/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhci.cs.uni-saarland.de%2Fprojects%2Fexokit%2F&#038;format=xml" />
+    <style>
+        .gs-project-name,
+        .gs_project_theme1_html .gs-project-name,
+        .gs_project_theme1 .gs-project-name,
+        .gs_project_theme2 .gs-project-name,
+        .gs_project_theme3 .gs-project-name,
+        .gs_project_theme4 .gs-project-name,
+        .gs_project_theme5 .gs-project-name,
+        .gs_project_theme6 .gs-project-name,
+        .gs_project_theme7 .gs-project-name,
+        .gs_project_theme8 .gs-project-name,
+        .gs_project_theme9 .gs-project-name,
+        .gs_tm_theme2 .gs-project-name,
+        .gs_tm_theme3 .gs-project-name,
+        .gs_tm_theme4 .gs-project-name,
+        .gs_tm_theme5 .gs-project-name,
+        .gs_tm_theme6 .gs-project-name,
+        .gs_tm_theme7 .gs-project-name,
+        .gs_tm_theme10 .gs-project-name,
+        .gs_projects_popup_details .gs-project-name,
+        .single-gs_projects .gs-sin-project-name,
+        .gs-archive-container .gs-arc-project-name {
+            font-size: 18px;
+            font-weight: normal;
+            font-style: normal;
+            color: #fcbf00;
+            text-transform: capitalize;
+        }
+
+        .project-label {
+            font-size: 18px;
+            color: #000000;
+        }
+        .gs_project_theme8 .single-project .gs_projects_overlay i,
+        .gs_project_theme9 .single-project .gs_projects_overlay i,
+        .gs_project_theme11 .single-project .gs_projects_overlay i {
+            background-color: #2148d2;
+            border: 1px solid #2148d2;
+        }
+        .mfp-arrow:hover, .mfp-close:hover,
+        button.mfp-arrow:hover, button.mfp-arrow:active, button.mfp-arrow:focus {
+            background-color: #2148d2;
+        }
+
+    </style>
+    
+<!-- teachPress -->
+<script type="text/javascript" src="https://hci.cs.uni-saarland.de/wp-content/plugins/teachpress/js/frontend.js?ver=9.0.6"></script>
+<link type="text/css" href="https://hci.cs.uni-saarland.de/wp-content/plugins/teachpress/styles/teachpress_front.css?ver=9.0.6" rel="stylesheet" />
+<!-- END teachPress -->
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+        <style> .frontpage-banner.frontpage-banner-parallax-bg:before { width: 100%; height: 100%; background-color: #000000; opacity: 0.35; content: ""; position: absolute; left: 0; top: 0; z-index: 2; } .frontpage-simple-banner:before { width: 100%; height: 100%; background-color: #000000; opacity: 0.35; content: ""; position: absolute; left: 0; top: 0; z-index: 2; } </style>
+        
+    <style>.frontpage-cta1.parallax-bg:before, .frontpage-cta1.image-bg:before {background-color:#000000} .frontpage-cta1.color-bg{background-color:#000000} </style>
+    
+    <style>.frontpage-cta2.parallax-bg:before, .frontpage-cta2.image-bg:before {background-color:#000000} .frontpage-cta2.color-bg{background-color:#000000} </style>
+    <link rel="icon" href="https://hci.cs.uni-saarland.de/wp-content/uploads/2019/06/cropped-LogoHCI_rgb2-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://hci.cs.uni-saarland.de/wp-content/uploads/2019/06/cropped-LogoHCI_rgb2-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://hci.cs.uni-saarland.de/wp-content/uploads/2019/06/cropped-LogoHCI_rgb2-180x180.png" />
+<meta name="msapplication-TileImage" content="https://hci.cs.uni-saarland.de/wp-content/uploads/2019/06/cropped-LogoHCI_rgb2-270x270.png" />
+<style type="text/css">    .ex-tplist span.search-btsm .tp-search-submit,
+    .extp-pagination .page-navi .page-numbers.current,
+    .ex-loadmore .loadmore-exbt span:not(.load-text),
+    .ex-social-account li a:hover,
+    .ex-tplist.style-3 .tpstyle-3 .tpstyle-3-rib,
+    .tpstyle-3 .ex-social-account li a,
+    figure.tpstyle-7,
+    .tpstyle-8 .tpstyle-8-position,
+    .tpstyle-9 .ex-social-account,
+    figure.tpstyle-17 p:after,
+    figure.tpstyle-17 .ex-social-account,
+    figure.tpstyle-19,
+    .ex-table-1 th,
+    .ex-table-1 th,
+    figure.tpstyle-img-1 .ex-social-account li a:hover,
+    figure.tpstyle-img-7 .ex-social-account li a:hover,
+    figure.tpstyle-20-blue h3, figure.tpstyle-20-blue:before, figure.tpstyle-20-blue:after,
+    figure.tpstyle-img-5 h5, figure.tpstyle-img-6 h5,
+    figure.tpstyle-img-9 h3,
+    .ex-tplist .ex-hidden .ex-social-account li a:hover,
+    .extp-mdbutton > div:hover,
+    .exteam-lb .ex-social-account li a:hover,
+    .ex-loadmore .loadmore-exbt:hover{background:#1a507c;}
+    .etp-alphab ul li a.current,
+    .ex-tplist .exp-expand .exp-expand-des h3 a,
+    .tpstyle-11 h3 span,
+    figure.tpstyle-19 h5,
+    .ex-tplist .tpstyle-list-3 h5,
+    .ex-tplist .tpstyle-img-10 h5, .ex-tplist .tpstyle-img-3 h5, .ex-tplist .tpstyle-img-2 h5,.ex-tplist .tpstyle-img-7 h3,
+    figure.tpstyle-img-8 > i,
+    .exteam-lb .gslide-description.description-right h3 a,
+    .ex-tplist .ex-hidden .exp-modal-info h3 a,
+    .extp-member-single .member-info h3,
+    .ex-loadmore .loadmore-exbt,
+        .ex-tplist:not(.style-3):not(.style-7):not(.style-11):not(.style-17):not(.style-19):not(.style-20):not(.style-img-2):not(.style-img-3):not(.style-img-4):not(.style-img-5):not(.style-img-6):not(.style-img-7):not(.style-img-9):not(.style-img-10):not(.list-style-3) h3 a{ color:#1a507c;}
+    .etp-alphab ul li a.current,
+    .ex-loadmore .loadmore-exbt,
+    .tpstyle-4 .tpstyle-4-image,
+    figure.tpstyle-17 p:after,
+    figure.tpstyle-19 .tpstyle-19-image,
+    .tpstyle-list-3,
+    .ex-table-2,
+    .tpstyle-img-4 h3 a,
+    .ex-tplist .ex-hidden .ex-social-account li a:hover,
+    .extp-mdbutton > div:hover,
+    .exteam-lb .ex-social-account li a:hover,
+    .ex-tplist span.search-btsm .tp-search-submit, .extp-pagination .page-navi .page-numbers.current{ border-color:#1a507c}
+    figure.tpstyle-19 .tpstyle-19-image:before{  border-top-color:#1a507c}
+    .tpstyle-9 .tpstyle-9-position{background:rgba(26,80,124,.7)}
+    .extp-loadicon, .extp-loadicon::before, .extp-loadicon::after{  border-left-color:#1a507c}
+        .ex-tplist,
+    .extp-member-single .member-desc,
+    .ex-tplist .exp-expand p,
+    div#glightbox-body.exteam-lb,
+    .exteam-lb{font-family: "Source Sans Pro", sans-serif;}
+    	.ex-tplist h3 a,
+    .ex-tplist .ex-hidden .exp-modal-info h3 a,
+    .extp-member-single .member-info h3,
+    .exteam-lb .gslide-description.description-right h3{
+        font-family: "", sans-serif;
+    }
+		.ex-tplist .exp-expand .exp-expand-meta h5,
+    .ex-tplist .ex-hidden .exp-modal-info h5,
+    .exteam-lb .gslide-description.description-right h5,
+    .extp-member-single .mb-meta,
+    .ex-tplist h5{
+        font-family: "", sans-serif;
+    }
+	.extp-member-single {
+	background: none;
+	box-shadow: none;
+	padding: none;
+}
+
+.extp-member-single .member-img {
+	padding: 30px;
+	width: 40%;
+}
+
+.extp-member-single .member-desc {
+	padding-left: 0;
+	width: 60%;
+}
+
+.extp-member-single .member-img .member-info {
+	text-align: left;
+}
+
+.extp-member-single .mb-meta {
+	display: block;
+	line-height: inherit;
+	border-right: none;
+}</style>		<style type="text/css" id="wp-custom-css">
+			.abc:visited {
+  color: white;
+	position:absolute
+	right:0px
+}
+
+div[id^="bg-showmore-hidden"] {
+    padding-top: unset;
+}
+
+div[id^="bg-showmore-hidden"] > p:first-child {
+    display: none;
+}
+
+div[id^="bg-showmore-hidden"] > p:last-child {
+    margin-bottom: 48px;
+}
+
+.credit{
+	display: none;
+}
+
+.footer{
+	background: #707070;
+padding: 12px;
+}
+
+.hci-footer {
+	align-items: center;
+	max-width: 1250px; 
+	margin-inline: auto;
+}
+
+div.footer > div.container > div.row > div.col-md-8 {
+	display: none;
+}
+
+div.footer > div.container > div.row > div.col-md-4 {
+	flex: 0 0 100%;
+	max-width: 100%
+}
+
+.copyright {
+	text-align: inherit
+}
+
+#footer{
+   position: absolute;
+   
+}
+
+a.footer-data-protection{
+	position:absolute
+	right:-300px
+	left:absolute	
+}
+
+#alumni .exp-arrow img {
+	filter: grayscale(100%);
+}
+
+.page-content {
+	overflow: hidden;
+}
+
+#back_to_top a {
+	right: 5px;
+}		</style>
+		</head>
+<body class="gs_projects-template-default single single-gs_projects postid-3523 wp-custom-logo body_padding">
+    
+    
+    <!-- ========== Navbar ========== -->
+    <div class="nav-wrapper">
+    <div class="navbar navbar-custom navbar-expand-lg  navbar-fixed-top" role="navigation">
+        <div class="container">
+
+            <!-- Logo -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+                <a class="navbar-brand image-logo" href="https://hci.cs.uni-saarland.de/"><img src="https://hci.cs.uni-saarland.de/wp-content/uploads/design_images/HCI_Logo_final2.png" alt="Human Computer Interaction Lab, Saarland University" /></a>
+
+
+            </div>
+            <!-- /Logo -->
+
+                        <!-- Navigation -->
+            <div class="navbar-collapse collapse justify-content-end"><ul id="menu-hci-header-menu" class="nav navbar-nav menu-header navbar-right sm"><li id="menu-item-1194" class="people-nav menu-item menu-item-type-post_type menu-item-object-page menu-item-1194 nav-item"><a href="https://hci.cs.uni-saarland.de/team/">People</a></li>
+<li id="menu-item-1196" class="research-nav menu-item menu-item-type-post_type menu-item-object-page menu-item-1196 nav-item"><a href="https://hci.cs.uni-saarland.de/research/">Research</a></li>
+<li id="menu-item-1197" class="teaching-nav menu-item menu-item-type-post_type menu-item-object-page menu-item-1197 nav-item"><a href="https://hci.cs.uni-saarland.de/teaching/">Teaching</a></li>
+<li id="menu-item-1198" class="theses-nav menu-item menu-item-type-post_type menu-item-object-page menu-item-1198 nav-item"><a href="https://hci.cs.uni-saarland.de/theses/">Theses</a></li>
+<li id="menu-item-1195" class="publications-nav menu-item menu-item-type-post_type menu-item-object-page menu-item-1195 nav-item"><a href="https://hci.cs.uni-saarland.de/publications/">Publications</a></li>
+<li id="menu-item-1193" class="job-nav menu-item menu-item-type-post_type menu-item-object-page menu-item-1193 nav-item"><a href="https://hci.cs.uni-saarland.de/jobs/">Jobs</a></li>
+<li id="menu-item-1192" class="contact-nav menu-item menu-item-type-post_type menu-item-object-page menu-item-1192 nav-item"><a href="https://hci.cs.uni-saarland.de/contact/">Contact</a></li>
+</ul></div>            <!-- /Navigation -->
+            
+
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    </div>
+    <!-- ========== /Navbar ========== -->
+
+<div class="container gs-single-container">
+    <h1 class="single-proj-tit">ExoKit</h1>
+
+    <div class="row cclearfix gs_projects" id="gs_projects_single">
+                
+        <div class="col-md-8 col-sm-8 col-xs-12 sin-proj-img">
+            <img width="508" height="509" src="https://hci.cs.uni-saarland.de/wp-content/uploads/people/staff/thumbnail-3.jpg" class="project-single-image wp-post-image" alt="" decoding="async" fetchpriority="high" srcset="https://hci.cs.uni-saarland.de/wp-content/uploads/people/staff/thumbnail-3.jpg 508w, https://hci.cs.uni-saarland.de/wp-content/uploads/people/staff/thumbnail-3-300x300.jpg 300w, https://hci.cs.uni-saarland.de/wp-content/uploads/people/staff/thumbnail-3-150x150.jpg 150w" sizes="(max-width: 508px) 100vw, 508px" />        </div><!-- end col -->
+
+        <div class="col-md-4 col-sm-4 col-xs-12 sin-proj-details">
+            <div class="proj-details">Project Details</div>
+                                        <div class="project-label">Project Name : </div>
+                <p class="gs-project-name">ExoKit</p>
+                        
+             
+                        <div class="gs-proj-in-grp" >
+                            <span class="project-label">Project Category : </span>
+                            <p class="gs-project-grp">02Body Interaction, Featured Project, marie, Steimle</p>
+                        </div> 
+                                
+            
+            
+                          <div class="gs-project-review" >
+                <span class="project-label">Client Review : </span>
+                <p class="gs-proj-creview">(CHI 2024)</p>
+              </div>
+            
+
+            
+        </div> <!-- end col -->
+
+        <div class="col-md-12 col-sm-12 col-xs-12">
+                          <span class="project-label">Description : </span>
+              <h3 id="head-title-sing-pro"><span class="red"></span><span id="pro-main-title">ExoKit:<br />
+A Toolkit for Rapid Prototyping of Interactions for Arm-based Exoskeletons</span></h3>
+<div id="secondskin">
+<p><img decoding="async" src="/wp-content/uploads/projects/human_robot_interaction/exokit/teaserV5.pdf" alt="" /><br />
+Exoskeletons open up a unique interaction space that seamlessly integrates users&#8217; body movements with robotic actuation. Despite its potential, human-exoskeleton interaction remains an underexplored area in HCI, largely due to the lack of accessible prototyping tools that enable designers to easily develop exoskeleton designs and customized interactive behaviors. We present ExoKit, a do-it-yourself toolkit for rapid prototyping of low-fidelity, functional exoskeletons targeted at novice roboticists. ExoKit includes modular hardware components for sensing and actuating shoulder and elbow joints, which are easy to fabricate and (re)configure for customized functionality and wearability. To simplify the programming of interactive behaviors, we propose functional abstractions that encapsulate high-level human-exoskeleton interactions. These can be readily accessed either through ExoKit&#8217;s command-line or graphical user interface, a Processing library, or microcontroller firmware, each targeted at different experience levels. Findings from implemented application cases and two usage studies demonstrate the versatility and accessibility of ExoKit for early-stage interaction design.</p>
+<p>ExoKit is targeted at researchers, hobbyists, and makers with basic electronics and programming skills (e.g., gained through Arduino-based projects). Expertise with robotics, including their design and control, is not necessarily required.</p>
+<p><strong>ExoKit specifically supports users in the early stages of prototyping to creatively explore diverse ideas.</strong></p>
+<p><video width="850" class="center" controls loop muted><source src="/wp-content/uploads/projects/human_robot_interaction/exokit/applications.mp4" type="video/mp4"></video></p>
+<p>Once a promising interaction concept is identified, users can transition to higher-fidelity hardware and software solutions.</p>
+<p>&nbsp;</p>
+<h3>Modular Hardware</h3>
+<p>ExoKit&#8217;s hardware components realize a low-fidelity exoskeleton prototype that can actuate one or two arms, with up to two active degrees-of-freedom (DoF) at the shoulder and one active DoF at the elbow. To tailor the prototype to the needs of diverse applications, the toolkit offers modular hardware components, which allow for hands-on reconfigurability of the exoskeleton&#8217;s functionality, enable adjusting the size to accommodate various body sizes, and deploy important safety mechanisms.</p>
+<p><img decoding="async"  style="width:95%;height:auto;" src="/wp-content/uploads/projects/human_robot_interaction/exokit/exo_configurations.pdf" alt=""/></p>
+<p>&nbsp;</p>
+<h3>Software Support</h3>
+<p>ExoKit&#8217;s programming interfaces provide functional abstractions which free the novice roboticist from detailed low-level motion control.Exoit&#8217;s pre-implemented functions can be used off-the-shelf for rapid experimentation and ideation. Amongst others, these comprise functions that interactively amplify or resist user motion, modulate the style of a motion, transfer motion from one exoskeleton to another, or guide the user&#8217;s motion through real-time haptic feedback. </p>
+<p><img decoding="async" style="width:800px;height:auto;" src="/wp-content/uploads/projects/human_robot_interaction/exokit/interfaces.pdf" alt=""/></p>
+<p>&nbsp;</p>
+<h3>Open-source</h3>
+<p>All components of the toolkit, including the 3d models, code and user manual are available for download on <a href="https://github.com/HCI-Lab-Saarland/ExoKit" target="_blank" rel="noopener">Github</a>.<br />
+It can only be used for scientific and/or non-commercial purposes.</p>
+<p>For contact, please reach <a href="mailto:muehlhaus@cs.uni-saarland.de">muehlhaus(at)cs.uni-saarland.de</a>.</p>
+<h3 id="head-title-sing-pro"><span class="red"></span><span id="pro-main-title">Video</span></h3>
+<p><iframe title="YouTube video player" src="/wp-content/uploads/projects/human_robot_interaction/exokit/exokit_fullvideo.mp4" width="800" height="460" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>&nbsp;</p>
+<h3 id="head-title-sing-pro"><span class="red"></span><span id="pro-main-title">Coverage</span></h3>
+<table style="height: 120;" width="500">
+<tbody>
+<tr>
+<td><a href="https://blog.arduino.cc/2025/05/09/exokit-is-a-novice-friendly-foundation-for-building-powered-exoskeletons/?queryID=undefined" target="_blank" rel="noopener noreferrer"><img decoding="async" class="aligncenter wp-image-1001" src="/wp-content/uploads/projects/digital_fabrication_technologies/multi-touch_kit/arduino_logo.png" alt="" width="29" height="18" /></a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h3 id="head-title-sing-pro"><span class="red"></span><span id="pro-main-title">Publication</span></h3>
+<div id="pub_item_authors">Marie Muehlhaus, Alexander Liggesmeyer, Jürgen Steimle</div>
+<div id="pub_item_title"><a style="color: #e4003f;" href="/wp-content/uploads/projects/human_robot_interaction/exokit/muehlhaus_chi25_exokit.pdf">ExoKit: A Toolkit for Rapid Prototyping of Interactions for Arm-based Exoskeletons</a></div>
+<div id="pub_item_venue">Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems, ACM, Yokohama, Japan, Forthcoming.</div>
+<p><a id="pub_item_links" href="/wp-content/uploads/projects/human_robot_interaction/exokit/muehlhaus_chi25_exokit.pdf"><br />
+[Pdf]</a><a id="pub_item_links" href="https://doi.org/10.1145/3706598.3713815" target="_blank" rel="noopener"><br />
+[Publisher]</a></p>
+<p>&nbsp;</p>
+</div>
+
+                    </div>
+
+        
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="prev-next-navigation">
+                                <div class="next"><a href="https://hci.cs.uni-saarland.de/projects/papervideo/" rel="next">PaperVideo</a></div>            </div>
+        </div>
+
+    </div> <!-- end row -->
+</div> <!-- end container -->
+
+
+
+
+<!-- ========== Footer Nav and Copyright ========== -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                                
+                                <!-- Navigation -->
+                                <!-- /Navigation -->
+                                
+            </div>
+            <div class="col-md-4">
+                <!-- Copyright and Credits -->
+                                                <div class="copyright"><div class="row items-center hci-footer">
+  <div class="col-12 col-sm-4">
+  <img src="https://hci.cs.uni-saarland.de/wp-content/uploads/people/staff/uds_sic_log_combined.png" />
+
+ </div>
+
+<div class="col-6 col-sm-4 text-center">
+<div> <br />Saarland University<br />
+Human Computer Interaction Lab <br />
+Department of Computer Science <br />
+Campus E 1.7 <br />
+66123 Saarbrücken<br />
+Germany </div>
+</div>
+
+  <div class="col-6 col-sm-4 text-right">
+<a id="imprint" href="https://www.uni-saarland.de/impressum.html" target="_blank"><br />IMPRINT </a>
+<br />
+<a id="dataProtection" href="https://saarland-informatics-campus.de/wp-content/uploads/Datenschutzerkla%CC%88rung-10.pdf" target="_blank">DATA PROTECTION</a><br /><br />
+
+<a href="https://www.linkedin.com/company/saarhcilab/" target="_blank"><i class="fab fa-linkedin"></i> /saarhcilab</a><br />
+    <a href="https://www.youtube.com/@EmbodiedInteraction" target="_blank"><i class="fab fa-youtube"></i> /@EmbodiedInteraction</a>
+  </div>
+</div><br /><span class="credit">Vega Wordpress Theme by <a target="_blank" href="https://www.lyrathemes.com">LyraThemes</a></span></div>
+                <!-- /Copyright and Credits -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ========== /Footer Nav and Copyright ========== -->
+
+<!-- Back to Top -->
+<div id="back_to_top">
+    <div class="container">
+        <a href="#"><i class="fa fa-chevron-up"></i></a>
+    </div>
+</div>
+<!-- /Back to Top -->
+
+
+<script type="text/javascript">
+// To remove the href(nourl) from the profiles except Staff
+  if ( undefined !== window.jQuery ) {
+	jQuery( document ).ready(function() {
+		jQuery( ".exp-arrow  a" ).each(function( index) {
+
+	var href = this.href;
+	if( href == 'http://nourl/'){
+	jQuery(this).removeAttr('href');
+	}
+	});
+	});
+  }
+</script>
+<link rel='stylesheet' id='academicons-css' href='https://hci.cs.uni-saarland.de/wp-content/plugins/teachpress/includes/academicons/css/academicons.min.css?ver=6.6.10' type='text/css' media='all' />
+<style id='core-block-supports-inline-css' type='text/css'>
+/**
+ * Core styles: block-supports
+ */
+
+</style>
+<script type="text/javascript" src="https://hci.cs.uni-saarland.de/wp-content/plugins/gs-projects-pro/gsprojects-files/assets/js/jquery.magnific-popup.min.js?ver=2.1.5" id="gsprojects-mfp-js-js"></script>
+<script type="text/javascript" src="https://hci.cs.uni-saarland.de/wp-content/plugins/gs-projects-pro/gsprojects-files/assets/js/owl.carousel.min.js?ver=2.1.5" id="gsprojects-owl-caro-js-js"></script>
+<script type="text/javascript" src="https://hci.cs.uni-saarland.de/wp-content/plugins/gs-projects-pro/gsprojects-files/assets/js/jquery.nivo.slider.js?ver=2.1.5" id="gsprojects-nivo-js-js"></script>
+<script type="text/javascript" src="https://hci.cs.uni-saarland.de/wp-content/plugins/gs-projects-pro/gsprojects-files/assets/js/isotope.pkgd.min.js?ver=2.1.5" id="gsprojects-iso-js-js"></script>
+<script type="text/javascript" src="https://hci.cs.uni-saarland.de/wp-content/plugins/gs-projects-pro/gsprojects-files/assets/js/gs-projects.custom.js?ver=2.1.5" id="gsprojects-custom-js-js"></script>
+<script type="text/javascript" src="https://hci.cs.uni-saarland.de/wp-includes/js/jquery/ui/effect.js?ver=1.13.3" id="jquery-effects-core-js"></script>
+<script type="text/javascript" src="https://hci.cs.uni-saarland.de/wp-includes/js/jquery/ui/effect-slide.js?ver=1.13.3" id="jquery-effects-slide-js"></script>
+<script type="text/javascript" src="https://hci.cs.uni-saarland.de/wp-includes/js/jquery/ui/effect-highlight.js?ver=1.13.3" id="jquery-effects-highlight-js"></script>
+<script type="text/javascript" src="https://hci.cs.uni-saarland.de/wp-includes/js/jquery/ui/effect-fold.js?ver=1.13.3" id="jquery-effects-fold-js"></script>
+<script type="text/javascript" src="https://hci.cs.uni-saarland.de/wp-includes/js/jquery/ui/effect-blind.js?ver=1.13.3" id="jquery-effects-blind-js"></script>
+<script type="text/javascript" id="bg-show-hide-script-js-extra">
+/* <![CDATA[ */
+var BG_SHCE_USE_EFFECTS = "1";
+var BG_SHCE_TOGGLE_SPEED = "400";
+var BG_SHCE_TOGGLE_OPTIONS = "none";
+var BG_SHCE_TOGGLE_EFFECT = "blind";
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hci.cs.uni-saarland.de/wp-content/plugins/show-hidecollapse-expand/assets/js/bg-show-hide.js?ver=6.6.10" id="bg-show-hide-script-js"></script>
+<script type="text/javascript" src="https://hci.cs.uni-saarland.de/wp-content/themes/vega/assets/js/bootstrap.min.js?ver=6.6.10" id="bootstrap-js"></script>
+<script type="text/javascript" src="https://hci.cs.uni-saarland.de/wp-content/themes/vega/assets/js/jquery.smartmenus.min.js?ver=6.6.10" id="jquery-smartmenus-js"></script>
+<script type="text/javascript" src="https://hci.cs.uni-saarland.de/wp-content/themes/vega/assets/js/jquery.smartmenus.bootstrap.min.js?ver=6.6.10" id="jquery-smartmenus-bootstrap-js"></script>
+<script type="text/javascript" src="https://hci.cs.uni-saarland.de/wp-content/themes/vega/assets/js/parallax.min.js?ver=6.6.10" id="parallax-js"></script>
+<script type="text/javascript" src="https://hci.cs.uni-saarland.de/wp-content/themes/vega/assets/js/jquery.matchHeight-min.js?ver=6.6.10" id="jquery-match-height-js"></script>
+<script type="text/javascript" src="https://hci.cs.uni-saarland.de/wp-content/themes/vega/assets/js/vega-wp.js?ver=3.0.0.1579100171" id="vega-wp-themejs-js"></script>
+<script type="text/javascript" src="https://hci.cs.uni-saarland.de/wp-content/plugins/teampress/js/glightbox.min.js?ver=1.0" id="extp-lightbox-js"></script>
+<script type="text/javascript" src="https://hci.cs.uni-saarland.de/wp-content/plugins/teampress/js/jquery.nicescroll.min.js?ver=1.0" id="extp-nicescroll-js"></script>
+<!-- TC Custom JavaScript --><script type="text/javascript">function getDOILinkFromBibTex(bibTex){
+	var linkInfo = "";
+    var urlStartIndex = bibTex.indexOf('doi_url');
+    var islinkAddress = false;
+    for (var i = urlStartIndex ; i < bibTex.length; i++){
+    	if(bibTex[i] == '{'){
+        	islinkAddress = true;
+        	continue;
+        }
+        if(bibTex[i] == '}'){
+        	break;
+        }
+        if(islinkAddress == true){
+        	linkInfo += bibTex[i];
+        }
+    }
+    return linkInfo;
+	
+}
+
+function getAwardInfoFromBibTex(bibTex){
+	var linkInfo = "";
+    var urlStartIndex = bibTex.indexOf('note');
+    var islinkAddress = false;
+    for (var i = urlStartIndex ; i < bibTex.length; i++){
+    	if(bibTex[i] == '{'){
+        	islinkAddress = true;
+        	continue;
+        }
+        if(bibTex[i] == '}'){
+        	break;
+        }
+        if(islinkAddress == true){
+        	linkInfo += bibTex[i];
+        }
+    }
+    return linkInfo;
+	
+}
+
+function getProjectInfoFromBibTex(bibTex){
+	var linkInfo = "";
+    var urlStartIndex = bibTex.indexOf('project');
+    var islinkAddress = false;
+    for (var i = urlStartIndex ; i < bibTex.length; i++){
+    	if(bibTex[i] == '{'){
+        	islinkAddress = true;
+        	continue;
+        }
+        if(bibTex[i] == '}'){
+        	break;
+        }
+        if(islinkAddress == true){
+        	linkInfo += bibTex[i];
+        }
+    }
+    return linkInfo;
+	
+}
+
+function getPDFLinkFromBibTex(bibTex){
+	var linkInfo = "";
+    var urlStartIndex = bibTex.indexOf('pdf');
+    var islinkAddress = false;
+    for (var i = urlStartIndex ; i < bibTex.length; i++){
+    	if(bibTex[i] == '{'){
+        	islinkAddress = true;
+        	continue;
+        }
+        if(bibTex[i] == '}'){
+        	break;
+        }
+        if(islinkAddress == true){
+        	linkInfo += bibTex[i];
+        }
+    }
+    return linkInfo;
+	
+}
+
+function displayBibTex(id){
+   var display_block = id+"_tex_block";
+  console.log("displaying bibTex from: " + id +" div block:  " + display_block);
+  
+  var x = document.getElementById(display_block);
+  console.log(x);
+  console.log(x.style.display);
+  if (x.style.display == "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function stylizeYearlyBibTexEntries(yearly_pub_item_div){
+  	var pub_html_string = "";
+	var pub_links = "";
+	var pdf_link = "";
+	var project_link;
+	var doi_link ;
+	var award_info;
+  	var list_item_index = 0;
+ 	
+	var bibtex_data;
+	var bibtex_string;
+	var bibtex_div = "";
+	var paper_cite_id = "papercite_";
+	var paper_cite_id_block;
+  
+  	var pub_item = yearly_pub_item_div.innerText;
+	var pub_item_text_delimited = new Array();
+	var pub_item_text = yearly_pub_item_div.innerText.split(['.']);
+
+    for(var i = 0 ;i < pub_item_text.length; i++){
+      var delimited_string = pub_item_text[i].split(/\n/)
+      for(var j = 0 ; j < delimited_string.length; j++){
+        if(delimited_string != " ")
+            pub_item_text_delimited.push(delimited_string[j]);
+      }
+    }
+  
+  	for(var i = 0 ; i < pub_item_text_delimited.length; i = i + 5){
+       	pub_links = "";
+  		bibtex_div = "";
+  		pub_html_string += '<div id="pub_item_authors">\n' +
+  		pub_item_text_delimited[i]+
+  		'</div>'+
+ 		'<div id="pub_item_title">\n'+
+   		pub_item_text_delimited[i + 1]+
+  		'</div>'+
+  		'<div id="pub_item_venue">\n'+
+   		pub_item_text_delimited[i + 2]+
+  		'</div>';
+      
+      	
+      	bibtex_data = yearly_pub_item_div.getElementsByTagName("li")[list_item_index];
+  		if((bibtex_data != null) || (bibtex_data != undefined)){
+      	bibtex_string = bibtex_data.getElementsByTagName('code')[0].innerText + "";
+  		
+      	pdf_link = getPDFLinkFromBibTex(bibtex_string);
+  		project_link = getProjectInfoFromBibTex(bibtex_string);
+      	doi_link = getDOILinkFromBibTex(bibtex_string);
+  		award_info = getAwardInfoFromBibTex(bibtex_string);
+  		//console.log(doi_link);
+  		//console.log(award_info);
+  		paper_cite_id += (list_item_index + 1);
+  		paper_cite_id_block = paper_cite_id +"_tex_block";
+        if(award_info.length > 2)
+          pub_links ='<div id="pub_award_info">' + award_info + '</div>';
+  
+        pub_links += '<a id="pub_item_links" href="' + pdf_link +'">\n' + "[Pdf]" + '</a>';
+        
+      	if(project_link.length > 2)
+      		pub_links += '<a id="pub_item_links" href="' + project_link +'">\n' + "[Project Page]" + '</a>';
+        
+      	pub_links += '<a id="pub_item_links" href="' + doi_link +'">\n' + "[Publisher]" + '</a>';
+        pub_html_string += pub_links;
+
+        pub_html_string +=  '<br/>' + '<br/>';
+        list_item_index++;
+        paper_cite_id = "papercite_";      
+    }
+    }
+  
+  	yearly_pub_item_div.innerHTML = pub_html_string;
+  
+  	
+}
+
+var pub_items = document.getElementsByClassName("papercite_bibliography");
+console.log(pub_items);
+
+
+/*
+for(var i = 0 ; i < pub_items.length; i++){
+  console.log("Year:"+ 2020-i);
+  stylizeYearlyBibTexEntries(pub_items[i]);
+}*/
+if((pub_items != undefined) && (pub_items.length > 0)){
+  for(var i = 0 ; i < pub_items.length; i++){
+    stylizeYearlyBibTexEntries(pub_items[i]);
+  }
+  /*stylizeYearlyBibTexEntries(pub_items[0]);
+  stylizeYearlyBibTexEntries(pub_items[1]);
+  stylizeYearlyBibTexEntries(pub_items[2]);
+  stylizeYearlyBibTexEntries(pub_items[3]);
+  stylizeYearlyBibTexEntries(pub_items[4]);
+  stylizeYearlyBibTexEntries(pub_items[5]);  
+  stylizeYearlyBibTexEntries(pub_items[6]);
+  stylizeYearlyBibTexEntries(pub_items[7]);
+  stylizeYearlyBibTexEntries(pub_items[8]);
+  stylizeYearlyBibTexEntries(pub_items[9]);
+  stylizeYearlyBibTexEntries(pub_items[10]);
+  stylizeYearlyBibTexEntries(pub_items[11]);
+  stylizeYearlyBibTexEntries(pub_items[12]);
+  stylizeYearlyBibTexEntries(pub_items[13]);*/
+}
+var teaching_semesters = document.getElementById("teaching-semester-page").firstChild;
+console.log(teaching_semesters.nextSibling.children[0].children);
+teaching_semesters.nextSibling.children[0].children[3].className = 'bg-showmore-plg-link   bg-close';
+teaching_semesters.nextSibling.children[0].children[4].style.display = 'block';
+// For Teaching page
+</script>        <script type="text/javascript">
+            jQuery(function($) {
+                $('.slider').owlCarousel({
+                    autoplay: true,
+                    autoplayHoverPause: true,
+                    loop: true,
+                    margin: 10,
+                    autoplaySpeed: 1000,
+                    autoplayTimeout: 2500,
+                    navSpeed: 1000,
+                    dots: true,
+                    // dotsEach: true,
+                    responsiveClass:true,
+                    lazyLoad: true,
+                    responsive:{
+                        0:{
+                            items:1,
+                            nav:false
+                        },
+                        533:{
+                            items:2,
+                            nav:false
+                        },
+                        768:{
+                            items:3,
+                            nav:false
+                        },
+                        1000:{
+                            items:4,
+                            nav:true
+                        }
+                    }
+                });
+            });
+        </script>
+            <script type="text/javascript">
+            jQuery(function($) {
+                $('.single-project-pop').magnificPopup({
+                    type: 'inline',
+                    midClick: true,
+                    gallery:{
+                        enabled:true
+                    },
+                    delegate: 'a.gs_projects_pop:visible',
+                    removalDelay: 500, //delay removal by X to allow out-animation
+                    callbacks: {
+                        beforeOpen: function() {
+                           this.st.mainClass = this.st.el.attr('data-effect');
+                        }
+                    },
+                    closeOnContentClick: false,
+                });
+            });
+        </script>
+    <script>var staff_name = document.getElementsByClassName("people-ind-title-hci")
+	if(staff_name != null){
+		var full_name = staff_name[0].innerText.split("\n")
+        if(full_name != undefined)
+    	   staff_name[0].innerText = " " + full_name[0] + " " + full_name[1];
+	}
+
+var pub_items = document.getElementsByClassName("papercite_bibliography");
+console.log(pub_items)
+
+</script>
+</body>
+</html>

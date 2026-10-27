@@ -1,0 +1,51 @@
+                                                                                                                  Montag - Freitag
+
+124                        Universität Busterminal - Waldhaus - Haus der Zukunft - Hauptbahnhof -
+                           HTW/SWS - Betriebshof / Calypso am Schanzenberg
+
+Haltestellen                                            S      S
+Universität Busterminal H                         717                747    817   847    917   947   1017  1047   1117  1147   1217   1247  1317   1347  1417   1447  1517
+Universität Mensa                                 718                748    818   848    918   948   1018  1048   1118  1148   1218   1248  1318   1348  1418   1448  1518
+Universität Campus                                720                750    820   850    920   950   1020  1050   1120  1150   1220   1250  1320   1350  1420   1450  1520
+Uni Botanischer Garten                            721                751    821   851    921   951   1021  1051   1121  1151   1221   1251  1321   1351  1421   1451  1521
+Sportcampus                                       722                752    822   852    922   952   1022  1052   1122  1152   1222   1252  1322   1352  1422   1452  1522
+Wildpark                                          723                753    823   853    923   953   1023  1053   1123  1153   1223   1253  1323   1353  1423   1453  1523
+Waldhaus                                          724                754    824   854    924   954   1024  1054   1124  1154   1224   1254  1324   1354  1424   1454  1524
+Prinzenweiher/Jugendherberge                      726                756    826   856    926   956   1026  1056   1126  1156   1226   1256  1326   1356  1426   1456  1526
+An der Trift                                      727                757    827   857    927   957   1027  1057   1127  1157   1227   1257  1327   1357  1427   1457  1527
+Brauerstraße/Fernbusbahnhof                       730                800    830   900    930  1000   1030  1100   1130  1200   1230   1300  1330   1400  1430   1500  1530
+Haus der Zukunft B                                731                801    831   901    931  1001   1031  1101   1131  1201   1231   1301  1331   1401  1431   1501  1531
+Stadtbad                                          732                802    832   902    932  1002   1032  1102   1132  1202   1232   1302  1332   1402  1432   1502  1532
+Hauptbahnhof C                             704    734   739    801   804    834   904    934  1004   1034  1104   1134  1204   1234   1304  1334   1404  1434   1504  1534
+Trierer Straße C                           706    736   741    803   806    836   906    936  1006   1036  1106   1136  1206   1236   1306  1336   1406  1436   1506  1536
+Roonstraße A                               710    740   745    807   810    840   910    940  1010   1040  1110   1140  1210   1240   1310  1340   1410  1440   1510  1540
+HTW / SWS                                  711    741   746    808   811    841   911    941  1011   1041  1111   1141  1211   1241   1311  1341   1411  1441   1511  1541
+Betriebshof                                712    742   747    809   812    842   912    942  1012   1042  1112   1142  1212   1242   1312  1342   1412  1442   1512  1542
+Calypso am Schanzenberg                    715    745                815    845   915    945  1015   1045  1115   1145  1215   1245   1315  1345   1415  1445   1515  1545
+Erläuterungen:                           S = nur an Schultagen
+
+124                       Universität Busterminal - Waldhaus - Haus der Zukunft - Hauptbahnhof -
+                          HTW/SWS - Betriebshof / Calypso am Schanzenberg
+
+Haltestellen
+Universität Busterminal H                1547   1617  1647   1717  1747   1817  1847   1917
+Universität Mensa                        1548   1618  1648   1718  1748   1818  1848   1918
+Universität Campus                       1550   1620  1650   1720  1750   1820  1850   1920
+Uni Botanischer Garten                   1551   1621  1651   1721  1751   1821  1851   1921
+Sportcampus                              1552   1622  1652   1722  1752   1822  1852   1922
+Wildpark                                 1553   1623  1653   1723  1753   1823  1853   1923
+Waldhaus                                 1554   1624  1654   1724  1754   1824  1854   1924
+Prinzenweiher/Jugendherberge             1556   1626  1656   1726  1756   1826  1856   1926
+An der Trift                             1557   1627  1657   1727  1757   1827  1857   1927
+Brauerstraße/Fernbusbahnhof              1600   1630  1700   1730  1800   1830  1900   1930
+Haus der Zukunft B                       1601   1631  1701   1731  1801   1831  1901   1931
+Stadtbad                                 1602   1632  1702   1732  1802   1832  1902   1932
+Hauptbahnhof C                           1604   1634  1704   1734  1804   1834  1904   1934
+Trierer Straße C                         1606   1636  1706   1736  1806   1836  1906   1936
+Roonstraße A                             1610   1640  1710   1740  1810   1840  1910   1940
+HTW / SWS                                1611   1641  1711   1741  1811   1841  1911   1941
+Betriebshof                              1612   1642  1712   1742  1812   1842  1912   1942
+Calypso am Schanzenberg                  1615   1645  1715   1745  1815   1845
+Erläuterungen:
+
+                                                                                                                 Montag - Freitag

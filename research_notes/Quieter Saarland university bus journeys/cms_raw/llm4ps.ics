@@ -1,0 +1,455 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//134.96.226.213//NONSGML kigkonsult.se iCalcreator 2.41.92//
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+UID:38636566-6539-4132-a663-653931373030
+X-WR-CALNAME:Large Language Models for Physical Systems Calendar
+X-WR-CALDESC:Events of the lecture Large Language Models for Physical Syste
+ ms
+X-WR-TIMEZONE:Europe/Berlin
+BEGIN:VEVENT
+UID:37626133-3930-4939-a535-363665393639
+DTSTAMP:20261026T191856Z
+DESCRIPTION:Weekly lecture for the LLMs for Physical Systems course
+DTSTART:20261016T120000Z
+DTEND:20261016T140000Z
+LOCATION:Building C6 4 (ground floor of the tall MatSci building)\, lecture
+  hall 2
+SUMMARY:Lecture - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:33666665-3265-4732-b431-333633366462
+DTSTAMP:20261026T191856Z
+DESCRIPTION:One of the two weekly exercises for LLMs for Physical Systems.
+ \nBoth are identical\, just choose one.
+DTSTART:20261021T100000Z
+DTEND:20261021T120000Z
+LOCATION:Building A5.1\, SR 3.19
+SUMMARY:Exercise - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:31653566-6136-4738-b030-383734643666
+DTSTAMP:20261026T191856Z
+DESCRIPTION:One of the two weekly exercises for LLMs for Physical Systems. 
+ \nBoth are identical\, just choose one.
+DTSTART:20261022T100000Z
+DTEND:20261022T120000Z
+LOCATION:Building C6 4 (ground floor of the tall MatSci building)\, lecture
+  hall 2
+SUMMARY:Exercise - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:66616461-6635-4264-a133-366433316130
+DTSTAMP:20261026T191856Z
+DESCRIPTION:Weekly lecture for the LLMs for Physical Systems course
+DTSTART:20261023T120000Z
+DTEND:20261023T140000Z
+LOCATION:Building C6 4 (ground floor of the tall MatSci building)\, lecture
+  hall 2
+SUMMARY:Lecture - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:65376637-3031-4635-b866-613438663636
+DTSTAMP:20261026T191856Z
+DESCRIPTION:One of the two weekly exercises for LLMs for Physical Systems.
+ \nBoth are identical\, just choose one.
+DTSTART:20261028T110000Z
+DTEND:20261028T130000Z
+LOCATION:Building A5.1\, SR 3.19
+SUMMARY:Exercise - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:64303835-3939-4836-b763-623034356237
+DTSTAMP:20261026T191856Z
+DESCRIPTION:One of the two weekly exercises for LLMs for Physical Systems. 
+ \nBoth are identical\, just choose one.
+DTSTART:20261029T110000Z
+DTEND:20261029T130000Z
+LOCATION:Building C6 4 (ground floor of the tall MatSci building)\, lecture
+  hall 2
+SUMMARY:Exercise - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:62626531-6134-4565-b161-303330386533
+DTSTAMP:20261026T191856Z
+DESCRIPTION:Weekly lecture for the LLMs for Physical Systems course
+DTSTART:20261030T130000Z
+DTEND:20261030T150000Z
+LOCATION:Building C6 4 (ground floor of the tall MatSci building)\, lecture
+  hall 2
+SUMMARY:Lecture - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:36643165-3965-4565-b234-623562326639
+DTSTAMP:20261026T191856Z
+DESCRIPTION:One of the two weekly exercises for LLMs for Physical Systems.
+ \nBoth are identical\, just choose one.
+DTSTART:20261104T110000Z
+DTEND:20261104T130000Z
+LOCATION:Building A5.1\, SR 3.19
+SUMMARY:Exercise - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:66323130-3637-4530-a330-623239306437
+DTSTAMP:20261026T191856Z
+DESCRIPTION:One of the two weekly exercises for LLMs for Physical Systems. 
+ \nBoth are identical\, just choose one.
+DTSTART:20261105T110000Z
+DTEND:20261105T130000Z
+LOCATION:Building C6 4 (ground floor of the tall MatSci building)\, lecture
+  hall 2
+SUMMARY:Exercise - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:62316636-3130-4437-a464-663466346335
+DTSTAMP:20261026T191856Z
+DESCRIPTION:Weekly lecture for the LLMs for Physical Systems course
+DTSTART:20261106T130000Z
+DTEND:20261106T150000Z
+LOCATION:Building C6 4 (ground floor of the tall MatSci building)\, lecture
+  hall 2
+SUMMARY:Lecture - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:36666134-3238-4766-a232-633738346263
+DTSTAMP:20261026T191856Z
+DESCRIPTION:One of the two weekly exercises for LLMs for Physical Systems.
+ \nBoth are identical\, just choose one.
+DTSTART:20261111T110000Z
+DTEND:20261111T130000Z
+LOCATION:Building A5.1\, SR 3.19
+SUMMARY:Exercise - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:62316136-6431-4664-b265-623164393962
+DTSTAMP:20261026T191856Z
+DESCRIPTION:One of the two weekly exercises for LLMs for Physical Systems. 
+ \nBoth are identical\, just choose one.
+DTSTART:20261112T110000Z
+DTEND:20261112T130000Z
+LOCATION:Building C6 4 (ground floor of the tall MatSci building)\, lecture
+  hall 2
+SUMMARY:Exercise - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:32366464-6263-4362-a462-663862316132
+DTSTAMP:20261026T191856Z
+DESCRIPTION:Weekly lecture for the LLMs for Physical Systems course
+DTSTART:20261113T130000Z
+DTEND:20261113T150000Z
+LOCATION:Building C6 4 (ground floor of the tall MatSci building)\, lecture
+  hall 2
+SUMMARY:Lecture - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:66393766-6139-4463-a630-366330643930
+DTSTAMP:20261026T191856Z
+DESCRIPTION:One of the two weekly exercises for LLMs for Physical Systems.
+ \nBoth are identical\, just choose one.
+DTSTART:20261118T110000Z
+DTEND:20261118T130000Z
+LOCATION:Building A5.1\, SR 3.19
+SUMMARY:Exercise - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:35396565-3636-4839-b464-336435383263
+DTSTAMP:20261026T191856Z
+DESCRIPTION:One of the two weekly exercises for LLMs for Physical Systems. 
+ \nBoth are identical\, just choose one.
+DTSTART:20261119T110000Z
+DTEND:20261119T130000Z
+LOCATION:Building C6 4 (ground floor of the tall MatSci building)\, lecture
+  hall 2
+SUMMARY:Exercise - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:36303662-3137-4562-b166-333833323233
+DTSTAMP:20261026T191856Z
+DESCRIPTION:Weekly lecture for the LLMs for Physical Systems course
+DTSTART:20261120T130000Z
+DTEND:20261120T150000Z
+LOCATION:Building C6 4 (ground floor of the tall MatSci building)\, lecture
+  hall 2
+SUMMARY:Lecture - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:64653363-3833-4937-b131-626464363063
+DTSTAMP:20261026T191856Z
+DESCRIPTION:One of the two weekly exercises for LLMs for Physical Systems.
+ \nBoth are identical\, just choose one.
+DTSTART:20261125T110000Z
+DTEND:20261125T130000Z
+LOCATION:Building A5.1\, SR 3.19
+SUMMARY:Exercise - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:62626332-3833-4636-b639-396132643835
+DTSTAMP:20261026T191856Z
+DESCRIPTION:One of the two weekly exercises for LLMs for Physical Systems. 
+ \nBoth are identical\, just choose one.
+DTSTART:20261126T110000Z
+DTEND:20261126T130000Z
+LOCATION:Building C6 4 (ground floor of the tall MatSci building)\, lecture
+  hall 2
+SUMMARY:Exercise - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:38343835-6663-4765-b136-346336373565
+DTSTAMP:20261026T191856Z
+DESCRIPTION:Weekly lecture for the LLMs for Physical Systems course
+DTSTART:20261127T130000Z
+DTEND:20261127T150000Z
+LOCATION:Building C6 4 (ground floor of the tall MatSci building)\, lecture
+  hall 2
+SUMMARY:Lecture - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:30373031-3936-4661-a135-356231326432
+DTSTAMP:20261026T191856Z
+DESCRIPTION:One of the two weekly exercises for LLMs for Physical Systems.
+ \nBoth are identical\, just choose one.
+DTSTART:20261202T110000Z
+DTEND:20261202T130000Z
+LOCATION:Building A5.1\, SR 3.19
+SUMMARY:Exercise - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:33333837-6632-4462-b365-363933373130
+DTSTAMP:20261026T191856Z
+DESCRIPTION:One of the two weekly exercises for LLMs for Physical Systems. 
+ \nBoth are identical\, just choose one.
+DTSTART:20261203T110000Z
+DTEND:20261203T130000Z
+LOCATION:Building C6 4 (ground floor of the tall MatSci building)\, lecture
+  hall 2
+SUMMARY:Exercise - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:35376131-6435-4362-b563-373534623761
+DTSTAMP:20261026T191856Z
+DESCRIPTION:Weekly lecture for the LLMs for Physical Systems course
+DTSTART:20261204T130000Z
+DTEND:20261204T150000Z
+LOCATION:Building C6 4 (ground floor of the tall MatSci building)\, lecture
+  hall 2
+SUMMARY:Lecture - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:65313962-3233-4436-b333-383133613834
+DTSTAMP:20261026T191856Z
+DESCRIPTION:One of the two weekly exercises for LLMs for Physical Systems.
+ \nBoth are identical\, just choose one.
+DTSTART:20261209T110000Z
+DTEND:20261209T130000Z
+LOCATION:Building A5.1\, SR 3.19
+SUMMARY:Exercise - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:35643132-3937-4635-a462-663037333137
+DTSTAMP:20261026T191856Z
+DESCRIPTION:One of the two weekly exercises for LLMs for Physical Systems. 
+ \nBoth are identical\, just choose one.
+DTSTART:20261210T110000Z
+DTEND:20261210T130000Z
+LOCATION:Building C6 4 (ground floor of the tall MatSci building)\, lecture
+  hall 2
+SUMMARY:Exercise - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:31346330-3837-4666-a461-633765633565
+DTSTAMP:20261026T191856Z
+DESCRIPTION:Weekly lecture for the LLMs for Physical Systems course
+DTSTART:20261211T130000Z
+DTEND:20261211T150000Z
+LOCATION:Building C6 4 (ground floor of the tall MatSci building)\, lecture
+  hall 2
+SUMMARY:Lecture - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:64643736-6364-4865-a538-396437346661
+DTSTAMP:20261026T191856Z
+DESCRIPTION:One of the two weekly exercises for LLMs for Physical Systems.
+ \nBoth are identical\, just choose one.
+DTSTART:20261216T110000Z
+DTEND:20261216T130000Z
+LOCATION:Building A5.1\, SR 3.19
+SUMMARY:Exercise - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:63323038-3766-4432-b037-346639613164
+DTSTAMP:20261026T191856Z
+DESCRIPTION:One of the two weekly exercises for LLMs for Physical Systems. 
+ \nBoth are identical\, just choose one.
+DTSTART:20261217T110000Z
+DTEND:20261217T130000Z
+LOCATION:Building C6 4 (ground floor of the tall MatSci building)\, lecture
+  hall 2
+SUMMARY:Exercise - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:64336266-3761-4666-a265-653231386638
+DTSTAMP:20261026T191856Z
+DESCRIPTION:Weekly lecture for the LLMs for Physical Systems course
+DTSTART:20261218T130000Z
+DTEND:20261218T150000Z
+LOCATION:Building C6 4 (ground floor of the tall MatSci building)\, lecture
+  hall 2
+SUMMARY:Lecture - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:31356261-3031-4664-b130-666162623936
+DTSTAMP:20261026T191856Z
+DESCRIPTION:One of the two weekly exercises for LLMs for Physical Systems.
+ \nBoth are identical\, just choose one.
+DTSTART:20270106T110000Z
+DTEND:20270106T130000Z
+LOCATION:Building A5.1\, SR 3.19
+SUMMARY:Exercise - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:61306232-6633-4237-b761-633037333664
+DTSTAMP:20261026T191856Z
+DESCRIPTION:One of the two weekly exercises for LLMs for Physical Systems. 
+ \nBoth are identical\, just choose one.
+DTSTART:20270107T110000Z
+DTEND:20270107T130000Z
+LOCATION:Building C6 4 (ground floor of the tall MatSci building)\, lecture
+  hall 2
+SUMMARY:Exercise - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:66356233-6632-4337-a235-323565636634
+DTSTAMP:20261026T191856Z
+DESCRIPTION:Weekly lecture for the LLMs for Physical Systems course
+DTSTART:20270108T130000Z
+DTEND:20270108T150000Z
+LOCATION:Building C6 4 (ground floor of the tall MatSci building)\, lecture
+  hall 2
+SUMMARY:Lecture - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:35363939-3531-4238-a339-343133626231
+DTSTAMP:20261026T191856Z
+DESCRIPTION:One of the two weekly exercises for LLMs for Physical Systems.
+ \nBoth are identical\, just choose one.
+DTSTART:20270113T110000Z
+DTEND:20270113T130000Z
+LOCATION:Building A5.1\, SR 3.19
+SUMMARY:Exercise - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:30313131-3064-4534-a439-653964393632
+DTSTAMP:20261026T191856Z
+DESCRIPTION:One of the two weekly exercises for LLMs for Physical Systems. 
+ \nBoth are identical\, just choose one.
+DTSTART:20270114T110000Z
+DTEND:20270114T130000Z
+LOCATION:Building C6 4 (ground floor of the tall MatSci building)\, lecture
+  hall 2
+SUMMARY:Exercise - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:37386531-3262-4537-a535-326164663839
+DTSTAMP:20261026T191856Z
+DESCRIPTION:Weekly lecture for the LLMs for Physical Systems course
+DTSTART:20270115T130000Z
+DTEND:20270115T150000Z
+LOCATION:Building C6 4 (ground floor of the tall MatSci building)\, lecture
+  hall 2
+SUMMARY:Lecture - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:36336139-3162-4834-b862-623738343266
+DTSTAMP:20261026T191856Z
+DESCRIPTION:One of the two weekly exercises for LLMs for Physical Systems.
+ \nBoth are identical\, just choose one.
+DTSTART:20270120T110000Z
+DTEND:20270120T130000Z
+LOCATION:Building A5.1\, SR 3.19
+SUMMARY:Exercise - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:31306264-3631-4464-a531-383366643835
+DTSTAMP:20261026T191856Z
+DESCRIPTION:One of the two weekly exercises for LLMs for Physical Systems. 
+ \nBoth are identical\, just choose one.
+DTSTART:20270121T110000Z
+DTEND:20270121T130000Z
+LOCATION:Building C6 4 (ground floor of the tall MatSci building)\, lecture
+  hall 2
+SUMMARY:Exercise - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:35623538-6661-4237-a437-373031393539
+DTSTAMP:20261026T191856Z
+DESCRIPTION:Weekly lecture for the LLMs for Physical Systems course
+DTSTART:20270122T130000Z
+DTEND:20270122T150000Z
+LOCATION:Building C6 4 (ground floor of the tall MatSci building)\, lecture
+  hall 2
+SUMMARY:Lecture - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:65336261-3834-4238-b232-346235303930
+DTSTAMP:20261026T191856Z
+DESCRIPTION:One of the two weekly exercises for LLMs for Physical Systems.
+ \nBoth are identical\, just choose one.
+DTSTART:20270127T110000Z
+DTEND:20270127T130000Z
+LOCATION:Building A5.1\, SR 3.19
+SUMMARY:Exercise - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:66633665-6630-4735-a639-333063346661
+DTSTAMP:20261026T191856Z
+DESCRIPTION:One of the two weekly exercises for LLMs for Physical Systems. 
+ \nBoth are identical\, just choose one.
+DTSTART:20270128T110000Z
+DTEND:20270128T130000Z
+LOCATION:Building C6 4 (ground floor of the tall MatSci building)\, lecture
+  hall 2
+SUMMARY:Exercise - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:34383030-6335-4138-b439-343438623264
+DTSTAMP:20261026T191856Z
+DESCRIPTION:Weekly lecture for the LLMs for Physical Systems course
+DTSTART:20270129T130000Z
+DTEND:20270129T150000Z
+LOCATION:Building C6 4 (ground floor of the tall MatSci building)\, lecture
+  hall 2
+SUMMARY:Lecture - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:30636366-3335-4565-a133-306264363431
+DTSTAMP:20261026T191856Z
+DESCRIPTION:One of the two weekly exercises for LLMs for Physical Systems.
+ \nBoth are identical\, just choose one.
+DTSTART:20270203T110000Z
+DTEND:20270203T130000Z
+LOCATION:Building A5.1\, SR 3.19
+SUMMARY:Exercise - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:32363265-3865-4433-a664-303162346135
+DTSTAMP:20261026T191856Z
+DESCRIPTION:One of the two weekly exercises for LLMs for Physical Systems. 
+ \nBoth are identical\, just choose one.
+DTSTART:20270204T110000Z
+DTEND:20270204T130000Z
+LOCATION:Building C6 4 (ground floor of the tall MatSci building)\, lecture
+  hall 2
+SUMMARY:Exercise - LLMs for Physical Systems
+END:VEVENT
+BEGIN:VEVENT
+UID:36643266-3138-4534-b761-396634323165
+DTSTAMP:20261026T191856Z
+DESCRIPTION:Weekly lecture for the LLMs for Physical Systems course
+DTSTART:20270205T130000Z
+DTEND:20270205T150000Z
+LOCATION:Building C6 4 (ground floor of the tall MatSci building)\, lecture
+  hall 2
+SUMMARY:Lecture - LLMs for Physical Systems
+END:VEVENT
+END:VCALENDAR

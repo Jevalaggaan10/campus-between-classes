@@ -1,0 +1,56 @@
+Hauptseite
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Neural Networks: Implementation and Application (CoLI/LST students only!!!!)
+Dietrich Klakow
+News
+Currently, no news are available
+Neural Networks: Implementation and Application (CoLI/LST students only!!!!)
+This is the version for
+CoLis (bachelor and master)
+only. No other students permitted.
+Starts:
+Tuesday, 20.10.26
+Location
+: large lecture hall mathematics, HS1 in E25
+Exam:
+9.2.27
+Outline:
+Linear Algebra and Principal Component Analysis (PCA)
+Numerical Computation
+Machine Learning Basics
+Deep Feedforward Neural Networks
+Regularization for Deep Learning
+Optimization for Deep Learning
+Convolutional Neural Networks
+Sequence Modelling: Recurrent and Recursive Neural Networks
+Transformers
+GNNs
+Text Books
+:
+Neural Networks and Deep Learning by Charu C. Aggarwal
+Deep Learning by Aaron Courville
+,
+Ian Goodfellow
+,
+Joshua Bengio
+Geometry of Deep Learning, Jong Chul Ye
+Deep Learning Architectures: A Mathematical Approach, Ovidiu Calin
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

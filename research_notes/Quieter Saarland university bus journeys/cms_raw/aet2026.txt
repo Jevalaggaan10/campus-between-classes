@@ -1,0 +1,132 @@
+Hauptseite
+Courses
+Main Page
+Information
+Timetable
+Rules
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Artificial Empathic Technology
+Dr. Patrick Gebhard, Dr. Janet Weßler, B.Sc. Anna Lea Reinwarth
+Theories, Methods, and Techniques  related to Artificially Empathic Technology
+Registration for this course
+is open until
+Friday, 30.10.2026 00:00
+.
+News
+Currently, no news are available
+Artificially Empathic Technology
+Artificially Empathic Technology
+(AET) extends the perspective of Affective Computing from recognizing, modeling, and synthesizing emotional behavior to the design of systems that can interpret human experience, support emotion or social regulation, and act sensitively in social interaction. Guided by the AET framework, the lecture explores how affect, cognition, bodily expression, social values, and interpersonal dynamics can be operationalized in computational systems without reducing artificial empathy to mere emotion recognition. A central focus is translating competing psychological theories of emotion, appraisal, attachment, regulation, and social interaction into computational models, comparing them, and critically evaluating them. In doing so, the lecture also introduces key insights from psychological methodology: how theoretical constructs are defined, measured, validated, and transformed into human-centered technologies for domains such as games, immersive environments, education, and social assistance.
+Master students will gain a strong background in the theory and practice of human-centered computing as it relates to games, immersive environments, and pedagogical applications.
+Overall Lecture Schedule
+Every Thursday, HS003, E1 3, 10:00–12:00 · Domains: CS = Computer Science, Psy = Psychology, Eth = Ethics / Philosophy
+#
+Date
+Domain
+Lecture
+Content
+Project milestone
+1
+22.10.2026
+CS, Psy
+From Social Computing to AET
+The differences between emotion-adaptive and artificially empathic technology, the AET definition, example domains such as training, education, health coaching and care, and the course and project formats.
+–
+2
+29.10.2026
+Psy
+Affect, Emotion, Mood and Other Related Concepts
+The affect trinity; basic, dimensional, appraisal and constructivist models; the component model and observable signals, and their limitations ("no fingerprint").
+–
+3
+05.11.2026
+Psy
+Methods I: Thinking like an Experimenter
+Science vs. common sense, from observation to hypothesis, correlation vs. experiment, independent and dependent variables, between- and within-subject designs, threats to validity.
+Find teammates
+4
+12.11.2026
+Psy
+Empathy, Theory of Mind, Mentalization
+Cognitive vs. affective empathy, compassion, Theory of Mind (ToM), mentalization, CASA / Media Equation and the persona effect.
+Kickoff:
+teams, domain, scenario
+5
+19.11.2026
+CS, Psy
+Computational Affect + ALMA Explorer (hands-on)
+OCC appraisal theory, the OCEAN personality model, the PAD mood model and the decay of emotional intensity. Hands-on: modelling characters in ALMA Explorer.
+Research question + hypothesis
+6
+26.11.2026
+CS
+Interactive Systems + VisualSceneMaker web (hands-on)
+The agentic SIA research framework VisualSceneMaker: scenes and sceneflows, and an overview of the plugins (ALMA, LLM, ASR, TTS, Wizard of Oz).
+First prototype
+7
+03.12.2026
+Psy
+Methods II: Measurement and Running a Study
+Questionnaires and scale quality, relational measures (felt security, perceived responsiveness, empathic accuracy), power and sample size, pilot study, preregistration, research ethics (consent, data protection), and the VisualSceneMaker StudyMaster.
+–
+8
+10.12.2026
+Eth, Psy
+Values and Norms: What an Empathic System Has to Achieve
+Fundamental human values such as safety, autonomy and self-respect, in the context of goals, social roles and cultural norms; display rules. Current approaches: values at design time (CCVSD), as runtime constraints (CARESSES) or as runtime objectives (AET), and how to check whether they were respected.
+Study plan due
+9
+17.12.2026
+Psy, CS
+AET I: Regulation and the Individual
+Predictive processing, Moser & von Zeppelin (structural, situational and communicative emotions), self vs. display regulation, MARSSI.
+Prototype check
+10
+07.01.2027
+Psy
+Methods III: Data Analysis
+Descriptive statistics, t-tests, ANOVA, effect sizes, reporting, open science (p-hacking, HARKing).
+Run studies
+11
+14.01.2027
+Psy, CS
+AET II: Relationship and Social Interaction
+Person objects and relationships; inner and outer communication paths. Regulation vs. co-regulation, especially repair, as shown in Mentalization-Based Therapy.
+Analysis
+12
+21.01.2027
+CS, Eth
+AET III: Making Values Computable, and Limits
+Cost function over the value goals, uncertainty, explainability, role and limits of LLMs, deception and dependency, uncanny valley, governance (EU AI Act, MEESTAR), outlook.
+Analysis
+–
+28.01.2027
+–
+Poster Fair I
+Half of the teams present; the other half are the audience and give peer feedback.
+Poster + demo
+–
+04.02.2027
+–
+Poster Fair II
+The other half of the teams present.
+Poster + demo
+Grading
+t.b.a.
+External Webpage with additional material
+https://scaai.dfki.de/lecture-artifically-empathic-technology-ws-26-27/
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

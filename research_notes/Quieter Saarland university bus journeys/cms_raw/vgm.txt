@@ -1,0 +1,161 @@
+Main Page
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Visual Generative Models
+Jan Eric Lenssen
+Registration for this course
+is open until
+Monday, 26.10.2026 23:59
+.
+News
+Start of Tutorials
+Written on
+20.10.26
+(last change on
+20.10.26
+)						by Hevra Petekkaya
+Hi everyone,
+This is a kind reminder that we will be starting with our tutorials tomorrow, 21st of October. The slides are uploaded.
+See you tomorrow!
+Office Hours
+Written on
+14.10.26
+(last change on
+14.10.26
+)						by Hevra Petekkaya
+Below are the office hours for myself, Hevra, and our tutor, Umar. If you have individual questions, you can visit us during the office hours. However, if you have questions which might also concern other students, then please post them in CMS Forum so we won't have to reply individually to common…
+Read more
+Below are the office hours for myself, Hevra, and our tutor, Umar. If you have individual questions, you can visit us during the office hours. However, if you have questions which might also concern other students, then please post them in CMS Forum so we won't have to reply individually to common questions.
+Office Hours:
+Hevra Petekkaya:
+Thursday, 2 pm - 3 pm (This week, 15th of Oct, not available for the office hour)
+Location: MPI-INF (E1 4) 6th floor. Room 629
+Muhammad Umar Javed -
+Wednesday, 2 pm - 3 pm
+Location: MPI-INF (E1 4) 6th floor. Room 611
+Release of Tutorial 1
+Written on
+13.10.26
+by Hevra Petekkaya
+Tutorial 1 has been released. Please let us know if you face any problems or have questions.
+Good luck!
+For now, the room will stay the same
+Written on
+13.10.26
+(last change on
+13.10.26
+)						by Jan Eric Lenssen
+There was the ask if we can switch the lecture room to have tables at the seats.
+There currently is no other one available that is large enough so we will stay in the same room until further notice.
+We might reconsider later but would have a vote first, if a different one would be preferred by the…
+Read more
+There was the ask if we can switch the lecture room to have tables at the seats.
+There currently is no other one available that is large enough so we will stay in the same room until further notice.
+We might reconsider later but would have a vote first, if a different one would be preferred by the majority.
+Registration is open
+Written on
+12.10.26
+by Jan Eric Lenssen
+Registration for the course should now be open for the next two weeks (until Oct 26).
+In case something does not work - please let us know!
+Visual Generative Models
+This lecture introduces continuous generative modeling, diffusion and flow matching, as the dominant paradigm for visual synthesis, and traces its extension from static images to dynamic, embodied domains. We start with the core mathematical picture: forward noising processes, score/velocity-field learning, and the shared ODE/SDE view that unifies diffusion models and flow matching as a generative modeling framework that learns a velocity field to transform a source distribution into a target distribution through a continuous flow. From there, we move to video diffusion models and their emerging role as implicit world models, before turning to robotics: Diffusion Policy as a case study in using denoising processes to represent multimodal action distributions, and video generation as a substrate for planning and simulation in physical AI. The lecture closes with open questions around sampling efficiency, controllability, and what it means for a generative model to also be a world model.
+Website: https://vip.mpi-inf.mpg.de/vgm.html
+CMS Registration will open after the introductory lecture on Oct 12!
+(Non-mandatory but recommended) prerequisites
+Linear algebra and multivariate calculus
+Basic probability
+Deep learning fundamentals
+Python and PyTorch
+Prerequisites for taking the exam
+The second half of the tutorials will include a project phase. Participation is mandatory to be eligible for taking the exam.
+Participation includes
+selecting / defining a project,
+presenting the project idea and motivation in a short presentation in the tutorial,
+presenting the results of the project in a short presentation in the tutorial at the end of the semester.
+All presentations will be during the tutorial hours. There will be available presentation slots over multiple weeks.
+Dates and Locations
+Lecture: Mondays, 4pm–6pm (starts at 4 pm, from 2nd lecture), Room E1 5 (MPI-SWS building) R.002
+Tutorial: Wednesdays, 12pm–2pm (starts at 12:15), Room E1 4 (MPI-INF building) R.024
+The first, introductory lecture will be on October 12 and will start at 4:15 pm.
+Tutorials will start on October 21.
+Preliminary Schedule of Content
+The following is a preliminary, high-level outline of the topics covered and may still change.
+Foundations
+Generative modeling as transport: probability paths, flows, and velocity fields
+Flow matching: the conditional flow matching objective
+Diffusion models as a special case of flow matching
+Samplers, discretization error, and the cost of sampling
+Practice, Steering and Judgment
+Latents and architectures: autoencoders, tokenizers, diffusion transformers
+Conditioning, guidance and control
+Evaluation: measuring fidelity and coverage, reward models as learned evaluators
+Efficiency and Post-Training
+Few-step sampling: distillation, consistency models, flow maps
+Reasoning and RL post-training of flow models
+Video
+Video generation: spatiotemporal flows, generation regimes, long-horizon consistency
+Embodied Generation and World Models
+Robot learning
+From denoising to velocity-field policies: Diffusion Policy and flow-based policies
+World models and simulators: action conditioning, planning, synthetic data
+Material
+Online Slides with Animations and Videos
+L01, Oct 12 - Introduction:
+https://vip.mpi-inf.mpg.de/teaching/vgm/l01/
+L02, Oct 19 - Transport:
+https://vip.mpi-inf.mpg.de/teaching/vgm/l02/
+L03, Oct 26 - Flow Matching:
+https://vip.mpi-inf.mpg.de/teaching/vgm/l03/
+Access info is
+here
+.
+PDF Versions of the Slides are in Materials Tab
+Related External Material
+MIT Introduction to Flow Matching and Diffusion Models:
+https://diffusion.csail.mit.edu/2026/index.html
+Flow Matching Cookbook:
+https://arxiv.org/pdf/2412.06264
+Catching Up on Fundamentals
+Probability:
+Seeing Theory
+, Brown University: interactive and very short. The chapters on basic probability, distributions and Bayesian inference are the relevant ones.
+Differential Equations:
+3Blue1Brown, Differential equations
+: the first video covers vector fields and stepping along them, like what our samplers do.
+Calculus:
+3Blue1Brown, Essence of calculus
+: derivatives and the chain rule.
+Calculus:
+Khan Academy, Multivariable calculus
+: the unit on derivatives of multivariable functions covers gradient, divergence and Jacobian.
+Neural Networks:
+PyTorch, Learn the Basics
+: the official hands-on tutorial, should be enough for the exercises.
+Random Cool Visual Generative Model Stuff
+Genie 3:
+https://deepmind.google/models/genie/
+Lingbot-World Open Source World Model:
+https://technology.robbyant.com/lingbot-world
+Our Neighbours from Black Forrest:
+https://bfl.ai/
+WorldLabs Atlas:
+https://www.worldlabs.ai/blog/atlas
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

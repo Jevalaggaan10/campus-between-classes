@@ -1,0 +1,26 @@
+{
+  "checks": {
+    "row_count_matches_summary": true,
+    "included_count_matches_summary": true,
+    "included_semester_campus_weekday_times_valid": true,
+    "source_urls_official": true,
+    "unlabelled_boundary_keys_unique": true
+  },
+  "included_patterns": 1360,
+  "source_inventory_status": {
+    "recurring_timed_campus": 1038,
+    "no_schedule_rows": 234,
+    "excluded_or_unknown": 719
+  },
+  "included_by_weekday": {
+    "5": 126,
+    "3": 311,
+    "4": 315,
+    "1": 270,
+    "2": 338
+  },
+  "included_by_time_convention": {
+    "unknown": 687,
+    "literal": 673
+  }
+}

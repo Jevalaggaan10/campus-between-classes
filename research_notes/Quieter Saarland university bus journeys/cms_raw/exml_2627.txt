@@ -1,0 +1,70 @@
+Main Page
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Explainable Machine Learning
+Jonas Fischer
+News
+Currently, no news are available
+Explainable Machine Learning
+Overview
+In this seminar we will discuss different methodologies in Explainable Machine Learning, which is concerned with understanding what information a Machine Learning system learned and how it uses this information for decision-making. We cover both seminal works as well as recent advancements in the field, including post-hoc explainability approaches and inherently interpretable model designs.
+The seminar will consistent of an introductory meeting with a lecture at the beginning of the semester introducing the field and distributing papers, and a three-day block course in the semester break covering paper and project presentations and discussions.
+Students are expected to read into their assigned paper, the related literature, prepare a talk, a paper summary with critical discussion, and conduct a practical project around their topic.
+Course Information
+Semester:
+WS
+Year:
+2026/27
+Requirements:
+The student has a solid understanding of Machine Learning and feels comfortable with Neural Networks (for example through lectures High Level Computer Vision, Neural Networks: Theory and Implementation, or Machine Learning).
+Time and location:
+Introductory lecture:  23.10.2026, 12:00–14:00, E1.5 (MPI-SWS) 029
+Block seminar: TBA
+Project showcase event:TBA
+Project hand-in deadline: TBA
+Registration:
+Registration is through the
+SIC seminar assignment system
+. Please do not directly register via the CMS.
+Lecturer:
+Dr. Jonas Fischer
+,
+Prof. Dr. Bernt Schiele
+Teaching Assistants:
+Robin Hesse
+,
+Sweta Mahajan
+,
+Nhi Pham
+,
+Sukrut Rao
+,
+Dr. Wolfgang Stammer
+Material
+We recommend
+Interpretable Machine Learning -
+A Guide for Making Black Box Models Explainable
+by Christoph Molnar
+The book can be accessed for
+free online (external link)
+, and as part of the Semesterapparat of the
+UdS Math and CS library
+.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

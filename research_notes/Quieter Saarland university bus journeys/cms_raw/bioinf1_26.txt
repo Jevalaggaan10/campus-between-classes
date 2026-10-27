@@ -1,0 +1,102 @@
+Hauptseite
+Kurse
+Hauptseite
+Informationen
+Termine
+Team
+Anmeldung
+Persönliche Statusseite
+Login
+Angemeldet bleiben
+Login
+Registrierung
+Passwort vergessen?
+Dunklen Modus aktivieren
+Hellen Modus aktivieren
+Bioinformatik 1
+Prof. Dr. Andreas Keller, Lara Hombrecher
+Die
+Registrierung für diesen Kurs
+ist noch bis zum
+Dienstag, 27.10.2026 13:59
+geöffnet
+.
+News
+Vorlesung 29.10
+Geschrieben am
+26.10.26
+von Lara Hombrecher
+Hallo zusammen,
+die Vorlesung am Donnerstag, 29.10.2026 wird von 14.00h (nicht 14.15h) bis 15.00h stattfinden!
+Morgen entfällt die Vorlesung.
+Viele Grüße und einen guten Start in die Woche!
+Euer Bioinfo 1 Team
+Kalendar
+Geschrieben am
+19.10.26
+von Lara Hombrecher
+Hallo zusammen,
+die Vorlesungsslides von letzter Woche sind im cms hochgeladen. Außerdem findet ihr unter "Termine" einen Kalender, der die Vorlesungstermine, Tutoriums- und MInitestsslots sowie Bearbeitungszeiten für Übungsblätter und Labs markiert. Das soll euch helfen, das Semester und den…
+Weiterlesen
+Hallo zusammen,
+die Vorlesungsslides von letzter Woche sind im cms hochgeladen. Außerdem findet ihr unter "Termine" einen Kalender, der die Vorlesungstermine, Tutoriums- und MInitestsslots sowie Bearbeitungszeiten für Übungsblätter und Labs markiert. Das soll euch helfen, das Semester und den Arbeitsaufwand für Bioinfo 1 besser zu planen. Bitte bedenkt, dass sich durchaus (z.B. aufgrund von Krankheit) Termine ändern können, darüber informieren wir euch dann jedoch rechtzeitig.
+Viele Grüße, einen guten Start in die Woche und bis morgen!
+Euer Bioinfo 1 Team
+Erste Vorlesung
+Geschrieben am
+13.10.26
+von Lara Hombrecher
+Hallo zusammen und Willkommen zu Bioinfo 1,
+die erste Vorlesung findet heute in E 2 1 (Bioinformatik Gebäude) in Raum 0.07 statt!
+Viele Grüße
+Das Bioinfo 1 - Team
+Bioinformatik 1
+(Vorlesung der Bioinformatik 4V+2Ü, Pflicht 9CP für BSc Bioinformatik)
+Hinweis:
+Diese Vorlesung wird auf Deutsch gehalten.
+Beschreibung
+Bioinformatik 1 lehrt den Student:innen die Grundlagen der Bioinformatik. Inhalte sind u.a. :
+Grundlagen Sequenzierung
+Sequence Assembly I und II
+Sequence Alignments
+Suche in Sequenzdatenbanken
+Profile and HMMs - VEIL
+SNPs and Mutations
+RNA Analysis
+Grundlagen des ML
+Die Vorlesung wird von Bioinformatik 2 im Sommersemester weitergeführt, die sich anschließend mit Proteinen und Strukturen beschäftigt.
+Vorraussetzungen
+Bioinformatik 1 ist ab dem 3. Semester des Bachelorstudiengangs zu belegen. Gleichzeitig sollte BioStatsLab gehört werden, da die Inhalte aufeinander aufbauen.
+Weitere Vorraussetzungen:
+MfI 1 & 2
+Programming 1 & 2
+gute Programmierkenntnisse (v.a. Python)
+Termine
+Vorlesungen:
+Dienstags & Donnerstags 14-16h
+Vorlesungsbeginn:
+13.10.2026
+Übungen:
+Dienstags 12-14h
+Übungsbeginn:
+27.10.2026
+Klausur
+Der Kurs wird mit einer schriftlichen Klausur abgeschlossen.
+Zu Zulassung der Klausur sind die Hälfte der Punkte aus wöchentlichen Minitests nötig, die theoretisches und praktisches Wissen prüfen.
+Außerdem muss eine Anmeldung zur Klausur im LSF erfolgen.
+Weitere Informationen
+Link:
+https://cms.sic.saarland/bioinf1_26
+Registrierung:
+Bis zum 27.10.2026 13:59 auf der Anmeldungsseite im CMS
+Materialien:
+Werden im CMS unter Informationen -> Materialien zur Verfügung gestellt.
+(Lecture for Bioinformatics 4V+2Ü, mandatory 9 CP for BSc Bioinformatik)
+Important:
+The lecture will be in German.
+Datenschutz
+|
+Impressum
+Bitte wenden Sie sich bei technischen Problemen an
+die Administratoren
+.

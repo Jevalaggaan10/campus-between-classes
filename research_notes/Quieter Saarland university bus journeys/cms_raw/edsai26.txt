@@ -1,0 +1,105 @@
+Main Page
+Courses
+Main Page
+Information
+Timetable
+Organization
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Elements of Data Science and Artificial Intelligence
+Andrea Volkamer, Vera Demberg, Ingmar Weber, Bernt Schiele, Till Koebe
+News
+Team Assignment Deadline upcoming
+Written on
+23.10.26
+by Lisa-Marie Rolli
+Dear all,
+I noticed that only about half of the registered students are also part of a team. While it is allowed to work on the assignments individually, we strongly recommend forming groups with fellow students. Working in a team allows you to distribute the workload and discuss problems together…
+Read more
+Dear all,
+I noticed that only about half of the registered students are also part of a team. While it is allowed to work on the assignments individually, we strongly recommend forming groups with fellow students. Working in a team allows you to distribute the workload and discuss problems together when you get stuck.
+The deadline for the team groupings is this
+Sunday (25.10.).
+If you have troubles finding a team, please use the
+forum
+. There are already several posts from students looking for teammates. Given the number of students who are not yet part of a team, I encourage you to make use of the forum if you are still searching.
+Have a nice weekend,
+Lisa (on behalf of the EDSAI team)
+Tutorial Assignment
+Written on
+16.10.26
+by Lisa-Marie Rolli
+Dear all,
+I just ran the tutorial assignment. You should be able to see the time, date, and tutor of your assigned tutorial on your
+personal status page
+.
+The tutorials start next week. Since submission groups may only consist of students from the same tutorial, we strongly encourage you to…
+Read more
+Dear all,
+I just ran the tutorial assignment. You should be able to see the time, date, and tutor of your assigned tutorial on your
+personal status page
+.
+The tutorials start next week. Since submission groups may only consist of students from the same tutorial, we strongly encourage you to attend your tutorial and use the opportunity to get to know your fellow students.
+We wish you a nice weekend!
+Lisa (on behalf of the EDSAI team)
+Tutorial Preferences
+Written on
+16.10.26
+by Lisa-Marie Rolli
+Dear all,
+welcome to this year's EDSAI course, and a special welcome to our university for the first-semester students among you! :)
+This is a kind reminder to please enter your tutorial preferences if you have not done so already, as the deadline is
+today (16.10.) 16:59.
+Once the deadline is…
+Read more
+Dear all,
+welcome to this year's EDSAI course, and a special welcome to our university for the first-semester students among you! :)
+This is a kind reminder to please enter your tutorial preferences if you have not done so already, as the deadline is
+today (16.10.) 16:59.
+Once the deadline is over, the tutorial assignment will be performed using a constraint-solving algorithm to find a solution that best satisfies everyone's preferences.
+If you have any questions, don't hesitate to contact us using the
+Forum
+. If your question is of a more personal nature and you would prefer not to discuss it publicly, you can contact me or your tutor via email. You can find our contact details on the
+Team Page
+.
+All important dates, such as deadlines, lectures, tutorials, and exams, can be found in the
+calendar
+.
+I look forward to the new semester and wish you all a nice weekend!
+Lisa (on behalf of the EDSAI team)
+Elements of Data Science and Artificial Intelligence
+You will find all administrative information here:
+Organization
+Artificial intelligence is a long-standing branch of computer science concerned with the design of algorithms and systems exhibiting intelligent behavior. Data science is a comparatively young area concerned with the extraction of knowledge and insights from structured and unstructured data. Increasingly, the real power of computer science applications lies in combining the two, exploiting insights from data to take intelligent decisions.
+Both artificial intelligence (AI) and data science (DS) are complex multi-disciplinary scientific fields. This course provides an overview of central concepts and ideas, structured and motivated by prominent applications requiring elements from both DS and AI.  As a headstarter, we provide a
+crash course on Python
+in the first three lectures. Then, we will introduce how data science and AI can be used to research questions at the intersection of
+society and technology,
+encompassing both (i) computing of society, i.e., using computational methods to understand societal phenomena, and (ii) computing for society, i.e., using digitally assisted interventions to improve society.  This will be followed by a brief introduction to
+machine learning (ML)
+, which lies at the heart of the intersection between DS and AI.  We will cover
+autonomous driving
+as a prominent application of sensing, system design, control, and learning, as well as
+neural language models
+and the associated learning and reasoning techniques for
+natural language processing
+. We finally cover the
+computer-accelerated drug design (CADD)
+and ML techniques for
+prioritizing molecules.
+The aim is for students to understand the scope of DSAI and to obtain intuitions about its central algorithmic elements. Detailed technical expositions and analyses of these elements are not covered; these are the subject of later more specialized courses.
+The course is accompanied by exercises, covering technical concepts through examples, as well as posing simple programming exercises (suitable for first-term students) in the Python language.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

@@ -1,0 +1,297 @@
+Main Page
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Causal XAI
+Nektarios Kalampalikis, Kunchangtai Liang, María Martínez-García, Isabel Valera
+News
+Preference Form is now Available
+Written on
+20.10.26
+by Nektarios Kalampalikis
+Dear students,
+the google form is now open for you to state your preference. You can find the link in the description of the course on CMS. The google form will stop accepting responses on the night of Oct. 27, i.e., after the second background session. If any of you are already sure on which…
+Read more
+Dear students,
+the google form is now open for you to state your preference. You can find the link in the description of the course on CMS. The google form will stop accepting responses on the night of Oct. 27, i.e., after the second background session. If any of you are already sure on which topic you would like to work, you can send your response right now. Otherwise, you can do it after the second session :)
+Best,
+Nektarios
+Causal XAI
+This seminar explores the intersection of causality, explainability, and interpretability in modern machine learning. While traditional methods often rely on statistical associations to understand model behavior, causal approaches aim to uncover the underlying cause-and-effect mechanisms that drive predictions and decision-making. The seminar explores the promises and challenges of causality in Explainable AI (XAI) through the following thematic blocks:
+Block I: Counterfactual explanations and Causal Interventions
+Block II: Attribution Methods and Causality
+Block III: Concept Bottlenecks and Causality
+Block IV: Representation learning and causality
+Students will be divided into four teams (one team per seminar block). Each team will work collaboratively throughout the seminar, guided by the instructors, to conduct a literature review on their assigned topic. The final goal of each team is to prepare and deliver a tutorial that introduces the topic, explains its evolution over time, and discusses the current state of the art.
+Evaluation will be based on participation, the quality of the presentations, and the depth of the literature analysis.
+Key sources include:
+Interpretable Machine Learning: A Guide for Making Black Box Models Explainable (3rd ed.)
+Limitations of Interpretable Machine Learning Methods
+Time and place
+Tuesdays
+, 12:15 to 13:45
+Room
+: 2.06 at E1.1
+Both Private Meetings and Public presentations will be happening at 2.06 at E1.1.
+Attendance
+The seminar will be held in person, and
+attendance is mandatory
+.
+General structure
+The students will be divided into four teams (one team per seminar block), with three students per team. Each team will work collaboratively throughout the seminar, guided by the instructors, to conduct a literature review on their assigned topic. The final goal is for each group to prepare and deliver a tutorial that introduces the topic, explains how it has evolved over time, and discusses the current state of the art.
+The seminar will include three types of sessions:
+Background sessions:
+Sessions led by the instructors to provide the necessary foundations and guidance on how to approach and understand research papers.
+Private group meetings:
+Meetings with each team to assess their understanding, discuss their planned presentation, identify missing elements or unclear aspects, and provide feedback on content, structure, and their understanding of the research landscape.
+These meetings are not rehearsals
+: students are expected to understand and explain their material and answer questions.
+Public presentations:
+Sessions in which each team delivers its final tutorial to the rest of the class, followed by questions and discussion.
+Calendar
+Date
+Session Type
+Content
+October 20
+Background
+Introduction to Causality
+October 27
+Background
+Introduction to Explainability
+October 28
+Deadline
+Students assigned to blocks
+October 29
+Optional - Background
+How to read a paper?
+in Room 0.01, Building E1.7
+from 12:15 to 13:45
+2 weeks without seminar sessions
+November 10
+Deadline
+LSF Registration Deadline
+November 17
+Private meetings (1, 2)
+Building a tutorial I
+November 24
+Private meetings (3, 4)
+Building a tutorial I
+1 week without seminar sessions
+December 8
+Public presentations (1, 2)
+Building a tutorial I
+December 15
+Public presentations (3, 4)
+Building a tutorial I
+3 weeks without seminar sessions
+January 12
+Private meetings (1, 2)
+Building a tutorial II
+January 19
+Private meetings (3, 4)
+Building a tutorial II
+1 week without seminar sessions
+February 2
+Public presentations (1, 2)
+Building a tutorial II
+February 9
+Public presentations (3, 4)
+Building a tutorial II
+* Each team has 2 weeks between the private group meeting and the presentation, and 4 weeks between their first presentation and the next private meeting.
+Selecting topic
+We will share a form with the students to indicate their preferences.
+Google Form Link
+Release form to indicate preferences:
+October 20 (first background session) - until October 27
+Release team assignment:
+October 28 (second background session, 3 weeks before the first private group meeting)
+Deliverables and grading scheme
+Each team is expected to prepare presentation slides for the private meetings and public presentations. The private meetings provide an opportunity to assess students' understanding and give feedback to improve the final public presentations. Students should arrive prepared to explain and discuss their material; the meetings are not rehearsals.
+Individual responsibility.
+Although the presentations are prepared in groups, each member is expected to understand the material they are responsible for and contribute to the discussion. Each group must also provide a brief
+contribution statement
+specifying the work carried out by each member, including their contributions to the literature review and presentation preparation.
+Grading:
+Each of the four meetings will be assessed according to its corresponding grading scheme, covering content quality, understanding, critical analysis, presentation quality, and participation as applicable.
+Session Type
+Deliverables
+Points
+Private meeting – Tutorial I
+Slides + list of limitations
+15
+Public presentations – Tutorial I
+Slides + contribution statement
+30
+Private meeting – Tutorial II
+Slides + list of papers (connected to the gaps)
+15
+Public presentations – Tutorial II
+Slides + contribution statement
+40
+Total
+–
+100
+To get an excellent grade you need to:
+Explain, not just describe:
+Show that you understand the intuition behind concepts and methods.
+Be critical:
+Discuss assumptions, limitations, and unresolved problems rather than simply summarizing papers.
+Connect ideas:
+Build a clear narrative from the initial approaches to later developments and remaining challenges.
+Support your arguments:
+Use concrete examples and evidence from the literature.
+Demonstrate ownership
+: Be prepared to defend your choices, explain your assigned papers, and answer questions.
+Detailed structure
+Background sessions (2+1 sessions)
+The seminar will start with two background sessions designed to give students the necessary tools to begin their literature review. An additional,
+optional session
+on how to read academic papers will be offered by our chair on
+October 29, from 12:15 to 13:45, in Room 0.01, Building E1.7
+. The paper
+[A Simple Framework for Contrastive Learning of Visual Representations]
+will be used as an example. Please note that this room is shared with another seminar, which takes priority. As a result, seating is limited, and availability cannot be guaranteed.
+Building a tutorial I: Foundations, Definitions, and Research Questions (4 sessions)
+The goal of this stage is to establish a strong understanding of the foundations of the assigned topic. Students should introduce the key concepts, explain the foundational approaches in the literature, and identify the limitations and open questions that motivated subsequent research.
+Private group meetings (2 sessions)
+One private meeting per team (45 min).
+Two teams per session.
+Deliverables and expectations:
+Briefly walk the instructors through the slides planned for the first public presentation, covering the motivation, key concepts, foundational approaches, and research gaps.
+This is not a rehearsal!
+The goal is to review the slides and explain what the team plans to present and why.
+Explain the material clearly and demonstrate an understanding of the underlying concepts and methods.
+Be prepared to answer questions and discuss the limitations and assumptions of the approaches presented.
+Use the feedback received to improve the content and structure of the public presentation.
+Public presentation (2 sessions)
+One presentation per team (30 min for presentation + 15 min for Q&A).
+Two presentations per session.
+The presentation should cover
+:
+Motivation and problem framing
+:
+Why the topic matters, its applications, and the problem it addresses.
+Key definitions and concepts
+:
+Correct explanations, supported by intuition and examples.
+Foundational approaches
+:
+The main initial methods, their core ideas, and how they differ.
+Limitations and research gaps
+:
+The assumptions and limitations of the foundational approaches, and the open questions they leave unresolved.
+Building a Tutorial II: Evolution of the Topic and Current State of the Art (4 sessions)
+Building on Tutorial I, students should expand their presentation to explain how the field has evolved, how subsequent research has addressed the initial gaps, and what remains unresolved. The presentation should cover major developments, influential works, recent advances, and current research challenges. Teams should also develop their own perspective and draw reasoned conclusions.
+Tutorial II should not feel like a second, longer version of Tutorial I. While Tutorial I establishes the foundations and identifies research gaps, Tutorial II explains how the field has responded to those gaps and critically assesses its current state.
+Each team is expected to discuss
+at least 9 papers (a minimum of 3 papers per team member)
+, with possible exceptions for specific seminar blocks.
+Private group meetings (2 sessions)
+One private meeting per team (45 minutes).
+Deliverables and expectations:
+Present the planned slides for Tutorial II, including a revised introduction incorporating feedback from Tutorial I.
+Discuss the selected papers and explain how they relate to the research gaps identified in Tutorial I.
+Explain the contributions, methods, assumptions, results, and limitations of the selected papers.
+Identify remaining open questions and develop a critical perspective on the literature.
+Be prepared to discuss the material in depth and answer questions.
+Public presentation (2 sessions)
+One presentation per team (35 min for presentation + 10 min for Q&A)
+The presentation should cover
+Recap
+:
+A concise review of the essential foundations and research gaps from Tutorial I.
+Evolution of the field
+:
+A coherent storyline showing how the literature developed and how papers build on, differ from, or improve upon earlier work.
+Analysis of individual papers
+:
+The problem addressed, core method, intuition, assumptions, key results, and limitations of each paper.
+Remaining challenges
+:
+Specific open questions that follow from the literature.
+Own perspective and conclusions
+:
+A reasoned assessment of what has been achieved, what remains unresolved, and which future directions are promising.
+Topics
+Block 1 – Counterfactuals and Interventions
+Students will explore techniques for counterfactual reasoning and causal interventions, including counterfactual explanations, causal recourse, and feature-effect visualization methods. They will learn why ignoring causality can be misleading and how causal models enable intervention-consistent and actionable recommendations.
+Main instructor:
+Rickey
+Keywords
+: counterfactual explanations, causal recourse, causal interventions, Partial Dependence Plots (PDPs), Ceteris Paribus Plots.
+Sources - Seminal work:
+Interpretable Machine Learning: A Guide for Making Black Box Models Explainable (3rd ed.)
+Limitations of Interpretable Machine Learning Methods
+Counterfactual explanations without opening the black box: Automated decisions and the GDPR
+.
+On the relationship between explanation and prediction: A causal view
+.
+Algorithmic recourse: from counterfactual explanations to interventions
+.
+Block 2 – Attribution methods and Causality
+This block introduces fundamental post-hoc explainability methods, discusses their limitations, and interprets these limitations in causal terms. It further explores how causal reasoning can improve attribution methods.
+Main instructor:
+Nektarios
+Keywords
+: feature importance, variable importance under hidden confounding, SHAP values, causality
+Supplementary topics
+: Machine Learning - Additive Models (GAMs), Influential instances, influence functions, prototypes and criticisms, local surrogate models (LIME)
+Sources - Seminal work:
+Interpretable Machine Learning: A Guide for Making Black Box Models Explainable (3rd ed.)
+Limitations of Interpretable Machine Learning Methods
+A unified approach to interpreting model predictions.
+https://shap.readthedocs.io/en/latest/
+, or any other of the
+plethora
+of sources for SHAP.
+https://scikit-learn.org/stable/modules/permutation_importance.html
+Causal shapley values: Exploiting causal knowledge to explain individual predictions of complex models
+.
+Causal SHAP: Feature Attribution with Dependency Awareness through Causal Discovery
+.
+THE FAILURES OF MARGINAL INFLUENCE-BASED ATTRIBUTION METHODS FOR GLOBAL TIME SERIES EXPLANATIONS
+Doctor Rashomon and the UNIVERSE of Madness: Variable Importance with Unobserved Confounding and the Rashomon Effect.
+Block 3 – Concept Bottlenecks and Causality
+Introduce concept-based neural networks, such as concept bottleneck models, present their limitations and see how to introduce causality into them to alleviate their problems.
+Main instructor:
+Nektarios
+Keywords
+: concept bottleneck models, concept-based explanations, causal CBMs
+Sources - Seminal work:
+Concept bottleneck models
+Causally reliable concept bottleneck models
+Towards reasonable concept bottleneck models.
+Counterfactual concept bottleneck models.
+Block 4 – Representation learning and Causality
+How to move beyond statistical correlations toward representations that capture the underlying (interpretable) causal structure of the data.
+Main instructor:
+Rickey
+Keywords
+: causal representation learning, spurious correlations, interventions, causal concept-Based Representation Learning
+Sources - Seminal work:
+Representation learning: A review and new perspectives.
+Toward causal representation learning
+.
+Beta-VAE: Learning basic visual concepts with a constrained variational framework
+From causal to concept-based representation learning
+.
+Requirements
+This seminar is primarily aimed at master's students in Computer Science, Data Science and Artificial Intelligence (DSAI), or related fields, who have prior knowledge of machine learning. Participants are expected to have completed one or more courses related to machine learning, such as Machine Learning, Elements of Machine Learning, Linear Algebra, Neural Networks, or equivalent courses.
+Prior exposure to topics in explainability, causality, or trustworthy AI is beneficial but not strictly required. In particular, the seminars Explainable Machine Learning, Advanced Topics in Causality and Causal Machine Learning Research, Causethical ML and Trustworthy Machine Learning provide valuable background and will help students engage more deeply with the seminar material.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

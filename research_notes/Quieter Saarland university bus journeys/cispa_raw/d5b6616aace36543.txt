@@ -1,0 +1,592 @@
+Seminars - Seminar Assignment Winter 2026/2027
+The central registration for all computer science seminars will open on September 14th.
+This system is used to distribute students among the available seminars offered by the CS department. To register for any of the seminars, you have to apply here until October 14th, 20:00 CET. You can select which seminar you would like to take, and will then be automatically assigned to one of them by October 16th.
+Please note the following:
+We aim to provide a fair mapping that respects your wishes, but at the same time also respects the preferences of your fellow students.
+Experience has shown that particular seminars are more popular than others, yet these seminars cannot fit all students.
+Please only select seminars if you are certain that you actually do want to complete a seminar this semester. If you have already obtained sufficient seminar credits, or plan to take other courses this semester, please do not choose any seminars. Students who drop out of seminars take away places from those, who might urgently need a space or are strongly interested in the topic.
+We encourage those students who wish to take a seminar this semester, to select their preferences for all available seminars, which eases the process to assign students that do not fit the overly popular seminars to another, less crowded one. So if you are serious about taking a seminar this semester, please select at least three seminars (with priority from "High" to "Low").
+If you urgently need to be assigned to a seminar in the upcoming semester, choose at least five seminars (with priority from "High" to "Low"). The system will then prioritize you for assigning a seminar (yet not necessarily your top choice).
+If you are really dedicated to one particular seminar, and you do not want any other seminar, please select the "No seminar" as second and third positive option. However, this may ultimately lead to the situation that you are not assigned to any seminar. Also, choosing "No seminar" as second/third option does not increase your chances of getting your first choice.
+The assignment will be performed by a constraint solver. You will be added to the respective seminars automatically and be notified about this shortly thereafter. Please note that the assignment cannot be optimal for all students if you drop the assigned seminar, i.e., make only serious choices to avoid penalty to others.
+Seminars
+Advances in Hybrid Artificial Intelligence
+by Matthias Klusch, Andreas Nonnengart, André Antakli
+Hybrid AI research is concerned with the feasability and benefit of combining different methods from one or different subfields of AI such as machine learning including deep learning, AI planning, automated reasoning, vision, and multi-agent systems. One prominent form of hybrid AI is neuro-symbolic or neuro-explicit AI that strategically integrates the strengths of symbolic reasoning and planning of symbolic AI with the pattern recognition and learning capabilities of neural networks of sub-symbolic AI, including generative AI models.
+In this regard, neuro-symbolic AI aims to overcome the inherent limitations of symbolic AI such as  brittleness and the knowledge acquisition bottleneck, and sub-symbolic AI, such as opacity ("black-box"), data hunger, hallucinations, and lack of common sense or logic-based reasoning with provable correctness. Recently, neuro-explicit methods in Agentic AI for LLM-empowered perception, deliberation and acting of rational agents individually or jointly in dynamic environments has attracted increasing attention.
+In this seminar on hybrid AI, we will take a closer look at selected methods and systems for neuro-symbolic learning and AI planning, including generative AI model-assisted approaches in single agent and multi-agent settings, and discuss their strengths and weaknesses.
+The seminar takes place weekly on Tuesday from 16:15 - 18:00.
+The first (welcome/introductory) session with topic assignment will be held on Tuesday 20.10.2026.
+The topical seminar presentations and discussions start on Tuesday, 24.11.2026.
+For more information and the topic list (available on 1.8.2026), please visit the seminar webpage:
+https://www.dfki.de/~klusch/HAI-seminar-ws26
+Requirements:
+This seminar is primarily intended for advanced undergraduate and graduate students in computer science and DSAI. A solid foundation in artificial intelligence (ideally, completion and successful completion of introductory courses in AI, AI planning, machine learning, and generative AI, or sufficient knowledge in these areas gained from other sources) is required.
+Places:
+8
+Advances in Quantum Artificial Intelligence
+by Matthias Klusch, Antonio Macaluso
+Quantum computing [1] can simulate and even go beyond classical computing in terms of computational speedup in theory. Initial versions of real quantum computing hardware and frameworks for quantum programming became available only in about the past decade. On the other hand, artificial intelligence (AI) [2], not restricted to machine learning or generative AI, is commonly considered as one of the most disruptive key technologies of our time for industry and business, our private and social life, notwithstanding the challenges of its future, trustworthy and controlled use for the benefit of the people affected by it.
+Quantum Artificial Intelligence (QAI) [3, 4] is the intersection of both technologies and concerned with the investigation of the feasibility and the potential of leveraging quantum computing for AI, and vice versa, AI for quantum computing. In particular, QAI covers all subfields of AI in both directions, such as in quantum planning and scheduling (QPS), quantum natural language processing (QNLP), quantum computer vision (QCV), and quantum agents and multi-agent systems (QMAS). In this seminar on QAI, we will take a closer look at selected methods from various areas of QAI and discuss their advantages and limitations.
+The seminar takes place weekly on Thursday from 16:15 - 18:00.
+The first (welcome/introductory) session with topic assignment will be held on Thursday 22.10.2026.
+The topical seminar presentations and discussions start on Thursday, 26.11.2026.
+For more information and the topic list (available on 7.8.2026), please visit the seminar webpage:
+https://www.dfki.de/~klusch/AQAI-seminar-ws26
+Selected background references:
+[1]	Nielsen, M. A., & Chuang, I. L. (2010). Quantum Computation and Quantum Information. Cambridge University Press.
+[2]	Russell, S.  & Norvig, P. (2010). Artificial Intelligence: A Modern Approach. Third Edition. Pearson.
+[3] 	Klusch, M., Lässig, J., Müssig, D., Macaluso, A., & Wilhelm, F.K. (2024). Quantum Artificial Intelligence: A Brief Survey. Künstliche Intelligenz, 38(4). Springer.
+[4]	Acampora, G., Chiatto, A., Schiattarella, R., & Vitiello, A. (2026). Quantum Artificial Intelligence: A Survey. Computer Science Review, 59, Elsevier.
+Requirements:
+This seminar is primarily intended for advanced undergraduate and graduate students in computer science and DSAI. A solid foundation in AI and mathematics (particularly linear algebra) is required. Successful completion of one of our previous advanced courses on “Quantum Artificial Intelligence” is advantageous, but not mandatory.
+Places:
+8
+AI Safety
+by Yang Zhang
+As AI systems become increasingly powerful and integrated into critical aspects of society, ensuring they behave safely and reliably has never been more important. AI Safety is the interdisciplinary field focused on minimizing risks associated with AI, from algorithmic bias and system failures to the long-term challenges posed by advanced autonomous agents.
+In this seminar, we will explore the key technical, ethical, and societal issues related to AI safety. Topics include value alignment, robustness, and the governance of powerful AI systems. By the end of the seminar, students will gain a foundational understanding of how to assess and mitigate risks, design safer AI systems, and contribute to responsible AI development.
+Requirements:
+Students are required to have a basic understanding of data analysis and machine learning.
+Places:
+12
+AI Systems
+by Christina Giannoula
+This seminar covers core concepts and research developments in hardware/software infrastructure for large-scale AI model training, serving, and system optimization. AI infrastructure and system optimization are essential for improving the performance and energy efficiency of AI models, thereby enhancing not only quality of service and cost efficiency, but also unlocking new AI capabilities and applications. During the seminar, students will present research papers and prepare paper reviews based on a reading list provided at the beginning of the course; they may also participate in a semester project.
+Topics include: specialized AI accelerators; AI compilation and system optimizations; parallel programming techniques for GPUs; distributed training algorithms; runtime frameworks and engines for large-scale AI workloads; and efficient methods and systems for training, inference, and model serving. The goal of the course is to develop a deep understanding of the design principles behind next-generation AI systems and hardware platforms, and to explore the challenges in supporting emerging AI models.
+This is an advanced systems seminar integrating lectures, research paper discussions and reviews, and potentially a hands-on open-ended programming project. Students will explore research-oriented projects and present their findings through both written reports and oral presentations.
+Requirements:
+System Architecture, Operating Systems, Parallel Computing, Machine Learning
+Places:
+20
+Autonomous Offensive Security
+by Giancarlo Pellegrino
+LLMs and autonomous agents are changing the way security researchers hunt for bugs, analyze attack surfaces, and validate real vulnerabilities. Recent systems have shown increasingly strong capabilities in using tools, understanding targets, generating exploits, and automating parts of the vulnerability discovery workflow. This seminar explores this emerging frontier: autonomous offensive security.
+The goal of the seminar is for students to develop critical thinking about autonomous offensive security. Students will also gain a deeper understanding of vulnerability classes, study the state of the art in detecting and exploiting them, and identify where current approaches still fall short. Based on this analysis, each student will build their own autonomous agent for tasks such as vulnerability detection, validation, or exploitation.
+The seminar is organized around almost weekly meetings with discussions, presentations, and practical implementation and experimentation. Each student will work on a selected vulnerability class: they will study existing tools and recent research papers, identify one concrete open challenge, and implement an agentic solution that addresses it. The agent will be evaluated on selected targets, and the results will form the basis of the final seminar report.
+Requirements:
+Students without a background in computer security will likely find this seminar particularly challenging. The same applies to students without a hands-on attitude toward security, systems, and software development, as the seminar involves both reading research papers and building/evaluating an autonomous security agent.
+When applying, students must clearly state their current background in security in the motivation box, including relevant security courses and university projects.
+Places:
+6
+Brain-Computer Interaction
+by Maurice Rekrut, Hector Romero Morales, Taisiia Ulianova & Antonio Krüger
+Brain-Computer Interfaces (BCI) have been a widely researched topic for the last 20 years. BCIs make use of brain activity to create controls for computers or machines in general. The most common approach to establish such a connection between computer and brain is to measure the electrical activity of the brain at the scalp surface, via Electroencephalography (EEG). Those EEG devices are non-invasive, comparably cheap and can nowadays even be used with dry electrode caps, which makes them easy to setup. Within this seminar you will learn about different techniques and types of BCIs and work on EEG data that was recorded during a BCI task.
+The seminar begins with introductory lectures covering various Brain-Computer Interaction (BCI) techniques, as well as the basics of EEG and BCI signal processing, which will provide the necessary foundation for your project's implementation. After indicating your topic preferences, you will be assigned to a group to conduct foundational literature research on the state-of-the-art for your specific task. Building on this research, your team will develop a conceptual overview and a general idea for how to approach the project. You will then share this in a 20-minute presentation covering the core problem, relevant background studies, and your proposed approach. Once your concept is discussed and approved, you will transition to working directly with EEG data to solve the given task. To support you, we will provide the necessary datasets, basic software components, and a tutorial on standard processing methods. The seminar will conclude with each group giving a short demonstration of their work and presenting their final results in a talk.
+Requirements:
+No formal requirements, however, basic knowledge in Python programming, Machine Learning and Signal processing might be helpful.
+Places:
+12
+Causal XAI
+by Isabel Valera
+This seminar explores the intersection of causality, explainability, and interpretability in modern machine learning. While traditional methods often rely on statistical associations to understand model behavior, causal approaches aim to uncover the underlying cause-and-effect mechanisms that drive predictions and decision-making. The seminar explores the promises and challenges of causality in Explainable AI (XAI) through the following thematic blocks:
+Block I: Counterfactual explanations and Causal Interventions
+Block II: Attribution Methods and Causality
+Block III: Concept Bottleneck and Causality
+Block IV: Representation learning and causality
+Students will be divided into four teams (one team per seminar block). Each team will work collaboratively throughout the seminar, guided by the instructors, to conduct a literature review on their assigned topic. The final goal of each team is to prepare and deliver a tutorial that introduces the topic, explains its evolution over time, and discusses the current state of the art.
+The seminar will take place on Tuesdays, 12:00 to 14:00h.
+The seminar information is being updated  here:
+https://cms.sic.saarland/causxai/
+Requirements:
+This seminar is primarily aimed at master's students in Computer Science, Data Science and Artificial Intelligence (DSAI), or related fields, who have prior knowledge of machine learning. Participants are expected to have completed one or more courses related to machine learning, such as Core Machine Learning, Elements of Machine Learning, Linear Algebra, Neural Networks, or equivalent courses.
+Prior exposure to topics in explainability, causality, or trustworthy AI is beneficial but not strictly required. In particular, the seminars Explainable Machine Learning, Advanced Topics in Causality and Causal Machine Learning Research, Causethical ML and Trustworthy Machine Learning provide valuable background and will help students engage more deeply with the seminar material.
+Places:
+12
+Computer Architecture
+by Abdullah Giray Yaglikci and Michael Schwarz
+This seminar covers cutting-edge and seminal research papers, focusing on fundamental research problems in the field of computer architecture. Relevant topics include: security and reliability of microarchitecture, memory, and storage, new and emerging paradigms in computer architecture (e.g., data-centric processing), energy efficiency, hardware/software co-design, and fault tolerance.
+Course Website for Summer 2026 :
+https://cms.cispa.saarland/comparch_s26/
+Requirements:
+A strong foundation of computer architecture is needed for this seminar.
+Places:
+8
+Coping with computational hardness: approximation, moderately exponential-time, and parameterized algorithms
+by Daniel Marx
+Most optimization problems and combinatorial search problems are NP-hard, hence we do not expect to be able to find polynomial-time algorithms to solve exactly. But even for such problems, it is still possible to prove rigorous theoretical results that show the existence of algorithms that solve the problem more efficiently than naïve or brute force approaches. Approximation algorithms do not provide an optimal solution, but there is a provable bound on the quality of solution they find. The field of moderately exponential-time algorithms designs algorithms that searches a much smaller (but still exponential) solution space than brute force algorithms do. The running time of a parameterized algorithm is polynomial in the input size, but possibly exponential (or worse!) in some well-defined parameter of the input.
+Designing algorithms of this form often requires deep insights into the nature of the problem and clever algorithmic/combinatorial ideas. In this seminar, we will read, present, and discuss research results with the goal of seeing how these algorithmic paradigms can be applied problems in different domains.
+Seminar webpage:
+https://cms.cispa.saarland/algseminar_26/
+Requirements:
+A solid background in algorithms and some familiarity with concepts in optimization is necessary for this seminar, as well as a general affinity towards mathematical proofs.
+Places:
+10
+Cybersecurity in Organizational Practice
+by Jonas Hielscher, Ben Stock
+In this seminar, we will learn how cybersecurity is practically implemented in organizations (enterprises, public agencies, NGOs, etc.) and discuss why academic cybersecurity concepts are often not followed in practice. We will read and discuss papers on cybersecurity in organizations, frequently utilizing human-centered research methods such as interviews, surveys, focus groups, and case studies.
+We will read various recent scientific publications on cybersecurity in organizational practice and foundational papers, some of which have been around for over two decades. We will discuss those papers in the seminar based on presentations by student (teams). Throughout the seminar, we will reflect upon our own (current and future) experience with cybersecurity in organizational practice. We will learn to negotiate cybersecurity strategies with other stakeholders in our future professions.
+https://cms.cispa.saarland/orgsec26/
+Requirements:
+Deep interest in empirical cybersecurity. Strong motivational statement. In the past we had hundreds of applicants and selected those with the strongest motivational statements that were not boringly AI-generated.
+Places:
+15
+Data and Society
+by Ingmar Weber, Ankan Mullick
+From finding a mate, to booking a holiday, our lives are increasingly mediated by online platforms. Digital traces left by these interactions provide opportunities to study societal phenomena while creating challenges around the responsible use of data. In this seminar, students will learn how computational methods and machine learning can be applied to study society through such data.
+The first part of the seminar will familiarize students with existing work in computational social science. Each week, we will focus on a different topic such as “Digital Democracy” or “Gender Gaps” and explore methods to quantify these phenomena. The second part of the seminar will be about projects in which students are asked to quantify a societal phenomenon of their choice using computational methods. Here, students can both propose topics or choose from topics defined by the lecturers.
+The overall course performance will be based on (i) overall course participation, (ii) assigned paper presentations, (iii) a project pitch and (iv) the written project report.
+Apart from learning about interdisciplinary research and applications of machine learning, students will also learn research skills such as how to read and discuss papers, how to plan a project, how to present their work, how to write a scientific paper, and how to work in teams.
+Students can take this course as a seminar.
+Future details at
+https://cms.sic.saarland/das_26/
+. Timing is Fridays, 10am-12am.
+Requirements:
+Msc students only – the project-based element of the seminar will require some Python programming and data analysis experience.
+An interest beyond the foundations of CS, and caring about societal problems is a must.
+Places:
+12
+Deep Learning Efficiency: Smarter AI, Not Just Bigger
+by Rebekka Burkholz
+Deep learning is behind many of today’s most exciting AI breakthroughs — from ChatGPT and self-driving cars to drug discovery and image generation. But there's a catch: these advances often come with massive computational and memory costs, putting them out of reach for all but the biggest tech companies.
+How can we make cutting-edge AI more efficient, accessible, and sustainable?
+In this seminar, we’ll explore recent strategies that aim to make deep learning smarter, not just bigger. We’ll read and discuss cutting-edge research papers that tackle key questions like: Can smaller models perform just as well as massive ones? How can we train and run AI systems using less data, time, and compute? What are "lottery tickets" in neural networks — and why do they matter?
+You’ll gain insights into theoretical foundations, practical techniques, and current challenges in building efficient AI systems. Whether you're interested in ML research, want to build powerful models on a budget, or are just curious about the future of AI beyond scale — this seminar is for you.
+More information can be found here:
+https://cms.cispa.saarland/dle26/
+Requirements:
+The course has no formal requirements but preference will be given to Master students in Computer Science and related fields with prior knowledge in deep learning and a convincing motivation.
+Places:
+14
+Designing Human Oversight of AI for "Good Work": a research seminar
+by Anna Maria Feit, Cedric Faas
+In recent years, AI systems have rapidly advanced in autonomous task performance and are increasingly deployed in workplace settings, including software development, customer support, logistics, content moderation, and education. As a result, organizations increasingly face the question of whether tasks should be performed by human workers or delegated to AI systems. However, there are still reasons to employ human workers. Human involvement is often justified by superior ethical reasoning, increased trust and accountability, and complementary strengths that can improve joint human–AI performance. These factors are crucial, particularly in high-risk domains such as healthcare, law, finance, and education. Consequently, many regulatory frameworks and organizational guidelines mandate human oversight of AI systems. As AI systems increasingly perform core work tasks, human workers are required to collaborate with and oversee these systems, rather than doing the job themselves. This can quickly lead to an unfulfilling and unenjoyable work environment. Thus, the sociotechnical design of human oversight must understand their effects on workers and aim to safeguard long-term well-being.
+The goal of this seminar is to investigate how human oversight interfaces and interactions can be designed to support a fulfilling and enjoyable work environment. You will work in groups of 2-4 students and design, implement, and evaluate a user interface or oversight interaction that supports one of five characteristics (stimulating, mastery, autonomy, relatedness, tolerable) that contribute to “good work”. We will have weekly mandatory in-person meetings where you either work on your project in your group or present your progress in short presentations. The findings will contribute to foundational insights into how effective and fulfilling human oversight can be designed. The results may inform the design of future oversight systems, including high-stakes domains such as education, finance, healthcare, or law. If the individual projects are successful, the goal is to publish the combined findings from the seminar at a scientific conference and students can decide whether they want to actively contribute to the publication after the seminar.
+Monday, 2-4PM
+Requirements:
+Passed HCI lecture or equivalent
+Very good programming skills (e.g., Web-based, Python)
+Experience or strong interest in conducting empirical user studies and data analysis
+Short motivation statement in which you describe why you are interested in this seminar (Not written with AI!).
+Places:
+20
+Does Copilot Really Understand my Code? Methods for Mechanistic Interpretability of LLMs
+by Sven Apel, Kingsley Kuan, Anna-Maria Maurer, Youssef Abdelsalam
+Code LLMs have become ubiquitous in software understanding and development. However, despite their increasing integration into development workflows, they remain black-box models. What do these AI models actually understand about code, and what methods can we use to peek under the hood? What correlational and causal relationships or characteristics can be identified?
+In this seminar, students will read and critically discuss papers about methods for mechanistic interpretability, as well as familiarize themselves with these methods in short demos. Throughout the semester, they will formulate research questions targeting assigned topics centering diverse aspects of code, design small experiments for these questions using these methods, and then apply them to analyze what code LLMs represent internally and how information flows through the transformer architecture. Each student will be supported by a dedicated advisor and receive feedback throughout the semester. The seminar concludes with a final report and research presentations in which each participant presents their results and reflects on their implications.
+Kick-Off Meeting: Thursday, 22 October 2026
+The seminar takes place during the semester on Thursdays from 12:00 - 14:00 (~12 sessions in sum) and in addition final presentation sessions during the lecture free period.
+Participation in all sessions is mandatory, as is the submission of all assignments.
+For further information, please visit:
+https://cms.sic.saarland/se_seminar_ws_2627/
+Requirements:
+This seminar is open to motivated Bachelor and Master students who are eager to understand the inner workings of LLMs while critically and empirically examining their behavior. Prior knowledge of LLMs and transformer architectures is recommended, along with general programming experience.
+Places:
+12
+Explainable Machine Learning Seminar (ExML)
+by Jonas Fischer, Bernt Schiele
+In this seminar we will discuss different methodologies in Explainable Machine Learning, which is concerned with understanding what information a Machine Learning system learned and how it uses this information for decision-making. We cover both seminal works as well as recent advancements in the field, including post-hoc explainability approaches and inherently interpretable model designs.
+The seminar will consistent of an introductory meeting with a lecture at the beginning of the semester introducing the field and distributing papers, and a three-day block course in the semester break covering paper and project presentations and discussions. Students are expected to read into their assigned paper, the related literature, prepare a talk, a paper summary with critical discussion, and conduct a practical project around their topic.
+Homepage: TBA
+Requirements:
+The student has a solid understanding of Machine Learning and feels comfortable with Neural Networks (for example through lectures High Level Computer Vision, Neural Networks: Theory and Implementation, or Machine Learning).
+Places:
+14
+Fixed Point Theory
+by Benjamin Kaminski, Tobias Gürtler, Lucas Kehrer, Lena Verscht, Anran Wang
+Are you passionate about logic, semantics, and mathematical foundations of computer science? Are you fascinated by self-reference, recursion, and iteration? Then come and study fixed point theory, a central and unifying theme across logic, verification, and theoretical computer science, but also other areas like social sciences and economy.
+Fixed points arise whenever definitions, programs, or systems are given recursively. Fixed point theory provides the mathematical tools to reason about existence, uniqueness, approximation, and computation of such solutions, and underpins large parts of semantics and verification.
+Topics which we will cover include:
+- Fixed points in order theory and lattice theory
+- Metric fixed point theory
+- Iterative methods and convergence to fixed points
+- and many more
+The website can be found here:
+https://quave.cs.uni-saarland.de/teaching/teaching-ws-2026-2027/fixed-point-theory-ws-26-27/
+Requirements:
+The most important requirement: You should really really like math and/or logic. This seminar covers very theoretical work.
+The following courses are highly recommended.
+Highly Recommended: Programmierung 1, Programmierung 2, Grundzüge der Theoretischen Informatik
+Recommended: Semantics; Introduction to Computational Logic; Automata, Games and Verification;
+Ideal: Verification
+Places:
+8
+Foundation Models of the Human Mind
+by Mariya Toneva
+Recent advances in foundation models have transformed how we build artificial systems capable of processing and reasoning over language and visual input, raising new opportunities for understanding the computational principles underlying human cognition. This seminar explores the emerging field of foundation models for the human mind: models that learn from large-scale behavioral or neural data to capture, predict, and characterize aspects of human perception, cognition, and brain function. We will examine the technical foundations of these models, discuss desiderata for scientifically useful models of human behavior and the brain, and critically evaluate their potential for advancing discovery in cognitive science and neuroscience.
+Students will engage with recent research papers and develop individual projects that integrate foundation models with real human data, such as behavioral measurements or brain recordings, to investigate questions about representation, prediction, and mechanisms of the human mind.
+The course-related meetings will be on Thursdays, 10-12.
+Requirements:
+This seminar is primarily aimed at graduate students in Computer Science, Data Science,  Artificial Intelligence, or Language Technologies, and related fields, who have prior knowledge of machine learning. Participants are expected to have completed one or more courses related to machine learning, such as Core Machine Learning, Elements of Machine Learning, Linear Algebra, Neural Networks, or equivalent courses. The course is suitable for students who are interested in related topics such as neuroscience, psychology, and natural language processing.
+We are requesting you to provide a short motivation letter explaining the reasons why you are interested in taking this seminar. In this motivation letter, you can also mention any relevant project(s) you have done and any relevant courses you have taken. Please provide this information in the Motivation text box.
+Places:
+20
+From Research Ideas to Empirical Study Designs in Human–AI Interaction
+by Bingyi Han, Tomohiro Nagashima
+This seminar is designed for students who have a research idea, or even just a broad curiosity, and want to learn how to turn it into a concrete empirical study design in Human–AI Interaction. The goal is to help students move from a broad research interest to a clear, feasible, and well-justified study design that can serve as the basis for a master’s thesis or doctoral research proposal.
+The seminar covers key stages of empirical research design, including identifying a research problem, conducting a critical literature review, formulating research questions, comparing methodological approaches, designing studies, and articulating expected contributions. The seminar will also touch on critical and creative thinking as important foundations for research design: how to evaluate existing work carefully, generate original ideas, and turn them into meaningful study designs.
+This seminar will be highly interactive and activity-based. It will combine short teaching inputs, paper discussions, hands-on activities, peer feedback, and research proposal development workshops. Students will read and discuss selected papers from Human–AI Interaction and related HCI research, while gradually developing their own empirical research proposal throughout the semester.
+By the end of the seminar, students are expected to have a structured proposal draft and a clearer understanding of how to design an empirical study from the initial idea to a concrete research plan.
+See more info:
+https://lala.cs.uni-saarland.de/teaching/
+Requirements:
+Students should have an interest in Human–AI Interaction, HCI, empirical research, or human-centered design. No advanced technical background is required.
+More importantly, students are expected to bring a curious mind: curiosity about people, technology, society, or the world more broadly. Since this seminar will be highly interactive and activity-based, students should be willing to actively participate in discussions, workshops, peer feedback, and proposal development exercises. It is especially suitable for students who are considering a research-oriented path, such as a master’s thesis, PhD, or research-related position.
+*If you completed HCI lecture, let us know in your motivation statement
+Places:
+12
+Game Development with Agents
+by Adish Singla
+The course will explore how generative AI agents can be leveraged for the development of arcade-style games using Python. The course will consist of several hands-on components related to different stages of game development. The course-related meetings will be on Tuesdays, 10-12.
+Requirements:
+There are no formal requirements; however, please note the following points:
+(1) The course is suitable for students who are interested in related topics such as human-computer interaction, generative AI, and software engineering.
+(2) We are requesting you to provide a short motivation letter explaining the reasons why you are interested in taking this seminar. In this motivation letter, you can also mention any relevant project(s) you have done and any relevant courses you have taken. Please provide this information in the Motivation text box.
+Places:
+6
+Hack a SAT
+by Ali Abbasi
+Satellite systems combine several demanding security domains, and Capture the Flag (CTF) competitions are a practical way to explore them by designing, implementing, and solving realistic security challenges. This seminar focuses on creating high-quality challenges for a satellite- and space-themed CTF. Students learn what makes a challenge well-designed and playable, how the surrounding infrastructure works, and how to document an intended solution clearly.
+Each student develops one challenge over the course of the semester, grounded in real systems, protocols, and documented vulnerabilities, to ensure a realistic technical setting. Students give an early presentation on their challenge idea and receive feedback, then present the finished challenge at the end of the seminar. Each submission includes the challenge files, deployment instructions, hints where appropriate, and a written description of the intended solution. In a closing session, students play the resulting CTF and attempt to solve the challenges created by their peers, which also serves to evaluate each challenge's quality and playability.
+More info:
+https://cms.cispa.saarland/hackasat/
+This seminar is being offered by the Embedded Systems Security Group (EMSEC):
+https://group.cispa.io/abbasi/
+Requirements:
+1. Good Cybersecurity/Penetration Testing background
+2. Good programming skills
+3. Prior CTF experience is helpful
+Places:
+16
+Hot Topics in Data Networks
+by Anja Feldmann, Ha Dao Thi Thu
+While the Internet has started as a research effort, it has consistently evolved throughout the decades into the largest commercial network. Today, many research efforts focus on understanding the Internet's structural trends, optimizing its packet delivery, and laying the foundations for its future developments. In this seminar, you will receive a closer look at bleeding-edge research published at the top conferences in our domain. Discussing state-of-the-art approaches and recent findings from a broad range of network-related topics with your peers and instructors will provide you with a deep understanding of your assigned topic. Preparing the accompanying research survey and topic presentation will not only strengthen your academic reading and writing skills but also help you to present your future work in a more accessible and structured way.
+Requirements:
+Participants should have successfully completed "Data Networks" or an equivalent course.
+Places:
+15
+Human-AI Co-Creativity
+by Adish Singla
+The course will provide an overview of state-of-the-art research on generative AI, creativity, and human-AI co-creation. We will cover topics based on a recent ICML’26 workshop we are co-organizing (workshop link:
+https://genaicreativity.org/icml2026/
+).
+The course will consist of several components, including research papers, a project,  and a final presentation.
+The course-related meetings will be on Tuesdays, 10-12.
+Requirements:
+There are no formal requirements; however, please note the following points:
+(1) The course is suitable for students who are interested in related topics such as human-computer interaction, educational technologies, psychology, generative AI, natural language processing, and software engineering.
+(2) We are requesting you to provide a short motivation letter explaining the reasons why you are interested in taking this seminar. In this motivation letter, you can also mention any relevant project(s) you have done and any relevant courses you have taken. Please provide this information in the Motivation text box.
+Places:
+6
+Humans and Trustworthy AI Systems
+by Lea Schönherr, Maximilian Golla
+This seminar explores the relationship between humans and trustworthy AI systems, focusing on transparency, fairness, accountability, privacy, and human oversight. Students will examine how AI can be designed, evaluated, and governed to support human values and foster trust in real-world applications.
+Seminar webpage:
+https://cms.cispa.saarland/htai/
+Requirements:
+Background in at least two of these: Machine Learning, Security, and Human-factors
+Places:
+12
+Intelligent Multimodal Interaction in Augmented Reality
+by Radha Kumaran, Ashwin Ram, Jürgen Steimle
+Augmented Reality (AR) systems are rapidly expanding beyond visual overlays, with off-the-shelf AR devices increasingly supporting a broader set of interaction modalities including audio, gaze, and gesture. Recent advances in AI have also created new opportunities to make multimodal AR experiences more context-aware and adaptive. This seminar will explore the potential for leveraging multimodality to design AR systems and experiences that are more effective and intuitive than their unimodal counterparts. Through a combination of paper readings, discussions, and a design task, students will learn to critically read, situate, and build on the state of the art in intelligent multimodal AR.
+Kickoff session: Thursday, October 22nd.
+The seminar takes place on Thursdays from 10:00-11:30.
+Participation in all sessions is mandatory.
+Requirements:
+This is an HCI-centric course. Participants must have completed at least one of the following courses (or an equivalent course at another university): the core lecture “Human-Computer Interaction” or the lecture “Interactive Systems”.
+Places:
+10
+Interpreting and Analyzing Neural Language Models
+by Xinting Huang, Michael Hahn
+Despite their huge success, neural networks are still widely considered “black-boxes”. In this seminar, we will look into interpretability methods that aim to demystify these models. We will focus on post-hoc interpretability for transformer-based language models, and work on relatively young and burgeoning fields such as Mechanistic Interpretability, which focuses on reverse-engineering model components into human-understandable algorithms. We will read recent papers that involve a diverse set of techniques for interpreting the inner-workings of language models
+See the course website for more:
+https://lacoco-lab.github.io/courses/interpreting-2026
+Final decisions will be made by the end of the first week of Winter semester.
+Requirements:
+Required: Background in machine learning.
+Recommended: Background in natural language processing.
+Places:
+12
+Living AI-ducation Dashboard
+by Tomohiro Nagashima, Sarah Malone
+The rise of artificial intelligence (AI) is transforming everyday lives, including education, and it requires us to have a deep understanding of research insights into its applications and implications in the field. This seminar aims to equip students with the knowledge and skills needed to critically analyze AI in education and contribute to this evolving field. The seminar is jointly taught by Prof. Dr. Tomohiro Nagashima in the CS department and Dr. Sarah Malone in the Education Science department, and it targets students in both departments!
+During the seminar, students will collaboratively design and develop a “Living AI-education Dashboard,” a dynamic resource that summarizes and visualizes current research, trends, and data on AI in education. Through project-based learning, students will gain hands-on experience in data visualization, dashboard development, dashboard design, and research methods (e.g., how to conduct systematic literature review). Students may also be testing the dashboard with “real” stakeholders. They will also develop interdisciplinary thinking by integrating concepts from both computer science and education science and through collaborations across the domains. The course is taught by an interdisciplinary team that encourages collaboration between departments and prepares students to tackle complex, real-world problems.
+See more info:
+https://lala.cs.uni-saarland.de/teaching/
+Requirements:
+None, but those with experience of developing visualizations would be prioritized (if you have experience with data vis, indicate it in the motivation statement).
+Places:
+6
+LLM-based Multi-Agent Systems
+by Goran Radanovic
+Large Language Models (LLMs) are increasingly deployed not as isolated systems but as interacting agents that simulate social processes, collaborate on complex tasks, engage in strategic interactions, and coordinate their behavior. Recent research has explored LLM-based multi-agent simulations of human and social dynamics, mechanisms for effective collaboration and orchestration, strategic reasoning in games and negotiations, and the risks that can emerge from interactions among autonomous agents.
+This seminar explores recent advances in LLM-based multi-agent systems across four main areas: multi-agent simulation, multi-agent collaboration, games and strategic reasoning, and multi-agent risks and safety. The seminar combines discussions of recent research papers, student presentations, and project-based work.
+Seminar webpage:
+https://llm-mas-w2026.mpi-sws.org
+Requirements:
+The seminar is open to BSc, MSc, and PhD students with prior experience in AI, machine learning, or related subjects.  Applicants are asked to submit a short motivation statement outlining their interest in the topic and any relevant prior experience with AI, machine learning, or related subjects.
+Places:
+12
+Machine Learning for Language Processing
+by Dietrich Klakow
+Deep learning is the predominant machine learning paradigm in language processing. In this seminar we will focus on generic algorithms for language models as well as their application to a variety of languages and other string data eg from bioinformatics.
+For more information and the specific list of topics see:
+https://www.lsv.uni-saarland.de/block-seminar-machine-learning-for-language-processing-spring-2027/
+Requirements:
+Strong background in ML (ELM, core ML, NNTI or comparable)
+Places:
+8
+Machine Learning for Molecular and Materials Simulations
+by Viktor Zaverkin
+Molecular and materials simulations are central tools for understanding and predicting the behavior of complex atomistic systems. However, they are often limited by three key bottlenecks: accurate and efficient force evaluations, efficient sampling of rare configurations, and reaching experimentally relevant time and length scales. This seminar studies how modern machine learning approaches address these bottlenecks through machine-learned interatomic potentials, generative sampling methods, and accelerated molecular simulations.
+Topics may include descriptor-based and equivariant machine-learned potentials, transformer-based and foundation models for atomistic systems, classical and generative approaches to free-energy sampling, and machine learning methods that directly accelerate molecular dynamics simulations. Students will read and discuss recent research papers, present selected methods, and critically assess their strengths, limitations, and physical reliability.
+Homepage:
+https://viktorzaverkin.github.io/ml4sim-ws26_27/
+Requirements:
+Students should have a basic background in machine learning and scientific computing, including familiarity with linear algebra and statistics. Prior knowledge of molecular dynamics, statistical mechanics, quantum mechanics, or free-energy methods is helpful but not required.
+Places:
+12
+Movement Transfer and Human-Machine Improvisation via Body-actuating Technologies for Artistic Performance
+by Martin Hennecke, Marie Muehlhaus, David Wagmann, Jürgen Steimle
+Technologies actuating the body, such as exoskeletons, have the potential to physically connect performers, musicians, and audiences, creating novel opportunities for artistic interaction. This block seminar explores the development of wearable systems that transfer movement across performers via body-actuating devices in real time, play back algorithmically defined motion patterns, and extend toward AI-driven improvisation.
+The seminar addresses two perspectives: a technical one, focused on building a functional prototype covering aspects such as 3d printing, motor control, latency, and safety; and a conceptual one, investigating which movement forms, feedback types, and interface designs are artistically viable. Prototypes build on an existing exoskeleton toolkit [1], which students will further develop throughout the course. The seminar is supervised by advisors from human-computer interaction, human-robot interaction, and arts & music, and targets bachelor and master students in media informatics, computer science, and related fields.
+The seminar will take place as a block seminar at the end of the winter term. The kickoff session will be held on January 25 at 5 pm. Participants will then engage in a full-time project phase from February 22 to March 12, complemented by introductory lectures on artistic aspects of movement augmentation & transfer, AI and agency,  and exoskeleton-based interactions. Throughout this period, office hours will be available to support the projects. The seminar concludes with a final presentation in form of an interactive showcase on March 24 at 2 pm. Participants are expected to deliver a functional and reliable prototype together with clear documentation and be present on-site during the seminar.
+[1]
+https://hci.cs.uni-saarland.de/projects/exokit/
+Requirements:
+- Students should have passed at least the Interactive Systems and/or Human-Computer Interaction course
+- Experience with electronics, e.g., Arduino, and 3d printing are useful
+- Creativity
+- Willingness to work collaboratively
+- Availability in lecture-free time
+Places:
+15
+Performance Analysis and Data Science
+by Pascal Bauer
+This interdisciplinary course combines data science approaches with sport science knowledge. It is particularly aimed at students with a programming background who are interested in data analytics in high performance sport. For students from the CS department, a customised learning pathway will primarily focus on the advancing and extending performance metrics in real-world applications, including more sophisticated programming tasks and additional project work. Through lectures, presentations, and practice-oriented analytical projects, students examine and further develop established performance metrics across sports, such as Expected Goals and Strokes Gained with a focus on their practical relevance and application.
+The detailed course description and semester plan can be found via
+https://www.uni-saarland.de/fileadmin/upload/fachrichtung/swi/Sports_analytics/Course_overview/PADS_SICSubmission_SlideDeck_1.pdf
+Requirements:
+For students from the CS department, knowledge in programming (Python or R) is required.
+Places:
+30
+Privacy Systems and Applications Seminar
+by Wouter Lueks and Sylvain Chatel
+As technology becomes prevalent, we carry more and more devices everywhere we go and our digital trail becomes more and more pronounced. On the one hand, digitalization brings enormous benefits. On the other hand, it makes it almost much easier to violate user's privacy, to surveil large fractions of a population, and sometimes even to control or influence what people do and think.
+In this seminar, we will look at privacy-enhancing technologies, digital means that can help counteract this reduction in privacy caused by increasing digitalization. We will read and discuss new and seminal papers to learn about new techniques and ideas in the field of privacy-enhancing technologies. You will learn how to critically analyze and present existing research papers, emulate a small scale conference, and think about your own research ideas.
+Example of topics covered include: Systems for End-to-End Privacy, Anonymous Communication Systems, Private Set Intersection, Private Information Retrieval, Fully-Homomorphic Encryption, Censorship Resistance Systems.
+Students will present, write reviews, and write a survey paper. See
+https://cms.cispa.saarland/psas26/
+for a full overview.
+Requirements:
+Basics of cryptography and security: required
+Advanced cryptography and PETs: strongly recommended
+Places:
+10
+Program Synthesis
+by Rayna Dimitrova
+Program synthesis is the task of automatically generating programs that fulfill a user’s intent, expressed through high-level specifications such as input/output examples, logical formulas, or partial program sketches. Program synthesis aims to allow developers to focus on describing what a program should do, while leaving the tedious and error-prone implementation details to automated tools. Program synthesis has been a topic of interest at the intersection of programming languages, formal methods, and artificial intelligence since the 1960s, and is one of the long-standing dreams of computer science. While it has been considered impractical for a long time, recent advances in automated reasoning, formal verification, and inductive machine learning-based approaches have led to remarkable progress towards achieving this dream. Today, program synthesis can generate small but useful programs for automating repetitive tasks, solving programming exercises, and performing complex data wrangling.
+In this seminar, we will study the foundations of program synthesis, covering the main synthesis techniques. Participants will read and critically discuss the state-of-the-art research papers in this field, gaining a comprehensive understanding of the current landscape, recent breakthroughs, and the open challenges driving ongoing research.
+Requirements:
+There are no formal requirements, but prior knowledge of automated reasoning, formal verification, or program analysis will be helpful.
+Places:
+14
+Real-Time Control of Underwater Robots
+by Martina Maggio
+Underwater robots operate in one of the most demanding settings in all of robotics. There is no GPS to localise them, the hydrodynamic forces acting on them are strongly nonlinear and only partially known, and disturbances are everywhere: underwater currents, surface waves, and buoyancy that shifts with salinity and payload. On top of this, the vehicle must make every decision on its own, in real time, on limited onboard hardware. The distance between an elegant controller on paper and one that actually keeps a robot on course in the water is large, and bridging it is a genuinely open and active research problem.
+This seminar examines how that gap is being closed. Through a set of papers, spanning foundational work from the 2010s to results from the last two years, we will study the control methods that let autonomous underwater vehicles (AUVs), remotely operated vehicles (ROVs), and vehicle–manipulator systems hold position, track trajectories, and stay safe despite uncertainty and disturbance.
+The papers form a coherent arc across the main families of approaches:
+- Robust and adaptive control: classical feedback designs that remain stable when the vehicle model is inaccurate, which underwater it always is.
+- Predictive control: methods that anticipate future disturbances and plan control actions over a horizon, including for docking and manipulation tasks.
+- Safety-critical control: techniques that provide formal guarantees a vehicle will not violate safety constraints, for example when operating close to a structure.
+- Learning-based control: recent reinforcement-learning and sim-to-real approaches, where policies are trained in simulation and transferred to real vehicles, and where learning is combined with classical control architectures.
+Throughout, the methods are tied to real platforms and tasks: AUVs validated in open water, an ROV cleaning an offshore monopile, a vehicle docking with a moving station, and an underactuated AUV performing agile manoeuvres near a glacier front.
+However, this is not only a literature review. Our concrete aim is to identify a few control methods that we can realistically implement on our own ROV (a vehicle that is currently operated manually and that we would like to turn into an automated system). The seminar therefore doubles as the groundwork for a real implementation decision: by the end, the group should be able to argue, on the basis of the literature, which approaches are the most promising candidates to put into practice.
+The seminar follows a scientific-discussion model in which we collectively build an understanding of the field and its related work:
+- Introductory session. We give an overview of the topics, discuss how the papers fit together, and assign one paper to each student.
+- Presentations. Each student reads their assigned papers in depth and prepares a  presentation explaining the problem they address, their core idea, and their results.
+- Prepared discussion. For every presentation, the other students read the same paper in advance and prepare questions. Each session is therefore a genuine  scientific discussion rather than a one-way talk.
+By participating, you will learn how to read and critically assess a research paper, how to identify the key idea behind a technical contribution, and how to present and defend it in front of others, while contributing to a shared practical goal. Attendance is mandatory.
+Additional information will be posted at
+https://cms.sic.saarland/underwater_2627/
+Requirements:
+Curiosity about robotics and control, and a basic mathematical background, are sufficient. The core lecture cyber-physical systems is a plus. No prior experience with underwater robotics is required.
+Places:
+16
+Representation Learning: Foundations and Challenges
+by Isabel Valera
+Representation learning refers to a family of methods that enable models to automatically discover informative representations of data. Designing models that operate directly on raw inputs (such as pixels, waveforms, or text tokens) is often challenging: these inputs are high-dimensional, the underlying factors of variation are entangled, and the information relevant to a given task typically constitutes only a small fraction of the observed signal. Representation learning addresses this challenge by learning transformations that map raw inputs into a representation space where the relevant structure of the data becomes more explicit and easier to exploit. When successful, these learned representations can be more informative than the original inputs and support a wide range of downstream tasks, such as classification, retrieval, and generation.
+This seminar is organized around the central question: how do training objectives shape learned representations? More specifically, we will study the types of structure that different learning objectives induce in the representation space. To explore this question, the seminar is divided into four thematic blocks:
+Block 1 – Generative Models
+Block 2 – Contrastive Learning
+Block 3 – Disentanglement
+Block 4 – Causal Representations
+Students will be divided into four teams (one team per seminar block). Each team will work collaboratively throughout the seminar, guided by the instructors, to conduct a literature review on their assigned topic. The final goal of each team is to prepare and deliver a tutorial that introduces the topic, explains its evolution over time, and discusses the current state of the art.
+Evaluation will be based on participation, the quality of the presentations, and the depth of the literature analysis.
+The seminar will take place on Thursdays, 12:00 to 14:00h.
+The seminar information is being updated here:
+https://cms.sic.saarland/srl26/
+Requirements:
+This seminar is primarily aimed at master's students in Computer Science, Data Science and Artificial Intelligence (DSAI), or related fields, who have prior knowledge of machine learning. Participants are expected to have completed one or more courses related to machine learning, such as Core Machine Learning, Elements of Machine Learning, Linear Algebra, Neural Networks, or equivalent courses.
+Places:
+12
+Reproducibility in Fuzzing
+by Moritz Schloegel, Michael Schwarz
+Scientific papers consist of more than the written document. Their results often depend on research artifacts such as source code, benchmarks, datasets, experimental configurations, documentation, and evaluation scripts. This is particularly important in fuzzing research, where results may be influenced by randomness, benchmark selection, hardware and software environments, execution time, parameter choices, and statistical methodology.
+In this seminar, you will study reproducibility and replicability in fuzzing research. You will examine how fuzzing techniques are evaluated, which methodological choices affect their results, and how well published experiments can be reproduced using the accompanying research artifacts.
+The seminar consists of two parts. First, you will write a survey paper that places the fuzzing technique and evaluation methodology of an assigned paper in the context of related work. Second, you will conduct an artifact evaluation of the paper. This includes installing and examining the provided software, reproducing selected experiments, and assessing the artifact's documentation, functionality, reusability, and support for the claims made in the paper.
+The goal is to reproduce or replicate results from recent fuzzing papers while developing a critical understanding of experimental methodology, artifact quality, and reproducibility in computer security research.
+You will work in groups of two students. Note that the artifact evaluation requires an experimental evaluation of a given scientific paper.
+Requirements:
+This seminar is intended for advanced bachelor or master students in computer science or related fields. Prior knowledge in the domain of systems security and familiarity with C/C++ is recommended.
+Places:
+8
+Robustness in Generative AI
+by Xiao Zhang
+This seminar explores robustness in modern generative AI systems, focusing on LLMs, multimodal models, and agentic systems. As these models are increasingly deployed in real-world applications, they face a wide range of robustness challenges arising from adversarial manipulation, distributional shifts, system integration, and long-horizon reasoning tasks. Topics include jailbreak attacks against safety-aligned LLMs, prompt injection in RAG systems, hallucinations, distributional generalization failures, synthetic media manipulation (e.g., deepfakes), and robustness challenges in reasoning and autonomous agents. Each student will be assigned a topic, give a paper presentation, participate in weekly paper discussions, and write a mini SoK-style seminar paper synthesizing a small set of papers.
+By the end of the seminar, students will develop a structured understanding of how and why generative AI systems fail under stress, and how robustness can be defined, evaluated, and improved across different dimensions of generative AI. More details can be found on CISPA CMS:
+https://cms.cispa.saarland/robgenai/
+.
+Requirements:
+Students should have a basic understanding of machine learning. The course is particularly suitable for students interested in trustworthy machine learning or the advancement of generative AI. Preference will be given to master's students who provide a strong motivation statement.
+Places:
+12
+Router Lab
+by Anja Feldmann, Q Misell, Vaishnavi Raghavajosyula, Fariba Osali
+In this seminar, we take a hands-on approach to explore the workings of internet components and provide a deep understanding of the underlying protocols. Specifically, we examine how routers and switches can be configured and connected to a working IP network.
+The seminar consists of a series of activities starting with setting up the hardware and introducing basic configuration for VLANs and IPv4/IPv6 networks and gradually moving to more advanced topics, including but not limited to, routing protocols, virtual private networks, security, network monitoring, and troubleshooting.
+Requirements:
+Participants should have sufficient knowledge of computer networks and how the Internet works, e.g., by successfully completing "Data Networks" (or an equivalent course), or by demonstrating relevant prior practical experience.
+Places:
+12
+Security at the Hardware-Software Interface
+by Jan Reineke
+Spectre, Meltdown, and other microarchitectural attacks have been in the limelight in recent years. These attacks exploit subtle timing and behavioral differences of processors that are caused by microarchitectural optimizations such as caches and speculative execution that are visible at the software level to gain access to secret information.
+How can we build systems that do not suffer from such vulnerabilities? Different communities have contributed related but distinct approaches to this question. In this course we will study work from two communities:
+1) Hardware information-flow tracking (IFT) determines how information propagates through hardware. It can be used to analyze a microarchitecture's information flows both dynamically and statically. We will study recent advances that make IFT applicable to modern processors.
+2) Hardware-software contracts capture potential information leakage due to microarchitectural side channels at the software level, enabling secure programming, e.g. of cryptographic algorithms, in a rigorous manner. We will study recent work to test and verify hardware-software contracts.
+Requirements:
+Basic knowledge of computer architecture (e.g. due to System Architecture) is required.
+Knowledge of security and formal methods is a plus, but not required.
+Places:
+12
+Selected Topics in LLM Post-training
+by  Zena Al Khalili, Abhilasha Ravichander, Krishna Gummandi
+Large Language Models undergo two training phases: pre-training, typically on large amounts of unlabeled text to teach LLMs to predict the next token, and post-training, to make LLMs more useful, reliable, and aligned with human intent.
+This seminar is dedicated to discussing post-training methods that enable LLMs to follow instructions, gain reasoning capabilities, align with human intent, or all of the above.  We will cover seminal work as well as recent advancements on post-training methods.
+Students will be expected to read, present, and critically discuss research papers throughout the semester. Through presentations and in-depth discussions, participants will develop a strong understanding of the principles, challenges, and latest advances in post-training methods for LLMs.
+Seminar Meeting Times: Fridays 15:00 to 17:00
+Seminar Page: TBA
+Requirements:
+Students are expected to be familiar with Machine Learning, Deep Learning and Natural Language Processing. They should have taken at least 1 advanced course in machine learning and a natural language processing course.
+Places:
+8
+Space Informatics Cybersecurity
+by Ali Abbasi
+This seminar covers core concepts and current research in the security of space systems across both the space and ground segments.
+As satellites take on roles in communication, navigation, and Earth observation, securing their information systems has become a distinct research domain. Alongside the technical content, the seminar develops the skill of developing and presenting security material clearly to a technical audience.
+When possible, students work in pairs. Each pair prepares a topic and gives a presentation supported by academic literature, technical reports, standards, and, where appropriate, real-world incidents or practical demonstrations. Each pair then designs a practical exercise that lets the rest of the group work through the technical aspects hands-on, and submits a written elaboration documenting the exercise's goal, required setup, steps, and expected outcome so that others can reproduce it.
+Topics include satellite communication, mission control systems, onboard software, space protocols, and ground station security. The exact list is announced at the start of the seminar.
+More info:
+https://cms.cispa.saarland/spacesecurity2627/
+This seminar is being offered by the Embedded Systems Security Group (EMSEC):
+https://group.cispa.io/abbasi/
+Requirements:
+Requirements:
+1. Good understanding of computer networks and IT security
+2. Some programming experience is helpful.
+Places:
+16
+The Humans of Computing: Past, Present and Future
+by Anja Feldmann, Mannat Kaur
+Technology is not created in a vacuum. It is designed, built, operated, maintained, and used by people. Understanding technological systems therefore requires us to examine not only their technical components, but also the people, practices, and social structures that sustain them. This seminar explores system and network operations through a sociotechnical lens, with particular attention to gender.
+The seminar explores the question: How did we get here, and where could we go?
+We will begin with a brief look at the recent history of computing and the Internet to contextualize contemporary systems and practices. We will consider how gender has shaped computing and technical work, whose contributions have been made visible, and whose labor has historically been overlooked.
+The main focus of the seminar will be contemporary sociotechnical research on system and network operations. We will examine how digital infrastructures are operated, maintained, secured, and repaired in practice, and the human and organizational challenges involved in keeping them running. Alongside this, we will critically consider who performs this work, how technical cultures and practices develop, and how gender shapes participation and experiences within contemporary computing infrastructure and operations.
+Finally, we will use these historical and contemporary perspectives as starting points for looking forward: Where could we go from here? We will collectively reflect on and imagine more equitable ways of building, operating, and sustaining digital infrastructures.
+Learning objectives
+By the end of the seminar, students should be able to:
+- Explain how gender has shaped the history of computing and technical work.
+- Recognize historically overlooked people, contributions, and forms of technical labor.
+- Describe system and network operations as sociotechnical practices.
+- Discuss key themes and findings from contemporary sociotechnical research on system and network operations.
+- Critically examine the role of gender in contemporary computing infrastructure, operational work, and technical communities.
+- Reflect on and imagine more equitable approaches to building, operating, and sustaining digital infrastructures.
+Requirements:
+Participants should be interested in the historical and societal aspects of technological operations. Caring about social issues and social justice is a must.
+Keep in mind: this seminar requires reading and writing scientific reports on a weekly basis, and active engagement in classroom discussions.
+Places:
+15
+Theoretical Abilities and Limitations of Language Models
+by Yash Sarrof, Michael Hahn
+LM have amazing capabilities, but also hallucinate and make reasoning mistakes. Can we understand these abilities and limitations theoretically, as way to figure out ways of overcoming them? The incredible scale of current LLMs makes this a daunting prospect. However, recent research has developed mathematical understanding sheeding light on questions such as: Why do LLMs struggle with tasks (e.g., multiplying 6-digit numbers) that a simple calculator can perform easily? Which problems can be solved by a transformer in one step? Which require a chain-of-thought? How long does a chain-of-thought have to be? What possible future architectures – if any – could replace transformers as the backbone of LLMs?
+Research on these questions draws on fields such as computational complexity, formal language theory, and statistical learning theory.
+We will discuss recent research papers, both from our own group and from other groups. A lot of this content is highly technical, and it is absolutely fine if you do not understand everything in the paper you’ll present.
+Seminar website link:
+https://lacoco-lab.github.io/courses/theory-26/
+Requirements:
+This seminar is a follow up of our course: Theory of Machine Learning for Language Models. Thus, It is recommended but not mandatory that you have taken this course. The papers will be math heavy, so willingness to engage with formal content is required.
+Places:
+8
+Theory of mind in large language models
+by Soyoung Oh, Vera Demberg
+This seminar examines whether and how large language models exhibit theory of mind: the capacity to reason about others' beliefs, desires, intentions, knowledge, and perspectives. We will begin by introducing theory of mind from cognitive psychology, including classic notions such as false belief reasoning, perspective taking, and mental state attribution. We will then translate these ideas into the context of language models, asking what it means for an LLM to model another mind through text prediction, dialogue, and social reasoning.
+Requirements:
+Participants are expected to have a basic understanding of large language models, including concepts such as pretraining, prompting, instruction tuning, and evaluation benchmarks.
+Places:
+10
+The Web Security Seminar
+by Giancarlo Pellegrino
+The Web is the foundation of much of today's digital infrastructure: it connects users, services, devices, businesses, and critical applications across the globe. Its openness and ubiquity make it extraordinarily powerful, but also a constant target for attacks. Understanding Web Security therefore means understanding one of the most important and continuously evolving security frontiers.
+This seminar explores that frontier through recent scientific papers, open problems, and the arguments that shape where the field is heading next. The focus is not only on learning about advanced technical topics, but on learning how to read, analyze, discuss, and critically evaluate research papers.
+This year, The Web Security Seminar is offered both as a seminar and as a proseminar.
+In both formats, students will work on advanced topics in Web Security through a combination of presentations and reading-group-style discussions. Each topic is centered around recent research papers, which students will use to understand the state of the art, identify strengths and limitations, and discuss how the work advances the field.
+Seminar students will give a presentation and write a seminar paper.
+Proseminar students will give a presentation, but will not write a seminar paper.
+More information:
+https://cms.cispa.saarland/websecsem_wise26
+This seminar adopts a strict no-LLMs/GenAI policy. The goal of the course is for students to develop and exercise their own critical thinking when reading, analyzing, and discussing research papers. For this reason, all intellectual work in the seminar, including presentations, discussions, and seminar papers, must be carried out independently and without the aid of generative AI tools.
+Requirements:
+Students are expected to already know the basics of the Web and Web development, such as HTTP, TLS, HTML, and JavaScript. They should also be familiar with basic Web Security issues such as web vulnerabilities like XSS and SQLi.
+Students interested in this seminar must clearly and concisely describe their background in Web and Web Security in the motivation box. This should include relevant courses, and, if any, practical experience or other prior exposure to Web technologies and Web Security.
+Places:
+5
+Topics in Privacy-Preserving Machine Learning and Optimization
+by Andrew Lowy, Sebastian Stich
+This seminar explores modern research in differentially private (DP) optimization and machine learning, a framework that enables learning from sensitive data while providing rigorous privacy guarantees. We will study core concepts in differential privacy and optimization, and examine recent advances in DP optimization, with emphasis on fundamental privacy-accuracy tradeoffs.
+In addition, the seminar will cover recent work on machine unlearning, which addresses the problem of efficiently removing individuals’ data from trained models. We will discuss how unlearning relates to, but is distinct from, differential privacy, and study efficient algorithms and accuracy guarantees for unlearning.
+Students will read and present current research papers, develop skills in understanding theoretical machine learning literature, and identify open research directions at the intersection of optimization, privacy, and learning theory.
+More info:
+https://cms.cispa.saarland/ppmlo2627/
+Requirements:
+Students should have a solid command of probability and multivariable calculus. Comfort with mathematical proofs is strongly recommended.
+Places:
+14
+Trusted AI Planning (TAIP)
+by Joerg Hoffmann
+AI planning agents need to take action decisions towards a long-term objective. Learned action policies, in particular neural networks, that map environment states to actions are gaining ever more popular for this purpose. Yet such learned policies come without any inherent guarantees regarding desirable properties such as safety. The seminar covers recent research on quality assurance methods, including verification, testing, and re-training of learned action policies.
+Requirements:
+Students must have passed the AI core course or the Trusted AI Planning specialized course.
+Places:
+16
+Trustworthy Machine Learning
+by Adam, Dziedzic
+Deploying machine learning in real-world systems necessitates methods to ensure trustworthy AI. This course explores research at the intersection of machine learning, privacy, and security. This course provides a comprehensive overview of techniques to build robust and trustworthy machine learning systems, focusing on generative models. Throughout the seminar, we will discuss outstanding challenges and future research directions to make machine learning more robust, private, and trustworthy.
+More info:
+https://cms.cispa.saarland/tml26/
+Time and place: (tentative) The course will take place on Fridays from 2 pm to 4 pm in the CISPA C0 building, room 0.02 (on campus). Some sessions will be via Zoom when the room is not available (part of January) or the during main ML conferences (e.g., like NeurIPS in December).
+Class structure: In every class, we will discuss two papers. At the beginning of the semester, students will be assigned roles that will rotate every week. There are three roles:
+1. The Presenters: Two students. Each of them presents a paper and takes the lead in answering the questions posed by the Questioners.
+2. The Questioners: This group is responsible for preparing a list of questions (from each member of the team) about the papers to be discussed in class. For a given week, The Questioners must prepare their questions during the preceding week, and send them to the rest of the class by 5 pm Monday. This means that the Questioners must read the papers for their assigned week several days in advance of the actual discussion sessions. We suggest aiming to read the papers by the end of the day on Sunday, to allow at least one day to discuss possible questions.
+3. The Observers: This group will take notes on a shared document during a discussion. These notes are not meant to be a transcription of what is being said in the discussion; they should capture the major take-away points of the discussion, as well as any issues. The Observers should also search for additional resources or answers to unresolved questions.
+These roles do encourage students to participate actively in the discussion. A member of The Observers can jump in when a question is posed, and a presenter can pose a new question on the fly.
+Project: The seminars also incorporate project work to foster research skills and creativity. Students begin by selecting papers from the field of trustworthy machine learning that align with their interests. They present these papers and design a project with the potential to evolve into a scientific publication, an assignment in the TML course, or a task for a championship. We encourage you to think critically, identifying weak assumptions in prior work, exploring ways to improve existing methods, combining ideas from multiple sources, or integrating your own experiences and insights from the seminar discussions. Each student writes a comprehensive report detailing their findings and includes code to validate their results. At the end of the semester, you present your projects to the entire class, focusing on the progress and innovations.
+Requirements:
+machine learning, trustworthy machine learning advanced lecture
+The seminar is open to senior Bachelor’s and Master’s students with a strong background in machine learning. Participants are expected to have successfully completed a machine learning course, preferably with a grade better than 2.0, and to be comfortable reading and discussing scientific papers. Registration is conducted through the central seminar assignment system. Admission may depend on the available number of places and fulfillment of the course prerequisites.
+Places:
+20
+Understanding Optimization for Modern Learning
+by Peter Ochs
+This seminar examines the optimization methods that underpin modern deep learning. We study core algorithms such as stochastic gradient descent (SGD) and adaptive variants including AdaGrad, Adam, Shampoo, as well as recent methods like Muon and Scion. Alongside algorithmic insights, the seminar explores the geometry of deep learning loss landscapes, addressing phenomena such as overparameterization, implicit bias, and generalization.
+Based on current research papers, the seminar aims to build a conceptual understanding of why these optimization methods are effective in high-dimensional, non-convex settings.
+Places:
+12
+Wireless Security
+by Mridula Singh
+Description: We use wireless systems to share confidential information, access bank accounts, report heart rate, etc., incentivizing attackers to eavesdrop and manipulate wireless communication. In this seminar, we will discuss the security, privacy, and availability aspects of the widely used wireless systems.
+During the first half of the semester, each student will read 5-6 research papers. In the second half, students will work on projects in teams of 2 students. We will meet weekly to discuss the papers and the progress of projects. Finally, students will give a 25-minute presentation at the end of the semester.
+Requirements: Knowledge of signal processing would be beneficial, but optional as long as you are motivated and able to learn relevant fundamentals.
+Places:
+12

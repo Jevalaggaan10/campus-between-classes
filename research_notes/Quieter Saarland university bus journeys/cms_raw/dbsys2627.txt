@@ -1,0 +1,101 @@
+Main Page
+Courses
+Main Page
+Information
+Timetable
+Python Resources
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Database Systems
+Prof. Dr. Jens Dittrich
+Core Lecture (9 CP), Winter Semester 2026/2027
+News
+Tutorial Assignment
+Written on
+20.10.26
+by Gunce Su Yılmaz
+Dear students,
+We have now assigned you to your tutorials. You can find your assigned tutorial on your personal status page. The tutorials will start next week.
+Many of you marked "No Tutorial" as "Preferred" or "Okay", so you were assigned "No Tutorial" in that case. If you still want to attend…
+Read more
+Dear students,
+We have now assigned you to your tutorials. You can find your assigned tutorial on your personal status page. The tutorials will start next week.
+Many of you marked "No Tutorial" as "Preferred" or "Okay", so you were assigned "No Tutorial" in that case. If you still want to attend a tutorial, you are welcome to attend any slot.
+Kind regards,
+Su
+Tutorial Preference Reminder
+Written on
+16.10.26
+by Gunce Su Yılmaz
+Dear students,
+Please remember to submit your preferences for tutorial slots by Sunday, 18 October, 23:59, to be considered in the distribution process.
+Kind regards,
+Su
+Assignment 00
+Written on
+14.10.26
+by Gunce Su Yılmaz
+Dear students,
+Assignment 00 is now available under the Materials tab. It covers the material from the Big Data Engineering Lecture. To follow the material in this lecture, you should be able to easily solve the questions in the assignment. If you are having difficulty, we highly recommend that you…
+Read more
+Dear students,
+Assignment 00 is now available under the Materials tab. It covers the material from the Big Data Engineering Lecture. To follow the material in this lecture, you should be able to easily solve the questions in the assignment. If you are having difficulty, we highly recommend that you first take the Big Data Engineering Lecture before this one. On Friday, October 16, the tutors will be in the lecture hall after the recap until 12:00 to answer your questions from the assignment. The solutions to the assignment will be made available under Materials after Friday's lecture.
+Best regards,
+Su
+Preferences for Tutorial Slots
+Written on
+08.10.26
+by Gunce Su Yılmaz
+Dear students,
+You can mark your preferences for the tutorial slots now.
+Please submit your preferences by Sunday, 18 October, 23:59, to be considered in the distribution process.
+In the tutorials, we will review sample solutions for the assignments distributed the previous week. These…
+Read more
+Dear students,
+You can mark your preferences for the tutorial slots now.
+Please submit your preferences by Sunday, 18 October, 23:59, to be considered in the distribution process.
+In the tutorials, we will review sample solutions for the assignments distributed the previous week. These solutions will also be made available in the CMS. If you do not plan to attend any tutorial, please select the "No Tutorial" option.
+Best regards,
+Su
+Database Systems (Core Lecture)
+Objectives of This Lecture
+Learn basic techniques in Database Systems conceptually: Slides, algorithms, system, exercises
+Learn to apply algorithms in the field of Database Systems
+Help you not to reinvent the wheel: learn to map new problems to existing problems and solve them with established techniques.
+Sensitize for problems of important applications: scalability, performance problems, durability, isolation
+Sensitize for solutions of important applications: effort, performance, robustness, extensibility, maintainability
+Distinction from Big Data Engineering (Undergrad Lecture)
+Big Data Engineering:
+Focus on
+principles
+, design patterns, and
+application
+of Big Data technologies, in particular Data Engineering.
+vs
+This lecture:
+Deeper dive into the
+underlying techniques
+, in particular the
+systems aspect
+of Database Management Systems.
+Administrative Details
+All information about assignments, tutorials, lecture mode, topics, registration, etc. will be explained in the first lecture on
+Wednesday, October 14th, 10:15 in E1 3, HS 002.
+Mental Health
+University life can sometimes be stressful and overwhelming. If you are experiencing difficulties, we encourage you to reach out to friends, family, or faculty members you trust. You can also seek professional support through the
+Student Counselling Service
+offered by the Studierendenwerk Saarland.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

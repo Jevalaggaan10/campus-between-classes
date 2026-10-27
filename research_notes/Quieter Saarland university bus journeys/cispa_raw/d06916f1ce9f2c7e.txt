@@ -1,0 +1,80 @@
+Main Page
+Computer Architecture (Seminar and Proseminar)
+Michael Schwarz, Abdullah Giray Yaglikci
+News
+Currently, no news are available
+Computer Architecture (Seminar and Proseminar)
+This seminar covers cutting-edge and seminal research papers, focusing on fundamental research problems in the field of computer architecture. Relevant topics include: security and reliability of microarchitecture, memory, and storage, new and emerging paradigms in computer architecture (e.g., data-centric processing), energy efficiency, hardware/software co-design, and fault tolerance.
+Organization
+The course portal is for both seminar and proseminar students. Each week after the kick-off meeting, a critical review presentation will take place. All students are expected to read the relevant paper(s) and engage in the discussion. Throughout the semester, each student is expected to
+present the student’s own critical review of a paper or a set of papers,
+prepare discussion questions for the critical reviews of other students,
+proactively participate the discussion and brainstorming in all sessions,
+prepare a final report containing the student’s own critical review, enriched by the online and offline discussions and brainstorming.
+A seminar student is expected to prepare an additional literature survey based on one of the critical reviews of other students. The literature survey should contain a summary of the other student’s critical review, an evaluation of the review, relevant online and offline discussions, a summary of the relevant works other than the presented paper(s), and outstanding fundamental research challenges at the cutting-edge. Students may choose paper(s) from the provided list or propose alternative papers, subject to approval. Each student must submit a ranked list of preferences in decreasing order of priority. Papers will be assigned by considering students’ highest available preference, following a first-come, first-served policy based on submission time. Critical reviews should follow the structure that will be explained in the first lecture (kick-off meeting), including: a thorough summary of the paper, list of strengths, list of weaknesses, student’s takeaways from the paper, detailed discussions on weaknesses, and future research-oriented discussions.
+Schedule
+Paper assignments are final. Talk dates and mentor assignment can change. Please stay tuned.
+Date
+Theme
+Title
+Speaker
+Mentor
+Resources
+28.10.2026
+Kickoff Meeting
+Introduction, Logistics, and Example Presentation
+Abdullah Giray Yaglikci
+Materials from last semester as a placeholder
+L1a Slides: (
+pptx
+) (
+pdf
+)
+L1b Slides: (
+pptx
+) (
+pdf
+)
+Video (
+YouTube
+)
+Preparation Week
+Talk Preparation (No Meeting)
+13.11.2026
+Student presentations
+Paper 1
+Student 1
+Mentor
+Slides 1
+Paper 2
+Student 2
+Mentor
+Slides 2
+Last Week of Classes
+Due: Critical Paper Review Report
+Due: Literature Review (for seminar students)
+Grading
+Proseminar Students
+Seminar Students
+Presentation of the Critical Review
+50%
+40%
+Active Participation in Discussion
+30%
+20%
+Final Report
+20%
+10%
+Literature Survey
+0%
+30%
+BONUS: Literature Survey*
+10%
+10%
+* Collecting BONUS points is possible only if the student satisfactorily delivers the presentation, participates in discussions, and delivers the final report.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

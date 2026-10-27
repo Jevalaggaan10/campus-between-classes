@@ -1,0 +1,194 @@
+[
+  {
+    "q": "Betriebshof Saarbahn, Saarbrücken",
+    "status": 200,
+    "results": [
+      {
+        "place_id": 118957937,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 701949389,
+        "lat": "49.2336820",
+        "lon": "6.9698088",
+        "category": "landuse",
+        "type": "industrial",
+        "place_rank": 24,
+        "importance": 0.08006879301136795,
+        "addresstype": "industrial",
+        "name": "Betriebshof der Saarbahn GmbH",
+        "display_name": "Betriebshof der Saarbahn GmbH, Alt-Saarbrücken, Bezirk Mitte, Saarbrücken, Regionalverband Saarbrücken, Saarland, Deutschland",
+        "boundingbox": [
+          "49.2327004",
+          "49.2345321",
+          "6.9672329",
+          "6.9723184"
+        ]
+      }
+    ]
+  },
+  {
+    "q": "Deutschherrnstraße bushaltestelle Saarbrücken",
+    "status": 200,
+    "results": [
+      {
+        "place_id": 118753739,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 930011817,
+        "lat": "49.2321908",
+        "lon": "6.9755520",
+        "category": "highway",
+        "type": "bus_stop",
+        "place_rank": 30,
+        "importance": 6.87930113679258e-05,
+        "addresstype": "highway",
+        "name": "Deutschherrnstraße",
+        "display_name": "Deutschherrnstraße, Goebenstraße, Alt-Saarbrücken, Bezirk Mitte, Saarbrücken, Regionalverband Saarbrücken, Saarland, 66117, Deutschland",
+        "boundingbox": [
+          "49.2321408",
+          "49.2322408",
+          "6.9755020",
+          "6.9756020"
+        ]
+      },
+      {
+        "place_id": 118204874,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 899605969,
+        "lat": "49.2321016",
+        "lon": "6.9757852",
+        "category": "highway",
+        "type": "bus_stop",
+        "place_rank": 30,
+        "importance": 6.87930113679258e-05,
+        "addresstype": "highway",
+        "name": "Deutschherrnstraße",
+        "display_name": "Deutschherrnstraße, Goebenstraße, Alt-Saarbrücken, Bezirk Mitte, Saarbrücken, Regionalverband Saarbrücken, Saarland, 66117, Deutschland",
+        "boundingbox": [
+          "49.2320516",
+          "49.2321516",
+          "6.9757352",
+          "6.9758352"
+        ]
+      }
+    ]
+  },
+  {
+    "q": "Deutschhausweg Saarbrücken",
+    "status": 200,
+    "results": [
+      {
+        "place_id": 118883923,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 288311861,
+        "lat": "49.2319569",
+        "lon": "6.9732725",
+        "category": "highway",
+        "type": "service",
+        "place_rank": 27,
+        "importance": 0.04006879301136796,
+        "addresstype": "road",
+        "name": "Deutschhausweg",
+        "display_name": "Deutschhausweg, Alt-Saarbrücken, Bezirk Mitte, Saarbrücken, Regionalverband Saarbrücken, Saarland, 66117, Deutschland",
+        "boundingbox": [
+          "49.2316088",
+          "49.2322892",
+          "6.9728460",
+          "6.9737663"
+        ]
+      },
+      {
+        "place_id": 118199020,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 930054304,
+        "lat": "49.2315326",
+        "lon": "6.9737185",
+        "category": "highway",
+        "type": "bus_stop",
+        "place_rank": 30,
+        "importance": 6.87930113679258e-05,
+        "addresstype": "highway",
+        "name": "Deutschhausweg",
+        "display_name": "Deutschhausweg, Moltkestraße, Alt-Saarbrücken, Bezirk Mitte, Saarbrücken, Regionalverband Saarbrücken, Saarland, 66117, Deutschland",
+        "boundingbox": [
+          "49.2314826",
+          "49.2315826",
+          "6.9736685",
+          "6.9737685"
+        ]
+      },
+      {
+        "place_id": 118829379,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 365377979,
+        "lat": "49.2316518",
+        "lon": "6.9732613",
+        "category": "highway",
+        "type": "bus_stop",
+        "place_rank": 30,
+        "importance": 6.87930113679258e-05,
+        "addresstype": "highway",
+        "name": "Deutschhausweg",
+        "display_name": "Deutschhausweg, Moltkestraße, Alt-Saarbrücken, Bezirk Mitte, Saarbrücken, Regionalverband Saarbrücken, Saarland, 66117, Deutschland",
+        "boundingbox": [
+          "49.2316018",
+          "49.2317018",
+          "6.9732113",
+          "6.9733113"
+        ]
+      }
+    ]
+  },
+  {
+    "q": "[bus_stop] Saarbrücken",
+    "status": 200,
+    "results": [
+      {
+        "place_id": 118816247,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 5300080866,
+        "lat": "49.2337707",
+        "lon": "6.9779036",
+        "category": "highway",
+        "type": "bus_stop",
+        "place_rank": 30,
+        "importance": 6.87930113679258e-05,
+        "addresstype": "highway",
+        "name": "Hochschule für Technik und Wirtschaft (HTW)/Stadtwerke Saarbrücken (SWS)",
+        "display_name": "Hochschule für Technik und Wirtschaft (HTW)/Stadtwerke Saarbrücken (SWS), Heuduckstraße, Stadtwerke Saarbrücken, Alt-Saarbrücken, Bezirk Mitte, Saarbrücken, Regionalverband Saarbrücken, Saarland, 66117, Deutschland",
+        "boundingbox": [
+          "49.2337207",
+          "49.2338207",
+          "6.9778536",
+          "6.9779536"
+        ]
+      },
+      {
+        "place_id": 117821017,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 5300080865,
+        "lat": "49.2339516",
+        "lon": "6.9780260",
+        "category": "highway",
+        "type": "bus_stop",
+        "place_rank": 30,
+        "importance": 6.87930113679258e-05,
+        "addresstype": "highway",
+        "name": "Hochschule für Technik und Wirtschaft (HTW)/Stadtwerke Saarbrücken (SWS)",
+        "display_name": "Hochschule für Technik und Wirtschaft (HTW)/Stadtwerke Saarbrücken (SWS), Heuduckstraße, Stadtwerke Saarbrücken, Alt-Saarbrücken, Bezirk Mitte, Saarbrücken, Regionalverband Saarbrücken, Saarland, 66117, Deutschland",
+        "boundingbox": [
+          "49.2339016",
+          "49.2340016",
+          "6.9779760",
+          "6.9780760"
+        ]
+      }
+    ]
+  }
+]

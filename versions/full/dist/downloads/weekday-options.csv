@@ -1,0 +1,6 @@
+﻿weekday,day,to_university_route,htw_departure,campus_arrival,to_university_timing_low,to_university_timing_high,return_route,campus_departure,terminal_departure,htw_arrival,return_timing_low,return_timing_high,inbound_source,outbound_source
+1,Monday,101,09:02,09:23,0.0,0.1,112,15:10,15:07,15:31,0.0,0.0,https://www.saarbruecken.de/media/download-6a2664471a35c,https://www.saarbruecken.de/media/download-6a26644d6cf50
+2,Tuesday,124,10:22,10:43,0.0,0.0,124,16:50,16:47,17:11,0.667,0.667,https://www.saarbruecken.de/media/download-6a2664516933a,https://www.saarbruecken.de/media/download-6a26645116974
+3,Wednesday,101,09:02,09:23,0.85,1.15,124,17:20,17:17,17:41,0.167,0.667,https://www.saarbruecken.de/media/download-6a2664471a35c,https://www.saarbruecken.de/media/download-6a26645116974
+4,Thursday,101,09:02,09:23,0.0,0.1,112,15:10,15:07,15:31,0.0,0.0,https://www.saarbruecken.de/media/download-6a2664471a35c,https://www.saarbruecken.de/media/download-6a26644d6cf50
+5,Friday,124,10:22,10:43,0.0,0.0,124,18:50,18:47,19:11,0.0,0.0,https://www.saarbruecken.de/media/download-6a2664516933a,https://www.saarbruecken.de/media/download-6a26645116974

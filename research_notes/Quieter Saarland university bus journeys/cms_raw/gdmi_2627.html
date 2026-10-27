@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="de" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Hauptseite	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="4231d285cf1947148cfee86aa34b2ec9a0b05a05@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Sic/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Sic/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Sic/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Sic/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Sic/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/gdmi_2627/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/gdmi_2627/../system" class="navbar-brand">Kurse</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/gdmi_2627/">Hauptseite</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Informationen</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/gdmi_2627/termine/calendar/index">Termine</a></li><li><hr class="dropdown-divider" /></li><li><a class="dropdown-item" href="/gdmi_2627/3/Regularien_und_Ablauf_2026">Regularien und Ablauf 2026</a></li><li><hr class="dropdown-divider" /></li><li><a class="dropdown-item" href="/gdmi_2627/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/gdmi_2627/students/register">Anmeldung</a></li><li class="nav-item"><a class="nav-link" href="/gdmi_2627/landing">Persönliche Statusseite</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/gdmi_2627/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="787ad029cfcc194571d995c286fe5da4dc63746b6a587afd599f0f7cd1b4331273c550a2a0178e333b3a7cb5a938182e04ae5927f41da4f5fb85af4ea9fe2726" id="Token1086885601" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Benutzername" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Passwort" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Angemeldet bleiben</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.sic.saarland/gdmi_2627/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="4c5fb0473abca62bbc2ffbddaccf267a760cc05c%3AUser.redirect" id="TokenFields1798023574" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked192688589" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/gdmi_2627/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registrierung</a>        </li>
+        <li>
+            <a href="/gdmi_2627/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Passwort vergessen?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Dunklen Modus aktivieren            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Hellen Modus aktivieren            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/gdmi_2627/../system" class="site-logo" title="Front Page"><img src="/system/theme/Sic/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					Grundlagen der Medieninformatik				</h1>
+				<div>
+				<small class="text-muted">
+					<a href="https://umtl.cs.uni-saarland.de/people/prof.-dr.-antonio-kr%C3%BCger.html">Prof. Dr. Antonio Krüger</a>				</small>
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	
+<table class="table">
+	<colgroup>
+				<col span="1" style="width: auto;" />
+	</colgroup>
+	<tbody>
+	<tr>						<td class="align-top">
+				<a id="newsElement4"></a>
+				<h4 class="fs-5"><a href="/gdmi_2627/news/view/4">Zuweisung Tutorien</a></h4>				<p>
+					<small class="text-muted"><i>
+						Geschrieben am <span data-bs-toggle="tooltip" data-bs-title="23.10.2026 16:34:39">23.10.26</span>												von Felix Kosmalla					</i></small>
+				</p>
+
+									<p>Liebe Studierende,</p>
+
+<p>die Zuweisung zu den Tutorien ist soeben erfolgt. Bitte &uuml;berpr&uuml;ft, welchem Tutorium ihr zugeteilt wurdet, und meldet euch gerne bei uns, falls es dabei zu Problemen kommen sollte.</p>
+
+<p>Viele Gr&uuml;&szlig;e<br />
+das GdMI-Team</p>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement3"></a>
+				<h4 class="fs-5"><a href="/gdmi_2627/news/view/3">Besucherausweise am DFKI</a></h4>				<p>
+					<small class="text-muted"><i>
+						Geschrieben am <span data-bs-toggle="tooltip" data-bs-title="09.10.2026 14:20:54">09.10.26</span>												von André Zenner					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse3">
+					<p>Liebe Studierende,</p>
+
+<p>unsere Lehrveranstaltung findet im kommenden Wintersemester auch im <strong>DFKI-Geb&auml;ude (Raum Reuse)</strong> statt. Da f&uuml;r externe Besucherinnen und Besucher besondere Zutrittsregelungen gelten, bitten wir euch, die folgenden Vorgaben unbedingt zu beachten. Die Einhaltung dieser Regeln ist&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse3" href="#newsElement3">Weiterlesen</a></p>				</div>
+				<div class="collapse newsCollapse3">
+					<p>Liebe Studierende,</p>
+
+<p>unsere Lehrveranstaltung findet im kommenden Wintersemester auch im <strong>DFKI-Geb&auml;ude (Raum Reuse)</strong> statt. Da f&uuml;r externe Besucherinnen und Besucher besondere Zutrittsregelungen gelten, bitten wir euch, die folgenden Vorgaben unbedingt zu beachten. Die Einhaltung dieser Regeln ist Voraussetzung f&uuml;r einen reibungslosen Ablauf der Veranstaltung und wird vom Empfang des DFKI kontrolliert.</p>
+
+<h3>Wichtiger Ablauf f&uuml;r den Zutritt zum DFKI</h3>
+
+<p><strong>Vor der ersten Sitzung:</strong></p>
+
+<ul>
+	<li>F&uuml;r alle Teilnehmenden wird ein Besucher-Ausweis vorbereitet.</li>
+	<li><strong>DFKI-HiWis ben&ouml;tigen keinen Besucher-Ausweis.</strong></li>
+	<li>Falls ihr als DFKI-HiWi besch&auml;ftigt seid, m&uuml;sst ihr uns dies <strong>bis sp&auml;testens zum Ende der CMS-Anmeldefrist am 18.10.2026 um 23:59 Uhr</strong> per E-Mail (an <a class="fui-Link ___1q1shib f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1s184ao f1mk8lai fnbmjn9 f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn" href="mailto:felix.kosmalla@dfki.de" id="menur279" rel="noreferrer noopener" target="_blank" title="mailto:felix.kosmalla@dfki.de">felix.kosmalla@dfki.de</a> und <a class="fui-Link ___1q1shib f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fjoy568 figsok6 f1s184ao f1mk8lai fnbmjn9 f1o700av f13mvf36 f1cmlufx f9n3di6 f1ids18y f1tx3yz7 f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1h8hb77 f1lqvz6u f10aw75t fsle3fq f17ae5zn" href="mailto:andre.zenner@dfki.de" id="menur27c" rel="noreferrer noopener" target="_blank" title="mailto:andre.zenner@dfki.de">andre.zenner@dfki.de</a>) mitteilen.</li>
+</ul>
+
+<p><strong>Bei der ersten Sitzung:</strong></p>
+
+<ul>
+	<li>Plant bitte <strong>10 bis 15 Minuten zus&auml;tzliche Zeit</strong> vor Veranstaltungsbeginn ein.</li>
+	<li>Am Empfang werden die vorbereiteten Besucherausweise sowie die Besucherrichtlinien ausgegeben.</li>
+	<li>Die Besucherrichtlinien sind zu beachten und mit dem Erhalt des Ausweises anzuerkennen.</li>
+</ul>
+
+<p><strong>Bei allen weiteren Terminen:</strong></p>
+
+<ul>
+	<li>Der Besucherausweis muss w&auml;hrend des Aufenthalts im Geb&auml;ude sichtbar getragen werden.</li>
+	<li>Der Ausweis ist beim Betreten und Verlassen des Geb&auml;udes am Empfang vorzuzeigen.</li>
+</ul>
+
+<p><strong>Nach der letzten Sitzung:</strong></p>
+
+<ul>
+	<li>Die Besucherausweise m&uuml;ssen am Empfang wieder zur&uuml;ckgegeben werden.</li>
+</ul>
+
+<h3>Wichtig</h3>
+
+<p>Bitte haltet euch konsequent an diese Vorgaben. Die Regelungen werden vom DFKI aus Sicherheits- und Organisationsgr&uuml;nden vorgegeben. Eine Missachtung kann zu Verz&ouml;gerungen beim Einlass oder weiteren organisatorischen Problemen f&uuml;hren.</p>
+
+<p>Vielen Dank f&uuml;r eure Unterst&uuml;tzung und euer Verst&auml;ndnis.</p>
+
+<p>Viele Gr&uuml;&szlig;e,<br />
+das GdMi Team</p>
+				</div>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement2"></a>
+				<h4 class="fs-5"><a href="/gdmi_2627/news/view/2">Raumänderungen</a></h4>				<p>
+					<small class="text-muted"><i>
+						Geschrieben am <span data-bs-toggle="tooltip" data-bs-title="08.10.2026 09:54:17">08.10.26</span>												von André Zenner					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse2">
+					<p>Liebe Studierende,</p>
+
+<p>es gibt einige <strong>Raum&auml;nderungen </strong>die die Vorlesung &quot;Grundlagen der Medieninformatik&quot; betreffen:</p>
+
+<ul>
+	<li>Die <strong>erste Vorlesung</strong> wird, wie in einer separaten News bereits angek&uuml;ndigt, <strong>online </strong>stattfinden (der Teams-Link ist dem CMS zu entnehmen).</li>
+	<li>Die <strong>meisten Vorlesungen</strong> werden im <strong>Raum&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse2" href="#newsElement2">Weiterlesen</a></strong></li></ul>				</div>
+				<div class="collapse newsCollapse2">
+					<p>Liebe Studierende,</p>
+
+<p>es gibt einige <strong>Raum&auml;nderungen </strong>die die Vorlesung &quot;Grundlagen der Medieninformatik&quot; betreffen:</p>
+
+<ul>
+	<li>Die <strong>erste Vorlesung</strong> wird, wie in einer separaten News bereits angek&uuml;ndigt, <strong>online </strong>stattfinden (der Teams-Link ist dem CMS zu entnehmen).</li>
+	<li>Die <strong>meisten Vorlesungen</strong> werden im <strong>Raum &quot;Reuse&quot; im DFKI Geb&auml;ude (D3 2; gegen&uuml;ber des Empfangs)</strong> stattfinden.</li>
+	<li>Einige <strong>wenige Vorlesungen</strong> werden im <strong>H&ouml;rsaal 002 in E1 3</strong> stattfinden.</li>
+</ul>
+
+<p>F&uuml;r jeden Vorlesungstermin kann der Raum&nbsp;in unserem <a href="https://cms.sic.saarland/gdmi_2627/termine/calendar/index">Vorlesungskalender</a> eingesehen werden.</p>
+
+<p>Viele Gr&uuml;&szlig;e,<br />
+- das GdMi Team</p>
+				</div>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement1"></a>
+				<h4 class="fs-5"><a href="/gdmi_2627/news/view/1">Erste Vorlesung findet online statt</a></h4>				<p>
+					<small class="text-muted"><i>
+						Geschrieben am <span data-bs-toggle="tooltip" data-bs-title="07.10.2026 16:12:53">07.10.26</span>												von André Zenner					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse1">
+					<p>Liebe Studierende,</p>
+
+<p>die erste Vorlesung von Grundlagen der Medieninformatik wird am <strong>Mittwoch&nbsp;14.10.2026</strong>&nbsp;um&nbsp;<strong>12:00 Uhr c.t.</strong>&nbsp;<span style="color:#e74c3c"><strong>online via Teams</strong></span> stattfinden.</p>
+
+<p><strong>Link zur ersten Vorlesung:</strong><br />
+<a dir="auto" href="https://teams.microsoft.com/meet/3700120356309?p=gp7f3m5ZMjFdqjG8cN" rel="noopener noreferrer" tabindex="0" target="_blank">Grundlagen der Medieninformatik - Erste Vorlesung | Besprechung beitreten | Microsoft Teams</a></p>
+
+<p>Viele Gr&uuml;&szlig;e,<br />
+das&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse1" href="#newsElement1">Weiterlesen</a></p>				</div>
+				<div class="collapse newsCollapse1">
+					<p>Liebe Studierende,</p>
+
+<p>die erste Vorlesung von Grundlagen der Medieninformatik wird am <strong>Mittwoch&nbsp;14.10.2026</strong>&nbsp;um&nbsp;<strong>12:00 Uhr c.t.</strong>&nbsp;<span style="color:#e74c3c"><strong>online via Teams</strong></span> stattfinden.</p>
+
+<p><strong>Link zur ersten Vorlesung:</strong><br />
+<a dir="auto" href="https://teams.microsoft.com/meet/3700120356309?p=gp7f3m5ZMjFdqjG8cN" rel="noopener noreferrer" tabindex="0" target="_blank">Grundlagen der Medieninformatik - Erste Vorlesung | Besprechung beitreten | Microsoft Teams</a></p>
+
+<p>Viele Gr&uuml;&szlig;e,<br />
+das GdMi Team</p>
+				</div>
+							</td>
+		</tr>		
+		</tbody>
+</table>
+
+</section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<h2>Grundlagen der Medieninformatik</h2>
+
+<hr />
+<p>Die&nbsp;<strong>erste Vorlesung</strong>&nbsp;findet am Mittwoch&nbsp;<strong>14.10.2026</strong>&nbsp;um&nbsp;<strong>12:00 Uhr&nbsp;(c.t.)</strong>&nbsp;<span style="color:#e74c3c"><strong>online via Teams</strong></span> statt.<br />
+<strong>Link zur ersten Vorlesung:</strong><br />
+<a dir="auto" href="https://teams.microsoft.com/meet/3700120356309?p=gp7f3m5ZMjFdqjG8cN" rel="noopener noreferrer" tabindex="0" target="_blank">Grundlagen der Medieninformatik - Erste Vorlesung | Besprechung beitreten | Microsoft Teams</a></p>
+
+<p>Sie m&uuml;ssen sich f&uuml;r die Vorlesung im CMS registrieren.&nbsp;<span style="color:#e74c3c"><strong>Deadline ist Sonntag, der 18.10.2026 um 23:59 Uhr</strong>.</span></p>
+
+<p>Mehr zur Organisation finden Sie unter&nbsp;<a href="https://cms.sic.saarland/gdmi_2627/3/Regularien_und_Ablauf_2026">Regularien und Ablauf</a>.</p>
+
+<hr />
+<p>Die Vorlesung gibt eine einf&uuml;hrende &Uuml;bersicht &uuml;ber die wichtigsten technischen und konzeptionellen Grundlagen zur Realisierung digitaler Medien. Es werden keinerlei Programmierkenntnisse und nur elementare Informatikkenntnisse vorausgesetzt. Dagegen wird ein relativ breites Themenspektrum verschiedenster Disziplinen (Mathematik, Psychologie, Physik, Nachrichtentechnik, Design) angesprochen.</p>
+
+<p><strong><em>Die Vorlesung behandelt folgende Themengebiete:</em></strong></p>
+
+<ol>
+	<li>Grundlagen von Bildrepr&auml;sentation und -verarbeitung</li>
+	<li>Grundlagen der Audioreprepr&auml;sentation und -verarbeitung</li>
+	<li>Grundlagen der Wahrnehmung</li>
+	<li>Text und Typographie</li>
+	<li>Grundlagen der Computergraphik, 2D/3D-Graphik</li>
+	<li>Medien und das Internet</li>
+	<li>Grundlagen der Mensch-Maschine Kommunikation</li>
+</ol>
+
+<p>Die Vorlesung bildet die Basis f&uuml;r die st&auml;rker ins technische Detail gehende Lehrveranstaltung &quot;Interaktive Systeme&quot; und stellt die Grundlagen f&uuml;r vertiefende Lehrangebote zu Multimedia-Themen, sowie &quot;Human-Computer Interaction&ldquo;.</p>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/datenschutzerklaerung.html" target="_blank">Datenschutz</a> | <a href="https://www.uni-saarland.de/impressum.html" target="_blank">Impressum</a><br/>
+	Bitte wenden Sie sich bei technischen Problemen an <a href="mailto:cakecms@cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">die Administratoren</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

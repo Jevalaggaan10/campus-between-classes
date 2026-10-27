@@ -1,0 +1,10 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//127.0.1.1//NONSGML kigkonsult.se iCalcreator 2.41.92//
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+UID:30346631-3162-4332-b466-666136633266
+X-WR-CALNAME:Humans and Trustworthy AI Systems Calendar
+X-WR-CALDESC:Events of the lecture Humans and Trustworthy AI Systems
+X-WR-TIMEZONE:Europe/Berlin
+END:VCALENDAR

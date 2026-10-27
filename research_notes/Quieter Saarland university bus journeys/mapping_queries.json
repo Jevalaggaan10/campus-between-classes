@@ -1,0 +1,110 @@
+[
+  {
+    "q": "Moltkestraße 5, Saarbrücken, Deutschland",
+    "status": 200,
+    "results": [
+      {
+        "place_id": 118599934,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 87261875,
+        "lat": "49.2312931",
+        "lon": "6.9743083",
+        "category": "building",
+        "type": "apartments",
+        "place_rank": 30,
+        "importance": 6.87930113679258e-05,
+        "addresstype": "building",
+        "name": "",
+        "display_name": "5, Moltkestraße, Alt-Saarbrücken, Bezirk Mitte, Saarbrücken, Regionalverband Saarbrücken, Saarland, 66117, Deutschland",
+        "boundingbox": [
+          "49.2312103",
+          "49.2313810",
+          "6.9741683",
+          "6.9744272"
+        ]
+      }
+    ]
+  },
+  {
+    "q": "Moltkestraße, Saarbrücken",
+    "status": 200,
+    "results": [
+      {
+        "place_id": 119072429,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 1173822620,
+        "lat": "49.2315855",
+        "lon": "6.9742645",
+        "category": "highway",
+        "type": "tertiary",
+        "place_rank": 26,
+        "importance": 0.05340212634470127,
+        "addresstype": "tertiary",
+        "name": "Moltkestraße",
+        "display_name": "Moltkestraße, Alt-Saarbrücken, Bezirk Mitte, Saarbrücken, Regionalverband Saarbrücken, Saarland, 66117, Deutschland",
+        "boundingbox": [
+          "49.2315712",
+          "49.2319477",
+          "6.9727058",
+          "6.9756068"
+        ]
+      }
+    ]
+  },
+  {
+    "q": "Deutschherrnstraße, Saarbrücken",
+    "status": 200,
+    "results": [
+      {
+        "place_id": 117415226,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "way",
+        "osm_id": 900480197,
+        "lat": "49.2316903",
+        "lon": "6.9831800",
+        "category": "highway",
+        "type": "secondary",
+        "place_rank": 26,
+        "importance": 0.05340212634470127,
+        "addresstype": "secondary",
+        "name": "Deutschherrnstraße",
+        "display_name": "Deutschherrnstraße, Triller, Alt-Saarbrücken, Bezirk Mitte, Saarbrücken, Regionalverband Saarbrücken, Saarland, 66117, Deutschland",
+        "boundingbox": [
+          "49.2316784",
+          "49.2317028",
+          "6.9831079",
+          "6.9832520"
+        ]
+      }
+    ]
+  },
+  {
+    "q": "HTW SWS Saarbrücken",
+    "status": 200,
+    "results": [
+      {
+        "place_id": 118768026,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "node",
+        "osm_id": 5300080865,
+        "lat": "49.2339516",
+        "lon": "6.9780260",
+        "category": "highway",
+        "type": "bus_stop",
+        "place_rank": 30,
+        "importance": 6.87930113679258e-05,
+        "addresstype": "highway",
+        "name": "Hochschule für Technik und Wirtschaft (HTW)/Stadtwerke Saarbrücken (SWS)",
+        "display_name": "Hochschule für Technik und Wirtschaft (HTW)/Stadtwerke Saarbrücken (SWS), Heuduckstraße, Stadtwerke Saarbrücken, Alt-Saarbrücken, Bezirk Mitte, Saarbrücken, Regionalverband Saarbrücken, Saarland, 66117, Deutschland",
+        "boundingbox": [
+          "49.2339016",
+          "49.2340016",
+          "6.9779760",
+          "6.9780760"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,74 @@
+Main Page
+Formal analysis of real-world security protocols
+Cas Cremers
+News
+Lecture 1: Slides & Exercise Sheet
+Written on
+26.10.26
+by Aurora Naska
+Dear students,
+we just uploaded the slides of today's lectures and the first exercise sheet.
+Room Change: Lecture on 26.10 moved to Room 0.02
+Written on
+20.10.26
+by Aurora Naska
+Dear students,
+The next lecture happening on 26.10 has moved to room
+0.02
+, in
+E9 1
+(CISPA building).
+Lecture Slides and Teams
+Written on
+20.10.26
+by Aurora Naska
+Dear students,
+The lecture slides are now uploaded. You can find them under Information/Materials in the CMS.
+Additionally, you may team up with one other student and submit the exercises in pairs. Feel free to use the forum to find your teammate and register your team in the CMS.
+Formal Analysis of Real-World Security Protocols
+This is an advanced course in formal analysis of security protocols. The course consists of a theoretical and a practical part. In the theoretical part, you will learn the foundations of protocol verification in the symbolic model. In the practical part, you will use a state-of-the-art cryptographic verification tool, the
+Tamarin prover
+, to model and analyze security protocols.
+The course is taught in English and is suitable for both bachelor and master students with a background in computer science. It is highly recommended to, at the very least, have taken CySec1/CySec2 or Security prior to this course.
+Course Goals
+In this course, you will learn about the symbolic model of cryptography, and how to model protocols within it. You will learn how to read specifications of protocols, and how to translate them into formal models. Finally, you will use the Tamarin prover, a state-of-the-art verification tool, to model and verify security properties of small/medium size protocols.
+Organization
+The course consists of weekly live lectures, exercises, a midterm exam, and a project.
+The exercises and the project are made to be solved in teams of two.
+Note that the following information is tentative and might change until the start of the lecture.
+Time and location
+The lectures will take place in-person weekly
+(Monday, 10:00-12:00 c.t.)
+, starting on 19.10.2026
+Location:
+E9 1, 0.05
+(CISPA building, lecture hall on ground floor)
+Registration
+All registrations are handled on a first-come, first-served basis up to the course limit.
+Important dates
+- Lectures start: 19.10.2026
+- Midterm registration deadline: 30.11.2026, 23:59h (CMS)
+- Mid-term exam: 07.12.2026
+- Project start: 11.01.2027
+- Project registration deadline: 26.02.2027 (CMS)
+- Project deadline: 05.03.2027
+Communication
+All course-relevant information will be shared via announcements in the CMS.
+You can contact us under
+farwsp@cispa.de
+. If your question might be of interest to other course participants as well (e.g., question about exercise sheets or course contents) please use the forum instead.
+Grading
+The final grade will depend on the midterm exam and the project:
+- Midterm: 30% of the final grade
+- Project: 70% of the final grade
+The grade can be negatively impacted if a student lets their partner do the majority of the project or is not able to answer questions about the solution. Not contributing at all to the project will lead to failing the course. Confirmed cases of
+plagiarism
+will lead to
+exclusion from the course.
+Additionally, we will be using plagiarism detection software, starting with the Tamarin exercises and final project.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

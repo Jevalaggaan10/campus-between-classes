@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Hauptseite	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="4231d285cf1947148cfee86aa34b2ec9a0b05a05@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Sic/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Sic/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Sic/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Sic/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Sic/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/aet2026/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/aet2026/../system" class="navbar-brand">Courses</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/aet2026/">Main Page</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Information</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/aet2026/termine/calendar/index">Timetable</a></li><li><hr class="dropdown-divider" /></li><li><a class="dropdown-item" href="/aet2026/2/Rules">Rules</a></li><li><hr class="dropdown-divider" /></li><li><a class="dropdown-item" href="/aet2026/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/aet2026/students/register">Registration</a></li><li class="nav-item"><a class="nav-link" href="/aet2026/landing">Personal Status</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/aet2026/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="993c265765e2f2167be42f93271485c8a630af882fd97bd4738d356fcc76d3f890519405ed29b875746bb2d1984080096b05d80d570bfd4c18970af23f2a2c8c" id="Token61362617" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Username" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Password" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Remember me</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.sic.saarland/aet2026/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="a06a78d89f14abfede475e77b57be4af479ac5d4%3AUser.redirect" id="TokenFields635052280" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked1877077680" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/aet2026/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registration</a>        </li>
+        <li>
+            <a href="/aet2026/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Forgot Password?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Enable dark mode            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Enable light mode            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/aet2026/../system" class="site-logo" title="Front Page"><img src="/system/theme/Sic/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					Artificial Empathic Technology				</h1>
+				<div>
+				<small class="text-muted">
+					Dr. Patrick Gebhard, Dr. Janet Weßler, B.Sc. Anna Lea Reinwarth				</small>
+					</div>
+				<div class="mt-2"><small class="text-muted fs-6">Theories, Methods, and Techniques  related to Artificially Empathic Technology</small></div>			</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					<div class="alert alert-info"><a href="/aet2026/students/register">Registration for this course</a> is open until <strong>Friday, 30.10.2026 00:00</strong>.</div>
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	<p><i class="text-muted">Currently, no news are available</i></p></section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<h2>Artificially Empathic Technology</h2>
+
+<p><strong>Artificially Empathic Technology</strong>&nbsp;(AET) extends the perspective of Affective Computing from recognizing, modeling, and synthesizing emotional behavior to the design of systems that can interpret human experience, support emotion or social regulation, and act sensitively in social interaction. Guided by the AET framework, the lecture explores how affect, cognition, bodily expression, social values, and interpersonal dynamics can be operationalized in computational systems without reducing artificial empathy to mere emotion recognition. A central focus is translating competing psychological theories of emotion, appraisal, attachment, regulation, and social interaction into computational models, comparing them, and critically evaluating them. In doing so, the lecture also introduces key insights from psychological methodology: how theoretical constructs are defined, measured, validated, and transformed into human-centered technologies for domains such as games, immersive environments, education, and social assistance.&nbsp;<span style="font-size:14px">Master students will gain a strong background in the theory and practice of human-centered computing as it relates to games, immersive environments, and pedagogical applications.</span></p>
+
+<p><strong><big>Overall Lecture Schedule</big></strong></p>
+
+<table cellspacing="0" style="border-collapse:collapse; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:14px; line-height:1.4; width:100%">
+	<caption style="text-align:left">Every Thursday, HS003, E1 3, 10:00&ndash;12:00 &middot; Domains: CS = Computer Science, Psy = Psychology, Eth = Ethics / Philosophy</caption>
+	<thead>
+		<tr>
+			<th>#</th>
+			<th>Date</th>
+			<th>Domain</th>
+			<th>Lecture</th>
+			<th>Content</th>
+			<th>Project milestone</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">1</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px; white-space:nowrap">22.10.2026</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">CS, Psy</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">From Social Computing to AET</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">The differences between emotion-adaptive and artificially empathic technology, the AET definition, example domains such as training, education, health coaching and care, and the course and project formats.</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">&ndash;</td>
+		</tr>
+		<tr>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">2</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px; white-space:nowrap">29.10.2026</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">Psy</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">Affect, Emotion, Mood and Other Related Concepts</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">The affect trinity; basic, dimensional, appraisal and constructivist models; the component model and observable signals, and their limitations (&quot;no fingerprint&quot;).</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">&ndash;</td>
+		</tr>
+		<tr>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">3</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px; white-space:nowrap">05.11.2026</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">Psy</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">Methods I: Thinking like an Experimenter</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">Science vs. common sense, from observation to hypothesis, correlation vs. experiment, independent and dependent variables, between- and within-subject designs, threats to validity.</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">Find teammates</td>
+		</tr>
+		<tr>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">4</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px; white-space:nowrap">12.11.2026</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">Psy</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">Empathy, Theory of Mind, Mentalization</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">Cognitive vs. affective empathy, compassion, Theory of Mind (ToM), mentalization, CASA / Media Equation and the persona effect.</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px"><strong>Kickoff:</strong> teams, domain, scenario</td>
+		</tr>
+		<tr>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">5</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px; white-space:nowrap">19.11.2026</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">CS, Psy</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">Computational Affect + ALMA Explorer (hands-on)</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">OCC appraisal theory, the OCEAN personality model, the PAD mood model and the decay of emotional intensity. Hands-on: modelling characters in ALMA Explorer.</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">Research question + hypothesis</td>
+		</tr>
+		<tr>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">6</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px; white-space:nowrap">26.11.2026</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">CS</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">Interactive Systems + VisualSceneMaker web (hands-on)</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">The agentic SIA research framework VisualSceneMaker: scenes and sceneflows, and an overview of the plugins (ALMA, LLM, ASR, TTS, Wizard of Oz).</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">First prototype</td>
+		</tr>
+		<tr>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">7</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px; white-space:nowrap">03.12.2026</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">Psy</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">Methods II: Measurement and Running a Study</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">Questionnaires and scale quality, relational measures (felt security, perceived responsiveness, empathic accuracy), power and sample size, pilot study, preregistration, research ethics (consent, data protection), and the VisualSceneMaker StudyMaster.</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">&ndash;</td>
+		</tr>
+		<tr>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">8</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px; white-space:nowrap">10.12.2026</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">Eth, Psy</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">Values and Norms: What an Empathic System Has to Achieve</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">Fundamental human values such as safety, autonomy and self-respect, in the context of goals, social roles and cultural norms; display rules. Current approaches: values at design time (CCVSD), as runtime constraints (CARESSES) or as runtime objectives (AET), and how to check whether they were respected.</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px"><strong>Study plan due</strong></td>
+		</tr>
+		<tr>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">9</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px; white-space:nowrap">17.12.2026</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">Psy, CS</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">AET I: Regulation and the Individual</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">Predictive processing, Moser &amp; von Zeppelin (structural, situational and communicative emotions), self vs. display regulation, MARSSI.</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px"><strong>Prototype check</strong></td>
+		</tr>
+		<tr>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">10</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px; white-space:nowrap">07.01.2027</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">Psy</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">Methods III: Data Analysis</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">Descriptive statistics, t-tests, ANOVA, effect sizes, reporting, open science (p-hacking, HARKing).</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">Run studies</td>
+		</tr>
+		<tr>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">11</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px; white-space:nowrap">14.01.2027</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">Psy, CS</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">AET II: Relationship and Social Interaction</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">Person objects and relationships; inner and outer communication paths. Regulation vs. co-regulation, especially repair, as shown in Mentalization-Based Therapy.</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">Analysis</td>
+		</tr>
+		<tr>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">12</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px; white-space:nowrap">21.01.2027</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">CS, Eth</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">AET III: Making Values Computable, and Limits</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">Cost function over the value goals, uncertainty, explainability, role and limits of LLMs, deception and dependency, uncanny valley, governance (EU AI Act, MEESTAR), outlook.</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">Analysis</td>
+		</tr>
+		<tr>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">&ndash;</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px; white-space:nowrap">28.01.2027</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">&ndash;</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">Poster Fair I</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">Half of the teams present; the other half are the audience and give peer feedback.</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px"><strong>Poster + demo</strong></td>
+		</tr>
+		<tr>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">&ndash;</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px; white-space:nowrap">04.02.2027</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">&ndash;</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">Poster Fair II</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px">The other half of the teams present.</td>
+			<td style="border-color:#c8d6e0; border-style:solid; border-width:1px"><strong>Poster + demo</strong></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p><strong><big>Grading</big></strong></p>
+
+<p><small><samp>t.b.a.</samp></small></p>
+
+<p><strong><big>External Webpage with additional material</big></strong></p>
+
+<p>https://scaai.dfki.de/lecture-artifically-empathic-technology-ws-26-27/</p>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/en/privacy.html" target="_blank">Privacy Policy</a> | <a href="https://www.uni-saarland.de/en/legal-notice.html" target="_blank">Legal Notice</a><br/>
+	If you encounter technical problems, please contact <a href="mailto:cakecms@cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">the administrators</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

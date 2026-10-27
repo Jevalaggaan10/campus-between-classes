@@ -1,0 +1,10 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//127.0.1.1//NONSGML kigkonsult.se iCalcreator 2.41.92//
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+UID:37343332-6161-4530-a437-363730653135
+X-WR-CALNAME:Autonomous Offensive Security Calendar
+X-WR-CALDESC:Events of the lecture Autonomous Offensive Security
+X-WR-TIMEZONE:Europe/Berlin
+END:VCALENDAR

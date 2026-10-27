@@ -1,0 +1,83 @@
+Main Page
+Side-Channel Attacks and Defenses
+Michael Schwarz
+News
+Currently, no news are available
+Side-Channel Attacks and Defenses
+In this lecture, you will learn about
+side channels
+in software and hardware, their security implications, how they can be
+exploited from software
+, and ways to
+prevent data leakage
+. Since 2018, side channels received a lot of attention as they are a vital part of Meltdown and Spectre attacks. Meltdown and Spectre showed that the security boundaries of modern CPUs can be circumvented with the help of side channels. However, besides these publicly known attacks, there are many more attacks relying on side channels. In particular, this lecture provides an
+overview of attack techniques and countermeasures
+for
+Timing Attacks
+Cache Attacks
+Page Table Attacks
+Transient Execution Attacks (Meltdown- and Spectre-type Attacks)
+Fault Attacks
+Software-based Power Attacks
+CPU Vulnerabilities
+This course provides
+hands-on experience
+with various exercises, in which attacks and defenses have to be
+implemented and evaluated
+.
+Note that this is
+not an easy course
+. Previous students liked the course but noted the
+workload is above an average course
+.
+Prerequisites
+There are no formal prerequisites for this course. However, if you want to participate, you should
+be familiar with programming C (it helps if you also have a basic understanding of x86 Assembly)
+have a basic understanding of operating systems (e.g., the concept of virtual memory)
+be able to work on Linux, as some exercises are only officially supported on Linux
+have access to a system (laptop, PC, cloud) with an x86 CPU (Intel or AMD)
+Time and Location
+The lecture will take place in-presence every
+Tuesday from 10.00 (c.t.) - 12.00
+, starting 20.10.2026. Location:
+E9 1 (CISPA), room 0.05
+(lecture hall ground floor).
+Grading
+There is a total of
+100 points
+for this course. There are up to 50 points for the
+practical assignments
+and 50 points for the final
+exam
+. Additionally, there are optional
+lecture challenges
+that give you bonus points if you solve them.
+Note that you need a minimum of 26 points in the practical assignments and a minimum of 26 points in the exam to pass this course. Bonus points can only be used to get a better grade if you already passed the course, i.e., if you have
+at least 52 points without the bonus points
+.
+Practical Assignments
+There are four practical assignments with a total of 50 points. You need at least 26 points in total to pass the course. The practical assignments cover the topics covered in the lecture and aim to deepen your knowledge of the topics.
+You can discuss the assignments with other students, but you should not collaborate on the solution with anyone. Your solution should be original and not be an existing solution (e.g., from someone else, from the internet, or from generative AI). All submissions will be automatically checked for plagiarism. Plagiarism automatically results in zero points.
+Written Exam
+Exams are done in writing. The
+final exam
+will take place on
+TBD
+in
+E2 2 - Hörsaal 0.01 (Günter-Hotz-Hörsaal).
+Note that physical presence is required for the exam.
+Exams consist of
+both theoretical questions and practical questions
+. Theoretic questions are basically the theoretic parts of the slides and possibly additional content presented in the lecture, which is not part of the slides. Practical questions are, in principle, similar to the tasks given in the lecture challenges as well as in the practicals. However, the complexity of the questions is scaled to make them adequate for the time available during an exam.
+All questions of the exam are in English. Answers can be given either in English or in German, at the student’s discretion.
+No lecture notes or any other materials are allowed during an exam. All materials required to solve the practical questions are provided at the exam. The re-exam is only for students who failed the exam or did not participate - it can't be used to improve the grade.
+Lecture Challenges
+During the lecture, there will be small “Lecture Challenges” that you can
+optionally solve as a bonus
+. These challenges are optional, but solving them results in bonus points. The aim of the challenges is to dig deeper into a certain topic of the respective lecture. Thus, it is advisable to try to complete the challenge soon after the lecture.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

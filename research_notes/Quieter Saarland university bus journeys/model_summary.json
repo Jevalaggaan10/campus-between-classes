@@ -1,0 +1,324 @@
+{
+  "profile_start": "2026-10-26",
+  "profile_end": "2027-02-05",
+  "teaching_days": 65,
+  "teaching_weeks": 13,
+  "catalog_source_counts": {
+    "CMS": {
+      "input_rows": 213,
+      "input_courses": 62
+    },
+    "CISPA/seminars": {
+      "input_rows": 42,
+      "input_courses": 27
+    },
+    "LSF": {
+      "input_rows": 2955,
+      "input_courses": 1757
+    }
+  },
+  "retained_by_collection": {
+    "CMS": {
+      "retained_patterns": 186,
+      "retained_canonical_courses": 62
+    },
+    "CISPA/seminars": {
+      "retained_patterns": 33,
+      "retained_canonical_courses": 19
+    },
+    "LSF": {
+      "retained_patterns": 1252,
+      "retained_canonical_courses": 982
+    }
+  },
+  "retained_meeting_patterns": 1471,
+  "retained_unique_canonical_courses": 1062,
+  "excluded_rows": 1656,
+  "merged_duplicate_rows": 83,
+  "cross_source_duplicate_rows": 74,
+  "within_source_shared_meeting_rows": 9,
+  "dedup_breakdown": {
+    "broader_meetings.csv -> cms_meetings.csv": 68,
+    "broader_meetings.csv -> cispa_meetings.csv": 6,
+    "broader_meetings.csv -> broader_meetings.csv": 9
+  },
+  "unknown_time_patterns": 683,
+  "timing_vectors": 965,
+  "vector_bin_minutes": 5,
+  "time_span": "06:00–22:00",
+  "htw_timetable_options": 165,
+  "htw_options_in_06_to_22_model_range": 160,
+  "weekday_expanded_ranked_options": 800,
+  "peaks": {
+    "Monday": {
+      "incoming": [
+        {
+          "time": "10:05",
+          "incoming_score": 62.192309,
+          "incoming_timing_low": 44.711539,
+          "incoming_timing_high": 79.673078
+        },
+        {
+          "time": "10:00",
+          "incoming_score": 57.046155,
+          "incoming_timing_low": 50.053847,
+          "incoming_timing_high": 64.038462
+        },
+        {
+          "time": "09:55",
+          "incoming_score": 51.900001,
+          "incoming_timing_low": 48.403847,
+          "incoming_timing_high": 55.396155
+        },
+        {
+          "time": "12:05",
+          "incoming_score": 46.896154,
+          "incoming_timing_low": 37.088461,
+          "incoming_timing_high": 56.703846
+        }
+      ],
+      "outgoing": [
+        {
+          "time": "11:55",
+          "outgoing_score": 53.115386,
+          "outgoing_timing_low": 29.807693,
+          "outgoing_timing_high": 76.423078
+        },
+        {
+          "time": "12:00",
+          "outgoing_score": 52.865385,
+          "outgoing_timing_low": 41.211539,
+          "outgoing_timing_high": 64.519232
+        },
+        {
+          "time": "12:05",
+          "outgoing_score": 52.615385,
+          "outgoing_timing_low": 52.615385,
+          "outgoing_timing_high": 52.615385
+        },
+        {
+          "time": "12:10",
+          "outgoing_score": 52.365385,
+          "outgoing_timing_low": 40.711539,
+          "outgoing_timing_high": 64.019232
+        }
+      ]
+    },
+    "Tuesday": {
+      "incoming": [
+        {
+          "time": "10:05",
+          "incoming_score": 72.232693,
+          "incoming_timing_low": 56.511539,
+          "incoming_timing_high": 87.953847
+        },
+        {
+          "time": "10:00",
+          "incoming_score": 65.034616,
+          "incoming_timing_low": 58.746155,
+          "incoming_timing_high": 71.323078
+        },
+        {
+          "time": "14:05",
+          "incoming_score": 64.386539,
+          "incoming_timing_low": 47.684616,
+          "incoming_timing_high": 81.088462
+        },
+        {
+          "time": "14:00",
+          "incoming_score": 59.588462,
+          "incoming_timing_low": 52.907693,
+          "incoming_timing_high": 66.269231
+        }
+      ],
+      "outgoing": [
+        {
+          "time": "11:55",
+          "outgoing_score": 63.961539,
+          "outgoing_timing_low": 43.461539,
+          "outgoing_timing_high": 84.461539
+        },
+        {
+          "time": "12:00",
+          "outgoing_score": 61.147436,
+          "outgoing_timing_low": 50.897436,
+          "outgoing_timing_high": 71.397436
+        },
+        {
+          "time": "12:05",
+          "outgoing_score": 58.333334,
+          "outgoing_timing_low": 58.333334,
+          "outgoing_timing_high": 58.333334
+        },
+        {
+          "time": "16:10",
+          "outgoing_score": 57.403847,
+          "outgoing_timing_low": 46.115385,
+          "outgoing_timing_high": 68.692308
+        }
+      ]
+    },
+    "Wednesday": {
+      "incoming": [
+        {
+          "time": "10:05",
+          "incoming_score": 64.851923,
+          "incoming_timing_low": 50.284616,
+          "incoming_timing_high": 79.419231
+        },
+        {
+          "time": "10:00",
+          "incoming_score": 57.888462,
+          "incoming_timing_low": 52.061539,
+          "incoming_timing_high": 63.715385
+        },
+        {
+          "time": "14:05",
+          "incoming_score": 57.442309,
+          "incoming_timing_low": 42.557693,
+          "incoming_timing_high": 72.326924
+        },
+        {
+          "time": "14:00",
+          "incoming_score": 52.207693,
+          "incoming_timing_low": 46.253847,
+          "incoming_timing_high": 58.161539
+        }
+      ],
+      "outgoing": [
+        {
+          "time": "11:55",
+          "outgoing_score": 56.923077,
+          "outgoing_timing_low": 37.5,
+          "outgoing_timing_high": 76.346154
+        },
+        {
+          "time": "12:00",
+          "outgoing_score": 56.134615,
+          "outgoing_timing_low": 46.423077,
+          "outgoing_timing_high": 65.846154
+        },
+        {
+          "time": "12:05",
+          "outgoing_score": 55.346154,
+          "outgoing_timing_low": 55.346154,
+          "outgoing_timing_high": 55.346154
+        },
+        {
+          "time": "12:10",
+          "outgoing_score": 54.557693,
+          "outgoing_timing_low": 44.846154,
+          "outgoing_timing_high": 64.269231
+        }
+      ]
+    },
+    "Thursday": {
+      "incoming": [
+        {
+          "time": "14:05",
+          "incoming_score": 65.461539,
+          "incoming_timing_low": 49.769231,
+          "incoming_timing_high": 81.153847
+        },
+        {
+          "time": "10:05",
+          "incoming_score": 64.907693,
+          "incoming_timing_low": 49.446155,
+          "incoming_timing_high": 80.369232
+        },
+        {
+          "time": "14:00",
+          "incoming_score": 59.846154,
+          "incoming_timing_low": 53.569231,
+          "incoming_timing_high": 66.123078
+        },
+        {
+          "time": "10:00",
+          "incoming_score": 58.600001,
+          "incoming_timing_low": 52.415385,
+          "incoming_timing_high": 64.784616
+        }
+      ],
+      "outgoing": [
+        {
+          "time": "15:55",
+          "outgoing_score": 59.846154,
+          "outgoing_timing_low": 39.307693,
+          "outgoing_timing_high": 80.384616
+        },
+        {
+          "time": "16:00",
+          "outgoing_score": 56.384616,
+          "outgoing_timing_low": 46.115385,
+          "outgoing_timing_high": 66.653847
+        },
+        {
+          "time": "11:55",
+          "outgoing_score": 56.269232,
+          "outgoing_timing_low": 36.115385,
+          "outgoing_timing_high": 76.423078
+        },
+        {
+          "time": "12:00",
+          "outgoing_score": 55.97436,
+          "outgoing_timing_low": 45.897436,
+          "outgoing_timing_high": 66.051283
+        }
+      ]
+    },
+    "Friday": {
+      "incoming": [
+        {
+          "time": "10:05",
+          "incoming_score": 44.414423,
+          "incoming_timing_low": 33.236539,
+          "incoming_timing_high": 55.592308
+        },
+        {
+          "time": "10:00",
+          "incoming_score": 39.882693,
+          "incoming_timing_low": 35.411539,
+          "incoming_timing_high": 44.353846
+        },
+        {
+          "time": "09:55",
+          "incoming_score": 35.350962,
+          "incoming_timing_low": 33.115385,
+          "incoming_timing_high": 37.586539
+        },
+        {
+          "time": "09:50",
+          "incoming_score": 31.019231,
+          "incoming_timing_low": 22.076923,
+          "incoming_timing_high": 39.961538
+        }
+      ],
+      "outgoing": [
+        {
+          "time": "11:55",
+          "outgoing_score": 37.173077,
+          "outgoing_timing_low": 22.769231,
+          "outgoing_timing_high": 51.576923
+        },
+        {
+          "time": "12:00",
+          "outgoing_score": 36.419872,
+          "outgoing_timing_low": 29.217949,
+          "outgoing_timing_high": 43.621795
+        },
+        {
+          "time": "12:05",
+          "outgoing_score": 35.666667,
+          "outgoing_timing_low": 35.666667,
+          "outgoing_timing_high": 35.666667
+        },
+        {
+          "time": "12:10",
+          "outgoing_score": 34.913461,
+          "outgoing_timing_low": 27.711538,
+          "outgoing_timing_high": 42.115384
+        }
+      ]
+    }
+  }
+}

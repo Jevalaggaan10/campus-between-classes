@@ -1,0 +1,193 @@
+Mathematical Image Analysis Group, Saarland University
+Proseminar
+Nature-Inspired Optimisation
+Winter Term 2026 / 2027
+Home
+About Us
+People
+Teaching
+Research
+Publications
+Awards
+Links
+Contact
+Internal
+Information
+Proeminar: Nature-Inspired Optimisation
+Prof. Joachim Weickert
+Winter Term 2026 / 2027
+Proseminar (2 h)
+Important Dates
+–
+Description
+–
+Registration
+–
+Requirements
+–
+Introductory Meeting
+–
+Overview of Topics
+Important Dates
+Introductory meeting (mandatory):
+The introductory meeting has been postponed to Wednesday, October 28, 
+2026, 16:15 via Zoom. The link will be sent to all participants who 
+have registered.
+In this meeting, we will assign the topics to the participants.
+Attendance is
+mandatory
+for all participants. 
+Do not forget to register first (see below).
+Regular meetings during the winter term 2026 / 2027:
+Wednesday 16:15-18:00, online via our Zoom link.
+Date of first regular meeting:
+To be announced.
+Last meeting:
+To be announced.
+Write-up submission deadline:
+February 28, 2027, 23:59. Please e-mail your write-up to
+Joachim Weickert.
+Description
+Contents:
+In millions of years, nature has developed a wide variety of survival
+strategies. Many of them are simple, but still allow to tackle complex
+problems and tasks. In this proseminar, we will explore algorithms
+inspired by nature that can be used to solve optimisation problems.
+This includes e.g. genetic algorithms and methods inspired by swarm
+behavior. The seminar is based on the book "Nature-Inspired
+Metaheuristic Algorithms" by Xin-She Yang.
+Prerequisites:
+The proseminar is designed for bachelor students of a mathematics
+or computer science study program. They are supposed to have some basic
+mathematical knowledge (e.g. Mathematics for Computer Scientists I-III)
+Language:
+All papers are written in English, and English is the language of presentation.
+Registration
+Please register via the
+SIC Registration
+  Website
+by October 14, 2026, 20:00 CET.
+Requirements for successful participation («Schein«)
+Regular attendance:
+You must attend all seminar meetings, except for provable important reasons 
+such as illness (medical certificate required).
+Talk:
+Talk duration is 30 min, plus 15 min for discussion. Please do not
+deviate from this time schedule.
+Your presentation must be given in English. Your slides and your 
+write-up, too, should be in English.
+Write-up:
+The write-up has to be submitted until Sunday, February 28, 2027, 23:59 
+via e-mail to Joachim Weickert.
+It should summarise your talk on 5 pages.
+The file format for electronic submissions is PDF – text 
+processor files (like .doc) are not acceptable.
+Participants who do not submit a writeup cannot obtain the certificate 
+for the seminar.
+Plagiarism:
+Please adhere to the standards of scientific referencing and avoid 
+plagiarism: Quotations and copied material (such as images) must be 
+clearly marked as such, and a bibliography is required.
+Otherwise the seminar counts as failed.
+Mandatory consultation:
+Talk preparation has to be presented to your seminar supervisor no later 
+than one week
+before
+the talk is given. 
+It is your responsibility to approach us timely and make your appointment.
+No-shows:
+No-shows are unfair to your fellow students: Some talks are based on
+previous talks, and your seminar place might have prevented the
+participation of another student. Thus, in case you do not appear to 
+your scheduled talk (except for reasons beyond your control), we 
+reserve the right to exclude you from future seminars of our group.
+Participation in discussions:
+The discussions after the presentations are a vital part of this seminar. This 
+means that the audience (i.e. all paricipants) poses questions and tries to 
+find positive and negative aspects of the proposed concept and provides
+feedback and constructive criticism regarding the presentation. This 
+active participation is part of your final grade.
+Being in time:
+You are expected to participate from the beginning to the end.
+Introductory Meeting
+Here you will find the
+slides from the introductory meeting
+.
+They contain important information for preparing a good talk.
+Topics
+We will discuss the chapters below. If your registration was successful, 
+the password will be sent to you before the introductory meeting. This 
+will enable you to inspect the topics and identify your favourites.
+No.
+Date
+Speaker
+Paper
+1
+TBD
+N.N.
+Slides
+Chapter 2: Random Walks and LÃ©vy Flights
+2
+TBD
+N.N.
+Slides
+Chapter 3: Simulated Annealing
+3
+TBD
+N.N.
+Slides
+Chapter 4: How to Deal with Constraints
+4
+TBD
+N.N.
+Slides
+Chapter 5: Genetic Algorithms
+5
+TBD
+N.N.
+Slides
+Chapter 6: Differential Evolution
+6
+TBD
+N.N.
+Slides
+Chapter 7: Ant and Bee Algorithms
+7
+TBD
+N.N.
+Slides
+Chapter 8: Swarm Optimisation
+8
+TBD
+N.N.
+Slides
+Chapter 9: Harmony Search
+9
+TBD
+N.N.
+Slides
+Chapter 10: Firefly Algorithm
+10
+TBD
+N.N.
+Slides
+Chapter 11: Bat Algorithm
+11
+TBD
+N.N.
+Slides
+Chapter 12: Cuckoo Search
+12
+TBD
+N.N.
+Slides
+Chapter 13: ANNs and Support Vector Machines
+MIA Group
+©2001-2023
+The author is not
+responsible for
+the content of
+external pages.
+Imprint
+-
+Data protection

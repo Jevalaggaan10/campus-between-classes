@@ -1,0 +1,61 @@
+Main Page
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Continually Learning Agents
+Marius Mosbach
+News
+Paper assignments have been published
+Written on
+20.10.26
+by Marius Mosbach
+Hey everyone,
+The paper assignments have been published: https://github.com/at-lab-uds/continually-learning-agents-seminar#preliminary-schedule
+Best,
+Marius
+Paper selection ends today
+Written on
+19.10.26
+by Marius Mosbach
+Hey all,
+This is a reminder that the paper selection ends today (18:00).
+Here is the list of papers that haven't been selected by anyone yet:
+Pedagogical RL: Teaching Models to Teach Themselves from Privileged Information
+SkillSmith: Learning to Compose Parametric Skills and Textual…
+Read more
+Hey all,
+This is a reminder that the paper selection ends today (18:00).
+Here is the list of papers that haven't been selected by anyone yet:
+Pedagogical RL: Teaching Models to Teach Themselves from Privileged Information
+SkillSmith: Learning to Compose Parametric Skills and Textual Knowledge
+Test-Time Training with KV Binding Is Secretly Linear Attention
+Loss Smoothing for Stable Adaptation Under Distribution Shift
+Evaluating Persistent Calibration under Evolving Model Knowledge
+Off-Policy Merging Beats On-Policy Self-Distillation for Continual Learning
+End-to-End Test-Time Training for Long Context
+Three scenarios for continual learning
+Gradient Episodic Memory for Continual Learning
+Continual Learning with Deep Generative Replay
+Best,
+Marius
+Continually Learning Agents
+We use the CMS only for registration and the Forum. Check the
+github
+page for everything else.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

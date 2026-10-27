@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//127.0.1.1//NONSGML kigkonsult.se iCalcreator 2.41.92//
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+UID:39356536-3166-4435-b261-663065386164
+X-WR-CALNAME:Formal analysis of real-world security protocols Calendar
+X-WR-CALDESC:Events of the lecture Formal analysis of real-world security p
+ rotocols
+X-WR-TIMEZONE:Europe/Berlin
+END:VCALENDAR

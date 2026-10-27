@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Main Page	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="4231d285cf1947148cfee86aa34b2ec9a0b05a05@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Sic/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Sic/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Sic/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Sic/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Sic/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/llm4ps/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/llm4ps/../system" class="navbar-brand">Courses</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/llm4ps/">Main Page</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Information</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/llm4ps/termine/calendar/index">Timetable</a></li><li><a class="dropdown-item" href="/llm4ps/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/llm4ps/students/register">Registration</a></li><li class="nav-item"><a class="nav-link" href="/llm4ps/landing">Personal Status</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/llm4ps/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="479e8a30ca94339e0dd52c022d7ac6525080272169eb06045a9d5105e201497ffb69084f08b3f6d250e65e7aeaf4c683187039e3c376be0d63541c51c268ebf1" id="Token533956287" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Username" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Password" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Remember me</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.sic.saarland/llm4ps/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="c95f185b1c9de5b661b929d1dcf2100a43fc657f%3AUser.redirect" id="TokenFields1089538901" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked1603700022" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/llm4ps/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registration</a>        </li>
+        <li>
+            <a href="/llm4ps/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Forgot Password?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Enable dark mode            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Enable light mode            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/llm4ps/../system" class="site-logo" title="Front Page"><img src="/system/theme/Sic/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					Large Language Models for Physical Systems				</h1>
+				<div>
+				<small class="text-muted">
+					Roland Aydin				</small>
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					<div class="alert alert-info"><a href="/llm4ps/students/register">Registration for this course</a> is open until <strong>Sunday, 31.01.2027 23:59</strong>.</div>
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	
+<table class="table">
+	<colgroup>
+				<col span="1" style="width: auto;" />
+	</colgroup>
+	<tbody>
+	<tr>						<td class="align-top">
+				<a id="newsElement1"></a>
+				<h4 class="fs-5"><a href="/llm4ps/news/view/1">Welcome to LLMs for Physical Systems!</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="09.10.2026 16:34:16">09.10.26</span>												by Roland Aydin					</i></small>
+				</p>
+
+									<p>This is a newly created course, consisting of 2 hours of weekly lectures and 2 hours of weekly exercises for 5 ECTS total.<br />
+<br />
+Contact roland.aydin@uni-saarland.de for any questions. We welcome everyone interested in LLMs for applications outside their usual domains, in these exciting times!</p>
+							</td>
+		</tr>		
+		</tbody>
+</table>
+
+</section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<h2>Large Language Models for Physical Systems</h2>
+
+<p><strong>Code for joining the course on Teams (includes lecture content, exercise content, MC questions, etc.):&nbsp;npn9lp9</strong><br />
+<br />
+Large language models are starting to be used as working tools for physical systems: to search the literature, suggest candidate models, write and run simulation code, and interpret results. They are being used for increasingly everything! This course covers how these models work, how they are applied to physical and engineering problems, and how well they actually perform.</p>
+
+<p>This is a Master-level course available for CS students, taught in English only, offering <strong>5 credits</strong> upon successful completion. First time offered this winter term! May also count as free credits for Bachelor study programs (check on LSF)!</p>
+
+<p><strong>Lecture Dates:</strong></p>
+
+<ul>
+	<li>Every Friday, 14:15&ndash;15:45, starting 16.10.2026</li>
+	<li>Room: C6 4, lecture hall II (0.09)</li>
+</ul>
+
+<h3><strong>Exercises:</strong></h3>
+
+<p>Exercises take place once a week and are offered in two time slots. Please choose one:</p>
+
+<ul>
+	<li>Wednesday, 14:00&ndash;16:00, in A5.1, SR 3.19</li>
+	<li>Thursday, 12:00&ndash;14:00, in C6 4, lecture hall II (0.09)</li>
+</ul>
+
+<p><strong>Exercises start in the second week.</strong> There are no exercises from 12.10. to 16.10.2026. Please join the first lecture on <strong>16.10.2026</strong>.</p>
+
+<h2>Contents</h2>
+
+<p>The course is organised into three parts, with the foundations presented in the context of physical systems.</p>
+
+<p><strong>Foundations</strong></p>
+
+<ul>
+	<li>What a language model is and how it works</li>
+	<li>Attention and the transformer architecture</li>
+	<li>Training and scaling laws</li>
+	<li>Tokenisation and embeddings</li>
+	<li>Retrieval-augmented generation</li>
+</ul>
+
+<p><strong>Applications to Physical and Engineering Problems</strong></p>
+
+<ul>
+	<li>LLMs for generating constitutive models in materials science</li>
+	<li>LLMs for corrosion research and finite element method (FEM) workflows</li>
+	<li>Solving partial differential equations (PDEs): from physics-informed neural networks to LLM-written solvers</li>
+	<li>Benchmarking, performance evaluation, and failure modes</li>
+</ul>
+
+<p><strong>Current Research Topics</strong></p>
+
+<ul>
+	<li>Agentic and multi-agent systems that call tools and solvers</li>
+	<li>LLMs as optimisers for design and experiment proposal</li>
+	<li>Model mixing and alignment</li>
+	<li>Tabular foundation models</li>
+	<li>Multimodal models and world models</li>
+</ul>
+
+<p>We will also present possible master&#39;s thesis topics offered in our research group (CS and MWWT) to showcase current research trends.</p>
+
+<p><strong>Note:</strong> Since this is the first iteration of the lecture, the content listed here is tentative and may still be adjusted before the semester starts.</p>
+
+<h2>Requirements</h2>
+
+<p>No prior machine learning knowledge is required, although it would be helpful. The necessary basics are developed in the exercises.</p>
+
+<h2>Passing the Course</h2>
+
+<ul>
+	<li>The final exam lasts <strong>70 minutes</strong> and consists of a mix of <strong>multiple-choice and open questions</strong>.</li>
+	<li>Up to <strong>20% bonus points</strong> can be earned for the final exam.</li>
+</ul>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/en/privacy.html" target="_blank">Privacy Policy</a> | <a href="https://www.uni-saarland.de/en/legal-notice.html" target="_blank">Legal Notice</a><br/>
+	If you encounter technical problems, please contact <a href="mailto:cakecms@cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">the administrators</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

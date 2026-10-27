@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="de" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Hauptseite	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="4231d285cf1947148cfee86aa34b2ec9a0b05a05@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Sic/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Sic/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Sic/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Sic/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Sic/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/bioinf1_26/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/bioinf1_26/../system" class="navbar-brand">Kurse</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/bioinf1_26/">Hauptseite</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Informationen</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/bioinf1_26/termine/calendar/index">Termine</a></li><li><a class="dropdown-item" href="/bioinf1_26/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/bioinf1_26/students/register">Anmeldung</a></li><li class="nav-item"><a class="nav-link" href="/bioinf1_26/landing">Persönliche Statusseite</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/bioinf1_26/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="7c5c49c8c29f60edc3abc31a616d3163b3580ef3e95afd4e541f076abe5246537cff28ce6c811f3e6051845af2523614e7aa98afc88e265cdd334492ab458412" id="Token246932925" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Benutzername" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Passwort" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Angemeldet bleiben</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.sic.saarland/bioinf1_26/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="68568c591cd1d23dbc6ee4161ed940930b41b930%3AUser.redirect" id="TokenFields275074853" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked1232934949" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/bioinf1_26/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registrierung</a>        </li>
+        <li>
+            <a href="/bioinf1_26/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Passwort vergessen?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Dunklen Modus aktivieren            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Hellen Modus aktivieren            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/bioinf1_26/../system" class="site-logo" title="Front Page"><img src="/system/theme/Sic/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					 Bioinformatik 1				</h1>
+				<div>
+				<small class="text-muted">
+					Prof. Dr. Andreas Keller, Lara Hombrecher				</small>
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					<div class="alert alert-info">Die <a href="/bioinf1_26/students/register">Registrierung für diesen Kurs</a> ist noch bis zum <strong>Dienstag, 27.10.2026 13:59</strong> geöffnet</a>.</div>
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	
+<table class="table">
+	<colgroup>
+				<col span="1" style="width: auto;" />
+	</colgroup>
+	<tbody>
+	<tr>						<td class="align-top">
+				<a id="newsElement3"></a>
+				<h4 class="fs-5"><a href="/bioinf1_26/news/view/3">Vorlesung 29.10</a></h4>				<p>
+					<small class="text-muted"><i>
+						Geschrieben am <span data-bs-toggle="tooltip" data-bs-title="26.10.2026 10:53:31">26.10.26</span>												von Lara Hombrecher					</i></small>
+				</p>
+
+									<p>Hallo zusammen,</p>
+
+<p>die Vorlesung am Donnerstag, 29.10.2026 wird von 14.00h (nicht 14.15h) bis 15.00h stattfinden!</p>
+
+<p>Morgen entf&auml;llt die Vorlesung.</p>
+
+<p>Viele Gr&uuml;&szlig;e und einen guten Start in die Woche!</p>
+
+<p>Euer Bioinfo 1 Team</p>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement2"></a>
+				<h4 class="fs-5"><a href="/bioinf1_26/news/view/2">Kalendar</a></h4>				<p>
+					<small class="text-muted"><i>
+						Geschrieben am <span data-bs-toggle="tooltip" data-bs-title="19.10.2026 12:19:54">19.10.26</span>												von Lara Hombrecher					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse2">
+					<p>Hallo zusammen,&nbsp;</p>
+
+<p>die Vorlesungsslides von letzter Woche sind im cms hochgeladen. Au&szlig;erdem findet ihr unter &quot;Termine&quot; einen Kalender, der die Vorlesungstermine, Tutoriums- und MInitestsslots sowie Bearbeitungszeiten f&uuml;r &Uuml;bungsbl&auml;tter und Labs markiert. Das soll euch helfen, das Semester und den&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse2" href="#newsElement2">Weiterlesen</a></p>				</div>
+				<div class="collapse newsCollapse2">
+					<p>Hallo zusammen,&nbsp;</p>
+
+<p>die Vorlesungsslides von letzter Woche sind im cms hochgeladen. Au&szlig;erdem findet ihr unter &quot;Termine&quot; einen Kalender, der die Vorlesungstermine, Tutoriums- und MInitestsslots sowie Bearbeitungszeiten f&uuml;r &Uuml;bungsbl&auml;tter und Labs markiert. Das soll euch helfen, das Semester und den Arbeitsaufwand f&uuml;r Bioinfo 1 besser zu planen. Bitte bedenkt, dass sich durchaus (z.B. aufgrund von Krankheit) Termine &auml;ndern k&ouml;nnen, dar&uuml;ber informieren wir euch dann jedoch rechtzeitig.</p>
+
+<p>Viele Gr&uuml;&szlig;e, einen guten Start in die Woche und bis morgen!</p>
+
+<p>Euer Bioinfo 1 Team</p>
+				</div>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement1"></a>
+				<h4 class="fs-5"><a href="/bioinf1_26/news/view/1">Erste Vorlesung</a></h4>				<p>
+					<small class="text-muted"><i>
+						Geschrieben am <span data-bs-toggle="tooltip" data-bs-title="13.10.2026 13:08:23">13.10.26</span>												von Lara Hombrecher					</i></small>
+				</p>
+
+									<p>Hallo zusammen und Willkommen zu Bioinfo 1,</p>
+
+<p>die erste Vorlesung findet heute in E 2 1 (Bioinformatik Geb&auml;ude) in Raum 0.07 statt!</p>
+
+<p>Viele Gr&uuml;&szlig;e</p>
+
+<p>Das Bioinfo 1 - Team</p>
+							</td>
+		</tr>		
+		</tbody>
+</table>
+
+</section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<h2>Bioinformatik 1</h2>
+
+<p>(Vorlesung der Bioinformatik 4V+2&Uuml;, Pflicht 9CP f&uuml;r BSc Bioinformatik)</p>
+
+<p><strong>Hinweis:</strong> Diese Vorlesung wird auf Deutsch gehalten.&nbsp;</p>
+
+<h4>Beschreibung</h4>
+
+<p>Bioinformatik 1 lehrt den Student:innen die Grundlagen der Bioinformatik. Inhalte sind u.a. :</p>
+
+<ul>
+	<li>Grundlagen Sequenzierung</li>
+	<li>Sequence Assembly I und II</li>
+	<li>Sequence Alignments</li>
+	<li>Suche in Sequenzdatenbanken</li>
+	<li>Profile and HMMs - VEIL</li>
+	<li>SNPs and Mutations</li>
+	<li>RNA Analysis</li>
+	<li>Grundlagen des ML</li>
+</ul>
+
+<p>Die Vorlesung wird von Bioinformatik 2 im Sommersemester weitergef&uuml;hrt, die sich anschlie&szlig;end mit Proteinen und Strukturen besch&auml;ftigt.</p>
+
+<h4>Vorraussetzungen</h4>
+
+<p>Bioinformatik 1 ist ab dem 3. Semester des Bachelorstudiengangs zu belegen. Gleichzeitig sollte BioStatsLab geh&ouml;rt werden, da die Inhalte aufeinander aufbauen.</p>
+
+<p>Weitere Vorraussetzungen:</p>
+
+<ul>
+	<li>MfI 1 &amp; 2</li>
+	<li>Programming 1 &amp; 2</li>
+	<li>gute Programmierkenntnisse (v.a. Python)</li>
+</ul>
+
+<h4>Termine</h4>
+
+<p><strong>Vorlesungen:</strong> Dienstags &amp; Donnerstags 14-16h</p>
+
+<p><strong>Vorlesungsbeginn:</strong>&nbsp;13.10.2026</p>
+
+<p><strong>&Uuml;bungen:</strong>&nbsp;Dienstags 12-14h</p>
+
+<p><strong>&Uuml;bungsbeginn:</strong>&nbsp;27.10.2026</p>
+
+<h4>Klausur</h4>
+
+<p>Der Kurs wird mit einer schriftlichen Klausur abgeschlossen.</p>
+
+<p>Zu Zulassung der Klausur sind die H&auml;lfte der Punkte aus w&ouml;chentlichen Minitests n&ouml;tig, die theoretisches und praktisches Wissen pr&uuml;fen.</p>
+
+<p>Au&szlig;erdem muss eine Anmeldung zur Klausur im LSF erfolgen.</p>
+
+<h4>Weitere Informationen</h4>
+
+<p><strong>Link:</strong>&nbsp;<a href="https://cms.sic.saarland/bioinf1_26">https://cms.sic.saarland/bioinf1_26</a>&nbsp;</p>
+
+<p><strong>Registrierung:</strong> Bis zum 27.10.2026 13:59 auf der Anmeldungsseite im CMS</p>
+
+<p><strong>Materialien:</strong> Werden im CMS unter Informationen -&gt; Materialien zur Verf&uuml;gung gestellt.</p>
+
+<hr />
+<p>(Lecture for Bioinformatics 4V+2&Uuml;, mandatory 9 CP for BSc Bioinformatik)</p>
+
+<p><strong>Important:</strong> The lecture will be in German.</p>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/datenschutzerklaerung.html" target="_blank">Datenschutz</a> | <a href="https://www.uni-saarland.de/impressum.html" target="_blank">Impressum</a><br/>
+	Bitte wenden Sie sich bei technischen Problemen an <a href="mailto:cakecms@cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">die Administratoren</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

@@ -1,0 +1,69 @@
+101
+
+
+
+Füllengarten Siedlung – Burbacher Markt – Betriebshof –
+Rathaus – Brauerstraße/Fernbusbahnhof – Universität –
+Dudweiler Dudoplatz
+Umsteigelinien                               Haltestellen
+         105                               Füllengarten Siedlung                                   160                                 Schwähnselstraße
+                                           Ulmenstraße                                              102, 136, 138, 160                 Dudweiler Bürgerhaus
+                                           Am Freibüsch                                             102, 133, 136, 138                 Hermann-Löns-Straße
+                                           Lindenhof                                                  133                              Dudweiler Kantstraße
+                                           Im Malhofen                                                                                 Gartenstraße
+       102, 105, 108                       Burbacher Kirche                                                                            Blumenstraße
+       102, 104, 105, 108,                 Burbacher Markt                                          102, 133, 136, 138, 160            Dudweiler Markt
+      110, 134, 165
+       102, 104, 105, 108,                 Brunnenstraße                                            102, 103, 104, 125,
+      134, 165                                                                                     133, 136, 138, 163,                 Dudweiler Dudoplatz
+       102, 104, 105, 108                  Burbach Bahnhof                                         164, 132, 160
+
+       102, 104, 105, 108, 129             Hochstraße                                                Haltestelle barrierefrei
+       102, 104, 105, 108, 129             Metzer Brücke                                           Haltestelle bisher nur in einer
+       102, 104, 105, 108, 129             Brückenstraße                                           Richtung barrierefrei
+       103, 104, 124, 126, 129             Betriebshof                                               Haltestelle mit taktilem Streifen
+                                                                                                     Haltestelle bisher nur in einer
+       103, 104, 109, 121,                 HTW / SWS                                               Richtung mit taktilem Streifen
+      124, 126, 129                                                                                  Park-und-Ride-Plätze vorhanden
+       103, 104, 109, 121,                 Roonstraße
+      124, 126, 129                                                                         000: Linien der Saarbahn GmbH
+       102, 103, 104, 105,                                                                  999:    Linien  anderer  Verkehrsunter  -
+      106, 107, 108, 109,                  Hansahaus/                                              nehmen des saarVV
+      110, 121, 122, 123,                  Ludwigskirche
+      125, 126, 128, 129                                                                    Umsteigemöglichkeiten an Haltestellen
+   S1,                                                                                      Im Linienband (siehe links) sind an den Haltestellen die Linien
+       102, 103, 104, 106,                 Rathaus                                          aufgelistet, an denen prinzipiell die Möglichkeit besteht, auf andere
+      107, 109, 110, 121,                                                                   Linien umzusteigen.
+      122, 125, 129, 150                                                                    Dies bedeutet jedoch nicht, dass bei jeder Fahrt auf dieser Linie ein
+       102, 103, 104, 106,                                                                  direkter Anschluss an die Umsteigelinie besteht. Es wird lediglich
+      107, 109, 110, 121,                  Rabbiner-Rülf-Platz                              darauf hingewiesen, dass die betreffende Linie und die Umsteigelinie
+      122, 125, 129                                                                         hier eine/n gemeinsame Haltestelle bzw. Haltestellenbereich haben.
+   S1,
+       102, 103, 104, 106,                 Johanneskirche
+      107, 109, 122, 125, 150
+       102, 103, 104, 106,
+      107, 109, 122, 124,                  Haus der Zukunft
+      125, 150, 172, 175
+       103, 104, 124, 125,                 Brauerstraße/
+      150, 172, 175                        Fernbusbahnhof
+         124,  150                         An der Trift
+         124,  150                         Prinzenweiher/
+                                           Jugendherberge
+       102, 109, 124, 136, 150             Waldhaus
+       102, 109, 124, 136, 150             Wildpark
+       102, 109, 124, 136, 150             Sportcampus
+       102, 109, 124, 136,                 Universität Botanischer
+      138, 163, 150, 170                   Garten
+       102, 109, 124, 136,                 Universität Campus
+      138, 163, 150, 170
+       102, 109, 124, 136,                 Universität Mensa
+      138, 163, 150, 170
+       102, 109, 124, 136,                 Universität Busterminal
+      138, 163, 150, 170
+       102, 136, 138, 163,                 Stuhlsatzenhaus
+      150, 170
+       102, 133, 136, 138, 163             Guckelsberg
+         133                               Guckelsberg
+                                           Gehlenbergstraße
+                                           Rentrischer Straße
+      160                                  In der Wagenlück

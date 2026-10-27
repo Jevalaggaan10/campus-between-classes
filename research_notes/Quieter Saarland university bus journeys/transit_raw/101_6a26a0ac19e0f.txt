@@ -1,0 +1,216 @@
+101                                                                                                        101     Füllengarten Siedlung – Burbacher Markt – Betriebshof – Rathaus – Brauerstraße/Fernbusbahnhof – Universität – Dudweiler Dudoplatz
+                                                                                                                    Johanneskirche / Rathaus
+Füllengarten Siedlung – Burbacher Markt – Betriebshof –
+Rathaus – Brauerstraße/Fernbusbahnhof – Universität –
+Dudweiler Dudoplatz                                                                                     Haltestellenübersichtsplan Johanneskirche
+Umsteigelinien                               Haltestellen
+          105                                 Füllengarten Siedlung                                                   LINIE                                                                                             FAHRTZIELFAHRTZIELLINIE
+                                              Ulmenstraße                                                             Rathaus                                              Rathaus                                                  Johanneskirche
+                                              Am Freibüsch                                                                                                                                                                                                                     Nauwieser
+                                                                                                                 101   102   Universität - Dudweiler Dudoplatz              106    Folsterhöhe Siedlung                                                                        Viertel
+                                              Lindenhof                                                                      Dudweiler - Schnappach / Hühnerfeld -                                                                                                                                                                                                                                                                                                                                                                    101
+                                              Im Malhofen                                                              103   Altenwald Skatezentrum                         N4     Universität / Lebach - Dillingen          Kaiserstraße
+                                                                                                                       104    Dudweiler - Friedrichsthal Stadtbad           N5     Saarlouis - Merzig -
+        102, 105, 108                         Burbacher Kirche                                                                                                                     Saarhölzbach                                                    Dudweilerstraße
+                                                                                                                       107    Eschberg - Saarbasar                          N11    Dudweiler - Friedrichsthal -                                                    Cecilienstraße
+        102, 104, 105, 108,                   Burbacher Markt                                                          109    Rotenbühl - Universität                              Bildstock
+       110, 134, 165                                                                                                                                                        N12    Quierschied - Holz                                                            JohanneskircheJohanneskirche
+        102, 104, 105, 108,                   Brunnenstraße                                                            110    Völklingen                                    N14    Universität                                            StephanstraßeSiedlerheim - Riegelsberg - Heusweiler - Lebach
+       134, 165                                                                                                        111    Universität (nur an Vorlesungstagen)          N14    Völklingen - Wehrden                                            Brebach - Kleinblittersdorf - Sarreguemines
+        102, 104, 105, 108                    Burbach Bahnhof                                                          121    Bellevue                                      N15    Kleinblittersdorf -
+        102, 104, 105, 108, 129               Hochstraße                                                                                                                           Bliesransbach                                                             1
+                                                                                                                       122    Römerkastell - Schafbrücke                   Johanneskirche                                                                      Saarbahn JohanneskircheJohannisstraße
+        102, 104, 105, 108, 129               Metzer Brücke                                                            125    Herrensohr - Dudweiler Dudoplatz                                                               Dudweilerstraße
+        102, 104, 105, 108, 129               Brückenstraße                                                                                                                 101    Füllengarten Siedlung                                             2
+                                                                                                                       129    Rastpfuhl - Rußhütte                          102    Altenkessel Talstraße
+        103, 104, 124, 126, 129               Betriebshof                                                              150    Neuweiler - Sulzbach                                                                                                                                   Saarbahn                                          Hochschule für Technik und                                              1
+        103, 104, 109, 121,                                                                                                                                                 103    Klarenthal Jägerpfad / Klarenthal Birkenweg                             Großherzog-Friedrich-StraßeService-Center                                   Wirtschaft des Saarlandes
+                                              HTW / SWS                                                                175    Hühnerfeld - Bildstock
+       124, 126, 129                                                                                                                                                        104    Klarenthal Jägerpfad /                                                                       Nassauerstraßei
+        103, 104, 109, 121,                                                                                                                                                        Klarenthal Birkenweg
+                                              Roonstraße                                                              Rathaus                                               107    Folsterhöhe Siedlung
+       124, 126, 129                                                                                                   N1     Ensheim - Blieskastel                                                                                                  Rathaus
+        102, 103, 104, 105,                                                                                                                                                 109    Bellevue - Habsterdick
+       106, 107, 108, 109,                    Hansahaus/                                                               N2     St. Ingbert - Homburg - Bexbach               122    Rußhütte / Rastpfuhl                                     Rathaus
+       110, 121, 122, 123,                    Ludwigskirche                                                            N3     Neunkirchen - Ottweiler -                     125    Rodenhof Kálmánstraße                            St. Johanner Markt
+       125, 126, 128, 129                                                                                                    St. Wendel
+    S1,
+        102, 103, 104, 106,                   Rathaus
+       107, 109, 110, 121,
+       122, 125, 129, 150
+        102, 103, 104, 106,
+       107, 109, 110, 121,                    Rabbiner-Rülf-Platz
+       122, 125, 129
+    S1,
+        102, 103, 104, 106,                   Johanneskirche
+       107, 109, 122, 125, 150
+        102, 103, 104, 106,
+       107, 109, 122, 124,                    Haus der Zukunft
+       125, 150, 172, 175                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  3
+        103, 104, 124, 125,                   Brauerstraße/                                                                                                                                                                                                                                                                            Johanneskirche                                                         2
+       150, 172, 175                          Fernbusbahnhof
+          124,  150                           An der Trift
+          124,  150                           Prinzenweiher/
+                                              Jugendherberge
+        102, 109, 124, 136, 150               Waldhaus
+        102, 109, 124, 136, 150               Wildpark                                                                                                             101
+        102, 109, 124, 136, 150               Sportcampus
+        102, 109, 124, 136,                   Universität Botanischer
+       138, 163, 150, 170                     Garten                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Lotsenservice
+        102, 109, 124, 136,                   Universität Campus                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Buchen Sie jetzt den kostenlosen
+       138, 163, 150, 170                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               Lotsenservice unter:
+        102, 109, 124, 136,                   Universität Mensa                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Tel.: 06898 500 4000
+       138, 163, 150, 170                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               E-Mail: mobisaar@saarvv.de
+        102, 109, 124, 136,                   Universität Busterminal                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   www.mobisaar.de
+       138, 163, 150, 170                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               Servicezeiten:
+        102, 136, 138, 163,                   Stuhlsatzenhaus                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           Mo. – Fr. 08.00 – 18.00 Uhr
+       150, 170                                                                                                  Haltestelle barrierefrei
+        102, 133, 136, 138, 163               Guckelsberg                                                      Haltestelle bisher nur in einer
+          133                                 Guckelsberg                                                      Richtung barrierefrei
+                                              Gehlenbergstraße                                                   Haltestelle mit taktilem Streifen                                                                          A620
+                                              Rentrischer Straße                                                 Haltestelle bisher nur in einer
+                                                                                                               Richtung mit taktilem Streifen
+       160                                    In der Wagenlück                                                   Park-und-Ride-Plätze vorhanden                                                                                                                                                                                                                                                               2
+       160                                    Schwähnselstraße                                          000: Linien der Saarbahn GmbH
+        102, 136, 138, 160                    Dudweiler Bürgerhaus                                      999:    Linien  anderer  Verkehrsunter  -
+        102, 133, 136, 138                    Hermann-Löns-Straße                                                                                                                                                                                                                                                                               1                                                                                                           Legende
+                                                                                                               nehmen des saarVV
+          133                                 Dudweiler Kantstraße                                                                                                                                                                                                                                                                                                                                                                                            Endstelle   101
+                                              Gartenstraße                                              Umsteigemöglichkeiten an Haltestellen                                                                                                                                                                                                                                                                                                                 101                Bus mit Liniennummer,
+                                                                                                        Im Linienband (siehe links) sind an den Haltestellen die Linien                                                                                                                                                                                                                                                                                        Haltestelle       Halte- und Endstelle
+                                              Blumenstraße                                              aufgelistet, an denen prinzipiell die Möglichkeit besteht, auf andere                                                                                                                                                                                                                A620
+                                                                                                        Linien umzusteigen.                                                                                                                                                                                                                                                                                                                                                      Haltestelle nur in Pfeilrichtung
+        102, 133, 136, 138, 160               Dudweiler Markt
+                                                                                                        Dies bedeutet jedoch nicht, dass bei jeder Fahrt auf dieser Linie ein                                                                                                                                                                                                                                                                                                    Saarbahn Service Center (SSC)
+        102, 103, 104, 125,                                                                             direkter Anschluss an die Umsteigelinie besteht. Es wird lediglich
+       133, 136, 138, 163,                    Dudweiler Dudoplatz                                       darauf hingewiesen, dass die betreffende Linie und die Umsteigelinie                                                                                                                                                                                                                                                                                                     Verkaufsstelle
+       164, 132, 160                                                                                    hier eine/n gemeinsame Haltestelle bzw. Haltestellenbereich haben.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                            Kartografie und Gestaltung:  © Baumgardt Consultants GbR
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         www.baumgardt-online.de           Universität des Saarlandes, Campus                                     3
+                                                                                                                                                                                                                                                                                                                                                                                                                                                            Kartendaten: © OpenStreetMap
+HaltestellenübersichtsplanUniversität BusterminalUni Bu Universität Busterminal                                                        Haltestellenübersichtsplansterminal                                                       Hansahaus / Ludwigskirche Hansahaus/Ludwigskirche                                                    HaltestellenübersichtsplanDudweiler Dudoplatz Dudweiler Dudoplatz
+
+
+
+
+
+   BUSSTEIG             FAHRTZIELLINIE                                                    BUSSTEIG                  FAHRTZIELLINIE                                                                               BUSSTEIG             FAHRTZIELLINIE                                                      BUSSTEIG              FAHRTZIELLINIE                                                                                 BUSSTEIG               FAHRTZIELLINIE
+    A          101   Rabbiner-Rülf-Platz -           E          138    Scheidt - Saarbasar -                                                                                                                                 105   Römerkastell - Eschberg          E         R10    Flughafen (SCN) - Blieskastel                                                                                                              A          103    Schnappach / Hühnerfeld - Altenwald Skatezentrum
+        A            Füllengarten Siedlung        E                    Römerkastell                                                  Gebäude E3 1
+               102   Hauptbahnhof -                             163    Dudweiler Bahnhof                                                                                                                               106   107   Folsterhöhe Siedlung                       X66    Landwehrplatz                                                                                                                                         104    Friedrichsthal Stadtbad
+                     Altenkessel Talstraße                                                                                                                                             Fraunhofer                            108   Klinikum Saarbrücken                              Rathaus - Universität -                                    C                                                                                          136                           Dudweiler Welkertswiesen - Grühlingshöhe
+                     Römerkastell -                                                                                                                                                   Institut                                                                          101   102    Dudweiler Dudoplatz                                                                                                                                                                                                                                                                                   Sulzbach
+               136   Klinikum Saarbrücken                                                                                                                                                                                    121   Schloßplatz - Bellevue                                                                                                                                                                                  138    Universität - Scheidt - Saarbasar - Römerkastell
+                                                     F          111    Ilseplatz - Rabbiner-                                                                                                                                       Industriegebiet Süd -                      103    Rathaus - Dudweiler - Schnappach /                                                                                                                    160    Neuweiler - St. Ingbert
+               138   Dudweiler Dudoplatz/         F                    Rülf-Platz (nur an                                                                                                                                    123   Goldene Bremm / Habsterdick                       Hühnerfeld - Altenwald Skatezentrum                                              Eisenbahnstraße
+                     Dudweiler Bahnhof                                 Vorlesungstagen)                                                                                                                                                                                              Rathaus - Dudweiler -                                       Stengelstraße                                                                             163    Universität
+                                                                                                                                                                                                                                                                              104    Friedrichsthal Stadtbad                                                                                                                               164    Grühlingshöhe                                                                                                                                       Trierer Straße
+                                                                112   An der Trift -                                                                                                                                         105   Hauptbahnhof -                                                                                D
+               N4    Saarbrücken Rathaus                               Hauptbahnhof -                                    A                                B                                                                        Füllengarten Siedlung                      106    Rathaus                                                                                                                                               N11    Sulzbach - Friedrichsthal - Bildstock
+    BB                                                                 Betriebshof                                                                                                                                                 Hauptbahnhof - Matzenberg                                                                                                                                                                               SEV    Schienenersatzverkehr
+               150   Ilseplatz - Rathaus                                                                  Campus                                                                                                             108   Siedlung / Luisenthal Bhf                  107    Rathaus - Stadion Kieselhumes                                                                                                                                                                                                                                                                     A
+                                                                                                                                                                  Stuhlsatzenhaus                                                                                                    Eschberg Saarbasar                                                                               E
+               170   St. Ingbert                                                                                                                                                                                             123   Hauptbahnhof                               109    Rathaus - Universität Busterminal                                 A                                Innenstadt                              B          125    Herrensohr - Am Homburg - Rodenhof Kálmánstraße
+                                                     G          109   Rabbiner-Rülf-Platz - Habsterdick           C                               D                             E                                                                                                                                                                                                                                                                                                                                                                  Sulzbachtalstraße
+                                                                                                                                                                                                                             101   Füllengarten Siedlung                      110    SchnellverkehrVölklingen -                                                                                                                            132    Fischbach - Quierschied - Brefeld - Hühnerfeld - Sulzbach                                                                                   C
+                                                                                                                                                                                                                                                                                     Saarbrücken                                                                                                                                           133    Dudweiler Kantstraße - Dudweiler Friedhof - Dudoplatz
+    CC         101   Dudweiler Dudoplatz                                                                                                                                                                                     103   Klarenthal Jägerpfad /               121   129    Rathaus                                                                         B
+                                                     H          124   Hauptbahnhof - Betriebshof                  F                                                               GH                                               Klarenthal Birkenweg                                     aße                                                                                                                                            133    Dudweiler Friedhof - Dudweiler Kantstraße - Dudoplatz                          Saarbrücken           Sulzbachtalstraße
+               102   Dudweiler Dudoplatz                                                                                                                                                                                           Klarenthal Jägerpfad /                     122    Rathaus - Römerkastell -                                                                                                                        138   163    Dudweiler Bahnhof163
+                                                                                                                                                                                                                             104   Klarenthal Birkenweg                              Schafbrücke                                                                                                                                                                                                                                                      Theodor-Storm-Straße
+                                                                                                                                                                                                                                                                                           Keplerstr
+                     Saarbrücken Rathaus -                                                                                                                                                                                   109   Habsterdick                                125    Rathaus - Am Homburg -                                                                                                                     C          103    Klarenthal Jägerpfad / Klarenthal Birkenweg
+    DD         N14   Völklingen - Wehrden                                                                                                                                                                                                                                            Herrensohr - Dudweiler Dudoplatz          LLudwigskirudwigskircheche                                                                                                                                                                                                                B       D
+                     Dudweiler Dudoplatz/                                                                                                                                                                                    121   HTW / Stadtwerke                           126    St. Arnual - Güdingen - Brebach Bhf                                                                                                                   104    Klarenthal Jägerpfad / Klarenthal Birkenweg
+               136   Grühlingshöhe                                                                                      Gebäude E4 1 Parkhaus Ost                              E4 2                                                Saarbrücken - Bellevue                                                                                                                                                                                  136    Universität - Römerkastell - Klinikum Saarbrücken
+                                                                                                                                                                                                                             126   Betriebshof / Goldene Bremm                128    St. Arnual - Wackenberg                                                                                                                                                                                                                                             chule
+               150   Neuweiler - Sulzbach                                                                                                                                                                                    129   Rastpfuhl                                  321    Landwehrplatz                                                                                                                              D          101    Universität - Betriebshof - Füllengarten Siedlung                                                                                      Dudweiler Markt
+               320   Neunkirchen                                                                                                                                                                                             121   Hauptbahnhof                               506    St. Ingbert - Blieskastel                                                                                                                             102    Universität - Hauptbahnhof - Altenkessel Talstraße                    Gemeinschafts-Gemeinschafts-Gemeinschafts-öffentliche Parkplätze
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        schule Dudweilerschule Dudweilerschule Dudweiler(im Umfeld vorhanden)
+
+AUSBILDUNG ODER
+DUALES STUDIUM?
+
+
+Hier informieren:
+sw-sb.de/ausbildung
+
+
+
+
+
+
+
+
+
+
+EINIGE UNSERER BENEFITS
+
+        Kostenloses Junge-Leute-
+ D-Ticket
+        Ticket (D-Ticket)
+
+
+        Betriebliches
+        Gesundheitsmanagement
+        und Fitnessstudio
+
+        Flexible Arbeitszeiten und
+        mobiles Arbeiten für ausge-
+        wählte Berufsgruppen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  FAHRPLAN
+ 101
+
+
+
+ Füllengarten Siedlung –
+ Dudweiler Dudoplatz
+
+
+
+
+
+ gültig ab 1. Juli 2026

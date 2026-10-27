@@ -1,0 +1,63 @@
+Main Page
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Neural Networks: Theory and Implementation
+Dietrich Klakow
+News
+Written on
+20.10.26
+by Dietrich Klakow
+First lecture today (20.10.)
+Neural Networks: Theory and Implementation
+This is is the version for
+CS, DSAI, VC, Bioinformatics, Systems Engineering, Physics, wirtschaftsinformatik,
+etc.
+Starts:
+20.10.26 14:15
+Location
+: large lecture hall mathematics, HS1 in E25
+Exam:
+9.2.27 (location will follow a few days before the exam)
+Tutorials
+: tbd
+Outline:
+Linear Algebra and Principal Component Analysis (PCA)
+Numerical Computation
+Machine Learning Basics
+Deep Feedforwad Neural Networks
+Regularization for Deep Learning
+Optimization for Deep Learning
+Convolutional Neural Networks
+Sequence Modelling: Recurrent and Recursive Neural Networks
+Transformers
+GNNs
+Prerequisite:
+knowledge in basic machine learning (as acquired eg. in EML (https://cms.sic.saarland/eml25/))
+Text Books
+:
+Neural Networks and Deep Learning by Charu C. Aggarwal
+Deep Learning by Aaron Courville
+,
+Ian Goodfellow
+,
+Joshua Bengio
+Geometry of Deep Learning, Jong Chul Ye
+Deep Learning Architectures: A Mathematical Approach, Ovidiu Calin
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

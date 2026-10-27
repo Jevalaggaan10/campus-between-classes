@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Main Page	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="4231d285cf1947148cfee86aa34b2ec9a0b05a05@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Sic/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Sic/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Sic/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Sic/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Sic/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/emlw26/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/emlw26/../system" class="navbar-brand">Courses</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/emlw26/">Main Page</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Information</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/emlw26/termine/calendar/index">Timetable</a></li><li><hr class="dropdown-divider" /></li><li><a class="dropdown-item" href="/emlw26/2/FAQ">FAQ</a></li><li><hr class="dropdown-divider" /></li><li><a class="dropdown-item" href="/emlw26/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/emlw26/students/register">Registration</a></li><li class="nav-item"><a class="nav-link" href="/emlw26/landing">Personal Status</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/emlw26/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="52f5b08a36f79abdc3ee042acc77554dce1f35895a13afe96fbdc99f1e8f08b0f7d2a0e78d338b03a035424c9ecbcd719877faedf9b1d5231d6946ae7dee80aa" id="Token709451541" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Username" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Password" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Remember me</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.sic.saarland/emlw26/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="87dd97854ce9f5dbc87967cacb346cf8069ff645%3AUser.redirect" id="TokenFields2081265138" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked2017052854" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/emlw26/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registration</a>        </li>
+        <li>
+            <a href="/emlw26/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Forgot Password?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Enable dark mode            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Enable light mode            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/emlw26/../system" class="site-logo" title="Front Page"><img src="/system/theme/Sic/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					Elements of Machine Learning				</h1>
+				<div>
+				<small class="text-muted">
+					Sara Magliacane				</small>
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					<div class="alert alert-info"><a href="/emlw26/students/register">Registration for this course</a> is open until <strong>Saturday, 31.10.2026 23:59</strong>.</div>
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	
+<table class="table">
+	<colgroup>
+				<col span="1" style="width: auto;" />
+	</colgroup>
+	<tbody>
+	<tr>						<td class="align-top">
+				<a id="newsElement2"></a>
+				<h4 class="fs-5"><a href="/emlw26/news/view/2">Tutorial assignment </a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="26.10.2026 13:03:34">26.10.26</span>												by Elina Rojin Celik					</i></small>
+				</p>
+
+									<p>Dear students,</p>
+
+<p>you can now find your assigned tutorial on your Personal Status page.&nbsp;All tutorials take place in&nbsp;<strong>E1 3 HS001.</strong></p>
+
+<p>Tutorials start <strong>this week&nbsp;</strong>and will cover Problems 1 and 2 from Exercise Sheet 1, which you can find in the Materials section.</p>
+
+<p>Have a nice week!<br />
+EML Team&nbsp;</p>
+
+<p>&nbsp;</p>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement1"></a>
+				<h4 class="fs-5"><a href="/emlw26/news/view/1">Materials + Logistics update (we start always at 4pm)</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="15.10.2026 20:26:52">15.10.26</span>												by Sara Magliacane					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse1">
+					<p>Hi all,&nbsp;</p>
+
+<p>Just a few announcements for the materials and logistics:</p>
+
+<p>- I have uploaded the slides and the videos of the first lecture on Youtube in the <a href="https://cms.sic.saarland/emlw26/materials/">materials</a>. I will keep uploading the slides before class and the video after class every week.</p>
+
+<p>- In&nbsp;<a href="https://cms.sic.saarland/emlw26/materials/">materials</a>, you can find also the old exams&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse1" href="#newsElement1">Read more</a></p>				</div>
+				<div class="collapse newsCollapse1">
+					<p>Hi all,&nbsp;</p>
+
+<p>Just a few announcements for the materials and logistics:</p>
+
+<p>- I have uploaded the slides and the videos of the first lecture on Youtube in the <a href="https://cms.sic.saarland/emlw26/materials/">materials</a>. I will keep uploading the slides before class and the video after class every week.</p>
+
+<p>- In&nbsp;<a href="https://cms.sic.saarland/emlw26/materials/">materials</a>, you can find also the old exams (similar to what we will do), and exercise sheet 0, which the tutors have prepared. This is a self-assessment, to see if you might want to read up on some of the topics to be able to follow the class.</p>
+
+<p>- Here is&nbsp;<a href="https://www.youtube.com/playlist?list=PLoROMvodv4rPP6braWoRt5UCXYZ71GZIQ">a Youtube playlist</a> with the classes of the authors of the textbook, which we will be following, so if something is not clear, you have also this additional resource.&nbsp;</p>
+
+<p>- I made an error in class and in the Lecture 0 video (fixed in the updated slides): the midterm is actually on Dec 3 from <strong>16:00 to 19:00</strong> (so essentially the time of the class + 1hour, in order to avoid conflicts with other classes),</p>
+
+<p>- For the ones who were not in class today, we have democratically decided that the class will be recorded, and it will start <strong>at 4pm (not 4:15), with a short 5 minute break around 4:45pm</strong>, so the hope is to finish at 5:35ish.</p>
+
+<p>See you next week!<br />
+Sara</p>
+				</div>
+							</td>
+		</tr>		
+		</tbody>
+</table>
+
+</section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<h2><img alt="" src="https://docs.google.com/drawings/d/1SD-Y4mV3-DhiIKLp4dwfID4rKxEsDkDVk-26JEsOFh0/edit" />Elements of Machine Learning</h2>
+
+<table border="1" bordercolor="#ccc" cellpadding="5" cellspacing="0" style="border-collapse:collapse">
+	<tbody>
+		<tr>
+			<td>
+			<p><strong>Summary</strong></p>
+
+			<p>&nbsp;</p>
+
+			<p>&nbsp;</p>
+			</td>
+			<td>
+			<p>In this course we will discuss the foundations &ndash; the elements &ndash; of machine learning. In particular, we will focus on the ability of, given a data set, to choose an appropriate method for analyzing it, to select the appropriate parameters for the model generated by that method, and to assess the quality of the resulting model. Both theoretical and practical aspects will be covered.</p>
+
+			<p><strong>Lectures will start on October 15th!&nbsp;</strong></p>
+
+			<p><strong>Registration in CMS is open until October 31st, in LSF until February 7th.</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p><strong>Prerequisites&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong></p>
+
+			<p>&nbsp;</p>
+			</td>
+			<td>
+			<p>The course is targeted at students in computer science, data science and AI, cybersecurity, bioinformatics, math, and general sciences with a mathematical background. Students should know the basics of programming, proof techniques, linear algebra, and statistics, for example by having taken Programming I and II (for programming), Mathematics for Computer Scientists I and II (for linear algebra), and then either Statistics Lab or Mathematics for Computer Scientists III (for statistics).</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p><strong>Type</strong></p>
+			</td>
+			<td>
+			<p>Basic Lecture (6 ECTS) for BSc DSAI, CySec, and Computer Science; Advanced Lecture (6 ECTS) for all others&nbsp;<strong>except for the M.Sc. Cybersecurity.</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td><strong>Lecturer</strong></td>
+			<td>
+			<p><a href="https://saramagliacane.github.io/">Prof. Dr. Sara Magliacane</a></p>
+			</td>
+		</tr>
+		<tr>
+			<td><strong>Lectures</strong></td>
+			<td>
+			<p>Thursdays, 16:00-18:00&nbsp;in person in E.2.2 Lecture Hall 0.01 (G&uuml;nter Hotz H&ouml;rsaal).&nbsp;&nbsp;</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p><strong>Textbooks</strong></p>
+
+			<p>&nbsp;</p>
+			</td>
+			<td>
+			<p>- <strong>Main textbook:</strong> Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani, and Jonathan Taylor:<strong> An Introduction to Statistical Learning with Applications in Python&nbsp;</strong> (first edition, 2023) -&nbsp;<a href="https://www.statlearning.com/">free pdf (and online classes)</a></p>
+
+			<p>- More advanced: Trevor Hastie, Robert Tibshirani and Jerome Friedman: <strong>The Elements of Statistical Learning </strong>(second edition, 2009) -&nbsp;<a href="https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12_toc.pdf.download.html">free pdf</a></p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p><strong>Tutorials</strong></p>
+
+			<p>&nbsp;</p>
+
+			<p>&nbsp;</p>
+
+			<p>&nbsp;</p>
+
+			<p>&nbsp;</p>
+
+			<p>&nbsp;</p>
+			</td>
+			<td>
+			<p>All tutorials will be in person in E1 3 HS001. They will start on Oct 28.</p>
+
+			<ul>
+				<li>Wednesday at 10:00&ndash;12:00</li>
+				<li>Wednesday at 14:00&ndash;16:00</li>
+				<li>Thursday at 10:00&ndash;12:00</li>
+				<li>Thursday at 12:00&ndash;14:00</li>
+				<li>Friday at 10:00&ndash;12:00</li>
+				<li>Friday at 12:00&ndash;14:00</li>
+			</ul>
+
+			<p>Note that the tutorial on Sunday, 16:00 is a dummy tutorial,&nbsp;intended for students that <strong>do not wish to attend any tutorials</strong>.</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p><strong>Midterms<br />
+			&amp; Exams</strong></p>
+
+			<p>&nbsp;</p>
+
+			<p>&nbsp;</p>
+
+			<p>&nbsp;</p>
+
+			<p>&nbsp;</p>
+			</td>
+			<td>
+			<p>In order to access the exam, you will need to <strong>pass a midterm</strong> with multiple choice questions. This will not count for your final grade, but we will only consider it a pass/fail.</p>
+
+			<p>Midterm: <strong>Thursday,&nbsp;December 3rd, at 16:00-19:00</strong></p>
+
+			<p>In case you fail the midterm, we will have also a re-exam for the midterm, so you can still qualify for the exam.</p>
+
+			<p>Re-exam for the midterm:&nbsp;<strong>Saturday, January 16th at 9:00-12:00</strong></p>
+
+			<p>Main Exam - <strong>&nbsp;Wednesday, February 17th, at 14:00-17:00&nbsp;</strong><br />
+			Re-exam - <strong>&nbsp;Tuesday, March 23rd, at&nbsp;14:00-17:00&nbsp;</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p><strong>Office Hours</strong></p>
+
+			<p>&nbsp;</p>
+			</td>
+			<td>
+			<p><a href="https://saramagliacane.github.io/">Prof. Dr. Sara Magliacane</a>: before/after each lecture<br />
+			Teaching Assistants: by appointment</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p><strong>Language</strong></p>
+			</td>
+			<td>
+			<p>English</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p><strong>Tentative Schedule</strong></p>
+
+			<p>&nbsp;</p>
+
+			<p>&nbsp;</p>
+
+			<p>&nbsp;</p>
+
+			<p>&nbsp;</p>
+
+			<p>&nbsp;</p>
+
+			<p>&nbsp;</p>
+
+			<p>&nbsp;</p>
+
+			<p>&nbsp;</p>
+
+			<p>&nbsp;</p>
+
+			<p>&nbsp;</p>
+			</td>
+			<td>
+			<p>&nbsp;</p>
+
+			<table border="1" cellpadding="1" cellspacing="1" dir="ltr">
+				<tbody>
+					<tr>
+						<td><samp><strong>&nbsp; &nbsp; &nbsp;Lecture Date&nbsp; &nbsp;&nbsp;</strong></samp></td>
+						<td><samp><strong>Number&nbsp; &nbsp;</strong></samp></td>
+						<td><samp><strong>Topic</strong></samp></td>
+					</tr>
+					<tr>
+						<td><samp>Oct 15, 2026</samp></td>
+						<td><samp>1</samp></td>
+						<td><samp>Introduction</samp></td>
+					</tr>
+					<tr>
+						<td><samp>Oct 22, 2026</samp></td>
+						<td><samp>2</samp></td>
+						<td colspan="1" rowspan="2">
+						<p><samp>Linear Regression</samp></p>
+						</td>
+					</tr>
+					<tr>
+						<td><samp>Oct 29, 2026</samp></td>
+						<td><samp>3</samp></td>
+					</tr>
+					<tr>
+						<td><samp>Nov 05, 2026</samp></td>
+						<td><samp>4</samp></td>
+						<td colspan="1" rowspan="2">
+						<p><samp>Classification</samp></p>
+						</td>
+					</tr>
+					<tr>
+						<td><samp>Nov 12, 2026</samp></td>
+						<td><samp>5</samp></td>
+					</tr>
+					<tr>
+						<td><samp>Nov 19, 2026</samp></td>
+						<td><samp>6</samp></td>
+						<td colspan="1" rowspan="2">
+						<p><samp>Generalization &amp; Model Selection</samp></p>
+						</td>
+					</tr>
+					<tr>
+						<td><samp>Nov 26, 2026</samp></td>
+						<td><samp>7</samp></td>
+					</tr>
+					<tr>
+						<td><span style="color:#c0392b"><strong><samp>Dec 3, 2026</samp></strong></span></td>
+						<td>&nbsp;</td>
+						<td><span style="color:#c0392b"><strong>Midterm</strong></span></td>
+					</tr>
+					<tr>
+						<td><samp>Dec 10, 2026</samp></td>
+						<td><samp>8</samp></td>
+						<td><samp>Beyond Linearity</samp></td>
+					</tr>
+					<tr>
+						<td><samp>Dec 17, 2026</samp></td>
+						<td><samp>9</samp></td>
+						<td><samp>Unsupervised I: (Dimensionality Reduction)</samp></td>
+					</tr>
+					<tr>
+						<td>-</td>
+						<td>-</td>
+						<td><samp>Christmas break</samp></td>
+					</tr>
+					<tr>
+						<td><samp>Jan 07, 2027</samp></td>
+						<td><samp>10</samp></td>
+						<td><samp>Unsupervised II: (Clustering)</samp></td>
+					</tr>
+					<tr>
+						<td><samp>Jan 14, 2027</samp></td>
+						<td><samp>11</samp></td>
+						<td><samp>Tree-based Models </samp></td>
+					</tr>
+					<tr>
+						<td><samp>Jan 21, 2027</samp></td>
+						<td><samp>12</samp></td>
+						<td><samp>Support Vector Machines</samp></td>
+					</tr>
+					<tr>
+						<td><samp>Jan 28, 2027</samp></td>
+						<td><samp>13</samp></td>
+						<td><samp>Neural Networks</samp></td>
+					</tr>
+					<tr>
+						<td><samp>Feb 04, 2027</samp></td>
+						<td><samp>14</samp></td>
+						<td><samp>ML &amp; Real World &amp; Q&amp;A</samp></td>
+					</tr>
+					<tr>
+						<td><span style="color:#c0392b"><strong>Feb 17,&nbsp; 2027</strong></span></td>
+						<td>&nbsp;</td>
+						<td><span style="color:#c0392b"><strong>Exam</strong></span></td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/en/privacy.html" target="_blank">Privacy Policy</a> | <a href="https://www.uni-saarland.de/en/legal-notice.html" target="_blank">Legal Notice</a><br/>
+	If you encounter technical problems, please contact <a href="mailto:cakecms@cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">the administrators</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

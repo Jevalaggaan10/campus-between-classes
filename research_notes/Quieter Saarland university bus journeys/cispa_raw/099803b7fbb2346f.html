@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name='robots' content='max-image-preview:large' />
+<title>Fixed Point Theory (WS 26/27) &#8211; Quantitative Verification Group</title>
+<link rel="alternate" type="application/rss+xml" title="Quantitative Verification Group &raquo; Feed" href="https://quave.cs.uni-saarland.de/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Quantitative Verification Group &raquo; Comments Feed" href="https://quave.cs.uni-saarland.de/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://quave.cs.uni-saarland.de/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fquave.cs.uni-saarland.de%2Fteaching%2Fteaching-ws-2026-2027%2Ffixed-point-theory-ws-26-27%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://quave.cs.uni-saarland.de/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fquave.cs.uni-saarland.de%2Fteaching%2Fteaching-ws-2026-2027%2Ffixed-point-theory-ws-26-27%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-block-site-title-inline-css">
+.wp-block-site-title{box-sizing:border-box}.wp-block-site-title :where(a){color:inherit;font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;text-decoration:inherit}
+/*# sourceURL=https://quave.cs.uni-saarland.de/wp-includes/blocks/site-title/style.min.css */
+</style>
+<style id="wp-block-navigation-link-inline-css">
+.wp-block-navigation .wp-block-navigation-item__label{overflow-wrap:break-word}.wp-block-navigation .wp-block-navigation-item__description{display:none}.link-ui-tools{outline:1px solid #f0f0f0;padding:8px}.link-ui-block-inserter{padding-top:8px}.link-ui-block-inserter__back{margin-left:8px;text-transform:uppercase}
+/*# sourceURL=https://quave.cs.uni-saarland.de/wp-includes/blocks/navigation-link/style.min.css */
+</style>
+<style id="wp-block-navigation-inline-css">
+.wp-block-navigation{position:relative}.wp-block-navigation ul{margin-bottom:0;margin-left:0;margin-top:0;padding-left:0}.wp-block-navigation ul,.wp-block-navigation ul li{list-style:none}.wp-block-navigation .wp-block-navigation-item{align-items:center;background-color:inherit;display:flex;position:relative}.wp-block-navigation .wp-block-navigation-item .wp-block-navigation__submenu-container:empty{display:none}.wp-block-navigation .wp-block-navigation-item__content{display:block;z-index:1}.wp-block-navigation .wp-block-navigation-item__content.wp-block-navigation-item__content{color:inherit}.wp-block-navigation.has-text-decoration-underline .wp-block-navigation-item__content,.wp-block-navigation.has-text-decoration-underline .wp-block-navigation-item__content:active,.wp-block-navigation.has-text-decoration-underline .wp-block-navigation-item__content:focus{text-decoration:underline}.wp-block-navigation.has-text-decoration-line-through .wp-block-navigation-item__content,.wp-block-navigation.has-text-decoration-line-through .wp-block-navigation-item__content:active,.wp-block-navigation.has-text-decoration-line-through .wp-block-navigation-item__content:focus{text-decoration:line-through}.wp-block-navigation :where(a),.wp-block-navigation :where(a:active),.wp-block-navigation :where(a:focus){text-decoration:none}.wp-block-navigation .wp-block-navigation__submenu-icon{align-self:center;background-color:inherit;border:none;color:currentColor;display:inline-block;font-size:inherit;height:.6em;line-height:0;margin-left:.25em;padding:0;width:.6em}.wp-block-navigation .wp-block-navigation__submenu-icon svg{stroke:currentColor;display:inline-block;height:inherit;margin-top:.075em;width:inherit}.wp-block-navigation{--navigation-layout-justification-setting:flex-start;--navigation-layout-direction:row;--navigation-layout-wrap:wrap;--navigation-layout-justify:flex-start;--navigation-layout-align:center}.wp-block-navigation.is-vertical{--navigation-layout-direction:column;--navigation-layout-justify:initial;--navigation-layout-align:flex-start}.wp-block-navigation.no-wrap{--navigation-layout-wrap:nowrap}.wp-block-navigation.items-justified-center{--navigation-layout-justification-setting:center;--navigation-layout-justify:center}.wp-block-navigation.items-justified-center.is-vertical{--navigation-layout-align:center}.wp-block-navigation.items-justified-right{--navigation-layout-justification-setting:flex-end;--navigation-layout-justify:flex-end}.wp-block-navigation.items-justified-right.is-vertical{--navigation-layout-align:flex-end}.wp-block-navigation.items-justified-space-between{--navigation-layout-justification-setting:space-between;--navigation-layout-justify:space-between}:where(.wp-block-navigation) ul li{padding:0}.wp-block-navigation .has-child .wp-block-navigation__submenu-container{align-items:normal;background-color:inherit;color:inherit;display:flex;flex-direction:column;opacity:0;position:absolute;z-index:2}@media not (prefers-reduced-motion){.wp-block-navigation .has-child .wp-block-navigation__submenu-container{transition:opacity .1s linear}}.wp-block-navigation .has-child .wp-block-navigation__submenu-container{height:0;overflow:hidden;visibility:hidden;width:0}.wp-block-navigation .has-child .wp-block-navigation__submenu-container>.wp-block-navigation-item>.wp-block-navigation-item__content{display:flex;flex-grow:1;padding:.5em 1em}.wp-block-navigation .has-child .wp-block-navigation__submenu-container>.wp-block-navigation-item>.wp-block-navigation-item__content .wp-block-navigation__submenu-icon{margin-left:auto;margin-right:0}.wp-block-navigation .has-child .wp-block-navigation__submenu-container .wp-block-navigation-item__content{margin:0}.wp-block-navigation .has-child .wp-block-navigation__submenu-container{left:-1px;top:100%}@media (min-width:782px){.wp-block-navigation .has-child .wp-block-navigation__submenu-container .wp-block-navigation__submenu-container{left:100%;top:-1px}.wp-block-navigation .has-child .wp-block-navigation__submenu-container .wp-block-navigation__submenu-container:before{background:transparent;content:"";display:block;height:100%;position:absolute;right:100%;width:.5em}.wp-block-navigation .has-child .wp-block-navigation__submenu-container .wp-block-navigation__submenu-icon{margin-right:.25em}.wp-block-navigation .has-child .wp-block-navigation__submenu-container .wp-block-navigation__submenu-icon svg{transform:rotate(-90deg)}}@media (hover:hover){.wp-block-navigation .has-child:not(.open-on-click):hover>.wp-block-navigation__submenu-container{height:auto;min-width:200px;opacity:1;overflow:visible;visibility:visible;width:auto}}.wp-block-navigation .has-child .wp-block-navigation-submenu__toggle[aria-expanded=true]~.wp-block-navigation__submenu-container,.wp-block-navigation .has-child:not(.open-on-click):not(.open-on-hover-click):focus-within>.wp-block-navigation__submenu-container{height:auto;min-width:200px;opacity:1;overflow:visible;visibility:visible;width:auto}.wp-block-navigation .has-child.open-always{align-items:var(--navigation-layout-align,initial);flex-direction:var(--navigation-layout-direction,initial);flex-wrap:var(--navigation-layout-wrap,wrap);gap:var(--wp--style--block-gap,2em)}.wp-block-navigation .has-child.open-always,.wp-block-navigation .has-child.open-always .wp-block-navigation-item{justify-content:var(--navigation-layout-justify,initial)}.wp-block-navigation .has-child.open-always .wp-block-navigation__submenu-container,.wp-block-navigation .has-child.open-always.wp-block-navigation-submenu{gap:var(--wp--style--block-gap,2em)}.wp-block-navigation .has-child.open-always .wp-block-navigation-item,.wp-block-navigation .has-child.open-always .wp-block-navigation__submenu-container,.wp-block-navigation .has-child.open-always.wp-block-navigation-submenu{padding-bottom:0;padding-top:0}.wp-block-navigation .has-child.open-always .wp-block-navigation__submenu-container{padding-left:var(--wp--style--block-gap,2em);padding-right:var(--wp--style--block-gap,2em)}.wp-block-navigation .has-child.open-always .wp-block-navigation__submenu-container .wp-block-navigation-item__content{padding:0}.wp-block-navigation .has-child.open-always .wp-block-navigation__submenu-container>.wp-block-navigation-item>.wp-block-navigation-item__content,.wp-block-navigation .has-child.open-always>.wp-block-navigation-item__content{flex-grow:0}.wp-block-navigation .has-child.open-always>.wp-block-navigation__submenu-container{background-color:transparent;border:none;color:inherit;flex-basis:100%;height:auto;opacity:1;overflow:visible;position:static;visibility:visible;width:auto}.wp-block-navigation.has-background .has-child .wp-block-navigation__submenu-container{left:0;top:100%}@media (min-width:782px){.wp-block-navigation.has-background .has-child .wp-block-navigation__submenu-container .wp-block-navigation__submenu-container{left:100%;top:0}}.wp-block-navigation-submenu{display:flex;position:relative}.wp-block-navigation-submenu .wp-block-navigation__submenu-icon svg{stroke:currentColor}button.wp-block-navigation-item__content{background-color:transparent;border:none;color:currentColor;font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;text-align:left;text-transform:inherit}.wp-block-navigation-submenu__toggle{cursor:pointer}.wp-block-navigation-submenu__toggle[aria-expanded=true]+.wp-block-navigation__submenu-icon>svg,.wp-block-navigation-submenu__toggle[aria-expanded=true]>svg{transform:rotate(180deg)}.wp-block-navigation-item.open-on-click .wp-block-navigation-submenu__toggle{padding-left:0;padding-right:.85em}.wp-block-navigation-item.open-on-click .wp-block-navigation-submenu__toggle+.wp-block-navigation__submenu-icon{margin-left:-.6em;pointer-events:none}.wp-block-navigation-item.open-on-click button.wp-block-navigation-item__content:not(.wp-block-navigation-submenu__toggle){padding:0}.wp-block-navigation .wp-block-page-list,.wp-block-navigation__container,.wp-block-navigation__responsive-close,.wp-block-navigation__responsive-container,.wp-block-navigation__responsive-container-content,.wp-block-navigation__responsive-dialog{gap:inherit}:where(.wp-block-navigation.has-background .wp-block-navigation-item a:not(.wp-element-button)),:where(.wp-block-navigation.has-background .wp-block-navigation-submenu a:not(.wp-element-button)){padding:.5em 1em}:where(.wp-block-navigation .wp-block-navigation__submenu-container .wp-block-navigation-item a:not(.wp-element-button)),:where(.wp-block-navigation .wp-block-navigation__submenu-container .wp-block-navigation-submenu a:not(.wp-element-button)),:where(.wp-block-navigation .wp-block-navigation__submenu-container .wp-block-navigation-submenu button.wp-block-navigation-item__content),:where(.wp-block-navigation .wp-block-navigation__submenu-container .wp-block-pages-list__item button.wp-block-navigation-item__content){padding:.5em 1em}.wp-block-navigation.items-justified-right .wp-block-navigation__container .has-child .wp-block-navigation__submenu-container,.wp-block-navigation.items-justified-right .wp-block-page-list>.has-child .wp-block-navigation__submenu-container,.wp-block-navigation.items-justified-space-between .wp-block-page-list>.has-child:last-child .wp-block-navigation__submenu-container,.wp-block-navigation.items-justified-space-between>.wp-block-navigation__container>.has-child:last-child .wp-block-navigation__submenu-container{left:auto;right:0}.wp-block-navigation.items-justified-right .wp-block-navigation__container .has-child .wp-block-navigation__submenu-container .wp-block-navigation__submenu-container,.wp-block-navigation.items-justified-right .wp-block-page-list>.has-child .wp-block-navigation__submenu-container .wp-block-navigation__submenu-container,.wp-block-navigation.items-justified-space-between .wp-block-page-list>.has-child:last-child .wp-block-navigation__submenu-container .wp-block-navigation__submenu-container,.wp-block-navigation.items-justified-space-between>.wp-block-navigation__container>.has-child:last-child .wp-block-navigation__submenu-container .wp-block-navigation__submenu-container{left:-1px;right:-1px}@media (min-width:782px){.wp-block-navigation.items-justified-right .wp-block-navigation__container .has-child .wp-block-navigation__submenu-container .wp-block-navigation__submenu-container,.wp-block-navigation.items-justified-right .wp-block-page-list>.has-child .wp-block-navigation__submenu-container .wp-block-navigation__submenu-container,.wp-block-navigation.items-justified-space-between .wp-block-page-list>.has-child:last-child .wp-block-navigation__submenu-container .wp-block-navigation__submenu-container,.wp-block-navigation.items-justified-space-between>.wp-block-navigation__container>.has-child:last-child .wp-block-navigation__submenu-container .wp-block-navigation__submenu-container{left:auto;right:100%}}.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container{background-color:#fff;border:1px solid rgba(0,0,0,.15)}.wp-block-navigation.has-background .wp-block-navigation__submenu-container{background-color:inherit}.wp-block-navigation:not(.has-text-color) .wp-block-navigation__submenu-container{color:#000}.wp-block-navigation__container{align-items:var(--navigation-layout-align,initial);display:flex;flex-direction:var(--navigation-layout-direction,initial);flex-wrap:var(--navigation-layout-wrap,wrap);justify-content:var(--navigation-layout-justify,initial);list-style:none;margin:0;padding-left:0}.wp-block-navigation__container .is-responsive{display:none}.wp-block-navigation__container:only-child,.wp-block-page-list:only-child{flex-grow:1}@keyframes overlay-menu__fade-in-animation{0%{opacity:0;transform:translateY(.5em)}to{opacity:1;transform:translateY(0)}}.wp-block-navigation__responsive-container{bottom:0;display:none;left:0;position:fixed;right:0;top:0}.wp-block-navigation__responsive-container :where(.wp-block-navigation-item a){color:inherit}.wp-block-navigation__responsive-container .wp-block-navigation__responsive-container-content{align-items:var(--navigation-layout-align,initial);display:flex;flex-direction:var(--navigation-layout-direction,initial);flex-wrap:var(--navigation-layout-wrap,wrap);justify-content:var(--navigation-layout-justify,initial)}.wp-block-navigation__responsive-container:not(.is-menu-open.is-menu-open){background-color:inherit!important;color:inherit!important}.wp-block-navigation__responsive-container.is-menu-open{background-color:inherit;display:flex;flex-direction:column}@media not (prefers-reduced-motion){.wp-block-navigation__responsive-container.is-menu-open{animation:overlay-menu__fade-in-animation .1s ease-out;animation-fill-mode:forwards}}.wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay){padding:clamp(1rem,var(--wp--style--root--padding-top),20rem) clamp(1rem,var(--wp--style--root--padding-right),20rem) clamp(1rem,var(--wp--style--root--padding-bottom),20rem) clamp(1rem,var(--wp--style--root--padding-left),20rem)}.wp-block-navigation__responsive-container.is-menu-open{overflow:auto;z-index:100000}.wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay) .wp-block-navigation__responsive-container-content{padding-top:calc(2rem + 24px)}.wp-block-navigation__responsive-container.is-menu-open:where(:not(.disable-default-overlay)) .wp-block-navigation__responsive-container-content{align-items:var(--navigation-layout-justification-setting,inherit);display:flex;flex-direction:column;flex-wrap:nowrap;overflow:visible}.wp-block-navigation__responsive-container.is-menu-open:where(:not(.disable-default-overlay)) .wp-block-navigation__responsive-container-content,.wp-block-navigation__responsive-container.is-menu-open:where(:not(.disable-default-overlay)) .wp-block-navigation__responsive-container-content .wp-block-navigation__container,.wp-block-navigation__responsive-container.is-menu-open:where(:not(.disable-default-overlay)) .wp-block-navigation__responsive-container-content .wp-block-page-list{justify-content:flex-start}.wp-block-navigation__responsive-container.is-menu-open:where(:not(.disable-default-overlay)) .wp-block-navigation__responsive-container-content .wp-block-navigation__submenu-icon{display:none}.wp-block-navigation__responsive-container.is-menu-open:where(:not(.disable-default-overlay)) .wp-block-navigation__responsive-container-content .has-child .wp-block-navigation__submenu-container{border:none;height:auto;min-width:200px;opacity:1;overflow:initial;padding-left:2rem;padding-right:2rem;position:static;visibility:visible;width:auto}.wp-block-navigation__responsive-container.is-menu-open:where(:not(.disable-default-overlay)) .wp-block-navigation__responsive-container-content .wp-block-navigation__container,.wp-block-navigation__responsive-container.is-menu-open:where(:not(.disable-default-overlay)) .wp-block-navigation__responsive-container-content .wp-block-navigation__submenu-container{gap:inherit}.wp-block-navigation__responsive-container.is-menu-open:where(:not(.disable-default-overlay)) .wp-block-navigation__responsive-container-content .wp-block-navigation__submenu-container{padding-top:var(--wp--style--block-gap,2em)}.wp-block-navigation__responsive-container.is-menu-open:where(:not(.disable-default-overlay)) .wp-block-navigation__responsive-container-content .wp-block-navigation-item__content{padding:0}.wp-block-navigation__responsive-container.is-menu-open:where(:not(.disable-default-overlay)) .wp-block-navigation__responsive-container-content .wp-block-navigation-item,.wp-block-navigation__responsive-container.is-menu-open:where(:not(.disable-default-overlay)) .wp-block-navigation__responsive-container-content .wp-block-navigation__container,.wp-block-navigation__responsive-container.is-menu-open:where(:not(.disable-default-overlay)) .wp-block-navigation__responsive-container-content .wp-block-page-list{align-items:var(--navigation-layout-justification-setting,initial);display:flex;flex-direction:column}.wp-block-navigation__responsive-container.is-menu-open:where(:not(.disable-default-overlay)) .wp-block-navigation-item,.wp-block-navigation__responsive-container.is-menu-open:where(:not(.disable-default-overlay)) .wp-block-navigation-item .wp-block-navigation__submenu-container,.wp-block-navigation__responsive-container.is-menu-open:where(:not(.disable-default-overlay)) .wp-block-navigation__container,.wp-block-navigation__responsive-container.is-menu-open:where(:not(.disable-default-overlay)) .wp-block-page-list{background:transparent!important;color:inherit!important}.wp-block-navigation__responsive-container.is-menu-open:where(:not(.disable-default-overlay)) .wp-block-navigation__submenu-container.wp-block-navigation__submenu-container.wp-block-navigation__submenu-container.wp-block-navigation__submenu-container{left:auto;right:auto}.wp-block-navigation__responsive-container.disable-default-overlay .wp-block-navigation__overlay-container{display:none;width:100%}.wp-block-navigation__responsive-container.disable-default-overlay .wp-block-navigation__responsive-close{max-width:none}.wp-block-navigation__responsive-container.disable-default-overlay.is-menu-open .wp-block-navigation__responsive-container-content>:not(.wp-block-navigation__overlay-container){display:none}.wp-block-navigation__responsive-container.disable-default-overlay.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__overlay-container{display:block}.wp-block-navigation__responsive-container.disable-default-overlay.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__overlay-container .wp-block-navigation__submenu-container{left:0;right:auto}@media (min-width:600px){.wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open){background-color:inherit;display:block;position:relative;width:100%;z-index:auto}.wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) .wp-block-navigation__responsive-container-close{display:none}.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__submenu-container.wp-block-navigation__submenu-container.wp-block-navigation__submenu-container.wp-block-navigation__submenu-container{left:0}}.wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay){background-color:#fff}.wp-block-navigation:not(.has-text-color) .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay){color:#000}.wp-block-navigation__toggle_button_label{font-size:1rem;font-weight:700}.wp-block-navigation__responsive-container-close,.wp-block-navigation__responsive-container-open{background:transparent;border:none;color:currentColor;cursor:pointer;margin:0;padding:0;text-transform:inherit;vertical-align:middle}.wp-block-navigation__responsive-container-close svg,.wp-block-navigation__responsive-container-open svg{fill:currentColor;display:block;height:24px;pointer-events:none;width:24px}.wp-block-navigation__responsive-container-open{display:flex}.wp-block-navigation__responsive-container-open.wp-block-navigation__responsive-container-open.wp-block-navigation__responsive-container-open{font-family:inherit;font-size:inherit;font-weight:inherit}@media (min-width:600px){.wp-block-navigation__responsive-container-open:not(.always-shown){display:none}}.wp-block-navigation__responsive-container-close{position:absolute;right:0;top:0;z-index:2}.wp-block-navigation__responsive-container-close.wp-block-navigation__responsive-container-close.wp-block-navigation__responsive-container-close{font-family:inherit;font-size:inherit;font-weight:inherit}.disable-default-overlay .wp-block-navigation__responsive-container-close{right:clamp(1rem,var(--wp--style--root--padding-left),20rem);top:clamp(1rem,var(--wp--style--root--padding-left),20rem)}.wp-block-navigation__responsive-close{width:100%}.has-modal-open .wp-block-navigation__responsive-close{margin-left:auto;margin-right:auto;max-width:var(--wp--style--global--wide-size,100%)}.wp-block-navigation__responsive-close:focus{outline:none}.is-menu-open .wp-block-navigation__responsive-close,.is-menu-open .wp-block-navigation__responsive-container-content,.is-menu-open .wp-block-navigation__responsive-dialog{box-sizing:border-box}.wp-block-navigation__responsive-dialog{position:relative}.has-modal-open .admin-bar .is-menu-open:where(:not(.disable-default-overlay)) .wp-block-navigation__responsive-dialog{margin-top:46px}@media (min-width:782px){.has-modal-open .admin-bar .is-menu-open:where(:not(.disable-default-overlay)) .wp-block-navigation__responsive-dialog{margin-top:32px}}html.has-modal-open{overflow:hidden}
+/*# sourceURL=https://quave.cs.uni-saarland.de/wp-includes/blocks/navigation/style.min.css */
+</style>
+<style id="wp-block-group-inline-css">
+.wp-block-group{box-sizing:border-box}:where(.wp-block-group.wp-block-group-is-layout-constrained){position:relative}
+/*# sourceURL=https://quave.cs.uni-saarland.de/wp-includes/blocks/group/style.min.css */
+</style>
+<style id="wp-block-group-theme-inline-css">
+:where(.wp-block-group.has-background){padding:1.25em 2.375em}
+/*# sourceURL=https://quave.cs.uni-saarland.de/wp-includes/blocks/group/theme.min.css */
+</style>
+<style id="wp-block-template-part-theme-inline-css">
+:root :where(.wp-block-template-part.has-background){margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
+/*# sourceURL=https://quave.cs.uni-saarland.de/wp-includes/blocks/template-part/theme.min.css */
+</style>
+<style id="wp-block-spacer-inline-css">
+.wp-block-spacer{clear:both}
+/*# sourceURL=https://quave.cs.uni-saarland.de/wp-includes/blocks/spacer/style.min.css */
+</style>
+<style id="wp-block-post-title-inline-css">
+.wp-block-post-title{box-sizing:border-box;word-break:break-word}.wp-block-post-title :where(a){display:inline-block;font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;text-decoration:inherit}
+/*# sourceURL=https://quave.cs.uni-saarland.de/wp-includes/blocks/post-title/style.min.css */
+</style>
+<style id="wp-block-paragraph-inline-css">
+.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
+/*# sourceURL=https://quave.cs.uni-saarland.de/wp-includes/blocks/paragraph/style.min.css */
+</style>
+<style id="wp-block-heading-inline-css">
+h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-background,h3:where(.wp-block-heading).has-background,h4:where(.wp-block-heading).has-background,h5:where(.wp-block-heading).has-background,h6:where(.wp-block-heading).has-background{padding:1.25em 2.375em}h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]){rotate:180deg}
+/*# sourceURL=https://quave.cs.uni-saarland.de/wp-includes/blocks/heading/style.min.css */
+</style>
+<style id="wp-block-columns-inline-css">
+.wp-block-columns{box-sizing:border-box;display:flex;flex-wrap:wrap!important}@media (min-width:782px){.wp-block-columns{flex-wrap:nowrap!important}}.wp-block-columns{align-items:normal!important}.wp-block-columns.are-vertically-aligned-top{align-items:flex-start}.wp-block-columns.are-vertically-aligned-center{align-items:center}.wp-block-columns.are-vertically-aligned-bottom{align-items:flex-end}@media (max-width:781px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:100%!important}}@media (min-width:782px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column[style*=flex-basis]{flex-grow:0}}.wp-block-columns.is-not-stacked-on-mobile{flex-wrap:nowrap!important}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column[style*=flex-basis]{flex-grow:0}:where(.wp-block-columns){margin-bottom:1.75em}:where(.wp-block-columns.has-background){padding:1.25em 2.375em}.wp-block-column{flex-grow:1;min-width:0;overflow-wrap:break-word;word-break:break-word}.wp-block-column.is-vertically-aligned-top{align-self:flex-start}.wp-block-column.is-vertically-aligned-center{align-self:center}.wp-block-column.is-vertically-aligned-bottom{align-self:flex-end}.wp-block-column.is-vertically-aligned-stretch{align-self:stretch}.wp-block-column.is-vertically-aligned-bottom,.wp-block-column.is-vertically-aligned-center,.wp-block-column.is-vertically-aligned-top{width:100%}
+/*# sourceURL=https://quave.cs.uni-saarland.de/wp-includes/blocks/columns/style.min.css */
+</style>
+<style id="wp-block-table-inline-css">
+.wp-block-table{overflow-x:auto}.wp-block-table table{border-collapse:collapse;width:100%}.wp-block-table thead{border-bottom:3px solid}.wp-block-table tfoot{border-top:3px solid}.wp-block-table td,.wp-block-table th{border:1px solid;padding:.5em}.wp-block-table .has-fixed-layout{table-layout:fixed;width:100%}.wp-block-table .has-fixed-layout td,.wp-block-table .has-fixed-layout th{word-break:break-word}.wp-block-table.aligncenter,.wp-block-table.alignleft,.wp-block-table.alignright{display:table;width:auto}.wp-block-table.aligncenter td,.wp-block-table.aligncenter th,.wp-block-table.alignleft td,.wp-block-table.alignleft th,.wp-block-table.alignright td,.wp-block-table.alignright th{word-break:break-word}.wp-block-table .has-subtle-light-gray-background-color{background-color:#f3f4f5}.wp-block-table .has-subtle-pale-green-background-color{background-color:#e9fbe5}.wp-block-table .has-subtle-pale-blue-background-color{background-color:#e7f5fe}.wp-block-table .has-subtle-pale-pink-background-color{background-color:#fcf0ef}.wp-block-table.is-style-stripes{background-color:transparent;border-collapse:inherit;border-spacing:0}.wp-block-table.is-style-stripes tbody tr:nth-child(odd){background-color:#f0f0f0}.wp-block-table.is-style-stripes.has-subtle-light-gray-background-color tbody tr:nth-child(odd){background-color:#f3f4f5}.wp-block-table.is-style-stripes.has-subtle-pale-green-background-color tbody tr:nth-child(odd){background-color:#e9fbe5}.wp-block-table.is-style-stripes.has-subtle-pale-blue-background-color tbody tr:nth-child(odd){background-color:#e7f5fe}.wp-block-table.is-style-stripes.has-subtle-pale-pink-background-color tbody tr:nth-child(odd){background-color:#fcf0ef}.wp-block-table.is-style-stripes td,.wp-block-table.is-style-stripes th{border-color:transparent}.wp-block-table.is-style-stripes{border-bottom:1px solid #f0f0f0}.wp-block-table .has-border-color td,.wp-block-table .has-border-color th,.wp-block-table .has-border-color tr,.wp-block-table .has-border-color>*{border-color:inherit}.wp-block-table table[style*=border-top-color] tr:first-child,.wp-block-table table[style*=border-top-color] tr:first-child td,.wp-block-table table[style*=border-top-color] tr:first-child th,.wp-block-table table[style*=border-top-color]>*,.wp-block-table table[style*=border-top-color]>* td,.wp-block-table table[style*=border-top-color]>* th{border-top-color:inherit}.wp-block-table table[style*=border-top-color] tr:not(:first-child){border-top-color:currentColor}.wp-block-table table[style*=border-right-color] td:last-child,.wp-block-table table[style*=border-right-color] th,.wp-block-table table[style*=border-right-color] tr,.wp-block-table table[style*=border-right-color]>*{border-right-color:inherit}.wp-block-table table[style*=border-bottom-color] tr:last-child,.wp-block-table table[style*=border-bottom-color] tr:last-child td,.wp-block-table table[style*=border-bottom-color] tr:last-child th,.wp-block-table table[style*=border-bottom-color]>*,.wp-block-table table[style*=border-bottom-color]>* td,.wp-block-table table[style*=border-bottom-color]>* th{border-bottom-color:inherit}.wp-block-table table[style*=border-bottom-color] tr:not(:last-child){border-bottom-color:currentColor}.wp-block-table table[style*=border-left-color] td:first-child,.wp-block-table table[style*=border-left-color] th,.wp-block-table table[style*=border-left-color] tr,.wp-block-table table[style*=border-left-color]>*{border-left-color:inherit}.wp-block-table table[style*=border-style] td,.wp-block-table table[style*=border-style] th,.wp-block-table table[style*=border-style] tr,.wp-block-table table[style*=border-style]>*{border-style:inherit}.wp-block-table table[style*=border-width] td,.wp-block-table table[style*=border-width] th,.wp-block-table table[style*=border-width] tr,.wp-block-table table[style*=border-width]>*{border-style:inherit;border-width:inherit}
+/*# sourceURL=https://quave.cs.uni-saarland.de/wp-includes/blocks/table/style.min.css */
+</style>
+<style id="wp-block-table-theme-inline-css">
+.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table :where(figcaption){color:hsla(0,0%,100%,.65)}
+/*# sourceURL=https://quave.cs.uni-saarland.de/wp-includes/blocks/table/theme.min.css */
+</style>
+<style id="wp-block-file-inline-css">
+.wp-block-file{box-sizing:border-box}.wp-block-file:not(.wp-element-button){font-size:.8em}.wp-block-file.aligncenter{text-align:center}.wp-block-file.alignright{text-align:right}.wp-block-file *+.wp-block-file__button{margin-left:.75em}:where(.wp-block-file){margin-bottom:1.5em}.wp-block-file__embed{margin-bottom:1em}:where(.wp-block-file__button){border-radius:2em;display:inline-block;padding:.5em 1em}:where(.wp-block-file__button):where(a):active,:where(.wp-block-file__button):where(a):focus,:where(.wp-block-file__button):where(a):hover,:where(.wp-block-file__button):where(a):visited{box-shadow:none;color:#fff;opacity:.85;text-decoration:none}
+/*# sourceURL=https://quave.cs.uni-saarland.de/wp-includes/blocks/file/style.min.css */
+</style>
+<style id="wp-block-separator-inline-css">
+@charset "UTF-8";.wp-block-separator{border:none;border-top:2px solid}:root :where(.wp-block-separator.is-style-dots){height:auto;line-height:1;text-align:center}:root :where(.wp-block-separator.is-style-dots):before{color:currentColor;content:"···";font-family:serif;font-size:1.5em;letter-spacing:2em;padding-left:2em}.wp-block-separator.is-style-dots{background:none!important;border:none!important}
+/*# sourceURL=https://quave.cs.uni-saarland.de/wp-includes/blocks/separator/style.min.css */
+</style>
+<style id="wp-block-separator-theme-inline-css">
+.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}
+/*# sourceURL=https://quave.cs.uni-saarland.de/wp-includes/blocks/separator/theme.min.css */
+</style>
+<style id="wp-block-code-inline-css">
+.wp-block-code{box-sizing:border-box}.wp-block-code code{direction:ltr;display:block;font-family:inherit;overflow-wrap:break-word;text-align:initial;white-space:break-spaces}
+/*# sourceURL=https://quave.cs.uni-saarland.de/wp-includes/blocks/code/style.min.css */
+</style>
+<style id="wp-block-code-theme-inline-css">
+.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}
+/*# sourceURL=https://quave.cs.uni-saarland.de/wp-includes/blocks/code/theme.min.css */
+</style>
+<style id="wp-block-list-inline-css">
+ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:1.25em 2.375em}
+/*# sourceURL=https://quave.cs.uni-saarland.de/wp-includes/blocks/list/style.min.css */
+</style>
+<style id="wp-block-post-content-inline-css">
+.wp-block-post-content{display:flow-root}
+/*# sourceURL=https://quave.cs.uni-saarland.de/wp-includes/blocks/post-content/style.min.css */
+</style>
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--foreground: #000000;--wp--preset--color--background: #ffffff;--wp--preset--color--primary: #1a4548;--wp--preset--color--secondary: #ffe2c7;--wp--preset--color--tertiary: #F6F6F6;--wp--preset--color--custom-color-1: #8f3838;--wp--preset--color--custom-color-2: #3574c7;--wp--preset--color--custom-color-3: #33741f;--wp--preset--color--custom-color-4: #cc5924;--wp--preset--color--custom-color-5: #f9f3eb;--wp--preset--color--custom-color-6: #abb8c3;--wp--preset--color--custom-color-7: #7ea3d5;--wp--preset--color--custom-color-8: #84aa78;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--gradient--vertical-secondary-to-tertiary: linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--tertiary) 100%);--wp--preset--gradient--vertical-secondary-to-background: linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--background) 100%);--wp--preset--gradient--vertical-tertiary-to-background: linear-gradient(to bottom,var(--wp--preset--color--tertiary) 0%,var(--wp--preset--color--background) 100%);--wp--preset--gradient--diagonal-primary-to-foreground: linear-gradient(to bottom right,var(--wp--preset--color--primary) 0%,var(--wp--preset--color--foreground) 100%);--wp--preset--gradient--diagonal-secondary-to-background: linear-gradient(to bottom right,var(--wp--preset--color--secondary) 50%,var(--wp--preset--color--background) 50%);--wp--preset--gradient--diagonal-background-to-secondary: linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--secondary) 50%);--wp--preset--gradient--diagonal-tertiary-to-background: linear-gradient(to bottom right,var(--wp--preset--color--tertiary) 50%,var(--wp--preset--color--background) 50%);--wp--preset--gradient--diagonal-background-to-tertiary: linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--tertiary) 50%);--wp--preset--font-size--small: 1rem;--wp--preset--font-size--medium: 1.125rem;--wp--preset--font-size--large: 1.75rem;--wp--preset--font-size--x-large: clamp(1.75rem, 3vw, 2.25rem);--wp--preset--font-family--system-font: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;--wp--preset--font-family--source-serif-pro: "Source Serif Pro", serif;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);--wp--custom--spacing--small: max(1.25rem, 5vw);--wp--custom--spacing--medium: clamp(2rem, 8vw, calc(4 * var(--wp--style--block-gap)));--wp--custom--spacing--large: clamp(4rem, 10vw, 8rem);--wp--custom--spacing--outer: var(--wp--custom--spacing--small, 1.25rem);--wp--custom--typography--font-size--huge: clamp(2.25rem, 4vw, 2.75rem);--wp--custom--typography--font-size--gigantic: clamp(2.75rem, 6vw, 3.25rem);--wp--custom--typography--font-size--colossal: clamp(3.25rem, 8vw, 6.25rem);--wp--custom--typography--line-height--tiny: 1.15;--wp--custom--typography--line-height--small: 1.2;--wp--custom--typography--line-height--medium: 1.4;--wp--custom--typography--line-height--normal: 1.6;}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:root { --wp--style--global--content-size: 650px;--wp--style--global--wide-size: 1000px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 1.5rem; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 1.5rem; }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 1.5rem;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 1.5rem;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 1.5rem;}:root :where(.is-layout-grid){gap: 1.5rem;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{background-color: var(--wp--preset--color--background);color: var(--wp--preset--color--foreground);font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--preset--font-size--medium);line-height: var(--wp--custom--typography--line-height--normal);padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){color: var(--wp--preset--color--custom-color-3);}h1{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--colossal);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h2{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--gigantic);font-weight: 300;line-height: var(--wp--custom--typography--line-height--small);}h3{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--huge);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h4{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--preset--font-size--x-large);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h5{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-weight: 700;line-height: var(--wp--custom--typography--line-height--normal);text-transform: uppercase;}h6{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-weight: 400;line-height: var(--wp--custom--typography--line-height--normal);text-transform: uppercase;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-color{color: var(--wp--preset--color--foreground) !important;}.has-background-color{color: var(--wp--preset--color--background) !important;}.has-primary-color{color: var(--wp--preset--color--primary) !important;}.has-secondary-color{color: var(--wp--preset--color--secondary) !important;}.has-tertiary-color{color: var(--wp--preset--color--tertiary) !important;}.has-custom-color-1-color{color: var(--wp--preset--color--custom-color-1) !important;}.has-custom-color-2-color{color: var(--wp--preset--color--custom-color-2) !important;}.has-custom-color-3-color{color: var(--wp--preset--color--custom-color-3) !important;}.has-custom-color-4-color{color: var(--wp--preset--color--custom-color-4) !important;}.has-custom-color-5-color{color: var(--wp--preset--color--custom-color-5) !important;}.has-custom-color-6-color{color: var(--wp--preset--color--custom-color-6) !important;}.has-custom-color-7-color{color: var(--wp--preset--color--custom-color-7) !important;}.has-custom-color-8-color{color: var(--wp--preset--color--custom-color-8) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-background-color{background-color: var(--wp--preset--color--foreground) !important;}.has-background-background-color{background-color: var(--wp--preset--color--background) !important;}.has-primary-background-color{background-color: var(--wp--preset--color--primary) !important;}.has-secondary-background-color{background-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-background-color{background-color: var(--wp--preset--color--tertiary) !important;}.has-custom-color-1-background-color{background-color: var(--wp--preset--color--custom-color-1) !important;}.has-custom-color-2-background-color{background-color: var(--wp--preset--color--custom-color-2) !important;}.has-custom-color-3-background-color{background-color: var(--wp--preset--color--custom-color-3) !important;}.has-custom-color-4-background-color{background-color: var(--wp--preset--color--custom-color-4) !important;}.has-custom-color-5-background-color{background-color: var(--wp--preset--color--custom-color-5) !important;}.has-custom-color-6-background-color{background-color: var(--wp--preset--color--custom-color-6) !important;}.has-custom-color-7-background-color{background-color: var(--wp--preset--color--custom-color-7) !important;}.has-custom-color-8-background-color{background-color: var(--wp--preset--color--custom-color-8) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-border-color{border-color: var(--wp--preset--color--foreground) !important;}.has-background-border-color{border-color: var(--wp--preset--color--background) !important;}.has-primary-border-color{border-color: var(--wp--preset--color--primary) !important;}.has-secondary-border-color{border-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-border-color{border-color: var(--wp--preset--color--tertiary) !important;}.has-custom-color-1-border-color{border-color: var(--wp--preset--color--custom-color-1) !important;}.has-custom-color-2-border-color{border-color: var(--wp--preset--color--custom-color-2) !important;}.has-custom-color-3-border-color{border-color: var(--wp--preset--color--custom-color-3) !important;}.has-custom-color-4-border-color{border-color: var(--wp--preset--color--custom-color-4) !important;}.has-custom-color-5-border-color{border-color: var(--wp--preset--color--custom-color-5) !important;}.has-custom-color-6-border-color{border-color: var(--wp--preset--color--custom-color-6) !important;}.has-custom-color-7-border-color{border-color: var(--wp--preset--color--custom-color-7) !important;}.has-custom-color-8-border-color{border-color: var(--wp--preset--color--custom-color-8) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-vertical-secondary-to-tertiary-gradient-background{background: var(--wp--preset--gradient--vertical-secondary-to-tertiary) !important;}.has-vertical-secondary-to-background-gradient-background{background: var(--wp--preset--gradient--vertical-secondary-to-background) !important;}.has-vertical-tertiary-to-background-gradient-background{background: var(--wp--preset--gradient--vertical-tertiary-to-background) !important;}.has-diagonal-primary-to-foreground-gradient-background{background: var(--wp--preset--gradient--diagonal-primary-to-foreground) !important;}.has-diagonal-secondary-to-background-gradient-background{background: var(--wp--preset--gradient--diagonal-secondary-to-background) !important;}.has-diagonal-background-to-secondary-gradient-background{background: var(--wp--preset--gradient--diagonal-background-to-secondary) !important;}.has-diagonal-tertiary-to-background-gradient-background{background: var(--wp--preset--gradient--diagonal-tertiary-to-background) !important;}.has-diagonal-background-to-tertiary-gradient-background{background: var(--wp--preset--gradient--diagonal-background-to-tertiary) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-system-font-font-family{font-family: var(--wp--preset--font-family--system-font) !important;}.has-source-serif-pro-font-family{font-family: var(--wp--preset--font-family--source-serif-pro) !important;}
+:root :where(.wp-block-post-title){color: var(--wp--preset--color--foreground);font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--preset--font-size--x-large);font-style: normal;font-weight: 300;letter-spacing: 1.5px;line-height: var(--wp--custom--typography--line-height--tiny);}
+:root :where(.wp-block-post-title a:where(:not(.wp-element-button))){color: var(--wp--preset--color--custom-color-3);}
+:root :where(.wp-block-site-title){font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-style: italic;font-weight: normal;line-height: var(--wp--custom--typography--line-height--normal);}
+:root :where(p){font-size: var(--wp--preset--font-size--medium);}
+:root :where(p a:where(:not(.wp-element-button))){color: var(--wp--preset--color--custom-color-3);}
+:root :where(.wp-block-heading){font-size: var(--wp--preset--font-size--x-large);letter-spacing: 1.5px;}
+:root :where(.wp-block-table > table){background-color: var(--wp--preset--color--custom-color-5);}
+/*# sourceURL=global-styles-inline-css */
+</style>
+<style id="core-block-supports-inline-css">
+.wp-elements-1 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--custom-color-5);}.wp-container-core-navigation-is-layout-c5f411bb{flex-wrap:nowrap;gap:4rem;justify-content:flex-end;}.wp-container-core-columns-is-layout-f56f613f{flex-wrap:nowrap;}.wp-container-core-group-is-layout-360d16f3{justify-content:flex-end;}
+/*# sourceURL=core-block-supports-inline-css */
+</style>
+<style id="wp-block-template-skip-link-inline-css">
+/*! This file is auto-generated */
+.skip-link.screen-reader-text{border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute!important;width:1px;word-wrap:normal!important;word-break:normal!important}.skip-link.screen-reader-text:focus{background-color:#eee;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}
+/*# sourceURL=/wp-includes/css/wp-block-template-skip-link.min.css */
+</style>
+<link rel='stylesheet' id='twentytwentytwo-style-css' href='https://quave.cs.uni-saarland.de/wp-content/themes/twentytwentytwo/style.css?ver=1.3' media='all' />
+<link rel='stylesheet' id='wpzoom-social-icons-socicon-css' href='https://quave.cs.uni-saarland.de/wp-content/plugins/social-icons-widget-by-wpzoom/assets/css/wpzoom-socicon.css?ver=1699984688' media='all' />
+<link rel='stylesheet' id='wpzoom-social-icons-genericons-css' href='https://quave.cs.uni-saarland.de/wp-content/plugins/social-icons-widget-by-wpzoom/assets/css/genericons.css?ver=1699984688' media='all' />
+<link rel='stylesheet' id='wpzoom-social-icons-academicons-css' href='https://quave.cs.uni-saarland.de/wp-content/plugins/social-icons-widget-by-wpzoom/assets/css/academicons.min.css?ver=1699984688' media='all' />
+<link rel='stylesheet' id='wpzoom-social-icons-font-awesome-3-css' href='https://quave.cs.uni-saarland.de/wp-content/plugins/social-icons-widget-by-wpzoom/assets/css/font-awesome-3.min.css?ver=1699984688' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='https://quave.cs.uni-saarland.de/wp-includes/css/dashicons.min.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='wpzoom-social-icons-styles-css' href='https://quave.cs.uni-saarland.de/wp-content/plugins/social-icons-widget-by-wpzoom/assets/css/wpzoom-social-icons-styles.css?ver=1699984688' media='all' />
+<link rel='preload' as='font'  id='wpzoom-social-icons-font-academicons-woff2-css' href='https://quave.cs.uni-saarland.de/wp-content/plugins/social-icons-widget-by-wpzoom/assets/font/academicons.woff2?v=1.9.2' type='font/woff2' crossorigin />
+<link rel='preload' as='font'  id='wpzoom-social-icons-font-fontawesome-3-woff2-css' href='https://quave.cs.uni-saarland.de/wp-content/plugins/social-icons-widget-by-wpzoom/assets/font/fontawesome-webfont.woff2?v=4.7.0' type='font/woff2' crossorigin />
+<link rel='preload' as='font'  id='wpzoom-social-icons-font-genericons-woff-css' href='https://quave.cs.uni-saarland.de/wp-content/plugins/social-icons-widget-by-wpzoom/assets/font/Genericons.woff' type='font/woff' crossorigin />
+<link rel='preload' as='font'  id='wpzoom-social-icons-font-socicon-woff2-css' href='https://quave.cs.uni-saarland.de/wp-content/plugins/social-icons-widget-by-wpzoom/assets/font/socicon.woff2?v=4.2.14' type='font/woff2' crossorigin />
+<script id="jquery-core-js" src="https://quave.cs.uni-saarland.de/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://quave.cs.uni-saarland.de/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<link rel="https://api.w.org/" href="https://quave.cs.uni-saarland.de/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://quave.cs.uni-saarland.de/wp-json/wp/v2/pages/1190" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://quave.cs.uni-saarland.de/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.1.3" />
+<link rel="canonical" href="https://quave.cs.uni-saarland.de/teaching/teaching-ws-2026-2027/fixed-point-theory-ws-26-27/" />
+<link rel='shortlink' href='https://quave.cs.uni-saarland.de/?p=1190' />
+<script id="wp-importmap" type="importmap">
+{"imports":{"@wordpress/interactivity":"https://quave.cs.uni-saarland.de/wp-includes/js/dist/script-modules/interactivity/index.min.js?ver=efaa5193bbad9c60ffd1"}}
+</script>
+<link rel="modulepreload" href="https://quave.cs.uni-saarland.de/wp-includes/js/dist/script-modules/interactivity/index.min.js?ver=efaa5193bbad9c60ffd1" id="@wordpress/interactivity-js-modulepreload" fetchpriority="low">
+<style class="wp-fonts-local">
+@font-face{font-family:"Source Serif Pro";font-style:normal;font-weight:200 900;font-display:fallback;src:url('https://quave.cs.uni-saarland.de/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2') format('woff2');font-stretch:normal;}
+@font-face{font-family:"Source Serif Pro";font-style:italic;font-weight:200 900;font-display:fallback;src:url('https://quave.cs.uni-saarland.de/wp-content/themes/twentytwentytwo/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2') format('woff2');font-stretch:normal;}
+</style>
+</head>
+
+<body class="wp-singular page-template-default page page-id-1190 page-child parent-pageid-1193 wp-embed-responsive wp-theme-twentytwentytwo">
+
+<a class="skip-link screen-reader-text" id="wp-skip-link" href="#wp--skip-link--target">Skip to content</a><div class="wp-site-blocks"><header class="wp-block-template-part">
+<div class="wp-block-group alignfull has-custom-color-1-background-color has-background is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:0px;padding-bottom:0px"><header class="alignfull wp-block-template-part">
+<div class="wp-block-group has-custom-color-1-background-color has-background is-layout-constrained wp-block-group-is-layout-constrained"><h1 style="font-size:2.5em;font-style:normal;font-weight:300;text-transform:lowercase;letter-spacing:1.5px" class="has-link-color wp-elements-1 wp-block-site-title has-text-color has-custom-color-5-color has-source-serif-pro-font-family">Quantitative Verification Group</h1>
+
+<nav style="font-style:normal;font-weight:500;text-transform:capitalize" class="has-text-color has-custom-color-5-color has-small-font-size is-responsive items-justified-right no-wrap alignwide wp-block-navigation has-source-serif-pro-font-family is-horizontal is-content-justification-right is-nowrap is-layout-flex wp-container-core-navigation-is-layout-c5f411bb wp-block-navigation-is-layout-flex" aria-label="Header navigation 4" 
+		 data-wp-interactive="core/navigation" data-wp-context='{"overlayOpenedBy":{"click":false,"hover":false,"focus":false},"type":"overlay","roleAttribute":"","ariaLabel":"Menu"}'><button aria-haspopup="dialog" aria-label="Open menu" class="wp-block-navigation__responsive-container-open" 
+				data-wp-on--click="actions.openMenuOnClick"
+				data-wp-on--keydown="actions.handleMenuKeydown"
+			><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 5v1.5h14V5H5z"></path><path d="M5 12.8h14v-1.5H5v1.5z"></path><path d="M5 19h14v-1.5H5V19z"></path></svg></button>
+				<div class="wp-block-navigation__responsive-container has-text-color has-background-color has-background" style="background-color: #a34c4c" id="modal-1" 
+				data-wp-class--has-modal-open="state.isMenuOpen"
+				data-wp-class--is-menu-open="state.isMenuOpen"
+				data-wp-watch="callbacks.initMenu"
+				data-wp-on--keydown="actions.handleMenuKeydown"
+				data-wp-on--focusout="actions.handleMenuFocusout"
+				tabindex="-1"
+			>
+					<div class="wp-block-navigation__responsive-close" tabindex="-1">
+						<div class="wp-block-navigation__responsive-dialog" 
+				data-wp-bind--aria-modal="state.ariaModal"
+				data-wp-bind--aria-label="state.ariaLabel"
+				data-wp-bind--role="state.roleAttribute"
+			>
+							<button aria-label="Close menu" class="wp-block-navigation__responsive-container-close" 
+				data-wp-on--click="actions.closeMenuOnClick"
+			><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="m13.06 12 6.47-6.47-1.06-1.06L12 10.94 5.53 4.47 4.47 5.53 10.94 12l-6.47 6.47 1.06 1.06L12 13.06l6.47 6.47 1.06-1.06L13.06 12Z"></path></svg></button>
+							<div class="wp-block-navigation__responsive-container-content" 
+				data-wp-watch="callbacks.focusFirstElement"
+			 id="modal-1-content">
+								<ul style="font-style:normal;font-weight:500;text-transform:capitalize" class="wp-block-navigation__container has-text-color has-custom-color-5-color has-small-font-size is-responsive items-justified-right no-wrap alignwide wp-block-navigation has-source-serif-pro-font-family"><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://quave.cs.uni-saarland.de/news/"><span class="wp-block-navigation-item__label">News</span></a></li><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://quave.cs.uni-saarland.de/benjamin-kaminski/"><span class="wp-block-navigation-item__label">Benjamin Kaminski</span></a></li><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://quave.cs.uni-saarland.de/members/"><span class="wp-block-navigation-item__label">Members</span></a></li><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://quave.cs.uni-saarland.de/thesis-projects"><span class="wp-block-navigation-item__label">Thesis Projects</span></a></li><li data-wp-context="{ &quot;submenuOpenedBy&quot;: { &quot;click&quot;: false, &quot;hover&quot;: false, &quot;focus&quot;: false }, &quot;type&quot;: &quot;submenu&quot;, &quot;modal&quot;: null, &quot;previousFocus&quot;: null }" data-wp-interactive="core/navigation" data-wp-on--focusout="actions.handleMenuFocusout" data-wp-on--keydown="actions.handleMenuKeydown" data-wp-on--pointerenter="actions.openMenuOnHover" data-wp-on--pointerleave="actions.closeMenuOnHover" data-wp-watch="callbacks.initMenu" tabindex="-1" class="wp-block-navigation-item has-child open-on-hover-click wp-block-navigation-submenu current-menu-ancestor"><a class="wp-block-navigation-item__content" href="https://quave.cs.uni-saarland.de/teaching/"><span class="wp-block-navigation-item__label">Teaching</span></a><button data-wp-bind--aria-expanded="state.isSubmenuOpen" data-wp-on--click="actions.toggleMenuOnClick" aria-label="Teaching submenu" class="wp-block-navigation__submenu-icon wp-block-navigation-submenu__toggle" ><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true" focusable="false"><path d="M1.50002 4L6.00002 8L10.5 4" stroke-width="1.5"></path></svg></button><ul data-wp-on--focus="actions.openMenuOnFocus" style="background-color:#a34c4c" class="wp-block-navigation__submenu-container has-text-color has-background-color has-background wp-block-navigation-submenu"><li class="wp-block-navigation-item current-menu-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://quave.cs.uni-saarland.de/teaching/teaching-ws-2026-2027/fixed-point-theory-ws-26-27/" aria-current="page"><span class="wp-block-navigation-item__label">Seminar WS 26/27</span></a></li><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://quave.cs.uni-saarland.de/teaching/teaching-ss-2026/fixed-point-theory-ss-2026/"><span class="wp-block-navigation-item__label">Seminar SS 26</span></a></li><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://quave.cs.uni-saarland.de/teaching/aspects-of-quantitative-program-verification-ws-25-26/"><span class="wp-block-navigation-item__label">Seminar  WS 25/26</span></a></li><li class="wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://quave.cs.uni-saarland.de/teaching/verification/"><span class="wp-block-navigation-item__label">Verification  SS 25</span></a></li></ul></li></ul>
+								
+							</div>
+						</div>
+					</div>
+				</div></nav></div>
+</header></div>
+
+
+
+<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
+</header>
+
+
+<main id="wp--skip-link--target" class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained"><h1 style="margin-bottom:var(--wp--custom--spacing--medium, 6rem)" class="alignwide wp-block-post-title">Fixed Point Theory (WS 26/27)</h1></div>
+
+
+
+<p class="wp-block-paragraph"></p>
+
+
+
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+<div class="entry-content wp-block-post-content is-layout-constrained wp-block-post-content-is-layout-constrained">
+<div class="wp-block-columns is-not-stacked-on-mobile is-layout-flex wp-container-core-columns-is-layout-f56f613f wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:66.66%">
+<h2 id="seminar" class="wp-block-heading has-small-font-size" style="font-style:normal;font-weight:700;text-transform:uppercase">Seminar</h2>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:33.33%">
+<p class="has-text-align-right has-small-font-size wp-block-paragraph" style="font-style:normal;font-weight:800">WS 26/27</p>
+</div>
+</div>
+
+
+
+<figure class="wp-block-table is-style-stripes"><table><tbody><tr><td><strong>Organizers</strong></td><td><a href="https://quave.cs.uni-saarland.de/benjamin-kaminski/" data-type="page" data-id="115">Prof. Benjamin Kaminski</a>, <a href="https://quave.cs.uni-saarland.de/members/tobias-gurtler/">Tobias Gürtler</a>, <a href="https://quave.cs.uni-saarland.de/members/lucas-kehrer/" data-type="page" data-id="1093">Lucas Kehrer</a>, <a href="https://quave.cs.uni-saarland.de/members/lena-verscht/" data-type="page" data-id="606">Lena Verscht</a>, <a href="https://quave.cs.uni-saarland.de/members/anran-wang/" data-type="page" data-id="804">Anran Wang</a></td></tr><tr><td><strong>Places</strong></td><td>8</td></tr></tbody></table></figure>
+
+
+
+<div class="wp-block-file"><a id="wp-block-file--media-5e7f0b63-c908-4265-8d42-20ef4fd5677f" href="https://quave.cs.uni-saarland.de/wp-content/uploads/2022/12/kickoff-slides-ws2223.pdf">Kick-off meeting slides (TBA)</a><a href="https://quave.cs.uni-saarland.de/wp-content/uploads/2022/12/kickoff-slides-ws2223.pdf" class="wp-block-file__button wp-element-button" download aria-describedby="wp-block-file--media-5e7f0b63-c908-4265-8d42-20ef4fd5677f">Download</a></div>
+
+
+
+<hr class="wp-block-separator has-css-opacity is-style-wide"/>
+
+
+
+<p class="wp-block-paragraph">Find the full list of topics that we will cover <a href="#topics" data-type="internal" data-id="#topics">below</a>!</p>
+
+
+
+<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading has-medium-font-size" style="letter-spacing:5px;text-transform:uppercase"><strong>Prerequisites</strong></h2>
+
+
+
+<div style="height:1px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<figure class="wp-block-table is-style-stripes"><table><tbody><tr><td><strong>Mandatory</strong></td><td>Programmierung 1 <br>Programmierung 2<br>Grundzüge der Theoretischen Informatik</td></tr><tr><td><strong>Recommended</strong></td><td>Semantics<br>Introduction to Computational Logic <br>Automata, Games and Verification</td></tr><tr><td><strong>Ideal</strong></td><td>Verification</td></tr></tbody></table></figure>
+
+
+
+<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading has-medium-font-size" style="letter-spacing:5px;text-transform:uppercase"><strong>Reports</strong></h2>
+
+
+
+<p class="wp-block-paragraph">The report must be prepared using the ACM template <a href="http://www.sigplan.org/sites/default/files/acmart/current/acmart-pacmpl-template.tex">acmart-pacmpl-template.tex</a>&nbsp;with the following options in the preamble:</p>
+
+
+
+<pre class="wp-block-code has-small-font-size"><code>\documentclass&#91;acmsmall,dvipsnames,x11names,svgnames,cleveref, nonacm]{acmart}
+\settopmatter{printfolios=true,printccs=false,printacmref=false}</code></pre>
+
+
+
+<p class="wp-block-paragraph">The report must not exceed 10 pages, excluding references.</p>
+
+
+
+<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading has-medium-font-size" style="letter-spacing:5px;text-transform:uppercase"><strong>Presentations</strong></h2>
+
+
+
+<p class="wp-block-paragraph">As a block seminar at the end of the semester. </p>
+
+
+
+<p class="wp-block-paragraph">More information TBA.</p>
+
+
+
+<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading has-medium-font-size" style="letter-spacing:5px;text-transform:uppercase"><strong>Timeline / Deadlines (tentative)</strong></h2>
+
+
+
+<div style="height:1px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<figure class="wp-block-table is-style-stripes"><table><tbody><tr><td><strong>Kick-off meeting</strong><br></td><td><strong>October 30</strong><br></td><td><strong>Room 528, </strong><br><strong>Building E1 3</strong></td></tr><tr><td><strong>Bidding for topics</strong></td><td><strong>until November 3</strong></td><td><a href="mailto:kaminski@cs.uni-saarland.de"><strong> – via email to Benjamin Kaminski –</strong></a></td></tr><tr><td>Student-topic assignment announced</td><td>by November 5</td><td>– on this website –</td></tr><tr><td><strong>Detailed report outline + </strong><br><strong>1 page of main part due</strong></td><td><strong>TBD</strong></td><td><strong>– via email to your supervisor –</strong></td></tr><tr><td><strong>Registration in LSF due</strong></td><td><strong><strong>TBD</strong></strong></td><td><strong>– via LSF (your responsibility) –</strong></td></tr><tr><td><strong>Final report due</strong></td><td><strong><strong>TBD</strong></strong></td><td><strong>– via email to your supervisor –</strong></td></tr><tr><td><strong>Make an appointment for mandatory <mark style="background-color:rgba(0, 0, 0, 0);color:#000000" class="has-inline-color">practice presentation</mark> with your supervisor</strong></td><td><strong><mark style="background-color:rgba(0, 0, 0, 0);color:#000000" class="has-inline-color">by </mark></strong><br><strong><mark style="background-color:rgba(0, 0, 0, 0);color:#000000" class="has-inline-color"><strong>TBD</strong></mark></strong></td><td><strong><mark style="background-color:rgba(0, 0, 0, 0);color:#000000" class="has-inline-color">– make appointment with your supervisor –</mark></strong></td></tr><tr><td><strong>Seminar presentations</strong></td><td><strong>w/c <strong>TBD</strong></strong></td><td><strong>likely Room 528, Building E1 3</strong></td></tr></tbody></table><figcaption class="wp-element-caption">w/c = week commencing</figcaption></figure>
+
+
+
+<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h1 id="topics" class="wp-block-heading has-x-large-font-size" style="letter-spacing:8px;text-transform:uppercase">Topics</h1>
+
+
+
+<p class="wp-block-paragraph">Topics marked <strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color">(BA)</mark></strong> are particularly well-suited for Bachelor students.</p>
+
+
+
+<h2 class="wp-block-heading has-medium-font-size">Graphical Fixed Point Theory</h2>
+
+
+
+<ul class="wp-block-list">
+<li>de Mendoca Frereire et al. <a href="https://dl.acm.org/doi/abs/10.1145/3828673">An Equational and Graphical Fixed-Point Calculus (Functional Pearl)</a></li>
+
+
+
+<li>Student: <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-6-color">—</mark></strong></mark></li>
+
+
+
+<li>Presentation: <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-6-color">—</mark></strong></mark></li>
+</ul>
+
+
+
+<h2 class="wp-block-heading has-medium-font-size">Random Fixed Points</h2>
+
+
+
+<ul class="wp-block-list">
+<li>Nieto et al. <a href="https://link.springer.com/article/10.1186/s13663-016-0590-8">Random fixed point theorems in partially ordered metric spaces</a></li>
+
+
+
+<li>Student: <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-6-color">—</mark></strong></mark></li>
+
+
+
+<li>Presentation: <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-6-color">—</mark></strong></mark></li>
+</ul>
+
+
+
+<h2 class="wp-block-heading has-medium-font-size">Unique Fixed Points for Probabilistic Programs</h2>
+
+
+
+<ul class="wp-block-list">
+<li>Kura et al. <a href="https://dl.acm.org/doi/abs/10.1145/3808348">Supermartingales for Unique Fixed Points: A Unified Approach to Lower Bound Verification</a></li>
+
+
+
+<li>Student: <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-6-color">—</mark></strong></mark></li>
+
+
+
+<li>Presentation: <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-6-color">—</mark></strong></mark></li>
+</ul>
+
+
+
+<h2 id="relative-completeness-ba" class="wp-block-heading has-medium-font-size">Banach Fixed Point Theorem <strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color">(BA)</mark></strong></h2>
+
+
+
+<ul class="wp-block-list">
+<li>Baranga. <a href="https://doi.org/10.1016/0012-365X(91)90413-V">The Contraction Principle as a Particular Case of Kleene’s Fixed Point Theorem</a></li>
+
+
+
+<li>Student: <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-6-color">—</mark></strong></mark></li>
+
+
+
+<li>Presentation: <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-6-color">—</mark></strong></mark></li>
+</ul>
+
+
+
+<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained">
+<h2 id="relative-completeness-ba" class="wp-block-heading has-medium-font-size">Reverse Directional Fixed Point Theory</h2>
+
+
+
+<ul class="wp-block-list">
+<li>Baldan et al. <a href="https://doi.org/10.46298/lmcs-19(2:15)2023">Fixpoint Theory &#8212; Upside Down</a></li>
+
+
+
+<li>Student: <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-6-color">—</mark></strong></mark></li>
+
+
+
+<li>Presentation: <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-6-color">—</mark></strong></mark></li>
+</ul>
+</div>
+
+
+
+<h2 id="relative-completeness-ba" class="wp-block-heading has-medium-font-size">Antitone Functions <strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color">(BA)</mark></strong></h2>
+
+
+
+<ul class="wp-block-list">
+<li>Dacic.&nbsp;<a href="http://elib.mi.sanu.ac.rs/files/journals/publ/54/n048p049.pdf">On Fixed Edges of Antitone Self-Mappings of Complete Lattices</a></li>
+
+
+
+<li>Student: <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-6-color">—</mark></strong></mark></li>
+
+
+
+<li>Presentation: <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-6-color">—</mark></strong></mark></li>
+</ul>
+
+
+
+<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained">
+<h2 id="relative-completeness-ba" class="wp-block-heading has-medium-font-size">Fixed Point Equations</h2>
+
+
+
+<ul class="wp-block-list">
+<li>Baldan et al. <a href="https://doi.org/10.1145/3290339">Fixpoint Games on Continuous Lattices</a></li>
+
+
+
+<li>Student: <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-6-color">—</mark></strong></mark></li>
+
+
+
+<li>Presentation: <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-6-color">—</mark></strong></mark></li>
+</ul>
+
+
+
+<ul class="wp-block-list">
+<li>Hetzl and Kloibhofer. <a href="https://doi.org/10.1145/3779416">An Abstract Fixed-Point Theorem for Horn Formula Equations</a></li>
+
+
+
+<li>Student: <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-6-color">—</mark></strong></mark></li>
+
+
+
+<li>Presentation: <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-6-color">—</mark></strong></mark></li>
+</ul>
+
+
+
+<h2 class="wp-block-heading has-medium-font-size">Expressive Equivalence of Fixed Point Logics</h2>
+
+
+
+<ul class="wp-block-list">
+<li>Kreutzer. <a href="https://www.sciencedirect.com/science/article/pii/S016800720400065X">Expressive equivalence of least and inflationary fixed-point logic</a></li>
+
+
+
+<li>Student: <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-6-color">—</mark></strong></mark></li>
+
+
+
+<li>Presentation: <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-6-color">—</mark></strong></mark></li>
+</ul>
+
+
+
+<h2 class="wp-block-heading has-medium-font-size">Model-guided Synthesis</h2>
+
+
+
+<ul class="wp-block-list">
+<li>Murali et al. <a href="https://dl.acm.org/doi/pdf/10.1145/3563354">Model-guided synthesis of inductive lemmas for FOL with least fixpoints</a></li>
+
+
+
+<li>Student: <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-6-color">—</mark></strong></mark></li>
+
+
+
+<li>Presentation: <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-6-color">—</mark></strong></mark></li>
+</ul>
+
+
+
+<h2 class="wp-block-heading has-medium-font-size">Expected Rewards as Least Fixed Points <strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color">(BA)</mark></strong></h2>
+
+
+
+<ul class="wp-block-list">
+<li>Batz et al. <a href="https://arxiv.org/pdf/2411.16564">J-P: MDP. FP. PP.</a></li>
+
+
+
+<li>Student: <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-6-color">—</mark></strong></mark></li>
+
+
+
+<li>Presentation: <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-6-color">—</mark></strong></mark></li>
+</ul>
+
+
+
+<h2 class="wp-block-heading has-medium-font-size">Latticed k-Induction</h2>
+
+
+
+<ul class="wp-block-list">
+<li>Batz et al. <a href="https://arxiv.org/abs/2105.14100">Latticed k-Induction with an Application to Probabilistic Programs</a></li>
+
+
+
+<li>Student: <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-6-color">—</mark></strong></mark></li>
+
+
+
+<li>Presentation: <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-6-color">—</mark></strong></mark></li>
+</ul>
+
+
+
+<h2 class="wp-block-heading has-medium-font-size">Parameterized Coinduction</h2>
+
+
+
+<ul class="wp-block-list">
+<li>Hur et al. <a href="https://dl.acm.org/doi/10.1145/2480359.2429093">The power of parameterization in coinductive proof</a></li>
+
+
+
+<li>Student: <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-6-color">—</mark></strong></mark></li>
+
+
+
+<li>Presentation: <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-6-color">—</mark></strong></mark></li>
+</ul>
+</div>
+
+
+
+<h2 class="wp-block-heading has-medium-font-size">Modality for Recursion</h2>
+
+
+
+<ul class="wp-block-list">
+<li>H. Nakano. <a href="https://ieeexplore.ieee.org/document/855774/">A modality for recursion</a></li>
+
+
+
+<li>Student: <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-6-color">—</mark></strong></mark></li>
+
+
+
+<li>Presentation: <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-6-color">—</mark></strong></mark></li>
+</ul>
+
+
+
+<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained">
+<h2 id="relative-completeness-ba" class="wp-block-heading has-medium-font-size">⁠Matrices for Fixed Points in Probabilistic Programming <strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color">(BA)</mark></strong></h2>
+</div>
+
+
+
+<ul class="wp-block-list">
+<li>Torres-ruiz et al. <a href="https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.FSCD.2024.20">On Iteration in Discrete Probabilistic Programming</a></li>
+
+
+
+<li>Student: <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-6-color">—</mark></strong></mark></li>
+
+
+
+<li>Presentation: <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-6-color">—</mark></strong></mark></li>
+</ul>
+
+
+
+<h2 id="relative-completeness-ba" class="wp-block-heading has-medium-font-size">Invariant Synthesis in Probabilistic Programming</h2>
+
+
+
+<ul class="wp-block-list">
+<li>Batz et al. <a href="https://publications.rwth-aachen.de/record/957952/files/957952.pdf">Probabilistic Program Verification via Inductive Synthesis of Inductive Invariants</a></li>
+
+
+
+<li>Student: <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-6-color">—</mark></strong></mark></li>
+
+
+
+<li>Presentation: <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-6-color">—</mark></strong></mark></li>
+</ul>
+
+
+
+<h2 id="relative-completeness-ba" class="wp-block-heading has-medium-font-size">⁠Lower Bounds for Least Fixed Points <strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color">(BA)</mark></strong></h2>
+
+
+
+<ul class="wp-block-list">
+<li>Quatmann and Katoen. <a href="https://link.springer.com/content/pdf/10.1007/978-3-319-96145-3_37.pdf">Sound Value Iteration</a> </li>
+
+
+
+<li>Student: <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-6-color">—</mark></strong></mark></li>
+
+
+
+<li>Presentation: <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-2-color"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-custom-color-6-color">—</mark></strong></mark></li>
+</ul>
+
+
+
+<p class="wp-block-paragraph"></p>
+</div>
+
+
+<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained"></div>
+</main>
+
+
+<footer class="wp-block-template-part">
+<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--custom--spacing--large, 8rem)">
+<div class="wp-block-group alignfull is-layout-constrained wp-block-group-is-layout-constrained">
+<div class="wp-block-group alignwide is-content-justification-right is-layout-flex wp-container-core-group-is-layout-360d16f3 wp-block-group-is-layout-flex" style="padding-top:4rem;padding-bottom:4rem">
+<p class="has-text-align-right has-small-font-size wp-block-paragraph" style="font-style:normal;font-weight:100">Proud supporter of <a href="https://weissbord.org" data-type="URL" data-id="https://weissbord.org">The Weissbord Institute</a></p>
+</div>
+</div>
+</div>
+</footer></div>
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/twentytwentytwo/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script data-wp-router-options="{&quot;loadOnClientNavigation&quot;:true}" fetchpriority="low" id="@wordpress/block-library/navigation/view-js-module" src="https://quave.cs.uni-saarland.de/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js?ver=1bf28ded04f9f188bdcb" type="module"></script>
+<script id="zoom-social-icons-widget-frontend-js" src="https://quave.cs.uni-saarland.de/wp-content/plugins/social-icons-widget-by-wpzoom/assets/js/social-icons-widget-frontend.js?ver=1699984688"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://quave.cs.uni-saarland.de/wp-includes/js/wp-emoji-release.min.js?ver=7.1.3"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://quave.cs.uni-saarland.de/wp-includes/js/wp-emoji-loader.min.js
+</script>
+</body>
+</html>

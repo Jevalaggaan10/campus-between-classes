@@ -1,0 +1,151 @@
+Course Overview
+Courses
+Main Page
+Information
+Timetable
+Registration
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Digital Transmission & Signal Processing (WS 2026)
+Thorsten Herfet
+News
+Currently, no news are available
+Quick Links
+Course Details
+Course Structure
+Matlab
+Literature
+Course Details
+Continuing the positive experience from the last semesters, we have decided to offer the course "Digital Transmission & Signal Processing" in a format that considers the possibility for as well students as lecturer and tutors to give and / or consume parts of the course online using webconference tools.
+Important:
+The course will be given
+synchronously
+, i.e. participation is live either in presence or online. An interactive manuscript will support preparation and reworking but cannot replace participation. We strongly encourage personal presence in the units.
+Introduction
+Digital Transmission & Signal Processing
+is the basic course on telecommunications. It refreshes foundations laid in "Signals and Systems / Signale und Systeme" but will also include current developments on using Artificial Intelligence / Neureal Networks in Telecommunicaiton.
+To establish a strong foundation, the course will give an introduction into the various building blocks modern telecommunication systems incorporate. Sources, sinks, source and channel coding, modulation and multiplexing are the major keywords, but we will also deal with dedicated concepts like A/D- and D/A-converters and quantizers in a little bit more depth.
+The course will refresh the basic transformations (
+Fourier, Laplace
+) that give access to system analysis in the frequency domain, it will introduce derived transformations (
+Z, Hilbert
+) for the analysis of discrete systems and modulation schemes. It will also introduce algebra on finite fields to systematically deal with error detection and correction schemes that play an important and ubiquitous role in modern communication systems.
+Prerequisites
+"Digital Transmission and Signal Processing" is a course during the main study period and by such requires a solid foundation of mathematics (differential and integral calculus) and probability theory. The course will, however, refresh those areas indispensably necessary for telecommunications and potential intensification courses and by this open this potential field of intensification to all participants.
+Course Structure
+Basic Rules
+Please note that small changes and corrections will be applied to the lecture notes throughout the semester. If you find mistakes or have suggestions how to enhance the lecture notes we appreciate your input!
+Please
+don’t hesitate
+to tell us if you have any comments or suggestions related to lecture notes, task sheets, exercises or even organizational things. We will improve it soon so you can benefit from it, not only future students.
+Lectures
+The lecture will be offered in a hybrid format (classroom plus remote participation via MS Teams). Under special circumstances it might be advantageous or even required to omit the classroom and switch to fully remote. This will be announced on time.
+MS Teams:
+DTSP WS 2026/27 Team
+(send a join request for remote participation)
+Place:
+Campus E1.3
+, Room:
+HS001
+(possible to join remotely via Teams)
+Time:
+Tuesday 12:15–13:45
+and
+Wednesday 08:30–10:00
+(start
+October 13
+th
+)
+Tutorials
+Moodle:
+DTSP (WS26)
+(enrol to access quizzes and assignments)
+Place:
+Campus C6.3
+, Room:
+9.05
+(in presence)
+Time:
+Friday 10:30–11:45
+Quizzes
+Weekly Moodle quizzes with 15 minutes for 5 questions within the time below.
+Place:
+via Moodle (you can do it remotely or come to the tutorial room early)
+Time:
+Friday 10:00–10:30
+Task Sheets
+Task sheets are published on the day succeeding the tutorials in Moodle.
+You submit your solution and work on the tasks up to and including the following tutorial.
+During the tutorial you can discuss and evolve your solutions.
+Exam Dates
+The exams will be held as
+WRITTEN
+exams
+Main Exam -
+CW07, February, 2027, Place: tbd, Time: tbd
+Re-Exam -
+CW11, March, 2027, Place: tbd, Time: tbd
+Exam Eligibility
+The weekly quizzes and task sheets for this course will be divided into two parts, blocks A&B containing 6 quizzes and 6 task sheets each.
+You need a minimum of 19.2 points (40%) of the 48 points achievable in a block to pass a block. (Each quiz is worth 5 points and each task sheet is worth 3 points.)
+You must pass both block A and B to be eligible for the exam.
+We will check attendance in the lectures. You need to collect 50% attendance points, with personal presence accounting for 1 point and hybrid participation accounting for 0.5 point.
+Exam
+The exam contains 5 problems (each 10 points), solving 4 of them is sufficient for a 100% passing grade.
+Minimum point threshold per exam task is 3 points.
+(Near to) complete solutions are rewarded with 3 bonus points.
+Matlab
+UdS has a
+MATLAB campus license
+which can be used by all university students for non-commercial purposes.
+Literature (potentially helpful but not required)
+Proakis, John G. and Salehi, Masoud:
+"
+Communications Systems Engineering
+", 2
+nd
+Edition, 2002, Prentice Hall, ISBN = {0-13-061793-8}
+Oppenheim, Alan and Willsky, Alan:
+"
+Signals & Systems
+", 2
+nd
+Edition, 1997, Prentice Hall, ISBN = {0-13-814757-4}
+Göbel, J.:
+"
+Kommunikationstechnik
+", Hüthig Verlag Heidelberg, 1999, ISBN = {3-82-665011-5}
+Ohm, Jens-Rainer and Lüke, Hans Dieter:
+"
+Signalübertragung
+", 2014, Springer, ISBN = {978-3-642-53901-5}
+John G. Proakis:
+"
+Digital Communications
+", McGraw Hill Higher Education, 2001, ISBN = {0-07-118183-0}
+Bernd Friedrichs:
+"
+Kanalcodierung
+", Springer, 1995, ISBN = {3-54-059353-5}
+Papoulis, Athanasios:
+"
+Probability, Random Variables and Stochastic Processes
+", 2002, McGraw-Hill, ISBN = {978-0-07-366011-0}
+Claude E. Shannon, Warren Weaver:
+"
+The Mathematical Theory of Communication
+", University of Illinois Press, 1963, ISBN = {0-25-272548-4}
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

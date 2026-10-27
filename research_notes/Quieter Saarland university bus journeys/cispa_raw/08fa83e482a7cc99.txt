@@ -1,0 +1,244 @@
+Machine Learning for Molecular and Materials Simulations · WS 2026/27
+Skip to course content
+Saarland University · WS26/27 · Research seminar · Computer Science
+Machine Learning for Molecular and Materials Simulations
+Instructor:
+Viktor Zaverkin
+Kickoff
+Monday, 19 October 2026
+2:00–3:30 pm
+Lecture Hall A
+INM, Campus D2 2
+We will agree on the regular meeting time after the kickoff, based on participants’ availability.
+Register here
+Format
+· Weekly, 90 minutes
+Language
+· English
+Places
+· 12
+Audience
+· Advanced BSc / MSc
+On this page
+Overview
+Requirements
+Topics
+Format
+Schedule
+Links & contact
+Overview
+Molecular and materials simulations are central tools for understanding and predicting the behavior of complex atomistic systems. However, they are often limited by three key bottlenecks: accurate and efficient force evaluations, sampling of rare configurations, and reaching experimentally relevant time and length scales.
+This seminar studies how modern machine learning approaches address these bottlenecks through machine-learned interatomic potentials, generative sampling methods, and accelerated molecular simulations.
+Topics include descriptor-based and equivariant potentials, transformer-based and foundation models for atomistic systems, classical and generative approaches to free-energy sampling, and methods for accelerating molecular dynamics. Students will read and discuss recent research papers, present selected methods, and critically assess their strengths, limitations, and physical reliability.
+The example below shows replica-exchange molecular dynamics (REMD) of multielement clusters in
+LAMMPS
+, with forces predicted by
+FlashCart
+.
+Your browser does not support embedded video.
+Download the simulation video
+.
+Mendeleev clusters.
+Panel borders indicate target temperatures (300–3000 K). Simulation adapted from the
+Atomistic Cookbook example
+.
+Requirements
+A basic background in machine learning and scientific computing, including familiarity with linear algebra and statistics, is expected. Prior knowledge of molecular dynamics, statistical mechanics, quantum mechanics, or free-energy methods is helpful but not required.
+Topics
+(tentative)
+Each participant presents a selected research topic. Topics will be assigned after the kickoff.
+Expand all topics
+Interatomic potentials
+01
+Local representations
+Local representations encode an atom’s neighborhood while preserving invariance to translations, rotations, and permutations of atoms of the same species. We will compare atom-centered symmetry functions (ACSFs), the smooth overlap of atomic positions (SOAP), and the atomic cluster expansion (ACE), discussing their differences, advantages, and limitations.
+J. Behler.
+Atom-centered symmetry functions for constructing high-dimensional neural network potentials
+.
+Journal of Chemical Physics
+134
+, 074106 (2011).
+A. P. Bartók, R. Kondor & G. Csányi.
+On representing chemical environments
+.
+Physical Review B
+87
+, 184115 (2013).
+R. Drautz.
+Atomic cluster expansion for accurate and transferable interatomic potentials
+.
+Physical Review B
+99
+, 014104 (2019).
+02
+Invariant message passing
+Invariant message-passing models learn atomic representations by exchanging information between neighboring atoms while keeping their features unchanged under rotations. We will compare SchNet, which uses interatomic distances, with DimeNet, which also includes angles, discussing their differences, advantages, and limitations.
+K. T. Schütt, H. E. Sauceda, P.-J. Kindermans, A. Tkatchenko & K.-R. Müller.
+SchNet – A deep learning architecture for molecules and materials
+.
+The Journal of Chemical Physics
+148
+, 241722 (2018).
+J. Gasteiger, J. Groß & S. Günnemann.
+Directional Message Passing for Molecular Graphs
+.
+International Conference on Learning Representations
+(2020).
+03
+Equivariant message passing
+Equivariant message passing uses features that transform with rotations of the atomic structure. We will compare NequIP and MACE, focusing on their message construction and the advantages and limitations of each approach.
+S. Batzner, A. Musaelian, L. Sun, M. Geiger, J. P. Mailoa, M. Kornbluth, N. Molinari, T. E. Smidt & B. Kozinsky.
+E(3)-equivariant graph neural networks for data-efficient and accurate interatomic potentials
+.
+Nature Communications
+13
+, 2453 (2022).
+I. Batatia, D. P. Kovács, G. N. C. Simm, C. Ortner & G. Csányi.
+MACE: Higher Order Equivariant Message Passing Neural Networks for Fast and Accurate Force Fields
+.
+Advances in Neural Information Processing Systems
+35
+, 11423–11436 (2022).
+04
+Unconstrained architectures
+The Point Edge Transformer (PET) learns atomic interactions without imposing rotational equivariance in its architecture. Direct force models predict forces without computing them as derivatives of a potential energy. We will discuss the advantages and limitations of both approaches for molecular dynamics.
+S. N. Pozdnyakov & M. Ceriotti.
+Smooth, exact rotational symmetrization for deep learning on point clouds
+.
+Advances in Neural Information Processing Systems
+36
+, 79469–79501 (2023).
+F. Bigi, M. F. Langer & M. Ceriotti.
+The dark side of the forces: assessing non-conservative force models for atomistic machine learning
+.
+Proceedings of Machine Learning Research
+267
+, 4384–4414 (2025).
+05
+Foundation interatomic potentials
+Foundation interatomic potentials are trained on diverse datasets and can be applied or fine-tuned to new systems. We will discuss MACE-MP-0, focusing on its transferability, advantages, and limitations.
+I. Batatia et al.
+A foundation model for atomistic materials chemistry
+.
+The Journal of Chemical Physics
+163
+, 184110 (2025).
+06
+Long-range interactions
+Electrostatic interactions can couple atoms beyond the range of local models. We will examine how interatomic potentials describe long-range interactions, charge transfer, and polarization, discussing the advantages and limitations of different approaches.
+W. J. Baldwin, I. Batatia, M. Vondrák, J. T. Margraf & G. Csányi.
+Design Space of Self-Consistent Electrostatic Machine Learning Interatomic Potentials
+.
+arXiv preprint
+arXiv:2603.14700 (2026).
+Enhanced and generative sampling
+07
+Rare events and enhanced sampling
+Free-energy barriers can prevent molecular dynamics simulations from exploring relevant configurations within accessible timescales. Metadynamics adds a history-dependent bias along selected collective variables to promote transitions between metastable states. We will compare the original and well-tempered formulations, discussing the choice of collective variables and the recovery of free-energy differences.
+A. Laio & M. Parrinello.
+Escaping free-energy minima
+.
+Proceedings of the National Academy of Sciences
+99
+, 12562–12566 (2002).
+A. Barducci, G. Bussi & M. Parrinello.
+Well-Tempered Metadynamics: A Smoothly Converging and Tunable Free-Energy Method
+.
+Physical Review Letters
+100
+, 020603 (2008).
+08
+Learning collective variables
+Collective variables provide a low-dimensional description of molecular configurations. We will compare Deep-LDA, which learns to separate predefined metastable states, with Deep-TICA, which uses time-lagged correlations to learn slow collective modes. The discussion will address their training objectives, data requirements, and use in enhanced sampling.
+L. Bonati, V. Rizzi & M. Parrinello.
+Data-Driven Collective Variables for Enhanced Sampling
+.
+The Journal of Physical Chemistry Letters
+11
+, 2998–3004 (2020).
+L. Bonati, G. Piccini & M. Parrinello.
+Deep learning the slow modes for rare events sampling
+.
+Proceedings of the National Academy of Sciences
+118
+, e2113533118 (2021).
+09
+Boltzmann generators
+Boltzmann generators use invertible models to transform samples from a simple distribution into molecular configurations. We will examine energy-based and data-based training, and how reweighting is used to estimate equilibrium properties. The discussion will address sampling efficiency and the challenge of sampling multiple metastable states.
+F. Noé, S. Olsson, J. Köhler & H. Wu.
+Boltzmann generators: Sampling equilibrium states of many-body systems with deep learning
+.
+Science
+365
+, eaaw1147 (2019).
+10
+Equivariant flow matching
+For molecular sampling, flow matching trains continuous normalizing flows that transform samples from a simple distribution into molecular configurations. We will examine how rotations and permutations of atoms of the same species enter the model and training objective, discussing their effects on training and sampling efficiency. These flows can serve as Boltzmann generators, but their paths are not molecular dynamics trajectories.
+L. Klein, A. Krämer & F. Noé.
+Equivariant flow matching
+.
+Advances in Neural Information Processing Systems
+36
+, 59886–59910 (2023).
+Background: Y. Lipman, R. T. Q. Chen, H. Ben-Hamu, M. Nickel & M. Le.
+Flow Matching for Generative Modeling
+.
+International Conference on Learning Representations
+(2023).
+Longer time and length scales
+11
+Learning molecular dynamics
+FlashMD learns to predict atomic positions and momenta over time intervals longer than conventional molecular dynamics steps. We will compare this approach with Timewarp, which uses learned proposals and a Metropolis–Hastings correction to sample equilibrium configurations. The discussion will address the distinction between reproducing dynamical properties and equilibrium distributions, and the advantages and limitations of each approach.
+F. Bigi, S. Chong, A. Kristiadi & M. Ceriotti.
+FlashMD: long-stride, universal prediction of molecular dynamics
+.
+Advances in Neural Information Processing Systems
+38
+, 98379–98416 (2025).
+L. Klein, A. Y. K. Foong, T. E. Fjelde, B. Mlodozeniec, M. Brockschmidt, S. Nowozin, F. Noé & R. Tomioka.
+Timewarp: Transferable Acceleration of Molecular Dynamics by Learning Time-Coarsened Dynamics
+.
+Advances in Neural Information Processing Systems
+36
+, 52863–52883 (2023).
+12
+Coarse-grained potentials
+Coarse-grained models describe molecular systems with fewer degrees of freedom. We will discuss how force matching learns effective interactions from atomistic simulations, using CGnets and a transferable protein model as examples. The discussion will address the choice of representation, transfer to new proteins, and why reproducing equilibrium distributions does not guarantee correct dynamics.
+J. Wang, S. Olsson, C. Wehmeyer, A. Pérez, N. E. Charron, G. de Fabritiis, F. Noé & C. Clementi.
+Machine Learning of Coarse-Grained Molecular Dynamics Force Fields
+.
+ACS Central Science
+5
+, 755–767 (2019).
+Further reading: N. E. Charron et al.
+Navigating protein landscapes with a machine-learned transferable coarse-grained model
+.
+Nature Chemistry
+17
+, 1284–1292 (2025).
+Format
+The seminar begins with two introductory meetings on molecular simulations and statistical mechanics. Each participant then presents a selected research topic and prepares a written report discussing the methods, their strengths, limitations, and physical reliability. The report should incorporate feedback from the presentation and discussion and be submitted within four weeks after the presentation. It should be 5–8 pages in single-column format, including figures but excluding references. Participants read the assigned papers before each meeting and contribute to the discussion.
+Schedule
+When
+Meeting
+19 October 2026
+2:00–3:30 pm
+Electronic structure and molecular dynamics
+Potential-energy surfaces, DFT reference calculations, energies, and forces.
+Second meeting
+Statistical mechanics and enhanced sampling
+Boltzmann distributions, free energy, rare events, and enhanced sampling.
+Subsequent meetings
+Presentations and discussion.
+The remaining dates and rooms will be announced after the kickoff.
+Links & contact
+Registration
+·
+Course catalogue
+·
+Contact
+If you cannot attend the kickoff, please email
+Viktor Zaverkin
+with your availability for the regular meetings.
+Viktor Zaverkin · Machine Learning for Molecular and Materials Simulations
+WS 2026/27

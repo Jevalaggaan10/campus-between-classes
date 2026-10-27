@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Main Page	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="4231d285cf1947148cfee86aa34b2ec9a0b05a05@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Sic/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Sic/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Sic/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Sic/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Sic/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/alsa26/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/alsa26/../system" class="navbar-brand">Courses</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/alsa26/">Main Page</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Information</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/alsa26/termine/calendar/index">Timetable</a></li><li><a class="dropdown-item" href="/alsa26/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/alsa26/students/register">Registration</a></li><li class="nav-item"><a class="nav-link" href="/alsa26/landing">Personal Status</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/alsa26/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="7a30652393a230df41f433988f42404dbb42f4026431702a84640d21134e620143fc08924c942b3ef542d553d404912d1c3bb02a44e18e7c4d88d5cab53af322" id="Token2060798224" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Username" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Password" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Remember me</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.sic.saarland/alsa26/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="3439bdf7ad2801b0a9121938beb69f44577b7ded%3AUser.redirect" id="TokenFields889029831" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked377890466" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/alsa26/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registration</a>        </li>
+        <li>
+            <a href="/alsa26/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Forgot Password?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Enable dark mode            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Enable light mode            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/alsa26/../system" class="site-logo" title="Front Page"><img src="/system/theme/Sic/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					Algorithms for Sequence Analysis				</h1>
+				<div>
+				<small class="text-muted">
+					Alexey Gurevich				</small>
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	
+<table class="table">
+	<colgroup>
+				<col span="1" style="width: auto;" />
+	</colgroup>
+	<tbody>
+	<tr>						<td class="align-top">
+				<a id="newsElement3"></a>
+				<h4 class="fs-5"><a href="/alsa26/news/view/3">Course news</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="20.10.2026 18:14:43">20.10.26</span>						(last change on <span data-bs-toggle="tooltip" data-bs-title="20.10.2026 18:15:04">20.10.26</span>)						by Alexey Gurevich					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse3">
+					<p>Dear all,</p>
+
+<ol>
+	<li>
+	<p><strong>Slides 27&ndash;30.</strong> Sorry for running over time in today&#39;s lecture (01-3-kmp.pdf). We went through the last slides (27&ndash;30) very quickly, so please look through them yourselves. I expect we will have extra time on Thursday to discuss them further.</p>
+	</li>
+	<li>
+	<p><strong>Extended deadline (one-time&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse3" href="#newsElement3">Read more</a></strong></p></li></ol>				</div>
+				<div class="collapse newsCollapse3">
+					<p>Dear all,</p>
+
+<ol>
+	<li>
+	<p><strong>Slides 27&ndash;30.</strong> Sorry for running over time in today&#39;s lecture (01-3-kmp.pdf). We went through the last slides (27&ndash;30) very quickly, so please look through them yourselves. I expect we will have extra time on Thursday to discuss them further.</p>
+	</li>
+	<li>
+	<p><strong>Extended deadline (one-time exception!).</strong> Following individual requests, I am extending <strong>both the course registration and the deadline for submitting Assignment-00 to today, 20.10.2026, 23:59</strong>. If you plan to take this course this semester, please register and submit the assignment by then. <strong>Do not expect any other deadline to be extended.</strong></p>
+
+	<ul>
+		<li>
+		<p>For reference, only 17 of the 55 enrolled students have submitted Assignment-00, which is required (!) to pass the course.</p>
+		</li>
+	</ul>
+	</li>
+	<li>
+	<p><strong>CMS changes.</strong></p>
+
+	<ul>
+		<li>I removed a redundant registration step inside the CMS, which confused several students. Only 28 of the 55 enrolled students had completed it, and it had no effect on anything anyway.</li>
+		<li>I also added an option to unregister from the course in the CMS until 01.11.2026.&nbsp;I don&#39;t mind if you stay registered without submitting anything. But if unregistering is more convenient for you, you can now do it.</li>
+	</ul>
+	</li>
+</ol>
+
+<p>Best regards,<br />
+Alexey Gurevich</p>
+				</div>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement2"></a>
+				<h4 class="fs-5"><a href="/alsa26/news/view/2">ALSA Tutorial Sessions: Schedule and Start Date</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="19.10.2026 17:33:50">19.10.26</span>												by Moein Karami					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse2">
+					<p>Dear students,<br />
+I hope you are doing well.</p>
+
+<p><br />
+There will be two identical tutorial sessions each week, and you are welcome to attend either one:<br />
+Tuesdays, 14:30&ndash;16:00, Room 001<br />
+Wednesdays, 10:30&ndash;12:00, Room 007<br />
+The first session will take place next week, on Tuesday, 27 October.</p>
+
+<p><br />
+Best&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse2" href="#newsElement2">Read more</a></p>				</div>
+				<div class="collapse newsCollapse2">
+					<p>Dear students,<br />
+I hope you are doing well.</p>
+
+<p><br />
+There will be two identical tutorial sessions each week, and you are welcome to attend either one:<br />
+Tuesdays, 14:30&ndash;16:00, Room 001<br />
+Wednesdays, 10:30&ndash;12:00, Room 007<br />
+The first session will take place next week, on Tuesday, 27 October.</p>
+
+<p><br />
+Best regards,<br />
+Moein Karami</p>
+				</div>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement1"></a>
+				<h4 class="fs-5"><a href="/alsa26/news/view/1">Reminders: Assignment 00 Submission &amp; TA Session Poll (Deadline Tonight)</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="15.10.2026 15:07:45">15.10.26</span>												by Moein Karami					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse1">
+					<p>Hello everyone,</p>
+
+<p>I hope you enjoyed the summer break!</p>
+
+<p>Two quick reminders, especially for those who missed the first two lectures:</p>
+
+<p>Assignment 00: Don&rsquo;t forget to submit your solution. You must score at least 50% on this assignment to be eligible for the final exam. Please also pay close&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse1" href="#newsElement1">Read more</a></p>				</div>
+				<div class="collapse newsCollapse1">
+					<p>Hello everyone,</p>
+
+<p>I hope you enjoyed the summer break!</p>
+
+<p>Two quick reminders, especially for those who missed the first two lectures:</p>
+
+<p>Assignment 00: Don&rsquo;t forget to submit your solution. You must score at least 50% on this assignment to be eligible for the final exam. Please also pay close attention to your output: print only what is asked, in exactly the format specified.<br />
+TA session poll: The poll for choosing a time slot for the TA sessions closes tonight. Please vote <a href="https://nuudel.digitalcourage.de/1fNUZ9kQJFisMBHS">HERE</a> and select all slots that work for you.</p>
+
+<p>Best regards,<br />
+Moein</p>
+				</div>
+							</td>
+		</tr>		
+		</tbody>
+</table>
+
+</section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<h2>Algorithms for Sequence Analysis</h2>
+
+<p>(Special lecture 4V+2&Uuml;, 9 CP for MSc&nbsp;<strong>Bioinformatics</strong>, Advanced lecture to other&nbsp;<strong>CS degree programs</strong>&nbsp;as well: Computer Science, DSAI, Cybersecurity, etc.)</p>
+
+<p>Note: If you intend to take this course in a later semester, please be aware that the&nbsp;<strong>next instance will most likely be in Summer 2028</strong>.</p>
+
+<p>Lecture Dates:</p>
+
+<ul>
+	<li>every Tuesday 08:30 - 10:00, starting 13.10.2026</li>
+	<li>every Thursday 08:30 - 10:00, ending 04.02.2026</li>
+	<li>except on official holidays and during New Year&#39;s break (21.12.2026 -- 01.01.2027)</li>
+	<li>Room: E2.1, room 001 (Center for Bioinformatics, seminar room, ground floor)</li>
+</ul>
+
+<p>Tutorials (two equivalent sessions; feel free to attend any), starting 27.10.2026:</p>
+
+<ul>
+	<li>Tuesdays, 14:30&ndash;16:00, Room: E2.1, room 001 (the same as lectures)</li>
+	<li>Wednesdays, 10:30&ndash;12:00,&nbsp;Room:&nbsp;E2.1, room 007&nbsp;(small seminar room, ground floor)</li>
+</ul>
+
+<p>You need to be registered for this course in order to access the&nbsp;<strong>Materials</strong>&nbsp;section with lecture slides, homework assignments, etc.</p>
+
+<h2>Contents</h2>
+
+<p>Some of the topics discussed are</p>
+
+<ul>
+	<li>different algorithms for exact pattern search (searching for substrings in longer strings)</li>
+	<li>data structures for full-text indexing, in particular suffix tree, array, Burrows-Wheeler transform, FM index</li>
+	<li>useful companion data structures: rank (and select) data structures on bit sequences; wavelet trees</li>
+	<li>applications of full-text indexes in genomics (repeat finding, etc.)</li>
+	<li>error-tolerant pattern search in strings (Hamming distance; edit distance)</li>
+	<li>biological sequence alignment and models of evolutionary processes</li>
+	<li>algorithm engineering for sequence alignment (affine gap costs; linear space; different objectives)</li>
+	<li>the read mapping problem; seed-filter-extend approaches</li>
+	<li>text compression algorithms</li>
+	<li>alignment-free sequence analysis: basics, methods, successes, challenges</li>
+</ul>
+
+<h2>Requirements</h2>
+
+<p>There are no special requirements for the course. However, you should be familiar with elementary algorithms and data structures (sorting; stacks, queues) and algorithm analysis (asymptotic notation like&nbsp;<em>O</em>(<em>n</em>)). For bioinformatics, this is a fairly theoretical and formal course about algorithms. For theoretical computer scientists, this is a fairly practical course, actually considering good implementations of different algorithms. Programming skills are absolutely necessary to solve the practical homework exercises. Do not take this course if you have no or poor programming skills; it will not work out well.</p>
+
+<h2>Passing the Course</h2>
+
+<p>To pass this (graded) course for 9 ECTS credits, several conditions need to be satisfied:</p>
+
+<ul>
+	<li>You need to register for the course here in the CMS to access the course materials, including homework (<strong>registration deadline is 18.10.2026 at 23:59</strong>).</li>
+	<li>You need to achieve at least 50% of the points in <strong>each</strong> of the following: the introductory Assignment 00 (<strong>due 19.10.2026, 23:59</strong>), all theoretical&nbsp;and all programming exercises&nbsp;across the ~14 assignments. (Yes, this means at least 50% in each category separately. If you cannot program, do not take this course!)</li>
+	<li>Quizzes: There will be 3 short quizzes during tutorials (approx. weeks 5, 10, 14), each containing one theoretical and one programming task. Questions are personalized: the theory question is drawn from problems you attempted in your homework, or a random one if you attempted none; the programming question is based on your own submitted code, or a provided snippet if you submitted none. To pass a quiz, you need to solve both parts. You must pass at least 2 of the 3 quizzes.</li>
+	<li>Midterm: A written midterm exam (approx. week 8) will check your understanding of a wide variety of topics taught in the weeks 1&ndash;7 of the course. You need to score at least 1/4 of the midterm&nbsp;points to pass. If you fail, you get one 2nd attempt.</li>
+	<li>When you qualify for the final exam (based on homework, quizzes, and midterm), you need to register for it in the LSF system (instructions will come towards the end of the semester; exam dates will be shortly after the lecture period). LSF registration closes one week before the exam; no exceptions.</li>
+	<li>Final exam: A written or oral final exam covers the course material from weeks 8&ndash;15. Whether it is written or oral depends on the number of qualifying participants; this will be estimated and announced no later than the end of November.</li>
+	<li>Your <strong>final course grade</strong> is the sum of your midterm and final exam scores, weighted as 40/60, and you need at least 50% of the combined points to pass. If your combined score is below this threshold, you get one 2nd attempt at the final exam.</li>
+</ul>
+
+<h4>No Grade Improvement</h4>
+
+<p>Important: Once you have passed the exam, you&nbsp;<strong>cannot</strong>&nbsp;retake it to&nbsp;<strong>improve your grade</strong>. This is different from basic lectures where there is an improvement possibility within the same exam period.&nbsp;</p>
+
+<h4>No Automatic Re-Admission for the Next Exam Period</h4>
+
+<p>If you qualified for the exam in one exam period (say, winter &#39;26/27), but then failed the exam(s), and you want to re-take the exam later (say, summer &#39;28), then&nbsp;<strong>you have to re-qualify</strong>&nbsp;(e.g., do the homework again and obtain enough points). In any case, it is highly recommended to prepare for the exam by solving the homework assignments!</p>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/en/privacy.html" target="_blank">Privacy Policy</a> | <a href="https://www.uni-saarland.de/en/legal-notice.html" target="_blank">Legal Notice</a><br/>
+	If you encounter technical problems, please contact <a href="mailto:cakecms@cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">the administrators</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

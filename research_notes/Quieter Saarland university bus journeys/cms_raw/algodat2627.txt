@@ -1,0 +1,108 @@
+Hauptseite
+Kurse
+Hauptseite
+Informationen
+Termine
+Team
+Anmeldung
+Persönliche Statusseite
+Login
+Angemeldet bleiben
+Login
+Registrierung
+Passwort vergessen?
+Dunklen Modus aktivieren
+Hellen Modus aktivieren
+Algorithmen und Datenstrukturen für Informatik-Lehramt Sekundarstufe I
+Lukas Wachter
+News
+Übungsblatt 1 online
+Geschrieben am
+20.10.26
+von Antonio Castronovo
+Liebe Studierende,
+das Übungsblatt 1 ist ab sofort im CMS verfügbar.
+Bitte beachten Sie außerdem die in den Vorlesungsfolien "
+00 Organisatorisches"
+aufgeführten Zulassungsvoraussetzungen zur Klausur.
+Mit freundlichen Grüßen
+Antonio Castronovo
+Start der Übungen
+Geschrieben am
+18.10.26
+von Antonio Castronovo
+Liebe Studierende,
+die
+erste Übung
+zur Vorlesung
+Algorithmen und Datenstrukturen für das Informatik-Lehramt Sek I
+findet am
+Montag, den 26.10.2026, von 11:45 bis 13:15 Uhr
+statt.
+Die Übung findet voraussichtlich in
+Raum E1 7, Raum 0.08
+statt. Sollte sich der Raum ändern, informieren wir Sie…
+Weiterlesen
+Liebe Studierende,
+die
+erste Übung
+zur Vorlesung
+Algorithmen und Datenstrukturen für das Informatik-Lehramt Sek I
+findet am
+Montag, den 26.10.2026, von 11:45 bis 13:15 Uhr
+statt.
+Die Übung findet voraussichtlich in
+Raum E1 7, Raum 0.08
+statt. Sollte sich der Raum ändern, informieren wir Sie rechtzeitig.
+Das erste Übungsblatt wird am Montag, den 19.10.2026, veröffentlicht.
+Mit freundlichen Grüßen
+Antonio Castronovo
+Important Information About This Course
+Geschrieben am
+09.10.26
+von Lukas Wachter
+Recently, a considerable number of students from non-teacher-education programs have registered for this course. Therefore, I would like to clarify the intended target audience.
+This course is intended exclusively for students in
+teacher education programs
+, especially those preparing to teach at…
+Weiterlesen
+Recently, a considerable number of students from non-teacher-education programs have registered for this course. Therefore, I would like to clarify the intended target audience.
+This course is intended exclusively for students in
+teacher education programs
+, especially those preparing to teach at the
+Sekundarstufe I
+level. The course is
+not creditable for students enrolled in other degree programs
+and is conducted
+entirely in German
+.
+If you are not studying in a teacher education program but are nevertheless interested in the course, please contact me before registering. I would be happy to discuss whether the course is likely to be beneficial to your study goals.
+Please also note that there are other courses with similar titles. Before registering, please make sure that this is indeed the course you intend to take. Otherwise, you may miss important information, announcements, or deadlines related to the courses that are actually relevant to your studies.
+Thank you for your interest and understanding.
+Start der Veranstaltungen
+Geschrieben am
+07.10.26
+von Lukas Wachter
+Liebe Studierende,
+herzlich Willkommen zur Vorlesung Algorithmen und Datenstrukturen für Informatik-Lehramt Sek I.
+Bitte beachten Sie, dass der erste Vorlesungstermin erst am Donnerstag, 15.10., 8:15 Uhr stattfinden wird.
+Mit freundlichen Grüßen
+Lukas Wachter
+Algorithmen und Datenstrukturen für Informatik-Lehramt Sekundarstufe I
+Auszug aus dem Modulhandbuch Lehramt für die Sekundarstufe I im Fach Informatik
+Lernziele / Kompetenzen
+Die Studierenden lernen wichtige effiziente Datenstrukturen und Algorithmen kennen und implementieren diese. Die Studierenden lernen die grundlegenden Methoden des Entwurfs und der Analyse von Algorithmen und Datenstrukturen kennen und wenden diese an.
+Inhalt
+Abstrakte Datentypen und ihre Realisierung durch Datenstrukturen (u.a. Liste, Bäume, Graphen)
+Sortier- und Suchverfahren
+Graphalgorithmen
+Rekursion
+Teile- und Herrsche-Prinzip
+Dynamische Programmierung
+Untersuchung der Zeit- und Platzkomplexität von Algorithmen
+Datenschutz
+|
+Impressum
+Bitte wenden Sie sich bei technischen Problemen an
+die Administratoren
+.

@@ -1,0 +1,41 @@
+Block Seminar Machine Learning for Language Processing (Spring 2027) – Spoken Language Systems
+Skip to content
+Deep learning is the predominant machine learning paradigm in language processing. This approach not only gave huge performance improvements across a large variety of natural language processing tasks. This time we will loke at agentic AI for lifes science and other papers on drug discovery
+Lecturer:
+Dietrich Klakow
+Location:
+t.d.b
+Time
+: block course in the spring break 2027 however preparations start earlier. Here the specific time line
+Closing topic doodle: tbd
+Kick-Off: tbd
+One page outline: tbd
+Draft presentation: tbd
+Practice talks and final talks will be during the spring break. Time/date will be decided during the kick-off.
+Application for participation:
+see CS seminar system (for CS; BioInf, DSAI, VC, ES, …), for CoLI,LST, LCT use LSF to apply.
+LSF exam registration deadline:
+29.1.27
+Grading (tentative):
+5%  three slide/5 min presentation
+10% draft of full presentation
+10% practice talk
+25% own experiments and coding
+10% report on coding task
+35% final talk
+5% contributions to discussion during final talk of fellow participants
+List of Topics (tentative):
+Augmenting large language models with chemistry tools
+Autonomous chemical research with large language models
+LIDDIA: Language-based Intelligent Drug Discovery Agent
+DrugAgent: Automating AI-aided Drug Discovery Programming through LLM Multi-Agent Collaboration
+Democratising real-world drug discovery through agentic AI
+Towards an AI co-scientist
+AI agents in drug discovery: applications and case studies
+Towards end-to-end automation of AI research
+DeCoDe: Decoupling Binding Position and Molecular Conformation in 3D Ligand Diffusion for Structure-Based Drug Design
+From Feasible to Practical: Pareto-Optimal Synthesis Planning
+Contrastive Geometric Learning Unlocks Unified Structure- and Ligand-Based Drug Design
+Learning Hamiltonian Flow Maps: Mean Flow Consistency for Large-Timestep Molecular Dynamics
+The rise of agentic AI in drug discovery from static tools to autonomous virtual scientists
+Chain-of-Molecules: Agentic Reasoning in Chemical Space for Constrained Molecular Optimization

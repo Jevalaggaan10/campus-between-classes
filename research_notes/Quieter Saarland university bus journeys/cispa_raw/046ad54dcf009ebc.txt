@@ -1,0 +1,276 @@
+Hauptseite
+Usable Security in the Last Decade
+Divyanshu Bhardwaj, Sumair Ijaz Hashmi, Katharina Krombholz, Taha Taha
+Registration for this course
+is open until
+Tuesday, 27.10.2026 23:59
+.
+News
+27th October Session + Module Preference Form
+Written on
+21.10.26
+by Taha Taha
+Hello everyone,
+Next week, we will go over techniques for reading research papers and discuss the structure of a research paper. Please read the
+two compulsory readings
+in the CMS before the session.
+No
+critique is due for the next session.
+Please submit your module preferences using this form:
+…
+Read more
+Hello everyone,
+Next week, we will go over techniques for reading research papers and discuss the structure of a research paper. Please read the
+two compulsory readings
+in the CMS before the session.
+No
+critique is due for the next session.
+Please submit your module preferences using this form:
+https://cispa.qualtrics.com/jfe/form/SV_2nu1YrpeJmPtq62
+Deadline:
+Tuesday, 27th October
+Before filling it out, we recommend skimming the abstracts of the readings in the modules that interest you. Then select your top 3 preferences, in order, in the Qualtrics form. Please note we will do our best to assign you your most preferred module, but we cannot guarantee your first choice. Moreover, preferences cannot be changed once the form is submitted, so please choose carefully. Lastly, please submit the form only once. Duplicate responses will not be accepted.
+If you have any questions, feel free to reach us at proseminar_usable_security@cispa.de
+See you next week!
+Content
+This course explores usable security and privacy, a field that examines how people interact with security & privacy technologies, and how those technologies can be designed to actually work for them. Across the semester we will read and discuss papers from the last decade (2016-2026) covering subfields, such as security advice, authentication, scams & fraud, privacy & consent, at-risk users, and emerging threats to name a few. Students will learn to read papers critically, connect findings across the broader field, and present research effectively to their peers.
+Time & Location
+The seminar meets weekly on
+Tuesdays, 10:00 am – 12:00 pm
+Location:
+CISPA
+C0 - 0.01 Presentation Room, Stuhlsatzenhaus 5, 66123 Saarbrücken.
+Learning Outcomes
+Students will learn:
+About topics usable security and privacy delves into
+To read papers effectively
+To analyze papers
+To present papers
+Grading
+Research paper critiques: 40%
+Paper presentation: 40%
+Class participation: 10%
+Attendance: 10%
+Class Structure
+The course runs as weekly, module-based sessions. Each module corresponds to one subfield within usable security and privacy.
+ATTENDANCE IS MANDATORY. If you cannot attend on these dates, please don't register for the seminar.
+Critiques
+Each week's module comes with 3 readings: 2 compulsory and 1 optional. Every week, students will be required to submit a critique on
+one
+of the compulsory readings for that week's module. The critique for the week will be due on
+Mondays 3 PM
+before every session. Since each session happens on a
+Tuesday
+, and the critique is due the
+Monday before
+at
+3 PM
+, that means the deadline falls on the day
+before
+the week's session.
+All students submit a critique on one of the compulsory readings via CMS AND publicly in a discussion forum before the presentation day.
+Instructions on how to write a critique will be provided in the first few sessions and will be made available in the Materials tab.
+Presentations
+Every module will be a student-led discussion and presentation of that week's
+compulsory
+readings. One student presents the
+compulsory
+readings for that module. As pointed out in the section above, each week's module comes with 3 readings: 2 compulsory and 1 optional. Rather than presenting each paper separately, the presenter is expected to synthesize
+the compulsory readings
+of that week's readings into a single, cohesive talk. The presentation should draw connections across the papers, weaving them into one narrative about the module's topic rather than summarizing them one by one.
+The presenter may incorporate classmates' critiques into their presentation, if they choose to. Students are encouraged, but not required, to conduct additional research on current affairs and additional papers to strengthen their talk as they see fit.
+Students will be judged on content, clarity, interactiveness, ability to tackle questions, and engagement with external materials.
+More details on how to present the module, including an example presentation, will be provided in the sessions. A grading rubric will also be made available in the Materials tab.
+Session Breakdown
+Date
+Module
+Readings
+Session Lead
+October 20, 2026
+Introduction Lecture
+—
+Course Team
+27 Oct 2026
+Reading and Analyzing Papers
+Compulsory
+How to read a paper
+Compulsory
+End User and Expert Perceptions of Threats and Potential Countermeasures
+—
+IEEE Euro S&P Workshop 2020
+Course Team
+3 Nov 2026
+Learning How to Criticize a Paper
+Compulsory
+Use the Force: Evaluating Force-Sensitive Authentication for Mobile Devices
+—
+SOUPS 2016
+Course Team
+November 10, 2026
+Hate & Harassment
+(model presentation)
+Compulsory
+“It's common and a part of being a content creator”: Understanding How Creators Experience and Cope with Hate and Harassment Online
+—
+CHI 2022
+Compulsory
+“They Don't Leave Us Alone Anywhere We Go”: Gender and Digital Abuse in South Asia
+—
+CHI 2019
+Optional
+“A Stalker's Paradise”: How Intimate Partner Abusers Exploit Technology
+—
+CHI 2018
+Course Team
+November 17, 2026
+Scams & Fraud
+Compulsory
+Users Really Do Plug in USB Drives They Find
+—
+IEEE S&P 2016
+Compulsory
+Users Really Do Answer Telephone Scams
+—
+USENIX Security 2019
+Optional
+Experiences with Digital Scams Post-Incarceration in the US
+—
+SOUPS 2026
+—
+November 24, 2026
+Security Advice
+Compulsory
+How I Learned to be Secure: a Census-Representative Survey of Security Advice Sources and Behavior
+—
+CCS 2016
+Compulsory
+“I Wonder if These Warnings Are Accurate”: Security and Privacy Advice in Nine Majority World Countries
+—
+USENIX Security 2026
+Optional
+“…No one can hack my Mind”: Comparing Expert and Non-Expert Security Practices
+—
+SOUPS 2015
+—
+1 Dec 2026
+Authentication & Credentials
+Compulsory
+Better Managed than Memorized? Studying the Impact of Managers on Password Strength and Reuse
+—
+USENIX Security 2018
+Compulsory
+Is FIDO2 the Kingslayer of User Authentication? A Comparative Usability Study of FIDO2 Passwordless Authentication
+—
+IEEE S&P 2020
+Optional
+A Usability Study of Five Two-Factor Authentication Methods
+—
+SOUPS 2019
+—
+December 8, 2026
+Research Methods
+Compulsory
+Replication: “No One Can Hack My Mind” – 10 Years Later: An Update and Outlook on Experts' and Non-Experts' Security Practices and Advice
+—
+SOUPS 2025
+Compulsory
+How Well Do My Results Generalize? Comparing Security and Privacy Survey Results from MTurk, Web, and Telephone Samples
+—
+IEEE S&P 2019
+Optional
+Different Researchers, Different Results? Analyzing the Influence of Researcher Experience and Data Type During Qualitative Analysis of an Interview and Survey Study on Security Advice
+—
+CHI 2023
+—
+December 15, 2026
+Privacy & Consent
+Compulsory
+(Un)informed Consent: Studying GDPR Consent Notices in the Field
+—
+CCS 2019
+Compulsory
+Dark Patterns after the GDPR: Scraping Consent Pop-ups and Demonstrating Their Influence
+—
+CHI 2020
+Optional
+An Empirical Analysis of Data Deletion and Opt-Out Choices on 150 Websites
+—
+SOUPS 2019
+—
+Christmas Break: 21 December 2026 - 3 January 2027
+January 5, 2027
+At-Risk Users
+Compulsory
+“
+In Eighty Percent of the Cases, I Select the Password for Them”: Security and Privacy Challenges, Advice, and Opportunities at Cybercafes in Kenya
+—
+IEEE S&P 2024
+Compulsory
+SoK: A Framework for Unifying At-Risk User Research
+—
+IEEE S&P 2022
+Optional
+How WEIRD Is Usable Privacy and Security Research?
+—
+USENIX Security 2024
+—
+January 12, 2027
+Emerging Threats
+Compulsory
+“Did They F***ing Consent to That?”: Safer Digital Intimacy via Proactive Protection Against Image-Based Sexual Abuse
+—
+USENIX Security 2024
+Compulsory
+Mental Models, Expectations and Implications of Client-Side Scanning: An Interview Study with Experts
+—
+CHI 2024
+Optional
+In Focus, Out of Privacy: The Wearer's Perspective on the Privacy Dilemma of Camera Glasses
+—
+CHI 2024
+—
+January 19, 2027
+Developers & Experts
+Compulsory
+“If HTTPS Were Secure, I Wouldn't Need 2FA”: End User and Administrator Mental Models of HTTPS
+—
+IEEE S&P 2020
+Compulsory
+Comparing the Usability of Cryptographic APIs
+—
+IEEE S&P 2017
+Optional
+To Cloud or Not to Cloud: A Qualitative Study on Self-Hosters' Motivation, Operation, and Security Mindset
+—
+USENIX Security 2023
+—
+January 26, 2027
+Free Lecture
+—
+—
+Academic Dishonesty
+In this course, you will be reading a wide range of scholarly sources and will work to integrate these concepts into your own research, critiques and professional practice. It is imperative that any use of others' intellectual work (including, but not limited to, quotations, paraphrasing of ideas, figures, models) be accompanied by an appropriate citation or reference. The course follows Saarland University and DFG's guidelines regarding academic dishonesty: https://www.uni-saarland.de/en/administration/research-integrity.html
+Any form of cheating will result in a penalty up to automatic fail grade for the course. All instances of cheating will be forwarded to the associated university body for appropriate disciplinary action.
+Helping another student to cheat and cheating are considered equal cases of academic dishonesty and will be treated as outlined above.
+Giving another student an electronic copy of your homework, or access to your computer account constitutes cheating on your behalf if that other student copies or uses any files that become implicated in a cheating case.
+AI Policy
+The use of AI tools (eg, ChatGPT, Claude, or similar) is
+strictly prohibited
+for all coursework in this seminar, including critiques and presentations. All critiques and presentation content must be the student's own original work and analysis. Any case of plagiarism will be reported directly to the Examination Office.
+Accessibility
+If you anticipate or experience physical or academic barriers based on disability, you are welcome to let us know so that we can discuss options (such as live captions during class). You are also encouraged to contact the Equal Opportunities and Diversity Management Unit at: ksb@uni-saarland.de.
+Student with Disabilities
+If you have a disability that requires special academic accommodation, please make an appointment to speak with us within the first three (3) weeks of the semester in order to discuss any adjustments. It is important that we talk about this at the beginning of the semester. It is the student's responsibility to notify the Equal Opportunities and Diversity Management Unit (https://www.uni-saarland.de/en/administration/diversity/inclusive-education.html) of an impairment/condition that may require accommodations and/or classroom modifications.
+Mental Health
+If you find yourself beginning to feel some stress, anxiety and/or slightly feeling overwhelmed, please contact the counseling service made available to students through the university: https://www.stw-saarland.de/beratung/
+Harassment Policy
+We are committed to providing a safe and secure classroom environment for our students. Any kind of harassment or violent behavior is strictly prohibited and will be promptly reported to the Gender Equality Office (https://www.uni-saarland.de/en/administration/gender-equality-office.html).
+Questions
+We will make use of a discussion forum to ask questions about the course modules and for students to submit their critiques publicly. We encourage all questions to be asked via this discussion forum so that everyone can learn from each other. For questions that you are not comfortable asking publicly, please reach out at the following email address:
+proseminar_usable_security@cispa.de
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

@@ -1,0 +1,119 @@
+Hauptseite
+Kurse
+Hauptseite
+Informationen
+Termine
+Team
+Anmeldung
+Persönliche Statusseite
+Login
+Angemeldet bleiben
+Login
+Registrierung
+Passwort vergessen?
+Dunklen Modus aktivieren
+Hellen Modus aktivieren
+Analysis 1
+Prof. Dr. Mark Groves
+News
+Übungsblatt 2
+Geschrieben am
+23.10.26
+(letzte Änderung am
+23.10.26
+)						von Mark Groves
+Das zweite Übungsblatt kann nun vom CMS abgerufen werden. Abgabetermin: 30. Oktober um 12:00 Uhr.
+CMS Downtime
+Geschrieben am
+22.10.26
+von Fabian Brenner
+Wie Ihr alle bestimmt bemerkt habt, war das CMS seit gestern Morgen bis vor einigen Minuten nicht verfügbar.
+Da ein Backup von vorgestern geladen wurde, sind einige Daten verloren gegangen (nämlich die, die zwischen der Zeit des Backups und dem Beginn der Downtime eingegangen sind).
+Überprüft…
+Weiterlesen
+Wie Ihr alle bestimmt bemerkt habt, war das CMS seit gestern Morgen bis vor einigen Minuten nicht verfügbar.
+Da ein Backup von vorgestern geladen wurde, sind einige Daten verloren gegangen (nämlich die, die zwischen der Zeit des Backups und dem Beginn der Downtime eingegangen sind).
+Überprüft bitte unbedingt Eure Persönlichen Statusseiten und versucht, Eure eigenen Abgaben herunterzuladen. Wenn es dabei zu einer Fehlermeldung kommt, ladet Eure Abgaben bitte erneut hoch. Überprüft bitte auch, ob Eure Abgabengruppen im CMS auf dem neuesten Stand sind.
+Lehrveranstaltungen am 21. Oktober
+Geschrieben am
+21.10.26
+von Mark Groves
+Wegen Krankheit müssen die Lehrveranstaltungen von Prof. Groves heute (Mittwoch 21. Oktober) ausfallen. Wir bitten um Verständnis.
+Tutorieneinteilung
+Geschrieben am
+18.10.26
+von Fabian Brenner
+Die Tutorien sind jetzt eingeteilt. Ihr Tutorium finden Sie auf Ihrer persönlichen Statusseite.
+Denken Sie daran, dass die Tutorien schon ab kommender Woche (ab morgen) beginnen.
+Übungsblatt 1
+Geschrieben am
+16.10.26
+von Mark Groves
+Das erste Übungsblatt kann nun vom CMS abgerufen werden. Abgabetermin: 23. Oktober um 12:00 Uhr.
+Sprechstunden
+Geschrieben am
+16.10.26
+von Fabian Brenner
+Sie können die Sprechstundenzeiten ab jetzt auf der Hauptseite im CMS finden.
+Die Sprechstunden beginnen ab nächster Woche.
+Tutoriumspräferenzen
+Geschrieben am
+12.10.26
+von Fabian Brenner
+Sie können ab jetzt Ihre Tutoriumspräferenzen auf Ihrer persönlichen Statusseite setzen.
+Der Slot "Sonntag, 20 Uhr" ist für Studierende, die sich nur der Materialien halber für den Kurs einschreiben und stellt kein tatsächliches Tutorium dar. Falls Sie den Kurs also belegen möchten, stellen Sie…
+Weiterlesen
+Sie können ab jetzt Ihre Tutoriumspräferenzen auf Ihrer persönlichen Statusseite setzen.
+Der Slot "Sonntag, 20 Uhr" ist für Studierende, die sich nur der Materialien halber für den Kurs einschreiben und stellt kein tatsächliches Tutorium dar. Falls Sie den Kurs also belegen möchten, stellen Sie bei diesem Slot bitte unbedingt "Nicht möglich" ein.
+Geschrieben am
+05.10.26
+von Mark Groves
+Sie können sich jetzt für die Vorlesung anmelden.
+Die erste Vorlesung findet am 14. Oktober statt.
+Show all
+Analysis 1
+Analysis I ist – zusammen mit der Linearen Algebra I – die entscheidende Einführungsveranstaltung in die Mathematik. Sie vermittelt die unabdingbar notwendigen Voraussetzungen für alle weiteren Mathematik-Veranstaltungen.
+Inhalt
+Mengen und Abbildungen
+Die natürlichen Zahlen, vollständige Induktion, Abzählbarkeit
+Zahlbereiche: Z, Q, R
+Eigenschaften der reellen Zahlen, Vollständigkeit, Ungleichungen
+Konvergenz, Folgen und Reihen
+Funktionen, Stetigkeit und Diﬀerenzierbarkeit
+Potenzreihen und Taylorformel
+Spezielle Funktionen
+Integralrechnung
+Lehrveranstaltungen
+Vorlesungen: Mo. 10-12, Mi. 10-12 im HS I (Groves)
+Saalübung: Mi. 14-16 im HS I (Brenner)
+Tutorien:
+Mo. 14-16 im SR 6 (Jäger)
+Mo. 16-18 im SR 6 (Jäger)
+Di. 14-16 im SR 10 (Ferrigno)
+Di. 16-18 im SR 3 (Dány)
+Mi. 16-18 im SR 3 (Speicher)
+Sprechstunden:
+Mo 9-10 im Gruppenarbeitsraum (Jäger)
+Mo 13-14 in E2.4, Raum 3.08 (Brenner)
+Di 13-14 im Gruppenarbeitsraum (Speicher)
+Mi 13-14 im Gruppenarbeitsraum (Dányi)
+Do 14-15 im Gruppenarbeitsraum (Ferrigno)
+Übungsbetrieb
+Es wird wöchentlich ein Übungsblatt veröffentlicht, das Sie innerhalb einer Woche bearbeiten und im CMS abgeben können. Eine Gruppenabgabe in festen Gruppen von bis zu 3 Personen ist erlaubt.
+Der Einsatz von einer KI ist untersagt.
+Der Abgabetermin ist Freitag um 12 Uhr.
+Mögliche Lösungswege der Übungsblätter werden anschließend in der Saalübung besprochen, die Korrekturen und Bepunktungen Ihrer Abgaben werden im CMS hochgeladen.
+Zusätzlich finden wöchentlich Tutorien statt, in denen Präsenzaufgaben gemeinsam mit dem jeweiligen Tutor erarbeitet werden. Es wird erwartet, dass Sie Ihre Lösungen präsentieren.
+Voraussetzung für die Zulassung zur Abschlussklausur ist das Erreichen von mindestens zwei Dritteln der maximalen Punktzahl (also 360 Punkte) im Übungsbetrieb. Hierbei können für jedes Übungsblatt 30 Punkte erreicht werden, zusätzlich werden jede Woche 15 Punkte für aktive Teilnahme an Ihrem Tutorium vergeben.
+Bei organisatorischen Problemen mit dem Übungsbetrieb wenden Sie sich bitte an Fabian Brenner.
+Klausur
+Als Hilfsmittel für die Klausur sind ein beidseitig, handbeschriebenes(!) DIN-A4 Blatt sowie ein nicht netzwerkfähiger Taschenrechner zugelassen. Beachten Sie bitte, dass dennoch immer alle Rechenwege angegeben werden müssen, eine Lösung der Art "Nach Taschenrechner L=42" gibt keine Punkte!
+Literatur
+Siehe
+Semesterapparat
+Datenschutz
+|
+Impressum
+Bitte wenden Sie sich bei technischen Problemen an
+die Administratoren
+.

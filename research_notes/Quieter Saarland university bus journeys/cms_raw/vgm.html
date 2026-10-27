@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Main Page	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="4231d285cf1947148cfee86aa34b2ec9a0b05a05@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Sic/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Sic/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Sic/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Sic/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Sic/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/vgm/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/vgm/../system" class="navbar-brand">Courses</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/vgm/">Main Page</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Information</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/vgm/termine/calendar/index">Timetable</a></li><li><hr class="dropdown-divider" /></li><li><hr class="dropdown-divider" /></li><li><a class="dropdown-item" href="/vgm/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/vgm/students/register">Registration</a></li><li class="nav-item"><a class="nav-link" href="/vgm/landing">Personal Status</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/vgm/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="df261887ac9b011a1159417a49bbf66803b2a04e2e2d22df523329c191ebb60600b046e03f1fd5ac4257f020c8cc81832be6ee6b04d69d9383130d6bc6627376" id="Token1368946167" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Username" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Password" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Remember me</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.sic.saarland/vgm/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="33a0b307657441efea3afe1aaf76e4878f8497f9%3AUser.redirect" id="TokenFields658690675" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked1736108576" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/vgm/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registration</a>        </li>
+        <li>
+            <a href="/vgm/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Forgot Password?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Enable dark mode            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Enable light mode            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/vgm/../system" class="site-logo" title="Front Page"><img src="/system/theme/Sic/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					Visual Generative Models				</h1>
+				<div>
+				<small class="text-muted">
+					Jan Eric Lenssen				</small>
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					<div class="alert alert-info"><a href="/vgm/students/register">Registration for this course</a> is open until <strong>Monday, 26.10.2026 23:59</strong>.</div>
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	
+<table class="table">
+	<colgroup>
+				<col span="1" style="width: auto;" />
+	</colgroup>
+	<tbody>
+	<tr>						<td class="align-top">
+				<a id="newsElement5"></a>
+				<h4 class="fs-5"><a href="/vgm/news/view/5">Start of Tutorials</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="20.10.2026 22:43:44">20.10.26</span>						(last change on <span data-bs-toggle="tooltip" data-bs-title="20.10.2026 22:44:04">20.10.26</span>)						by Hevra Petekkaya					</i></small>
+				</p>
+
+									<p>Hi everyone,</p>
+
+<p>This is a kind reminder that we will be starting with our tutorials tomorrow, 21st of October. The slides are uploaded.</p>
+
+<p>See you tomorrow!</p>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement4"></a>
+				<h4 class="fs-5"><a href="/vgm/news/view/4">Office Hours</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="14.10.2026 11:05:23">14.10.26</span>						(last change on <span data-bs-toggle="tooltip" data-bs-title="14.10.2026 11:32:28">14.10.26</span>)						by Hevra Petekkaya					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse4">
+					<p>Below are the office hours for myself, Hevra, and our tutor, Umar. If you have individual questions, you can visit us during the office hours. However, if you have questions which might also concern other students, then please post them in CMS Forum so we won&#39;t have to reply individually to common&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse4" href="#newsElement4">Read more</a></p>				</div>
+				<div class="collapse newsCollapse4">
+					<p>Below are the office hours for myself, Hevra, and our tutor, Umar. If you have individual questions, you can visit us during the office hours. However, if you have questions which might also concern other students, then please post them in CMS Forum so we won&#39;t have to reply individually to common questions.&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>Office Hours:</p>
+
+<p>&nbsp;</p>
+
+<p>Hevra Petekkaya:</p>
+
+<p>Thursday, 2 pm - 3 pm (This week, 15th of Oct, not available for the office hour)<!-- notionvc: d9c6bb04-da20-490f-8ef3-fd9c6fa34b6d --></p>
+
+<p>Location: MPI-INF (E1 4) 6th floor. Room 629</p>
+
+<p>&nbsp;</p>
+
+<p>Muhammad Umar Javed -&nbsp;</p>
+
+<p>Wednesday, 2 pm - 3 pm<!-- notionvc: 8bc9bee8-80cf-45ad-8a0a-9ab3357df137 --></p>
+
+<p>Location: MPI-INF (E1 4) 6th floor. Room 611</p>
+				</div>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement3"></a>
+				<h4 class="fs-5"><a href="/vgm/news/view/3">Release of Tutorial 1</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="13.10.2026 19:07:12">13.10.26</span>												by Hevra Petekkaya					</i></small>
+				</p>
+
+									<p>Tutorial 1 has been released. Please let us know if you face any problems or have questions.</p>
+
+<p>Good luck!</p>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement2"></a>
+				<h4 class="fs-5"><a href="/vgm/news/view/2">For now, the room will stay the same</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="13.10.2026 18:09:28">13.10.26</span>						(last change on <span data-bs-toggle="tooltip" data-bs-title="13.10.2026 18:09:54">13.10.26</span>)						by Jan Eric Lenssen					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse2">
+					<p>There was the ask if we can switch the lecture room to have tables at the seats.<br />
+There currently is no other one available that is large enough so we will stay in the same room until further notice.<br />
+<br />
+We might reconsider later but would have a vote first, if a different one would be preferred by the&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse2" href="#newsElement2">Read more</a></p>				</div>
+				<div class="collapse newsCollapse2">
+					<p>There was the ask if we can switch the lecture room to have tables at the seats.<br />
+There currently is no other one available that is large enough so we will stay in the same room until further notice.<br />
+<br />
+We might reconsider later but would have a vote first, if a different one would be preferred by the majority.<br />
+&nbsp;</p>
+				</div>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement1"></a>
+				<h4 class="fs-5"><a href="/vgm/news/view/1">Registration is open</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="12.10.2026 19:16:11">12.10.26</span>												by Jan Eric Lenssen					</i></small>
+				</p>
+
+									<p>Registration for the course should now be open for the next two weeks (until Oct 26).<br />
+In case something does not work - please let us know!</p>
+							</td>
+		</tr>		
+		</tbody>
+</table>
+
+</section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<h2>Visual Generative Models</h2>
+
+<p>This lecture introduces continuous generative modeling, diffusion and flow matching, as the dominant paradigm for visual synthesis, and traces its extension from static images to dynamic, embodied domains. We start with the core mathematical picture: forward noising processes, score/velocity-field learning, and the shared ODE/SDE view that unifies diffusion models and flow matching as a generative modeling framework that learns a velocity field to transform a source distribution into a target distribution through a continuous flow. From there, we move to video diffusion models and their emerging role as implicit world models, before turning to robotics: Diffusion Policy as a case study in using denoising processes to represent multimodal action distributions, and video generation as a substrate for planning and simulation in physical AI. The lecture closes with open questions around sampling efficiency, controllability, and what it means for a generative model to also be a world model.</p>
+
+<p>Website:&nbsp;https://vip.mpi-inf.mpg.de/vgm.html<br />
+<br />
+<strong>CMS Registration will open after the introductory lecture on Oct 12!</strong></p>
+
+<hr />
+<h4>(Non-mandatory but recommended) prerequisites</h4>
+
+<ul>
+	<li>Linear algebra and multivariate calculus</li>
+	<li>Basic probability</li>
+	<li>Deep learning fundamentals</li>
+	<li>Python and PyTorch</li>
+</ul>
+
+<h4>&nbsp;</h4>
+
+<h4>Prerequisites for taking the exam</h4>
+
+<p><br />
+<u><strong>The second half of the tutorials will include a project phase. Participation is mandatory to be eligible for taking the exam.</strong></u></p>
+
+<ul>
+	<li>Participation includes
+	<ol>
+		<li>selecting / defining a project,</li>
+		<li>presenting the project idea and motivation in a short presentation in the tutorial,</li>
+		<li>presenting the results of the project&nbsp;in a short presentation in the tutorial at the end of the semester.</li>
+	</ol>
+	</li>
+	<li>All presentations will be during the tutorial hours. There will be available presentation slots&nbsp;over multiple weeks.</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<h4>Dates and Locations</h4>
+
+<ul>
+	<li>Lecture: Mondays, 4pm&ndash;6pm (starts at 4 pm, from 2nd lecture), Room E1 5 (MPI-SWS building) R.002</li>
+	<li>Tutorial: Wednesdays, 12pm&ndash;2pm (starts at 12:15), Room E1 4 (MPI-INF building) R.024</li>
+	<li>The first, introductory lecture will be on October 12 and will start at 4:15 pm.</li>
+	<li>Tutorials will start on October 21.</li>
+</ul>
+
+<h4>Preliminary Schedule of Content</h4>
+
+<p>The following is a preliminary, high-level outline of the topics covered and may still change.</p>
+
+<h5>Foundations</h5>
+
+<ul>
+	<li>Generative modeling as transport: probability paths, flows, and velocity fields</li>
+	<li>Flow matching: the conditional flow matching objective</li>
+	<li>Diffusion models as a special case of flow matching</li>
+	<li>Samplers, discretization error, and the cost of sampling</li>
+</ul>
+
+<h5>Practice, Steering and Judgment</h5>
+
+<ul>
+	<li>Latents and architectures: autoencoders, tokenizers, diffusion transformers</li>
+	<li>Conditioning, guidance and control</li>
+	<li>Evaluation: measuring fidelity and coverage, reward models as learned evaluators</li>
+</ul>
+
+<h5>Efficiency and Post-Training</h5>
+
+<ul>
+	<li>Few-step sampling: distillation, consistency models, flow maps</li>
+	<li>Reasoning and RL post-training of flow models</li>
+</ul>
+
+<h5>Video</h5>
+
+<ul>
+	<li>Video generation: spatiotemporal flows, generation regimes, long-horizon consistency</li>
+</ul>
+
+<h5>Embodied Generation and World Models</h5>
+
+<ul>
+	<li>Robot learning</li>
+	<li>From denoising to velocity-field policies: Diffusion Policy and flow-based policies</li>
+	<li>World models and simulators: action conditioning, planning, synthetic data</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<h3>Material</h3>
+
+<h4>Online Slides with Animations and Videos</h4>
+
+<p>L01, Oct 12 - Introduction:&nbsp;<a href="https://vip.mpi-inf.mpg.de/teaching/vgm/l01/">https://vip.mpi-inf.mpg.de/teaching/vgm/l01/</a></p>
+
+<p>L02, Oct 19 - Transport:&nbsp;<a href="https://vip.mpi-inf.mpg.de/teaching/vgm/l02/">https://vip.mpi-inf.mpg.de/teaching/vgm/l02/</a></p>
+
+<p>L03, Oct 26 - Flow Matching:&nbsp;<a href="https://vip.mpi-inf.mpg.de/teaching/vgm/l03/">https://vip.mpi-inf.mpg.de/teaching/vgm/l03/</a></p>
+
+<p>Access info is <a href="https://cms.sic.saarland/vgm/2/Internal_VGM">here</a>.<br />
+PDF Versions of the Slides are in Materials Tab</p>
+
+<h4><br />
+Related External Material</h4>
+
+<p>MIT Introduction to Flow Matching and Diffusion Models:&nbsp;<a href="https://diffusion.csail.mit.edu/2026/index.html">https://diffusion.csail.mit.edu/2026/index.html</a><br />
+Flow Matching Cookbook:&nbsp;<a href="https://arxiv.org/pdf/2412.06264">https://arxiv.org/pdf/2412.06264</a></p>
+
+<h4>Catching Up on Fundamentals</h4>
+
+<p>Probability:&nbsp;<a href="https://seeing-theory.brown.edu/" rel="noreferrer" target="_blank">Seeing Theory</a>, Brown University: interactive and very short. The chapters on basic probability, distributions and Bayesian inference are the relevant ones.<br />
+Differential Equations:&nbsp;<a href="https://www.3blue1brown.com/topics/differential-equations" rel="noreferrer" target="_blank">3Blue1Brown, Differential equations</a>: the first video covers vector fields and stepping along them, like what our samplers do.<br />
+Calculus:&nbsp;<a href="https://www.3blue1brown.com/topics/calculus" rel="noreferrer" target="_blank">3Blue1Brown, Essence of calculus</a>: derivatives and the chain rule.&nbsp;<br />
+Calculus:&nbsp;<a href="https://www.khanacademy.org/math/multivariable-calculus" rel="noreferrer" target="_blank">Khan Academy, Multivariable calculus</a>: the unit on derivatives of multivariable functions covers gradient, divergence and Jacobian.<br />
+Neural Networks:&nbsp;<a href="https://pytorch.org/tutorials/beginner/basics/intro.html" rel="noreferrer" target="_blank">PyTorch, Learn the Basics</a>: the official hands-on tutorial, should be enough for the exercises.</p>
+
+<h4>Random Cool Visual Generative Model Stuff</h4>
+
+<p>Genie 3:&nbsp;<a href="https://deepmind.google/models/genie/">https://deepmind.google/models/genie/</a><br />
+Lingbot-World Open Source World Model:&nbsp;<a href="https://technology.robbyant.com/lingbot-world">https://technology.robbyant.com/lingbot-world</a><br />
+Our Neighbours from Black Forrest:&nbsp;<a href="https://bfl.ai/">https://bfl.ai/</a><br />
+WorldLabs Atlas:&nbsp;<a href="https://www.worldlabs.ai/blog/atlas">https://www.worldlabs.ai/blog/atlas</a></p>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/en/privacy.html" target="_blank">Privacy Policy</a> | <a href="https://www.uni-saarland.de/en/legal-notice.html" target="_blank">Legal Notice</a><br/>
+	If you encounter technical problems, please contact <a href="mailto:cakecms@cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">the administrators</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

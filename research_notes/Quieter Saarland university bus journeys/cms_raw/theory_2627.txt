@@ -1,0 +1,65 @@
+Main Page
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Theoretical Abilities and Limitations of Language Models
+Yash Sarrof
+Registration for this course
+is open until
+Sunday, 01.11.2026 23:59
+.
+News
+Paper assignments and tutorial on 30 October
+Written on
+23.10.26
+by Yash Raj Sarrof
+Paper assignments
+Hi all,
+I have now emailed everyone who has been assigned a paper. I believe almost everyone received one of their top three choices.
+If you have been assigned a paper but no longer wish to take the seminar,
+please let me know as soon as possible
+, so that we can offer your…
+Read more
+Paper assignments
+Hi all,
+I have now emailed everyone who has been assigned a paper. I believe almost everyone received one of their top three choices.
+If you have been assigned a paper but no longer wish to take the seminar,
+please let me know as soon as possible
+, so that we can offer your place to another student.
+If you have not received such an email, I want to first thank you for your interest. At the same time, the places in the seminar are unfortunately limited and I’m sorry that we were unable to offer you a place this time around. You are still welcome to attend the seminar sessions to participate and discuss. However, you won't be able to receive credits for this seminar.
+Tutorial: Friday, 30 October 2026
+We will have a tutorial next Friday. Please
+post your questions or suggested topics
+on the
+course forum
+.
+The tutorial is intended especially to support those presenting papers in the
+Expressivity
+and
+Length Generalization
+blocks. If you have been assigned a paper in either block, please
+skim your paper beforehand
+and use the forum to suggest topics or concepts you would like a crash course on. Your suggestions will help me tailor the tutorial to what you need.
+See you all next week, and have a nice weekend!
+Best,
+Yash
+See
+https://lacoco-lab.github.io/courses/theory-26/
+for the syllabus and further information.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

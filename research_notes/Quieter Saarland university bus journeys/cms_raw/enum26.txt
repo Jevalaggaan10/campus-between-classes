@@ -1,0 +1,84 @@
+Hauptseite
+Kurse
+Hauptseite
+Informationen
+Termine
+Team
+Anmeldung
+Persönliche Statusseite
+Login
+Angemeldet bleiben
+Login
+Registrierung
+Passwort vergessen?
+Dunklen Modus aktivieren
+Hellen Modus aktivieren
+Einführung in die Numerik
+Andreas Rupp
+News
+Aktuell gibt es keine Neuigkeiten
+Allgemeine Informationen
+Dozent:
+Andreas Rupp (
+andreas.rupp@uni-saarland.de
+)
+Assistent:
+Ruben Gutendorf (
+ruben.gutendorf@uni-saarland.de
+)
+Ort und Zeit
+Die
+Vorlesungen
+finden dienstags von 08:30 bis 10:00 Uhr und donnerstags von 14:15 bis 15:45 Uhr jeweils im Hörsaal I (Raum 0.01, Gebäude E2 5) statt. Die
+Übungen
+sind dienstags von 14:15 bis 15:45 Uhr in Seminarraum 9 (3. 19, Gebäude E2.4) sowie mittwochs von 14:15 bis 15:45 Uhr und donnerstags von 10:15 bis 11:45 Uhr in Seminarraum 3 (011.0, Gebäude E2.5). Die
+Sprechstunde
+von Simon Christoffel ist montags von 14:15 bis 15:15 im Gruppenarbeitsraum (3.17, Gebäude E2.4).
+Die
+erste Vorlesung
+ist am
+20. Oktober
+. Das bedeutet, dass in der ersten Vorlesungswoche keine Vorlesungen oder Übungen stattfinden. Stattdessen werden in der dritten Vorlesungswoche (KW 44/26) und in der Woche vor Weihnachten (KW 51/26) zusätzliche Vorlesungen bzw. Fragestunden angeboten. Der
+Übungsbetrieb
+startet am 26. Oktober. Herr Angel bietet am 22. Oktober von 10:15 bis 11:45 im Seminarraum 3 (011.0, Gebäude E2.5)  ein
+Programmierpraktikum
+an in dem Grundlagen von Python vermittelt werden.
+Die
+Klausuren
+werden voraussichtlich am 16. Februar von 09 bis 13 Uhr und am 19. März ab 09 Uhr stattfinden (Angaben ohne Gewähr). Bitte melden Sie sich rechtzeitig zu den Klausuren an!
+Übungen und Abgabe der Hausaufgaben
+Die Studierenden haben von Dienstag bis zum darauffolgenden Donnerstag vor der Vorlesung Zeit, die Übungsaufgaben eigenständig zu bearbeiten. In den Übungen besteht die Möglichkeit, Unterstützung bei den Aufgaben zu erhalten und Fragen zu stellen. Zudem werden die Aufgaben der Vorwoche besprochen. Theoretische Aufgaben können handschriftlich bearbeitet (TeX ist auch erlaubt) und vor der Vorlesung in den bereitgestellten Kasten im Hörsaal eingeworfen werden. Wenn Sie handschriftliche Lösungen per CMS einreichen, achten Sie bitte darauf, dass sie gut lesbar sind. Wir empfehlen daher, die Dokumente zu scannen statt Fotos zu machen. Programmieraufgaben sind immer per CMS einzureichen.
+Bitte teilen Sie uns über das entsprechende CMS Tool in der Woche von 19. bis 23. Oktober Ihre
+Übungspräferenzen
+mit!
+Benotung und Klausur
+Um zur Klausur zugelassen zu werden, müssen Sie mindestens 50 % der maximal erreichbaren Punkte in den Hausaufgaben erzielen. Darüber hinaus können Sie durch die Hausaufgaben Bonuspunkte für die Klausur erhalten. Diese Bonuspunkte können Ihre Note verbessern, jedoch nicht dazu beitragen, die Klausur zu bestehen, falls Sie durchfallen. In diesem Fall verfallen die Bonuspunkte---sie gelten nur für Ihren Erstversuch bei der Klausur und auch nur in diesem Semester.
+Erreichen Sie mehr als 80 % der maximalen Punktezahl in den Hausaufgaben, erhalten Sie einen Bonuspunkt für die Klausur. Ab 85 % erhalten Sie 1,5 Bonuspunkte, ab 90 % gibt es 2 Bonuspunkte, ab 95 % 2,5 Bonuspunkte und bei mehr als 100 % der erreichbaren Punkte sogar 4 Bonuspunkte.
+Referenzen
+Der Kurs stützt sich maßgeblich auf die folgenden Bücher:
+T. Richter,  H. von Wahl, T. Wick:  Einführung in die Numerische Mathematik,
+10.1007/978-3-662-69582-1
+A. Quarteroni, R. Sacco, F. Saleri: Numerical Mathematics,
+10.1007/b98885
+P. Deuflhard, A. Hohmann: Numerische Mathematik 1,
+10.1515/9783110614329
+R. Schaback, H. Wendland: Numerische Mathematik,
+10.1007/b137970
+M. Hanke-Bourgeois: Grundlagen der Numerischen Mathematik und des Wissenschaftlichen Rechnens,
+10.1007/978-3-8348-9309-3
+J. Stoer, R. Bulirsch: Numerische Mathematik 2,
+10.1007/b137272
+R.W. Freund, R. Hoppe: Stoer/Bulirsch: Numerische Mathematik 1,
+10.1007/978-3-540-45390-1
+H.R. Schwarz, N. Köckler: Numerische Mathematik,
+10.1007/978-3-8348-8166-3
+G. Hämmerlin, K.-H. Hoffmann: Numerische Mathematik,
+10.1007/978-3-642-57894-6
+Kursmaterialien
+Das Unterlagen (und Übungsaufgaben) zur Vorlesung finden Sie unter "Informationen -> Material." Diese Unterlagen enthalten immer mindestens die Inhalte der bisherigen sowie der nächsten Vorlesung und werden wöchentlich aktualisiert. Wenn Sie Fehler entdecken, schreiben Sie mir gerne eine E-Mail.
+Datenschutz
+|
+Impressum
+Bitte wenden Sie sich bei technischen Problemen an
+die Administratoren
+.

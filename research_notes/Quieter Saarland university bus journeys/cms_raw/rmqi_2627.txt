@@ -1,0 +1,79 @@
+Main Page
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Random Matrices and Applications in Quantum Information
+Roland Speicher
+Winter term 2026/27, 9 CP
+News
+Exercise classes
+Written on
+24.10.26
+by Johannes Hoffmann
+Dear students,
+based on your preferences we decided to offer two groups for the exercise class: Wed 12-14 and Thu 16-18. Further information on the exercise classes can be found on the main page.
+CMS has sorted you into the two groups according to your preferences to get roughly an equal number…
+Read more
+Dear students,
+based on your preferences we decided to offer two groups for the exercise class: Wed 12-14 and Thu 16-18. Further information on the exercise classes can be found on the main page.
+CMS has sorted you into the two groups according to your preferences to get roughly an equal number of people in each group. We know that two dates won't fit everyone (which is impossible based on the data), so if you can attend neither of the classes but still want to gain admittance to the exam: contact me so we can try to find a different solution. Those in the Sunday group may attend the classes as well, of course.
+Best regards,
+Johannes
+Random Matrices and Applications in Quantum Information
+This course will give an introduction to random matrices, with a special emphasis on their applications in the context of quantum information.
+The course is primarily designed for students of the new Masters Study Program on Quantum Information; but anybody else interested in random matrices and/or quantum information theory is also very welcome.
+The course will be coordinated with the course
+Mathematical Foundations of Quantum Information Theory
+, so that it is possible (and actually recommended) to take both courses in parallel.
+Prerequisites:
+No prior knowledge of physics is required
+.
+The course is primarily designed for Bachelor’s and Master’s students in mathematics or computer science. Students from physics and related fields are equally welcome. Participants are expected to be familiar with one- and multidimensional analysis and linear algebra as covered in
+Mathematics for Computer Scientists 1–3
+or in the courses Analysis 1&2 and Linear Algebra 1.
+Time and Room
+: Tuesdays 14-16 in HS IV E2 4; Fridays 10-12 in Zeichensaal E2 5
+Content
+The basic objects of quantum information theory include pure states, represented by unit vectors; mixed states, represented by density matrices; quantum channels, represented by linear maps between matrix algebras; and unitary channels, given by conjugation with unitary matrices.
+In the finite-dimensional setting, these are ultimately vectors, matrices, and linear maps, often equipped with an additional tensor-product structure. In small dimensions, such objects are relatively easy to visualize and analyze: a single qubit, for example, is described by a two-dimensional complex vector space. The interesting difficulties arise when one considers systems consisting of many qubits. The dimension of the corresponding state space then grows exponentially and very quickly becomes enormous.
+In principle, the mathematics is still linear algebra. In practice, however, our geometric intuition—as three-dimensional beings—is poorly adapted to the geometry of very high-dimensional spaces. This course will introduce mathematical tools that help us understand what vectors, matrices, and linear maps look like in high dimensions.
+A central idea will be to study random versions of the objects of interest: random vectors, random matrices, random states, and random quantum channels. Randomness here is not necessarily meant as a physical feature of the final object. Rather, it is a mathematical tool for exploring the geometry of the entire space of possible objects.
+This point of view allows us to ask questions such as: How common are states or quantum channels with a given property? Are such objects exceptional, or do they form a substantial part of the relevant space? In high dimensions, one often encounters a remarkable phenomenon: many quantities are sharply concentrated around a typical value. Consequently, a property found by averaging may hold not merely on average, but for an overwhelming majority of all objects. This is the realm of concentration of measure.
+Averaging over random vectors, matrices, or channels can therefore reveal generic high-dimensional behavior, while often being much more tractable than the direct analysis of an individual object. Random models can also provide existence proofs and benchmarks for explicit deterministic constructions: they tell us what a well-designed state, channel, code, or measurement should be expected to achieve.
+Among the applications we will discuss are the Page curve, which describes the typical entanglement of random pure states, and the use of random quantum channels to show that two channels can sometimes perform better together than separately. By using an entangled input, it is possible to obtain a joint output that is less noisy, or more pure, than the best outputs of the individual channels would suggest. Both examples show how random constructions can reveal unexpected features of concrete quantum systems.
+The course will study probabilistic and analytic methods for answering questions about random vectors and random matrices, with particular emphasis on applications to quantum information theory. Important examples will include Gaussian random vectors and matrices, random density matrices, and the uniform—or Haar—probability measure on the unitary group.
+Averaging over large unitary groups has become an especially important tool in quantum information theory. The corresponding computational framework, known as Weingarten calculus, will be one of the central topics of the course.
+Exercise classes
+There will be two exercise classes:
+Wed 12-14
+and
+Thu 16-18
+, both held in
+SR1 in E2.5
+. Exercise classes start October 28th.
+Note: the class on October 28th will actually take place in HS II in E2.5 due to a scheduling conflict.
+Exercise sheets will be published every two weeks. The first week of exercise classes, we will talk about exercise sheet 1. The next week, there will be mini tests; the remaining time will be used as question time where you can also work on the exercises alone or with others. In the third week, we will discuss exercise sheet 2, week four will be mini tests again, and so on.
+Exam and admission requirements
+The course is worth 9 CP. The examination will be either written or oral; the format will be announced during the semester.
+There will be 6 mini tests during the semester. Each will take about 30 minutes with a maximum of 15 points to be gained.
+In the weeks between the mini tests we will have regular exercise classes where students present their solutions to the questions from the exercise sheets. Every presentation will be worth 5 points (only one presentation per student per class is eligible for points). Students are strongly encouraged to present at least once during the semester.
+To be admitted to the examination, students must get at least 45 points.
+Late registration
+Contact Johannes Hoffmann via email (see Team page).
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

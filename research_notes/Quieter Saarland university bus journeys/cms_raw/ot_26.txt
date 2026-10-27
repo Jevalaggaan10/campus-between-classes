@@ -1,0 +1,53 @@
+Hauptseite
+Kurse
+Hauptseite
+Informationen
+Termine
+Team
+Anmeldung
+Persönliche Statusseite
+Login
+Angemeldet bleiben
+Login
+Registrierung
+Passwort vergessen?
+Dunklen Modus aktivieren
+Hellen Modus aktivieren
+Optimal Transport
+Felix Sachse
+News
+Exercise Sheet 1
+Geschrieben am
+22.10.26
+von Felix Sachse
+Dear students,
+Exercise sheet 1 is now available on CMS. The first tutorial will be held on Monday, October 26.
+Contents
+In this course we will cover basic concepts of optimal transport, such as
+Transport maps and couplings
+Rockafellar's theorem
+Kantorovich duality
+Brenier's theorem
+If time permits, we will also cover
+Wasserstein distances
+Applications
+Recommended prerequisites
+A solid background in mathematics and a good knowledge of measure-theoretic probability theory at the level of
+Stochastics I
+. Knowledge of functional analysis will be advantageous, but not required, as necessary concepts and theorems will be recalled.
+Lecture
+Wednesday, 14:15-15:45, in SR6 (room 2.17) in building E2 4
+Tutorial
+Monday, 10:15-11:45, in SR6 (room 2.17) in building E2 4
+The tutorial will take place approximately every second week. The exact dates will be announced.
+Exam
+Only students of Mathematics, Mathematics and Computer Science, and Actuarial and Financial Mathematics can take the exam.
+Organization
+Dr. Felix Sachse,
+sachse@math.uni-sb.de
+Datenschutz
+|
+Impressum
+Bitte wenden Sie sich bei technischen Problemen an
+die Administratoren
+.

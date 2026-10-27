@@ -1,0 +1,74 @@
+Main Page
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Back to the Roots: Graph Algorithms for Small Molecules
+Andrea Volkamer, Michael Backenköhler, Lisa-Marie Rolli, Ana Mirandela
+News
+Topic Assignment
+Written on
+23.10.26
+by Lisa-Marie Rolli
+Dear all,
+we just performed the topic assignment. You can see your assigned topic on your personal status page. Please note that your presentation date (and thus, your first deadline) depend on your assigned supervisor:
+Ana: 16.11.
+Michael: 23.11.
+Lisa: 30.11.
+Kind regards,
+Lisa
+Back to the Roots: Graph Algorithms for Small Molecules
+This seminar explores fundamental graph-based algorithms underlying modern cheminformatics, including molecular graph matching, ring perception, molecular descriptors, fingerprints, fragmentation, and conformer generation. Students will study selected seminal papers to understand the theoretical foundations and algorithmic concepts behind these methods and gain hands-on experience by implementing and applying them to molecular data. Through two presentations, students will first introduce their chosen method and later present and critically discuss their implementation, results, and practical insights. The seminar aims to bridge chemical graph theory, algorithmic thinking, and practical cheminformatics while developing skills in scientific reading, implementation, analysis, and communication
+Prerequisits:
+The course has no formal prerequisites for participation. However, participants should have prior knowledge from the following courses in order to participate successfully, as we assume familiarity with the relevant content and build upon it. Consequently, we will prioritize students, who successful participated in these courses:
+Algorithms and Data Structures (core lecture)
+Programming
+Open-Source Software and Libraries for Data Driven Drug Design
+Registration:
+If you wish to register send an email to Stefanie Wessinger (stefanie.wessinger@uni-saarland.de) along with your name, matriculation number, and a list of passed courses (e.g., in form of your transcript).
+To confirm your participation you have to register for the "exam" of this course in the
+LSF
+until 2.11.2026. If you miss this deadline, you cannot participate in the seminar.
+Requirements for Passing:
+To pass this course, you have to fulfil
+all
+following requirements:
+Attendance
+at the
+kick-off event
+and
+all
+talks
+Submission of code and slides
+in time for the given deadlines
+Pass
+both talks
+Dates:
+Kick-off event:
+19.10.2027 12:15-14:00, building E2.1 room 416
+Presentations block 1:
+Nov. 16, Nov. 23, Nov 30 at 12:15-14:00, building E2.1 room 416
+Presentations block 1:
+Jan. 11, Jan. 25, Feb. 1 at 12:15-14:00, building E2.1 room 416
+All dates can also be found in the
+calendar
+.
+Grade
+:
+​​​​​​20% participation + ​40% talk 1 + 40% talk 2
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

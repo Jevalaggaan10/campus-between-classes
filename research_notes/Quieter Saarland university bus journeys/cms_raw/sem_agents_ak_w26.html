@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Hauptseite	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="4231d285cf1947148cfee86aa34b2ec9a0b05a05@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Sic/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Sic/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Sic/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Sic/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Sic/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/sem_agents_ak_w26/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/sem_agents_ak_w26/../system" class="navbar-brand">Courses</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/sem_agents_ak_w26/">Main Page</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Information</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/sem_agents_ak_w26/termine/calendar/index">Timetable</a></li><li><a class="dropdown-item" href="/sem_agents_ak_w26/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/sem_agents_ak_w26/students/register">Registration</a></li><li class="nav-item"><a class="nav-link" href="/sem_agents_ak_w26/landing">Personal Status</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/sem_agents_ak_w26/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="b48d4e51476dd0216d4dd8e6f9361ba0ed0e880830fe44fb45ab1de6183fd3d7b1e5b4edce0af80dd0b2550785511fd3565413b468806e95928cbf0572c6b41e" id="Token175855525" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Username" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Password" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Remember me</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.sic.saarland/sem_agents_ak_w26/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="37e699f8d6d4f243dc1c1d657241bb5cfbcf43ca%3AUser.redirect" id="TokenFields1272294530" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked2010327921" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/sem_agents_ak_w26/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registration</a>        </li>
+        <li>
+            <a href="/sem_agents_ak_w26/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Forgot Password?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Enable dark mode            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Enable light mode            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/sem_agents_ak_w26/../system" class="site-logo" title="Front Page"><img src="/system/theme/Sic/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					Seminar - Who does the science in the age of agents?				</h1>
+				<div>
+				<small class="text-muted">
+					Johanna Becher, Philipp Flotho, Florian Kriegel				</small>
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	
+<table class="table">
+	<colgroup>
+				<col span="1" style="width: auto;" />
+	</colgroup>
+	<tbody>
+	<tr>						<td class="align-top">
+				<a id="newsElement3"></a>
+				<h4 class="fs-5"><a href="/sem_agents_ak_w26/news/view/3">Announcement 1</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="22.10.2026 14:44:26">22.10.26</span>												by Florian Kriegel					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse3">
+					<p>Dear all,</p>
+
+<p>thank you for joining our kick-off session. A few organisational points that came up after the session:</p>
+
+<p><strong>1. Kick-off slides</strong><br />
+The slides from the kick-off are now uploaded and available to you in the course materials.</p>
+
+<p><strong>2. Registration in LSF</strong><br />
+Please do not forget to register for the&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse3" href="#newsElement3">Read more</a></p>				</div>
+				<div class="collapse newsCollapse3">
+					<p>Dear all,</p>
+
+<p>thank you for joining our kick-off session. A few organisational points that came up after the session:</p>
+
+<p><strong>1. Kick-off slides</strong><br />
+The slides from the kick-off are now uploaded and available to you in the course materials.</p>
+
+<p><strong>2. Registration in LSF</strong><br />
+Please do not forget to register for the seminar in LSF by 11 November.</p>
+
+<p><strong>3. New starting time: 10:15</strong><br />
+There is a lecture scheduled before our seminar, so from now on we will start at 10:15 instead. The room stays the same.</p>
+
+<p><strong>4. Your tutor</strong><br />
+Each topic has a tutor assigned who is your contact point for questions about the readings, the task, and your presentation. As mentioned in the presentation, this is optional. Don&#39;t forget to get in touch with your Tutor in time!</p>
+
+<p>Philipp Flotho&nbsp; (Philipp.Flotho@uni-saarland.de)<br />
+Topics 3 (Co-Scientist), 7 (Physical AI), 8 (Lab in the Loop for Perturbation Design), 9 (Can an Agent Replace a PhD? End-to-End Automation)</p>
+
+<p>Johanna Becher&nbsp; (johanna.becher@ccb.uni-saarland.de)<br />
+Topics 4 (Applications in Biotech: The Virtual Biotech Lab), 5 (Spatial Agent), 11 (Security Risks of Agentic Systems), 12 (Dual Use in Biomedical Agentic AI)</p>
+
+<p>Florian Kriegel&nbsp; (florian.kriegel@ccb.uni-saarland.de)<br />
+Topics 1 (Retrieval-Augmented Generation), 2 (Reasoning and Acting), 6 (The Commercial Science Workbench), 10 (Multi-Agent Failure Modes)</p>
+
+<p>Best regards,<br />
+Your Agentic Seminar Team</p>
+				</div>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement2"></a>
+				<h4 class="fs-5"><a href="/sem_agents_ak_w26/news/view/2">Topic Assignments</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="20.10.2026 08:57:06">20.10.26</span>												by Florian Kriegel					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse2">
+					<p>Dear all,<br />
+<br />
+Please find attached the final assignments for the topics:<br />
+&nbsp;</p>
+
+<ol>
+	<li>Retrieval Augmented Generation -&gt; Srinath Balasundaram (04.11.2026)</li>
+	<li>Reasoning and acting -&gt; Maaaz Arshad Shaheen (11.11.2026)</li>
+	<li>Co-Scientist -&gt; Konstantin Maximilian Franke (18.11.2026)</li>
+	<li>Applications in Biotech: The&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse2" href="#newsElement2">Read more</a></li></ol>				</div>
+				<div class="collapse newsCollapse2">
+					<p>Dear all,<br />
+<br />
+Please find attached the final assignments for the topics:<br />
+&nbsp;</p>
+
+<ol>
+	<li>Retrieval Augmented Generation -&gt; Srinath Balasundaram (04.11.2026)</li>
+	<li>Reasoning and acting -&gt; Maaaz Arshad Shaheen (11.11.2026)</li>
+	<li>Co-Scientist -&gt; Konstantin Maximilian Franke (18.11.2026)</li>
+	<li>Applications in Biotech: The Virtual Biotech Lab -&gt; Mohammed Ashraf Ahmed Refaey (25.11.2026)</li>
+	<li>Spatial Agent -&gt; Kamyar Kashefzand (02.12.2026)</li>
+	<li>The Commercial Science Workbench -&gt;&nbsp;Sadaf Reihani (09.12.2026)</li>
+	<li>Physical AI -&gt;&nbsp;Muhammadsultonbek Ergashev (16.12.2026)</li>
+	<li>Lab in the loop for perturbation design -&gt;&nbsp;Ahmed Samir Mohamed Shaaban (06.01.2027)</li>
+	<li>Can an agent replace a PhD? End-to-end automation -&gt;&nbsp;Fadlilah Nur Hasanah (13.01.2027)</li>
+	<li>Multi-agent failure modes -&gt;&nbsp;Ful Belin Korukoglu (20.01.2027)</li>
+	<li>Security risks of agentic systems -&gt;&nbsp;Burce Ozdemir (27.01.2027)</li>
+	<li>Dual use in biomedical agentic AI -&gt;&nbsp;Mohamed Hegazy (03.02.207)<br />
+	&nbsp;</li>
+</ol>
+
+<p>We tried to consider your preference as much as possible and hope that you are satisfied with your assigned topic. See you all on Wednesday!<br />
+<br />
+Best regards,<br />
+Your Agentic Seminar Team</p>
+				</div>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement1"></a>
+				<h4 class="fs-5"><a href="/sem_agents_ak_w26/news/view/1">topic preferences</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="14.10.2026 15:04:42">14.10.26</span>						(last change on <span data-bs-toggle="tooltip" data-bs-title="15.10.2026 16:13:20">15.10.26</span>)						by Florian Kriegel					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse1">
+					<p>Dear all,</p>
+
+<p>Welcome to our seminar &quot;Who does the science in the age of agents?&quot;.</p>
+
+<p>So far we have received topic preferences from only a few of you, and the kick-off meeting is approaching. This is a reminder to send us your preferences by e-mail to <strong>florian.kriegel@ccb.uni-saarland.de </strong>by <strong>Monday,&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse1" href="#newsElement1">Read more</a></strong></p>				</div>
+				<div class="collapse newsCollapse1">
+					<p>Dear all,</p>
+
+<p>Welcome to our seminar &quot;Who does the science in the age of agents?&quot;.</p>
+
+<p>So far we have received topic preferences from only a few of you, and the kick-off meeting is approaching. This is a reminder to send us your preferences by e-mail to <strong>florian.kriegel@ccb.uni-saarland.de </strong>by <strong>Monday, 19.10.2026, 23:59 CET</strong>, listing at least <strong>three</strong> topics in order of preference.</p>
+
+<p>If we do not receive your preferences by the deadline, you will be assigned a topic at random.</p>
+
+<p><strong>The topic list</strong>:</p>
+
+<p>1. Retrieval Augmented Generation<br />
+2. Reasoning and acting<br />
+3. Co-Scientist<br />
+4. Applications in Biotech: The Virtual Biotech Lab<br />
+5. Spatial Agent<br />
+6. The Commercial Science Workbench<br />
+7. Physical AI<br />
+8. Lab in the loop for perturbation design<br />
+9. Can an agent replace a PhD? End-to-end automation<br />
+10. Multi-agent failure modes<br />
+11. Security risks of agentic systems<br />
+12. Dual use in biomedical agentic AI</p>
+
+<p>On our CMS page you can go to <em>Information</em> -&gt; <em>Materials&nbsp;</em>and download the file <strong>All Seminar topics&nbsp;</strong>to get a detailed description of each task. You can further download the extensive task description in this section.</p>
+
+<p>Two further deadlines to keep in mind:</p>
+
+<p>- CMS registration: 19.10.2026, 23:59 CET. If you have not signed up in the CMS yet, please do so before this date.<br />
+- LSF registration: 11.11.2026. If your study program requires additional registration steps elsewhere, please complete those as well.</p>
+
+<p>&nbsp;</p>
+
+<p>Kick-off:<strong> Wednesday, 21.10.2026, 10:00 in building E2.1 room 0.01</strong>. Attendance is mandatory, missing it results in exclusion from the course, and your spot will be given to a student on the waiting list.</p>
+
+<p>Looking forward to get to know you next week!</p>
+
+<p>Best regards,<br />
+Your Agentic Seminar Team</p>
+				</div>
+							</td>
+		</tr>		
+		</tbody>
+</table>
+
+</section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<h2>Seminar - Who does the science in the age of agents?</h2>
+
+<h4>How agentic AI alters the academic landscape.</h4>
+
+<hr />
+<p>The fast development of large language models (LLMs) in recent years is starting to drive scientific discovery. Large-language-model agents are evolving from interactive assistants to full scientific operators: they write code, inspect data, launch analyses, design new methods, and draft reports. In this seminar we explore how agentic AI is altering the academic landscape with a focus on bioinformatics/biomedical research and have a closer look at the historic innovations that sparked this development. We divide the seminar into four broad categories:</p>
+
+<ol>
+	<li>&nbsp;Basic concepts</li>
+	<li>&nbsp;Multi-agent labs</li>
+	<li>&nbsp;Lab in the loop systems</li>
+	<li>&nbsp;Risks and Limitations</li>
+</ol>
+
+<h6>&nbsp;</h6>
+
+<h6>Organization:</h6>
+
+<ul>
+	<li>Wednesday 10:15-12:00, first presentation 04.11.2026&nbsp;</li>
+	<li>Kick-off: 21.10.2026, 10:00</li>
+</ul>
+
+<p><strong>Attendance is mandatory!</strong></p>
+
+<h6>&nbsp;</h6>
+
+<h6>Formalities:</h6>
+
+<p>Presentations are 30 minutes, followed by a 30-minute discussion. Students will be evaluated on how well they present their paper(s), answer questions, and participate in the discussion rounds (including asking questions themselves).</p>
+
+<p>This course is aimed at Master&#39;s students in Bioinformatics, Computer Science, and DSAI. Prior knowledge of Machine Learning or a related lecture is recommended.</p>
+
+<p>Bachelor students may also register for the seminar (as a proseminar worth 5 CP), but only a limited number of slots are reserved for them.</p>
+
+<p>&nbsp;</p>
+
+<h6>Time Table:</h6>
+
+<p>After the kick-off meeting on the 21st October, the course will take place weekly from 4th of November onward. In each session we will listen and discuss the presentation of one student to guarantee enough time for Q&amp;A sessions.&nbsp;</p>
+
+<h6>&nbsp;</h6>
+
+<h6>Registration:</h6>
+
+<p>To register for the seminar, please sign up via the CMS by <strong>19.10.2026, 23:59 CET</strong>. Please also register in the LSF until <strong>11.11.2026</strong>. If your study program requires additional registration steps elsewhere, please make sure to complete those as well. We cannot be responsible for missed registrations outside the CMS.</p>
+
+<p>After registration, please send us an e-mail indicating your preferred topic by <strong>20.10. 2026, 23:59 CET</strong>. Please list a minimum of 3 topics there.<br />
+<br />
+After the registration deadline, we will review capacity and let you know whether you have been accepted or placed on the waiting list.<br />
+Attendance at the kick-off meeting is mandatory, as topics will be assigned there. Missing it without prior notice will result in exclusion from the course, and your spot will be given to a student on the waiting list.</p>
+
+<h6>&nbsp;</h6>
+
+<h6>Topic List:</h6>
+
+<ol>
+	<li>&nbsp;Retrieval Augmented Generation</li>
+	<li>&nbsp;Reasoning and acting</li>
+	<li>&nbsp;Co-Scientist</li>
+	<li>&nbsp;Applications in Biotech: The Virtual Biotech Lab</li>
+	<li>&nbsp;Spatial Agent</li>
+	<li>&nbsp;The Commercial Science Workbench</li>
+	<li>&nbsp;Physical AI</li>
+	<li>&nbsp;Lab in the loop for perturbation design</li>
+	<li>&nbsp;Can an agent replace a PhD? End-to-end automation</li>
+	<li>&nbsp;Multi Agents failure modes</li>
+	<li>&nbsp;Security risks of agentic system</li>
+	<li>&nbsp;Dual use in biomedical agentic AI</li>
+</ol>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/en/privacy.html" target="_blank">Privacy Policy</a> | <a href="https://www.uni-saarland.de/en/legal-notice.html" target="_blank">Legal Notice</a><br/>
+	If you encounter technical problems, please contact <a href="mailto:cakecms@cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">the administrators</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

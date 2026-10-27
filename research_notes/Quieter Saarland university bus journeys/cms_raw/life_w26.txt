@@ -1,0 +1,78 @@
+Main Page
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Life Insurance Mathematics
+Frederik Herzberg
+News
+Currently, no news are available
+Life Insurance Mathematics
+Prof. Dr. Frederik Herzberg
+Synopsis
+This course provides an introduction to life insurance mathematics broadly conceived, covering insurances against various kinds of life-contingent risks, with a particular emphasis on the regulatory framework in Germany. Topics include:
+Multiple-decrement models and actuarial calculation bases
+Expected present values of payment streams (for premiums and benefits)
+Equivalence principle and actuarial reserves
+Applications of the above: e.g., whole life insurance, annuities, pensions, private health insurance (according to German law)
+Survival functions, hazard rates and the construction of life tables
+Depending on the participants' level of proficiency in German, the lecture course may be taught partly in German.
+Lectures
+Thursdays, 12:15pm-13:45pm, seminar room 6
+(building E2 4, room 2.17)
+Start date: 15 October
+Recommended Prerequisites
+Stochastik I
+(i.e., introductory measure-theoretic probability theory)
+In addition, some familiarity with
+Mathematical Statistics
+will be helpful for the chapter on survival models, but is not an absolute prerequisite.
+Tutorials
+On the following Fridays, 14:15-15:45pm, in seminar room 9 (building E2 4, room 3.19):
+30 October
+13 November
+20 November
+4 December
+8 January
+22 January
+5 February
+Problems will be provided under
+→
+Materials
+.
+Exam
+After the end of the semester, there will be an
+oral exam
+. For exam admission, regular active participation in the tutorials is required.
+References
+There is no unique textbook that would cover all the material of this lecture course. Nevertheless, parts of the following textbooks can be useful for different parts of the lecture course:
+Dickson, Hardy & Waters: Acturial mathematics for life-contingent risks. Cambridge University Press
+Gerber: Life insurance mathematics. Springer
+Milbrodt & Helbig: Mathematische Methoden der Personenversicherung. Walter de Gruyter
+O'Quigley: Survival analysis. Proportional and non-proportional hazards regression. Springer
+Shao: Mathematical Statistics. Springer
+→
+Course reference shelf
+, kindly provided by the
+Campus-Bibliothek für Informatik und Mathematik
+A detailed summary of the contents of the lecture course is contained in the following document (in German) by the German Association of Actuaries (DAV):
+Deutsche Aktuarvereinigung: Leitfaden Versicherungsmathematik
+(Kapitel 3-6)
+Deutsche Aktuarvereinigung: Leitfaden Angewandte Stochastik
+(Kapitel 2)
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

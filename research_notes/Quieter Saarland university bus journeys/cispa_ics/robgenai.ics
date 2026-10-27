@@ -1,0 +1,10 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//127.0.1.1//NONSGML kigkonsult.se iCalcreator 2.41.92//
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+UID:38626561-6537-4335-b364-353762346332
+X-WR-CALNAME:Robustness in Generative AI Calendar
+X-WR-CALDESC:Events of the lecture Robustness in Generative AI
+X-WR-TIMEZONE:Europe/Berlin
+END:VCALENDAR

@@ -1,0 +1,186 @@
+Main Page
+Bachelor- and Master Seminar (Winter 2026/27)
+CISPA Staff
+Registration for this course
+is open until
+Monday, 01.11.2027 23:59
+.
+News
+Next On-Site Seminar on 14.10.2026, CISPA D1 Room 0.15
+Written on
+07.10.26
+by Xinyi Xu
+Dear All,
+The next seminar(s) will take place on 14.10.2026, 14:00 - 16:00, CISPA D1 (Kaiserstraße 21 66386 St. Ingbert, Germany) - D1_Room_0.15. Presenters and their advisors are encouraged to present in person. We especially encourage other students and teachers to attend and present in person…
+Read more
+Dear All,
+The next seminar(s) will take place on 14.10.2026, 14:00 - 16:00, CISPA D1 (Kaiserstraße 21 66386 St. Ingbert, Germany) - D1_Room_0.15. Presenters and their advisors are encouraged to present in person. We especially encourage other students and teachers to attend and present in person as well.
+For presenters,
+1. We would book the room half an hour in advance, so you are encouraged to arrive a few minutes early to set up your own poster.
+2. For this session, you need to print the poster on your own. The size of the poster should be 116x86cm or 86x116cm. You can use the poster printing service of Saarland University (https://www.uni-saarland.de/en/page/uds-card/functions/printing.html -> Posterdruck A0).
+3. You need to present your poster in a much smaller group, but you are encouraged to roam around and ask questions about other posters.
+4. We encourage you to bring your laptop to present your demo; there will be small tables in the room where you can put your laptop.
+Presenters: Jonas Schmitt, Muhammad Saqib, Nomaan Shaikh, Sumair Ijaz Hashmi, Mutahar Aamir, Adham Mahgoub, Ved Rahul Shinkre, Aditya Gupta, Oleksii Palagin, Anshul Birwal
+14.10.2026, 14:00 - 16:00, CISPA D1 (Kaiserstraße 21 66386 St. Ingbert, Germany)
+Presenter: Jonas Schmitt
+Type of Poster: Master Intro
+Advisor: Jonas Hielscher
+Title: Exploring the Gap Between Human-Centered Security Research and Organizational Practice
+Research Area: RA6: Empirical and Behavioural Security
+Abstract: Human-Centered security (HCS) shifts the focus from pure computational problems to the users. Information security within companies is therefore also dependent on usability and employee focused organizational security. Many companies use phishing simulations and unified awareness training to educate their employees about the protection of corporate data. In research literature on the other hand we observe a shift towards individual threat evaluation and training. This thesis explores the gap between research and organizational practice from an educational perspective. Previous work has questioned the effectiveness of widely used organizational security practices such as phishing simulations. Interviews with chief information security officers (CISOs) then found that reasons for this gap include the lack of familiarity with the current research literature as well as company specific compliance rules. This work aims to find out whether the next generation of security actors learn the relevant competencies in their higher education to bridge this gap. To do so, we present a qualitative research approach that uses semi-structured interviews with HCS educators around the world to determine teaching focuses, importance in university curricula and challenges that they face. The collected data will be assessed via thematic analysis to extract overarching themes and patterns. With this study we aim to understand the representation of HCS in higher education and how educators perceive its role and recognition. This gives us grounds for predictions on the HCS knowledge the next generation of security actors have prepared for their future employers. We are going to develop guidelines for curricula designs that provide a stronger focus on the human factor.
+14.10.2026, 14:00 - 16:00, CISPA D1 (Kaiserstraße 21 66386 St. Ingbert, Germany)
+Presenter: Muhammad Saqib
+Type of Poster: Master Intro
+Advisor: Mario Fritz, Sarath Sivaprasad
+Title: A Behavioural and Representational Investigation of Graph World Models in Open-Weight Reasoning Models
+Research Area: RA2: Trustworthy Information Processing
+Abstract: This thesis aims to investigate whether open-weight reasoning models develop and utilize limited, task-specific world models for graph-based planning. It compares internal representations formed while models observe random walks with the representations that evolve during self-generated reasoning trails. Using unseen graph instances i.e., a controlled subset of CogEval-inspired tasks, the models will perform route planning and adapt to detours, shortcuts and goal changes. Behavioural evaluation will mainly measure route validity and adaptation while token-level analysis will examine how graph structure develops across layers and the reasoning steps. Probes and targeted causal interventions will distinguish information that is merely decodable from representations that models actively update and utilize for planning. The thesis will provide evidence for or against graph world models in open-weight reasoning models while avoiding broader claims about human-like world understanding.
+14.10.2026, 14:00 - 16:00, CISPA D1 (Kaiserstraße 21 66386 St. Ingbert, Germany)
+Presenter: Nomaan Shaikh
+Type of Poster: Master Intro
+Advisor: Andrea Mengascini
+Title: Improving Usability in Security Dashboards: Designing and Evaluating an Empowered Product Team-Centric Interface for Security KPIs and Findings Management
+Research Area: RA6: Empirical and Behavioural Security
+Abstract: Modern day software development practices integrate security responsibilities that are to be managed by Empowered Product Teams (a.k.a EPTs). As an organization adopts DevSecOps, and cloud-native development models, developers are required to assess, interpret, and remediate security findings whilst their daily engineering tasks. To support this shift, organizations often use dashboards to visualize and provide information about their products active findings during the software life cycle. However, these dashboards are often designed with the assumption and mental model of security experts, creating significant usability challenges for developers. From high cognitive load, inconsistent terminology and metrics, to poor visualization of crucial data. These elements prevent EPTs from understanding vulnerabilities that require immediate attention or how these findings are related to their system. In this thesis we explore and perform usability studies on users to understand the pain points of the current security dashboard, that brings data from multiple different sources, and visualize them into one central dashboard.
+14.10.2026, 14:00 - 16:00, CISPA D1 (Kaiserstraße 21 66386 St. Ingbert, Germany)
+Presenter: Sumair Ijaz Hashmi
+Type of Poster: Master Intro
+Advisor: Katharina Krombholz
+Title: Understanding the Threat Landscape of Low Socioeconomic Pakistanis
+Research Area: RA6: Empirical and Behavioural Security
+Abstract: Online cybersecurity and privacy technology is typically designed with literate and Westernized users in mind. Hence, smartphone users from low socioeconomic backgrounds, especially those who are illiterate, face severe security challenges when navigating the online world. However, little is known about how low socioeconomic status (LSES) smartphone users experience, perceive, and defend against threats under financial, literacy, and social constraints. This thesis aims to explore the threat landscape of LSES smartphone users in Pakistan to understand which threats and harms they face, how they perceive risk, and how they protect themselves and each other.
+14.10.2026, 14:00 - 16:00, CISPA D1 (Kaiserstraße 21 66386 St. Ingbert, Germany)
+Presenter: Mutahar Aamir
+Type of Poster: Master Intro
+Advisor: Rebekka Burkholz
+Title: Post-hoc Pruning with Gradients and Resampling
+Research Area: RA2: Trustworthy Information Processing
+Abstract: We aim to increase the efficiency of Large Language Models by reducing their parameter count via pruning. Static masks are found through small calibration datasets, but model quality collapses at higher sparsities. Dynamic sparse training fixes bad masks, but requires multiple rounds of retraining, which is computationally infeasible for LLMs. We propose a new technique inspired by dynamic sparse training that uses gradient information as well as resampling from the calibration dataset to find the optimal mask. We generalize this technique so that it can be applied on top of existing masks, leading to more robust sparse models
+14.10.2026, 14:00 - 16:00, CISPA D1 (Kaiserstraße 21 66386 St. Ingbert, Germany)
+Presenter: Adham Mahgoub
+Type of Poster: Master Intro
+Advisor: Pouya Narimani, Andreas Zeller, Ali Abbasi
+Title: Software Composition Analysis using Power Side-channels
+Research Area: RA5: Secure Mobile and Autonomous Systems
+Abstract: Identifying software components running on embedded devices is challenging when the devices can only be analyzed as black boxes, without access to their firmware binaries or source code. This lack of access complicates vulnerability assessment because embedded firmware commonly incorporates third-party open-source libraries that may remain outdated long after known vulnerabilities have been patched. Therefore, identifying the libraries used by a device can help assess its exposure to known vulnerabilities. Power side-channels provide a potential information source for such identification. The power consumption of a microcontroller reflects aspects of its internal code execution and can be observed without direct access to the firmware. In this work, we investigate whether power side-channel measurements can be used to fingerprint library functions from commonly used open-source libraries and subsequently identify their execution within an unknown firmware. Our evaluation studies the feasibility and practical requirements of power side-channel-based software composition analysis for black-box embedded systems by examining the extent to which power traces can be segmented into regions associated with different library functionalities, the robustness of identification across devices, and the minimum measurement capabilities required for reliable detection.
+14.10.2026, 14:00 - 16:00, CISPA D1 (Kaiserstraße 21 66386 St. Ingbert, Germany)
+Presenter: Ved Rahul Shinkre
+Type of Poster: Bachelor Intro
+Advisor: Mario Fritz, Philipp Christmann, Tejumade Afonja
+Title: Differentially Private Multimodal Tabular Data Generation
+Research Area: RA2: Trustworthy Information Processing
+Abstract: Generating synthetic tabular data becomes difficult when datasets contain both structured attributes and free-form text. Current generative approaches typically specialise in only one modality: tabular models accurately capture numerical distributions and categorical dependencies, but cannot handle unstructured text. Conversely, large language models produce fluent and realistic text, but struggle to maintain exact numerical correlations, statistical distributions, and mathematical consistency. To address this trade-off, this thesis proposes a three-stage generative pipeline designed to balance both modalities without sacrificing quality. First, unstructured text is compressed into tabular features by extracting domain-specific entities, numerical values, and stylistic properties. Second, tabular generative models learn and synthesise the joint distributions across these extracted attributes, ensuring that mathematical and statistical relationships are properly preserved. Finally, a language model conditioned on the synthetic tabular features re-inflates the attributes back into coherent natural language text. By separating statistical distribution modelling from text generation, this framework aims to generate realistic synthetic data that preserves both strict numerical integrity and high-quality text.
+14.10.2026, 14:00 - 16:00, CISPA D1 (Kaiserstraße 21 66386 St. Ingbert, Germany)
+Presenter: Aditya Gupta
+Type of Poster: Master Intro
+Advisor: Katharina Krombholz, Simon Anell
+Title: OPEN-SOURCE DEVELOPERS’ REPOSITORY TRANSFER STRATEGIES
+Research Area: RA6: Empirical and Behavioural Security
+Abstract: Open-source software plays a crucial role in technological innovation and research. A 2024 Harvard Business School study estimates that without open-source software, firms would spend more than 3.5 times what they currently spend on software. This widespread dependence creates significant security risks. Supply chain attacks targeting open-source projects could affect numerous downstream dependents. Existing research has focused primarily on the technical perspectives of such attacks, and less attention has been given to the human and organisational factors involved in maintaining and transferring the responsibilities of such repositories. This study investigates how open-source developers perceive and manage these security risks. Following a qualitative approach, this study aims to identify the challenges and practices surrounding repository responsibilities, as well as the roles and support required from the repository platforms and the broader open-source community.
+14.10.2026, 14:00 - 16:00, CISPA D1 (Kaiserstraße 21 66386 St. Ingbert, Germany)
+Presenter: Oleksii Palagin
+Type of Poster: Master Intro
+Advisor: Wouter Lueks, Sylvain Chatel
+Title: PIVO: Privacy-Preserving Indexing and Verification of Record Overlaps
+Research Area: RA2: Trustworthy Information Processing
+Abstract: Record linkage identifies records referring to the same person across databases, even when identifying attributes contain errors or missing values. In privacy-sensitive settings such as healthcare, secure multi-party computation enables this process without disclosing raw identifiers. However, its computational and communication costs remain a significant scalability challenge. This thesis presents PIVO, an integrated system for privacy-preserving record linkage that addresses both the number of comparisons and the cost of secure matching. PIVO combines locality-sensitive hashing and private filtering with a purpose-built three-party MPC library. The library uses packed data representations, batched operations, and specialized routines for similarity computation and secure best-match selection. Together, these components reduce unnecessary comparisons and optimize the remaining matching work. Weighted fuzzy and exact comparisons, missing-field handling, and final classification are evaluated inside MPC. The privacy-oriented configuration additionally hides intermediate candidate relationships and individual filtering decisions under a semi-honest, honest-majority model. The contribution is the design, implementation, and evaluation of these techniques within one configurable linkage system.
+14.10.2026, 14:00 - 16:00, CISPA D1 (Kaiserstraße 21 66386 St. Ingbert, Germany)
+Presenter: Anshul Birwal
+Type of Poster: Bachelor Intro
+Advisor: Sajin Sasy
+Title: Scaling Metadata-Protecting Communications using PIR & Intersecting Topologies
+Research Area: RA1: Algorithmic Foundations and Cryptography
+Abstract: Everyday messaging apps like WhatsApp, Signal etc. use end-to-end encryption. E2E protects the message content but leaves the sensitive communication metadata exposed. To protect this metadata, some existing systems like Pung rely on single-server PIR. Senders deposit encrypted messages into a central database, and recipients retrieve them without revealing the accessed index, resulting in computational cost for each read to be $O(n)$ for server. In private-write based systems like Express, users insert their message into a particular recipient's mailbox in database without letting the server know whose mailbox it was. This also results in $O(n)$ computation cost for the server. In this thesis, we propose a new architecture that breaks this bottleneck by mapping the intersecting routing topologies traditionally used in multi-server mix-nets onto a single-server PIR database. We structure the database geometrically using Finite Projective Planes (FPP), where each user is assigned a static subset of $O(\sqrt{n})$ mailbox slots. The algebraic properties of FPP guarantee that any two users’ subsets intersect at exactly one unique mailbox.
+Winter is Coming
+Written on
+06.10.26
+by Xinyi Xu
+Dear all,
+Welcome to the new course for the Bachelor and Master seminar in the winter term.
+Please switch to this course.
+Best wishes,
+BAMA Seminar Team
+Bachelor- and Master-Seminar
+The bachelor/master seminar is a stage for all talks related to bachelor or master theses at CISPA.
+Starting with the Winter Semester (Oct 2026), we will try a new style for the seminar course. The main idea is to have students introduce their theses in a larger
+in-person
+poster
+session.
+We sincerely encourage everyone to drop by, even if you are not a speaker – we may prepare snacks for you.
+Poster Session Format
+A poster session is held at the beginning, middle, and end of each semester and once in the break between semesters.
+Students preparing to do theses will bring and present a poster introducing their thesis at this poster session.
+Advisors attend the poster session to interact at least with students’ posters in their groups. Students are graded by the advisor based on:
+the poster,
+the poster defense, and
+the thesis proposal material.
+Further notes:
+If a student really needs to start their thesis as soon as possible, presenting the prepared poster individually to the advisor can kick off the thesis.
+The physical poster session alternates between Saarbrücken and St. Ingbert CISPA buildings.
+CISPA C0: Stuhlsatzenhaus 5, 66123 Saarbrücken
+CISPA D1: Kaiserstraße 21, 66386 St. Ingbert, Germany
+After the poster session, each student receives a graded certificate (Schein) that is required to register their thesis. Ask your advisor for this certificate and/or have them reach out to
+bamaseminar@cispa.saarland
+for details.
+Important:
+Final talks not a part of the this seminar any more.
+Final talks are now held as a separate colloquium within each research group and should be scheduled by the students and their advisors directly and independently.
+Frequently Asked Questions
+How do I make a poster?
+The
+materials
+section on the CMS page contains example poster templates. Attend a poster session to get a feel for what works and what doesn't. :)
+How do I print my poster?
+The university library (SULB Fotostelle) offers
+printing services for students
+. You can print your poster in portrait or landscape format. On-site we'll have stand-up displays for DIN A0 posters. Smaller poster sizes might also work fine.
+Do I have to pay for printing?
+Unfortunately, poster printing is not something that the seminar / CISPA can provide. Your advisor might be able to reimburse your printing cost for the seminar.
+How do I register for a session and submit my poster?
+To register for a session, you should:
+Fill in your poster information at
+https://forms.gle/KT9eUnq8NbsB8Wxe9
+If you haven't found the corresponding session, then the time of this session has not yet been determined. Please send an email to  bamaseminar@cispa.saarland  or check again later.
+Submit your poster as a PDF in CMS course->Personal Status->Submissions->”
+POSTER: Please submit your poster file
+“ no later than one week before your session.
+We will send you a verification/confirmation email one week before your session
+To list your poster in the announcement, you will have to hand in some information about it, namely:
+Speaker:
+Your name.
+Type of poster:
+Bachelor Intro or Master Intro
+Advisor:
+Please provide the name of your advisor.
+Title:
+Title of your work.
+Research Area:
+the number of your area. (In doubt, check https://cispa.de/en/research or ask your advisor) The areas are the following:
+RA1: Algorithmic Foundations and Cryptography
+RA2: Trustworthy Information Processing
+RA3: Reliable Security Guarantees
+RA4: Threat Detection and Defenses
+RA5: Secure Mobile and Autonomous Systems
+RA6: Empirical and Behavioural Security
+RA7: Others
+Abstract:
+An abstract introducing your work.
+Refer to
+previous announcements
+for examples. Please kindly ensure that each value is in a separate line, not multiple lines, except for the abstract, as it will be automatically parsed.
+What will the timeline for poster submission be?
+Please submit your poster one week before the poster session via CMS. This should give you enough time to handle printing without being in a rush.
+Wait, I have a different question: who can I talk to?
+Please email
+alexi.turcotte@cispa.de
+with any further questions.
+Contact the organizers
+If there are any questions left, please use the email address
+bamaseminar@cispa.saarland
+to contact the organizers.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

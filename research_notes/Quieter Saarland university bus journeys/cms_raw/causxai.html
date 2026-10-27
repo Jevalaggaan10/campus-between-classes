@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Main Page	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="4231d285cf1947148cfee86aa34b2ec9a0b05a05@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Sic/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Sic/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Sic/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Sic/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Sic/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/causxai/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/causxai/../system" class="navbar-brand">Courses</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/causxai/">Main Page</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Information</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/causxai/termine/calendar/index">Timetable</a></li><li><a class="dropdown-item" href="/causxai/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/causxai/students/register">Registration</a></li><li class="nav-item"><a class="nav-link" href="/causxai/landing">Personal Status</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/causxai/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="ac6cf8c555b1a9ddebf0c05d346722a609089bdda57731bab46faf9e5e3d128ace2d6ad5ee9d2051eb3464e11882f6136db2f854c4ffa00512f6639486b3e58e" id="Token181055187" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Username" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Password" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Remember me</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.sic.saarland/causxai/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="47d4250ba60edbec1c63f8533555a8f553fb3396%3AUser.redirect" id="TokenFields1955261344" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked828721380" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/causxai/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registration</a>        </li>
+        <li>
+            <a href="/causxai/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Forgot Password?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Enable dark mode            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Enable light mode            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/causxai/../system" class="site-logo" title="Front Page"><img src="/system/theme/Sic/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					Causal XAI				</h1>
+				<div>
+				<small class="text-muted">
+					Nektarios Kalampalikis, Kunchangtai Liang, María Martínez-García, Isabel Valera				</small>
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	
+<table class="table">
+	<colgroup>
+				<col span="1" style="width: auto;" />
+	</colgroup>
+	<tbody>
+	<tr>						<td class="align-top">
+				<a id="newsElement1"></a>
+				<h4 class="fs-5"><a href="/causxai/news/view/1">Preference Form is now Available</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="20.10.2026 14:22:36">20.10.26</span>												by Nektarios Kalampalikis					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse1">
+					<p>Dear students,&nbsp;</p>
+
+<p>the google form is now open for you to state your preference. You can find the link in the description of the course on CMS. The google form will stop accepting responses on the night of Oct. 27, i.e., after the second background session. If any of you are already sure on which&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse1" href="#newsElement1">Read more</a></p>				</div>
+				<div class="collapse newsCollapse1">
+					<p>Dear students,&nbsp;</p>
+
+<p>the google form is now open for you to state your preference. You can find the link in the description of the course on CMS. The google form will stop accepting responses on the night of Oct. 27, i.e., after the second background session. If any of you are already sure on which topic you would like to work, you can send your response right now. Otherwise, you can do it after the second session :)</p>
+
+<p>&nbsp;</p>
+
+<p>Best,<br />
+Nektarios</p>
+				</div>
+							</td>
+		</tr>		
+		</tbody>
+</table>
+
+</section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<h2>Causal XAI</h2>
+
+<p>This seminar explores the intersection of causality, explainability, and interpretability in modern machine learning. While traditional methods often rely on statistical associations to understand model behavior, causal approaches aim to uncover the underlying cause-and-effect mechanisms that drive predictions and decision-making. The seminar explores the promises and challenges of causality in Explainable AI (XAI) through the following thematic blocks:&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<ul>
+	<li>Block I: Counterfactual explanations and Causal Interventions</li>
+	<li>Block II: Attribution Methods and Causality</li>
+	<li>Block III: Concept Bottlenecks and Causality</li>
+	<li>Block IV: Representation learning and causality</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p>Students will be divided into four teams (one team per seminar block). Each team will work collaboratively throughout the seminar, guided by the instructors, to conduct a literature review on their assigned topic. The final goal of each team is to prepare and deliver a tutorial that introduces the topic, explains its evolution over time, and discusses the current state of the art.</p>
+
+<p><strong>Evaluation will be based on participation, the quality of the presentations, and the depth of the literature analysis.</strong></p>
+
+<p><strong>Key sources include:</strong></p>
+
+<ul>
+	<li style="list-style-type:disc">
+	<p><a href="http://christophm.github.io/interpretable-ml-book/" style="text-decoration:none;">Interpretable Machine Learning: A Guide for Making Black Box Models Explainable (3rd ed.)</a></p>
+	</li>
+	<li style="list-style-type:disc">
+	<p><a href="https://slds-lmu.github.io/iml_methods_limitations/" style="text-decoration:none;">Limitations of Interpretable Machine Learning Methods</a></p>
+	</li>
+</ul>
+
+<hr />
+<h2><strong>Time and place</strong></h2>
+
+<p>&nbsp;</p>
+
+<p><strong>Tuesdays</strong>, 12:15 to 13:45</p>
+
+<p><strong>Room</strong>: 2.06 at E1.1</p>
+
+<p><em>Both Private Meetings and Public presentations will be happening at&nbsp;2.06 at E1.1.</em></p>
+
+<h2><strong>Attendance</strong></h2>
+
+<p>The seminar will be held in person, and <em>attendance is mandatory</em>.&nbsp;</p>
+
+<hr />
+<h2><strong>General structure</strong></h2>
+
+<p>The students will be divided into four teams (one team per seminar block), with three students per team. Each team will work collaboratively throughout the seminar, guided by the instructors, to conduct a literature review on their assigned topic. The final goal is for each group to prepare and deliver a tutorial that introduces the topic, explains how it has evolved over time, and discusses the current state of the art.</p>
+
+<p>The seminar will include three types of sessions:</p>
+
+<ul>
+	<li>
+	<p><strong>Background sessions:</strong> Sessions led by the instructors to provide the necessary foundations and guidance on how to approach and understand research papers.</p>
+	</li>
+	<li>
+	<p><strong>Private group meetings:</strong> Meetings with each team to assess their understanding, discuss their planned presentation, identify missing elements or unclear aspects, and provide feedback on content, structure, and their understanding of the research landscape. <u><em><strong>These meetings are not rehearsals</strong></em></u>: students are expected to understand and explain their material and answer questions.</p>
+	</li>
+	<li>
+	<p><strong>Public presentations:</strong> Sessions in which each team delivers its final tutorial to the rest of the class, followed by questions and discussion.</p>
+	</li>
+</ul>
+
+<hr />
+<h2><strong>Calendar</strong></h2>
+
+<table align="center" border="1" cellpadding="2" cellspacing="2" style="height:412px; width:663px">
+	<thead>
+		<tr>
+			<th scope="col" style="background-color:#cccccc; border-color:#000000; text-align:center"><span style="color:#000000"><strong>Date</strong></span></th>
+			<th scope="col" style="background-color:#cccccc; border-color:#000000; text-align:center; width:250px"><span style="color:#000000"><strong>Session Type</strong></span></th>
+			<th scope="col" style="background-color:#cccccc; border-color:#000000; text-align:center; width:250px"><span style="color:#000000"><strong>Content</strong></span></th>
+		</tr>
+		<tr>
+			<td style="background-color:#ffffcc; border-color:#000000; text-align:center"><span style="color:#000000">October 20</span></td>
+			<td style="background-color:#ffffcc; border-color:#000000; text-align:center"><span style="color:#000000">Background</span></td>
+			<td style="background-color:#ffffcc; border-color:#000000; text-align:center"><span style="color:#000000">Introduction to Causality</span></td>
+		</tr>
+		<tr>
+			<td style="background-color:#ffffcc; border-color:#000000; text-align:center"><span style="color:#000000">October 27</span></td>
+			<td style="background-color:#ffffcc; border-color:#000000; text-align:center"><span style="color:#000000">Background</span></td>
+			<td style="background-color:#ffffcc; border-color:#000000; text-align:center"><span style="color:#000000">Introduction to Explainability</span></td>
+		</tr>
+		<tr>
+			<td style="background-color:#ffffcc; border-color:#000000; text-align:center"><span style="color:#000000">October 28</span></td>
+			<td style="background-color:#ffffcc; border-color:#000000; text-align:center"><span style="color:#000000">Deadline</span></td>
+			<td style="background-color:#ffffcc; border-color:#000000; text-align:center"><span style="color:#000000"><em>Students assigned to blocks</em></span></td>
+		</tr>
+		<tr>
+			<td style="background-color:#ffffcc; border-color:#000000; text-align:center">
+			<p style="margin-left:40px"><span style="color:#000000">&nbsp;October 29</span></p>
+			</td>
+			<td style="background-color:#ffffcc; border-color:#000000; text-align:center"><em><span style="color:#000000">Optional - Background</span></em></td>
+			<td style="background-color:#ffffcc; border-color:#000000; text-align:center"><span style="color:#000000">How to read a paper?</span><br />
+			<span style="color:#000000">in Room 0.01, Building E1.7<br />
+			from 12:15 to 13:45</span></td>
+		</tr>
+		<tr>
+			<td colspan="3" style="border-color:#000000; text-align:center"><span style="color:#ffffff"><em>2 weeks without seminar sessions</em></span></td>
+		</tr>
+		<tr>
+			<td style="background-color:#cad9e3; border-color:#000000; text-align:center"><span style="color:#000000">November 10</span></td>
+			<td style="background-color:#cad9e3; border-color:#000000; text-align:center"><span style="color:#000000">Deadline</span></td>
+			<td style="background-color:#cad9e3; border-color:#000000; text-align:center"><span style="color:#000000"><em><strong>LSF Registration Deadline</strong></em></span></td>
+		</tr>
+		<tr>
+			<td style="background-color:#cad9e3; border-color:#000000; text-align:center"><span style="color:#000000">November 17</span></td>
+			<td style="background-color:#cad9e3; border-color:#000000; text-align:center"><span style="color:#000000">Private meetings (1, 2)</span></td>
+			<td style="background-color:#cad9e3; border-color:#000000; text-align:center"><span style="color:#000000">Building a tutorial I</span></td>
+		</tr>
+		<tr>
+			<td style="background-color:#cad9e3; border-color:#000000; text-align:center"><span style="color:#000000">November 24</span></td>
+			<td style="background-color:#cad9e3; border-color:#000000; text-align:center"><span style="color:#000000">Private meetings (3, 4)</span></td>
+			<td style="background-color:#cad9e3; border-color:#000000; text-align:center"><span style="color:#000000">Building a tutorial I</span></td>
+		</tr>
+		<tr>
+			<td colspan="3" style="border-color:#000000; text-align:center"><span style="color:#ffffff"><em>1 week without seminar sessions</em></span></td>
+		</tr>
+		<tr>
+			<td style="background-color:#cad9e3; border-color:#000000; text-align:center; vertical-align:middle"><span style="color:#000000">December 8</span></td>
+			<td style="background-color:#cad9e3; border-color:#000000; text-align:center; vertical-align:middle"><span style="color:#000000">Public presentations (1, 2)</span></td>
+			<td style="background-color:#cad9e3; border-color:#000000; text-align:center; vertical-align:middle"><span style="color:#000000">Building a tutorial I</span></td>
+		</tr>
+		<tr>
+			<td style="background-color:#cad9e3; border-color:#000000; text-align:center; vertical-align:middle"><span style="color:#000000">December 15</span></td>
+			<td style="background-color:#cad9e3; border-color:#000000; text-align:center; vertical-align:middle"><span style="color:#000000">Public presentations (3, 4)</span></td>
+			<td style="background-color:#cad9e3; border-color:#000000; text-align:center; vertical-align:middle"><span style="color:#000000">Building a tutorial I</span></td>
+		</tr>
+		<tr>
+			<td colspan="3" style="border-color:#000000; text-align:center; vertical-align:middle"><span style="color:#ffffff"><em>3 weeks without seminar sessions</em></span></td>
+		</tr>
+		<tr>
+			<td style="background-color:#dde0dc; border-color:#000000; text-align:center; vertical-align:middle"><span style="color:#000000">January 12</span></td>
+			<td style="background-color:#dde0dc; border-color:#000000; text-align:center; vertical-align:middle"><span style="color:#000000">Private meetings (1, 2)</span></td>
+			<td style="background-color:#dde0dc; border-color:#000000; text-align:center; vertical-align:middle"><span style="color:#000000">Building a tutorial II</span></td>
+		</tr>
+		<tr>
+			<td style="background-color:#dde0dc; border-color:#000000; text-align:center; vertical-align:middle"><span style="color:#000000">January 19</span></td>
+			<td style="background-color:#dde0dc; border-color:#000000; text-align:center; vertical-align:middle"><span style="color:#000000">Private meetings (3, 4)</span></td>
+			<td style="background-color:#dde0dc; border-color:#000000; text-align:center; vertical-align:middle"><span style="color:#000000">Building a tutorial II</span></td>
+		</tr>
+		<tr>
+			<td colspan="3" style="border-color:#000000; text-align:center; vertical-align:middle"><span style="color:#ffffff"><em>1 week without seminar sessions</em></span></td>
+		</tr>
+		<tr>
+			<td style="background-color:#dde0dc; border-color:#000000; text-align:center; vertical-align:middle"><span style="color:#000000">February 2</span></td>
+			<td style="background-color:#dde0dc; border-color:#000000; text-align:center; vertical-align:middle"><span style="color:#000000">Public presentations (1, 2)</span></td>
+			<td style="background-color:#dde0dc; border-color:#000000; text-align:center; vertical-align:middle"><span style="color:#000000">Building a tutorial II</span></td>
+		</tr>
+		<tr>
+			<td style="background-color:#dde0dc; border-color:#000000; text-align:center; vertical-align:middle"><span style="color:#000000">February 9</span></td>
+			<td style="background-color:#dde0dc; border-color:#000000; text-align:center; vertical-align:middle"><span style="color:#000000">Public presentations (3, 4)</span></td>
+			<td style="background-color:#dde0dc; border-color:#000000; text-align:center; vertical-align:middle"><span style="color:#000000">Building a tutorial II</span></td>
+		</tr>
+	</thead>
+</table>
+
+<p>&nbsp;</p>
+
+<p><em>* Each team has 2 weeks between the private group meeting and the presentation, and 4 weeks between their first presentation and the next private meeting.</em></p>
+
+<h4><strong>Selecting topic</strong></h4>
+
+<p>We will share a form with the students to indicate their preferences. <a href="https://forms.gle/81aCBNPva88Fke4DA">Google Form Link</a></p>
+
+<ul>
+	<li>
+	<p><strong>Release form to indicate preferences: </strong>October 20 (first background session) - until October 27</p>
+	</li>
+	<li>
+	<p><strong>Release team assignment: </strong>October 28 (second background session, 3 weeks before the first private group meeting)</p>
+	</li>
+</ul>
+
+<hr />
+<h2><strong>Deliverables and grading scheme</strong></h2>
+
+<p>Each team is expected to prepare presentation slides for the private meetings and public presentations. The private meetings provide an opportunity to assess students&#39; understanding and give feedback to improve the final public presentations. Students should arrive prepared to explain and discuss their material; the meetings are not rehearsals.</p>
+
+<p><strong>Individual responsibility.&nbsp;</strong>Although the presentations are prepared in groups, each member is expected to understand the material they are responsible for and contribute to the discussion. Each group must also provide a brief <strong><em>contribution statement </em></strong>specifying the work carried out by each member, including their contributions to the literature review and presentation preparation.</p>
+
+<p><strong>Grading:</strong> Each of the four meetings will be assessed according to its corresponding grading scheme, covering content quality, understanding, critical analysis, presentation quality, and participation as applicable.</p>
+
+<p>&nbsp;</p>
+
+<table align="center" border="1" cellpadding="2" cellspacing="2" style="width:663px">
+	<thead>
+		<tr>
+			<th scope="col" style="background-color:#cccccc; border-color:#000000; text-align:center"><span style="color:#000000"><strong>Session Type</strong></span></th>
+			<th scope="col" style="background-color:#cccccc; border-color:#000000; text-align:center"><span style="color:#000000"><strong>Deliverables</strong></span></th>
+			<th scope="col" style="background-color:#cccccc; border-color:#000000; text-align:center"><span style="color:#000000"><strong>Points</strong></span></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="background-color:#cad9e3; border-color:#000000; text-align:center; vertical-align:middle"><span style="color:#000000">Private meeting &ndash; Tutorial I</span></td>
+			<td style="background-color:#cad9e3; border-color:#000000; text-align:center; vertical-align:middle"><span style="color:#000000">Slides + list of limitations</span></td>
+			<td style="background-color:#cad9e3; border-color:#000000; text-align:center; vertical-align:middle"><span style="color:#000000">15</span></td>
+		</tr>
+		<tr>
+			<td style="background-color:#cad9e3; border-color:#000000; text-align:center; vertical-align:middle"><span style="color:#000000">Public presentations &ndash; Tutorial I</span></td>
+			<td style="background-color:#cad9e3; border-color:#000000; text-align:center; vertical-align:middle"><span style="color:#000000">Slides + contribution statement</span></td>
+			<td style="background-color:#cad9e3; border-color:#000000; text-align:center; vertical-align:middle"><span style="color:#000000">30</span></td>
+		</tr>
+		<tr>
+			<td style="background-color:#cad9e3; border-color:#000000; text-align:center; vertical-align:middle"><span style="color:#000000">Private meeting &ndash; Tutorial II</span></td>
+			<td style="background-color:#cad9e3; border-color:#000000; text-align:center; vertical-align:middle"><span style="color:#000000">Slides + list of papers (connected to the gaps)</span></td>
+			<td style="background-color:#cad9e3; border-color:#000000; text-align:center; vertical-align:middle"><span style="color:#000000">15</span></td>
+		</tr>
+		<tr>
+			<td style="background-color:#cad9e3; border-color:#000000; text-align:center; vertical-align:middle"><span style="color:#000000">Public presentations &ndash; Tutorial II</span></td>
+			<td style="background-color:#cad9e3; border-color:#000000; text-align:center; vertical-align:middle"><span style="color:#000000">Slides + contribution statement</span></td>
+			<td style="background-color:#cad9e3; border-color:#000000; text-align:center; vertical-align:middle"><span style="color:#000000">40</span></td>
+		</tr>
+		<tr>
+			<td style="background-color:#ffffcc; border-color:#000000; text-align:center; vertical-align:middle"><span style="color:#000000"><strong>Total</strong></span></td>
+			<td style="background-color:#ffffcc; border-color:#000000; text-align:center; vertical-align:middle"><span style="color:#000000">&ndash;</span></td>
+			<td style="background-color:#ffffcc; border-color:#000000; text-align:center; vertical-align:middle"><span style="color:#000000"><strong>100</strong></span></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<h5>To get an excellent grade you need to:</h5>
+
+<div>
+<div>
+<ul>
+	<li><strong>Explain, not just describe:</strong> Show that you understand the intuition behind concepts and methods.</li>
+</ul>
+</div>
+</div>
+
+<div>
+<div>
+<ul>
+	<li><strong>Be critical:</strong> Discuss assumptions, limitations, and unresolved problems rather than simply summarizing papers.</li>
+</ul>
+</div>
+</div>
+
+<div>
+<div>
+<ul>
+	<li><strong>Connect ideas:</strong> Build a clear narrative from the initial approaches to later developments and remaining challenges.</li>
+</ul>
+</div>
+</div>
+
+<div>
+<div>
+<ul>
+	<li><strong>Support your arguments:</strong> Use concrete examples and evidence from the literature.</li>
+</ul>
+</div>
+</div>
+
+<div>
+<div>
+<ul>
+	<li><strong>Demonstrate ownership</strong>: Be prepared to defend your choices, explain your assigned papers, and answer questions.</li>
+</ul>
+
+<hr />
+<h2><strong>Detailed structure</strong></h2>
+
+<h4><strong>Background sessions (2+1 sessions)</strong></h4>
+
+<p>The seminar will start with two background sessions designed to give students the necessary tools to begin their literature review. An additional, <strong>optional session </strong>on how to read academic papers will be offered by our chair on <strong>October 29, from 12:15 to 13:45, in Room 0.01, Building E1.7</strong>. The paper <a href="https://arxiv.org/abs/2002.05709">[A Simple Framework for Contrastive Learning of Visual Representations]</a> will be used as an example. Please note that this room is shared with another seminar, which takes priority. As a result, seating is limited, and availability cannot be guaranteed.</p>
+
+<h4><strong>Building a tutorial I:&nbsp;Foundations, Definitions, and Research Questions (4 sessions)</strong></h4>
+
+<p>The goal of this stage is to establish a strong understanding of the foundations of the assigned topic. Students should introduce the key concepts, explain the foundational approaches in the literature, and identify the limitations and open questions that motivated subsequent research.</p>
+
+<p><strong>Private group meetings (2 sessions)</strong></p>
+
+<ul>
+	<li>
+	<p>One private meeting per team (45 min).</p>
+	</li>
+	<li>
+	<p>Two teams per session.</p>
+	</li>
+	<li>
+	<p><strong>Deliverables and expectations:</strong></p>
+
+	<ul>
+		<li>
+		<p>Briefly walk the instructors through the slides planned for the first public presentation, covering the motivation, key concepts, foundational approaches, and research gaps. <u>This is not a rehearsal!</u>&nbsp;The goal is to review the slides and explain what the team plans to present and why.</p>
+		</li>
+		<li>
+		<p>Explain the material clearly and demonstrate an understanding of the underlying concepts and methods.</p>
+		</li>
+		<li>
+		<p>Be prepared to answer questions and discuss the limitations and assumptions of the approaches presented.</p>
+		</li>
+		<li>
+		<p>Use the feedback received to improve the content and structure of the public presentation.</p>
+		</li>
+	</ul>
+	</li>
+</ul>
+
+<p><strong>Public presentation (2 sessions)</strong></p>
+
+<ul>
+	<li>
+	<p>One presentation per team (30 min for presentation + 15 min for&nbsp;Q&amp;A).</p>
+	</li>
+	<li>
+	<p>Two presentations per session.</p>
+	</li>
+	<li>
+	<p>The presentation should cover<strong>:</strong></p>
+
+	<ul>
+		<li>
+		<p>Motivation and problem framing<strong>:</strong> Why the topic matters, its applications, and the problem it addresses.</p>
+		</li>
+		<li>
+		<p>Key definitions and concepts<strong>:</strong> Correct explanations, supported by intuition and examples.</p>
+		</li>
+		<li>
+		<p>Foundational approaches<strong>:</strong> The main initial methods, their core ideas, and how they differ.</p>
+		</li>
+		<li>
+		<p>Limitations and research gaps<strong>:</strong> The assumptions and limitations of the foundational approaches, and the open questions they leave unresolved.<br />
+		&nbsp;</p>
+		</li>
+	</ul>
+	</li>
+</ul>
+
+<h4><strong>Building a Tutorial II: Evolution of the Topic and Current State of the Art (4 sessions)</strong></h4>
+
+<p>Building on Tutorial I, students should expand their presentation to explain how the field has evolved, how subsequent research has addressed the initial gaps, and what remains unresolved. The presentation should cover major developments, influential works, recent advances, and current research challenges. Teams should also develop their own perspective and draw reasoned conclusions.&nbsp;<em>Tutorial II should not feel like a second, longer version of Tutorial I. While Tutorial I establishes the foundations and identifies research gaps, Tutorial II explains how the field has responded to those gaps and critically assesses its current state.</em></p>
+
+<p>Each team is expected to discuss <strong>at least 9 papers (a minimum of 3 papers per team member)</strong>, with possible exceptions for specific seminar blocks.</p>
+
+<p><strong>Private group meetings (2 sessions)</strong></p>
+
+<ul>
+	<li>
+	<p>One private meeting per team (45 minutes).</p>
+	</li>
+	<li>
+	<p><strong>Deliverables and expectations:</strong></p>
+
+	<ul>
+		<li>
+		<p>Present the planned slides for Tutorial II, including a revised introduction incorporating feedback from Tutorial I.</p>
+		</li>
+		<li>
+		<p>Discuss the selected papers and explain how they relate to the research gaps identified in Tutorial I.</p>
+		</li>
+		<li>
+		<p>Explain the contributions, methods, assumptions, results, and limitations of the selected papers.</p>
+		</li>
+		<li>
+		<p>Identify remaining open questions and develop a critical perspective on the literature.</p>
+		</li>
+		<li>
+		<p>Be prepared to discuss the material in depth and answer questions.</p>
+		</li>
+	</ul>
+	</li>
+</ul>
+
+<p><strong>Public presentation (2 sessions)</strong></p>
+
+<ul>
+	<li>
+	<p>One presentation per team&nbsp;(35 min for presentation + 10 min for&nbsp;Q&amp;A)</p>
+	</li>
+	<li>
+	<p><strong>The presentation should cover</strong></p>
+
+	<ul>
+		<li>
+		<p>Recap<strong>:</strong> A concise review of the essential foundations and research gaps from Tutorial I.</p>
+		</li>
+		<li>
+		<p>Evolution of the field<strong>:</strong> A coherent storyline showing how the literature developed and how papers build on, differ from, or improve upon earlier work.</p>
+		</li>
+		<li>
+		<p>Analysis of individual papers<strong>:</strong> The problem addressed, core method, intuition, assumptions, key results, and limitations of each paper.</p>
+		</li>
+		<li>
+		<p>Remaining challenges<strong>:</strong> Specific open questions that follow from the literature.</p>
+		</li>
+		<li>
+		<p>Own perspective and conclusions<strong>:</strong> A reasoned assessment of what has been achieved, what remains unresolved, and which future directions are promising.</p>
+		</li>
+	</ul>
+	</li>
+</ul>
+
+<hr />
+<h2>Topics</h2>
+
+<h3>Block 1 &ndash; Counterfactuals and Interventions</h3>
+
+<p>Students will explore techniques for counterfactual reasoning and causal interventions, including counterfactual explanations, causal recourse, and feature-effect visualization methods. They will learn why ignoring causality can be misleading and how causal models enable intervention-consistent and actionable recommendations.</p>
+
+<p><strong>Main instructor:</strong> Rickey</p>
+
+<p><strong>Keywords</strong>: counterfactual explanations, causal recourse, causal interventions, Partial Dependence Plots (PDPs), Ceteris Paribus Plots.</p>
+
+<p>Sources - Seminal work:&nbsp;</p>
+
+<ul>
+	<li style="list-style-type:disc">
+	<p><a href="http://christophm.github.io/interpretable-ml-book/" style="text-decoration:none;">Interpretable Machine Learning: A Guide for Making Black Box Models Explainable (3rd ed.)</a></p>
+	</li>
+	<li style="list-style-type:disc">
+	<p><a href="https://slds-lmu.github.io/iml_methods_limitations/" style="text-decoration:none;">Limitations of Interpretable Machine Learning Methods</a></p>
+	</li>
+	<li style="list-style-type:disc">
+	<p><a href="https://arxiv.org/abs/1711.00399">Counterfactual explanations without opening the black box: Automated decisions and the GDPR</a>.</p>
+	</li>
+	<li style="list-style-type:disc">
+	<p><a href="https://arxiv.org/abs/2212.06925">On the relationship between explanation and prediction: A causal view</a>.</p>
+	</li>
+	<li style="list-style-type:disc">
+	<p><a href="https://arxiv.org/abs/2002.06278">Algorithmic recourse: from counterfactual explanations to interventions</a>.&nbsp;</p>
+	</li>
+</ul>
+
+<hr />
+<h3>Block 2 &ndash; Attribution methods and Causality</h3>
+
+<p>This block introduces fundamental post-hoc explainability methods, discusses their limitations, and interprets these limitations in causal terms. It further explores how causal reasoning can improve attribution methods.</p>
+
+<p><strong>Main instructor:</strong>&nbsp;Nektarios</p>
+
+<p><strong>Keywords</strong>: feature importance, variable importance under hidden confounding, SHAP values, causality</p>
+
+<p><em>Supplementary topics</em>: Machine Learning - Additive Models (GAMs), Influential instances, influence functions, prototypes and criticisms, local surrogate models (LIME)&nbsp;</p>
+
+<p>Sources - Seminal work:&nbsp;</p>
+
+<ul>
+	<li style="list-style-type:disc">
+	<p><a href="http://christophm.github.io/interpretable-ml-book/" style="text-decoration:none;">Interpretable Machine Learning: A Guide for Making Black Box Models Explainable (3rd ed.)</a></p>
+	</li>
+	<li style="list-style-type:disc">
+	<p><a href="https://slds-lmu.github.io/iml_methods_limitations/" style="text-decoration:none;">Limitations of Interpretable Machine Learning Methods</a></p>
+	</li>
+	<li style="list-style-type:disc">
+	<p><a href="https://arxiv.org/abs/1705.07874">A unified approach to interpreting model predictions.</a></p>
+	</li>
+	<li style="list-style-type:disc">
+	<p><a href="https://shap.readthedocs.io/en/latest/" style="text-decoration:none;">https://shap.readthedocs.io/en/latest/</a>&nbsp;, or any other of the <em><strong>plethora </strong></em>of sources for SHAP.</p>
+	</li>
+	<li style="list-style-type:disc">
+	<p><a href="https://scikit-learn.org/stable/modules/permutation_importance.html" style="text-decoration:none;">https://scikit-learn.org/stable/modules/permutation_importance.html</a>&nbsp;</p>
+	</li>
+	<li style="list-style-type:disc">
+	<p><a href="https://arxiv.org/abs/1705.07874">Causal shapley values: Exploiting causal knowledge to explain individual predictions of complex models</a>.</p>
+	</li>
+	<li style="list-style-type:disc">
+	<p><a href="https://arxiv.org/abs/2509.00846">Causal SHAP: Feature Attribution with Dependency Awareness through Causal Discovery</a>.</p>
+	</li>
+	<li style="list-style-type:disc">
+	<p><a href="https://arxiv.org/pdf/2607.16236">THE FAILURES OF MARGINAL INFLUENCE-BASED ATTRIBUTION METHODS FOR GLOBAL TIME SERIES EXPLANATIONS</a></p>
+	</li>
+	<li style="list-style-type:disc">
+	<p><a href="https://arxiv.org/abs/2510.12734">Doctor Rashomon and the UNIVERSE of Madness: Variable Importance with Unobserved Confounding and the Rashomon Effect.</a></p>
+	</li>
+</ul>
+
+<hr />
+<h3>Block 3 &ndash; Concept Bottlenecks&nbsp;and Causality</h3>
+
+<p>Introduce concept-based neural networks, such as concept bottleneck models, present their limitations and see how to introduce causality into them to alleviate their problems.</p>
+
+<p><strong>Main instructor:</strong>&nbsp;Nektarios</p>
+
+<p><strong>Keywords</strong>: concept bottleneck models, concept-based explanations, causal CBMs</p>
+
+<p>Sources - Seminal work:&nbsp;</p>
+
+<ul>
+	<li style="list-style-type:disc">
+	<p><a href="https://arxiv.org/abs/2007.04612">Concept bottleneck models</a></p>
+	</li>
+	<li style="list-style-type:disc">
+	<p><a href="https://arxiv.org/abs/2503.04363">Causally reliable concept bottleneck models</a></p>
+	</li>
+	<li style="list-style-type:disc">
+	<p><a href="https://arxiv.org/abs/2506.05014">Towards reasonable concept bottleneck models.</a></p>
+	</li>
+	<li style="list-style-type:disc">
+	<p><a href="https://arxiv.org/abs/2402.01408">Counterfactual concept bottleneck models.</a></p>
+	</li>
+</ul>
+
+<hr />
+<h3>Block 4 &ndash; Representation learning and Causality</h3>
+
+<p>How to move beyond statistical correlations toward representations that capture the underlying (interpretable) causal structure of the data.</p>
+
+<p><strong>Main instructor:</strong> Rickey<br />
+<strong>Keywords</strong>: causal representation learning, spurious correlations, interventions, causal concept-Based Representation Learning</p>
+
+<p>Sources - Seminal work:&nbsp;</p>
+
+<ul>
+	<li><a href="https://arxiv.org/abs/1206.5538">Representation learning: A review and new perspectives.</a></li>
+	<li><a href="https://arxiv.org/abs/2102.11107">Toward causal representation learning</a>.</li>
+	<li style="list-style-type:disc">
+	<p><a href="https://openreview.net/forum?id=Sy2fzU9gl">Beta-VAE: Learning basic visual concepts with a constrained variational framework</a></p>
+	</li>
+	<li style="list-style-type:disc">
+	<p><a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/b76a9959151d377ddd2c77a275a97475-Paper-Conference.pdf">From causal to concept-based representation learning</a>.</p>
+	</li>
+</ul>
+
+<hr /></div>
+</div>
+
+<h2>Requirements</h2>
+
+<p>This seminar is primarily aimed at master&#39;s students in Computer Science, Data Science and Artificial Intelligence (DSAI), or related fields, who have prior knowledge of machine learning. Participants are expected to have completed one or more courses related to machine learning, such as Machine Learning, Elements of Machine Learning, Linear Algebra, Neural Networks, or equivalent courses.&nbsp;</p>
+
+<p>Prior exposure to topics in explainability, causality, or trustworthy AI is beneficial but not strictly required. In particular, the seminars Explainable Machine Learning, Advanced Topics in Causality and Causal Machine Learning Research, Causethical ML and Trustworthy Machine Learning provide valuable background and will help students engage more deeply with the seminar material.&nbsp;</p>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/en/privacy.html" target="_blank">Privacy Policy</a> | <a href="https://www.uni-saarland.de/en/legal-notice.html" target="_blank">Legal Notice</a><br/>
+	If you encounter technical problems, please contact <a href="mailto:cakecms@cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">the administrators</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

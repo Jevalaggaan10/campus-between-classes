@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Statistics with R (4SWS)	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="4231d285cf1947148cfee86aa34b2ec9a0b05a05@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Sic/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Sic/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Sic/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Sic/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Sic/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/statr_2627/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/statr_2627/../system" class="navbar-brand">Courses</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/statr_2627/">Main Page</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Information</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/statr_2627/termine/calendar/index">Timetable</a></li><li><hr class="dropdown-divider" /></li><li><a class="dropdown-item" href="/statr_2627/2/FAQ">FAQ</a></li><li><hr class="dropdown-divider" /></li><li><a class="dropdown-item" href="/statr_2627/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/statr_2627/students/register">Registration</a></li><li class="nav-item"><a class="nav-link" href="/statr_2627/landing">Personal Status</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/statr_2627/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="2d00cb804ca23bc3b57bbce1c0df80e58ec922c459bc5fd55d049d10f1080d01dc8a4badfc47c7b74b0e1389f389cf77e9574c242733905fc04a7be2c94c684e" id="Token107911692" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Username" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Password" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Remember me</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.sic.saarland/statr_2627/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="a32a4b1ec20a6264c546aa858605c74647ab6c09%3AUser.redirect" id="TokenFields1750462125" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked962771687" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/statr_2627/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registration</a>        </li>
+        <li>
+            <a href="/statr_2627/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Forgot Password?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Enable dark mode            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Enable light mode            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/statr_2627/../system" class="site-logo" title="Front Page"><img src="/system/theme/Sic/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					Statistics with R				</h1>
+				<div>
+				<small class="text-muted">
+					Vera Demberg				</small>
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	
+<table class="table">
+	<colgroup>
+				<col span="1" style="width: auto;" />
+	</colgroup>
+	<tbody>
+	<tr>						<td class="align-top">
+				<a id="newsElement4"></a>
+				<h4 class="fs-5"><a href="/statr_2627/news/view/4">Assignment groups</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="23.10.2026 11:52:41">23.10.26</span>												by Laura Pissani					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse4">
+					<p>Some of you already found team partners during the first week&#39;s tutorial. To get everyone started on the first obligatory class sheet next week, we will group everyone who remains before then.</p>
+
+<p>To know who actually wants to be grouped (i.e., everyone who wants to take the course for credit), we ask&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse4" href="#newsElement4">Read more</a></p>				</div>
+				<div class="collapse newsCollapse4">
+					<p>Some of you already found team partners during the first week&#39;s tutorial. To get everyone started on the first obligatory class sheet next week, we will group everyone who remains before then.</p>
+
+<p>To know who actually wants to be grouped (i.e., everyone who wants to take the course for credit), we ask you to create an assignment team for yourself. We will merge existing assignment teams within tutorials so that each team has 3 members.</p>
+
+<p>Important: You must create an assignment team for yourself by <u>Monday evening, the 26th</u>.</p>
+
+<p>On a separate note, <strong>remember to check your tutorial assignments and let me know if you should be reassigned to a no-tutorial group.</strong></p>
+				</div>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement3"></a>
+								<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="22.10.2026 13:47:43">22.10.26</span>												by Laura Pissani					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse3">
+					<p>CMS is working again. If you had a tutorial today and missed it, you can catch up next week with your tutor or reach out to them by email if you have questions about deadlines, datacamp, class sheets, etc. Note that class sheet 0 does not count towards the graded class sheets, and homework sheets only&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse3" href="#newsElement3">Read more</a></p>				</div>
+				<div class="collapse newsCollapse3">
+					<p>CMS is working again. If you had a tutorial today and missed it, you can catch up next week with your tutor or reach out to them by email if you have questions about deadlines, datacamp, class sheets, etc. Note that class sheet 0 does not count towards the graded class sheets, and homework sheets only start next week.</p>
+
+<p>Follow the instructions in my previous message if you need to request a tutorial change or be assigned to the no-tutorial option. I will do my best to accommodate requests until tomorrow.</p>
+
+<p>To ensure we have a way to contact everyone if CMS goes down again, please add your name and email address here:&nbsp;<a href="https://forms.cloud.microsoft/e/Qufpu4BTVZ">StatsR: contact information &ndash; Fill out form</a></p>
+				</div>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement2"></a>
+				<h4 class="fs-5"><a href="/statr_2627/news/view/2">Tutorial assignment complete</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="21.10.2026 10:26:16">21.10.26</span>												by Laura Pissani					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse2">
+					<p>We have assigned the tutorials. If you were assigned to a tutorial slot but have admission from previous years, please use the template below to let me know so I can manually assign you to the &quot;no tutorial&quot; group for students with prior admission. If you were assigned to a tutorial group but do not&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse2" href="#newsElement2">Read more</a></p>				</div>
+				<div class="collapse newsCollapse2">
+					<p>We have assigned the tutorials. If you were assigned to a tutorial slot but have admission from previous years, please use the template below to let me know so I can manually assign you to the &quot;no tutorial&quot; group for students with prior admission. If you were assigned to a tutorial group but do not plan to attend for other reasons, please let me know as well.</p>
+
+<p>To resolve this as efficiently as possible, email <a href="mailto:laura.pissani@uni-saarland.de">laura.pissani@uni-saarland.de</a> using only the following template:</p>
+
+<p>Student name and last name:<br />
+Current tutorial assigned:<br />
+Tutorial you wish to be assigned to:<br />
+Select one reason:</p>
+
+<p>a) I want to be on the same team as X.</p>
+
+<p>b) I have another lecture/seminar during that time slot.</p>
+
+<p>c) I have prior admission and do not need to attend a tutorial.</p>
+
+<p>d) Other (please describe briefly).</p>
+				</div>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement1"></a>
+				<h4 class="fs-5"><a href="/statr_2627/news/view/1">*IMPORTANT* Tutorial options</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="20.10.2026 12:41:59">20.10.26</span>												by Laura Pissani					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse1">
+					<p>Tomorrow at 10:00 AM, we will assign students who registered to the tutorials.</p>
+
+<p>You might have noticed that there is a &ldquo;no tutorial&rdquo; option. This option is strictly intended for students who either have exam admission from previous years or do not plan to take the course for credit. If you want to&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse1" href="#newsElement1">Read more</a></p>				</div>
+				<div class="collapse newsCollapse1">
+					<p>Tomorrow at 10:00 AM, we will assign students who registered to the tutorials.</p>
+
+<p>You might have noticed that there is a &ldquo;no tutorial&rdquo; option. This option is strictly intended for students who either have exam admission from previous years or do not plan to take the course for credit. If you want to confirm whether you have exam admission from previous years, please get in touch.</p>
+
+<p>Everyone who still needs exam admission and wants to take the course for credit <strong>must attend a tutorial</strong> to fulfill the requirements, as class sheets are only counted if they are completed in person. If you selected the &ldquo;no tutorial&rdquo; option and do not have admission from previous years, this means that you cannot take the course for credit. Please modify your choice today if needed.</p>
+				</div>
+							</td>
+		</tr>		
+		</tbody>
+</table>
+
+</section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<h4>Lecture with tutorials</h4>
+
+<p>held by:&nbsp;Prof. Vera Demberg</p>
+
+<p><strong>Location:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>Geb. E2 2 - H&ouml;rsaal 0.01 (G&uuml;nter-Hotz-H&ouml;rsaal)</p>
+
+<p><strong>Lecture:&nbsp; Tuesdays,</strong>&nbsp;starting on 20.10.2026&nbsp; at 08.30 -10.00 a.m.</p>
+
+<p><strong>Tutorials:&nbsp;</strong>&nbsp;&nbsp;&nbsp; &nbsp; Thursdays 8:30-10:00, Thursdays 10:15-11:45, Thursdays 12:15-13:45 OR Fridays 10:15-11:45</p>
+
+<p><strong>Exam:</strong>&nbsp; &nbsp; &nbsp; 22.2.2027, 11 am</p>
+
+<p><strong>Re-sit exam:</strong>&nbsp; &nbsp; &nbsp;15.3.2027, 11 am</p>
+
+<p>suitable for:&nbsp;&nbsp;&nbsp;&nbsp; B.Sc. / M.Sc.</p>
+
+<p>There are 3 kinds of exercises: datacamp courses, class sheets and homework sheets.</p>
+
+<p>DataCamp exercises will be given each week, access will be available for you after signing up (see Materials section for details). Only few of them are obligatory, the rest is an offer to you to get additional practise.</p>
+
+<p><strong>The first obligatory datacamp assignment is due already by the end of the first week! Make sure to register on datacamp and download and install R on your computer as indicated under materials before the first tutorial session.</strong></p>
+
+<p>For the class sheets and the homework sheets you will work together in assignment groups of 3 students. The students have to be in the same tutorial, as class sheets are worked on in the tutorials. You can form assignment groups in the first tutorial session, so make sure to attend the tutorial in the first week (we will assign your tutorial Wednesday morning)</p>
+
+<p>The class sheets have to be solved within the first part of each tutorial session in your assignment group. Only group members that were present will receive credit for it. When solving the class sheet, you will be able to ask questions and get feedback from the tutor. Class sheets can involve programming exercises (please bring a computer to the tutorial!) or pen-and-paper exercises.</p>
+
+<p>The homework sheets will be available on this site each week after the lecture. They are always due on Saturday night. You have to solve them in the same assignment group as the class sheet.</p>
+
+<p>To be admitted to the exam:<br />
+- <strong>DataCamp</strong>: you need to do <strong>all obligatory </strong>DataCamp<strong> </strong>exercises <strong>on time.</strong><br />
+- <strong>class sheets </strong>(PDFs or R files): you can<strong> miss or fail 2 complete sheets</strong> without excuses. If you are ill and have to miss more sheets, please contact us.<br />
+- <strong>homework sheets </strong>(PDFs or R files): you can<strong> miss or fail 1 complete sheet</strong> without excuses. If you are ill and have to miss more sheets, please contact us.<br />
+A whole sheet is counted as completed only if you made a good attempt to solve each question or if you at least formulated why you couldn&#39;t solve it and what you have tried.</p>
+
+<p>We are following two books:</p>
+
+<ul>
+	<li>Learning statistics with R: A tutorial for psychology students and other beginners by Danielle Navarro</li>
+	<li>Statistical Methods for Psychology by David C. Howell</li>
+</ul>
+
+<p>If you are retaking the course and have admission to writing the exam already, you do not need to enrol in a tutorial (choose &quot;no tutorial&quot; option). You also do not need to hand in class or homework sheets or complete datacamp courses. You are welcome to attend tutorials.</p>
+
+<p><strong><em><em>This class is supported by&nbsp;</em><a href="https://www.datacamp.com/" target="_blank"><em>DataCamp</em></a><em>, which allows students to take online classes with automatic code correction for learning R, Python and SQL.<br />
+The courses combine short expert videos and hands-on-the-keyboard exercises.</em></em></strong></p>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/en/privacy.html" target="_blank">Privacy Policy</a> | <a href="https://www.uni-saarland.de/en/legal-notice.html" target="_blank">Legal Notice</a><br/>
+	If you encounter technical problems, please contact <a href="mailto:cakecms@cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">the administrators</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

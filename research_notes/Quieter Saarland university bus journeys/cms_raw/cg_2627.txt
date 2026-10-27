@@ -1,0 +1,172 @@
+Main Page
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Computer Graphics
+Pascal Grittmann, Philipp Slusallek
+News
+Colloquium Assignment
+Written on
+26.10.26
+by Lukas Auer
+Dear Students,
+you are now assigned to Colloquia and your group repos have been created.
+Check your personal status page to check your timeslot. If that slots is impossible to attend for you, please contact Lukas Auer (auer@cg.uni-saarland.de).
+Note: The first Tutorial assignment had a mistake…
+Read more
+Dear Students,
+you are now assigned to Colloquia and your group repos have been created.
+Check your personal status page to check your timeslot. If that slots is impossible to attend for you, please contact Lukas Auer (auer@cg.uni-saarland.de).
+Note: The first Tutorial assignment had a mistake so we reassigned everyone.
+No Minitest on Monday
+Written on
+23.10.26
+by Lukas Auer
+Dear Students,
+there will
+NOT
+be a Minitest on Monday. This year there will in general not be any Minitests.
+Sorry for the confusion and the miscommunication.
+Welcome to CG 🥳
+Written on
+19.10.26
+by Lukas Auer
+TL;DR:
+Deadline 25.10 at 23:59
+: (1) log into GitLab once so you get access to the lightwave framework, and (2) register a team (even if you work alone) in the CMS.
+Dear Students,
+welcome to CG 🥳!
+In order to have a smooth start in the CG course, we would like to give you some information…
+Read more
+TL;DR:
+Deadline 25.10 at 23:59
+: (1) log into GitLab once so you get access to the lightwave framework, and (2) register a team (even if you work alone) in the CMS.
+Dear Students,
+welcome to CG 🥳!
+In order to have a smooth start in the CG course, we would like to give you some information regarding team creation and the GitLab access needed to work on the assignments.
+GitLab access:
+If you have not already done so, log into your uni GitLab account once (https://gitlab.cs.uni-saarland.de/). We cannot give you access to the lightwave framework if you did not log into the account once.
+After your first login, it might take a day until you get access to the upstream https://gitlab.cs.uni-saarland.de/cg1/ws26/upstream and can start working on the submission. So do it now rather than later. This also has to happen before the team registration deadline on Sunday as you cannot get a team repo otherwise.
+Team Creation:
+The deadline to register a team and give preferences for the colloquium slot is Sunday 25.10 at 23:59.
+After this deadline we will create your group repositories for code submission and assign you and your teammate to a colloquium slot according to your preferences.
+Creating a team is necessary even if you plan to submit the assignments by yourself
+. If you do not register a team, we will not create a GitLab repo for you and you will not be able to submit solutions.
+In order to find a teammate, feel free to come to this week's Office Hours or use the forum.
+Computer Graphics
+This course provides a hands-on introduction to the fundamentals of computer graphics, with a focus on rendering. You will learn concepts including ray tracing, texturing, and camera models. In the practical assignments, you will apply this knowledge to build your own ray tracer. The course culminates in a rendering competition, where students model a 3D scene and render it with their own renderer, competing to see who can make best artistic use of the tools they have built.
+The
+first lecture
+is on
+Thursday, 15.10. at 08:30 in E1 3 HS 001.
+Pre-requisites
+Programming experience (assignments use C++)
+Basic math knowledge (What is a vector? What is an integral?)
+We will be using the
+CS department's GitLab
+for the practical assignments. A
+SIC account
+is mandatory for that, so please make sure you can log into yours.
+Format
+The course follows a non-standard format:
+The course is split into
+blocks
+, each lasting
+two weeks
+Each block comprises
+two lectures (Monday and Thursday of the first week),
+a practical assignment (
+passing all tests required
+),
+a theoretical assignment (
+mandatory
+but ungraded),
+a colloquium sheet (
+mandatory
+but ungraded)
+a reading assignment
+During the first week of each block:
+Monday, 10:15: lecture, assignments released
+Thursday, 08:30: lecture, reading assignment released
+Throughout the week: colloquia with your tutor about the previous assignments (
+mandatory
+, must be
+passed
+)
+Throughout the week: office hours
+During the second week of each block:
+Throughout the week: office hours
+Sunday, 23:59: deadline for all submissions
+Precise dates can be found in the
+calendar
+here on CMS (Information/Timetable at the top).
+Assignments and teams
+At the beginning of each block, we release a practical and a theoretical assignment sheet on CMS. The exception is the
+rendering competition
+, which will be the practical assignment for multiple blocks. That is, some blocks only feature a theoretical sheet.
+Students can work on these assignments in teams of two. Teams must be registered on CMS at the beginning of the course and remain fixed throughout. Each team is assigned a tutor who will be responsible for them during the course.
+Solutions to practical assignments are pushed to GitLab, solutions to theory exercises are uploaded to CMS.
+To be admitted to the exam, students must pass all tests for all practical assignments. Additionally, they must demonstrate in the colloquia that they understand the submitted code and have worked on the theoretical exercises.
+Colloquia
+Colloquia take place in the week after each assignment submission. They are mandatory to attend and must be passed to be admitted to the exam.
+In the colloquium, two teams of students (i.e., up to 4 students in total) meet with their tutor for 20 minutes. To pass the colloquium, the student must demonstrate that they fully understand every line of code submitted by their team, and show that they have worked on the theoretical exercises diligently. Both students in a team are expected to understand
+all
+code.
+The first failed colloquium can be repeated once (with the TA or lecturer present). Students who fail the repeat attempt, or fail multiple colloquia, are not admitted to the exam.
+Office hours
+Multiple office hours will be offered during both weeks of a block. Times will be announced on the
+calendar
+.
+Students are encouraged to attend the office hours to clarify questions about the assignments, get help with technical issues or debugging, or to ask general questions about course materials.
+Practical assignments
+During the lecture they will guide you through the fun parts of building your own renderer. They will come with a testsuite, and
+passing all tests
+is a strict requirement for exam admission. The submission is done through the
+CS department's GitLab
+.
+Project and rendering competition
+With the rendering competition, you will show that not only do you know how to write a renderer, but also how to use it to render an appealing, original scene. As part of your competition entry, you will also implement a feature of your choice (e.g., an additional light effect, material model, or performance improvement). This feature should be picked such that it benefits your competition entry in a meaningful way.
+Bonus points
+will be awarded to the top-ranking submissions (based on artistic merit as judged by a jury).
+You can also check out the results of the
+previous iteration
+.
+Defense
+You will present your competition entry and accompanying feature(s) in a 20 min presentation (per team of up to two students) at the end of the course.
+Grading
+The final grade is computed as follows:
+100% final exam (minimum 50% to pass)
+Bonus points
+You can improve your overall grade by submitting an outstanding entry to the rendering competition.
+Additionally, we award a bonus towards the final grade to students who demonstrated exceptional performance throughout the course. This is measured by multiple criteria:
+Improving the performance of your implementation.
+Implementing additional features beyond the mandatory one. We prefer quality over quantity: one excellently implemented, documented, and validated feature is worth more than ten half-hearted implementations.
+Communication
+Outstanding performance in the colloquia
+Great answers to questions on the forum (sharing LLM output is not considered a great answer)
+Validation
+Excellent tests for your feature(s)
+Submitting useful new tests for the assignments
+Exam
+The Exam and Re-Exam will both take place in E2.2 GHH. The dates are:
+Main Exam: 23.02.2027 14:00-16:00
+Re-Exam: 25.03.2027 14:00-16:00
+Materials
+All electronic documents for this lecture are made available exclusively for your studies and must not be forwarded, reproduced, or used in other documents without consent. Individual figures may originate from copyrighted sources even when not explicitly designated as such.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

@@ -1,0 +1,124 @@
+Statistics with R (4SWS)
+Courses
+Main Page
+Information
+Timetable
+FAQ
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Statistics with R
+Vera Demberg
+News
+Assignment groups
+Written on
+23.10.26
+by Laura Pissani
+Some of you already found team partners during the first week's tutorial. To get everyone started on the first obligatory class sheet next week, we will group everyone who remains before then.
+To know who actually wants to be grouped (i.e., everyone who wants to take the course for credit), we ask…
+Read more
+Some of you already found team partners during the first week's tutorial. To get everyone started on the first obligatory class sheet next week, we will group everyone who remains before then.
+To know who actually wants to be grouped (i.e., everyone who wants to take the course for credit), we ask you to create an assignment team for yourself. We will merge existing assignment teams within tutorials so that each team has 3 members.
+Important: You must create an assignment team for yourself by
+Monday evening, the 26th
+.
+On a separate note,
+remember to check your tutorial assignments and let me know if you should be reassigned to a no-tutorial group.
+Written on
+22.10.26
+by Laura Pissani
+CMS is working again. If you had a tutorial today and missed it, you can catch up next week with your tutor or reach out to them by email if you have questions about deadlines, datacamp, class sheets, etc. Note that class sheet 0 does not count towards the graded class sheets, and homework sheets only…
+Read more
+CMS is working again. If you had a tutorial today and missed it, you can catch up next week with your tutor or reach out to them by email if you have questions about deadlines, datacamp, class sheets, etc. Note that class sheet 0 does not count towards the graded class sheets, and homework sheets only start next week.
+Follow the instructions in my previous message if you need to request a tutorial change or be assigned to the no-tutorial option. I will do my best to accommodate requests until tomorrow.
+To ensure we have a way to contact everyone if CMS goes down again, please add your name and email address here:
+StatsR: contact information – Fill out form
+Tutorial assignment complete
+Written on
+21.10.26
+by Laura Pissani
+We have assigned the tutorials. If you were assigned to a tutorial slot but have admission from previous years, please use the template below to let me know so I can manually assign you to the "no tutorial" group for students with prior admission. If you were assigned to a tutorial group but do not…
+Read more
+We have assigned the tutorials. If you were assigned to a tutorial slot but have admission from previous years, please use the template below to let me know so I can manually assign you to the "no tutorial" group for students with prior admission. If you were assigned to a tutorial group but do not plan to attend for other reasons, please let me know as well.
+To resolve this as efficiently as possible, email
+laura.pissani@uni-saarland.de
+using only the following template:
+Student name and last name:
+Current tutorial assigned:
+Tutorial you wish to be assigned to:
+Select one reason:
+a) I want to be on the same team as X.
+b) I have another lecture/seminar during that time slot.
+c) I have prior admission and do not need to attend a tutorial.
+d) Other (please describe briefly).
+*IMPORTANT* Tutorial options
+Written on
+20.10.26
+by Laura Pissani
+Tomorrow at 10:00 AM, we will assign students who registered to the tutorials.
+You might have noticed that there is a “no tutorial” option. This option is strictly intended for students who either have exam admission from previous years or do not plan to take the course for credit. If you want to…
+Read more
+Tomorrow at 10:00 AM, we will assign students who registered to the tutorials.
+You might have noticed that there is a “no tutorial” option. This option is strictly intended for students who either have exam admission from previous years or do not plan to take the course for credit. If you want to confirm whether you have exam admission from previous years, please get in touch.
+Everyone who still needs exam admission and wants to take the course for credit
+must attend a tutorial
+to fulfill the requirements, as class sheets are only counted if they are completed in person. If you selected the “no tutorial” option and do not have admission from previous years, this means that you cannot take the course for credit. Please modify your choice today if needed.
+Lecture with tutorials
+held by: Prof. Vera Demberg
+Location:
+Geb. E2 2 - Hörsaal 0.01 (Günter-Hotz-Hörsaal)
+Lecture:  Tuesdays,
+starting on 20.10.2026  at 08.30 -10.00 a.m.
+Tutorials:
+Thursdays 8:30-10:00, Thursdays 10:15-11:45, Thursdays 12:15-13:45 OR Fridays 10:15-11:45
+Exam:
+22.2.2027, 11 am
+Re-sit exam:
+15.3.2027, 11 am
+suitable for:     B.Sc. / M.Sc.
+There are 3 kinds of exercises: datacamp courses, class sheets and homework sheets.
+DataCamp exercises will be given each week, access will be available for you after signing up (see Materials section for details). Only few of them are obligatory, the rest is an offer to you to get additional practise.
+The first obligatory datacamp assignment is due already by the end of the first week! Make sure to register on datacamp and download and install R on your computer as indicated under materials before the first tutorial session.
+For the class sheets and the homework sheets you will work together in assignment groups of 3 students. The students have to be in the same tutorial, as class sheets are worked on in the tutorials. You can form assignment groups in the first tutorial session, so make sure to attend the tutorial in the first week (we will assign your tutorial Wednesday morning)
+The class sheets have to be solved within the first part of each tutorial session in your assignment group. Only group members that were present will receive credit for it. When solving the class sheet, you will be able to ask questions and get feedback from the tutor. Class sheets can involve programming exercises (please bring a computer to the tutorial!) or pen-and-paper exercises.
+The homework sheets will be available on this site each week after the lecture. They are always due on Saturday night. You have to solve them in the same assignment group as the class sheet.
+To be admitted to the exam:
+-
+DataCamp
+: you need to do
+all obligatory
+DataCamp
+exercises
+on time.
+-
+class sheets
+(PDFs or R files): you can
+miss or fail 2 complete sheets
+without excuses. If you are ill and have to miss more sheets, please contact us.
+-
+homework sheets
+(PDFs or R files): you can
+miss or fail 1 complete sheet
+without excuses. If you are ill and have to miss more sheets, please contact us.
+A whole sheet is counted as completed only if you made a good attempt to solve each question or if you at least formulated why you couldn't solve it and what you have tried.
+We are following two books:
+Learning statistics with R: A tutorial for psychology students and other beginners by Danielle Navarro
+Statistical Methods for Psychology by David C. Howell
+If you are retaking the course and have admission to writing the exam already, you do not need to enrol in a tutorial (choose "no tutorial" option). You also do not need to hand in class or homework sheets or complete datacamp courses. You are welcome to attend tutorials.
+This class is supported by
+DataCamp
+, which allows students to take online classes with automatic code correction for learning R, Python and SQL.
+The courses combine short expert videos and hands-on-the-keyboard exercises.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

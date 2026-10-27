@@ -1,0 +1,10 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//127.0.1.1//NONSGML kigkonsult.se iCalcreator 2.41.92//
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+UID:31333936-3961-4336-b165-326233636336
+X-WR-CALNAME:Reproducibility in Fuzzing Calendar
+X-WR-CALDESC:Events of the lecture Reproducibility in Fuzzing
+X-WR-TIMEZONE:Europe/Berlin
+END:VCALENDAR

@@ -1,0 +1,52 @@
+Hauptseite
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Data and Society
+Ankan Mullick, Till Koebe, Ingmar Weber
+News
+Written on
+23.10.26
+(last change on
+23.10.26
+)						by Ankan Mullick
+Hello everyone - there will be a special seminar "
+Deepfakes: Wenn ein Bild zur Waffe wird – digitale Gewalt gegen Frauen
+" (as mentioned in the class) on November 11, 2026, at 5:30pm, at the Innovation Center on campus. Registration link online. Registration link:
+Please fill out this…
+Read more
+Hello everyone - there will be a special seminar "
+Deepfakes: Wenn ein Bild zur Waffe wird – digitale Gewalt gegen Frauen
+" (as mentioned in the class) on November 11, 2026, at 5:30pm, at the Innovation Center on campus. Registration link online. Registration link:
+Please fill out this form
+.
+Seminar Series
+Written on
+23.10.26
+by Ankan Mullick
+The Data and Society Seminar will take place from 10 am to 12 pm every Friday at E1 7 building, room 3.23.
+Data and Society
+From finding a mate, to booking a holiday, our lives are increasingly mediated by online platforms. Digital traces left by these interactions provide opportunities to study societal phenomena while creating challenges around the responsible use of data. In this seminar, students will learn how computational methods and machine learning can be applied to study society through such data.
+The first part of the seminar will familiarize students with existing work in computational social science, with each week focused on a topic such as “Digital Democracy” or “Gender Gaps” and methods to quantify it. The second part of the seminar will be about projects in which students are asked to quantify a societal phenomenon of their choice using computational methods. Here, students can both propose topics or choose from topics defined by the lecturers.
+The overall course performance will be based on (i) overall course participation, (ii) assigned paper presentations, (iii) literature review and “project pitch” (prior to in-depth work), and (iv) the written project report.
+Apart from learning about interdisciplinary research and applications of machine learning, students will also learn research skills such as how to read and discuss papers, how to plan a project, how to present their work, how to write a scientific paper, and how to work in teams.
+Students can take this course as a seminar.
+Requirements: MSc students only – the project-based element of the seminar will require some Python programming and data analysis experience.  An interest beyond the foundations of CS, and caring about societal problems is a must.
+The Data and Society Seminar will take place from 10 am to 12 pm every Friday at E1 7 building, room 3.23.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

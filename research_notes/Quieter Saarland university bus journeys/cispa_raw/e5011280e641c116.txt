@@ -1,0 +1,139 @@
+Main Page
+Hack-a-Sat
+Ali Abbasi
+News
+Currently, no news are available
+Hack-a-Sat
+Satellite systems combine many challenging security domains, while Capture the Flag competitions are a practical way to explore these domains hands-on by designing, implementing, testing, and solving realistic security challenges. This seminar combines both and focuses on creating high-quality challenges for a satellite- and space-themed Capture the Flag. Students will learn how to design and implement challenges, document intended solutions, deploy challenges reproducibly, test challenges created by others, and evaluate their quality, difficulty, and playability.
+Organization
+In this seminar, you will create a high-quality CTF challenge in one of the following categories:
+Space Cryptography
+Mission Control Center
+On Board Computer Software
+Protocols
+RF
+The seminar is structured around the process of designing, implementing, testing, refining, and solving CTF challenges. This includes:
+learning the important features of a good CTF challenge
+understanding the surrounding infrastructure
+developing a challenge with a clear goal, intended solution, and realistic technical setting
+creating a reproducible deployment environment
+documenting the challenge and its intended solution
+testing challenges developed by other participants
+identifying bugs, unintended solutions, and usability issues
+refining the challenge based on testing feedback
+playing and solving challenges created by others
+Students will work on their own challenge throughout the semester. After the initial development phase, challenges will be exchanged between participants for testing and subsequently improved based on the feedback received.
+Challenge Development
+Each participant or group will design and implement a CTF challenge related to satellite or space systems security. The challenge should be technically meaningful, well documented, and suitable for other students to solve. The challenge should have a clearly defined intended solution and an appropriate level of difficulty.
+The challenge must be reproducibly deployable without undocumented manual steps. For the draft submission, a first complete and working version must be deployable using a simple
+docker compose up
+command.
+The challenge draft must include:
+a complete and working version of the challenge
+the required Docker configuration and challenge files
+a working solve script demonstrating that the challenge is solvable
+a detailed write-up describing the challenge design and intended solution
+The draft submission is the main development milestone. It must already represent a complete, working, and good-quality challenge. The later testing and finalization phases are intended to identify and address remaining issues rather than to complete functionality that should have been present in the draft.
+Challenge Testing
+After the draft submission, each student or group will select one or more challenges developed by other participants for testing.
+During the testing phase, you should approach the selected challenge as a player and perform a substantial technical analysis. The goal is not only to determine whether the intended solution works, but also to evaluate the overall solving experience and identify possible weaknesses in the challenge.
+The testing report should include:
+issues found in the challenge, including bugs or deployment problems
+potential unintended solutions or alternative attack paths
+the solution path you attempted or would follow
+an assessment of the challenge's clarity and playability
+optionally, a solve script
+Successfully solving the selected challenge is not strictly required if the testing demonstrates substantial and useful technical analysis. However, a complete solution is necessary to receive full credit for the challenge-solving component.
+Finalization
+After the testing phase, challenge authors will receive feedback from the participants who tested their challenge. This feedback should be evaluated and used to refine the challenge where appropriate. In particular, bugs, unintended solutions, edge cases, deployment problems, and unclear challenge behavior should be addressed.
+The final submission must include:
+the finalized challenge and challenge files
+a final write-up
+a final solve script
+final deployment instructions
+the final Docker configuration and related files
+Improvements made during the finalization phase do not recover points lost because of an incomplete or low-quality draft submission. Each milestone is graded based on the quality of the work at the corresponding deadline.
+Important Dates
+Meeting #1: 13.11.2026, 16:00-18:00.  Location: CISPA C0 - 0.07 Meeting Room
+Meeting #2: 04.12.2026, 16:00-18:00.  Location: CISPA C0 - 0.07 Meeting Room
+Meeting #3: 13.01.2027, 16:00-18:00.  Location: CISPA C0 - 0.01 Presentation Room
+Meeting #4: 05.02.2027, 16:00-18:00.  Location: CISPA C0 - 0.07 Meeting Room
+Kick off: 30.10.2026, 16:00-18:00.  Location: CISPA C0 - 0.07 Meeting Room
+19.12.2026: Challenge draft submission:
+Complete and working first version of the challenge, deployable using
+docker compose up
+, including a working solve script and detailed write-up.
+20.12.2026 - 31.12.2026: Challenge selection for testing:
+Select one or more challenges developed by other students or groups.
+01.01.2027 - 14.01.2027: Testing phase:
+Test the selected challenge(s) and submit the final testing report by 14.01.2027.
+15.01.2027 - 15.02.2027: Fixing and finalization phase:
+Evaluate testing feedback, fix identified issues and unintended solutions, and refine the challenge.
+15.02.2027: Final challenge submission:
+Submit the final challenge, write-up, solve script, deployment instructions, Docker configuration, and related files.
+Deliverables and Grading
+1. Challenge Draft 50%
+Deadline:
+19.12.2026
+25% Challenge Quality
+Technical quality
+Challenge design and intended solution
+Appropriate difficulty
+Meaningful development and refinement
+10% Solvability
+The intended solution works reliably
+A working solve script is provided
+5% Deployment
+The challenge can be easily and reproducibly deployed
+No undocumented manual deployment steps are required
+10% Write-Up
+The challenge design is clearly documented
+The intended solution is clearly documented
+2. Challenge Testing 30%
+Deadline:
+14.01.2027
+20% Challenge Solving
+Depth of the technical analysis
+Progress toward solving the challenge
+Identification of potential issues or unintended solutions
+10% Testing Report
+Quality and completeness of the report
+Clear description of findings and attempted solution paths
+Successfully solving the challenge is not strictly required if the testing demonstrates substantial and useful technical analysis. However, a complete solution is necessary to receive full credit.
+3. Final Challenge 20%
+Deadline:
+15.02.2027
+15% Refinement
+Issues discovered during testing are properly addressed
+Feedback is evaluated and incorporated where appropriate
+Unintended solutions and edge cases are fixed
+5% Final Deliverables
+Final write-up
+Final solve script
+Final deployment instructions and Docker configuration
+Milestone Requirement
+The challenge draft is the main development milestone and accounts for
+50% of the final grade
+. Although the challenge will be tested and refined after the draft submission, the draft must already be complete, working, deployable, solvable, and of good quality.
+The testing and finalization phases are intended to identify and address issues, improve the solving experience, and refine an already functional challenge. They are not intended to complete work that should have been finished before the draft deadline.
+Improvements made after the draft deadline do not recover points lost because of an incomplete or low-quality draft submission.
+AI Rules
+AI tools may be used to support the challenge development and testing process, but they must not replace substantial human work.
+Challenges should
+not be entirely AI-generated
+. Challenge design should involve substantial human creativity, technical judgment, and guidance.
+Similarly, challenges should
+not be tested entirely using AI
+. Because the challenges are ultimately intended to be solved by humans, they must also be tested by humans in order to evaluate:
+difficulty
+clarity
+unintended solutions
+technical issues
+the overall solving experience
+AI may be used as a supporting tool, but the core challenge design, implementation decisions, analysis, and human testing remain the responsibility of the participants.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

@@ -1,0 +1,36 @@
+Timetable
+Systems Security
+Ali Abbasi, Moritz Schloegel
+Timetable
+Date Overview
+Export as .ics-file
+Export as .ics-file with prefix
+You can import this calendar in your calendar app by copying an export link from the "Date Overview" menu.
+Upcoming Events
+Lecture
+Also online
+30.10.2026 14:00 -  16:00
+Tutorial
+Also online via Zoom, see link in CMS
+02.11.2026 14:00 -  16:00
+Lecture
+Also online
+06.11.2026 14:00 -  16:00
+Tutorial
+Also online via Zoom, see link in CMS
+09.11.2026 14:00 -  16:00
+Lecture
+Also online
+13.11.2026 14:00 -  16:00
+Tutorial
+Also online via Zoom, see link in CMS
+16.11.2026 14:00 -  16:00
+Lecture
+Also online
+20.11.2026 14:00 -  16:00
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

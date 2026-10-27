@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="de" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Hauptseite	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="4231d285cf1947148cfee86aa34b2ec9a0b05a05@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Sic/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Sic/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Sic/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Sic/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Sic/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/enum26/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/enum26/../system" class="navbar-brand">Kurse</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/enum26/">Hauptseite</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Informationen</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/enum26/termine/calendar/index">Termine</a></li><li><a class="dropdown-item" href="/enum26/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/enum26/students/register">Anmeldung</a></li><li class="nav-item"><a class="nav-link" href="/enum26/landing">Persönliche Statusseite</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/enum26/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="db0067bc0c753291b5e3af4dc8de8c83071cfe1a01ffdc116c50b2e2c332ca3fc3556e920862aa37dc833619893e30f0117b50e360f0f38830675fee3a896b58" id="Token361462511" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Benutzername" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Passwort" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Angemeldet bleiben</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.sic.saarland/enum26/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="6602f6b3d50e0631c4c1fd96acdbef71ec2ab22f%3AUser.redirect" id="TokenFields287871711" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked1515123356" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/enum26/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registrierung</a>        </li>
+        <li>
+            <a href="/enum26/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Passwort vergessen?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Dunklen Modus aktivieren            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Hellen Modus aktivieren            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/enum26/../system" class="site-logo" title="Front Page"><img src="/system/theme/Sic/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					Einführung in die Numerik				</h1>
+				<div>
+				<small class="text-muted">
+					Andreas Rupp				</small>
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	<p><i class="text-muted">Aktuell gibt es keine Neuigkeiten</i></p></section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<h2>Allgemeine Informationen</h2>
+
+<p><strong>Dozent: </strong>Andreas Rupp (<a href="mailto:andreas.rupp@lut.fi">andreas.rupp@uni-saarland.de</a>)<br />
+<strong>Assistent:</strong> Ruben Gutendorf (<a href="mailto:ruben.gutendorf@uni-saarland.de">ruben.gutendorf@uni-saarland.de</a>)</p>
+
+<h3>Ort und Zeit</h3>
+
+<p>Die <strong>Vorlesungen</strong> finden dienstags von 08:30 bis 10:00 Uhr und donnerstags von 14:15 bis 15:45 Uhr jeweils im H&ouml;rsaal I (Raum 0.01, Geb&auml;ude E2 5)&nbsp;statt. Die <strong>&Uuml;bungen</strong> sind dienstags von 14:15 bis 15:45 Uhr in Seminarraum 9 (3. 19, Geb&auml;ude E2.4) sowie mittwochs von 14:15 bis 15:45 Uhr und donnerstags von 10:15 bis 11:45 Uhr in Seminarraum 3 (011.0, Geb&auml;ude E2.5).&nbsp;Die&nbsp;<strong>Sprechstunde</strong>&nbsp;von Simon Christoffel ist montags von 14:15 bis 15:15 im Gruppenarbeitsraum (3.17, Geb&auml;ude E2.4).</p>
+
+<p>Die <strong>erste Vorlesung</strong> ist am <strong>20. Oktober</strong>. Das bedeutet, dass in der ersten Vorlesungswoche keine Vorlesungen oder &Uuml;bungen stattfinden. Stattdessen werden in der dritten Vorlesungswoche (KW 44/26) und in der Woche vor Weihnachten (KW 51/26) zus&auml;tzliche Vorlesungen bzw. Fragestunden angeboten. Der <strong>&Uuml;bungsbetrieb</strong> startet am 26. Oktober. Herr Angel bietet am 22. Oktober von 10:15 bis 11:45 im Seminarraum 3 (011.0, Geb&auml;ude E2.5) &nbsp;ein <strong>Programmierpraktikum</strong> an in dem Grundlagen von Python vermittelt werden.</p>
+
+<p>Die <strong>Klausuren</strong> werden voraussichtlich am 16. Februar von 09 bis 13 Uhr und am 19. M&auml;rz ab 09 Uhr stattfinden (Angaben ohne Gew&auml;hr). Bitte melden Sie sich rechtzeitig zu den Klausuren an!</p>
+
+<h3>&Uuml;bungen und Abgabe der Hausaufgaben</h3>
+
+<p>Die Studierenden haben von Dienstag bis zum darauffolgenden Donnerstag vor der Vorlesung Zeit, die &Uuml;bungsaufgaben eigenst&auml;ndig zu bearbeiten. In den &Uuml;bungen besteht die M&ouml;glichkeit, Unterst&uuml;tzung bei den Aufgaben zu erhalten und Fragen zu stellen. Zudem werden die Aufgaben der Vorwoche besprochen. Theoretische Aufgaben k&ouml;nnen handschriftlich bearbeitet (TeX ist auch erlaubt) und vor der Vorlesung in den bereitgestellten Kasten im H&ouml;rsaal eingeworfen werden. Wenn Sie handschriftliche L&ouml;sungen per CMS einreichen, achten Sie bitte darauf, dass sie gut lesbar sind. Wir empfehlen daher, die Dokumente zu scannen statt Fotos zu machen. Programmieraufgaben sind immer per CMS einzureichen.</p>
+
+<p>Bitte teilen Sie uns &uuml;ber das entsprechende CMS Tool in der Woche von 19. bis 23. Oktober Ihre <strong>&Uuml;bungspr&auml;ferenzen</strong> mit!</p>
+
+<h3>Benotung und Klausur</h3>
+
+<p>Um zur Klausur zugelassen zu werden, m&uuml;ssen Sie mindestens 50 % der maximal erreichbaren Punkte in den Hausaufgaben erzielen. Dar&uuml;ber hinaus k&ouml;nnen Sie durch die Hausaufgaben Bonuspunkte f&uuml;r die Klausur erhalten. Diese Bonuspunkte k&ouml;nnen Ihre Note verbessern, jedoch nicht dazu beitragen, die Klausur zu bestehen, falls Sie durchfallen. In diesem Fall verfallen die Bonuspunkte---sie gelten nur f&uuml;r Ihren Erstversuch bei der Klausur und auch nur in diesem Semester.</p>
+
+<p>Erreichen Sie mehr als 80 % der maximalen Punktezahl in den Hausaufgaben, erhalten Sie einen Bonuspunkt f&uuml;r die Klausur. Ab 85 % erhalten Sie 1,5 Bonuspunkte, ab 90 % gibt es 2 Bonuspunkte, ab 95 % 2,5 Bonuspunkte und bei mehr als 100 % der erreichbaren Punkte sogar 4 Bonuspunkte.</p>
+
+<h3>Referenzen</h3>
+
+<p>Der Kurs st&uuml;tzt sich ma&szlig;geblich auf die folgenden B&uuml;cher:</p>
+
+<ul>
+	<li>T. Richter, &nbsp;H. von Wahl, T. Wick: &nbsp;Einf&uuml;hrung in die Numerische Mathematik,&nbsp;<a href="https://doi.org/10.1007/978-3-662-69582-1">10.1007/978-3-662-69582-1</a></li>
+	<li>A. Quarteroni, R. Sacco, F. Saleri: Numerical Mathematics, <a href="https://doi.org/10.1007/b98885">10.1007/b98885</a></li>
+	<li>P. Deuflhard, A. Hohmann: Numerische Mathematik 1, <a href="https://doi.org/10.1515/9783110614329">10.1515/9783110614329</a></li>
+	<li>R. Schaback, H. Wendland: Numerische Mathematik, <a href="https://doi.org/10.1007/b137970">10.1007/b137970</a></li>
+	<li>M. Hanke-Bourgeois: Grundlagen der Numerischen Mathematik und des Wissenschaftlichen Rechnens, <a href="https://doi.org/10.1007/978-3-8348-9309-3">10.1007/978-3-8348-9309-3</a></li>
+	<li>J. Stoer, R. Bulirsch: Numerische Mathematik 2, <a href="https://doi.org/10.1007/b137272">10.1007/b137272</a></li>
+	<li>R.W. Freund, R. Hoppe: Stoer/Bulirsch: Numerische Mathematik 1, <a href="https://doi.org/10.1007/978-3-540-45390-1">10.1007/978-3-540-45390-1</a></li>
+	<li>H.R. Schwarz, N. K&ouml;ckler: Numerische Mathematik, <a href="https://doi.org/10.1007/978-3-8348-8166-3">10.1007/978-3-8348-8166-3</a></li>
+	<li>G. H&auml;mmerlin, K.-H. Hoffmann: Numerische Mathematik, <a href="https://doi.org/10.1007/978-3-642-57894-6">10.1007/978-3-642-57894-6</a></li>
+</ul>
+
+<h3>Kursmaterialien</h3>
+
+<p>Das Unterlagen (und &Uuml;bungsaufgaben) zur Vorlesung finden Sie unter &quot;Informationen -&gt; Material.&quot; Diese Unterlagen enthalten immer mindestens die Inhalte der bisherigen sowie der n&auml;chsten Vorlesung und werden w&ouml;chentlich aktualisiert. Wenn Sie Fehler entdecken, schreiben Sie mir gerne eine E-Mail.</p>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/datenschutzerklaerung.html" target="_blank">Datenschutz</a> | <a href="https://www.uni-saarland.de/impressum.html" target="_blank">Impressum</a><br/>
+	Bitte wenden Sie sich bei technischen Problemen an <a href="mailto:cakecms@cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">die Administratoren</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

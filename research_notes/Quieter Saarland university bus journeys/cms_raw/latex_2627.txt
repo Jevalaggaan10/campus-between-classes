@@ -1,0 +1,62 @@
+Main Page
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Block Course "Introduction to LaTeX"
+Friedrich Guenther
+News
+No Exercise Session on Monday
+Written on
+11.10.26
+by Friedrich Günther
+Dear all,
+unfortunately I have fallen sick over the weekend and can't offer an exercise session tomorrow. Please write an Email to me if you want an exercise session at some point in the future or if you want solutions written by me. I'm fine with both.
+Best,
+Friedrich
+Schedule for next week
+Written on
+29.09.26
+by Friedrich Günther
+Hi all,
+the dates for next week are set. Course language will be english, the presentations will take place in Seminar room 013, Building E1.3, on Campus Saarbrücken. Because I can't be at university any earlier on Wednesday, the times will be as follows:
+Wednesday, October 7th: 13-14.30 and…
+Read more
+Hi all,
+the dates for next week are set. Course language will be english, the presentations will take place in Seminar room 013, Building E1.3, on Campus Saarbrücken. Because I can't be at university any earlier on Wednesday, the times will be as follows:
+Wednesday, October 7th: 13-14.30 and 15-16.30,
+Thurdsay, October 8th: 10-11.30, 13-14.30,
+Friday, Octover 9th: 10-11.30, 13-14.30
+Best,
+Friedrich
+Block Course "Introduction to LaTeX"
+From Wednesday, 6th of October, to Friday, 8th of October, the next iteration of this introductory course to LaTeX will take place. The course will be geared towards students of mathematics, but students from other faculties are welcome, too! Unfortunately, I can't award credit points or a certificate for the seminar. A (n incomprehensive) list of covered topics:
+Basic mechanisms of LaTeX, crude typography, fonts and advice
+Horses for courses: Document classes, presets and how to find existing material
+Links, references, index
+Bibliography using BibLaTeX and biber, sources for bibliographic information
+Typesetting mathematics (general rules of thumb, nice to know environments and hacks from IEEEtrantools, mathtools, etc.)
+Basic 2D sketches using TikZ, an overview over pgfplots, tikzcd
+Setting up modular documents
+Typesetting source code
+LaTeX beamer
+Letters
+The goal for this course is an overview over basic functionality, and a set of solutions for common tasks and problems. Learning LaTeX is like learning a language; you will not learn it properly without speaking it. To cover as much material as possible in the most efficient way, the course model will be slides. I know this is not ideal. For the first time, this iteration will include daily exercises.
+For an easy start, Overleaf can be used. A local installation is preferred for certain applications.
+If you want to join this course, please write an email to me so I can send out a student token or add you to the course manually.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

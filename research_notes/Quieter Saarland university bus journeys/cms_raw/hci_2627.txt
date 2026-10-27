@@ -1,0 +1,232 @@
+Main Page
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Human Computer Interaction
+Prof. Dr. Jürgen Steimle
+Core Lecture, 9 CP
+News
+Tutorial Assignments
+Written on
+26.10.26
+(last change on
+26.10.26
+)						by David Wagmann
+Hello all,
+Tutorial assignments are out now.
+You can now start to form teams of 3 people until the end of the week
+. We advise you to use the forum or the first tutorial to find team members.
+I will auto-merge people who do not find a team in time, so it is in your own interest to find good…
+Read more
+Hello all,
+Tutorial assignments are out now.
+You can now start to form teams of 3 people until the end of the week
+. We advise you to use the forum or the first tutorial to find team members.
+I will auto-merge people who do not find a team in time, so it is in your own interest to find good partners before the deadline!
+Remember that team members must all be from the same tutorial!
+We know that for some students, preferences for tutorials might change within the first few weeks of the semester. Therefore, we support mutual tutorial swaps; i.e., if two students both agree that they want to swap tutorial slots. In that case, please write to hci2026@cs.uni-saarland.de.
+UPDATE:
+Bc I get flooded with mails:
+I am not taking any wishes or reservations whatsoever. YOU have to find a person to swap tutorials with and you write an email to me (with the other person in cc) and tell me that you want to swap. I am not finding another person for you!
+Best,
+David
+Student Teams
+Written on
+23.10.26
+by David Wagmann
+Hi all,
+A note regarding student teams: Since
+all three team members must participate in the same tutorial
+, it doesn't make sense to put your team together just yet, since you don't know which tutorial each member will end up in. The normal plan was to do the tutorial assignment yesterday, but…
+Read more
+Hi all,
+A note regarding student teams: Since
+all three team members must participate in the same tutorial
+, it doesn't make sense to put your team together just yet, since you don't know which tutorial each member will end up in. The normal plan was to do the tutorial assignment yesterday, but because of the CMS outage, I will do the tutorial assignments by Monday.
+Note that I locked the team creation again and that I deleted the existing teams. This is not a bug!
+Best,
+David
+VERY URGENT - Last minute CMS registrations
+Written on
+22.10.26
+(last change on
+22.10.26
+)						by David Wagmann
+Hello all,
+You probably all have heard about the php issues worldwide. Therefore, CMS might not have worked as intended in the past few days. Please, everyone,
+check if you are still registered in CMS
+and otherwise, contact hci2026@cs.uni-saarland.de
+The deadline for this is by the end of…
+Read more
+Hello all,
+You probably all have heard about the php issues worldwide. Therefore, CMS might not have worked as intended in the past few days. Please, everyone,
+check if you are still registered in CMS
+and otherwise, contact hci2026@cs.uni-saarland.de
+The deadline for this is by the end of tomorrow: 23th October 23:59.
+Please tell your fellow students to check this asap.
+Best,
+David
+Readings
+Written on
+19.10.26
+by David Wagmann
+Dear all,
+This week, there won't be a lecture on Tuesday. Instead, please
+read
+the provided sections of
+Norman's Design of Everyday Things
+(Information < Materials < Other Material)
+Best,
+David
+LSF Admittance
+Written on
+16.10.26
+(last change on
+16.10.26
+)						by David Wagmann
+Since I receive a lot of emails:
+If your LSF mentions any of the following, then
+you have a slot for the course
+:
+- Admitted
+- Accepted
+- Zugelassen
+If there is something similar to
+rejected
+you are not in
+, but might get a slot through the waiting list.
+Please share this information…
+Read more
+Since I receive a lot of emails:
+If your LSF mentions any of the following, then
+you have a slot for the course
+:
+- Admitted
+- Accepted
+- Zugelassen
+If there is something similar to
+rejected
+you are not in
+, but might get a slot through the waiting list.
+Please share this information among your fellow students!
+Best,
+David
+CMS registration is open now!
+Written on
+15.10.26
+(last change on
+15.10.26
+)						by David Wagmann
+Everyone who got a slot through the LSF, the waiting list, or does a project transfer
+MUST
+register on CMS to take the course.
+If you transfer your project from last year, you only write the exam and do not make submissions/attend tutorials. But the CMS still asks you for your tutorial preferences…
+Read more
+Everyone who got a slot through the LSF, the waiting list, or does a project transfer
+MUST
+register on CMS to take the course.
+If you transfer your project from last year, you only write the exam and do not make submissions/attend tutorials. But the CMS still asks you for your tutorial preferences during registration. Please just ignore this (i.e., give any preference). We will filter you out.
+Best,
+David
+Show all
+The first class starts on
+Tuesday, 13 October 2026, 10:15-12:00 (
+Building E1 3 – Lecture Hall 2
+).
+Important new admission requirements
+The number of participants has increased significantly in recent years. Due to the extensive practical project that is part of the course, we are unfortunately unable to increase this number any further. We therefore have to limit the number of participants to 250. All students who wish to enroll in this course must
+register on LSF no later than October 13, 2026 at 23:59 CEST
+.
+For students of the BSc program in Media Informatics: Since this is a compulsory course, you are guaranteed a place if you register on LSF before the deadline. If you have not registered by the deadline, we cannot admit you. For students in all other programs: If more students register for the course than there are places available, the remaining places will be allocated at
+random among all students who have
+registered on LSF
+. The results of the allocation will be available on LSF by October 16.
+If you have been allocated a place on the course, you must submit your preferences for the tutorials
+on CMS
+by October 20 at 23:59 CEST.
+The registration will open in the first week of the course.
+Important:
+Please do
+NOT
+register on CMS if you have not been assigned a place through the LSF. Without LSF admittance, you are not allowed to take the course.
+If you got the LSF admittance but do not sign up in CMS in time, you are
+NOT
+allowed to take the course either!
+Registration Deadline for Tutorials and Exercise Groups: 20 October 2026, 23:59.
+Note:
+We will upload videos from the last online iteration of this lecture. These will serve as additional learning material.
+Nevertheless,
+only the content of the on-site lecture is relevant for the exam.
+The online videos may differ from this.
+For urgent questions, please contact
+David Wagmann
+.
+Description
+This course teaches the theoretical and practical foundations for human computer interaction. It covers a wide overview of topics, techniques and approaches used for the design and evaluation of modern user interfaces.
+The course covers the principles that underlie successful user interfaces, provides an overview of input and output devices and user interface types, and familiarizes students with the methods for designing and evaluating user interfaces. Students learn to critically assess user interfaces, to design user interfaces themselves, and to evaluate them in empirical studies.
+Topics:
+Fundamentals of human-computer interaction
+User interface paradigms, input and output devices
+Desktop & graphical user interfaces
+Mobile user interfaces
+Natural user interfaces
+User-centered interaction design
+Design principles and guidelines
+Prototyping
+Evaluation of user interfaces
+Eligibility
+This lecture replaces the UID lecture.
+Therefore students who successfully completed UID will not be allowed to take the lecture.
+Transfer of credit from previous semesters:
+“I have successfully completed the exercises and projects of
+HCI last year
+, but have not passed the final exam. Can I just write the exam?”
+Yes you can transfer your exercises and projects from HCI in winter term 2025/26 to HCI in winter term 2026/27, so you do not have to hand in exercises and project assignments a second time.  Please contact
+David Wagmann
+before
+October 16 2026, 23:59.
+You cannot transfer partial grades from previous HCI or UID lectures.
+Details on the grading scheme will be announced in the first lecture.
+Literature
+The lecture will be based on the book:
+Interaction Design: Beyond Human-Computer Interaction (Rogers et al, 3rd ed.)
+Additional literature:
+Shneiderman, B., Plaisant, C.: Designing the User Interface, Pearson, 5
+th
+ed.
+Butz, A., Krüger, A.: Mensch-Maschine-Interaktion, De Gruyter
+Preim, B., Dachselt, R.: Interaktive Systeme, Springer, 2
+nd
+edition (two volumes)
+Dix, A.: Human-Computer Interaction, Pearson, 3
+rd
+edition
+All books are available in the library (paper copy, some of them also electronic, see here
+http://www.infomath-bib.de/tmp/vorlesungen/info-core_human-computer-interaction.html
+).
+Materials
+Slides, assignments, and videos will be made available online in CMS.
+Exams
+Main exam: 10 February 2027, 14:00 (sharp!)
+Re-exam: 11 March  2027, 10:00 (sharp!)
+Lecturer
+Prof. Dr. Jürgen Steimle
+Tutorials and Organization
+David Wagmann
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

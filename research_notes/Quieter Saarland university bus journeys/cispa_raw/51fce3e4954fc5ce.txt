@@ -1,0 +1,56 @@
+ExoKit - Human Computer Interaction Lab, Saarland University
+People
+Research
+Teaching
+Theses
+Publications
+Jobs
+Contact
+ExoKit
+Project Details
+Project Name :
+ExoKit
+Project Category :
+02Body Interaction, Featured Project, marie, Steimle
+Client Review :
+(CHI 2024)
+Description :
+ExoKit:
+A Toolkit for Rapid Prototyping of Interactions for Arm-based Exoskeletons
+Exoskeletons open up a unique interaction space that seamlessly integrates users’ body movements with robotic actuation. Despite its potential, human-exoskeleton interaction remains an underexplored area in HCI, largely due to the lack of accessible prototyping tools that enable designers to easily develop exoskeleton designs and customized interactive behaviors. We present ExoKit, a do-it-yourself toolkit for rapid prototyping of low-fidelity, functional exoskeletons targeted at novice roboticists. ExoKit includes modular hardware components for sensing and actuating shoulder and elbow joints, which are easy to fabricate and (re)configure for customized functionality and wearability. To simplify the programming of interactive behaviors, we propose functional abstractions that encapsulate high-level human-exoskeleton interactions. These can be readily accessed either through ExoKit’s command-line or graphical user interface, a Processing library, or microcontroller firmware, each targeted at different experience levels. Findings from implemented application cases and two usage studies demonstrate the versatility and accessibility of ExoKit for early-stage interaction design.
+ExoKit is targeted at researchers, hobbyists, and makers with basic electronics and programming skills (e.g., gained through Arduino-based projects). Expertise with robotics, including their design and control, is not necessarily required.
+ExoKit specifically supports users in the early stages of prototyping to creatively explore diverse ideas.
+Once a promising interaction concept is identified, users can transition to higher-fidelity hardware and software solutions.
+Modular Hardware
+ExoKit’s hardware components realize a low-fidelity exoskeleton prototype that can actuate one or two arms, with up to two active degrees-of-freedom (DoF) at the shoulder and one active DoF at the elbow. To tailor the prototype to the needs of diverse applications, the toolkit offers modular hardware components, which allow for hands-on reconfigurability of the exoskeleton’s functionality, enable adjusting the size to accommodate various body sizes, and deploy important safety mechanisms.
+Software Support
+ExoKit’s programming interfaces provide functional abstractions which free the novice roboticist from detailed low-level motion control.Exoit’s pre-implemented functions can be used off-the-shelf for rapid experimentation and ideation. Amongst others, these comprise functions that interactively amplify or resist user motion, modulate the style of a motion, transfer motion from one exoskeleton to another, or guide the user’s motion through real-time haptic feedback.
+Open-source
+All components of the toolkit, including the 3d models, code and user manual are available for download on
+Github
+.
+It can only be used for scientific and/or non-commercial purposes.
+For contact, please reach
+muehlhaus(at)cs.uni-saarland.de
+.
+Video
+Coverage
+Publication
+Marie Muehlhaus, Alexander Liggesmeyer, Jürgen Steimle
+ExoKit: A Toolkit for Rapid Prototyping of Interactions for Arm-based Exoskeletons
+Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems, ACM, Yokohama, Japan, Forthcoming.
+[Pdf]
+[Publisher]
+PaperVideo
+Saarland University
+Human Computer Interaction Lab
+Department of Computer Science
+Campus E 1.7
+66123 Saarbrücken
+Germany
+IMPRINT
+DATA PROTECTION
+/saarhcilab
+/@EmbodiedInteraction
+Vega Wordpress Theme by
+LyraThemes

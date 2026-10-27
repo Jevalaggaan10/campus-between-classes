@@ -1,0 +1,169 @@
+Main Page
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+BioStatsLab
+Prof. Dr. Sven Rahmann
+(4V+2Ü; Basic lecture, a replacement for MInf3 in B.Sc. Bioinformatics)
+Registration for this course
+is open until
+Saturday, 31.10.2026 23:59
+.
+News
+Times/Rooms for the tutorials
+Written on
+23.10.26
+(last change on
+24.10.26
+)						by Inês Ferreira
+Since CMS was down, we couldn’t post the tutorial rooms earlier, so here they are:
+Wednesdays, 14:15: room 001
+Thursdays, 12:15: room 007
+The tutorials are a great opportunity to work through the exercise sheets and ask any questions you have, so I’d really encourage you to come.
+BioStatsLab Exam Dates
+Written on
+14.10.26
+by Sven Rahmann
+Please note the following dates for the exams:
+Main exam: 12.02.2027 in E1.3, HS 001, 09:00-12:00
+Re-take exam: 16.03.2027 in E1.3, HS 001, 14:00 - 17:00
+Exams are closed book, an official "cheat sheet" (that will be available well before exam dates) is handed out with the problems. No other…
+Read more
+Please note the following dates for the exams:
+Main exam: 12.02.2027 in E1.3, HS 001, 09:00-12:00
+Re-take exam: 16.03.2027 in E1.3, HS 001, 14:00 - 17:00
+Exams are closed book, an official "cheat sheet" (that will be available well before exam dates) is handed out with the problems. No other "helpers" are allowed. Cheat attempts result in immediate failure and, in case of a repeated attempt, can lead to exmatriculation and loss of the ability to study. Note that problem sets may be individualized in exams.
+Again, there is an optional mock exam during the official lecture time, last lecture slot before the Christmas holidays, 18.12., from 12:15 to 13:45.
+Bash/Conda/Python basics, conda environment, slides from today, exam preparation
+Written on
+14.10.26
+by Sven Rahmann
+Information
+1. We have put slides for a brief bash/conda/python tutorial online that explains how to install and use the conda package manager to create isolated environments (collections of packages) for running Python for the BioStatsLab course. There is also a file "environment.yml", which…
+Read more
+Information
+1. We have put slides for a brief bash/conda/python tutorial online that explains how to install and use the conda package manager to create isolated environments (collections of packages) for running Python for the BioStatsLab course. There is also a file "environment.yml", which specifies the packages you want to install. "conda env create" shoud do the job when the file is present.
+2. Lecture slides from today (administrative business; Lecture 01-01) are online, and also the first exercise sheet (officially released tomorrow, but why not have an extra day).
+Exam Preparation
+As said in the lecture, the course is fast-paced, so please stay on top, do spend (much!) time on the exercises, and prioritize this one over advanced courses that might be better taken in later semesters. To help you, we will run a mock exam on the Friday before the Christmas holidays during the normal lecture time. You may or may not take it, pass or fail, there will be a grade on it, but it will not be recorded, it is just for your own information on how you are doing with the material.
+As also said today, there are no prerequisites for the exam, but I can almost guarantee that if you do not work continuously on the material and exercises, the probability to fail the exam is 90%. This are empirical values from past semesters. Phrased positively: If you keep up with the material and exercises every week (and know how to solve them by yourself without LLM help), your chances of passing are very high.
+Time Conflict with Single Cell Bioinformatics
+Written on
+14.10.26
+by Sven Rahmann
+We are aware that there is a time conflict with Single Cell Bioinformatics. However, the times of BioStatsLab are not flexible; they are synchronized with MInf 3, and these are fixed times for the last 10+ years and they will stay fixed until the Bachelor structure of all CS programs changes (maybe in…
+Read more
+We are aware that there is a time conflict with Single Cell Bioinformatics. However, the times of BioStatsLab are not flexible; they are synchronized with MInf 3, and these are fixed times for the last 10+ years and they will stay fixed until the Bachelor structure of all CS programs changes (maybe in the far future). So please be aware of two things.
+1. The proper 3rd math course to take in the BSc Bioinformatics program is BioStatsLab, not Mathematics for Informatics 3! It should be taken in parallel to Bioinformatics 1 in the 3rd semester. In the 3rd semester, Single Cell Bioinformatics should not be taken. Leave it to later.
+2. For Master students who take BioStatsLab, it makes absolutely sense to focus on BioStatsLab first and take advanced courses like Single Cell Bioinformatics in a later year, once you have the statistical foundations.
+So in reality, these two lectures are not in conflict. If you want to argue for different scheduling though, for whatever reason, ask Single Cell Bioinformatics to be at a different time. Thank you for your understanding.
+BioStatsLab (a BSc Bioinformatics Replacement for MInf3)
+Basic mandatory course, B.Sc. Bioinformatics, Saarland University.
+This course is not available for credit points to students of other programs! You are welcome to audit, but will not get ECTS.
+Prerequisites
+Mathematics (MInf1+Minf2, especially some  analysis and linear algebra); solid programming skills
+Credits
+9 ECTS credits
+Required time
+4V+2Ü (4 hours of lectures, 2 hours of tutorials per week)
+Language
+English
+(although this is a basic course, it also serves as an additional prerequisite for international Master students,
+and is hence given in English!)
+Registration
+click on Registration in the menu header
+Materials
+Materials will be available after registration under Information > Materials
+Times
+Lecture:
+Wednesday 08:30 - 10:00 and Friday 12:15 - 13:45.
+Tutorials:
+see News
+Office Hours:
+by email appointment
+Mode
+lecture in presence in E2.1, room 001
+Link
+https://cms.sic.saarland/biostatslab26
+Instructor
+Prof. Dr. Sven Rahmann
+Tutorials
+M. Sc. Inês Alves Ferreira, M. Sc. Johanna Elena Schmitz
+Exam
+Written exam (up to 3h) at the end of the semester.
+Requirements to participate in the exam:
+registration in CMS; otherwise none,
+but failure is highly likely if you do not participate actively (so come to the lectures, tutorials, work on the problems!)
+Target audience
+This course is offered as a
+basic lecture
+in the B.Sc.
+Bioinformatics
+program as a replacement for Mathematics for Informaticians 3 (MInf3).
+Thus it should be taken in the 3rd semester, after completing MInf1 and MInf2, as well as Programming 1 & 2.
+It should be taken in parallel to Bioinformatics 1 during the B.Sc. Bioinformatics program.
+You will need some programming skills to qualify for the exam. Best would be Python, but you can use a language of your choice.
+Please do not waste your time by attempting this course without a solid basis in programming.
+Topics
+The following topics will be covered in the course; additional topics may be included, depending on time and current events.
+Probability
+randomness
+uniform distributions on finite sets (Laplace spaces)
+elementary and advanced combinatorics
+finite, discrete and continuous probability spaces
+random variables
+discrete probability distributions and how they are derived
+probability distributions and OOP, scipy.stats
+conditional probabilities
+Bayes’ Theorem, simple version
+moments of random variables (expectation, variance, …)
+continuous probability distributions
+a glimpse at measure theory
+posterior distributions
+Statistics
+descriptive statistics
+parametric models
+statistical testing (frequentist view)
+statistical testing (Bayesian view)
+parameter estimation: moments, maximum likelihood
+parameter estimation in mixture models: EM algorithm
+regularization and Bayesian view on estimation
+linear regression
+robust regression
+multiple regression
+logistic regression
+Stochastic Processes
+stochastic processes
+models for random sequences
+Markov chains
+Markov processes: models of sequence evolution
+Hidden Markov Models and applications
+Probabilistic Arthimetic Automata (PAAs) and applications
+the Poisson process
+distribution of DNA motif occurrences: compound Poisson
+significance of pairwise sequence alignment
+Applications in Bioinformatics
+tests for differential gene expression
+Bayesian view on differential gene expression
+high-dimensionality low-sample problem
+multiple testing
+Multi-dimensional analysis (compact, 1 week)
+partial / total differentiability
+high-dimensional optimization
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

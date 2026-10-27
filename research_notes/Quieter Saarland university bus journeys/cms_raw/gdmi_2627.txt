@@ -1,0 +1,169 @@
+Hauptseite
+Kurse
+Hauptseite
+Informationen
+Termine
+Regularien und Ablauf 2026
+Team
+Anmeldung
+Persönliche Statusseite
+Login
+Angemeldet bleiben
+Login
+Registrierung
+Passwort vergessen?
+Dunklen Modus aktivieren
+Hellen Modus aktivieren
+Grundlagen der Medieninformatik
+Prof. Dr. Antonio Krüger
+News
+Zuweisung Tutorien
+Geschrieben am
+23.10.26
+von Felix Kosmalla
+Liebe Studierende,
+die Zuweisung zu den Tutorien ist soeben erfolgt. Bitte überprüft, welchem Tutorium ihr zugeteilt wurdet, und meldet euch gerne bei uns, falls es dabei zu Problemen kommen sollte.
+Viele Grüße
+das GdMI-Team
+Besucherausweise am DFKI
+Geschrieben am
+09.10.26
+von André Zenner
+Liebe Studierende,
+unsere Lehrveranstaltung findet im kommenden Wintersemester auch im
+DFKI-Gebäude (Raum Reuse)
+statt. Da für externe Besucherinnen und Besucher besondere Zutrittsregelungen gelten, bitten wir euch, die folgenden Vorgaben unbedingt zu beachten. Die Einhaltung dieser Regeln ist…
+Weiterlesen
+Liebe Studierende,
+unsere Lehrveranstaltung findet im kommenden Wintersemester auch im
+DFKI-Gebäude (Raum Reuse)
+statt. Da für externe Besucherinnen und Besucher besondere Zutrittsregelungen gelten, bitten wir euch, die folgenden Vorgaben unbedingt zu beachten. Die Einhaltung dieser Regeln ist Voraussetzung für einen reibungslosen Ablauf der Veranstaltung und wird vom Empfang des DFKI kontrolliert.
+Wichtiger Ablauf für den Zutritt zum DFKI
+Vor der ersten Sitzung:
+Für alle Teilnehmenden wird ein Besucher-Ausweis vorbereitet.
+DFKI-HiWis benötigen keinen Besucher-Ausweis.
+Falls ihr als DFKI-HiWi beschäftigt seid, müsst ihr uns dies
+bis spätestens zum Ende der CMS-Anmeldefrist am 18.10.2026 um 23:59 Uhr
+per E-Mail (an
+felix.kosmalla@dfki.de
+und
+andre.zenner@dfki.de
+) mitteilen.
+Bei der ersten Sitzung:
+Plant bitte
+10 bis 15 Minuten zusätzliche Zeit
+vor Veranstaltungsbeginn ein.
+Am Empfang werden die vorbereiteten Besucherausweise sowie die Besucherrichtlinien ausgegeben.
+Die Besucherrichtlinien sind zu beachten und mit dem Erhalt des Ausweises anzuerkennen.
+Bei allen weiteren Terminen:
+Der Besucherausweis muss während des Aufenthalts im Gebäude sichtbar getragen werden.
+Der Ausweis ist beim Betreten und Verlassen des Gebäudes am Empfang vorzuzeigen.
+Nach der letzten Sitzung:
+Die Besucherausweise müssen am Empfang wieder zurückgegeben werden.
+Wichtig
+Bitte haltet euch konsequent an diese Vorgaben. Die Regelungen werden vom DFKI aus Sicherheits- und Organisationsgründen vorgegeben. Eine Missachtung kann zu Verzögerungen beim Einlass oder weiteren organisatorischen Problemen führen.
+Vielen Dank für eure Unterstützung und euer Verständnis.
+Viele Grüße,
+das GdMi Team
+Raumänderungen
+Geschrieben am
+08.10.26
+von André Zenner
+Liebe Studierende,
+es gibt einige
+Raumänderungen
+die die Vorlesung "Grundlagen der Medieninformatik" betreffen:
+Die
+erste Vorlesung
+wird, wie in einer separaten News bereits angekündigt,
+online
+stattfinden (der Teams-Link ist dem CMS zu entnehmen).
+Die
+meisten Vorlesungen
+werden im
+Raum…
+Weiterlesen
+Liebe Studierende,
+es gibt einige
+Raumänderungen
+die die Vorlesung "Grundlagen der Medieninformatik" betreffen:
+Die
+erste Vorlesung
+wird, wie in einer separaten News bereits angekündigt,
+online
+stattfinden (der Teams-Link ist dem CMS zu entnehmen).
+Die
+meisten Vorlesungen
+werden im
+Raum "Reuse" im DFKI Gebäude (D3 2; gegenüber des Empfangs)
+stattfinden.
+Einige
+wenige Vorlesungen
+werden im
+Hörsaal 002 in E1 3
+stattfinden.
+Für jeden Vorlesungstermin kann der Raum in unserem
+Vorlesungskalender
+eingesehen werden.
+Viele Grüße,
+- das GdMi Team
+Erste Vorlesung findet online statt
+Geschrieben am
+07.10.26
+von André Zenner
+Liebe Studierende,
+die erste Vorlesung von Grundlagen der Medieninformatik wird am
+Mittwoch 14.10.2026
+um
+12:00 Uhr c.t.
+online via Teams
+stattfinden.
+Link zur ersten Vorlesung:
+Grundlagen der Medieninformatik - Erste Vorlesung | Besprechung beitreten | Microsoft Teams
+Viele Grüße,
+das…
+Weiterlesen
+Liebe Studierende,
+die erste Vorlesung von Grundlagen der Medieninformatik wird am
+Mittwoch 14.10.2026
+um
+12:00 Uhr c.t.
+online via Teams
+stattfinden.
+Link zur ersten Vorlesung:
+Grundlagen der Medieninformatik - Erste Vorlesung | Besprechung beitreten | Microsoft Teams
+Viele Grüße,
+das GdMi Team
+Grundlagen der Medieninformatik
+Die
+erste Vorlesung
+findet am Mittwoch
+14.10.2026
+um
+12:00 Uhr (c.t.)
+online via Teams
+statt.
+Link zur ersten Vorlesung:
+Grundlagen der Medieninformatik - Erste Vorlesung | Besprechung beitreten | Microsoft Teams
+Sie müssen sich für die Vorlesung im CMS registrieren.
+Deadline ist Sonntag, der 18.10.2026 um 23:59 Uhr
+.
+Mehr zur Organisation finden Sie unter
+Regularien und Ablauf
+.
+Die Vorlesung gibt eine einführende Übersicht über die wichtigsten technischen und konzeptionellen Grundlagen zur Realisierung digitaler Medien. Es werden keinerlei Programmierkenntnisse und nur elementare Informatikkenntnisse vorausgesetzt. Dagegen wird ein relativ breites Themenspektrum verschiedenster Disziplinen (Mathematik, Psychologie, Physik, Nachrichtentechnik, Design) angesprochen.
+Die Vorlesung behandelt folgende Themengebiete:
+Grundlagen von Bildrepräsentation und -verarbeitung
+Grundlagen der Audioreprepräsentation und -verarbeitung
+Grundlagen der Wahrnehmung
+Text und Typographie
+Grundlagen der Computergraphik, 2D/3D-Graphik
+Medien und das Internet
+Grundlagen der Mensch-Maschine Kommunikation
+Die Vorlesung bildet die Basis für die stärker ins technische Detail gehende Lehrveranstaltung "Interaktive Systeme" und stellt die Grundlagen für vertiefende Lehrangebote zu Multimedia-Themen, sowie "Human-Computer Interaction“.
+Datenschutz
+|
+Impressum
+Bitte wenden Sie sich bei technischen Problemen an
+die Administratoren
+.

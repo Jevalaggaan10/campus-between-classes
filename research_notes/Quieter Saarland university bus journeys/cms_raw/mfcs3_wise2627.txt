@@ -1,0 +1,92 @@
+Main Page
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Mathematics for Computer Scientists III
+Frederik Herzberg
+News
+CMS back online - please check your homework submission and team for submission
+Written on
+22.10.26
+by Frederik Herzberg
+The CMS system is now again online, based on a backup. Please be sure that your homework submission and your team for submission have not disappeared from the system in the meantime. Please also note that late submissions (after the deadline) cannot be accepted.
+Thank you for your consideration.
+Small-group tutorials: Assignment completed
+Written on
+16.10.26
+(last change on
+23.10.26
+)						by Benedikt Flierl
+The assignment to the small-group tutorials has been completed.
+For the homework submission, you may form teams of up to three students from the same small-group tutorial.
+The only exception is for students who are assigned to different tutorials but have the same tutor (i.e., tutorials 4 and 6 or…
+Read more
+The assignment to the small-group tutorials has been completed.
+For the homework submission, you may form teams of up to three students from the same small-group tutorial.
+The only exception is for students who are assigned to different tutorials but have the same tutor (i.e., tutorials 4 and 6 or tutorials 1 and 5).
+You can register your team until
+Friday, 30 October, at 12:00
+.
+Please note that teams that do not meet these requirements will be deleted.
+Mathematics for Computer Scientists III
+Prof. Dr. Frederik Herzberg
+This is the last part of a three-semester course series in mathematics for computer science students.
+This course focuses on the analysis of functions in several variables (continuity, differentiation, optimisation, integration) as well as on probability theory and statistics.
+The lectures and general tutorials will be given in English; there will be small-group tutorials in both English and German.
+Lectures
+Wednesdays, 8:30-10:00, Günter Hotz Hörsaal
+Fridays, 12:15-13:45, Günter Hotz Hörsaal
+The Günter Hotz Hörsaal is located in building E2 2; an interactive campus map can be found
+here
+.
+Course materials will be available
+here
+.
+Start date:
+14 October
+.
+General tutorial
+Fridays, 14:15-15:45, Günter Hotz Hörsaal
+Start date:
+23 October
+.
+Small-group tutorials, exam admission and exams
+Information on small-group tutorials, exam admission and exams can be found
+here
+in the general information.
+References
+The following books are freely accessible online from within the network of the University:
+R. Courant and F. John, Introduction to Calculus and Analysis II/1, Springer
+C. Blatter, Analysis III, Springer
+O. Forster, Analysis 1, Springer
+O. Forster, Analysis 2, Springer
+H. Heuser, Lehrbuch der Analysis 2, Springer
+D. Williams, Weighing the Odds, Cambridge University Press
+N. Henze, Stochastik für Einsteiger, Springer
+In order to get access from outside the university network, you must set up a VPN connection to the university servers. A detailed description (unfortunately only in German) can be found
+here
+.
+More literature for this lecture course can be found on the digital
+Course Reference Shelf
+(German version available
+here
+) that is kindly provided by the
+Campusbibliothek für Informatik und Mathematik
+.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

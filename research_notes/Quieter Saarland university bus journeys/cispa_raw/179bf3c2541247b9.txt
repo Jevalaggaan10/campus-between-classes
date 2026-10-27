@@ -1,0 +1,22 @@
+Main Page
+Coping with computational hardness: approximation, moderately exponential-time, and parameterized algorithms
+Daniel Marx
+News
+Currently, no news are available
+Coping with computational hardness: approximation, moderately exponential-time, and parameterized algorithms
+Most optimization problems and combinatorial search problems are NP-hard, hence we do not expect to be able to find polynomial-time algorithms to solve exactly. But even for such problems, it is still possible to prove rigorous theoretical results that show the existence of algorithms that solve the problem more efficiently than naïve or brute force approaches. Approximation algorithms do not provide an optimal solution, but there is a provable bound on the quality of solution they find. The field of moderately exponential-time algorithms designs algorithms that searches a much smaller (but still exponential) solution space than brute force algorithms do. The running time of a parameterized algorithm is polynomial in the input size, but possibly exponential (or worse!) in some well-defined parameter of the input.
+Designing algorithms of this form often requires deep insights into the nature of the problem and clever algorithmic/combinatorial ideas. In this seminar, we will read, present, and discuss research results with the goal of seeing how these algorithmic paradigms can be applied problems in different domains.
+Requirements:
+A solid background in algorithms and some familiarity with concepts in optimization is necessary for this seminar, as well as a general affinity towards mathematical proofs.
+Time:
+Tuesday, 16:00-17:30
+Location:
+TBA
+Places:
+10
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

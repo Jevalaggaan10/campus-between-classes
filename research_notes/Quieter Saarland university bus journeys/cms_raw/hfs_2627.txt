@@ -1,0 +1,46 @@
+Main Page
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Hilbert Function Spaces
+Michael Hartz
+News
+Currently, no news are available
+Hilbert Function Spaces
+Dates and times
+Lecture
+Thursday, 14:15-15:45, HS 4, Building E 2 4
+Tutorial
+Monday, 10:15-11:45, SR 1, Building E 2 5
+Contents
+This course is an introduction to the theory of Hilbert function spaces. A particular focus lies on the modern theory of Pick spaces, which provides a functional analytic approach to function theoretic
+questions such as interpolation and factorization of functions.
+Topics covered:
+Hilbert function spaces and reproducing kernels
+Multipliers
+Pick spaces and characterization theorems of McCullough-Quiggin and Agler-McCarthy
+Leech's theorem on factorization
+Beurling's theorem on invariant subspaces
+Prerequisites
+Functional Analysis and Complex Analysis
+Exam
+There will be an oral exam at the end of the semester. In order to be eligible for the exam, you have to actively participate in the tutorials and present some of your solutions to assignment problems.
+Literature
+Semesterapparat
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

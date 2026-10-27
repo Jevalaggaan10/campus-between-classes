@@ -1,0 +1,29 @@
+Main Page
+Reproducibility in Fuzzing
+Addison Crump, Moritz Schloegel
+News
+Currently, no news are available
+Reproducibility in Fuzzing
+For registration, please apply for this seminar through the
+central seminar assignment system.
+Background:
+Scientific papers consist of more than the written document. Their results often depend on research artifacts such as source code, benchmarks, datasets, experimental configurations, documentation, and evaluation scripts. This is particularly important in fuzzing research, where results may be influenced by randomness, benchmark selection, hardware and software environments, execution time, parameter choices, and statistical methodology.
+What can you expect?
+In this seminar, you will study reproducibility and replicability in fuzzing research. You will examine how fuzzing techniques are evaluated, which methodological choices affect their results, and how well published experiments can be reproduced using the accompanying research artifacts.
+The seminar consists of two parts. In the first, we simulate the work of a Program Committee (PC). Here, you will write four reviews of published fuzzing papers. The goal is to develop your ability to critically read, understand, and evaluate scientific papers. You will also present one of the paper you reviewed, and you are expected to actively participate in discussions of the other papers.
+In the second part of the seminar, we will model the Artifact Evaluation Committee (AEC), where you will conduct an artifact evaluation of one of the papers you reviewed. This includes installing and examining the provided software, reproducing selected experiments, and assessing the artifact's documentation, functionality, reusability, and support for the claims made in the paper. For this part, you will work in groups of two students. We will provide necessary computation resources. The goal is to reproduce results from recent fuzzing papers while developing a critical understanding of experimental methodology, artifact quality, and reproducibility in computer security research. You will submit a reproduction report documenting your findings and present your findings.
+Requirements:
+This seminar is intended for advanced bachelor or master students in computer science or related fields. Prior knowledge in the domain of systems security and familiarity with C/C++ is recommended.
+Deliverables:
+The following deliverables will be the basis of your grade:
+four reviews of scientific papers
+presentation of one scientific paper and its context
+artifact evaluation report
+presentation of your artifact evaluation report
+active participation in discussions in the course
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

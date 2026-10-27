@@ -1,0 +1,73 @@
+Main Page
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Algebraic Geometry
+Vladimir Lazić
+News
+Currently, no news are available
+Algebraic Geometry
+Lecturer:
+Prof. Dr. Vladimir Lazić
+Office hours: by appointment via email.
+Assistant:
+Dr. Massimiliano Alessandro
+Office hours: by appointment via email.
+The course will be held in English.
+If a lecture takes place online, then the recorded Video-Lecture will be uploaded to this webpage. Each video will be available online for two weeks and then deleted.
+Topics
+The content includes:
+sheaves and schemes
+morphisms between sheaves and schemes
+abstract varieties
+properness and separatedness
+projective morphisms, basepoint free divisors, ample divisors, blowups
+sheaves of modules, invertible sheaves and divisors
+differentials and canonical sheaves, smoothness revisited
+cohomology of sheaves, Čech cohomology
+Serre duality, Riemann-Roch on curves
+morphisms with connected fibres, Iitaka fibrations.
+Prerequisites:
+Linear Algebra I and II, Algebra, Commutative Algebra and Introduction to Algebraic Geometry (recommended).
+Lectures:
+Tuesdays 16-18 in SR10 (316), Gebäude E2.4
+Wednesdays 10-12 in SR10 (316), Gebäude E2.4
+Exam Criteria
+Example Sheets will appear on this webpage each week, which have to be solved until the following week (exception: see the first Example Sheet).
+The solutions should be uploaded via CMS
+. The Sheets will be corrected and returned in the exercise sessions.
+In order to obtain a grade, the following criteria are to be fulfilled: at least 50% of the points from the exercise sheets attained, and the passed exam.
+Exam Dates
+The exam will be an oral exam, the dates will be individually arranged.
+Important:
+If you cannot register in the LSF for the exam, please send an email to Dr. Alessandro (your Prüfungssekretariat has to send us a confirmation that you are allowed to take part in the exam
+well in time
+before the exam). If your Prüfungsordnung allows it, you may use the second try to improve the grade.
+Exercise Sessions
+During the exercise sessions, solutions to the exercise sheets are presented, and students have the opportunity to ask questions about the lecture material, the grading of the submitted exercise sheets, or any general issues related to the exercise sheets.
+Exercise Class:
+Wednesdays 14-16 in SR1 (U.37), Gebäude E2.5
+Tutor: Laura Stokkermans
+Office hours: Tuesdays 11-12 in Office 313 (Gebäude E2.4)
+Literature
+Campus-Bibliothek für Informatik und Mathematik
+prepared the literature list for this course
+here
+.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

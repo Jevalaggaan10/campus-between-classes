@@ -1,0 +1,151 @@
+Main Page
+Courses
+Main Page
+Information
+Timetable
+Resources & Tools
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Programming 1
+Sebastian Hack
+basic course (9 CP), Winter Semester 2026
+News
+kNobel, first tutorial
+Written on
+26.10.26
+by Marcel Ullrich
+Dear students,
+the
+first kNobel task
+is online. You can find it in the
+forum
+and under
+materials
+.
+You can form groups of up to three people (
+see the forum
+).
+To submit the kNobel task, one person in your team uploads it to the CMS.
+For later kNobel tasks: Even if you did not participate in a…
+Read more
+Dear students,
+the
+first kNobel task
+is online. You can find it in the
+forum
+and under
+materials
+.
+You can form groups of up to three people (
+see the forum
+).
+To submit the kNobel task, one person in your team uploads it to the CMS.
+For later kNobel tasks: Even if you did not participate in a kNobel task,
+you are welcome to work on later tasks and join the kNobel corners.
+Most kNobel tasks are independent of each other.
+The first tutorial takes place tomorrow.
+You can find your assigned slot and room on your
+personal status page
+.
+You can submit the
+exam task sheet A
+in paper at the start of your tutorial slot.
+Regards
+The Prog1 team
+Tutorial Assignment
+Written on
+20.10.26
+by Marcel Ullrich
+The tutorials are now assigned. You can find your tutorial on your
+personal status page
+.
+Tutorials start next Tuesday.
+Before the tutorial, we are already offering
+office hours
+this Thursday and Friday, and next Monday.
+The first
+exam sheet
+with voluntary submission in the tutorial will be…
+Read more
+The tutorials are now assigned. You can find your tutorial on your
+personal status page
+.
+Tutorials start next Tuesday.
+Before the tutorial, we are already offering
+office hours
+this Thursday and Friday, and next Monday.
+The first
+exam sheet
+with voluntary submission in the tutorial will be released on Friday.
+For up-to-date information on offers, see the
+timetable
+.
+Mathematics Preparatory Course
+The
+Mathematics Preparatory Course
+takes place from the 07.09. - 02.10.
+The precourse is no official part of Programming 1 but is highly recommended.
+It is organized by volunteers.
+Programming 1
+The lecture introduces the core concepts of programming. More specifically, it deals with data structures and algorithms, programming constructs and programming techniques, as well as the structure and realization of programming languages. While doing so, it introduces the functional programming language OCaml.
+We do not assume any programming knowledge.
+In case of questions, please contact
+us on the forum
+.
+Literature & Tools
+The up-to-date lecture notes, exercises, and additional material will be linked under the
+materials tab
+as the course progresses.
+Further Resources are linked under
+Resources & Tools
+.
+Organization
+⚠️ The organization is different than previous years!
+All dates are in the
+timetable
+.
+There are two in-person lectures per week. Additionally, you will be assigned a tutor who helps you learn in a 2h tutorial per week.
+We offer Office Hours multiple time a week as an optional offer.
+These slots are there to talk to tutors and other students in a relaxed environment.
+If you are unsure if they are helpful, come here and try them out at least once.
+Everyone is admitted to the midterm exam.
+For the endterm, the midterm has to be passed.
+There will be two exams with a retake each. Between an exam and its retake, only the better one counts.
+You can write both. (The final exam, taking both exams, will be two examination attempts if not excepted by the Freiversuch according to the examination regulation).
+In December, we have a Midterm with a retake in January.
+After the semester, we have a final exam with a retake a few weeks afterward.
+The exact dates will be announced in the future and will be entered in the
+timetable
+.
+The final grade of the course is computed out of the midterm and endterm points.
+Further details will be discussed in the first lecture.
+kNobel
+The kNobel corners and tasks are an offer from older students to you.
+The exercise sheets will have a link/reference to the kNobel task of the week.
+Each kNobel task (if not otherwise specified) extends a week. Afterward, the submission is judged
+and a kNobel corner is held where you get more information about the underlying principles.
+Here, you can also discuss with the knowledgable task designer and your fellow student about the task.
+You are invited to join even if you did not attempt the task.
+At the end of the semester, some especially nice solutions will be awarded prizes.
+Previous prizes included: Tablets, Trophies, Exit Rooms Gift Cards, ...
+The usage of LLMs is not permitted.
+The idea is to challenge yourself and have fun puzzling with handcrafted problems to find a solution yourself and learn along the way.
+Using LLMs completely fails this goal and wastes time on your and our end.
+In some weeks, we will offer Programming Labs instead of kNobel tasks.
+Keep an eye out for the
+forum
+for announcements.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

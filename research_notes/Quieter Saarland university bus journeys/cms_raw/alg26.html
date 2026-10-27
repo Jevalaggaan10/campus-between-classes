@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Main Page	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="4231d285cf1947148cfee86aa34b2ec9a0b05a05@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Sic/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Sic/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Sic/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Sic/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Sic/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/alg26/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/alg26/../system" class="navbar-brand">Courses</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/alg26/">Main Page</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Information</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/alg26/termine/calendar/index">Timetable</a></li><li><a class="dropdown-item" href="/alg26/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/alg26/students/register">Registration</a></li><li class="nav-item"><a class="nav-link" href="/alg26/landing">Personal Status</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/alg26/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="9751eb622ae7905ab8de7aaf5aea57264d5089ca592fed23238c05ca6fe1e13c3b75ffc1ac3171eced694348e529303e2e159ca11a3b23c492c7a7837d7e6325" id="Token804827503" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Username" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Password" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Remember me</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.sic.saarland/alg26/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="8f9a56a84d8edddf5d027371882be6eb458b9a8f%3AUser.redirect" id="TokenFields2092329323" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked959561243" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/alg26/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registration</a>        </li>
+        <li>
+            <a href="/alg26/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Forgot Password?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Enable dark mode            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Enable light mode            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/alg26/../system" class="site-logo" title="Front Page"><img src="/system/theme/Sic/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					Algebra				</h1>
+				<div>
+				<small class="text-muted">
+					Christian Steinhart				</small>
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					<div class="alert alert-info"><a href="/alg26/students/register">Registration for this course</a> is open until <strong>Saturday, 31.10.2026 23:59</strong>.</div>
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	
+<table class="table">
+	<colgroup>
+				<col span="1" style="width: auto;" />
+	</colgroup>
+	<tbody>
+	<tr>						<td class="align-top">
+				<a id="newsElement2"></a>
+				<h4 class="fs-5"><a href="/alg26/news/view/2">CMS is working again</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="22.10.2026 13:42:04">22.10.26</span>												by Christian Steinhart					</i></small>
+				</p>
+
+									<p>Dear all,</p>
+
+<p>the CMS was updated and works again. You can find the next exercise sheet and the notes for this week (plus what we are going to do next Wednesday) as usual under materials.</p>
+
+<p>Best regards and have fun!</p>
+
+<p>Christian</p>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement1"></a>
+				<h4 class="fs-5"><a href="/alg26/news/view/1">exercise sheet 1</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="15.10.2026 13:21:33">15.10.26</span>						(last change on <span data-bs-toggle="tooltip" data-bs-title="15.10.2026 13:21:46">15.10.26</span>)						by Christian Steinhart					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse1">
+					<p>Dear all,</p>
+
+<p>the first exercise sheet is now online and can be found under &quot;<a href="https://cms.sic.saarland/alg26/materials/">materials</a>&quot; in the CMS.</p>
+
+<p>You can hand it in until next week Thursday per CMS under &quot;Personal Status&quot;.</p>
+
+<p>There you can also create/join your working group. If you are in a working group, only one person needs to submit the&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse1" href="#newsElement1">Read more</a></p>				</div>
+				<div class="collapse newsCollapse1">
+					<p>Dear all,</p>
+
+<p>the first exercise sheet is now online and can be found under &quot;<a href="https://cms.sic.saarland/alg26/materials/">materials</a>&quot; in the CMS.</p>
+
+<p>You can hand it in until next week Thursday per CMS under &quot;Personal Status&quot;.</p>
+
+<p>There you can also create/join your working group. If you are in a working group, only one person needs to submit the solution for the whole group and points will be distributed to each group member.</p>
+
+<p>The first tutorial will take place next Monday at 8:30 in SR 9.</p>
+
+<p>Best regards and have fun!</p>
+
+<p>Christian</p>
+				</div>
+							</td>
+		</tr>		
+		</tbody>
+</table>
+
+</section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<h2>Algebra</h2>
+
+<p>&nbsp;</p>
+
+<p><strong>Language:&nbsp;</strong>The course will take place either in English or German, depending on if non-native German speakers are present. The exams can be taken in either language. For simplicity this page is written in German and will be translated soon. If you have questions please let me know.</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Lecturer: </strong>Christian Steinhart</p>
+
+<p>e-mail: &quot;surname&quot;@math.uni-sb.de</p>
+
+<p>office hours: just come by to my office (building E 2.4 in room 3 03) or write a short e-mail beforehand</p>
+
+<p>&nbsp;</p>
+
+<h4><strong>dates:</strong></h4>
+
+<h5><strong>Lecture</strong></h5>
+
+<p>Wednesdays, 14:15-15:45 o&#39;clock in &quot;Zeichensaal&quot;, building E 2 5<br />
+Thursdays, 10:15-11:45 o&#39;clock in&nbsp;&quot;Zeichensaal&quot;, building E 2 5</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Tutorial</strong></p>
+
+<p>Mondays 8:30-10:00 o&#39;clock in SR 9, building E 2 4 starting at the 19th October</p>
+
+<p>office hours from Laura: Mondays 14 o&#39;clock in&nbsp;building E 2.4 in room 3 03</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Exam</strong></p>
+
+<p>presumably written at 11th of February and 30th of March</p>
+
+<h5>&nbsp;</h5>
+
+<h4><strong>Content:</strong></h4>
+
+<p>We will cover the following topics:</p>
+
+<ul>
+	<li>Groups: normal subgroups, group actions, Sylow&#39;s theorems, solvable groups</li>
+	<li>Rings: ideals, principal ideal rings, unique factorization domains, Chinese remainder theorem</li>
+	<li>Modules und algebras</li>
+	<li>Fields: finite fields, field extensions, algebraic closure, Galois theory</li>
+	<li>eventually: constructible numbers</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<h4><strong>Exercises:</strong></h4>
+
+<p>There will be weekly exercise sheets which can be submitted each week per CMS. Submissions in fixed groups of 3 people are permitted.</p>
+
+<p>There will also be weekly tutorials each Monday from 8:30 to 10:00 in SR 9 where you can ask questions regarding the exercise and get an additional tutorial exercise sheet.</p>
+
+<p>On each exercise sheet you can attain up to 30 points, for attending the tutorial you get 5P each week and up to 10P for successful participation of the tutorial.</p>
+
+<p>You will need in average 25P/45P per week of the attainable points to be<strong> permitted for the exam.</strong></p>
+
+<p>&nbsp;</p>
+
+<h4><strong>Prerequisites:</strong></h4>
+
+<p>The lecture follows directly Linear Algebra I and II in terms of content.</p>
+
+<p>&nbsp;</p>
+
+<h4><strong>Literature:</strong></h4>
+
+<p><a href="https://www.infomath-bib.de/SemApp/SemAppMathCore.shtml#Algebra">see Semesterapparat</a></p>
+
+<p>and the notes in the <a href="https://cms.sic.saarland/alg26/materials/">material</a></p>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/en/privacy.html" target="_blank">Privacy Policy</a> | <a href="https://www.uni-saarland.de/en/legal-notice.html" target="_blank">Legal Notice</a><br/>
+	If you encounter technical problems, please contact <a href="mailto:cakecms@cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">the administrators</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

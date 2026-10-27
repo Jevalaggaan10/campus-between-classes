@@ -1,0 +1,57 @@
+Main Page
+Deep Learning Efficiency: Smarter AI, Not Just Bigger
+Rebekka Burkholz
+Registration for this course
+is open until
+Thursday, 31.12.2026 23:59
+.
+News
+Currently, no news are available
+Deep Learning Efficiency: Smarter AI, Not Just Bigger
+Deep learning is behind many of today’s most exciting AI breakthroughs — from ChatGPT and self-driving cars to drug discovery and image generation. But there's a catch: these advances often come with massive computational and memory costs, putting them out of reach for all but the biggest tech companies.
+How can we make cutting-edge AI more efficient, accessible, and sustainable?
+In this seminar, we’ll explore recent strategies that aim to make deep learning
+smarter
+, not just
+bigger
+. We’ll read and discuss cutting-edge research papers that tackle key questions like:
+Can smaller models perform just as well as massive ones?
+How can we train and run AI systems using less data, time, and compute?
+What are "lottery tickets" in neural networks — and why do they matter?
+You’ll gain insights into theoretical foundations, practical techniques, and current challenges in building efficient AI systems. Whether you're interested in ML research, want to build powerful models on a budget, or are just curious about the future of AI beyond scale — this seminar is for you.
+Organization
+In this seminar, students will learn to present, discuss, and summarize papers related to deep learning efficiency. Specifically, each student will get a single topic assigned to them, consisting of two papers (a lead and follow-up paper). Each student will
+write a short seminar paper on the topic assigned to them, for which the two papers on the topic serve as the starting point;
+prepare a presentation on the topic assigned to them;
+write two short reviews on papers from a different topic, and prepare questions to ask the to the presenter of this paper/topic. The reviews will be shared among the group (in particular with the presenter of the topic).
+Important Dates
+Kick-off meeting:
+Tuesday, Oct 20, at 17:15
+(to be held online, via zoom).
+The reviews (and questions) must be submitted during the semester.
+The presentations will be organized in a block format during the semester break. Participation is mandatory. Tentative time (to be fixed at the kick-off meeting):
+Mar 5-6, 2026
+in E9 1 (CISPA main building).
+Hand-in of report:
+tbd, ideally one week after the block course.
+Deliverables
+2 short reviews
+(each contributes 10% of your final grade): Write a short review (max 1 page) on one of the papers (not the one that you are presenting) that addresses the following questions:
+What is the problem addressed by the paper?
+What was done before, and how does the paper improve on previous work?
+What are the strengths and the limitations of the techniques in the paper
+What part of the paper was difficult to understand?
+What are possible improvements or extensions of the techniques in the paper?
+In addition to your review you will have to submit 3 questions that you will ask the presenter of the paper.
+Participation in discussion
+(20%): Contribute to the discussion during the seminar meeting.
+Presentation
+(40%): You will prepare and deliver a 20 min presentation (followed by 10 mins question/discussion) of the paper assigned to you. You will have the possibility to get feedback on your slides before the presentation.
+Seminar Paper:
+(20%) You will write a seminar paper on the topic that you have presented. It must not be longer than 6 pages, not counting references and appendices. Note that appendices are not meant to provide information that is absolutely necessary to understand the paper, but rather to provide auxiliary material. Papers can be shorter, but in general the provided page limit is a good indicator of how long a paper should be.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="de" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Hauptseite	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="4231d285cf1947148cfee86aa34b2ec9a0b05a05@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Sic/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Sic/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Sic/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Sic/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Sic/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/hmi32627/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/hmi32627/../system" class="navbar-brand">Kurse</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/hmi32627/">Hauptseite</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Informationen</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/hmi32627/termine/calendar/index">Termine</a></li><li><a class="dropdown-item" href="/hmi32627/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/hmi32627/students/register">Anmeldung</a></li><li class="nav-item"><a class="nav-link" href="/hmi32627/landing">Persönliche Statusseite</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/hmi32627/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="bc13a41e78c1c23c19ca515f12c7e325ece6067dd63e9f46585546a2d5ce548e3688598f9859c2147d9148afc8652a1de3256582d891af7f0abc7ae1066d0941" id="Token314093130" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Benutzername" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Passwort" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Angemeldet bleiben</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.sic.saarland/hmi32627/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="fe0a75a0f5b32de12b0277472543d3379fdb1bb5%3AUser.redirect" id="TokenFields1976564646" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked196876356" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/hmi32627/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registrierung</a>        </li>
+        <li>
+            <a href="/hmi32627/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Passwort vergessen?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Dunklen Modus aktivieren            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Hellen Modus aktivieren            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/hmi32627/../system" class="site-logo" title="Front Page"><img src="/system/theme/Sic/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					Höhere Mathematik für Ingenieure III				</h1>
+				<div>
+				<small class="text-muted">
+					Thomas Schuster, Dean Zenner				</small>
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	
+<table class="table">
+	<colgroup>
+				<col span="1" style="width: auto;" />
+	</colgroup>
+	<tbody>
+	<tr>						<td class="align-top">
+				<a id="newsElement2"></a>
+				<h4 class="fs-5"><a href="/hmi32627/news/view/2">Abgabe 1. Übungsblatt</a></h4>				<p>
+					<small class="text-muted"><i>
+						Geschrieben am <span data-bs-toggle="tooltip" data-bs-title="22.10.2026 14:49:58">22.10.26</span>												von Dean Zenner					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse2">
+					<p>Liebe Studierende,</p>
+
+<p>da das CMS wieder online ist, k&ouml;nnen die Abgaben der &Uuml;bungsbl&auml;tter wieder &uuml;ber das CMS erfolgen. Au&szlig;erdem k&ouml;nnt Ihr jetzt eure zugewiesene &Uuml;bungsgruppe einsehen.</p>
+
+<p>F&uuml;r die Abgabe des ersten Blatt steht euch noch Zeit bis morgen 18 Uhr zu Verf&uuml;gung. Ich w&uuml;rde jeden bitten, der&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse2" href="#newsElement2">Weiterlesen</a></p>				</div>
+				<div class="collapse newsCollapse2">
+					<p>Liebe Studierende,</p>
+
+<p>da das CMS wieder online ist, k&ouml;nnen die Abgaben der &Uuml;bungsbl&auml;tter wieder &uuml;ber das CMS erfolgen. Au&szlig;erdem k&ouml;nnt Ihr jetzt eure zugewiesene &Uuml;bungsgruppe einsehen.</p>
+
+<p>F&uuml;r die Abgabe des ersten Blatt steht euch noch Zeit bis morgen 18 Uhr zu Verf&uuml;gung. Ich w&uuml;rde jeden bitten, der bereits per E-Mail abgeben hat, die Abgabe noch einmal im CMS zu machen. Das hilft bei der Organisation. Danke!</p>
+
+<p>Liebe Gr&uuml;&szlig;e,</p>
+
+<p>Dean Zenner</p>
+				</div>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement1"></a>
+				<h4 class="fs-5"><a href="/hmi32627/news/view/1">Beginn Vorlesung 22.10. um 8:45 Uhr</a></h4>				<p>
+					<small class="text-muted"><i>
+						Geschrieben am <span data-bs-toggle="tooltip" data-bs-title="21.10.2026 11:36:05">21.10.26</span>												von Thomas Schuster					</i></small>
+				</p>
+
+									<p>Liebe Studierende,</p>
+
+<p>da ich meinen Wagen morgen fr&uuml;h unbedingt noch in die Werkstatt bringen muss, beginnt die morgige Vorlesung (22.10.26) etwa 15 Minuten sp&auml;ter, also um 8:45 Uhr.&nbsp;</p>
+
+<p>Bis Morgen und viele Gr&uuml;&szlig;e,</p>
+
+<p>Thomas Schuster</p>
+							</td>
+		</tr>		
+		</tbody>
+</table>
+
+</section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<h2>H&ouml;here Mathematik f&uuml;r Ingenieure III</h2>
+
+<p><br />
+Dozent: Prof. Dr. Thomas Schuster</p>
+
+<p>Vorlesungszeiten: <strong>Mo und Do 08-10 Uhr</strong><br />
+Vorlesungsort:&nbsp;<strong>E2.5, HS I</strong></p>
+
+<p>Der&nbsp;erste Vorlesungstermin&nbsp;ist am<strong>&nbsp;Donnerstag, den 15.10.2026 um 08:30 Uhr.</strong></p>
+
+<p>&nbsp;</p>
+
+<p><strong><u>Anmeldung</u></strong></p>
+
+<p>Die Anmeldung zur Vorlesung ist ab sofort&nbsp;und bis zum<strong> 21.10.26 08:00 Uhr&nbsp;</strong>m&ouml;glich.</p>
+
+<p>Bitte melden Sie sich an und geben dabei Ihre pr&auml;ferierten Zeiten bzgl. &Uuml;bung an, damit wir Sie Ihren &Uuml;bungsgruppen entsprechend einteilen k&ouml;nnen.&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><strong><u>Inhalt der Vorlesung</u></strong></p>
+
+<ul>
+	<li>Gew&ouml;hnliche lineare Differentialgleichungen</li>
+	<li>Systeme linearer gew&ouml;hnlicher Differentialgleichungen erster Ordnung</li>
+	<li>Spektraltheorie quadratischer Matrizen</li>
+	<li>Stetige Funktionen mehrerer Ver&auml;nderlicher</li>
+	<li>Kurven im&nbsp;<strong>Rn</strong></li>
+	<li>Differentialrechnung in mehreren Ver&auml;nderlichen</li>
+	<li>Kurvenintegrale</li>
+	<li>Integrale im&nbsp;<strong>Rn</strong></li>
+	<li>Der Gau&szlig;sche Integralsatz</li>
+	<li>Der Integralsatz von Stokes</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><strong><u>&Uuml;bungen</u></strong></p>
+
+<p>Um den Vorlesungsstoff zu vertiefen&nbsp;werden &Uuml;bungsbl&auml;tter ver&ouml;ffentlicht (zu finden unter&nbsp;Materialien), die innerhalb von einer Woche in Zweier- bis Dreiergruppen&nbsp;bearbeitet und per Upload im CMS abgegeben werden sollen.&nbsp;</p>
+
+<p><strong>Die Mitglieder einer Abgabe-Gruppe m&uuml;ssen derselben &Uuml;bungsstunde zugeordnet sein.</strong> Um in Gruppen abzugeben, nutzen Sie bitte die Funktion zur Gruppen-Bildung unter Team Groupings. F&uuml;r die Gruppen-Abgabe muss nur eine Person der Gruppe die L&ouml;sungen hochladen. Weiterhin sollte pro Woche immer dieselbe Person der Gruppe die L&ouml;sungen hochladen.</p>
+
+<p>Zus&auml;tzlich&nbsp;zu den Vorlesungsterminen finden w&ouml;chentlich &Uuml;bungen statt, in denen die L&ouml;sungen der &Uuml;bungsaufgaben besprochen werden und in denen Sie Ihre Abgaben korrigiert und bepunktet zur&uuml;ckbekommen.</p>
+
+<p>Das erste &Uuml;bungsblatt erscheint in der ersten Vorlesungswoche. Die Einteilung in &Uuml;bungsgruppen findet in der zweiten Vorlesungswoche statt. Die &Uuml;bungen beginnen in der dritten Vorlesungswoche!</p>
+
+<p>Die &Uuml;bungen finden wie folgt statt:</p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="height:260px; width:500px">
+	<tbody>
+		<tr>
+			<td>Termin</td>
+			<td>Ort</td>
+			<td>Tutor</td>
+		</tr>
+		<tr>
+			<td>Montag 10-12 Uhr</td>
+			<td>Zeichensaal, E2.5</td>
+			<td>Philipp Henrikus</td>
+		</tr>
+		<tr>
+			<td>Montag 12-14 Uhr</td>
+			<td>SR 3, E2.5</td>
+			<td>Elias L&ouml;ffler</td>
+		</tr>
+		<tr>
+			<td>Montag 14-16 Uhr</td>
+			<td>SR 3, E2.5</td>
+			<td>Paul M&uuml;ller</td>
+		</tr>
+		<tr>
+			<td>Dienstag 8-10 Uhr</td>
+			<td>SR 1, E2.5</td>
+			<td>Luca Kochems</td>
+		</tr>
+		<tr>
+			<td>Dienstags 10-12 Uhr</td>
+			<td>SR 10, E2.4</td>
+			<td>Paul M&uuml;ller</td>
+		</tr>
+		<tr>
+			<td>Mittwoch 14-16 Uhr</td>
+			<td>SR 5, E2.4</td>
+			<td>Jannis Collmann</td>
+		</tr>
+		<tr>
+			<td>Donnerstag 12-14 Uhr</td>
+			<td>SR 5, E2.4</td>
+			<td>Norman Weinland</td>
+		</tr>
+		<tr>
+			<td>Freitag 10-12 Uhr</td>
+			<td>SR 4, E2.5</td>
+			<td>Alexander Klein</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>Hinweis: Alle Uhrzeiten sind ct, d.h. z.B. eine &Uuml;bung 10-12&nbsp;Uhr beginnt um 10:15 Uhr. Die Ausnahme ist 8&nbsp;Uhr, hier beginnt die &Uuml;bung um 8.30 Uhr.</p>
+
+<p><br />
+<strong><u>Scheinkriterien</u></strong></p>
+
+<p>Die Vorlesung ist mit 9 Credit Points gewichtet. Um einen Schein zu erhalten, m&uuml;ssen</p>
+
+<ul>
+	<li>mindestens 50% der erreichbaren Punkte auf den ersten 6 sowie 50% der erreichbaren Punkte auf den restlichen &Uuml;bungsbl&auml;ttern erreicht werden,</li>
+	<li>die abschlie&szlig;ende Pr&uuml;fung bestanden werden.</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><strong><u>Klausuren</u></strong></p>
+
+<p>Die Anmeldung zu den einzelnen Klausurterminen erfolgt &uuml;ber das LSF. Bei Problemen wenden Sie sich bitte zun&auml;chst an das Pr&uuml;fungsamt.&nbsp;</p>
+
+<ul>
+	<li>Hauptklausur:<strong>&nbsp;</strong>19.02.2027, 9:00-12:00 Uhr, E2.5, HS I, HS II, HS&nbsp;III.</li>
+	<li>Nachklausur: 24.03.2027, 9:00-12:00 Uhr, G&uuml;nter-Hotz-H&ouml;rsaal und&nbsp;E2.5 HS I, HS II.</li>
+</ul>
+
+<p>Bitte denken Sie daran sich fr&uuml;hzeitig im LSF&nbsp;zur Klausur anzumelden. Die Anmeldungen sind bis eine Woche vor dem jeweiligen Klausurtermin m&ouml;glich.</p>
+
+<p>Als Hilfsmittel zur Klausur sind zugelassen</p>
+
+<ul>
+	<li>ein beidseitig handbeschriebenes DIN A4 Blatt,</li>
+	<li>ein (nicht-programmierbarer) Taschenrechner.</li>
+</ul>
+
+<p>Elektronische Ger&auml;te wie Smartphones o.&auml;. sind w&auml;hrend der Klausur vollst&auml;ndig auszuschalten.</p>
+
+<p>F&uuml;r die erfolgreiche Teilnahme an dieser Vorlesung erhalten Sie 9 Credit Points.</p>
+
+<p>&nbsp;</p>
+
+<p><strong><u>Einsicht</u></strong></p>
+
+<p>Hauptklausur: tba.<br />
+Nachklausur:&nbsp;tba.</p>
+
+<p>&nbsp;</p>
+
+<p><strong><u>Skript</u></strong></p>
+
+<p>Das Vorlesungsskript wird kapitelweise auf CMS hochgeladen.</p>
+
+<p>Bitte beachten Sie, dass das Vorlesungsskript nicht die Teilnahme an der Vorlesung selbst ersetzen.</p>
+
+<p>Es wird keine Gew&auml;hr f&uuml;r die Richtigkeit des Skripts &uuml;bernommen.</p>
+
+<p>&nbsp;</p>
+
+<p><strong><u>Literatur</u></strong></p>
+
+<p>Literaturvorschl&auml;ge erhalten Sie aus dem Semesterapparat:&nbsp;<a href="https://www.infomath-bib.de/SemApp/SemAppMathBasic.shtml#GrundzuegederHoeherenMathematik">Campusbibliothek f&uuml;r Informatik und Angewandte Mathematik - Semesterapparat</a></p>
+
+<p>&nbsp;</p>
+
+<p><strong><u>Sprechstunden</u></strong></p>
+
+<p>Fragen zum Vorlesungsstoff k&ouml;nnen Sie sowohl in der &Uuml;bung, als auch in den Sprechstunden der Tutoren stellen. Die Sprechstunden finden ab der <strong>dritten </strong>Vorlesungswoche im Mathe-Gruppen&uuml;bungsraum statt. Die Termine der Sprechstunden sind:</p>
+
+<ul>
+	<li>Dean Zenner: auf Anfrage.</li>
+	<li>Montag 12-13 Uhr Philipp Henrikus.</li>
+	<li>Montag 14-15 Uhr Elias L&ouml;ffler.</li>
+	<li>Montag 16-17 Uhr Luca Kochems.</li>
+	<li>Dienstag 9-10 Uhr Paul M&uuml;ller.</li>
+	<li>Dienstag 13-14 Uhr Jannis Collmann.</li>
+	<li>Donnerstag 15-16 Uhr Norman Weinland.</li>
+	<li>Freitag 12-13 Uhr Alexander Klein.</li>
+</ul>
+
+<p><br />
+<strong><u>Fragen</u></strong></p>
+
+<p>Bei Fragen wenden Sie sich bitte an Dean Zenner, der die Vorlesung betreut.</p>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/datenschutzerklaerung.html" target="_blank">Datenschutz</a> | <a href="https://www.uni-saarland.de/impressum.html" target="_blank">Impressum</a><br/>
+	Bitte wenden Sie sich bei technischen Problemen an <a href="mailto:cakecms@cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">die Administratoren</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

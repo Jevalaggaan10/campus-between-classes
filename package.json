@@ -1,0 +1,14 @@
+{
+  "name": "between-classes",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Two static layouts for Saarland University weekday bus timing research",
+  "scripts": {
+    "verify:simplified": "cd versions/simplified && node verify-page.mjs",
+    "verify:full": "cd versions/full && node verify-page.mjs",
+    "verify": "npm run verify:simplified && npm run verify:full"
+  },
+  "devDependencies": {
+    "puppeteer-core": "25.16.0"
+  }
+}

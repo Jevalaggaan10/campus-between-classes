@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Main Page	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="4231d285cf1947148cfee86aa34b2ec9a0b05a05@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Sic/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Sic/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Sic/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Sic/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Sic/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/fof_math_ws2627/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/fof_math_ws2627/../system" class="navbar-brand">Courses</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/fof_math_ws2627/">Main Page</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Information</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/fof_math_ws2627/termine/calendar/index">Timetable</a></li><li><a class="dropdown-item" href="/fof_math_ws2627/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/fof_math_ws2627/students/register">Registration</a></li><li class="nav-item"><a class="nav-link" href="/fof_math_ws2627/landing">Personal Status</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/fof_math_ws2627/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="a511fa9440f1766d9490c479cf1b2a7fd0c107ebfd3f8cffa013e77cf2fd87243aec94d646bedf8bba520766f9ee6f565a4ad0ba51d3d627efcb6c11b6312be2" id="Token1733711029" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Username" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Password" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Remember me</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.sic.saarland/fof_math_ws2627/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="d458f8436ac61d3481127c8766665c1ea62c0bc3%3AUser.redirect" id="TokenFields1898708916" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked792480317" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/fof_math_ws2627/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registration</a>        </li>
+        <li>
+            <a href="/fof_math_ws2627/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Forgot Password?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Enable dark mode            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Enable light mode            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/fof_math_ws2627/../system" class="site-logo" title="Front Page"><img src="/system/theme/Sic/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					Foundations of Mathematics				</h1>
+				<div>
+				<small class="text-muted">
+					<a href="https://www.mhahn.info/">Prof. Michael Hahn</a>				</small>
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					<div class="alert alert-info"><a href="/fof_math_ws2627/students/register">Registration for this course</a> is open until <strong>Friday, 01.01.2027 23:59</strong>.</div>
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	<p><i class="text-muted">Currently, no news are available</i></p></section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<h2>Overview</h2>
+
+<p>This course corresponds to the lectures &ldquo;Mathematische Grundlagen: Analysis und Lineare Algebra&rdquo; for students in the BSc Computerlinguistik and &ldquo;Foundations of Mathematics&rdquo; for students in the MSc Language Science and Technology. The goal is to learn the basics of calculus and linear algebra in order to understand neural networks in technical detail and being prepared to read formulas in current research papers.</p>
+
+<p>&nbsp;</p>
+
+<p>Winter Semester 2026/27<br />
+<a href="https://www.mhahn.info/">Michael Hahn</a><br />
+When and where: see LSF</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Key dates:</strong></p>
+
+<p><strong>First class: see LSF</strong><br />
+<strong>Exam date: </strong>2027-02-05<strong> (in our usual lecture room)</strong></p>
+
+<p>&nbsp;</p>
+
+<p><strong>You can find the schedule (evolving over the course of the semester) here:</strong></p>
+
+<p>https://docs.google.com/document/d/1YvaP6batpkdptIskd8a5mEdZZz8TxfmYah8yLCIi0Ps/edit?usp=sharing</p>
+
+<hr />
+<p>This class is a newly designed introductory course to mathematics for computational linguists. It is used in two study programs:</p>
+
+<ul>
+	<li>F&uuml;r Studierende des BSc Computerlinguistik ist dies die Vorlesung &ldquo;Mathematische Grundlagen: Analysis und Lineare Algebra&rdquo;.</li>
+	<li>For students in the MSc Language Science and Technology, this is the lecture &ldquo;Foundations of Mathematics&rdquo;.</li>
+</ul>
+
+<p>The goal is to equip students with the mathematical background that is necessary to understand neural networks in technical detail and not be scared of the formulas in current research papers. The course covers the fundamentals of linear algebra (vector spaces, linear transformations, matrices and matrix arithmetic, dot products and angles) and calculus (derivatives, computing derivatives, limits, integrals, gradients). These will culminate in an explanation of the backpropagation algorithm.</p>
+
+<p>The course will be in English.</p>
+
+<p>&nbsp;</p>
+
+<h2>Mathematische Grundlagen: Analysis und Lineare Algebra (BSc)</h2>
+
+<p><strong>F&uuml;r wen ist diese Vorlesung?</strong> Die Vorlesung ist eine Pflichtveranstaltung im BSc Computerlinguistik (Studienordnung von 2020). Wir empfehlen dringend, sie im dritten Semester zu belegen, damit Sie im vierten Semester die Vorlesung &ldquo;Neural Networks: Implementation and Application&rdquo; (Klakow) absolvieren k&ouml;nnen und dann die volle Auswahl unter den Seminaren haben, die Kenntnisse zu neuronalen Netzen voraussetzen.</p>
+
+<p>Die Vorlesung und ihre Materialien sind auf Englisch, weil sie erstmals im WS 2020/21 f&uuml;r die Master-Studierenden gehalten wurde. Wenn Sie m&ouml;chten, k&ouml;nnen Sie dabei helfen, die Kursmaterialien auf Deutsch zu &uuml;bersetzen; melden Sie sich bei Interesse gerne bei mir.</p>
+
+<p>Sie k&ouml;nnen Fragen im Kurs gerne auf Deutsch stellen. Ich werde sie dann typischerweise auf Englisch beantworten.</p>
+
+<hr />
+<h2>Foundations of Mathematics (MSc)</h2>
+
+<p><strong>Who should take this course?</strong> The course is meant to provide students who did not take college-level classes on linear algebra and calculus in their first degree with the basics of these fields. Such students should treat this course as mandatory for the MSc LST/LCT, even if the study regulations don&rsquo;t say it explicitly.</p>
+
+<p>By contrast, students who <strong>have</strong> taken such classes in their first degrees (e.g. students with a BSc in mathematics or computer science) should <strong>not</strong> take this class. It would be a waste of your time, and we strongly encourage you to take other classes where you will learn something new.</p>
+
+<hr />
+<h2>General information</h2>
+
+<p><strong>Online learning platform.</strong> We will use the computer science CMS&nbsp;for this course. Here you can find materials and news regarding the lectures. So please register as soon as you can. Once you have registered, you will also have access to a forum, where you can ask questions or discuss the content of the course.</p>
+
+<p><strong>Structure of the course.</strong>&nbsp;You are expected to study the materials in your own time, and we meet twice a week to work through the material together and discuss any questions you might have.</p>
+
+<p>We will make heavy use of the fantastic Youtube channel <a href="https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw">3Blue1Brown</a>, in particular its playlists on the <a href="https://www.youtube.com/watch?v=fNk_zzaMoSs&amp;list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab">Essence of Linear Algebra</a> and <a href="https://www.youtube.com/watch?v=WUvTyaaNkzM&amp;list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr">Essence of Calculus</a>. Feel free to start watching these videos right now. I will also assign reading to cover the same topics, in order to add some more depth and familiarize you with reading mathematical texts.</p>
+
+<p><strong>Prerequisites.</strong> The course does not assume any prior knowledge beyond high-school math.</p>
+
+<p><strong>Grading.</strong>&nbsp;Your grade for the course will be determined in a <em>final written exam</em> at the end of the semester. <strong>You will have to be physically present in Saarbr&uuml;cken for this exam.</strong></p>
+
+<p>It is extremely important to me that you participate actively in the interactive sessions.</p>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/en/privacy.html" target="_blank">Privacy Policy</a> | <a href="https://www.uni-saarland.de/en/legal-notice.html" target="_blank">Legal Notice</a><br/>
+	If you encounter technical problems, please contact <a href="mailto:cakecms@cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">the administrators</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

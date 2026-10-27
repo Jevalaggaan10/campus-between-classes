@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Interpreting and Analyzing Neural Language Models | LaCoCo Lab</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Interpreting and Analyzing Neural Language Models" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="https://lacoco-lab.github.io/courses/interpreting-2026/" />
+<meta property="og:url" content="https://lacoco-lab.github.io/courses/interpreting-2026/" />
+<meta property="og:site_name" content="LaCoCo Lab" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Interpreting and Analyzing Neural Language Models" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","headline":"Interpreting and Analyzing Neural Language Models","url":"https://lacoco-lab.github.io/courses/interpreting-2026/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=47721c7d76174a6f3188a00623c578f4b967f76b">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+      <h1><a href="https://lacoco-lab.github.io/">LaCoCo Lab</a></h1>
+      
+
+      <h1 id="interpreting-and-analyzing-neural-language-models">Interpreting and Analyzing Neural Language Models</h1>
+
+<!-----DESCRIPTION----->
+<p><strong>Course Description:</strong>
+Despite their success, neural language models are still often treated as “black boxes”. This seminar focuses on post-hoc interpretability for transformer-based language models: understanding how models solve problems or why they behave in certain way with techniques like probing representations, attributing outputs to inputs, identifying computational circuits, and testing explanations through causal interventions. We will also combine these methods with recent applications to model editing, behavioral control, context use in retrieval-augmented generation, reasoning, and agent monitoring. Readings include academic papers and research posts.</p>
+
+<!----PREREQ------------>
+
+<p><strong>Prerequisites:</strong>
+Many of our readings will be quite technical. You will need a good background in NLP or machine learning in order to thrive in this course.</p>
+
+<!-----REGISTRATION----->
+
+<p><strong>Registration:</strong></p>
+<ul>
+  <li>
+    <p>If you are an <strong>LST / CoLi</strong> student, and want to take this class, you should directly register in the <a href="https://cms.sic.saarland/probing_2627/">Course Management System (CMS)</a>. Admissions decision will be made around Oct 21.</p>
+  </li>
+  <li>
+    <p>If you are a <strong>Computer Science</strong> student, you should initially register via the Computer Science department seminar registration system. Only register in <a href="https://cms.sic.saarland/probing_2627/">Course Management System (CMS)</a> once you were selected by the assignment system or otherwise admitted by us.</p>
+  </li>
+  <li>
+    <p><strong>In both cases</strong>, please fill in this <a href="https://docs.google.com/forms/d/e/1FAIpQLSe-Pjf4nz0FIgXHYS7wh00i0DYnwtpzFW9XZSiiqDq2o_DIZw/viewform?usp=publish-editor">form</a> with your top-3 preferences among the items in the syllabus, and a brief explanation why you want to take this course and feel prepared for it. If you want, you are welcome to additionally mention any other topic that you would like to present.</p>
+  </li>
+</ul>
+
+<!-----INSTRUCTORS----->
+<p><strong>Instructors:</strong> <a href="https://lacoco-lab.github.io/home/authors/xhuang/">Xinting Huang</a></p>
+
+<!-----TIME----->
+<p><strong>Time:</strong> Tuesday, 14:15 - 15:45</p>
+
+<!-----ROOM----->
+<p><strong>Room:</strong> C7.3 room 1.14</p>
+
+<h2 id="format-and-requirements">Format and requirements</h2>
+
+<p>This is a seminar course.
+After the introductory class, two students will present in each reading unit. Every student will present exactly once.
+We expect all students to read the readings every week. Every student submits one question about the readings by Monday noon.</p>
+
+<h2 id="syllabus">Syllabus</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Unit</th>
+      <th>Topic</th>
+      <th>Readings</th>
+      <th>Presenter</th>
+      <th><small>Optional Material</small></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>October 20, 2026</td>
+      <td> </td>
+      <td>no class</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>October 27, 2026</td>
+      <td>0</td>
+      <td>Introduction, Q&amp;A</td>
+      <td> </td>
+      <td>Xinting</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>November 3, 2026</td>
+      <td>1</td>
+      <td>Transformer computations</td>
+      <td><a href="https://transformer-circuits.pub/2021/framework/index.html">A Mathematical Framework for Transformer Circuits</a> (2021; selected sections below)</td>
+      <td>Sharannya</td>
+      <td><small><a href="https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html">Induction Heads</a>; <a href="https://arxiv.org/abs/2106.06981">RASP</a></small></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td>Vocabulary projections</td>
+      <td><a href="https://arxiv.org/abs/2303.08112">Eliciting Latent Predictions from Transformers with the Tuned Lens</a> (2023)</td>
+      <td>Bakytzhan</td>
+      <td><small><a href="https://www.lesswrong.com/posts/AcKRB8wDpdaN6v6ru/interpreting-gpt-the-logit-lens">Logit Lens</a>; <a href="https://arxiv.org/abs/2203.14680">MLP vocabulary projections</a></small></td>
+    </tr>
+    <tr>
+      <td>November 10, 2026</td>
+      <td>2</td>
+      <td>Probing</td>
+      <td><a href="https://arxiv.org/abs/2210.13382">Emergent World Representations: Exploring a Sequence Model Trained on a Synthetic Task</a> (2022)</td>
+      <td>Jia</td>
+      <td><small><a href="https://arxiv.org/abs/1909.03368">Control Tasks</a>; <a href="https://arxiv.org/abs/1905.05950">BERT’s NLP Pipeline</a></small></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td>Probing</td>
+      <td><a href="https://arxiv.org/abs/2502.03407">Detecting Strategic Deception Using Linear Probes</a> (2025)</td>
+      <td>Yu-Hua</td>
+      <td><small><a href="https://arxiv.org/abs/2507.12691">Deception Probe Benchmark</a></small></td>
+    </tr>
+    <tr>
+      <td>November 17, 2026</td>
+      <td>3</td>
+      <td>Path patching</td>
+      <td><a href="https://arxiv.org/abs/2211.00593">Interpretability in the Wild: a Circuit for Indirect Object Identification in GPT-2 Small</a> (2022)</td>
+      <td>Ümit</td>
+      <td><small><a href="https://proceedings.neurips.cc/paper/2021/hash/4f5c422f4d49a5a807eda27434231040-Abstract.html">Causal Abstractions</a>; <a href="https://arxiv.org/abs/2304.05969">Path Patching</a></small></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td>Activation patching; Model editing</td>
+      <td><a href="https://arxiv.org/abs/2202.05262">Locating and Editing Factual Associations in GPT</a> (2022)</td>
+      <td>Anastasiia</td>
+      <td><small><a href="https://arxiv.org/abs/2303.02536">Distributed Alignment Search</a></small></td>
+    </tr>
+    <tr>
+      <td>November 24, 2026</td>
+      <td>4</td>
+      <td>Sparse autoencoders</td>
+      <td><a href="https://transformer-circuits.pub/2023/monosemantic-features/index.html">Towards Monosemanticity: Decomposing Language Models With Dictionary Learning</a> (2023; selected sections below)</td>
+      <td>Zhepei</td>
+      <td><small><a href="https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html">Scaling Monosemanticity</a></small></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td>Sparse autoencoders</td>
+      <td><a href="https://arxiv.org/abs/2502.16681">Are Sparse Autoencoders Useful? A Case Study in Sparse Probing</a> (2025)</td>
+      <td>Mohammadali</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>December 1, 2026</td>
+      <td>5</td>
+      <td>Circuit tracing</td>
+      <td><a href="https://transformer-circuits.pub/2025/attribution-graphs/methods.html">Circuit Tracing: Revealing Computational Graphs in Language Models</a> (2025; selected sections below)</td>
+      <td>Jaleel</td>
+      <td><small><a href="https://arxiv.org/abs/2406.11944">Transcoders</a></small></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td>Circuit tracing</td>
+      <td><a href="https://transformer-circuits.pub/2025/attribution-graphs/biology.html">On the Biology of a Large Language Model</a> (2025; selected sections below)</td>
+      <td>Dhairushi</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>December 8, 2026</td>
+      <td>6</td>
+      <td>Task representations</td>
+      <td><a href="https://arxiv.org/abs/2310.15213">Function Vectors in Large Language Models</a> (2023)</td>
+      <td>Seyedali</td>
+      <td><small><a href="https://arxiv.org/abs/2310.15916">Task Vectors</a></small></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td>Refusal steering</td>
+      <td><a href="https://arxiv.org/abs/2406.11717">Refusal in Language Models Is Mediated by a Single Direction</a> (2024)</td>
+      <td>Florian</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>December 15, 2026</td>
+      <td>7</td>
+      <td>Persona monitoring</td>
+      <td><a href="https://arxiv.org/abs/2507.21509">Persona Vectors: Monitoring and Controlling Character Traits in Language Models</a> (2025)</td>
+      <td>Samuel</td>
+      <td><small><a href="https://arxiv.org/abs/2506.19823">Persona Features</a></small></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td>Training-data attribution</td>
+      <td><a href="https://arxiv.org/abs/2410.17413">Scalable Influence and Fact Tracing for Large Language Model Pretraining</a> (2024)</td>
+      <td>Meropi</td>
+      <td><small><a href="https://arxiv.org/abs/2308.03296">LLM Influence Functions</a>; <a href="https://arxiv.org/abs/2602.14869">Concept Influence</a>; <a href="https://arxiv.org/abs/2507.09424">DATE-LM</a></small></td>
+    </tr>
+    <tr>
+      <td>December 22, 2026</td>
+      <td> </td>
+      <td>no class</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>December 29, 2026</td>
+      <td> </td>
+      <td>no class</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>January 5, 2027</td>
+      <td>8</td>
+      <td>Context attribution</td>
+      <td><a href="https://proceedings.iclr.cc/paper_files/paper/2026/hash/ed67dff7cb96e7e86c4d91c0d5db49bb-Abstract-Conference.html">Attributing Response to Context: A Jensen–Shannon Divergence Driven Mechanistic Study of Context Attribution in Retrieval-Augmented Generation</a> (2025)</td>
+      <td>He</td>
+      <td><small><a href="https://aclanthology.org/2023.acl-demo.40/">Inseq</a>; <a href="https://arxiv.org/abs/1703.01365">Integrated Gradients</a>; <a href="https://aclanthology.org/2022.emnlp-main.14/">Contrastive Explanations</a></small></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td>Activation explanations</td>
+      <td><a href="https://transformer-circuits.pub/2026/nla/index.html#introduction">Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activations</a> (2026; selected sections below)</td>
+      <td>George</td>
+      <td><small><a href="https://arxiv.org/abs/2405.17653">InversionView</a></small></td>
+    </tr>
+    <tr>
+      <td>January 12, 2027</td>
+      <td>9</td>
+      <td>Reasoning verification</td>
+      <td><a href="https://arxiv.org/abs/2510.09312">Verifying Chain-of-Thought Reasoning via Its Computational Graph</a> (2025)</td>
+      <td>Yiwei</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td>Reasoning faithfulness</td>
+      <td><a href="https://arxiv.org/abs/2505.05410">Reasoning Models Don’t Always Say What They Think</a> (2025)</td>
+      <td>Yifang</td>
+      <td><small><a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/ed3fea9033a80fea1376299fa7863f4a-Abstract-Conference.html">Unfaithful CoT</a></small></td>
+    </tr>
+    <tr>
+      <td>January 19, 2027</td>
+      <td>10</td>
+      <td>Auditing hidden objectives</td>
+      <td><a href="https://arxiv.org/abs/2503.10965">Auditing Language Models for Hidden Objectives</a> (2025)</td>
+      <td>Lado</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td>Reward hacking detection</td>
+      <td><a href="https://arxiv.org/abs/2609.19101">Monitoring and Discovering Reward Hacking with Internal Representations during LLM Evaluations</a> (2026)</td>
+      <td>Muhammad Shayan</td>
+      <td><small><a href="https://www.goodfire.com/research/reward-hacking-activation-monitors">Acompanying blogpost</a>; <a href="https://www.goodfire.com/blog/probe-monitors-101">Probe Monitor Guide</a></small></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="reading-guidance">Reading guidance</h3>
+
+<p>For readings without a selection below, read the main text, including figures and limitations; references, appendices, and supplementary material are optional. You are encouraged to check additional methodological details when needed to explain or assess a result.</p>
+
+<p>The selections below are roughly a conference paper’s worth of reading. Section ranges include all subsections, figures, and captions. Everything else is optional. These selections are approximate; you may need to skim relevant passages in other sections to understand the assigned sections.</p>
+
+<ul>
+  <li>
+    <p><strong>A Mathematical Framework for Transformer Circuits:</strong> Read from “Transformer Overview” through the end of “One-Layer Attention-Only Transformers”, then read “Induction Heads”.</p>
+  </li>
+  <li>
+    <p><strong>Towards Monosemanticity: Decomposing Language Models With Dictionary Learning:</strong> Read from the beginning through the end of “Detailed Investigations of Individual Features” (stop before “Global Analysis”).</p>
+  </li>
+  <li>
+    <p><strong>Circuit Tracing: Revealing Computational Graphs in Language Models:</strong> Read from the beginning through the end of “Attribution Graphs” (stop before “Global Weights”). Skim “Limitations”.</p>
+  </li>
+  <li>
+    <p><strong>On the Biology of a Large Language Model:</strong> Read from the beginning through the end of “Planning in Poems”, then read “Entity Recognition and Hallucinations”, “Refusals”, and “Limitations”.</p>
+  </li>
+  <li>
+    <p><strong>Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activations:</strong> Read from the beginning through the end of “Characterizing NLA confabulations”, then read “Discussion and Limitations”.</p>
+  </li>
+</ul>
+
+<h2 id="evaluation">Evaluation</h2>
+
+<p><strong><em>IMPORTANT: Study programs may differ in which version(s) of a seminar course you can take. If in doubt, check with your study program coordinator.</em></strong></p>
+
+<p>For students taking the seminar for 4 credits:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Presentation: 60%
+Questions about readings: 40%
+</code></pre></div></div>
+
+<p>For students taking the seminar for 7 credits:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Presentation: 30%
+Questions about readings: 20%
+Final paper: 50%
+</code></pre></div></div>
+
+<h3 id="questions">Questions</h3>
+
+<p>Please register on the forum on CMS, and write questions there (click “forum” at the top after logging in CMS)</p>
+
+<p>Starting with the first reading unit, every student submits one question about the readings by Monday noon.
+Questions are graded on a 3-point scale, 0: no question submitted, 1: superficial question, 2: insightful question (insightful questions don’t mean long questions). Students can also submit more than one questions, the grade will be calculated as the highest score among questions（So you can also ask some basic questions that you want clarification).</p>
+
+<h3 id="presentations">Presentations</h3>
+
+<p>We expect that presentations will cover the key points from the readings, such as the main evidence for and against the key claims under consideration in the paper.</p>
+
+<p>We do not expect that presentations will cover all details of the papers. Rather, you should focus on big picture findings and conclusions, and are not expected to include every finding from the paper in your presentation. Select what you consider the key points.</p>
+
+<p>Make sure to motivate the papers’ research question(s).
+Give background on key concepts, and convey to the audience your understanding of why certain research decisions were made.</p>
+
+<p>Critically engage with the reading: contribute your own opinion on the key findings, and on the paper’s motivation and arguments. In what ways do or don’t you agree with arguments made by the authors?</p>
+
+<p>As you’ll be presenting in teams of two, don’t just present the two papers separately, but make sure to also draw connections and compare if two papers are related.</p>
+
+<p>Aim for 50-60 minutes of presentation (sum of two papers), allowing 30-40 minutes of discussion. You will have sufficient time, so avoid speaking too fast for others to keep up, make sure your audience is following. Making presentation is to convey information, if audience cannot follow, it’s waste of time for both sides.</p>
+
+<p>Generating and moderating in-class discussion is a key component of your presentation – thinking about what will be interesting to your audience will thus be important.</p>
+
+<p>Discussion should happen not just after the presentation, but you should engage the audience and create ample opportunity for discussion during your presentation.</p>
+
+<p>Before the presentation, take a look at the questions that have been posted in the forum and refer to these as needed. You are not expected to answer each question, feel free to cluster similar questions and discuss them during your presentation. These may be useful for getting discussion started.
+Conversely, when attending other students’ talks, reciprocate by participating actively in the discussion.</p>
+
+<h3 id="final-papers-for-the-7cp-version">Final Papers (for the 7CP version)</h3>
+
+<p><strong>Note: We will discuss this in the first meeting. Requirements may be changed based on popular demand.</strong></p>
+
+<p>Term papers will be about a small independent project.</p>
+
+<p>You will investigate some interpretability question about neural networks.
+You could investigate an existing model, or train and interpret a model of your own.
+You could use an existing method or try to come up with some new analysis approach.
+You could also compare different analysis approaches, or investigate interpretability from a theoretical angle.</p>
+
+<p>The report is expected to contain a brief literature review, motivation of your study, a description of what you did, and you found. It’s recommended to include quantitative validation of what you found, so that you show it’s not an illusion.</p>
+
+<!-- The report is expected to include quantitative evaluation of the LLM's behavior (e.g., using measures such as accuracy). Additionally including qualitative evaluation can also be beneficial. -->
+
+<p>The report should have 8 pages of main report, plus unlimited appendix, in the NeurIPS style format. The main report should be self-contained, but you can use the appendix to report prompts, further analyses, or other material.</p>
+
+<p><strong><em>You are required to write the report entirely on your own. You may use LLMs to help with the coding. But you are responsible for correctness of the code and experiments. In the report, you should describe which part of the project is done with the help of LLMs in a separate section called “LLMs Usage”, which doesn’t count towards the page limit.</em></strong></p>
+
+<p>The report should be uploaded via CMS. The due date is March 15, 2026.</p>
+
+<h2 id="contact">Contact</h2>
+
+<p>Please contact Xinting (xhuang@lst.uni-saarland.de) or Michael (mhahn@lst.uni-saarland.de) for any questions.</p>
+
+<h2 id="accommodations">Accommodations</h2>
+
+<p>If you need any accommodations due to a disability or chronic illness, please either contact Michael at mhahn@lst.uni-saarland.de or the <a href="https://www.uni-saarland.de/en/administration/diversity.html">Equal Opportunities and Diversity Management Unit</a> of the university.</p>
+
+
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>

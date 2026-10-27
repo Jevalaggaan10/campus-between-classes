@@ -1,0 +1,63 @@
+Main Page
+Imprecise Probabilistic Machine Learning
+Krikamol Muandet
+Registration for this course
+is open until
+Saturday, 31.10.2026 23:59
+.
+News
+What to Do Before Our First Lecture
+Written on
+15.10.26
+by Krikamol Muandet
+Thank you for registering for the course. A few important things to keep in mind:
+All important information about the course can be found at the course website:
+ri-lab.org/ipml
+.
+To receive the Zoom link, please register via this
+registration link
+.
+To receive news, updates, and…
+Read more
+Thank you for registering for the course. A few important things to keep in mind:
+All important information about the course can be found at the course website:
+ri-lab.org/ipml
+.
+To receive the Zoom link, please register via this
+registration link
+.
+To receive news, updates, and announcements, please join our Google Group,
+ipml-course-ws-2026-2027
+. All announcements will be made through this Google Group.
+The first lecture will take place on
+October 16, 10:00-12:00 CET
+in the
+Lecture Hall (0.05) of CISPA C0 Building (Stuhlsatzenhaus 5 66123 Saarbrücken).
+Looking forward to seeing you there in person!
+Welcome to IPML!
+Written on
+12.08.26
+by Krikamol Muandet
+More information about the course will follow soon.
+Imprecise Probabilistic Machine Learning
+About the Course
+While modern machine learning (ML) algorithms have made significant progress, most are built on classical probability theory and associated decision theory. This framework often struggles to capture the multifaceted uncertainties inherent in complex, real-world systems, which can negatively impact the robustness, trustworthiness, and safety of deployed models. Imprecise probability (IP) provides a more flexible and faithful approach to representing and manipulating uncertainty. By relaxing the additivity axiom, which is a foundational rule in Kolmogorov’s classical probability theory, we can create more flexible models for quantifying uncertainty. These models, which go beyond standard probability measures, include concepts like capacities, lower and upper previsions, and belief functions, along with possibility and necessity measures. Imprecise Probabilistic Machine Learning (IPML) is a growing area of research dedicated to developing ML models that leverage IP theory to achieve greater robustness, trustworthiness, and safety.
+In this course, students will learn the theoretical foundations of imprecise probability, its ability to capture the complex uncertainties in real-world systems, and its practical applications in machine learning. The course will explore the field’s breadth, from philosophical debates surrounding the nature and interpretation of probability to cutting-edge applications in areas such as classification, regression, conformal prediction, reinforcement learning, causal inference, and foundation models. In addition, students will gain hands-on experience implementing simple IPML algorithms to solve problems in different application areas.
+This course covers four main topics:
+Foundation of Imprecise Probability
+— learn the core principles behind this powerful theory.
+Imprecise Probabilistic Machine Learning (IPML)
+— discover how to integrate IP into machine learning models.
+IPML in Modern AI
+— explore its application in cutting-edge fields like deep learning, foundation models, large language models (LLMs), and generative AI (GenAI).
+Applications for Trustworthy AI
+— understand how IPML can be used to improve fairness, privacy, ethics, and safety in AI systems.
+Throughout the course, students will solidify their understanding by completing a combination of written and coding exercises. This hands-on approach allows them to implement and evaluate the techniques they learn.
+Official Website
+https://muandet-lab.github.io/ipml-course/
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

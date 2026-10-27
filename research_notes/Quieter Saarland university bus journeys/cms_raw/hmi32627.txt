@@ -1,0 +1,145 @@
+Hauptseite
+Kurse
+Hauptseite
+Informationen
+Termine
+Team
+Anmeldung
+Persönliche Statusseite
+Login
+Angemeldet bleiben
+Login
+Registrierung
+Passwort vergessen?
+Dunklen Modus aktivieren
+Hellen Modus aktivieren
+Höhere Mathematik für Ingenieure III
+Thomas Schuster, Dean Zenner
+News
+Abgabe 1. Übungsblatt
+Geschrieben am
+22.10.26
+von Dean Zenner
+Liebe Studierende,
+da das CMS wieder online ist, können die Abgaben der Übungsblätter wieder über das CMS erfolgen. Außerdem könnt Ihr jetzt eure zugewiesene Übungsgruppe einsehen.
+Für die Abgabe des ersten Blatt steht euch noch Zeit bis morgen 18 Uhr zu Verfügung. Ich würde jeden bitten, der…
+Weiterlesen
+Liebe Studierende,
+da das CMS wieder online ist, können die Abgaben der Übungsblätter wieder über das CMS erfolgen. Außerdem könnt Ihr jetzt eure zugewiesene Übungsgruppe einsehen.
+Für die Abgabe des ersten Blatt steht euch noch Zeit bis morgen 18 Uhr zu Verfügung. Ich würde jeden bitten, der bereits per E-Mail abgeben hat, die Abgabe noch einmal im CMS zu machen. Das hilft bei der Organisation. Danke!
+Liebe Grüße,
+Dean Zenner
+Beginn Vorlesung 22.10. um 8:45 Uhr
+Geschrieben am
+21.10.26
+von Thomas Schuster
+Liebe Studierende,
+da ich meinen Wagen morgen früh unbedingt noch in die Werkstatt bringen muss, beginnt die morgige Vorlesung (22.10.26) etwa 15 Minuten später, also um 8:45 Uhr.
+Bis Morgen und viele Grüße,
+Thomas Schuster
+Höhere Mathematik für Ingenieure III
+Dozent: Prof. Dr. Thomas Schuster
+Vorlesungszeiten:
+Mo und Do 08-10 Uhr
+Vorlesungsort:
+E2.5, HS I
+Der erste Vorlesungstermin ist am
+Donnerstag, den 15.10.2026 um 08:30 Uhr.
+Anmeldung
+Die Anmeldung zur Vorlesung ist ab sofort und bis zum
+21.10.26 08:00 Uhr
+möglich.
+Bitte melden Sie sich an und geben dabei Ihre präferierten Zeiten bzgl. Übung an, damit wir Sie Ihren Übungsgruppen entsprechend einteilen können.
+Inhalt der Vorlesung
+Gewöhnliche lineare Differentialgleichungen
+Systeme linearer gewöhnlicher Differentialgleichungen erster Ordnung
+Spektraltheorie quadratischer Matrizen
+Stetige Funktionen mehrerer Veränderlicher
+Kurven im
+Rn
+Differentialrechnung in mehreren Veränderlichen
+Kurvenintegrale
+Integrale im
+Rn
+Der Gaußsche Integralsatz
+Der Integralsatz von Stokes
+Übungen
+Um den Vorlesungsstoff zu vertiefen werden Übungsblätter veröffentlicht (zu finden unter Materialien), die innerhalb von einer Woche in Zweier- bis Dreiergruppen bearbeitet und per Upload im CMS abgegeben werden sollen.
+Die Mitglieder einer Abgabe-Gruppe müssen derselben Übungsstunde zugeordnet sein.
+Um in Gruppen abzugeben, nutzen Sie bitte die Funktion zur Gruppen-Bildung unter Team Groupings. Für die Gruppen-Abgabe muss nur eine Person der Gruppe die Lösungen hochladen. Weiterhin sollte pro Woche immer dieselbe Person der Gruppe die Lösungen hochladen.
+Zusätzlich zu den Vorlesungsterminen finden wöchentlich Übungen statt, in denen die Lösungen der Übungsaufgaben besprochen werden und in denen Sie Ihre Abgaben korrigiert und bepunktet zurückbekommen.
+Das erste Übungsblatt erscheint in der ersten Vorlesungswoche. Die Einteilung in Übungsgruppen findet in der zweiten Vorlesungswoche statt. Die Übungen beginnen in der dritten Vorlesungswoche!
+Die Übungen finden wie folgt statt:
+Termin
+Ort
+Tutor
+Montag 10-12 Uhr
+Zeichensaal, E2.5
+Philipp Henrikus
+Montag 12-14 Uhr
+SR 3, E2.5
+Elias Löffler
+Montag 14-16 Uhr
+SR 3, E2.5
+Paul Müller
+Dienstag 8-10 Uhr
+SR 1, E2.5
+Luca Kochems
+Dienstags 10-12 Uhr
+SR 10, E2.4
+Paul Müller
+Mittwoch 14-16 Uhr
+SR 5, E2.4
+Jannis Collmann
+Donnerstag 12-14 Uhr
+SR 5, E2.4
+Norman Weinland
+Freitag 10-12 Uhr
+SR 4, E2.5
+Alexander Klein
+Hinweis: Alle Uhrzeiten sind ct, d.h. z.B. eine Übung 10-12 Uhr beginnt um 10:15 Uhr. Die Ausnahme ist 8 Uhr, hier beginnt die Übung um 8.30 Uhr.
+Scheinkriterien
+Die Vorlesung ist mit 9 Credit Points gewichtet. Um einen Schein zu erhalten, müssen
+mindestens 50% der erreichbaren Punkte auf den ersten 6 sowie 50% der erreichbaren Punkte auf den restlichen Übungsblättern erreicht werden,
+die abschließende Prüfung bestanden werden.
+Klausuren
+Die Anmeldung zu den einzelnen Klausurterminen erfolgt über das LSF. Bei Problemen wenden Sie sich bitte zunächst an das Prüfungsamt.
+Hauptklausur:
+19.02.2027, 9:00-12:00 Uhr, E2.5, HS I, HS II, HS III.
+Nachklausur: 24.03.2027, 9:00-12:00 Uhr, Günter-Hotz-Hörsaal und E2.5 HS I, HS II.
+Bitte denken Sie daran sich frühzeitig im LSF zur Klausur anzumelden. Die Anmeldungen sind bis eine Woche vor dem jeweiligen Klausurtermin möglich.
+Als Hilfsmittel zur Klausur sind zugelassen
+ein beidseitig handbeschriebenes DIN A4 Blatt,
+ein (nicht-programmierbarer) Taschenrechner.
+Elektronische Geräte wie Smartphones o.ä. sind während der Klausur vollständig auszuschalten.
+Für die erfolgreiche Teilnahme an dieser Vorlesung erhalten Sie 9 Credit Points.
+Einsicht
+Hauptklausur: tba.
+Nachklausur: tba.
+Skript
+Das Vorlesungsskript wird kapitelweise auf CMS hochgeladen.
+Bitte beachten Sie, dass das Vorlesungsskript nicht die Teilnahme an der Vorlesung selbst ersetzen.
+Es wird keine Gewähr für die Richtigkeit des Skripts übernommen.
+Literatur
+Literaturvorschläge erhalten Sie aus dem Semesterapparat:
+Campusbibliothek für Informatik und Angewandte Mathematik - Semesterapparat
+Sprechstunden
+Fragen zum Vorlesungsstoff können Sie sowohl in der Übung, als auch in den Sprechstunden der Tutoren stellen. Die Sprechstunden finden ab der
+dritten
+Vorlesungswoche im Mathe-Gruppenübungsraum statt. Die Termine der Sprechstunden sind:
+Dean Zenner: auf Anfrage.
+Montag 12-13 Uhr Philipp Henrikus.
+Montag 14-15 Uhr Elias Löffler.
+Montag 16-17 Uhr Luca Kochems.
+Dienstag 9-10 Uhr Paul Müller.
+Dienstag 13-14 Uhr Jannis Collmann.
+Donnerstag 15-16 Uhr Norman Weinland.
+Freitag 12-13 Uhr Alexander Klein.
+Fragen
+Bei Fragen wenden Sie sich bitte an Dean Zenner, der die Vorlesung betreut.
+Datenschutz
+|
+Impressum
+Bitte wenden Sie sich bei technischen Problemen an
+die Administratoren
+.

@@ -1,0 +1,1968 @@
+
+### cv4d 3D and 4D Computer Vision
+is open until
+Sunday, 01.11.2026 00:00
+.
+Written on
+22.10.26
+(last change on
+22.10.26
+)						by Gino Lanzo Hahn
+Exercise Sheet 1:
+Released today (22.10.2026) with a deadline of 04.11.2026.
+First Q&A Session:
+Scheduled for 29.10.2026 in Building E1.4, Room…
+Read more
+Exercise Sheet 1:
+Released today (22.10.2026) with a deadline of 04.11.2026.
+First Q&A Session:
+Scheduled for 29.10.2026 in Building E1.4, Room 023.
+The Q&A session will begin with a detailed rundown of the format of the tutoring encounters, followed by the actual Q&A.
+Time:
+Wednesdays: 14:15 – 15:45 p.m. (lecture) / Thursdays: 14:15 – 15:45 p.m. (exercise)
+Location:
+Wednesdays: 002 in E1 5 / Thursdays: 023 in E 1 4
+Exam:
+Course Content
+21.10.26: Introduction and Fundamentals of 3D and 4D Computer Vision I
+28.10.26: Fundamentals of 3D and 4D Computer Vision II
+04.11.26: Scene Representations
+11.11.26: Correspondence Problems
+18.11.26: Multi-View Geometry and Structure from Motion
+25.11.26: Volumetric Rendering
+02.12.26: No Lecture
+09.12.26: General 4D Reconstruction (
+remote
+)
+16.12.26: No Lecture
+Holiday break
+06.01.27: No Lecture
+13.01.27: Human Pose Estimation (
+remote
+)
+20.01.27: Egocentric 4D Vision (
+remote tentatively
+)
+27.01.27: Generative Models
+03.02.27: Event-Based Vision
+10.02.27: Recap and Recent Research
+17.02.27: Recent Research
+Exercise Sheets and Q&A Sessions
+22.10.26: Exercise sheet 1 released
+29.10.26: Q&A Exercise sheet 1
+05.11.26: Exercise sheet 2 released + Solutions for Exercise sheet 1 presented
+12.11.26: Q&A Exercise sheet 2
+19.11.26: Exercise sheet 3 released + Solutions for Exercise sheet 2 presented
+26.11.26: Q&A Exercise sheet 3
+10.12.26: Exercise sheet 4 released + Solutions for Exercise sheet 3 presented
+17.12.26: Q&A Exercise sheet 4
+Holiday break
+14.01.27: Exercise sheet 5 released + Solutions for Exercise sheet 4 presented
+21.01.27: Q&A Exercise sheet 5
+28.01.27: Exercise sheet 6 released + Solutions for Exercise sheet 5 presented
+04.02.27: Q&A Exercise sheet 6
+11.02.27: Solutions for Exercise sheet 6 presented + Q&A Exam
+Please refer to the course timetable for detailed session timings and assignment submission deadlines.
+LINKS: [('Timetable', 'https://cms.sic.saarland/cv4d/termine/calendar/index'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### atos Advanced Topics in Operating Systems
+is open until
+Saturday, 31.10.2026 23:59
+.
+Written on
+26.10.26
+by Andrew Geyko
+Hello all.
+According to the survey results, we will have the tutorial slots Mondays 11:30-13:00 and Thursdays 11:00-12:30, in Room 1.21 in E1.1. It is located in the HPC chair on the 1st floor, at the end of the hall on the left.
+We will not have the tutorial today (Monday) but there will be a…
+Read more
+Hello all.
+According to the survey results, we will have the tutorial slots Mondays 11:30-13:00 and Thursdays 11:00-12:30, in Room 1.21 in E1.1. It is located in the HPC chair on the 1st floor, at the end of the hall on the left.
+We will not have the tutorial today (Monday) but there will be a tutorial on Thursday this week. Following weeks will have tutorials Mondays and Thursdays. Attend whichever slot is most convenient for you.
+If these slots do not work for you, please reach out to the tutors and we will try and find a solution.
+Written on
+25.10.26
+by André Brinkmann
+Written on
+23.10.26
+by Andrew Geyko
+Written on
+23.10.26
+by Andrew Geyko
+Written on
+14.10.26
+(last change on
+14.10.26
+)						by André Brinkmann
+The first ATOS lecture will take place on Friday, October 23, at 8:30 a.m. in Building E1 3 – Lecture Hall I (0.01.1).
+Advanced Topics in Operating Systems
+The final grade will consist of the best score out of two midterm exams along with a final presentation. One of the midterm exams must be passed in order to qualify for part 2 of the lecture. The dates are as follows:
+Midterm 1 - 20.11.26 @ 8:30 (Lecture Slot)
+Midterm 2 - TBD
+base = 2
+on a cluster with 10 I/O nodes (0–9). (a) Which I/O node holds byte 1,000,000? (b) How many I/O nodes does a 1 MiB read at offset 3 MiB touch, and how many stripes does each serve?
+Privacy Policy
+LINKS: [('Timetable', 'https://cms.sic.saarland/atos/termine/calendar/index'), ('Tutorial Slots', 'https://cms.sic.saarland/atos/news/view/5'), ('Information on first inverted classroom is online', 'https://cms.sic.saarland/atos/news/view/4'), ('Tutorial Slot', 'https://cms.sic.saarland/atos/news/view/2'), ('First Lecture', 'https://cms.sic.saarland/atos/news/view/1'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### aisystems AI Systems
+Written on
+25.10.26
+(last change on
+25.10.26
+)						by Basel Fakhri
+Written on
+24.10.26
+(last change on
+26.10.26
+)						by Basel Fakhri
+Written on
+25.08.26
+(last change on
+04.09.26
+)						by Prathamesh Doundkar
+Kick-Off Lecture:
+Oct 14th, Wednesday 15:00 - 17:00
+First Lecture:
+Oct 21st, Wednesday 15:00 - 17:00
+Weekly Lectures
+:
+Starting Oct 26th (included), a weekly lecture will take place every Monday at 15:00 - 17:00
+Location
+Kick-Off Lecture:
+Oct 14th, Wednesday 15:00 - 17:00
+First Lecture:
+Oct 21st, Wednesday 15:00 - 17:00
+Weekly Lectures
+:
+Starting Oct 26th (included), a weekly lecture will take place every Monday at 15:00 - 17:00
+Location
+LINKS: [('Timetable', 'https://cms.sic.saarland/aisystems/termine/calendar/index'), ('Presentations Schedule', 'https://cms.sic.saarland/aisystems/news/view/2'), ('Course Schedule', 'https://cms.sic.saarland/aisystems/news/view/1'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### alg26 Algebra
+is open until
+Saturday, 31.10.2026 23:59
+.
+Written on
+22.10.26
+by Christian Steinhart
+Dear all,
+the CMS was updated and works again. You can find the next exercise sheet and the notes for this week (plus what we are going to do next Wednesday) as usual under materials.
+Best regards and have fun!
+Written on
+15.10.26
+(last change on
+15.10.26
+)						by Christian Steinhart
+" in the CMS.
+You can hand it in until next week Thursday per CMS under "Personal Status".
+There you can also create/join your working group. If you are in a working group, only one person needs to submit the…
+" in the CMS.
+You can hand it in until next week Thursday per CMS under "Personal Status".
+There you can also create/join your working group. If you are in a working group, only one person needs to submit the solution for the whole group and points will be distributed to each group member.
+The first tutorial will take place next Monday at 8:30 in SR 9.
+Best regards and have fun!
+Lecture
+Wednesdays, 14:15-15:45 o'clock in "Zeichensaal", building E 2 5
+Thursdays, 10:15-11:45 o'clock in "Zeichensaal", building E 2 5
+Tutorial
+Mondays 8:30-10:00 o'clock in SR 9, building E 2 4 starting at the 19th October
+office hours from Laura: Mondays 14 o'clock in building E 2.4 in room 3 03
+Exam
+There will be weekly exercise sheets which can be submitted each week per CMS. Submissions in fixed groups of 3 people are permitted.
+There will also be weekly tutorials each Monday from 8:30 to 10:00 in SR 9 where you can ask questions regarding the exercise and get an additional tutorial exercise sheet.
+On each exercise sheet you can attain up to 30 points, for attending the tutorial you get 5P each week and up to 10P for successful participation of the tutorial.
+LINKS: [('Timetable', 'https://cms.sic.saarland/alg26/termine/calendar/index'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### alg_geo Algebraic Geometry
+Lectures:
+Tuesdays 16-18 in SR10 (316), Gebäude E2.4
+Wednesdays 10-12 in SR10 (316), Gebäude E2.4
+Exam Criteria
+Exercise Class:
+Wednesdays 14-16 in SR1 (U.37), Gebäude E2.5
+Tutor: Laura Stokkermans
+Office hours: Tuesdays 11-12 in Office 313 (Gebäude E2.4)
+Literature
+LINKS: [('Timetable', 'https://cms.sic.saarland/alg_geo/termine/calendar/index'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### algodat2627 Algorithmen und Datenstrukturen für Informatik-Lehramt Sekundarstufe I
+Geschrieben am
+20.10.26
+von Antonio Castronovo
+Geschrieben am
+18.10.26
+von Antonio Castronovo
+findet am
+Montag, den 26.10.2026, von 11:45 bis 13:15 Uhr
+statt.
+findet am
+Montag, den 26.10.2026, von 11:45 bis 13:15 Uhr
+statt.
+statt. Sollte sich der Raum ändern, informieren wir Sie rechtzeitig.
+Das erste Übungsblatt wird am Montag, den 19.10.2026, veröffentlicht.
+Mit freundlichen Grüßen
+Geschrieben am
+09.10.26
+von Lukas Wachter
+Geschrieben am
+07.10.26
+von Lukas Wachter
+herzlich Willkommen zur Vorlesung Algorithmen und Datenstrukturen für Informatik-Lehramt Sek I.
+Bitte beachten Sie, dass der erste Vorlesungstermin erst am Donnerstag, 15.10., 8:15 Uhr stattfinden wird.
+Mit freundlichen Grüßen
+LINKS: [('Termine', 'https://cms.sic.saarland/algodat2627/termine/calendar/index'), ('Important Information About This Course', 'https://cms.sic.saarland/algodat2627/news/view/2'), ('die Administratoren', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### alsa26 Algorithms for Sequence Analysis
+Written on
+20.10.26
+(last change on
+20.10.26
+)						by Alexey Gurevich
+Slides 27–30.
+Sorry for running over time in today's lecture (01-3-kmp.pdf). We went through the last slides (27–30) very quickly, so please look through them yourselves. I expect we will have extra time on Thursday to discuss them further.
+Extended deadline (one-time…
+Slides 27–30.
+Sorry for running over time in today's lecture (01-3-kmp.pdf). We went through the last slides (27–30) very quickly, so please look through them yourselves. I expect we will have extra time on Thursday to discuss them further.
+Extended deadline (one-time exception!).
+Following individual requests, I am extending
+both the course registration and the deadline for submitting Assignment-00 to today, 20.10.2026, 23:59
+. If you plan to take this course this semester, please register and submit the assignment by then.
+I removed a redundant registration step inside the CMS, which confused several students. Only 28 of the 55 enrolled students had completed it, and it had no effect on anything anyway.
+I also added an option to unregister from the course in the CMS until 01.11.2026. I don't mind if you stay registered without submitting anything. But if unregistering is more convenient for you, you can now do it.
+Best regards,
+Written on
+19.10.26
+by Moein Karami
+There will be two identical tutorial sessions each week, and you are welcome to attend either one:
+Tuesdays, 14:30–16:00, Room 001
+Wednesdays, 10:30–12:00, Room 007
+The first session will take place next week, on Tuesday, 27 October.
+Best…
+There will be two identical tutorial sessions each week, and you are welcome to attend either one:
+Tuesdays, 14:30–16:00, Room 001
+Wednesdays, 10:30–12:00, Room 007
+The first session will take place next week, on Tuesday, 27 October.
+Best regards,
+Written on
+15.10.26
+by Moein Karami
+Lecture Dates:
+every Tuesday 08:30 - 10:00, starting 13.10.2026
+every Thursday 08:30 - 10:00, ending 04.02.2026
+except on official holidays and during New Year's break (21.12.2026 -- 01.01.2027)
+Room: E2.1, room 001 (Center for Bioinformatics, seminar room, ground floor)
+Tutorials (two equivalent sessions; feel free to attend any), starting 27.10.2026:
+Tuesdays, 14:30–16:00, Room: E2.1, room 001 (the same as lectures)
+Wednesdays, 10:30–12:00, Room: E2.1, room 007 (small seminar room, ground floor)
+You need to be registered for this course in order to access the
+You need to register for the course here in the CMS to access the course materials, including homework (
+registration deadline is 18.10.2026 at 23:59
+).
+of the following: the introductory Assignment 00 (
+due 19.10.2026, 23:59
+), all theoretical and all programming exercises across the ~14 assignments. (Yes, this means at least 50% in each category separately. If you cannot program, do not take this course!)
+LINKS: [('Timetable', 'https://cms.sic.saarland/alsa26/termine/calendar/index'), ('ALSA Tutorial Sessions: Schedule and Start Date', 'https://cms.sic.saarland/alsa26/news/view/2'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### ana1_2627 Analysis 1
+Geschrieben am
+23.10.26
+(letzte Änderung am
+23.10.26
+)						von Mark Groves
+Das zweite Übungsblatt kann nun vom CMS abgerufen werden. Abgabetermin: 30. Oktober um 12:00 Uhr.
+CMS Downtime
+Geschrieben am
+22.10.26
+von Fabian Brenner
+Geschrieben am
+21.10.26
+von Mark Groves
+Wegen Krankheit müssen die Lehrveranstaltungen von Prof. Groves heute (Mittwoch 21. Oktober) ausfallen. Wir bitten um Verständnis.
+Tutorieneinteilung
+Geschrieben am
+18.10.26
+von Fabian Brenner
+Geschrieben am
+16.10.26
+von Mark Groves
+Das erste Übungsblatt kann nun vom CMS abgerufen werden. Abgabetermin: 23. Oktober um 12:00 Uhr.
+Sprechstunden
+Geschrieben am
+16.10.26
+von Fabian Brenner
+Geschrieben am
+12.10.26
+von Fabian Brenner
+Geschrieben am
+05.10.26
+von Mark Groves
+Der Einsatz von einer KI ist untersagt.
+Der Abgabetermin ist Freitag um 12 Uhr.
+Mögliche Lösungswege der Übungsblätter werden anschließend in der Saalübung besprochen, die Korrekturen und Bepunktungen Ihrer Abgaben werden im CMS hochgeladen.
+LINKS: [('Termine', 'https://cms.sic.saarland/ana1_2627/termine/calendar/index'), ('die Administratoren', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### ana3_2627 Analysis 3
+Geschrieben am
+18.10.26
+von Jens De Vries
+Die Kleingruppenübungen sind nun eingeteilt (siehe CMS). Die ersten Termine finden am 20.10. bzw. am 23.10 statt.
+Erste Vorlesung am Mittwoch
+Geschrieben am
+10.10.26
+von Michael Hartz
+Auf Grund der zentralen Eröffnungsveranstaltung findet die erste Vorlesung am Mittwoch statt.
+Analysis 3
+Vorlesung
+Montag, 10:15 - 12 Uhr in Hörsaal III
+Mittwoch, 10:15 - 12 Uhr in Hörsaal IV
+Die erste Vorlesung ist am Mi, 14.10.26. Ein Skript zur Vorlesung wird schrittweise unter Informationen/Materialien bereitgestellt.
+Kleingruppenübungen
+Do 16-17
+Alle Sprechstunden finden im Gruppenarbeitsraum (Raum 317) statt. Zusätzlich gibt es eine Sprechstunde des Assistenten, die jede Woche mittwochs von 12 - 13 Uhr in Raum 4.35 (E2.4) stattfindet.
+Klausurtermine (vorläufig)
+Die erste Klausur findet voraussichtlich am 24.02. und die zweite Klausur am 24.03. statt.
+Inhalt
+Übungsbetrieb/Klausurzulassung
+Jeden Montag werden ein Hausaufgabenblatt und ein Präsenzübungsblatt veröffentlicht. Die Präsenzübungen werden in den Kleingruppenübungen gemeinsam gelöst und besprochen. Das Hausaufgabenblatt wird im Anschluss selbstständig bearbeitet und in Gruppen von maximal 3 Studierenden bis zum Dienstag, 12:00 Uhr, der Folgewoche über CMS abgegeben.
+Um die Zulassung zur Klausur zu erhalten, müssen Sie mindestens 2/3 aller möglichen Übungspunkte erlangen. Die Übungspunkte entfallen zu 2/3 auf die Übungsblätter und zu 1/3 auf die Anwesenheit in den Kleingruppen (bei letzterem ist die maximale Ausbeute bereits nach 10 besuchten Übungsterminen erreicht).
+LINKS: [('Termine', 'https://cms.sic.saarland/ana3_2627/termine/calendar/index'), ('die Administratoren', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### aet2026 Artificial Empathic Technology
+is open until
+Friday, 30.10.2026 00:00
+.
+Overall Lecture Schedule
+Every Thursday, HS003, E1 3, 10:00–12:00 · Domains: CS = Computer Science, Psy = Psychology, Eth = Ethics / Philosophy
+#
+1
+22.10.2026
+CS, Psy
+2
+29.10.2026
+Psy
+3
+05.11.2026
+Psy
+4
+12.11.2026
+Psy
+5
+19.11.2026
+CS, Psy
+6
+26.11.2026
+CS
+7
+03.12.2026
+Psy
+8
+10.12.2026
+Eth, Psy
+9
+17.12.2026
+Psy, CS
+10
+07.01.2027
+Psy
+11
+14.01.2027
+Psy, CS
+12
+21.01.2027
+CS, Eth
+–
+28.01.2027
+–
+–
+04.02.2027
+–
+LINKS: [('Timetable', 'https://cms.sic.saarland/aet2026/termine/calendar/index'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### ai_2627 Artificial Intelligence
+Written on
+26.10.26
+by Jan Eisenhut
+Written on
+22.10.26
+by Jan Eisenhut
+you can now select your tutorial preferences on your personal status page in CMS. If you wish to attend a tutorial, please submit your preferences by
+Monday, October 26, 12:00
+. If you do not submit preferences, we will assume you do not wish to attend the tutorials and will not…
+you can now select your tutorial preferences on your personal status page in CMS. If you wish to attend a tutorial, please submit your preferences by
+Monday, October 26, 12:00
+. If you do not submit preferences, we will assume you do not wish to attend the tutorials and will not assign you to any.
+The first lecture will be on
+October 13th, 14:15 in E1 3, Lecture Hall 002
+. See also the
+LINKS: [('Timetable', 'https://cms.sic.saarland/ai_2627/termine/calendar/index'), ('Tutorial Assignment', 'https://cms.sic.saarland/ai_2627/news/view/2'), ('Tutorial Preferences', 'https://cms.sic.saarland/ai_2627/news/view/1'), ('Timetable', 'https://cms.sic.saarland/ai_2627/termine/calendar/index'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### avcn_2627 Audio-Visual Communication & Networks (WS 2026)
+Time:
+Tuesday 10:30–11:45
+and
+Wednesday 12:15 - 13:45
+(start
+Time:
+Thursday 14:15–15:45
+Quizzes
+Time:
+Tuesday 10:00–10:30
+Task Sheets
+Main Exam
+CW07, February, 2027, Place: C6 3 10.02, Slots tbd
+Re-Exam
+CW11, March, 2027, Place: C6 3 10.02, Slots tbd
+Exam Eligibility
+Matthew S. Gast:
+"802.11ac: A Survival Guide", O'Reilly, 2013
+John G. Proakis, Masoud Salehi:
+LINKS: [('Timetable', 'https://cms.sic.saarland/avcn_2627/termine/calendar/index'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### graph_seminar26 Back to the Roots: Graph Algorithms for Small Molecules
+Written on
+23.10.26
+by Lisa-Marie Rolli
+we just performed the topic assignment. You can see your assigned topic on your personal status page. Please note that your presentation date (and thus, your first deadline) depend on your assigned supervisor:
+Ana: 16.11.
+Michael: 23.11.
+Lisa: 30.11.
+Kind regards,
+LSF
+until 2.11.2026. If you miss this deadline, you cannot participate in the seminar.
+Requirements for Passing:
+Kick-off event:
+19.10.2027 12:15-14:00, building E2.1 room 416
+Presentations block 1:
+Nov. 16, Nov. 23, Nov 30 at 12:15-14:00, building E2.1 room 416
+Presentations block 1:
+Jan. 11, Jan. 25, Feb. 1 at 12:15-14:00, building E2.1 room 416
+All dates can also be found in the
+LINKS: [('Timetable', 'https://cms.sic.saarland/graph_seminar26/termine/calendar/index'), ('calendar', 'https://cms.sic.saarland/graph_seminar26/termine/calendar/index'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### bioinf1_26 Bioinformatik 1
+ist noch bis zum
+Dienstag, 27.10.2026 13:59
+geöffnet
+News
+Vorlesung 29.10
+Geschrieben am
+26.10.26
+von Lara Hombrecher
+Hallo zusammen,
+die Vorlesung am Donnerstag, 29.10.2026 wird von 14.00h (nicht 14.15h) bis 15.00h stattfinden!
+Morgen entfällt die Vorlesung.
+Geschrieben am
+19.10.26
+von Lara Hombrecher
+Geschrieben am
+13.10.26
+von Lara Hombrecher
+Vorlesungen:
+Dienstags & Donnerstags 14-16h
+Vorlesungsbeginn:
+13.10.2026
+Übungen:
+Dienstags 12-14h
+Übungsbeginn:
+27.10.2026
+Klausur
+Registrierung:
+Bis zum 27.10.2026 13:59 auf der Anmeldungsseite im CMS
+Materialien:
+LINKS: [('Termine', 'https://cms.sic.saarland/bioinf1_26/termine/calendar/index'), ('die Administratoren', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### biostatslab26 BioStatsLab
+is open until
+Saturday, 31.10.2026 23:59
+.
+Written on
+23.10.26
+(last change on
+24.10.26
+)						by Inês Ferreira
+Since CMS was down, we couldn’t post the tutorial rooms earlier, so here they are:
+Wednesdays, 14:15: room 001
+Thursdays, 12:15: room 007
+The tutorials are a great opportunity to work through the exercise sheets and ask any questions you have, so I’d really encourage you to come.
+Written on
+14.10.26
+by Sven Rahmann
+Please note the following dates for the exams:
+Main exam: 12.02.2027 in E1.3, HS 001, 09:00-12:00
+Re-take exam: 16.03.2027 in E1.3, HS 001, 14:00 - 17:00
+Exams are closed book, an official "cheat sheet" (that will be available well before exam dates) is handed out with the problems. No other…
+Please note the following dates for the exams:
+Main exam: 12.02.2027 in E1.3, HS 001, 09:00-12:00
+Re-take exam: 16.03.2027 in E1.3, HS 001, 14:00 - 17:00
+Exams are closed book, an official "cheat sheet" (that will be available well before exam dates) is handed out with the problems. No other "helpers" are allowed. Cheat attempts result in immediate failure and, in case of a repeated attempt, can lead to exmatriculation and loss of the ability to study. Note that problem sets may be individualized in exams.
+Again, there is an optional mock exam during the official lecture time, last lecture slot before the Christmas holidays, 18.12., from 12:15 to 13:45.
+Bash/Conda/Python basics, conda environment, slides from today, exam preparation
+Written on
+14.10.26
+by Sven Rahmann
+Exam Preparation
+As said in the lecture, the course is fast-paced, so please stay on top, do spend (much!) time on the exercises, and prioritize this one over advanced courses that might be better taken in later semesters. To help you, we will run a mock exam on the Friday before the Christmas holidays during the normal lecture time. You may or may not take it, pass or fail, there will be a grade on it, but it will not be recorded, it is just for your own information on how you are doing with the material.
+As also said today, there are no prerequisites for the exam, but I can almost guarantee that if you do not work continuously on the material and exercises, the probability to fail the exam is 90%. This are empirical values from past semesters. Phrased positively: If you keep up with the material and exercises every week (and know how to solve them by yourself without LLM help), your chances of passing are very high.
+Written on
+14.10.26
+by Sven Rahmann
+Lecture:
+Wednesday 08:30 - 10:00 and Friday 12:15 - 13:45.
+Tutorials:
+LINKS: [('Timetable', 'https://cms.sic.saarland/biostatslab26/termine/calendar/index'), ('Times/Rooms for the tutorials', 'https://cms.sic.saarland/biostatslab26/news/view/7'), ('BioStatsLab Exam Dates', 'https://cms.sic.saarland/biostatslab26/news/view/4'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### latex_2627 Block Course "Introduction to LaTeX"
+News
+No Exercise Session on Monday
+Written on
+11.10.26
+by Friedrich Günther
+Written on
+29.09.26
+by Friedrich Günther
+Hi all,
+the dates for next week are set. Course language will be english, the presentations will take place in Seminar room 013, Building E1.3, on Campus Saarbrücken. Because I can't be at university any earlier on Wednesday, the times will be as follows:
+Wednesday, October 7th: 13-14.30 and…
+Read more
+Hi all,
+the dates for next week are set. Course language will be english, the presentations will take place in Seminar room 013, Building E1.3, on Campus Saarbrücken. Because I can't be at university any earlier on Wednesday, the times will be as follows:
+Wednesday, October 7th: 13-14.30 and 15-16.30,
+Thurdsay, October 8th: 10-11.30, 13-14.30,
+Friday, Octover 9th: 10-11.30, 13-14.30
+Best,
+Block Course "Introduction to LaTeX"
+From Wednesday, 6th of October, to Friday, 8th of October, the next iteration of this introductory course to LaTeX will take place. The course will be geared towards students of mathematics, but students from other faculties are welcome, too! Unfortunately, I can't award credit points or a certificate for the seminar. A (n incomprehensive) list of covered topics:
+Basic mechanisms of LaTeX, crude typography, fonts and advice
+LINKS: [('Timetable', 'https://cms.sic.saarland/latex_2627/termine/calendar/index'), ('Schedule for next week', 'https://cms.sic.saarland/latex_2627/news/view/1'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### causxai Causal XAI
+Written on
+20.10.26
+by Nektarios Kalampalikis
+Time and place
+Tuesdays
+, 12:15 to 13:45
+Room
+in Room 0.01, Building E1.7
+from 12:15 to 13:45
+2 weeks without seminar sessions
+on how to read academic papers will be offered by our chair on
+October 29, from 12:15 to 13:45, in Room 0.01, Building E1.7
+. The paper
+LINKS: [('Timetable', 'https://cms.sic.saarland/causxai/termine/calendar/index'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### cg_2627 Computer Graphics
+Written on
+26.10.26
+by Lukas Auer
+Note: The first Tutorial assignment had a mistake so we reassigned everyone.
+No Minitest on Monday
+Written on
+23.10.26
+by Lukas Auer
+NOT
+be a Minitest on Monday. This year there will in general not be any Minitests.
+Sorry for the confusion and the miscommunication.
+Written on
+19.10.26
+by Lukas Auer
+TL;DR:
+Deadline 25.10 at 23:59
+: (1) log into GitLab once so you get access to the lightwave framework, and (2) register a team (even if you work alone) in the CMS.
+TL;DR:
+Deadline 25.10 at 23:59
+: (1) log into GitLab once so you get access to the lightwave framework, and (2) register a team (even if you work alone) in the CMS.
+Team Creation:
+The deadline to register a team and give preferences for the colloquium slot is Sunday 25.10 at 23:59.
+After this deadline we will create your group repositories for code submission and assign you and your teammate to a colloquium slot according to your preferences.
+is on
+Thursday, 15.10. at 08:30 in E1 3 HS 001.
+Pre-requisites
+Each block comprises
+two lectures (Monday and Thursday of the first week),
+a practical assignment (
+During the first week of each block:
+Monday, 10:15: lecture, assignments released
+Thursday, 08:30: lecture, reading assignment released
+Throughout the week: colloquia with your tutor about the previous assignments (
+Throughout the week: office hours
+Sunday, 23:59: deadline for all submissions
+Precise dates can be found in the
+The Exam and Re-Exam will both take place in E2.2 GHH. The dates are:
+Main Exam: 23.02.2027 14:00-16:00
+Re-Exam: 25.03.2027 14:00-16:00
+Materials
+LINKS: [('Timetable', 'https://cms.sic.saarland/cg_2627/termine/calendar/index'), ('calendar', 'https://cms.sic.saarland/cg_2627/termine/calendar/index'), ('calendar', 'https://cms.sic.saarland/cg_2627/termine/calendar/index'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### cla Continually Learning Agents
+Written on
+20.10.26
+by Marius Mosbach
+Written on
+19.10.26
+by Marius Mosbach
+Hey all,
+This is a reminder that the paper selection ends today (18:00).
+Here is the list of papers that haven't been selected by anyone yet:
+Hey all,
+This is a reminder that the paper selection ends today (18:00).
+Here is the list of papers that haven't been selected by anyone yet:
+LINKS: [('Timetable', 'https://cms.sic.saarland/cla/termine/calendar/index'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### das_26 Data and Society
+Written on
+23.10.26
+(last change on
+23.10.26
+)						by Ankan Mullick
+Written on
+23.10.26
+by Ankan Mullick
+The Data and Society Seminar will take place from 10 am to 12 pm every Friday at E1 7 building, room 3.23.
+Data and Society
+Requirements: MSc students only – the project-based element of the seminar will require some Python programming and data analysis experience.  An interest beyond the foundations of CS, and caring about societal problems is a must.
+The Data and Society Seminar will take place from 10 am to 12 pm every Friday at E1 7 building, room 3.23.
+Privacy Policy
+LINKS: [('Timetable', 'https://cms.sic.saarland/das_26/termine/calendar/index'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### dbsys2627 Database Systems
+Written on
+20.10.26
+by Gunce Su Yılmaz
+Written on
+16.10.26
+by Gunce Su Yılmaz
+Dear students,
+Please remember to submit your preferences for tutorial slots by Sunday, 18 October, 23:59, to be considered in the distribution process.
+Kind regards,
+Written on
+14.10.26
+by Gunce Su Yılmaz
+Dear students,
+Assignment 00 is now available under the Materials tab. It covers the material from the Big Data Engineering Lecture. To follow the material in this lecture, you should be able to easily solve the questions in the assignment. If you are having difficulty, we highly recommend that you first take the Big Data Engineering Lecture before this one. On Friday, October 16, the tutors will be in the lecture hall after the recap until 12:00 to answer your questions from the assignment. The solutions to the assignment will be made available under Materials after Friday's lecture.
+Best regards,
+Written on
+08.10.26
+by Gunce Su Yılmaz
+You can mark your preferences for the tutorial slots now.
+Please submit your preferences by Sunday, 18 October, 23:59, to be considered in the distribution process.
+In the tutorials, we will review sample solutions for the assignments distributed the previous week. These…
+You can mark your preferences for the tutorial slots now.
+Please submit your preferences by Sunday, 18 October, 23:59, to be considered in the distribution process.
+In the tutorials, we will review sample solutions for the assignments distributed the previous week. These solutions will also be made available in the CMS. If you do not plan to attend any tutorial, please select the "No Tutorial" option.
+All information about assignments, tutorials, lecture mode, topics, registration, etc. will be explained in the first lecture on
+Wednesday, October 14th, 10:15 in E1 3, HS 002.
+Mental Health
+LINKS: [('Timetable', 'https://cms.sic.saarland/dbsys2627/termine/calendar/index'), ('Tutorial Assignment', 'https://cms.sic.saarland/dbsys2627/news/view/4'), ('Tutorial Preference Reminder', 'https://cms.sic.saarland/dbsys2627/news/view/3'), ('Preferences for Tutorial Slots', 'https://cms.sic.saarland/dbsys2627/news/view/1'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### dic_26 Differential Equations in Image Processing and Computer Vision
+):
+Wednesday, 10:15-12:00
+Friday, 10:15-12:00
+First lecture:
+Wednesday, October 14
+The Zoom link can be found in the
+There is one tutorial group scheduled:
+Tuesday, 16:15-18:00
+Tutor:
+First tutorial:
+Tuesday, October 20
+Additionally the following office hour is offered:
+Tuesday, 11:00-12:00
+Tutor:
+written exam takes place on
+Friday, February 19, 2027, 14:00 - 17:00
+, in
+written exam takes place on
+Friday, March 19, 2027, 14:00 - 17:00
+, in
+.
+Please be at the exam hall at 13:30 to allow for sufficient time for all organisational matters to be handled.
+In order to qualify for the exams you need a total amount of 2/3 of all possible points from the homework and classroom assignments. In case of qualification, you are allowed to take part in both exams.
+LINKS: [('Timetable', 'https://cms.sic.saarland/dic_26/termine/calendar/index'), ('privacy information', 'https://www.mia.uni-saarland.de/Teaching/zoom-privacy.shtml'), ('Tutorials', 'https://cms.sic.saarland/dic_26/#tut'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### dtsp_2627 Digital Transmission & Signal Processing (WS 2026)
+Time:
+Tuesday 12:15–13:45
+and
+Wednesday 08:30–10:00
+(start
+Time:
+Friday 10:30–11:45
+Quizzes
+Time:
+Friday 10:00–10:30
+Task Sheets
+LINKS: [('Timetable', 'https://cms.sic.saarland/dtsp_2627/termine/calendar/index'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### i2cl_2627 Einführung in die Computerlinguistik
+ist noch bis zum
+Dienstag, 27.10.2026 23:59
+geöffnet
+Geschrieben am
+22.10.26
+(letzte Änderung am
+22.10.26
+)						von Margareta Wiegmann Planas
+ich wollte kurz an drei Punkte erinnern:
+1) Ihr könnt euch bis nächste Woche Dienstag für die Bearbeitung der Übungsblätter in
+Zwei
+ich wollte kurz an drei Punkte erinnern:
+1) Ihr könnt euch bis nächste Woche Dienstag für die Bearbeitung der Übungsblätter in
+Zwei
+Forum
+im CMS findet ihr jetzt einen Post für Fragen / Probleme / Feedback zum ersten Übungsblatt. Die Abgabe ist bis Montag, 26.10., 23:55 Uhr über eure Persönliche Statusseite möglich.
+3) Bitte meldet euch bei mir in der Übungsstunde / per PM im Forum / per Email, falls ihr
+Kurs
+findet ein mal pro Woche, Dienstag 10-12 in HS003 von Gebäude E1 3 statt. Es wird jede Woche ein Übungsblatt geben, das jeweils bis zum nächsten Montag zu bearbeiten ist und dessen Lösungen in der folgenden Woche hochgeladen werden.
+Die
+freiwillige Übung
+findet wöchentlich Donnerstag 10-12 in Raum -1.05 von Gebäude C7 2 statt. Im ersten Teil der Übung können Fragen zu den Lösungen des vorherigen Übungsblatts besprochen werden. Daraufhin werden zusätzliche Übungsaufgaben zu den Themen der Vorwoche gestellt und gemeinsam erarbeitet. Außerdem dient die Übung für Fragen zur Vorlesung, dem aktuellen Übungsblatt und den benötigten mathematischen Grundlagen.
+Am Mittwoch der ersten Semesterwoche (
+14.10.2026, 10-12, Raum -1.05, Gebäude C7 2
+) findet eine
+Wichtig
+: Schon vor der ersten Vorlesung (20.10.2026) sollten Sie bitte
+Software installieren
+Hilfe bei der Installation der Software:
+- Mittwoch, 14.10.2026, Raum -1.05, Gebäude C7 2
+im Anschluss an die Einführung
+- Donnerstag, 22.10.2026, 10-12, Raum -1.05, Gebäude C7 2
+(muss nicht besucht werden, wenn alles funktioniert)
+LINKS: [('Termine', 'https://cms.sic.saarland/i2cl_2627/termine/calendar/index'), ('die Administratoren', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### enum26 Einführung in die Numerik
+Vorlesungen
+finden dienstags von 08:30 bis 10:00 Uhr und donnerstags von 14:15 bis 15:45 Uhr jeweils im Hörsaal I (Raum 0.01, Gebäude E2 5) statt. Die
+Übungen
+sind dienstags von 14:15 bis 15:45 Uhr in Seminarraum 9 (3. 19, Gebäude E2.4) sowie mittwochs von 14:15 bis 15:45 Uhr und donnerstags von 10:15 bis 11:45 Uhr in Seminarraum 3 (011.0, Gebäude E2.5). Die
+Sprechstunde
+von Simon Christoffel ist montags von 14:15 bis 15:15 im Gruppenarbeitsraum (3.17, Gebäude E2.4).
+Die
+Übungsbetrieb
+startet am 26. Oktober. Herr Angel bietet am 22. Oktober von 10:15 bis 11:45 im Seminarraum 3 (011.0, Gebäude E2.5)  ein
+Programmierpraktikum
+Übungen und Abgabe der Hausaufgaben
+Die Studierenden haben von Dienstag bis zum darauffolgenden Donnerstag vor der Vorlesung Zeit, die Übungsaufgaben eigenständig zu bearbeiten. In den Übungen besteht die Möglichkeit, Unterstützung bei den Aufgaben zu erhalten und Fragen zu stellen. Zudem werden die Aufgaben der Vorwoche besprochen. Theoretische Aufgaben können handschriftlich bearbeitet (TeX ist auch erlaubt) und vor der Vorlesung in den bereitgestellten Kasten im Hörsaal eingeworfen werden. Wenn Sie handschriftliche Lösungen per CMS einreichen, achten Sie bitte darauf, dass sie gut lesbar sind. Wir empfehlen daher, die Dokumente zu scannen statt Fotos zu machen. Programmieraufgaben sind immer per CMS einzureichen.
+Bitte teilen Sie uns über das entsprechende CMS Tool in der Woche von 19. bis 23. Oktober Ihre
+T. Richter,  H. von Wahl, T. Wick:  Einführung in die Numerische Mathematik,
+10.1007/978-3-662-69582-1
+A. Quarteroni, R. Sacco, F. Saleri: Numerical Mathematics,
+10.1007/b98885
+P. Deuflhard, A. Hohmann: Numerische Mathematik 1,
+10.1515/9783110614329
+R. Schaback, H. Wendland: Numerische Mathematik,
+10.1007/b137970
+M. Hanke-Bourgeois: Grundlagen der Numerischen Mathematik und des Wissenschaftlichen Rechnens,
+10.1007/978-3-8348-9309-3
+J. Stoer, R. Bulirsch: Numerische Mathematik 2,
+10.1007/b137272
+R.W. Freund, R. Hoppe: Stoer/Bulirsch: Numerische Mathematik 1,
+10.1007/978-3-540-45390-1
+H.R. Schwarz, N. Köckler: Numerische Mathematik,
+10.1007/978-3-8348-8166-3
+G. Hämmerlin, K.-H. Hoffmann: Numerische Mathematik,
+10.1007/978-3-642-57894-6
+Kursmaterialien
+LINKS: [('Termine', 'https://cms.sic.saarland/enum26/termine/calendar/index'), ('die Administratoren', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### edsai26 Elements of Data Science and Artificial Intelligence
+Written on
+23.10.26
+by Lisa-Marie Rolli
+The deadline for the team groupings is this
+Sunday (25.10.).
+If you have troubles finding a team, please use the
+Written on
+16.10.26
+by Lisa-Marie Rolli
+Written on
+16.10.26
+by Lisa-Marie Rolli
+This is a kind reminder to please enter your tutorial preferences if you have not done so already, as the deadline is
+today (16.10.) 16:59.
+Once the deadline is…
+This is a kind reminder to please enter your tutorial preferences if you have not done so already, as the deadline is
+today (16.10.) 16:59.
+Once the deadline is over, the tutorial assignment will be performed using a constraint-solving algorithm to find a solution that best satisfies everyone's preferences.
+LINKS: [('Timetable', 'https://cms.sic.saarland/edsai26/termine/calendar/index'), ('Tutorial Assignment', 'https://cms.sic.saarland/edsai26/news/view/2'), ('Tutorial Preferences', 'https://cms.sic.saarland/edsai26/news/view/1'), ('calendar', 'https://cms.sic.saarland/edsai26/termine/calendar/index'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### emlw26 Elements of Machine Learning
+is open until
+Saturday, 31.10.2026 23:59
+.
+Written on
+26.10.26
+by Elina Rojin Celik
+Written on
+15.10.26
+by Sara Magliacane
+- I made an error in class and in the Lecture 0 video (fixed in the updated slides): the midterm is actually on Dec 3 from
+16:00 to 19:00
+(so essentially the time of the class + 1hour, in order to avoid conflicts with other classes),
+Lectures
+Thursdays, 16:00-18:00 in person in E.2.2 Lecture Hall 0.01 (Günter Hotz Hörsaal).
+Textbooks
+All tutorials will be in person in E1 3 HS001. They will start on Oct 28.
+Wednesday at 10:00–12:00
+Wednesday at 14:00–16:00
+Thursday at 10:00–12:00
+Thursday at 12:00–14:00
+Friday at 10:00–12:00
+Friday at 12:00–14:00
+Note that the tutorial on Sunday, 16:00 is a dummy tutorial, intended for students that
+do not wish to attend any tutorials
+Midterm:
+Thursday, December 3rd, at 16:00-19:00
+In case you fail the midterm, we will have also a re-exam for the midterm, so you can still qualify for the exam.
+Re-exam for the midterm:
+Saturday, January 16th at 9:00-12:00
+Main Exam -
+Wednesday, February 17th, at 14:00-17:00
+Re-exam -
+Tuesday, March 23rd, at 14:00-17:00
+Office Hours
+LINKS: [('Timetable', 'https://cms.sic.saarland/emlw26/termine/calendar/index'), ('Tutorial assignment', 'https://cms.sic.saarland/emlw26/news/view/2'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### emse_26 Empirical Software Engineering Research
+Written on
+19.10.26
+by Norman Peitek
+This is a friendly reminder that we have our
+first mini-test tomorrow (Tuesday)
+at any time during the day (00:00-23:59 CEST) on the CMS. Please also keep in mind that the mini-tests are always a week after the release of the lecture. This means tomorrow's mini-test will be on the
+Introduction
+no direct feedback whether your answers were correct
+. The mini-tests are corrected manually, typically on Wednesday, and then entered as an exam result on the CMS.
+Later in the week on Thursday, we are meeting for our
+first live Q&A, which will start at 08:30am sharp.
+We will discuss the results of the mini-test, questions from the mini-test, and live questions regarding the organizational matters and for the introduction lecture (as time permits). You can find the Zoom link on the CMS calendar.
+entirely online
+. The lectures will be uploaded as videos on Mondays. For each lecture, we will offer a live, online Q&A in the subsequent week (Thursday, 08:30–10:00).
+In addition, we have weekly online mini-tests (Tuesdays, can start at any time during the day, but is limited in time once started) and three larger assignments, that are a prerequisite to be admitted to the exam.
+Details are provided in the time table and also in the kickoff session, which is already available
+To obtain access to the course material, you must register via this CMS course. Registration starts on
+Thursday, 1st of October 2026 at 8:00 am
+and ends on 16th of October 2026 at 11:00 am.
+Mini-Tests
+There will be 12 mini-tests, each mini-test is worth 4 points. The mini-test will take part online (Tuesdays), you can take the mini-test at any time on that day on the CMS. The mini-test itself has a time limit of 10 minutes, since started. The mini-tests are not scored automatically. Thus, the scores are only available the following day. The mini-test questions will focus on the lecture of the previous week, and will be discussed in the following Q&A.
+Assignments
+LINKS: [('Timetable', 'https://cms.sic.saarland/emse_26/termine/calendar/index'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### exml_2627 Explainable Machine Learning
+Time and location:
+Introductory lecture:  23.10.2026, 12:00–14:00, E1.5 (MPI-SWS) 029
+Block seminar: TBA
+LINKS: [('Timetable', 'https://cms.sic.saarland/exml_2627/termine/calendar/index'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### fof_math_ws2627 Foundations of Mathematics
+is open until
+Friday, 01.01.2027 23:59
+.
+LINKS: [('Timetable', 'https://cms.sic.saarland/fof_math_ws2627/termine/calendar/index'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### funcspaces26 Funktionenräume mit Anwendungen
+ist noch bis zum
+Donnerstag, 29.10.2026 23:59
+geöffnet
+Vorlesungen
+finden mittwochs von 10:15 bis 11:45 Uhr im Seminarraum 9 (Raum X.XX, Gebäude E2.5) statt. Die Termine für die
+Übungen
+Übungen und Abgabe der Hausaufgaben
+Die Studierenden haben von Dienstag bis zum darauffolgenden Dienstag vor der Vorlesung Zeit, die Übungsaufgaben eigenständig zu bearbeiten. In den Übungen besteht die Möglichkeit, Unterstützung bei den Aufgaben zu erhalten und Fragen zu stellen. Zudem werden die Aufgaben der Vorwoche besprochen. Theoretische Aufgaben können handschriftlich bearbeitet (TeX ist auch erlaubt) und vor der Vorlesung in den bereitgestellten Kasten im Hörsaal eingeworfen werden. Wenn Sie handschriftliche Lösungen per CMS einreichen, achten Sie bitte darauf, dass sie gut lesbar sind. Wir empfehlen daher, die Dokumente zu scannen statt Fotos zu machen. Programmieraufgaben sind immer per CMS einzureichen.
+Benotung und Klausur
+H. Brezis. Functional Analysis, Sobolev Spaces and Partial Differential Equations.
+10.1007/978-0-387-70914-7
+L. Tartar. An Introduction to Sobolev Spaces and Interpolation Spaces.
+10.1007/978-3-540-71483-5
+J. Nečas. Direct Methods in the Theory of Elliptic Equations.
+10.1007/978-3-642-10455-8
+P. Grisvard. Elliptic Problems in Nonsmooth Domains.
+10.1137/1.9781611972030
+V. Girault und P.-A. Raviart. Finite Element Methods for Navier–Stokes Equations. Theory and Algorithms.
+10.1007/978-3-642-61623-5
+D. Boffi, F. Brezzi und M. Fortin. Mixed Finite Element Methods and Applications.
+10.1007/978-3-642-36519-5
+P. Monk. Finite Element Methods for Maxwell’s Equations.
+10.1093/acprof:oso/9780198508885.001.0001
+L. Ambrosio, N. Fusco und D. Pallara. Functions of Bounded Variation and Free Discontinuity Problems.
+10.1093/oso/9780198502456.001.0001
+Kursmaterialien
+LINKS: [('Termine', 'https://cms.sic.saarland/funcspaces26/termine/calendar/index'), ('die Administratoren', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### gdmi_2627 Grundlagen der Medieninformatik
+Geschrieben am
+23.10.26
+von Felix Kosmalla
+Geschrieben am
+09.10.26
+von André Zenner
+Falls ihr als DFKI-HiWi beschäftigt seid, müsst ihr uns dies
+bis spätestens zum Ende der CMS-Anmeldefrist am 18.10.2026 um 23:59 Uhr
+per E-Mail (an
+Geschrieben am
+08.10.26
+von André Zenner
+Geschrieben am
+07.10.26
+von André Zenner
+die erste Vorlesung von Grundlagen der Medieninformatik wird am
+Mittwoch 14.10.2026
+um
+12:00 Uhr c.t.
+online via Teams
+die erste Vorlesung von Grundlagen der Medieninformatik wird am
+Mittwoch 14.10.2026
+um
+12:00 Uhr c.t.
+online via Teams
+erste Vorlesung
+findet am Mittwoch
+14.10.2026
+um
+12:00 Uhr (c.t.)
+online via Teams
+Sie müssen sich für die Vorlesung im CMS registrieren.
+Deadline ist Sonntag, der 18.10.2026 um 23:59 Uhr
+.
+LINKS: [('Termine', 'https://cms.sic.saarland/gdmi_2627/termine/calendar/index'), ('Vorlesungskalender', 'https://cms.sic.saarland/gdmi_2627/termine/calendar/index'), ('die Administratoren', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### gsv_ws2627 Grundlagen der Signalverarbeitung
+is open until
+Saturday, 31.10.2026 23:59
+.
+Written on
+25.10.26
+by Vincent Kiefer
+Zeit:
+14:15-15:45
+Vorlesungsbeginn:
+22.10.26 (ignore LSF)
+Klausur:
+Mo 15.2.27 14:00-16:00 GHH
+WICHTIG:
+Übungen
+: zwei Gruppen; wöchentlich Do 16:00-17:30 Uhr A51, Einteilung folgt
+Inhalt der Veranstaltung
+Jeweils in den ersten 20-30min der Vorlesungen am:
+Quiz: 12.11.2026 (Themen aus Übung 1 & 2)
+Quiz: 26.11.2026 (Themen aus Übung 3 & 4)
+Quiz: 10.12.2026 (Themen aus Übung 5 & 6)
+Quiz: 07.01.2027 (Themen aus Übung 7 & 8)
+Quiz: 21.01.2021 (Themen aus Übung 9 & 10)
+Privacy Policy
+LINKS: [('Timetable', 'https://cms.sic.saarland/gsv_ws2627/termine/calendar/index'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### gis_2627 Grundlagen von Informatiksystemen
+ist noch bis zum
+Freitag, 30.10.2026 23:59
+geöffnet
+Geschrieben am
+09.10.26
+von Lukas Wachter
+LINKS: [('Termine', 'https://cms.sic.saarland/gis_2627/termine/calendar/index'), ('Important Information About This Course', 'https://cms.sic.saarland/gis_2627/news/view/1'), ('die Administratoren', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### hfs_2627 Hilbert Function Spaces
+Lecture
+Thursday, 14:15-15:45, HS 4, Building E 2 4
+Tutorial
+Monday, 10:15-11:45, SR 1, Building E 2 5
+Contents
+LINKS: [('Timetable', 'https://cms.sic.saarland/hfs_2627/termine/calendar/index'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### hmi32627 Höhere Mathematik für Ingenieure III
+Geschrieben am
+22.10.26
+von Dean Zenner
+Dean Zenner
+Beginn Vorlesung 22.10. um 8:45 Uhr
+Geschrieben am
+21.10.26
+von Thomas Schuster
+Liebe Studierende,
+da ich meinen Wagen morgen früh unbedingt noch in die Werkstatt bringen muss, beginnt die morgige Vorlesung (22.10.26) etwa 15 Minuten später, also um 8:45 Uhr.
+Bis Morgen und viele Grüße,
+Vorlesungszeiten:
+Mo und Do 08-10 Uhr
+Vorlesungsort:
+Der erste Vorlesungstermin ist am
+Donnerstag, den 15.10.2026 um 08:30 Uhr.
+Anmeldung
+Die Anmeldung zur Vorlesung ist ab sofort und bis zum
+21.10.26 08:00 Uhr
+möglich.
+Tutor
+Montag 10-12 Uhr
+Zeichensaal, E2.5
+Philipp Henrikus
+Montag 12-14 Uhr
+SR 3, E2.5
+Elias Löffler
+Montag 14-16 Uhr
+SR 3, E2.5
+Paul Müller
+Dienstag 8-10 Uhr
+SR 1, E2.5
+Luca Kochems
+Dienstags 10-12 Uhr
+SR 10, E2.4
+Paul Müller
+Mittwoch 14-16 Uhr
+SR 5, E2.4
+Jannis Collmann
+Donnerstag 12-14 Uhr
+SR 5, E2.4
+Norman Weinland
+Freitag 10-12 Uhr
+SR 4, E2.5
+Alexander Klein
+Hinweis: Alle Uhrzeiten sind ct, d.h. z.B. eine Übung 10-12 Uhr beginnt um 10:15 Uhr. Die Ausnahme ist 8 Uhr, hier beginnt die Übung um 8.30 Uhr.
+Scheinkriterien
+Hauptklausur:
+19.02.2027, 9:00-12:00 Uhr, E2.5, HS I, HS II, HS III.
+Nachklausur: 24.03.2027, 9:00-12:00 Uhr, Günter-Hotz-Hörsaal und E2.5 HS I, HS II.
+Bitte denken Sie daran sich frühzeitig im LSF zur Klausur anzumelden. Die Anmeldungen sind bis eine Woche vor dem jeweiligen Klausurtermin möglich.
+Dean Zenner: auf Anfrage.
+Montag 12-13 Uhr Philipp Henrikus.
+Montag 14-15 Uhr Elias Löffler.
+Montag 16-17 Uhr Luca Kochems.
+Dienstag 9-10 Uhr Paul Müller.
+Dienstag 13-14 Uhr Jannis Collmann.
+Donnerstag 15-16 Uhr Norman Weinland.
+Freitag 12-13 Uhr Alexander Klein.
+Fragen
+LINKS: [('Termine', 'https://cms.sic.saarland/hmi32627/termine/calendar/index'), ('die Administratoren', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### hci_2627 Human Computer Interaction
+Written on
+26.10.26
+(last change on
+26.10.26
+)						by David Wagmann
+Written on
+23.10.26
+by David Wagmann
+all three team members must participate in the same tutorial
+, it doesn't make sense to put your team together just yet, since you don't know which tutorial each member will end up in. The normal plan was to do the tutorial assignment yesterday, but because of the CMS outage, I will do the tutorial assignments by Monday.
+Note that I locked the team creation again and that I deleted the existing teams. This is not a bug!
+Written on
+22.10.26
+(last change on
+22.10.26
+)						by David Wagmann
+and otherwise, contact hci2026@cs.uni-saarland.de
+The deadline for this is by the end of tomorrow: 23th October 23:59.
+Please tell your fellow students to check this asap.
+Written on
+19.10.26
+by David Wagmann
+Dear all,
+This week, there won't be a lecture on Tuesday. Instead, please
+read
+Written on
+16.10.26
+(last change on
+16.10.26
+)						by David Wagmann
+Written on
+15.10.26
+(last change on
+15.10.26
+)						by David Wagmann
+The first class starts on
+Tuesday, 13 October 2026, 10:15-12:00 (
+Building E1 3 – Lecture Hall 2
+The number of participants has increased significantly in recent years. Due to the extensive practical project that is part of the course, we are unfortunately unable to increase this number any further. We therefore have to limit the number of participants to 250. All students who wish to enroll in this course must
+register on LSF no later than October 13, 2026 at 23:59 CEST
+.
+on CMS
+by October 20 at 23:59 CEST.
+The registration will open in the first week of the course.
+allowed to take the course either!
+Registration Deadline for Tutorials and Exercise Groups: 20 October 2026, 23:59.
+Note:
+before
+October 16 2026, 23:59.
+You cannot transfer partial grades from previous HCI or UID lectures.
+Exams
+Main exam: 10 February 2027, 14:00 (sharp!)
+Re-exam: 11 March  2027, 10:00 (sharp!)
+Lecturer
+LINKS: [('Timetable', 'https://cms.sic.saarland/hci_2627/termine/calendar/index'), ('Tutorial Assignments', 'https://cms.sic.saarland/hci_2627/news/view/6'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### idi_26 Ideen der Informatik
+Written on
+26.10.26
+by Till Koebe
+Deepfakes: Wenn ein Bild zur Waffe wird – digitale Gewalt gegen Frauen
+Looking forward seeing you on Friday!
+Till
+Written on
+23.10.26
+(last change on
+23.10.26
+)						by Till Koebe
+Written on
+15.10.26
+(last change on
+15.10.26
+)						by Till Koebe
+we are very much looking forward to welcoming you to the first session of this year's "Ideen der Informatik" lecture tomorrow!
+Just a brief reminder: It takes place from 8-10am c.t. (so start at 8:15h), in E1.7 R.301. In-person attendance is preferred. If this is not possible,
+here
+we are very much looking forward to welcoming you to the first session of this year's "Ideen der Informatik" lecture tomorrow!
+Just a brief reminder: It takes place from 8-10am c.t. (so start at 8:15h), in E1.7 R.301. In-person attendance is preferred. If this is not possible,
+here
+enrolled in a study program at the Computer Science department.
+- It takes place on Fridays, 8-10am c.t., in E1.7 R.301, starting on October 16th, 2026, ending February 5th, 2027. We encourage in-person participation, however, we will both stream and record the lectures, if you cannot attend physically.
+-
+Key deadlines (all end of day, German local time):
+- CMS registration deadline: 23.10.2026
+- LSF registration (if applicable): 13.11.2026
+Please check with your study coordinator, if other deadlines specific to your program apply.
+LINKS: [('Timetable', 'https://cms.sic.saarland/idi_26/termine/calendar/index'), ('Exam dates fixed!', 'https://cms.sic.saarland/idi_26/news/view/2'), ('First lecture tomorrow', 'https://cms.sic.saarland/idi_26/news/view/1'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### iam26 Image Acquisition Methods
+Lectures:
+Monday 12:15-14, E1.3, HS001
+First Lecture:
+19.10.2026
+Motivation:
+Assignments are designed for group work. You are encouraged to connect with your fellow students and solve the problems together. You can do this whenever and wherever you choose, but we encourage you to make use of our counselling offers. The official tutorial session takes place in the time slot
+Thursday 12-14, E1.3, SR014
+First Tutorial: 29.10.26
+During the tutorial, our staff is available to give hints or discuss your solutions with you. Example solutions are also provided in the materials section. If this time slot is not convenient for you, there is also an office hour (time slot TBA).
+LINKS: [('Timetable', 'https://cms.sic.saarland/iam26/termine/calendar/index'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### probing_2627 Interpreting and Analyzing Neural Language Models
+is open until
+Friday, 01.01.2027 23:59
+.
+LINKS: [('Timetable', 'https://cms.sic.saarland/probing_2627/termine/calendar/index'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### introalgdat2627 Introduction to Algorithms and Data Structures
+is open until
+Monday, 16.11.2026 23:59
+.
+Written on
+22.10.26
+by Sanyam Agarwal
+Hi all,
+Due to the CMS being down recently, we are extending the deadline to submit the solutions to assignment sheet 1 until 24 Oct (18:00).
+Best,
+Lecture Format
+Lecture: Tuesday 12:15-13:45 (Location: GHH E2.2)
+The first lecture will take place on October 13, 2026 . The lectures will be held in English.
+In order to minimize this temptation we have removed all grade relevance from the exercise sets. We will offer such a set each week. You are free to work on them or ignore them. If you turn in a solution we will give you feedback (some of which may be in form of points). However,your handed in solutions will not directly influence your grade or play a role in the qualification for the final exams (everybody registered for the course qualifies). In such a setting it really makes no sense to  turn in solutions that are not your own. You would just be wasting  resources, in particular your time, and, more importantly the time of  the tutors. Their time would be much better spent answering your questions.
+Exercise sheets will be handed out on Wednesday Morning at 8:00 AM and are due on the next Tuesday 11:59AM before the lecture. Why the deadline? For one, it seems to be human nature that such a pacing helps with getting things done.  But more importantly, tutors need to be able to manage their time. You can turn in solutions late, but in this case we do not guarantee to look at them and provide feedback.
+You are free to work in groups.  But in this case please do not turn in multiple duplicate solutions. You should be able to share the feedback.
+We offer Office Hours, where you can ask tutors about the course material or exercises:
+Slot 1 (Monday):- 10:15-11:45 (Room: E1 3, 415)
+Slot 2 (Thursday):- 14:15-15:45 (Room: E1 3, 415)
+The office hours start from 22nd October.
+Final Exam:
+February 11, 2027 15:00-18:00
+Re-Exam:
+March 24, 2027 15:00-18:00
+For these exams you will not be allowed the use of any materials, computers, phones, or other gadgets. You will be allowed to bring a single handwritten DinA4-sheet (which can be written on both sides); photocopies and printouts are not allowed. If you use such a sheet you must turn it in with your exam papers.
+be counted towards the final grade. The midterm will happen on
+Friday, 11th December, 15:00-18:00.
+To participate in the end exams and to be able to obtain a certificate you must register in the LSF system. If you are unable to register in LSF, please contact Sanyam.
+LINKS: [('Timetable', 'https://cms.sic.saarland/introalgdat2627/termine/calendar/index'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### ti2627 Introduction to Theoretical Computer Science
+Written on
+22.10.26
+by Julian Dörfler
+old state
+from the middle of tuesday.
+As a result we have reopened exercise sheet group forming until
+today 20:00
+(please make sure to check that your groups still exist). In case you are not able to change it until then, please send me an E-Mail as soon as…
+old state
+from the middle of tuesday.
+As a result we have reopened exercise sheet group forming until
+today 20:00
+(please make sure to check that your groups still exist). In case you are not able to change it until then, please send me an E-Mail as soon as possible.
+Moreover, due to this, we had to push back the exercise sheet submission. Submissions will open
+today 20:00
+and submission is extended until
+tomorrow 10:00
+instead of the usual 8:00 submission deadline.
+Written on
+17.10.26
+by Julian Dörfler
+We have distributed the tutorials. You can now find your assigned tutorial on your Personal Status page.
+Remember, the tutorials start this monday, February 19th.
+Introduction to Theoretical Computer Science
+Lectures:
+Wed. 14:15-16:00 (E2 2, Günter-Hotz-Hörsaal)
+Fri.     8:30-10:00 (E2 2, Günter-Hotz-Hörsaal)
+The lectures will be held in English.
+Exercise sheets
+Every Friday we will release an exercise sheet. You have time until the next Friday at 8:00 to submit your solution via (this) CMS. The solutions are submitted as separate PDF-files for each exercise, either digitally created, for example with
+LaTeX
+You can work in groups of up to 4 students on the exercises. You need to register your permanent groups
+until October 21st, 16:00
+, in CMS. Your group size determines which exercises you have to submit:
+In a dysfunctional group, every person will work on ≈25% of the lecture's content at random. We believe that if your main reason to form a group is to avoid having to do all the exercises, that at least you should be working on the 25% of the exercises that will teach you the most important parts, instead of at random. Will those parts be enough for the exam? No! But you will be better off than with a dysfunctional group where everyone just submits one of the exercises.
+The first exercise sheet is due October 23rd, 8:00, the submission will open on October 21st, 16:00.
+While the exercise sheets themselves will be in English, you are free to choose both German or English as the language for your submissions.
+Tutorials
+The tutorials are in person on Mondays and will start October 19th. We are offering tutorials in both English and German. You have to register for your tutorials with your preferred tutorial language until October 16th, 23:59, on this website.
+Office Hours
+Twice a week, always in room E1.7, room 0.01:
+Tuesdays 14:15-15:45
+Thursdays 14:15-15:45
+Starting October 20th
+Endterm: expected: February 15th, starting 9:00
+Reexam: expected: March 17th, starting 14:00
+The raw time to complete the exam will be at least 120 minutes.
+LINKS: [('Timetable', 'https://cms.sic.saarland/ti2627/termine/calendar/index'), ('Tutorials', 'https://cms.sic.saarland/ti2627/news/view/1'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### llm4ps Large Language Models for Physical Systems
+is open until
+Sunday, 31.01.2027 23:59
+.
+Written on
+09.10.26
+by Roland Aydin
+Lecture Dates:
+Every Friday, 14:15–15:45, starting 16.10.2026
+Room: C6 4, lecture hall II (0.09)
+Exercises take place once a week and are offered in two time slots. Please choose one:
+Wednesday, 14:00–16:00, in A5.1, SR 3.19
+Thursday, 12:00–14:00, in C6 4, lecture hall II (0.09)
+Exercises start in the second week.
+There are no exercises from 12.10. to 16.10.2026. Please join the first lecture on
+16.10.2026
+.
+LINKS: [('Timetable', 'https://cms.sic.saarland/llm4ps/termine/calendar/index'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### life_w26 Life Insurance Mathematics
+Lectures
+Thursdays, 12:15pm-13:45pm, seminar room 6
+(building E2 4, room 2.17)
+Tutorials
+On the following Fridays, 14:15-15:45pm, in seminar room 9 (building E2 4, room 3.19):
+30 October
+LINKS: [('Timetable', 'https://cms.sic.saarland/life_w26/termine/calendar/index'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### la12627 Lineare Algebra 1
+is open until
+Saturday, 31.10.2026 23:59
+.
+Written on
+23.10.26
+by Reinder Meinsma
+Die Studierenden, die in zwei Wochen ihre erste Präsentation halten, sollen nächste Woche ihre Lösungen mit ihren Tutoren besprechen.
+da der ursprüngliche Termin am Donnerstag von 16:00 bis 18:00…
+Read more
+Die Studierenden, die in zwei Wochen ihre erste Präsentation halten, sollen nächste Woche ihre Lösungen mit ihren Tutoren besprechen.
+da der ursprüngliche Termin am Donnerstag von 16:00 bis 18:00 Uhr für deutlich mehr Studierende besser passt als der Termin am Mittwoch, werden wir die Saalübung
+nicht verlegen.
+Written on
+21.10.26
+by Reinder Meinsma
+Bitte nehmen Sie
+bis Freitag, den 23.10., um 17:00 Uhr
+an dieser
+Umfrage
+teil. Wir werden anschließend am Freitagabend entscheiden, ob die Saalübung tatsächlich verlegt wird.
+Vielen Dank für Ihre Rückmeldung!
+Written on
+16.10.26
+by Reinder Meinsma
+Prof. Dr. Simon Brandhorst
+Sprechstunde: Di: 12:00 - 12:30, Freitag 12:00 - 12:30
+Assistent:
+Dr. Reinder Meinsma
+Sprechstunde: Di 12:00 - 12:30, Mi 12:00 - 12:30 in E2.21
+Vorlesungstermine:
+Di 10:15 - 11:45 (E2.5 HS I)
+Fr 10:15 - 11:45 (E2.5 HS I)
+Übungsbetrieb
+Tutorien
+Tutorium 1: Mo 08:00 - 10:00, SR 10, Gebäude E2.4 (Luis Schackmann)
+Tutorium 2: Di 12:00 - 14:00, SR 5,  Gebäude E2.4 (Florian Bange)
+Tutorium 3: Di 12:00 - 14:00, Zeichensaal, Gebäude E2.5 (Polina Pavlova)
+Tutorium 4: Di 16:00 - 18:00, SR 6, Gebäude E2.4 (Jannik Schmitt)
+Tutorium 5: Do 12:00 - 14:00, SR 9, Gebäude E2.4 (Luis Schackmann)
+Tutorium 6: Do 14:00 - 16:00, SR 9, Gebäude E2.4 (Laura Fritz)
+Tutorium 7: Fr 12:00 - 14:00, SR 10, Gebäude E2.4 (Jasper Wälzholz-Junius)
+Saalübung: Do 16:00 - 18:00, E2.5 HS II (Reinder Meinsma)
+Sprechstunden
+Mo 14:15, Gebäude E2.4 Raum 317 (Gruppenarbeitsraum) Florian Bange
+Di 13:00, Gebäude E2.4 Raum 317 (Gruppenarbeitsraum)  Jannik Schmitt
+Privacy Policy
+LINKS: [('Timetable', 'https://cms.sic.saarland/la12627/termine/calendar/index'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### qit1_26 Mathematical Foundations of Quantum Information
+is open until
+Tuesday, 27.10.2026 00:00
+.
+Written on
+23.10.26
+by Jonas Metzinger
+Written on
+22.10.26
+by Jonas Metzinger
+Lecture time
+Tuesdays 10-12 and Thursdays 10-12 in Lecture Hall III (E2 5)
+Exercise sessions
+Thursdays 12 - 2pm in Lecture Hall III (HS003) in E1 3 (Luc)
+Fridays 12 - 2pm in Lecture Hall II in E 2 5 (Jonas)
+The course will be taught in English unless all participants speak German.
+LINKS: [('Timetable', 'https://cms.sic.saarland/qit1_26/termine/calendar/index'), ("Master's programme “Quanteninformationstheorie”", 'https://www.uni-saarland.de/studium/angebot/master/qit.html'), ('Random Matrices and Applications in Quantum Information', 'https://cms.sic.saarland/rmqi_2627/'), ('Master\'s programme "Quantum Information Theory"', 'https://www.uni-saarland.de/studium/angebot/master/qit.html'), ('The Theory of Quantum Information', 'https://cs.uwaterloo.ca/~watrous/TQI/TQI.pdf'), ('Understanding Quantum Information and Computation', 'https://arxiv.org/abs/2507.11536'), ('lectures on Youtube', 'https://www.youtube.com/playlist?list=PLOFEBzvs-VvqKKMXX4vbi4EB1uaErFMSO'), ('Quantum Computing: Lecture Notes', 'https://arxiv.org/abs/1907.09415'), ('Semesterapparat', 'https://www.infomath-bib.de/tmp/vorlesungen/mathe-core_mathematical-foundations-of-quantum-information-theory.html'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### mfi1_mfcs1_wise2627 Mathematics for Computer Scientists I
+Written on
+25.10.26
+by Tobias Mai
+all office hours on
+Tuesdays
+(Collmann, Wimmer, Lopez, Jamali) will take place in the
+all office hours on
+Tuesdays
+(Collmann, Wimmer, Lopez, Jamali) will take place in the
+Written on
+21.10.26
+by Tobias Mai
+Die "erweiterten deutschsprachigen Sprechstunden" finden während der Vorlesungszeit (ab dem 23. Oktober 2026)
+freitags um 14 Uhr (c.t.) im Hörsaal III in Gebäude E2 5
+statt. Alle Termine stehen auch im
+The "extended German-language office hours" will take place during the lecture period (starting October 23, 2026)
+on Fridays at 2:15 pm in Lecture Hall III (Hörsaal III) in Building E2 5
+. All scheduled dates are also listed in the
+The lecture course begins on
+Wednesday, October 14, at 10:15 am
+.
+Lecture times
+Wednesday, 10:15-11:45: Günter Hotz lecture theatre, Building E2 2
+Friday, 10:15-11:45: Günter Hotz lecture theatre, Building E2 2
+You can find a map showing all the buildings on campus
+LINKS: [('Timetable', 'https://cms.sic.saarland/mfi1_mfcs1_wise2627/termine/calendar/index'), ('calendar', 'https://cms.sic.saarland/mfi1_mfcs1_wise2627/termine/calendar/index'), ('calendar', 'https://cms.sic.saarland/mfi1_mfcs1_wise2627/termine/calendar/index'), ('… Read more', 'https://cms.sic.saarland/mfi1_mfcs1_wise2627/2/Tutorials#Question_Time'), ('hier', 'https://cms.sic.saarland/mfi1_mfcs1_wise2627/2/Tutorials#Question_Time'), ('Kalender', 'https://cms.sic.saarland/mfi1_mfcs1_wise2627/termine/calendar/index'), ('here', 'http://cms.sic.saarland/mfi1_mfcs1_wise2627/2/Tutorials#Question_Time'), ('calendar', 'https://cms.sic.saarland/mfi1_mfcs1_wise2627/termine/calendar/index'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### mfcs3_wise2627 Mathematics for Computer Scientists III
+Written on
+22.10.26
+by Frederik Herzberg
+Written on
+16.10.26
+(last change on
+23.10.26
+)						by Benedikt Flierl
+You can register your team until
+Friday, 30 October, at 12:00
+.
+Lectures
+Wednesdays, 8:30-10:00, Günter Hotz Hörsaal
+Fridays, 12:15-13:45, Günter Hotz Hörsaal
+The Günter Hotz Hörsaal is located in building E2 2; an interactive campus map can be found
+General tutorial
+Fridays, 14:15-15:45, Günter Hotz Hörsaal
+Start date:
+LINKS: [('Timetable', 'https://cms.sic.saarland/mfcs3_wise2627/termine/calendar/index'), ('Small-group tutorials: Assignment completed', 'https://cms.sic.saarland/mfcs3_wise2627/news/view/3'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### math_bio_chem_la26 Mathematik für Biologen und Chemiker (Lehramt)
+Vorlesungen
+finden freitags von
+12:15 bis 13:45 Uhr
+im
+finden
+- montags von
+08:30 bis 10:00 Uhr
+im
+(Gebäude E 2.4),
+- montags von
+16:15 bis 17:45 Uhr
+im
+(Gebäude E 2.4),
+- dienstags von
+08:30 bis 10:00 Uhr
+im
+(Gebäude E 2.5),
+- dienstags von
+16:15 bis 17:45 Uhr
+im
+(Gebäude E 2.5),
+- mittwochs von
+10:15 bis 11:45 Uhr
+im
+Übungen und Abgabe der Hausaufgaben
+Die Übungsblätter werden wöchentlich freitags nach der Vorlesung hochgeladen und sind bis zur nächsten Vorlesung zu bearbeiten.
+Die Abgabe als .pdf Datei in einem .zip Ordner.
+Die Hauptklausur findet am
+12.02.2027
+von
+09:00 bis 13:00 Uhr
+in
+Die Nachklausur findet am
+30.03.2027
+von
+14:00 bis 18:00 Uhr
+in
+LINKS: [('Termine', 'https://cms.sic.saarland/math_bio_chem_la26/termine/calendar/index'), ('die Administratoren', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### mfn_i Mathematik für Naturwissenschaftler I
+Geschrieben am
+13.10.26
+von Massimiliano Alessandro
+Vorlesungstermine:
+Di 10-12 Uhr (wöchentlich) in HS II
+Fr 10-12 Uhr in HS II (vierzehntäglich,
+im Wechsel mit den Übungen
+(Maximilian Steuer):
+Freitag 10 - 12 Uhr, Seminarraum 5 (011), Geb. E2 4. Der erste Übungstermin ist der
+23.10.2026
+.
+Tutorium 2
+(Adrian Jose): Freitag 16 - 18 Uhr, Seminarraum 5 (011), Geb. E2 4. Der erste Übungstermin ist der
+23.10.2026
+.
+(Anthony Nork):
+Freitag 12 - 14 Uhr, Seminarraum 6 (217), Geb. E2 4. Der erste Übungstermin ist der
+23.10.2026
+.
+(Anthony Nork):
+Freitag 14 - 16 Uhr, Seminarraum 6 (217), Geb. E2 4. Der erste Übungstermin ist der
+23.10.2026
+.
+Die Sprechstunden der Tutoren finden im Gruppenarbeitsraum (318), Gebäude E2 4, statt.
+Anthony Nork: Freitag 12 - 13 Uhr (vierzehntäglich, im Wechsel mit den Übungen). Der erste Sprechstundentermin ist der
+30.10.2026
+.
+Adrian Jose: Freitag 9 - 10 Uhr (wöchentlich). Der erste Sprechstundentermin ist der
+23.10.2026
+.
+wöchentlich
+(dienstags)
+Übungsblätter
+darauf folgenden Woche
+(dienstags) bearbeitet werden.
+Die Abgabe der Übungsblätter erfolgt über CMS
+Hauptklausur:
+08.02.2027, 14-17 Uhr, in HS II und HS III
+Nachklausur:
+29.03.2027, 9-12 Uhr, in HS I und HS II
+Die
+LINKS: [('Termine', 'https://cms.sic.saarland/mfn_i/termine/calendar/index'), ('die Administratoren', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### natcomp Natural Computing and Algorithms
+is open until
+Saturday, 14.11.2026 23:59
+.
+Time and Date:
+Every Wednesday, 12:25 - 14:00, E1.3, HS III (Room 003.1)
+First lecture:
+Wednesday, October 14
+This is an advanced lecture of 3 Credit Points. There will be no tutorials.
+LINKS: [('Timetable', 'https://cms.sic.saarland/natcomp/termine/calendar/index'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### nnia_2627 Neural Networks: Implementation and Application (CoLI/LST students only!!!!)
+Starts:
+Tuesday, 20.10.26
+Location
+LINKS: [('Timetable', 'https://cms.sic.saarland/nnia_2627/termine/calendar/index'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### nnti_2627 Neural Networks: Theory and Implementation
+Written on
+20.10.26
+by Dietrich Klakow
+First lecture today (20.10.)
+Neural Networks: Theory and Implementation
+Starts:
+20.10.26 14:15
+Location
+LINKS: [('Timetable', 'https://cms.sic.saarland/nnti_2627/termine/calendar/index'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### ot_26 Optimal Transport
+Geschrieben am
+22.10.26
+von Felix Sachse
+Dear students,
+Exercise sheet 1 is now available on CMS. The first tutorial will be held on Monday, October 26.
+Contents
+Lecture
+Wednesday, 14:15-15:45, in SR6 (room 2.17) in building E2 4
+Tutorial
+Monday, 10:15-11:45, in SR6 (room 2.17) in building E2 4
+The tutorial will take place approximately every second week. The exact dates will be announced.
+LINKS: [('Termine', 'https://cms.sic.saarland/ot_26/termine/calendar/index'), ('die Administratoren', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### oscar OSCAR-Kurs
+Dates:
+Seminar: Monday 10:15-11:45   Room: Seminaraum 4 in building E2 5
+The first  seminar will be at 21.10.2026
+The Team:
+LINKS: [('Termine', 'https://cms.sic.saarland/oscar/termine/calendar/index'), ('die Administratoren', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### perspectives2627 Perspectives of Computer Science (WS 2026)
+is open until
+Friday, 27.11.2026 23:59
+.
+Time:
+Every Monday, starting
+19.10.2026, at 14:15 - 15:45
+Location:
+Quizzes are open till
+Friday after the lecture, 23:59
+.
+of this course separately in HIS/POS (LSF) until
+27.11.2026
+; otherwise you cannot get credit. No exceptions;
+Presenter: Topic
+19.10.2026
+Prof. Dr. Tomo Nagashima: Introduction and organization
+26.10.2026
+- we take a break! -
+02.11.2026
+Prof. Dr. Benjamin Kaminski: "Ancient and Modern (Quantitative) Verification"
+09.11.2026
+Prof. Dr. Sven Rahmann: "On local uniqueness and repetitiveness of the human genome sequence -
+Algorithm engineering for human genetics"
+16.11.2026
+Prof. Dr. Viktor Zaverkin: title TBD
+23.11.2026
+Prof. Dr. Olga Kalinina: "Data leakage and generalizability to out-of-distribution data in modern (biomedical) AI"
+30.11.2026
+Prof. Dr. Jilles Vreeken: "The Lecture of Why"
+07.12.2026
+Prof. Dr. Holger Hermanns: "Pigs in Space"
+14.12.2026
+Prof. Dr. Thorsten Herfet: "Signals from Space: Decoding Weather Satellite Images"
+---
+04.01.2027
+Prof. Dr.-Ing. Philipp Slusallek: "Computer Graphics, Artificial Intelligence and the Real World"
+11.01.2027
+Prof. Dr. Verena Wolf: "AI in Drug Discovery: Predicting and Explaining Molecular Properties"
+18.01.2027
+Prof. Dr. Andreas Zeller: "AI-based system testing"
+25.01.2027
+Prof. Dr. Giancarlo Pellegrino: "Autonomous Offensive Security"
+01.02.2027
+Prof. Dr. André Brinkmann: "Systems for AI and AI for systems"
+Registration has to be completed till
+27.11.2026
+!
+LINKS: [('Timetable', 'https://cms.sic.saarland/perspectives2627/termine/calendar/index'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### prog1_26 Programming 1
+Written on
+26.10.26
+by Marcel Ullrich
+Written on
+20.10.26
+by Marcel Ullrich
+.
+Tutorials start next Tuesday.
+Before the tutorial, we are already offering
+office hours
+this Thursday and Friday, and next Monday.
+The first
+.
+Tutorials start next Tuesday.
+Before the tutorial, we are already offering
+office hours
+this Thursday and Friday, and next Monday.
+The first
+exam sheet
+with voluntary submission in the tutorial will be released on Friday.
+For up-to-date information on offers, see the
+Mathematics Preparatory Course
+takes place from the 07.09. - 02.10.
+The precourse is no official part of Programming 1 but is highly recommended.
+LINKS: [('Timetable', 'https://cms.sic.saarland/prog1_26/termine/calendar/index'), ('kNobel, first tutorial', 'https://cms.sic.saarland/prog1_26/news/view/2'), ('Tutorial Assignment', 'https://cms.sic.saarland/prog1_26/news/view/1'), ('timetable', 'https://cms.sic.saarland/prog1_26/termine/calendar/index'), ('timetable', 'https://cms.sic.saarland/prog1_26/termine/calendar/index'), ('timetable', 'https://cms.sic.saarland/prog1_26/termine/calendar/index'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### inteq (Pro-)Seminar: Integralgleichungen
+Geschrieben am
+15.10.26
+(letzte Änderung am
+21.10.26
+)						von Lukas Vierus
+hören und deshalb bereits um
+12:00 Uhr s.t.
+beginnen.
+hören und deshalb bereits um
+12:00 Uhr s.t.
+beginnen.
+Name
+02.11.2026
+12:00-12:45 Uhr
+Einführung in Integralgleichungen und ihre Klassifikation
+Adrian Jose
+02.11.2026
+13:00-13:45 Uhr
+Funktionalanalysis und numerische Grundlagen
+Benjamin Barleben
+09.11.2026
+12:00-12:45 Uhr
+Volterra-Gleichungen
+Tommy Kolar
+09.11.2026
+13:00-13:45 Uhr
+Fredholmsche Alternative: Existenz und Eindeutigkeit
+Tim Herzog
+16.11.2026
+12:00-12:45 Uhr
+Spektraltheorie und Neumann-Reihe
+Anthony Nork
+16.11.2026
+13:00-13:45 Uhr
+Kernapproximation, Konsistenz und Konvergenz bei Fredholm-Gleichungen 2. Art
+Dennis Bernhard
+23.11.2026
+12:00-12:45 Uhr
+Projektionsmethoden, insbesondere das Kollokationsverfahren
+Lukas Zabeh
+23.11.2026
+13:00-13:45 Uhr
+Das Galerkin-Verfahren
+Norman Weinland
+07.12.2026
+12:15-13:15 Uhr
+Die Abelsche Integralgleichung
+Gajanan Santhireswaran
+14.12.2026
+12:15-13:15 Uhr
+Fredholm-Gleichungen 1. Art und inverse Probleme
+Lukas Zenner
+11.01.2027
+12:15-13:15 Uhr
+Tikhonov-Regularisierung
+Paul Müller
+18.01.2027
+12:15-13:15 Uhr
+Integralgleichungen in der Potentialtheorie
+Geschrieben am
+14.10.26
+von Lukas Vierus
+Ablauf der Vorträge
+Der erste Vortrag findet am 26.10. statt. Je nachdem, ob ihr die Veranstaltung als Pro- oder Seminar einbringen wollt, beträgt die
+Vortragszeit 45 oder 60…
+Ablauf der Vorträge
+Der erste Vortrag findet am 26.10. statt. Je nachdem, ob ihr die Veranstaltung als Pro- oder Seminar einbringen wollt, beträgt die
+Vortragszeit 45 oder 60 Minuten
+Da es erfreulich viele Anmeldungen gibt, werden insbesondere in den ersten Wochen jeweils zwei Vorträge pro Sitzung stattfinden. In diesen Fällen beginnen wir bereits um
+12:00 Uhr s.t.
+, damit ausreichend Zeit für die anschließende Diskussion bleibt.
+Dozent: Prof. Dr. Thomas Schuster
+Zeit und Ort: Montag, 12-14 Uhr im SR 6
+Vorbesprechung:
+14.10.2026
+,
+12:15 Uhr
+, Raum 4.12, Gebäude E1.1
+Bitte melden Sie sich bis spätestens
+12.10.2026
+über das CMS an.
+LINKS: [('Termine', 'https://cms.sic.saarland/inteq/termine/calendar/index'), ('Vortragsthemen und Termine', 'https://cms.sic.saarland/inteq/news/view/2'), ('die Administratoren', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### rmqi_2627 Random Matrices and Applications in Quantum Information
+Written on
+24.10.26
+by Johannes Hoffmann
+Time and Room
+: Tuesdays 14-16 in HS IV E2 4; Fridays 10-12 in Zeichensaal E2 5
+Content
+LINKS: [('Timetable', 'https://cms.sic.saarland/rmqi_2627/termine/calendar/index'), ('Mathematical Foundations of Quantum Information Theory', 'https://cms.sic.saarland/qit1_26/'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### srl26 Representation Learning: Foundations and Challenges
+Written on
+26.10.26
+by Lena Marie Budde
+Time and place
+Thursdays, 12:15 to 13:45.
+Room:
+Release team assignment:
+October 29, 23:59 (second background session, 3 weeks before the first private group meeting)
+Deliverables and grading scheme
+LINKS: [('Timetable', 'https://cms.sic.saarland/srl26/termine/calendar/index'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### komb26 Seminar Kombinatorik
+Termine:
+Donnerstags 14:00 - 15:30 Uhr in SR 10
+Vorbesprechung: war am Freitag den 04.09.2026
+Voraussetzungen:
+LINKS: [('Termine', 'https://cms.sic.saarland/komb26/termine/calendar/index'), ('die Administratoren', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### matfunc26 Seminar: Matrixfunktionen
+Geschrieben am
+02.10.26
+von Ruben Gutendorf
+Liebe Kommilitonen,
+der erste Seminartermin wird am Donnerstag, den 15. Oktober 2026, um 12:15 Uhr in Hörsaal IV stattfinden.
+Viele Grüße
+Ort und Zeit
+Die erste Seminarsitzung findet am Donnerstag, den 15. Oktober 2026, um 12:15 Uhr in Hörsaal IV (Gebäude E2.4) statt.
+In dieser Auftaktveranstaltung werden organisatorische Fragen geklärt und der Ablauf des Seminars vorgestellt. Die weiteren Termine finden donnerstags nach Absprache statt.
+Referenzen
+N. J. Higham: Functions of Matrices: Theory and Computation,
+10.1137/1.9780898717778
+Datenschutz
+LINKS: [('Termine', 'https://cms.sic.saarland/matfunc26/termine/calendar/index'), ('die Administratoren', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### underwater_2627 (Seminar) Real-Time Control of Underwater Robots
+
+LINKS: [('Timetable', 'https://cms.sic.saarland/underwater_2627/termine/calendar/index'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### taip2627 Seminar: Trusted AI Planning
+The seminar will be run in a block format. All meetings will take place in room 3.06, Building E1 1. The seminar language is English throughout. There will be an initial meeting on
+Monday, October 26, 16:00 - 17:00
+. All student presentations will be given on some day after the lecture's period (which ends Friday February 05) -- the exact date will be set once the seminar assignment is final to avoid any conflicts with exam dates.
+All email interaction must be pre-fixed with "[TAIP26]" in the email subject.
+:
+October 26, 16:00 - 17:00:
+Initial meeting. We will give a brief insight into each of the papers.
+LINKS: [('Timetable', 'https://cms.sic.saarland/taip2627/termine/calendar/index'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### sem_agents_ak_w26 Seminar - Who does the science in the age of agents?
+Written on
+22.10.26
+by Florian Kriegel
+Please do not forget to register for the seminar in LSF by 11 November.
+3. New starting time: 10:15
+There is a lecture scheduled before our seminar, so from now on we will start at 10:15 instead. The room stays the same.
+4. Your tutor
+Written on
+20.10.26
+by Florian Kriegel
+Please find attached the final assignments for the topics:
+Retrieval Augmented Generation -> Srinath Balasundaram (04.11.2026)
+Reasoning and acting -> Maaaz Arshad Shaheen (11.11.2026)
+Co-Scientist -> Konstantin Maximilian Franke (18.11.2026)
+Applications in Biotech: The…
+Please find attached the final assignments for the topics:
+Retrieval Augmented Generation -> Srinath Balasundaram (04.11.2026)
+Reasoning and acting -> Maaaz Arshad Shaheen (11.11.2026)
+Co-Scientist -> Konstantin Maximilian Franke (18.11.2026)
+Applications in Biotech: The Virtual Biotech Lab -> Mohammed Ashraf Ahmed Refaey (25.11.2026)
+Spatial Agent -> Kamyar Kashefzand (02.12.2026)
+The Commercial Science Workbench -> Sadaf Reihani (09.12.2026)
+Physical AI -> Muhammadsultonbek Ergashev (16.12.2026)
+Lab in the loop for perturbation design -> Ahmed Samir Mohamed Shaaban (06.01.2027)
+Can an agent replace a PhD? End-to-end automation -> Fadlilah Nur Hasanah (13.01.2027)
+Multi-agent failure modes -> Ful Belin Korukoglu (20.01.2027)
+Security risks of agentic systems -> Burce Ozdemir (27.01.2027)
+Dual use in biomedical agentic AI -> Mohamed Hegazy (03.02.207)
+We tried to consider your preference as much as possible and hope that you are satisfied with your assigned topic. See you all on Wednesday!
+Best regards,
+Written on
+14.10.26
+(last change on
+15.10.26
+)						by Florian Kriegel
+by
+Monday,…
+Read more
+by
+Monday, 19.10.2026, 23:59 CET
+, listing at least
+Two further deadlines to keep in mind:
+- CMS registration: 19.10.2026, 23:59 CET. If you have not signed up in the CMS yet, please do so before this date.
+- LSF registration: 11.11.2026. If your study program requires additional registration steps elsewhere, please complete those as well.
+Kick-off:
+Wednesday, 21.10.2026, 10:00 in building E2.1 room 0.01
+. Attendance is mandatory, missing it results in exclusion from the course, and your spot will be given to a student on the waiting list.
+Organization:
+Wednesday 10:15-12:00, first presentation 04.11.2026
+Kick-off: 21.10.2026, 10:00
+Attendance is mandatory!
+To register for the seminar, please sign up via the CMS by
+19.10.2026, 23:59 CET
+. Please also register in the LSF until
+11.11.2026
+. If your study program requires additional registration steps elsewhere, please make sure to complete those as well. We cannot be responsible for missed registrations outside the CMS.
+After registration, please send us an e-mail indicating your preferred topic by
+20.10. 2026, 23:59 CET
+. Please list a minimum of 3 topics there.
+LINKS: [('Timetable', 'https://cms.sic.saarland/sem_agents_ak_w26/termine/calendar/index'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### semstoch Seminar zur Stochastik
+Vorbesprechung
+Donnerstag, 15. Oktober
+, 10:15 Uhr in Seminarraum 6 (Raum 217) in Gebäude E2 4
+Anmeldung
+bis zum 14. Oktober
+, 12:00 Uhr,
+hier
+Ort und Zeit
+Do, 10:15-11:45 Uhr in Seminarraum 6 (Raum217) in Gebäude E2 4 und/oder
+Do, 12:15-13:45 Uhr in Hörsaal I in Gebäude E2 5
+Organisatorische Details
+LINKS: [('Termine', 'https://cms.sic.saarland/semstoch/termine/calendar/index'), ('die Administratoren', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### se_2627 Software Engineering
+is open until
+Saturday, 31.10.2026 23:59
+.
+Written on
+12.10.26
+(last change on
+12.10.26
+)						by Yannick Lehmen
+Dear students,
+the first lecture will be on Tuesday in the second week of lectures (October 20th) at 12:15 in lecture hall 0.02 (E1.3).
+Tutorials will start the week after. More information regarding the course organisation will be presented in the first lecture.
+The lecture will be held in presence in the HS002 lecture hall in building E1 3. For the tutorials, we are currently planning a hybrid format (in person + online). More information will be announced closer to the start of the semester. All relevant dates will be in the course's timetable.
+The first lecture will be on 20.10.2026 at 12:15 PM.
+Registration
+Exam Admission Test
+The exam admission test will be conducted as an online test via CMS. The online test will be available from 09.12.2026 12:00 (Noon) until 10.12.2026 12:00 (Noon). Once you start the test, you have 20 minutes to complete it. The exam admission test will cover basic principles about configurable software systems and other aspects covered in the lectures. Further details will be announced in the first lecture.
+Passing the exam admission test is mandatory to be admitted to the exam. If you cannot participate in the exam admission test due to sickness, you need to hand in a doctors note. We will then arrange for an alternative exam admission test on an individual basis.
+LINKS: [('Timetable', 'https://cms.sic.saarland/se_2627/termine/calendar/index'), ('Start of Lectures', 'https://cms.sic.saarland/se_2627/news/view/1'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### statdc26 Statistical Data Compression
+is open until
+Thursday, 19.11.2026 23:59
+.
+Written on
+14.10.26
+(last change on
+14.10.26
+)						by Kamila Szewczyk
+mandatory to pass to qualify for final exam. If passed, 30% of your grade.
+25 Nov 2026 14:00 - 16:00 s.t.
+(please arrive at least 15 minutes early).
+Sessions:
+Wednesdays and Thursdays, 14:00 - 16:00 c.t., HS II E2.5.
+Each session will be split between lecture and tutorial components with a break in between.
+LINKS: [('Timetable', 'https://cms.sic.saarland/statdc26/termine/calendar/index'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### statr_2627 Statistics with R
+Written on
+23.10.26
+by Laura Pissani
+Important: You must create an assignment team for yourself by
+Monday evening, the 26th
+.
+Written on
+22.10.26
+by Laura Pissani
+Written on
+21.10.26
+by Laura Pissani
+Written on
+20.10.26
+by Laura Pissani
+Tomorrow at 10:00 AM, we will assign students who registered to the tutorials.
+You might have noticed that there is a “no tutorial” option. This option is strictly intended for students who either have exam admission from previous years or do not plan to take the course for credit. If you want to…
+Read more
+Tomorrow at 10:00 AM, we will assign students who registered to the tutorials.
+You might have noticed that there is a “no tutorial” option. This option is strictly intended for students who either have exam admission from previous years or do not plan to take the course for credit. If you want to confirm whether you have exam admission from previous years, please get in touch.
+Geb. E2 2 - Hörsaal 0.01 (Günter-Hotz-Hörsaal)
+Lecture:  Tuesdays,
+starting on 20.10.2026  at 08.30 -10.00 a.m.
+Tutorials:
+Thursdays 8:30-10:00, Thursdays 10:15-11:45, Thursdays 12:15-13:45 OR Fridays 10:15-11:45
+Exam:
+The first obligatory datacamp assignment is due already by the end of the first week! Make sure to register on datacamp and download and install R on your computer as indicated under materials before the first tutorial session.
+For the class sheets and the homework sheets you will work together in assignment groups of 3 students. The students have to be in the same tutorial, as class sheets are worked on in the tutorials. You can form assignment groups in the first tutorial session, so make sure to attend the tutorial in the first week (we will assign your tutorial Wednesday morning)
+The class sheets have to be solved within the first part of each tutorial session in your assignment group. Only group members that were present will receive credit for it. When solving the class sheet, you will be able to ask questions and get feedback from the tutor. Class sheets can involve programming exercises (please bring a computer to the tutorial!) or pen-and-paper exercises.
+LINKS: [('Timetable', 'https://cms.sic.saarland/statr_2627/termine/calendar/index'), ('StatsR: contact information – Fill out form', 'https://forms.cloud.microsoft/e/Qufpu4BTVZ'), ('Tutorial assignment complete', 'https://cms.sic.saarland/statr_2627/news/view/2'), ('*IMPORTANT* Tutorial options', 'https://cms.sic.saarland/statr_2627/news/view/1'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### stoch2 Stochastics II
+is open until
+Monday, 26.10.2026 23:59
+.
+Lectures
+Tuesday, 10:15-11:45 am, in SR 6 (room 2.17) in building E2 4
+Thursday, 8:30-10:0 am, in SR 6 (room 2.17) in building E2 4
+The course materials can be accessed
+Tutorial
+Tuesday, 8:30-10:00, in SR 6 (room 2.17) in building E2 4
+The first tutorial will take place at 3 November.
+Assignments
+There will be weekly assignments, which will be uploaded on Tuesdays. They are available
+here
+.
+The submission deadline is the following Tuesday at 9:59 am, via CMS.
+Teams of two can be formed
+LINKS: [('Timetable', 'https://cms.sic.saarland/stoch2/termine/calendar/index'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### structbioinf Structural Bioinformatics
+
+LINKS: [('Timetable', 'https://cms.sic.saarland/structbioinf/termine/calendar/index'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### theory_2627 Theoretical Abilities and Limitations of Language Models
+is open until
+Sunday, 01.11.2026 23:59
+.
+Written on
+23.10.26
+by Yash Raj Sarrof
+If you have not received such an email, I want to first thank you for your interest. At the same time, the places in the seminar are unfortunately limited and I’m sorry that we were unable to offer you a place this time around. You are still welcome to attend the seminar sessions to participate and discuss. However, you won't be able to receive credits for this seminar.
+Tutorial: Friday, 30 October 2026
+We will have a tutorial next Friday. Please
+post your questions or suggested topics
+LINKS: [('Timetable', 'https://cms.sic.saarland/theory_2627/termine/calendar/index'), ('Paper assignments and tutorial on 30 October', 'https://cms.sic.saarland/theory_2627/news/view/1'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### tds2627 Tutor Didactics Seminar
+Written on
+20.10.26
+by Niels Goedicke
+Written on
+14.10.26
+by Jona-yazdan Prinz
+Written on
+11.10.26
+by Niels Goedicke
+Dear Tutors,
+We're looking forward to meeting you all on Monday! We will meet at **9:00 (sharp) in room 0.10, Building E1.7**. Please bring writing materials. Note that the seminar follows a strict **cookie rule**: if you are late, you'll have to bring cookies the next day! :P
+See you on…
+Dear Tutors,
+We're looking forward to meeting you all on Monday! We will meet at **9:00 (sharp) in room 0.10, Building E1.7**. Please bring writing materials. Note that the seminar follows a strict **cookie rule**: if you are late, you'll have to bring cookies the next day! :P
+See you on Monday!
+Your seminar team
+:
+Monday, 1
+2.10.2026 to Friday, 16.10.2026
+Time
+: 9:00 - 17:00
+Where
+The seminar takes place every day from
+Monday, October 12th
+to
+Friday, October 16th
+from
+LINKS: [('Timetable', 'https://cms.sic.saarland/tds2627/termine/calendar/index'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]
+
+### vgm Visual Generative Models
+is open until
+Monday, 26.10.2026 23:59
+.
+Written on
+20.10.26
+(last change on
+20.10.26
+)						by Hevra Petekkaya
+Written on
+14.10.26
+(last change on
+14.10.26
+)						by Hevra Petekkaya
+Hevra Petekkaya:
+Thursday, 2 pm - 3 pm (This week, 15th of Oct, not available for the office hour)
+Location: MPI-INF (E1 4) 6th floor. Room 629
+Muhammad Umar Javed -
+Wednesday, 2 pm - 3 pm
+Location: MPI-INF (E1 4) 6th floor. Room 611
+Written on
+13.10.26
+by Hevra Petekkaya
+Written on
+13.10.26
+(last change on
+13.10.26
+)						by Jan Eric Lenssen
+Written on
+12.10.26
+by Jan Eric Lenssen
+Dates and Locations
+Lecture: Mondays, 4pm–6pm (starts at 4 pm, from 2nd lecture), Room E1 5 (MPI-SWS building) R.002
+Tutorial: Wednesdays, 12pm–2pm (starts at 12:15), Room E1 4 (MPI-INF building) R.024
+The first, introductory lecture will be on October 12 and will start at 4:15 pm.
+Flow Matching Cookbook:
+https://arxiv.org/pdf/2412.06264
+Catching Up on Fundamentals
+LINKS: [('Timetable', 'https://cms.sic.saarland/vgm/termine/calendar/index'), ('Start of Tutorials', 'https://cms.sic.saarland/vgm/news/view/5'), ('Release of Tutorial 1', 'https://cms.sic.saarland/vgm/news/view/3'), ('PyTorch, Learn the Basics', 'https://pytorch.org/tutorials/beginner/basics/intro.html'), ('the administrators', 'mailto:cakecms@cs.uni-saarland.de?subject=[]&body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21')]

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="de" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Hauptseite	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="4231d285cf1947148cfee86aa34b2ec9a0b05a05@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Sic/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Sic/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Sic/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Sic/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Sic/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/ana1_2627/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/ana1_2627/../system" class="navbar-brand">Kurse</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/ana1_2627/">Hauptseite</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Informationen</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/ana1_2627/termine/calendar/index">Termine</a></li><li><a class="dropdown-item" href="/ana1_2627/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/ana1_2627/students/register">Anmeldung</a></li><li class="nav-item"><a class="nav-link" href="/ana1_2627/landing">Persönliche Statusseite</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/ana1_2627/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="5d521c441c7214a0ab2411cd8fa03eee375f4b5a2c0a62cf11ae1dc6bef26c6932f40f42f7b3998b7c192077e994d69dad90167e9b4db97d71a4673ea8b173da" id="Token200671605" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Benutzername" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Passwort" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Angemeldet bleiben</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.sic.saarland/ana1_2627/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="6df4e21d2fffda8a44aa8f57445b2ab8057758d1%3AUser.redirect" id="TokenFields1863592014" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked1569443158" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/ana1_2627/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registrierung</a>        </li>
+        <li>
+            <a href="/ana1_2627/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Passwort vergessen?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Dunklen Modus aktivieren            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Hellen Modus aktivieren            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/ana1_2627/../system" class="site-logo" title="Front Page"><img src="/system/theme/Sic/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					Analysis 1				</h1>
+				<div>
+				<small class="text-muted">
+					Prof. Dr. Mark Groves				</small>
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	
+<table class="table">
+	<colgroup>
+				<col span="1" style="width: auto;" />
+	</colgroup>
+	<tbody>
+	<tr>						<td class="align-top">
+				<a id="newsElement8"></a>
+				<h4 class="fs-5"><a href="/ana1_2627/news/view/8">Übungsblatt 2</a></h4>				<p>
+					<small class="text-muted"><i>
+						Geschrieben am <span data-bs-toggle="tooltip" data-bs-title="23.10.2026 15:50:31">23.10.26</span>						(letzte Änderung am <span data-bs-toggle="tooltip" data-bs-title="23.10.2026 15:50:48">23.10.26</span>)						von Mark Groves					</i></small>
+				</p>
+
+									<p>Das zweite &Uuml;bungsblatt kann nun vom CMS abgerufen werden. Abgabetermin: 30. Oktober um 12:00 Uhr.</p>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement7"></a>
+				<h4 class="fs-5"><a href="/ana1_2627/news/view/7">CMS Downtime</a></h4>				<p>
+					<small class="text-muted"><i>
+						Geschrieben am <span data-bs-toggle="tooltip" data-bs-title="22.10.2026 14:00:54">22.10.26</span>												von Fabian Brenner					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse7">
+					<p>Wie Ihr alle bestimmt bemerkt habt, war das CMS seit gestern Morgen bis vor einigen Minuten nicht verf&uuml;gbar.</p>
+
+<p>Da ein Backup von vorgestern geladen wurde, sind einige Daten verloren gegangen (n&auml;mlich die, die zwischen der Zeit des Backups und dem Beginn der Downtime eingegangen sind).</p>
+
+<p>&Uuml;berpr&uuml;ft&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse7" href="#newsElement7">Weiterlesen</a></p>				</div>
+				<div class="collapse newsCollapse7">
+					<p>Wie Ihr alle bestimmt bemerkt habt, war das CMS seit gestern Morgen bis vor einigen Minuten nicht verf&uuml;gbar.</p>
+
+<p>Da ein Backup von vorgestern geladen wurde, sind einige Daten verloren gegangen (n&auml;mlich die, die zwischen der Zeit des Backups und dem Beginn der Downtime eingegangen sind).</p>
+
+<p>&Uuml;berpr&uuml;ft bitte unbedingt Eure Pers&ouml;nlichen Statusseiten und versucht, Eure eigenen Abgaben herunterzuladen. Wenn es dabei zu einer Fehlermeldung kommt, ladet Eure Abgaben bitte erneut hoch. &Uuml;berpr&uuml;ft bitte auch, ob Eure Abgabengruppen im CMS auf dem neuesten Stand sind.</p>
+				</div>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement6"></a>
+				<h4 class="fs-5"><a href="/ana1_2627/news/view/6">Lehrveranstaltungen am 21. Oktober</a></h4>				<p>
+					<small class="text-muted"><i>
+						Geschrieben am <span data-bs-toggle="tooltip" data-bs-title="21.10.2026 07:24:42">21.10.26</span>												von Mark Groves					</i></small>
+				</p>
+
+									<p>Wegen Krankheit m&uuml;ssen die Lehrveranstaltungen von Prof. Groves heute (Mittwoch 21. Oktober) ausfallen. Wir bitten um Verst&auml;ndnis.</p>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement5"></a>
+				<h4 class="fs-5"><a href="/ana1_2627/news/view/5">Tutorieneinteilung</a></h4>				<p>
+					<small class="text-muted"><i>
+						Geschrieben am <span data-bs-toggle="tooltip" data-bs-title="18.10.2026 10:14:12">18.10.26</span>												von Fabian Brenner					</i></small>
+				</p>
+
+									<p>Die Tutorien sind jetzt eingeteilt. Ihr Tutorium finden Sie auf Ihrer pers&ouml;nlichen Statusseite.</p>
+
+<p>Denken Sie daran, dass die Tutorien schon ab kommender Woche (ab morgen) beginnen.</p>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement4"></a>
+				<h4 class="fs-5"><a href="/ana1_2627/news/view/4">Übungsblatt 1</a></h4>				<p>
+					<small class="text-muted"><i>
+						Geschrieben am <span data-bs-toggle="tooltip" data-bs-title="16.10.2026 13:19:18">16.10.26</span>												von Mark Groves					</i></small>
+				</p>
+
+									<p>Das erste &Uuml;bungsblatt kann nun vom CMS abgerufen werden. Abgabetermin: 23. Oktober um 12:00 Uhr.</p>
+							</td>
+		</tr>		
+	<tr class="collapse news-hidden">						<td class="align-top">
+				<a id="newsElement3"></a>
+				<h4 class="fs-5"><a href="/ana1_2627/news/view/3">Sprechstunden</a></h4>				<p>
+					<small class="text-muted"><i>
+						Geschrieben am <span data-bs-toggle="tooltip" data-bs-title="16.10.2026 12:32:29">16.10.26</span>												von Fabian Brenner					</i></small>
+				</p>
+
+									<p>Sie k&ouml;nnen die Sprechstundenzeiten ab jetzt auf der Hauptseite im CMS finden.</p>
+
+<p>Die Sprechstunden beginnen ab n&auml;chster Woche.</p>
+							</td>
+		</tr>		
+	<tr class="collapse news-hidden">						<td class="align-top">
+				<a id="newsElement2"></a>
+				<h4 class="fs-5"><a href="/ana1_2627/news/view/2">Tutoriumspräferenzen</a></h4>				<p>
+					<small class="text-muted"><i>
+						Geschrieben am <span data-bs-toggle="tooltip" data-bs-title="12.10.2026 18:05:52">12.10.26</span>												von Fabian Brenner					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse2">
+					<p>Sie k&ouml;nnen ab jetzt Ihre Tutoriumspr&auml;ferenzen auf Ihrer pers&ouml;nlichen Statusseite setzen.</p>
+
+<p>Der Slot &quot;Sonntag, 20 Uhr&quot; ist f&uuml;r Studierende, die sich nur der Materialien halber f&uuml;r den Kurs einschreiben und stellt kein tats&auml;chliches Tutorium dar. Falls Sie den Kurs also belegen m&ouml;chten, stellen Sie&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse2" href="#newsElement2">Weiterlesen</a></p>				</div>
+				<div class="collapse newsCollapse2">
+					<p>Sie k&ouml;nnen ab jetzt Ihre Tutoriumspr&auml;ferenzen auf Ihrer pers&ouml;nlichen Statusseite setzen.</p>
+
+<p>Der Slot &quot;Sonntag, 20 Uhr&quot; ist f&uuml;r Studierende, die sich nur der Materialien halber f&uuml;r den Kurs einschreiben und stellt kein tats&auml;chliches Tutorium dar. Falls Sie den Kurs also belegen m&ouml;chten, stellen Sie bei diesem Slot bitte unbedingt &quot;Nicht m&ouml;glich&quot; ein.</p>
+				</div>
+							</td>
+		</tr>		
+	<tr class="collapse news-hidden">						<td class="align-top">
+				<a id="newsElement1"></a>
+								<p>
+					<small class="text-muted"><i>
+						Geschrieben am <span data-bs-toggle="tooltip" data-bs-title="05.10.2026 16:51:17">05.10.26</span>												von Mark Groves					</i></small>
+				</p>
+
+									<p>Sie k&ouml;nnen sich jetzt f&uuml;r die Vorlesung anmelden.</p>
+
+<p>Die erste Vorlesung findet am 14. Oktober statt.</p>
+							</td>
+		</tr>		
+		</tbody>
+</table>
+
+<a data-bs-toggle="collapse" data-bs-target=".news-hidden" class="btn btn-secondary transitions-none show news-hidden"><i class="fa fa-list fa-fw"></i> Show all</a></section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<h2>Analysis 1</h2>
+
+<p>Analysis&nbsp;I ist &ndash;&nbsp;zusammen mit der Linearen Algebra I &ndash;&nbsp;die entscheidende Einf&uuml;hrungsveranstaltung in die Mathematik. Sie vermittelt die unabdingbar notwendigen Voraussetzungen f&uuml;r alle weiteren Mathematik-Veranstaltungen.</p>
+
+<h3>Inhalt</h3>
+
+<ul>
+	<li>Mengen und Abbildungen</li>
+	<li>Die nat&uuml;rlichen Zahlen, vollst&auml;ndige Induktion, Abz&auml;hlbarkeit</li>
+	<li>Zahlbereiche: Z, Q, R</li>
+	<li>Eigenschaften der reellen Zahlen, Vollst&auml;ndigkeit, Ungleichungen</li>
+	<li>Konvergenz, Folgen und Reihen</li>
+	<li>Funktionen, Stetigkeit und Diﬀerenzierbarkeit</li>
+	<li>Potenzreihen und Taylorformel</li>
+	<li>Spezielle Funktionen</li>
+	<li>Integralrechnung</li>
+</ul>
+
+<h3>Lehrveranstaltungen</h3>
+
+<ul>
+	<li>Vorlesungen: Mo. 10-12, Mi. 10-12 im HS I (Groves)</li>
+	<li>Saal&uuml;bung: Mi. 14-16 im HS I (Brenner)</li>
+	<li>Tutorien:
+	<ul>
+		<li>Mo. 14-16 im SR 6 (J&auml;ger)</li>
+		<li>Mo. 16-18 im SR 6 (J&auml;ger)</li>
+		<li>Di. 14-16 im SR 10 (Ferrigno)</li>
+		<li>Di. 16-18 im SR 3 (D&aacute;ny)</li>
+		<li>Mi. 16-18 im SR 3 (Speicher)</li>
+	</ul>
+	</li>
+	<li>Sprechstunden:
+	<ul>
+		<li>Mo 9-10 im Gruppenarbeitsraum (J&auml;ger)</li>
+		<li>Mo 13-14 in E2.4, Raum 3.08 (Brenner)</li>
+		<li>Di 13-14 im Gruppenarbeitsraum (Speicher)</li>
+		<li>Mi 13-14 im Gruppenarbeitsraum (D&aacute;nyi)</li>
+		<li>Do 14-15 im Gruppenarbeitsraum (Ferrigno)</li>
+	</ul>
+	</li>
+</ul>
+
+<h3>&Uuml;bungsbetrieb</h3>
+
+<p>Es wird w&ouml;chentlich ein &Uuml;bungsblatt ver&ouml;ffentlicht, das Sie innerhalb einer Woche bearbeiten und im CMS abgeben k&ouml;nnen. Eine Gruppenabgabe in festen Gruppen von bis zu 3 Personen ist erlaubt.<strong> Der Einsatz von einer KI ist untersagt.</strong>&nbsp;Der Abgabetermin ist Freitag um 12 Uhr.</p>
+
+<p>M&ouml;gliche L&ouml;sungswege der &Uuml;bungsbl&auml;tter werden anschlie&szlig;end in der Saal&uuml;bung besprochen, die Korrekturen und Bepunktungen Ihrer Abgaben werden im CMS hochgeladen.</p>
+
+<p>Zus&auml;tzlich finden w&ouml;chentlich Tutorien statt, in denen Pr&auml;senzaufgaben gemeinsam mit dem jeweiligen Tutor erarbeitet werden. Es wird erwartet, dass Sie Ihre L&ouml;sungen pr&auml;sentieren.</p>
+
+<p>Voraussetzung f&uuml;r die Zulassung zur Abschlussklausur&nbsp;ist das Erreichen von mindestens zwei Dritteln der maximalen Punktzahl (also 360 Punkte) im &Uuml;bungsbetrieb. Hierbei k&ouml;nnen f&uuml;r jedes &Uuml;bungsblatt 30 Punkte erreicht werden, zus&auml;tzlich werden jede Woche 15 Punkte f&uuml;r aktive Teilnahme an Ihrem Tutorium vergeben.</p>
+
+<p>Bei organisatorischen Problemen mit dem &Uuml;bungsbetrieb wenden Sie sich bitte an Fabian Brenner.</p>
+
+<h4>Klausur</h4>
+
+<p>Als Hilfsmittel f&uuml;r die Klausur sind ein beidseitig, handbeschriebenes(!) DIN-A4 Blatt sowie ein nicht netzwerkf&auml;higer Taschenrechner zugelassen. Beachten Sie bitte, dass dennoch immer alle Rechenwege angegeben werden m&uuml;ssen, eine L&ouml;sung der Art &quot;Nach Taschenrechner L=42&quot; gibt keine Punkte!</p>
+
+<h3>Literatur</h3>
+
+<p>Siehe <a href="https://www.infomath-bib.de/SemApp/SemAppMathBasic.shtml">Semesterapparat</a></p>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/datenschutzerklaerung.html" target="_blank">Datenschutz</a> | <a href="https://www.uni-saarland.de/impressum.html" target="_blank">Impressum</a><br/>
+	Bitte wenden Sie sich bei technischen Problemen an <a href="mailto:cakecms@cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">die Administratoren</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

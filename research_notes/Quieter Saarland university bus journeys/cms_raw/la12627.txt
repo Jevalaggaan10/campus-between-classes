@@ -1,0 +1,140 @@
+Main Page
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Lineare Algebra 1
+Simon Brandhorst, Reinder Meinsma
+Registration for this course
+is open until
+Saturday, 31.10.2026 23:59
+.
+News
+Übungsblatt 1, Präsenzblatt 2 und Termin für die Saalübung
+Written on
+23.10.26
+by Reinder Meinsma
+Hallo zusammen,
+das erste Übungsblatt und das zweite Präsenzblatt sind nun im CMS hochgeladen.
+Die Studierenden, die in zwei Wochen ihre erste Präsentation halten, sollen nächste Woche ihre Lösungen mit ihren Tutoren besprechen.
+da der ursprüngliche Termin am Donnerstag von 16:00 bis 18:00…
+Read more
+Hallo zusammen,
+das erste Übungsblatt und das zweite Präsenzblatt sind nun im CMS hochgeladen.
+Die Studierenden, die in zwei Wochen ihre erste Präsentation halten, sollen nächste Woche ihre Lösungen mit ihren Tutoren besprechen.
+da der ursprüngliche Termin am Donnerstag von 16:00 bis 18:00 Uhr für deutlich mehr Studierende besser passt als der Termin am Mittwoch, werden wir die Saalübung
+nicht verlegen.
+Da dies bedeutet, dass einige von Ihnen nicht an der Saalübung teilnehmen können, werde ich jede Woche die Lösungen zu den ersten beiden Aufgaben des Übungsblatts im CMS hochladen. Außerdem können Sie mir bei Bedarf während meiner Sprechstunde gerne Fragen stellen.
+Saalübung: Welcher Termin passt Ihnen besser?
+Written on
+21.10.26
+by Reinder Meinsma
+Hallo zusammen,
+wir hoffen, dass das Semester für Sie gut angefangen hat!
+Mit der Saalübung beginnen wir erst
+nächste Woche
+.
+Da es zu einer Überschneidung mit einer Pflichtveranstaltung für Erstsemester des Studiengangs Versicherungs- und Finanzmathematik kommt, überlegen wir, die Saalübung…
+Read more
+Hallo zusammen,
+wir hoffen, dass das Semester für Sie gut angefangen hat!
+Mit der Saalübung beginnen wir erst
+nächste Woche
+.
+Da es zu einer Überschneidung mit einer Pflichtveranstaltung für Erstsemester des Studiengangs Versicherungs- und Finanzmathematik kommt, überlegen wir, die Saalübung auf einen anderen Wochentag zu verlegen.
+Bitte nehmen Sie
+bis Freitag, den 23.10., um 17:00 Uhr
+an dieser
+Umfrage
+teil. Wir werden anschließend am Freitagabend entscheiden, ob die Saalübung tatsächlich verlegt wird.
+Vielen Dank für Ihre Rückmeldung!
+Einteilung der Übungsgruppen
+Written on
+16.10.26
+by Reinder Meinsma
+Die Einteilung der Übungsgruppen ist nun abgeschlossen. Sie können jetzt im CMS sehen, welcher Gruppe Sie zugeteilt wurden.
+Lineare Algebra 1
+Themen:
+Lineare Algebra I ist - zusammen mit der Analysis I - die entscheidende Einführungsveranstaltung in die Mathematik. Sie vermittelt die unabdingbar notwendigen Voraussetzungen für alle weiteren Mathematik-Veranstaltungen.
+Im Zentrum der Vorlesung stehen Vektorräume und verwandte Begriffe wie z.B. lineare Abbildungen, Determinanten und Bilinearformen.  Ein wichtiger Anwendungsbereich dieser Theorie ist das Lösen linearer Gleichungssysteme.
+Der Inhalt der Vorlesung umfasst:
+Algebraische Grundstrukturen: Gruppen, Ringe, Körper
+Vektorräume und lineare Abbildungen
+Matrizen und Determinanten
+Lineare Gleichungssysteme
+Eigenwerte und Eigenräume
+Skalarprodukte
+Literatur:
+Link zum Semesterapparat
+Dozent:
+Prof. Dr. Simon Brandhorst
+Sprechstunde: Di: 12:00 - 12:30, Freitag 12:00 - 12:30
+Assistent:
+Dr. Reinder Meinsma
+Sprechstunde: Di 12:00 - 12:30, Mi 12:00 - 12:30 in E2.21
+Vorlesungstermine:
+Di 10:15 - 11:45 (E2.5 HS I)
+Fr 10:15 - 11:45 (E2.5 HS I)
+Übungsbetrieb
+Jede Woche wird ein Hausübungsblatt und ein Präsenzübungsblatt online gestellt. Jedes Hausübungsblatt besteht aus vier Aufgaben:
+Aufgaben 1 und 2
+bearbeiten Sie eigenständig ohne Taschenrechner und insbesondere ohne KI-Unterstützung. Die Lösungen werden zwei Wochen später in der Saalübung vorgestellt.
+Aufgaben 3 und 4
+können Sie frei bearbeiten, allein, im Team oder mit KI-Unterstützung. Die Lösungen werden zwei Wochen später im Tutorium im Rahmen der Referate vorgestellt (siehe Klausurzulassung).
+Sie können Ihre Lösung gerne zur Korrektur bei Ihrem Tutor abgeben. Zur nächsten Übung bekommen Sie die Lösung dann mit Feedback zurück.
+Im Anschluss an die Präsentationen werden im Tutorium gemeinsam weitere Aufgaben zum Vorlesungsstoff aus dem Präsenzübungsblatt gelöst und besprochen.
+Abgabe der Übungsblätter
+Sie können Ihre Übungsblätter wöchentlich im CMS abgeben. Die Abgabe ist freiwillig, wird jedoch empfohlen, da Sie von Ihrer Tutorin bzw. Ihrem Tutor Feedback zu Ihren Lösungen erhalten.
+Klausurzulassung
+Für die Zulassung zur Klausur müssen Sie im Laufe des Semesters
+zwei Referate
+in Ihrem Tutorium erfolgreich halten.
+Ablauf
+Einteilung:
+Sie werden über das CMS einem Tutorium zugeteilt. Anschließend weisen wir Ihnen die Termine und die Aufgabennummer (3 oder 4) für Ihre beiden Referate zu.
+Aufgabenstellung:
+Thema Ihres Referats ist eine der freien Aufgaben (Aufgabe 3 oder 4) des Übungsblatts, das zwei Wochen vor Ihrem Referatstermin erscheint. Für die Bearbeitung haben Sie eine Woche Zeit.
+Vorbesprechung:
+In der Woche vor Ihrem Referat findet eine verpflichtende Vorbesprechung (ca. 20–30 Minuten) mit Ihrer Tutorin oder Ihrem Tutor statt. Dort besprechen Sie Ihren Lösungsansatz.
+Referat:
+Das Referat wird als Tafelvortrag gehalten und dauert 15–20 Minuten. Im Anschluss folgen etwa 5 Minuten für Fragen und Diskussion.
+Bestehen des Referats
+Das Referat wird nicht benotet, sondern mit „bestanden" oder „nicht bestanden" bewertet. Für das Bestehen müssen Sie
+vorbereitet zur Vorbesprechung erscheinen, d. h. mindestens einen Lösungsansatz mitbringen,
+Ihr Referat nachvollziehbar und inhaltlich sinnvoll halten,
+auf Rückfragen zu Ihrer Lösung eingehen können.
+Versäumnisse
+Bei
+unentschuldigtem Fehlen
+bei der Vorbesprechung oder beim Referat gilt das Referat als nicht bestanden. Eine Wiederholung ist im Regelfall nicht vorgesehen.
+Bei
+entschuldigtem Fehlen
+(ärztliches Attest bitte per Mail an meinsma@math.uni-sb.de mit CC. an ihren Tutor) erhalten Sie die Möglichkeit, das Referat zu einem späteren Termin nachzuholen, gegebenenfalls zu einem anderen Thema.
+Tutorien
+Tutorium 1: Mo 08:00 - 10:00, SR 10, Gebäude E2.4 (Luis Schackmann)
+Tutorium 2: Di 12:00 - 14:00, SR 5,  Gebäude E2.4 (Florian Bange)
+Tutorium 3: Di 12:00 - 14:00, Zeichensaal, Gebäude E2.5 (Polina Pavlova)
+Tutorium 4: Di 16:00 - 18:00, SR 6, Gebäude E2.4 (Jannik Schmitt)
+Tutorium 5: Do 12:00 - 14:00, SR 9, Gebäude E2.4 (Luis Schackmann)
+Tutorium 6: Do 14:00 - 16:00, SR 9, Gebäude E2.4 (Laura Fritz)
+Tutorium 7: Fr 12:00 - 14:00, SR 10, Gebäude E2.4 (Jasper Wälzholz-Junius)
+Saalübung: Do 16:00 - 18:00, E2.5 HS II (Reinder Meinsma)
+Sprechstunden
+Mo 14:15, Gebäude E2.4 Raum 317 (Gruppenarbeitsraum) Florian Bange
+Di 13:00, Gebäude E2.4 Raum 317 (Gruppenarbeitsraum)  Jannik Schmitt
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

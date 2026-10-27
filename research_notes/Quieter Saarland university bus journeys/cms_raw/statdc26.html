@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Main Page	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="4231d285cf1947148cfee86aa34b2ec9a0b05a05@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Sic/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Sic/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Sic/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Sic/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Sic/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/statdc26/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/statdc26/../system" class="navbar-brand">Courses</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/statdc26/">Main Page</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Information</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/statdc26/termine/calendar/index">Timetable</a></li><li><a class="dropdown-item" href="/statdc26/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/statdc26/students/register">Registration</a></li><li class="nav-item"><a class="nav-link" href="/statdc26/landing">Personal Status</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/statdc26/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="590357c4143a220ce5911f5161e7afd2d196d38bf574c88a301ed41c1cf180fa8356d5f897a735d4da5fdd1186da79a1c3a6a06ee8d5abd393824a03b8b87e26" id="Token1063766415" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Username" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Password" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Remember me</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.sic.saarland/statdc26/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="56e2c033ae8dddda4c6c0647e3116ccebdaedbd7%3AUser.redirect" id="TokenFields1735324753" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked407980585" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/statdc26/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registration</a>        </li>
+        <li>
+            <a href="/statdc26/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Forgot Password?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Enable dark mode            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Enable light mode            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/statdc26/../system" class="site-logo" title="Front Page"><img src="/system/theme/Sic/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					Statistical Data Compression				</h1>
+				<div>
+				<small class="text-muted">
+					Kamila Szewczyk & <a href="https://www.rahmannlab.de/people/rahmann">Prof. Dr. Sven Rahmann</a>				</small>
+					</div>
+				<div class="mt-2"><small class="text-muted fs-6">Advanced lecture V2+Ü2 [6 ECTS credits]</small></div>			</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					<div class="alert alert-info"><a href="/statdc26/students/register">Registration for this course</a> is open until <strong>Thursday, 19.11.2026 23:59</strong>.</div>
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	
+<table class="table">
+	<colgroup>
+				<col span="1" style="width: auto;" />
+	</colgroup>
+	<tbody>
+	<tr>						<td class="align-top">
+				<a id="newsElement1"></a>
+				<h4 class="fs-5"><a href="/statdc26/news/view/1">Today&#039;s Materials</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="14.10.2026 17:26:38">14.10.26</span>						(last change on <span data-bs-toggle="tooltip" data-bs-title="14.10.2026 17:27:12">14.10.26</span>)						by Kamila Szewczyk					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse1">
+					<p>Dear Students,</p>
+
+<p>I will soon upload a partial recording of the first lecture. Sadly it&#39;s not very good and does not include the tutorial. We will try to fix this for the upcoming lecture recordings.<br />
+I have also uploaded the example code from the tutorial. Feel free to put your (faster/alternative)&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse1" href="#newsElement1">Read more</a></p>				</div>
+				<div class="collapse newsCollapse1">
+					<p>Dear Students,</p>
+
+<p>I will soon upload a partial recording of the first lecture. Sadly it&#39;s not very good and does not include the tutorial. We will try to fix this for the upcoming lecture recordings.<br />
+I have also uploaded the example code from the tutorial. Feel free to put your (faster/alternative) solutions on the forums and discuss :-). I am also open to feedback either through the anonymous feedback option or the forums.</p>
+
+<p>Thank you for attending and I hope to see you tomorrow again!</p>
+				</div>
+							</td>
+		</tr>		
+		</tbody>
+</table>
+
+</section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<h2>Statistical Data Compression</h2>
+
+<p>Advanced lecture with theoretical and practical exercises, V2+&Uuml;2, for Computer Science and related programs.</p>
+
+<ul>
+</ul>
+
+<table border="1" cellpadding="5" cellspacing="0" style="height:580px; width:776px">
+	<tbody>
+		<tr>
+			<td><strong>Prerequisites</strong></td>
+			<td>
+			<p>Solid foundations of <strong>mathematics and probability</strong> (MInf1 - Minf3 or equivalent);<br />
+			Solid <strong>programming</strong> skills (Prog2 or equivalent is sufficient).</p>
+
+			<p>Some familiarity with&nbsp;<strong>algorithms</strong> (e.g. Heaps,&nbsp;BWT,&nbsp;suffix arrays, Bloom filters) is beneficial. That said, we will offer a quick refresher&nbsp;on relevant algorithms at the start of the semester.</p>
+			</td>
+		</tr>
+		<tr>
+			<td><strong>Credits</strong></td>
+			<td>6 ECTS credits</td>
+		</tr>
+		<tr>
+			<td><strong>Required time</strong></td>
+			<td>V2+&Uuml;2&nbsp;(2&nbsp;hours of lectures,&nbsp;2&nbsp;hours of tutorials per week)</td>
+		</tr>
+		<tr>
+			<td><strong>Language</strong></td>
+			<td>English</td>
+		</tr>
+		<tr>
+			<td><strong>Final Exam</strong></td>
+			<td>written; need to have passed midterm to take part. Course failed if failed. If passed, 70% of your grade.</td>
+		</tr>
+		<tr>
+			<td><strong>Midterm&nbsp;Exam</strong></td>
+			<td>mandatory to pass to qualify for final exam. If passed, 30% of your grade.<br />
+			<strong>25 Nov 2026 14:00 - 16:00 s.t. </strong>(please arrive at least 15 minutes early).</td>
+		</tr>
+		<tr>
+			<td><strong>Registration</strong></td>
+			<td>Click on Registration in the menu header</td>
+		</tr>
+		<tr>
+			<td><strong>Details</strong></td>
+			<td>Materials will be available after registration under Information &gt; Materials</td>
+		</tr>
+		<tr>
+			<td><strong>Times</strong><br />
+			&nbsp;</td>
+			<td>
+			<p><strong>Sessions:</strong>&nbsp;<strong>Wednesdays and Thursdays, 14:00 - 16:00 c.t., HS II E2.5.</strong><br />
+			Each session will be split between lecture and tutorial components with a break in between.<br />
+			<strong>Office Hours: </strong>by appointment</p>
+			</td>
+		</tr>
+		<tr>
+			<td><strong>Mode</strong></td>
+			<td>Lecture in presence</td>
+		</tr>
+		<tr>
+			<td><strong>Link</strong></td>
+			<td><a href="https://cms.sic.saarland/statdc26">https://cms.sic.saarland/statdc26/</a></td>
+		</tr>
+		<tr>
+			<td><strong>Instructor</strong></td>
+			<td>Kamila Szewczyk</td>
+		</tr>
+		<tr>
+			<td><strong>Examiner</strong></td>
+			<td>Prof. Dr. Sven Rahmann</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p><strong>Please verify with your exam office if you can get ECTS credit for this course if you are not studying one of the following programs:</strong></p>
+
+<ul>
+	<li>Computer Science (B.Sc and M.Sc)</li>
+	<li>Bioinformatics (M.Sc)</li>
+	<li>Mathematics and Computer Science (B.Sc, M.Sc)</li>
+	<li>Data Science and AI (B.Sc, M.Sc)</li>
+	<li>Mediainformatics (B.Sc, M.Sc)</li>
+	<li>Embedded Systems (M. Sc)</li>
+	<li>Enterpreneurial Cybersecurity (M. Sc)</li>
+	<li>Quantum Information Theory (M.Sc)</li>
+	<li>Lehramt Informatik</li>
+</ul>
+
+<h2>Content Overview</h2>
+
+<ul>
+	<li>Basic notions of information theory</li>
+	<li>Review of string algorithms (suffix arrays, Burrows-Wheeler Transform BWT)</li>
+	<li>Optimal prefix codes (e.g. Huffman codes)</li>
+	<li>Optimal codes (arithmetic coding)</li>
+	<li>Asymmetric numeral systems (rANS, tANS)</li>
+	<li>Lempel-Ziv factoring and compression (LZ77, LZ78, LZP/ROLZ)</li>
+	<li>LZ match finding algorithms</li>
+	<li>Adaptive range coding</li>
+	<li>Introduction to Prediction by Partial Matching (PPM)</li>
+	<li>Context-adaptive binary arithmetic coding</li>
+	<li>Dynamic Markov coding</li>
+	<li>Advanced techniques im PPM (information inheritance, secondary escape&nbsp;estimation, low order estimation)</li>
+	<li>Advanced low-order bitwise models (indirect, finite state machines)</li>
+	<li>Linear/logistic context mixing</li>
+	<li>Non-linear post-mixing maps (adaptive probability maps,&nbsp;APM)</li>
+	<li>Symbol ranking (SR); move-to-front (MTF), quantised local-frequency coding&nbsp;(QLFC)</li>
+	<li>BWT post-coding techniques</li>
+	<li>Parsing optimization for context mixing (PAQ9A)</li>
+	<li>PAQ8 architecture</li>
+	<li>Compression via large language models (LLMs)</li>
+	<li>Neural network mixing</li>
+	<li>Case study: DNA compression</li>
+</ul>
+
+<h2><br />
+Target audience&nbsp;</h2>
+
+<p>This course is offered as an advanced / specialized lecture at UdS.<br />
+It should be taken later in the B.Sc. program or any time in the M.Sc. program.<br />
+The material requires good mathematical knowledge (probabilities!) and low-level programming skill (you need to know your hardware).<br />
+Good programming languages to know would be C, Rust or C++, for example.</p>
+
+<p>&nbsp;</p>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/en/privacy.html" target="_blank">Privacy Policy</a> | <a href="https://www.uni-saarland.de/en/legal-notice.html" target="_blank">Legal Notice</a><br/>
+	If you encounter technical problems, please contact <a href="mailto:cakecms@cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">the administrators</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

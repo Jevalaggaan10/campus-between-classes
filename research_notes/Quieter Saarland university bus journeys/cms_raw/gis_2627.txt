@@ -1,0 +1,79 @@
+Hauptseite
+Kurse
+Hauptseite
+Informationen
+Termine
+Team
+Anmeldung
+Persönliche Statusseite
+Login
+Angemeldet bleiben
+Login
+Registrierung
+Passwort vergessen?
+Dunklen Modus aktivieren
+Hellen Modus aktivieren
+Grundlagen von Informatiksystemen
+Lukas Wachter
+Die
+Registrierung für diesen Kurs
+ist noch bis zum
+Freitag, 30.10.2026 23:59
+geöffnet
+.
+News
+Important Information About This Course
+Geschrieben am
+09.10.26
+von Lukas Wachter
+Recently, a considerable number of students from non-teacher-education programs have registered for this course. Therefore, I would like to clarify the intended target audience.
+This course is intended exclusively for students in
+teacher education programs
+, especially those preparing to teach at…
+Weiterlesen
+Recently, a considerable number of students from non-teacher-education programs have registered for this course. Therefore, I would like to clarify the intended target audience.
+This course is intended exclusively for students in
+teacher education programs
+, especially those preparing to teach at the
+Sekundarstufe I
+level. The course is
+not creditable for students enrolled in other degree programs
+and is conducted
+entirely in German
+.
+If you are not studying in a teacher education program but are nevertheless interested in the course, please contact me before registering. I would be happy to discuss whether the course is likely to be beneficial to your study goals.
+Please also note that there are other courses with similar titles. Before registering, please make sure that this is indeed the course you intend to take. Otherwise, you may miss important information, announcements, or deadlines related to the courses that are actually relevant to your studies.
+Thank you for your interest and understanding.
+Grundlagen von Informatiksystemen
+Auszug aus dem Modulhandbuch Lehramt für die Sekundarstufe I im Fach Informatik
+Lernziele / Kompetenzen
+Die Studierenden kennen verschiedene Informatiksysteme, sowie ihren Aufbau und ihre grundsätzliche Funktionsweise. Insbesondere erlernen sie die Grundlagen von gängigen Rechnerarchitekturen (insb. von-Neumann-Architektur) und verstehen das Zusammenspiel von Hard- und Software. Sie erlangen ein Verständnis darüber, wie Informationen bzw. Daten in Informatiksystemen dargestellt, gespeichert, komprimiert und verarbeitet werden. Sie kennen die Grundlagen der Nutzung von Computern und dem Internet und die Probleme, die sich im Rahmen der Nutzung ergeben.
+Inhalt
+Informatiksysteme
+Aufbau und Funktionsweise von Informatiksystemen (Zusammenstellung von Software-, Hardware- und Netzwerkkomponenten), von-Neumann-Architektur;
+Grundlagen von Betriebssystemen
+Historische Entwicklung von Computern und Informatiksystemen
+Aufbau und Funktionsweise des Internets (Client-Server-Architektur; zentrale Akteure: Webserver, Router, DNS; Routing, Adressierung, Paketierung,...)
+Funktionsweise von Suchmaschinen
+Information und Daten
+Grundbegriffe: Information, Daten, Code/Codierung
+Codierung natürlicher Zahlen: Dezimal-, Binär- und Hexadezimalsystem
+Einheiten (Bit, Byte) und SI-Präfixe
+Binäre Codierung von Texten (z.B. ASCII), Bildern (Raster- und Vektorgrafiken) und Ton
+Verfahren der Datenkompression (Lauflängencodierung, Huffman-Code); verlustfreie vs. verlustbehaftete Kompression
+Fehlererkennende und -korrigierende Codes (EAN, ISBN, QR- und Hamming-Code)
+Informationsdarstellung im Internet; Grundzüge von HTML und CSS
+Rechtliche Aspekte (z.B. Urheberrecht, Datenschutz, Persönlichkeitsrechte, Creative Commons)
+Technische Grundlagen
+Abstraktionsebenen: Hochsprache, Assembler, Maschinensprache
+Aufgaben und Funktionsweise von Compiler/Interpreter; Grundzüge der Assemblerprogrammierung
+Realisierung auf Maschinenebene:
+Logische Grundlagen (Aussagenlogische Terme bzw. Funktionen, Disjunktive Normalform, Äquivalenz; logische Regeln und Karnaugh-Veith-Diagramme zur Term-Minimierung)
+Technische Realisierung durch logische (Grund-)Gatter; Schaltungsentwurf
+Beispielhafte Schaltungen (Halb- und Volladdierer) und Rückkopplung als Prinzip der Informationsspeicherung (Flip-Flops)
+Datenschutz
+|
+Impressum
+Bitte wenden Sie sich bei technischen Problemen an
+die Administratoren
+.

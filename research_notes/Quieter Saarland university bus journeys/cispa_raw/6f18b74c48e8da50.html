@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Hauptseite	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="300c92296ba275f6ef119c2f4d421cdb55afc9be@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Cispa/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/theme/Cispa/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Cispa/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Cispa/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Cispa/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Cispa/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Cispa/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Cispa/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/htai/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/htai/../system" class="navbar-brand">CMS</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/htai/">Main Page</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Information</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/htai/termine/calendar/index">Timetable</a></li><li><a class="dropdown-item" href="/htai/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/htai/students/register">Registration</a></li><li class="nav-item"><a class="nav-link" href="/htai/landing">Personal Status</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/htai/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="b9f6142cfbddf7bebbeef02e0110c04fa5180391965fefbfb3ddef99757a4c0153ce042daef685c02526c01db5d975ce09dbd17f5e485a7e4efd1d48deca4686" id="Token2066085315" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Username" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Password" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Remember me</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.cispa.saarland/htai/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="05fddfeaaad58bf83174a6948c840b11e53421f8%3AUser.redirect" id="TokenFields1972989162" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked42693997" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/htai/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registration</a>        </li>
+        <li>
+            <a href="/htai/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Forgot Password?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Enable dark mode            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Enable light mode            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/htai/../system" class="site-logo" title="Front Page"><img src="/system/theme/Cispa/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					Humans and Trustworthy AI Systems				</h1>
+				<div>
+				<small class="text-muted">
+					Maximilian Golla, Lea Schönherr				</small>
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	
+<table class="table">
+	<colgroup>
+				<col span="1" style="width: auto;" />
+	</colgroup>
+	<tbody>
+	<tr>						<td class="align-top">
+				<a id="newsElement1"></a>
+				<h4 class="fs-5"><a href="/htai/news/view/1">Topic Selection</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="26.10.2026 17:52:25">26.10.26</span>												by Lea Schönherr					</i></small>
+				</p>
+
+									<p>Hi everyone,</p>
+
+<p>I hope you had a great week. We just wanted to send a gentle reminder to rank your favorite topic by the end of &nbsp;today (Monday):&nbsp;https://simpleassign.net/poll/-P4FCNOgcECzgJ5pUCJi</p>
+
+<p>We will announce the assignments tomorrow during our seminar.</p>
+
+<p><br />
+Best regards,</p>
+
+<p>Lea and Maximilian</p>
+							</td>
+		</tr>		
+		</tbody>
+</table>
+
+</section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<h4><strong>Registration:</strong></h4>
+
+<!-- <div class="alert alert-info">If you want to <strong>register for this seminar</strong>, you should do so <strong>via</strong> the <strong><a href="https://seminars.cs.uni-saarland.de/wise2627seminars" target="_blank">central seminar assignment system</a></strong>.</div> -->
+
+<hr />
+<p><img alt="HTAI" src="https://cms.cispa.saarland/htai/dl/2/HTAI.jpg.jpg" style="height:auto; max-width:1299px; width:100%" /></p>
+
+<hr />
+<h3>About</h3>
+
+<p>Many of the central challenges of trustworthy AI arise at the intersection of technical systems and human behavior. The seminar is jointly taught and is designed around an approximately <strong>equal balance </strong>between<strong> human-centered usable security and privacy topics </strong>and<strong> </strong>the<strong> technical security of AI, machine-learning, and large language model systems</strong>. Further information about presentation formats, topic assingment, and assessment requirements will be provided at the beginning of the seminar.</p>
+
+<hr />
+<h3>Prerequisites</h3>
+
+<p>This seminar is aimed at <strong>master&#39;s students in Cybersecurity</strong> or related fields. Participants should have a basic understanding of computer security, privacy, artificial intelligence, and machine learning and an interest in examining these technologies from <strong>both technical and human-centered perspectives</strong>.</p>
+
+<hr />
+<h3>Learning Objectives</h3>
+
+<p>Students will develop a critical understanding of <strong>how AI systems affect security, privacy, fairness, and society</strong>. They will learn to analyze trustworthy AI systems from complementary human-centered and technical perspectives, assess relevant research, identify limitations and potential harms, and communicate complex findings clearly. Particular attention will be paid to the gap between an AI system&#39;s intended behavior and the ways in which it may be understood, used, misused, or experienced in practice.</p>
+
+<hr />
+<h3>Seminar Content</h3>
+
+<p><strong>The seminar explores trustworthy AI through an equal combination of two perspectives</strong>.</p>
+
+<p>The <strong>human-centered perspective</strong> focuses on usable security and privacy, including</p>
+
+<ul>
+	<li>users&#39; mental models of AI,</li>
+	<li>privacy concerns,</li>
+	<li>vulnerable or marginalized groups,</li>
+	<li>technology-facilitated abuse, scams, and misinformation.</li>
+</ul>
+
+<p>The <strong>technical perspective</strong> examines the security of AI, machine-learning, and large language model systems, including</p>
+
+<ul>
+	<li>secure code generation,</li>
+	<li>the offensive use of AI,</li>
+	<li>risks introduced by autonomous agents, and</li>
+	<li>methods for detecting generated media.</li>
+</ul>
+
+<p>Students will engage with <strong>recent scientific publications</strong>, <strong>present one selected topic</strong>, and <strong>lead a critical discussion</strong> of its human and technical dimensions. Presentations should explain the underlying technology, examine relevant security and privacy concerns, consider how people understand and interact with the system, and discuss how proposed safeguards may fail in real-world settings.</p>
+
+<hr />
+<h3>Topics</h3>
+
+<div style="display:inline-block; width:100%">
+<table border="0" cellpadding="1" cellspacing="1" class="table table-striped">
+	<thead>
+		<tr>
+			<th scope="col" style="text-align:left">#</th>
+			<th scope="col" style="text-align:left">Topic</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1</td>
+			<td>Mental Models of AI</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Privacy in&nbsp;AI Chatbots</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Youth, AI, and Privacy</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>AI-Facilitated Scams and Phishing</td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>Deepfakes, Misinformation, and Authenticity</td>
+		</tr>
+		<tr>
+			<td>6</td>
+			<td>AI and Image-Based Sexual Abuse</td>
+		</tr>
+		<tr>
+			<td>7</td>
+			<td>Overreliance and Verification of AI Advice</td>
+		</tr>
+		<tr>
+			<td>8</td>
+			<td>AI Coding Assistants and Secure Development</td>
+		</tr>
+		<tr>
+			<td>9</td>
+			<td>AI Agents and Human Oversight</td>
+		</tr>
+		<tr>
+			<td>10</td>
+			<td>Workplace AI and Organizational Security</td>
+		</tr>
+		<tr>
+			<td>11</td>
+			<td>Bystander Privacy in AI Systems</td>
+		</tr>
+		<tr>
+			<td>12</td>
+			<td>Minorities, Fairness, and Unequal AI Harms</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<hr />
+<h3>Special Notes</h3>
+
+<p>This seminar does not include a written seminar paper. In light of the growing use of generative AI in writing, the course instead places particular emphasis on students&#39; own understanding, <strong>presentation</strong>, critical reasoning, and <strong>active participation in discussion</strong>. Assessment will therefore be based on presentations and contributions to seminar discussions.</p>
+
+<hr />
+<h3>Talk Schedule (Tentative)</h3>
+
+<div style="display:inline-block; width:100%">
+<table border="0" cellpadding="1" cellspacing="1" class="table table-striped">
+	<thead>
+		<tr>
+			<th scope="col" style="text-align:left">#</th>
+			<th scope="col" style="text-align:left">Date</th>
+			<th scope="col" style="text-align:left">Room</th>
+			<th scope="col" style="text-align:left">Meeting</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>-</td>
+			<td>October 13, 2026</td>
+			<td>-</td>
+			<td>Seminar Assignment Week</td>
+		</tr>
+		<tr>
+			<td><strong>1</strong></td>
+			<td><strong>October 20, 2026 - 2:00pm till 5:00pm</strong></td>
+			<td><strong>CISPA (E9 1) - Room 0.02 Showroom</strong></td>
+			<td><strong>Kick-off - Humans &amp; AI</strong></td>
+		</tr>
+		<tr>
+			<td><strong>2</strong></td>
+			<td><strong>October 27, 2026 - 2:00pm till 5:00pm</strong></td>
+			<td><strong>CISPA (E9 1) - Room 0.02 Showroom</strong></td>
+			<td><strong>How to Read and Present Scientific Papers</strong></td>
+		</tr>
+		<tr>
+			<td>-</td>
+			<td>November 3, 2026</td>
+			<td>-</td>
+			<td>No Meeting - Preparation Time</td>
+		</tr>
+		<tr>
+			<td>-</td>
+			<td>November 10, 2026</td>
+			<td>-</td>
+			<td>No Meeting - Preparation Time</td>
+		</tr>
+		<tr>
+			<td>-</td>
+			<td>November 17, 2026</td>
+			<td>-</td>
+			<td>No Meeting - Preparation Time</td>
+		</tr>
+		<tr>
+			<td><strong>3</strong></td>
+			<td><strong>November 24, 2026 - 2:00pm till 5:00pm</strong></td>
+			<td><strong>CISPA (E9 1) - Room 0.02 Showroom</strong></td>
+			<td><strong>2x Practice Talks + 2x Practice Talks</strong></td>
+		</tr>
+		<tr>
+			<td><strong>4</strong></td>
+			<td><strong>December 1, 2026 - 2:00pm till 5:00pm</strong></td>
+			<td><strong>CISPA (E9 1) - Room 0.02 Showroom</strong></td>
+			<td><strong>2x Practice Talks + 2x Practice Talks</strong></td>
+		</tr>
+		<tr>
+			<td>-</td>
+			<td>December 8, 2026</td>
+			<td>-</td>
+			<td>No Meeting - Preparation Time</td>
+		</tr>
+		<tr>
+			<td><strong>5</strong></td>
+			<td><strong>December 15, 2026 - 2:00pm till 5:00pm</strong></td>
+			<td><strong>CISPA (E9 1) - Room 0.02 Showroom</strong></td>
+			<td><strong>2x Practice Talks + 2x Practice Talks</strong></td>
+		</tr>
+		<tr>
+			<td>-</td>
+			<td>December 22, 2026</td>
+			<td>-</td>
+			<td>No Meeting - Winter Break&nbsp;🎅</td>
+		</tr>
+		<tr>
+			<td>-</td>
+			<td>December 29, 2026</td>
+			<td>-</td>
+			<td>No Meeting - Winter Break&nbsp;🎆</td>
+		</tr>
+		<tr>
+			<td>-</td>
+			<td>January 5, 2027</td>
+			<td>-</td>
+			<td>No Meeting - Preparation Time</td>
+		</tr>
+		<tr>
+			<td><strong>6</strong></td>
+			<td><strong>January 12, 2027 - 2:00pm till 5:00pm</strong></td>
+			<td><strong>CISPA (E9 1) - Room 0.02 Showroom</strong></td>
+			<td><strong>2x Final Talks + 2x Final Talks</strong></td>
+		</tr>
+		<tr>
+			<td><strong>7</strong></td>
+			<td><strong>January 19, 2027 - 2:00pm till 5:00pm</strong></td>
+			<td><strong>CISPA (E9 1) - Room 0.02 Showroom</strong></td>
+			<td><strong>2x Final Talks + 2x Final Talks</strong></td>
+		</tr>
+		<tr>
+			<td><strong>8</strong></td>
+			<td><strong>January 26, 2027 - 2:00pm till 5:00pm</strong></td>
+			<td><strong>CISPA (E9 1) - Room 0.02 Showroom</strong></td>
+			<td><strong>2x Final Talks + 2x Final Talks</strong></td>
+		</tr>
+		<tr>
+			<td>-</td>
+			<td>February 2, 2027</td>
+			<td>-</td>
+			<td>No Meeting - Reserved: Backup</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<hr />
+<h3>Time and Location</h3>
+
+<div class="container">
+<div class="row">
+<div class="align-middle col-lg-6 col-md-12 col-sm-12 order-lg-first" style="padding-left:0rem"><strong>Date</strong>:
+
+<p>The seminar will take place on&nbsp;<strong>Tuesdays</strong>,<strong>&nbsp;</strong>starting <strong>October 20, 2026</strong>.</p>
+<strong>Time</strong>:
+
+<p><strong>2-5pm</strong> (with a short break)</p>
+<strong>Location</strong>:
+
+<p>Building <a href="https://maps.app.goo.gl/tbhHZgNQxGqrULsM6" target="_blank">E9 1</a>, <strong>CISPA C0</strong>, Stuhlsatzenhaus 5, 66123 Saarbruecken.</p>
+
+<p>Room: 0.02 Showroom</p>
+<strong>Links</strong>:
+
+<ul>
+	<li><a href="https://seminars.cs.uni-saarland.de/wise2627seminars" target="_blank">SIC&nbsp;Seminars</a></li>
+	<li><a href="https://www.lsf.uni-saarland.de/qisserver/rds?state=verpublish&amp;status=init&amp;vmfile=no&amp;publishid=166900&amp;moduleCall=webInfo&amp;publishConfFile=webInfo&amp;publishSubDir=veranstaltung" target="_blank">Course Catalog</a></li>
+</ul>
+</div>
+
+<div class="col-lg-6 col-md-12 col-sm-12 order-first" style="padding-left:0rem"><img alt="CISPA Building C0 aka UdS E9.1" class="float-right img-fluid rounded" src="https://cms.cispa.saarland/passwordless_2425/dl/43/CISPA_C0.jpg" /></div>
+</div>
+</div>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/en/privacy.html" target="_blank">Privacy Policy</a> | <a href="https://www.uni-saarland.de/en/legal-notice.html" target="_blank">Legal Notice</a><br/>
+	If you encounter technical problems, please contact <a href="mailto:cms-devs@mail-infsec.cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">the administrators</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

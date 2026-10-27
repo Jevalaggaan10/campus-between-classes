@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//127.0.1.1//NONSGML kigkonsult.se iCalcreator 2.41.92//
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+UID:33343662-3834-4666-b632-613132343761
+X-WR-CALNAME:Automata Learning: Learnability of Computational Models Calend
+ ar
+X-WR-CALDESC:Events of the lecture Automata Learning: Learnability of Compu
+ tational Models
+X-WR-TIMEZONE:Europe/Berlin
+BEGIN:VEVENT
+UID:31656437-6638-4830-b637-613462306438
+DTSTAMP:20261026T192104Z
+DESCRIPTION:The first session of the ProSeminar 'Automata Learning: Learnab
+ ility of Computational Models'.
+DTSTART:20261030T090000Z
+DTEND:20261030T110000Z
+LOCATION:Building C0\, room 0.01
+SUMMARY:First Session
+END:VEVENT
+END:VCALENDAR

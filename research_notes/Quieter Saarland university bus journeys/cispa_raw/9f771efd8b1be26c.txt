@@ -1,0 +1,129 @@
+Hauptseite
+Foundations of Cybersecurity 1
+Ben Stock
+News
+Update on tutorials and exercises
+Written on
+22.10.26
+by Nicolas Gundall
+Dear all,
+Since today's lecture is cancelled, we are missing the main content that would normally be discussed in the tutorials. We will thus convert the next set of tutorials (23.10. and 26.10) into office hours. This means that no new content will be presented; instead you are welcome to ask your…
+Read more
+Dear all,
+Since today's lecture is cancelled, we are missing the main content that would normally be discussed in the tutorials. We will thus convert the next set of tutorials (23.10. and 26.10) into office hours. This means that no new content will be presented; instead you are welcome to ask your tutor questions about the course contents so far. If you do not have any questions, you do not need to attend. If you choose to come to an office hour, please arrive at the regular starting time, because the tutors may leave early in case all questions are answered.
+Furthermore, we have to make some adjustments to the scheduling of exercise sheets and python tasks. To prevent confusion, here is the current release schedule:
+Week
+New python tasks? (Tuesdays)
+New exercise sheet? (Thursdays)
+19.10. to 25.10. (current)
+✅️
+❌️
+26.10. to 1.11.
+✅️
+✅️
+2.11. to 8.11.
+✅️
+✅️
+9.11. to 15.11.
+✅️
+✅️
+16.11. to 22.11.
+❌️
+✅️
+From then on
+✅️
+✅️
+Cancellation of tomorrow's lecture
+Written on
+21.10.26
+by Ben Stock
+Due to an important meeting I have to attend, we will have to cancel tomorrow's lecture. We soon update the schedule on the CMS start page, but you can assume that we will have a lecture on November 19.
+Change in tutorials: update your preferences
+Written on
+13.10.26
+by Nicolas Gundall
+Dear all,
+we've been notified that the tutorial we scheduled on
+Fridays 10-12
+collides with the MfI1 lecture for many students. Tutorial preferences also indicated that very few students could attend this slot. Consequently, we have decided to
+move this tutorial to Mondays 12-14 instead
+.
+Please…
+Read more
+Dear all,
+we've been notified that the tutorial we scheduled on
+Fridays 10-12
+collides with the MfI1 lecture for many students. Tutorial preferences also indicated that very few students could attend this slot. Consequently, we have decided to
+move this tutorial to Mondays 12-14 instead
+.
+Please make sure to update the tutorial preferences on your personal status page accordingly. You can adjust your preferences until the end of this Thursday's lecture.
+First lecture tomorrow
+Written on
+12.10.26
+by Nicolas Gundall
+Hello everyone,
+we have now updated all course information for this year, which can be found on the main page. The first lecture will take place
+tomorrow (Tuesday) from 10:15 to 11:45 in GHH (E2 2)
+. It will start with further information regarding the organization of the course, and then go into…
+Read more
+Hello everyone,
+we have now updated all course information for this year, which can be found on the main page. The first lecture will take place
+tomorrow (Tuesday) from 10:15 to 11:45 in GHH (E2 2)
+. It will start with further information regarding the organization of the course, and then go into the first course topics. See you all then!
+Foundations of Cybersecurity 1
+About the course
+This is a mandatory course of all Bachelor Cybersecurity students. Any other students may be unable to take the CP associated with the lecture, please check the
+LSF
+to see if your course of study is listed.
+In this course, students will learn foundational security principles, the basics of cryptography, receive an introduction to networks and network security, and explore privacy-preserving mechanisms. Additionally, students will acquire programming skills in Python.
+By the end of the course, students should be able to define security goals and become familiar with the most common attack scenarios.
+Time and Location
+The lecture is held on Tuesday 10:15 - 11:45 (in E2 2 (GHH)) and on Thursday 14:15 - 15:45 (in E1 3 HS0.01).
+The
+tentative
+schedule is as follows:
+13.10. Organization, Information Security Goals, Legal Aspects in Germany
+15.10. Basics of Cryptography 1 (Historic & Block Ciphers)
+20.10. - Python 1 (Arithmetics & Strings)
+22.10. -
+no lecture
+27.10. - Python 2 (Boolean Logic, Lists, Basic Loops)
+29.10. - Basic of Cryptography 2 (Hashes & Diffie-Hellman)
+3.11. - Python 3 (Advanced Loops, Tuples, Sets, Dicts)
+5.11. - Basic of Cryptography 3 (Public Key Crypto)
+10.11. - Python 4 (Exceptions, File Handling, Hashlib)
+12.11. - Basic of Cryptography 4 (Digital Signatures & PKI)
+17.11. -
+no lecture
+19.11. - Authentication
+24.11. - Python 5 (Importing, JSON, Requests)
+26.11. - Network Security 1 (LAN, WLAN, DHCP)
+1.12. - Python 6 (Regular Expressions)
+3.12. - Network Security 2 (IPv4, IPv6, BGP)
+From hereon in, no more lectures on Thursdays
+8.12. - Network Security 3 (UDP, TCP, Firewalls)
+15.12. - Network Security 4 (DNS)
+5.1. - Network Security 5 (Denial of Service, TOR)
+12.1. - Network Security 6 (TLS, HTTPS, Certificates)
+19.1. - Web Security 1 (Server-Side Security)
+26.1. - Web Security 2 (Client-Side Security)
+2.2. - Q/A & Exam Preparation
+16.2. - main exam (10-12)
+25.3. - backup exam (10-12)
+Tutorials
+The available time slots for tutorials are Friday 12-14, Monday 10-12 and Monday 12-14. All tutorials take place in the CISPA building (E9.1). The Friday 12-14 and Monday 10-12 tutorials are in room 0.02; the Monday 12-14 tutorial is in the lecture hall (Room 0.05).
+Grading and Exam information
+There will be a final exam at the end of the semester, which will determine the course grade. To be eligible for the exam, and subsequently, to earn course credits, you need to score
+at least
+50% of the available points on all 12 exercise sheets, with a maximum of two sheets being allowed to be skipped,
+and
+achieve 50% of the points from the Python exercises.
+Any changes to this will be announced in the first lecture.
+Registration
+You can register for this course in the CMS until Wednesday, October 14, at 23:59.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

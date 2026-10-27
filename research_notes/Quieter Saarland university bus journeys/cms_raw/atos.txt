@@ -1,0 +1,116 @@
+Main Page
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Advanced Topics in Operating Systems
+André Brinkmann
+Registration for this course
+is open until
+Saturday, 31.10.2026 23:59
+.
+News
+Tutorial Slots
+Written on
+26.10.26
+by Andrew Geyko
+Hello all.
+According to the survey results, we will have the tutorial slots Mondays 11:30-13:00 and Thursdays 11:00-12:30, in Room 1.21 in E1.1. It is located in the HPC chair on the 1st floor, at the end of the hall on the left.
+We will not have the tutorial today (Monday) but there will be a…
+Read more
+Hello all.
+According to the survey results, we will have the tutorial slots Mondays 11:30-13:00 and Thursdays 11:00-12:30, in Room 1.21 in E1.1. It is located in the HPC chair on the 1st floor, at the end of the hall on the left.
+We will not have the tutorial today (Monday) but there will be a tutorial on Thursday this week. Following weeks will have tutorials Mondays and Thursdays. Attend whichever slot is most convenient for you.
+If these slots do not work for you, please reach out to the tutors and we will try and find a solution.
+Information on first inverted classroom is online
+Written on
+25.10.26
+by André Brinkmann
+Dear Students,
+the instructions for the first inverted classroom are now online in our CMS. Please be aware that you must read a paper and prepare some mini-tasks before the lecture to benefit from the lecture :-)
+Best regards,
+André Brinkmann
+Exercise Sheet 1 Uploaded
+Written on
+23.10.26
+by Andrew Geyko
+Exercise Sheet 1 is now posted on CMS, along with the corresponding code repository https://gitlab.cs.uni-saarland.de/atos/atos
+We will discuss it next week in the tutorial. Please reach out (ange00008@stud.uni-saarland.de) if you have any troubles accessing the repo or have any further questions.
+Tutorial Slot
+Written on
+23.10.26
+by Andrew Geyko
+Hello everyone.
+Hope you enjoyed the first lecture of Advanced Topics in Operating Systems!
+We want to start tutorials next week, so we have to find a slot that works for most people. We are planning on having two tutorial slots every week, where we discuss the exercise sheet from the week…
+Read more
+Hello everyone.
+Hope you enjoyed the first lecture of Advanced Topics in Operating Systems!
+We want to start tutorials next week, so we have to find a slot that works for most people. We are planning on having two tutorial slots every week, where we discuss the exercise sheet from the week before (the exercise sheet for next week will be posted today).
+To find the two slots that work for as many of you as possible, please mark
+all
+the times you could attend in this survey:
+https://www.when2meet.com/?39445594-MO6ku
+You don't have to put in your real name, but pick a unique identifier so we can find the slots that maximize the number of people that can attend. You can set a password to change your response later.
+Looking forward to seeing you all next week
+- your TAs
+First Lecture
+Written on
+14.10.26
+(last change on
+14.10.26
+)						by André Brinkmann
+The first ATOS lecture will take place on Friday, October 23, at 8:30 a.m. in Building E1 3 – Lecture Hall I (0.01.1).
+Advanced Topics in Operating Systems
+This course explores current research and engineering challenges at the intersection of operating systems, storage, and distributed computing. It is structured in two parts.
+The first part consists of six lectures on selected topics, including systems benchmarking and performance evaluation, ad-hoc file systems, distributed locking, and caching strategies. Some of these sessions are held in an inverted-classroom format: students prepare the material in advance using provided readings and recordings, and class time is devoted to discussion, problem solving, and deeper analysis. This part concludes with a mid-term exam. Passing the mid-term exam is a prerequisite for admission to the second part of the course.
+The second part is strongly hands-on. Working in small teams, students apply modern machine learning methods to an existing ad-hoc file system: first to analyze its behavior and performance characteristics based on traces, metrics, and workload data, and subsequently to optimize it by developing and evaluating data-driven improvements, e.g., in caching, prefetching, or data placement. To support the development work, participants in the project phase receive a license for Claude Code, an agentic AI coding assistant, for the duration of the course. The project phase concludes with a presentation and a written report in which students document their approach, experimental setup, and results.
+By the end of the course, students will be able to design and conduct rigorous performance evaluations of systems software, understand the design space of ad-hoc file systems and distributed coordination mechanisms, and apply ML techniques to real-world systems optimization problems.
+The final grade will consist of the best score out of two midterm exams along with a final presentation. One of the midterm exams must be passed in order to qualify for part 2 of the lecture. The dates are as follows:
+Midterm 1 - 20.11.26 @ 8:30 (Lecture Slot)
+Midterm 2 - TBD
+Final Presentation - TBD
+Prerequisites:
+a solid background in operating systems and systems programming (C/C++ or Rust); basic familiarity with Python and machine learning is helpful but not required.
+If you have any questions don't hesitate to send an email to Andrew Geyko (ange00008@stud.uni-saarland.de)
+Lecture 1 – Performance Evaluation (October 23, 2026)
+How to measure a system so that the numbers mean something. The first half covers choosing metrics, micro- vs. macro-benchmarks, standard suites, and Gernot Heiser’s catalogue of
+benchmarking crimes
+; the second half the profiling toolbox (perf, flame graphs, performance counters, eBPF), sources of measurement noise, and the statistics needed to tell a real effect from noise.
+The slide deck, as well as all following materials designed by us, is available under Information → Materials.
+Lecture 2 – Parallel File Systems I: PVFS (inverted classroom, October 30, 2026)
+The first inverted-classroom session discusses a basic parallel file system, PVFS, and its implementation choices: striping files across I/O nodes, a single metadata manager, a user-level design over TCP, and the deliberate absence of caching and locking. In class we examine what these choices buy, what they cost, and where they stop scaling, the questions later systems in this course answer differently.
+Preparation: read the paper P. Carns, W. Ligon, R. Ross, R. Thakur,
+PVFS: A Parallel File System for Linux Clusters
+, 4th Annual Linux Showcase & Conference, 2000 (
+https://www.usenix.org/conference/als-2000/pvfs-parallel-file-system-linux-clusters
+). Write a short, fixed-format reading response for yourself: the paper’s main claim in two sentences; the one design decision you found most surprising or questionable; one thing you didn’t understand; one question you’d want to ask the authors. Bring it to class, it is the basis for the discussion.
+Reading guide: after reading the paper, you should be able to compute which I/O node holds a given byte of a file; explain what PVFS gains and loses by having neither client caching nor locking; say when a single metadata manager stops being acceptable; explain what the strided access via offset, gsize and stride in Section 3.3 solves that plain POSIX reads and writes do not; and explain how the three APIs reach the client library and why a kernel module was added anyway.
+Optional background: the paper assumes you know what MPI and MPI-IO are. If you don’t, ten minutes each on the first two sections of the Wikipedia article on the Message Passing Interface (
+https://en.wikipedia.org/wiki/Message_Passing_Interface
+) and on the MPI-IO page of the Digital Research Alliance of Canada (
+https://docs.alliancecan.ca/wiki/MPI-IO
+), which explains file views with a short code example, is enough.
+Pre-class exercise: A file is created with
+ssize = 64 KiB
+,
+pcount = 8
+and
+base = 2
+on a cluster with 10 I/O nodes (0–9). (a) Which I/O node holds byte 1,000,000? (b) How many I/O nodes does a 1 MiB read at offset 3 MiB touch, and how many stripes does each serve?
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

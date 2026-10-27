@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Main Page	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="4231d285cf1947148cfee86aa34b2ec9a0b05a05@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Sic/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Sic/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Sic/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Sic/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Sic/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/introalgdat2627/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/introalgdat2627/../system" class="navbar-brand">Courses</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/introalgdat2627/">Main Page</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Information</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/introalgdat2627/termine/calendar/index">Timetable</a></li><li><a class="dropdown-item" href="/introalgdat2627/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/introalgdat2627/students/register">Registration</a></li><li class="nav-item"><a class="nav-link" href="/introalgdat2627/landing">Personal Status</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/introalgdat2627/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="acb2d0b3db4030445ac209254ffea190c712a64298023a416aee6727cda317a4648a7d1849bf8eb5773f3d5f8965a2707809c91e790ecb06151517eb8817d5c0" id="Token297973662" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Username" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Password" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Remember me</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.sic.saarland/introalgdat2627/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="687c91f50fb6bd1fd79a39057d220150019e5611%3AUser.redirect" id="TokenFields2005366581" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked1146281044" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/introalgdat2627/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registration</a>        </li>
+        <li>
+            <a href="/introalgdat2627/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Forgot Password?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Enable dark mode            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Enable light mode            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/introalgdat2627/../system" class="site-logo" title="Front Page"><img src="/system/theme/Sic/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					Introduction to Algorithms and Data Structures				</h1>
+				<div>
+				<small class="text-muted">
+					Raimund Seidel				</small>
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					<div class="alert alert-info"><a href="/introalgdat2627/students/register">Registration for this course</a> is open until <strong>Monday, 16.11.2026 23:59</strong>.</div>
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	
+<table class="table">
+	<colgroup>
+				<col span="1" style="width: auto;" />
+	</colgroup>
+	<tbody>
+	<tr>						<td class="align-top">
+				<a id="newsElement1"></a>
+				<h4 class="fs-5"><a href="/introalgdat2627/news/view/1">Extension of deadline for submission for Exercise Sheet 1</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="22.10.2026 16:26:27">22.10.26</span>												by Sanyam Agarwal					</i></small>
+				</p>
+
+									<p>Hi all,<br />
+Due to the CMS being down recently, we are extending the deadline to submit the solutions to assignment sheet 1 until 24 Oct (18:00).<br />
+<br />
+Best,<br />
+Sanyam</p>
+							</td>
+		</tr>		
+		</tbody>
+</table>
+
+</section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<h2>Introduction to Algorithms and Data Structures</h2>
+
+<p>This lecture gives an introduction to the design of efficient algorithms and data structures, as well as analyzing their correctness and running time.&nbsp;We will discuss algorithm design techniques such as divide and conquer, exhaustive search, greedy and dynamic programming as well as randomized algorithms and amortized analysis of algorithms.</p>
+
+<p>&nbsp;</p>
+
+<h3>Lecture Format</h3>
+
+<p>Lecture: Tuesday 12:15-13:45 (Location: GHH E2.2)</p>
+
+<p>The first lecture will take place on October 13, 2026 . The lectures will be held in English.</p>
+
+<p>Prerequisites: It is recommended to have taken Programming 1+2 and Mathematics for Computer Scientists 1+2 before this course.</p>
+
+<p>&nbsp;</p>
+
+<h3>Exercise Sheets &amp; Tutorials</h3>
+
+<p>This course has the goal that participants become familiar with fundamental concepts of algorithms, data structures, and their analysis. Students should become able to recognize algorithmic or storage situations and to apply appropriate methods and justify the choice of these methods. Such a familiarity and facility with the subject matter can hardly be achieved just by consuming various materials, be it attending lectures, viewing videos or slide presentations, or reading somebody else&#39;s write-ups. Instead you need to study the ideas, mull them over, grapple with the details, and possibly discuss your ideas with others. And, of course, solving exercise problems will be extremely helpful.</p>
+
+<p>However, solving exercise problems will only be useful if it happens by your own efforts. Copying somebody else&#39;s solutions or appealing to ChatGPT or the like will not really help you much with gaining familiarity with the subject matter. Of course easy availability of such solution sources makes it all the more tempting to use them.</p>
+
+<p>In order to minimize this temptation we have removed all grade relevance from the exercise sets. We will offer such a set each week. You are free to work on them or ignore them. If you turn in a solution we will give you feedback (some of which may be in form of points). However,your handed in solutions will not directly influence your grade or play a role in the qualification for the final exams (everybody registered for the course qualifies). In such a setting it really makes no sense to&nbsp; turn in solutions that are not your own. You would just be wasting&nbsp; resources, in particular your time, and, more importantly the time of&nbsp; the tutors. Their time would be much better spent answering your questions.</p>
+
+<p>Exercise sheets will be handed out on Wednesday Morning at 8:00 AM and are due on the next Tuesday 11:59AM before the lecture. Why the deadline? For one, it seems to be human nature that such a pacing helps with getting things done.&nbsp; But more importantly, tutors need to be able to manage their time. You can turn in solutions late, but in this case we do not guarantee to look at them and provide feedback.</p>
+
+<p>You are free to work in groups.&nbsp; But in this case please do not turn in multiple duplicate solutions. You should be able to share the feedback.</p>
+
+<p>Your solutions should be digitally submitted to CMS as a PDF. You can arrive at such a pdf file by writing in LaTeX, writing in a common word processor like Word, or as a&nbsp;<strong>high quality </strong>scan/photo of a handwritten submission.</p>
+
+<p>The exercises sheets will be written in English, but you can choose to write your solutions in English or German <strong>depending on the tutorial you choose </strong>(i.e. check the submission language in the table below).</p>
+
+<p>Solutions to the exercises will be presented in the weekly tutorials. Tutorials start on October 21. We offer the following tutorial slots:</p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width:800px">
+	<thead>
+		<tr>
+			<th scope="col">Time</th>
+			<th scope="col">Tutor</th>
+			<th scope="col">Room</th>
+			<th scope="col">Tutorial Language</th>
+			<th scope="col">Submission Language</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Wed 08-10</td>
+			<td>Philip</td>
+			<td>E13 SR014</td>
+			<td>English</td>
+			<td>English</td>
+		</tr>
+		<tr>
+			<td>Wed 10-12</td>
+			<td>Nehesh</td>
+			<td>E13&nbsp;SR014</td>
+			<td>English</td>
+			<td>English</td>
+		</tr>
+		<tr>
+			<td>Wed 12-14</td>
+			<td>Thorben</td>
+			<td>E13&nbsp;SR014</td>
+			<td>English</td>
+			<td>Deutsch/English</td>
+		</tr>
+		<tr>
+			<td>Wed 14-16</td>
+			<td>Xiyang</td>
+			<td>E13&nbsp;SR014</td>
+			<td>English</td>
+			<td>Deutsch/English</td>
+		</tr>
+		<tr>
+			<td>Wed 16-18</td>
+			<td>Stefaniia</td>
+			<td>E13&nbsp;SR014</td>
+			<td>English</td>
+			<td>Deutsch/English</td>
+		</tr>
+		<tr>
+			<td>Wed 08-10</td>
+			<td>Maurice</td>
+			<td>E13&nbsp;SR015</td>
+			<td>Deutsch</td>
+			<td>Deutsch/English</td>
+		</tr>
+		<tr>
+			<td>Wed 10-12</td>
+			<td>Lucas</td>
+			<td>E13&nbsp;SR015</td>
+			<td>Deutsch</td>
+			<td>Deutsch/English</td>
+		</tr>
+		<tr>
+			<td>Wed 12-14</td>
+			<td>Florian</td>
+			<td>E13&nbsp;SR015</td>
+			<td>Deutsch</td>
+			<td>Deutsch/English</td>
+		</tr>
+		<tr>
+			<td>Wed 14-16</td>
+			<td>Benjamin</td>
+			<td>E13&nbsp;SR015</td>
+			<td>Deutsch</td>
+			<td>Deutsch/English</td>
+		</tr>
+		<tr>
+			<td>Wed 16-18</td>
+			<td>Jan</td>
+			<td>E13&nbsp;SR015</td>
+			<td>Deutsch</td>
+			<td>Deutsch/English</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p>When registering on this website, you are asked to give your preferences for tutorial slots. <strong>You can submit your preferences until October 16</strong>. We will then create a tutorial assignment on October 17.</p>
+
+<p>&nbsp;</p>
+
+<h3>Office Hours</h3>
+
+<p>We offer Office Hours, where you can ask tutors about the course material or exercises:</p>
+
+<ul>
+	<li>Slot 1 (Monday):- 10:15-11:45 (Room: E1 3, 415)</li>
+	<li>Slot 2 (Thursday):- 14:15-15:45&nbsp;(Room: E1 3, 415)</li>
+</ul>
+
+<p>The office hours start from 22nd October.</p>
+
+<h3>Grading and Exams</h3>
+
+<p>Your grade for the course will be completely determined by your performance on a written exam. Your final grade will be the better of your grade in the final exam and your grade in the re-exam.</p>
+
+<ul>
+	<li>Final Exam:<strong>&nbsp;February 11, 2027 15:00-18:00</strong></li>
+	<li>Re-Exam:&nbsp;<strong>March 24, 2027 15:00-18:00</strong></li>
+</ul>
+
+<p>For these exams you will not be allowed the use of any materials, computers, phones, or other gadgets. You will be&nbsp;allowed to bring a single handwritten DinA4-sheet (which can be written on both sides); photocopies and printouts are not allowed. If you use such a sheet you must turn it in with your exam papers.</p>
+
+<p>In order to allow you to become familiar with such an exam setting for practice we will offer&nbsp;a mid-term examination, the scores of which will&nbsp;<strong>not&nbsp;</strong>be counted towards the final grade. The midterm will happen on <strong>Friday, 11th December, 15:00-18:00.&nbsp;</strong></p>
+
+<p>To participate in the end exams and to be able to obtain a certificate you must register in the LSF system. If you are unable to register in LSF, please contact Sanyam.&nbsp;<br />
+&nbsp;</p>
+
+<h3>&nbsp;</h3>
+
+<h3>Literature</h3>
+
+<p>There are many good books and lecture scripts on the topic, here is a selection:</p>
+
+<ul>
+	<li>[Bl&auml;] M. Bl&auml;ser, <a href="https://cc.cs.uni-saarland.de/wp-content/uploads/2022/03/grads.pdf">Introduction to Algorithms and Data Structures</a>, 2015 (Script)</li>
+	<li>[MS] K. Mehlhorn, P. Sanders, Algorithms and Data Structures - The Basic Toolbox, Springer, 2008 (ISBN: 9783540779773)</li>
+	<li>[CLRS] T. H. Cormen, C. E. Leiserson, R. L. Rivest, C. Stein, Introduction to Algorithms - Fourth Edition, MIT Press, 2022 (ISBN: 9780262046305)</li>
+	<li>[Eri] J. Erickson, <a href="https://jeffe.cs.illinois.edu/teaching/algorithms/">Algorithms</a>, 2019 (Free electronic version)</li>
+</ul>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/en/privacy.html" target="_blank">Privacy Policy</a> | <a href="https://www.uni-saarland.de/en/legal-notice.html" target="_blank">Legal Notice</a><br/>
+	If you encounter technical problems, please contact <a href="mailto:cakecms@cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">the administrators</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

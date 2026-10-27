@@ -1,0 +1,165 @@
+Hauptseite
+Kurse
+Hauptseite
+Informationen
+Termine
+Team
+Anmeldung
+Persönliche Statusseite
+Login
+Angemeldet bleiben
+Login
+Registrierung
+Passwort vergessen?
+Dunklen Modus aktivieren
+Hellen Modus aktivieren
+(Pro-)Seminar: Integralgleichungen
+Thomas Schuster
+News
+Vortragsthemen und Termine
+Geschrieben am
+15.10.26
+(letzte Änderung am
+21.10.26
+)						von Lukas Vierus
+Hallo zusammen,
+ich habe euch allen ein Vortragsthema zugeteilt. Unter
+Informationen > Termine
+könnt ihr auch nochmal alle Termine einsehen. Bitte denkt daran, dass wir in den ersten
+4 Sitzungen jeweils 2 Vorträge
+hören und deshalb bereits um
+12:00 Uhr s.t.
+beginnen.
+Datum
+…
+Weiterlesen
+Hallo zusammen,
+ich habe euch allen ein Vortragsthema zugeteilt. Unter
+Informationen > Termine
+könnt ihr auch nochmal alle Termine einsehen. Bitte denkt daran, dass wir in den ersten
+4 Sitzungen jeweils 2 Vorträge
+hören und deshalb bereits um
+12:00 Uhr s.t.
+beginnen.
+Datum
+Uhrzeit
+Titel
+Name
+02.11.2026
+12:00-12:45 Uhr
+Einführung in Integralgleichungen und ihre Klassifikation
+Adrian Jose
+02.11.2026
+13:00-13:45 Uhr
+Funktionalanalysis und numerische Grundlagen
+Benjamin Barleben
+09.11.2026
+12:00-12:45 Uhr
+Volterra-Gleichungen
+Tommy Kolar
+09.11.2026
+13:00-13:45 Uhr
+Fredholmsche Alternative: Existenz und Eindeutigkeit
+Tim Herzog
+16.11.2026
+12:00-12:45 Uhr
+Spektraltheorie und Neumann-Reihe
+Anthony Nork
+16.11.2026
+13:00-13:45 Uhr
+Kernapproximation, Konsistenz und Konvergenz bei Fredholm-Gleichungen 2. Art
+Dennis Bernhard
+23.11.2026
+12:00-12:45 Uhr
+Projektionsmethoden, insbesondere das Kollokationsverfahren
+Lukas Zabeh
+23.11.2026
+13:00-13:45 Uhr
+Das Galerkin-Verfahren
+Norman Weinland
+07.12.2026
+12:15-13:15 Uhr
+Die Abelsche Integralgleichung
+Gajanan Santhireswaran
+14.12.2026
+12:15-13:15 Uhr
+Fredholm-Gleichungen 1. Art und inverse Probleme
+Lukas Zenner
+11.01.2027
+12:15-13:15 Uhr
+Tikhonov-Regularisierung
+Paul Müller
+18.01.2027
+12:15-13:15 Uhr
+Integralgleichungen in der Potentialtheorie
+Maximilian Reinhard
+Viel Spaß und Erfolg bei der Vorbereitung!
+Beste Grüße, Lukas
+Geschrieben am
+14.10.26
+von Lukas Vierus
+Hallo zusammen,
+hier noch einmal die wichtigsten Informationen aus unserer heutigen Besprechung im Überblick:
+Ablauf der Vorträge
+Der erste Vortrag findet am 26.10. statt. Je nachdem, ob ihr die Veranstaltung als Pro- oder Seminar einbringen wollt, beträgt die
+Vortragszeit 45 oder 60…
+Weiterlesen
+Hallo zusammen,
+hier noch einmal die wichtigsten Informationen aus unserer heutigen Besprechung im Überblick:
+Ablauf der Vorträge
+Der erste Vortrag findet am 26.10. statt. Je nachdem, ob ihr die Veranstaltung als Pro- oder Seminar einbringen wollt, beträgt die
+Vortragszeit 45 oder 60 Minuten
+. Im Anschluss ist jeweils Zeit für Fragen und Diskussionen vorgesehen. Die Vorträge können wahlweise an der Tafel oder mit dem Beamer gehalten werden.
+Zusätzlich ist ein ausführliches
+Handout von 8–10 Seiten
+zu erstellen, das vor Beginn des Vortrags ausgedruckt an alle Teilnehmenden verteilt wird.
+Da es erfreulich viele Anmeldungen gibt, werden insbesondere in den ersten Wochen jeweils zwei Vorträge pro Sitzung stattfinden. In diesen Fällen beginnen wir bereits um
+12:00 Uhr s.t.
+, damit ausreichend Zeit für die anschließende Diskussion bleibt.
+Themenvergabe und Vorbereitung
+Die Zuordnung der Themen sowie die Bekanntgabe aller Termine erfolgen morgen im Laufe des Tages. Ich werde euch außerdem jeweils persönlich mitteilen, welche Inhalte in eurem Vortrag nach Möglichkeit behandelt werden sollten.
+Ich möchte euch bitten, in der Woche vor eurem Vortrag einen Termin mit mir zu vereinbaren, damit wir den Vortrag und das Handout gemeinsam besprechen können. Dann kann ich euch noch einige Hinweise und Tipps zur Vorbereitung geben.
+Bei Fragen aller Art könnt ihr euch jederzeit gerne per E-Mail oder persönlich bei mir melden.
+Solltet ihr aus gesundheitlichen Gründen nicht teilnehmen können, gebt mir bitte per E-Mail Bescheid.
+Viele Grüße, Lukas
+(Pro-)Seminar: Integralgleichungen
+Dozent: Prof. Dr. Thomas Schuster
+Zeit und Ort: Montag, 12-14 Uhr im SR 6
+Vorbesprechung:
+14.10.2026
+,
+12:15 Uhr
+, Raum 4.12, Gebäude E1.1
+Bitte melden Sie sich bis spätestens
+12.10.2026
+über das CMS an.
+Das Seminar ist im
+Bachelor-
+,
+Master-
+oder
+Lehramtsstudiengang
+anrechenbar.
+Integralgleichungen bilden ein zentrales Fundament der modernen Analysis und der mathematischen Physik. Sie treten naturgemäß bei der Reformulierung von Rand- und Anfangswertproblemen für partielle Differentialgleichungen auf und sind ein wichtiges Werkzeug bei der Behandlung inverser Probleme (wie der Bildrekonstruktion in der Tomographie oder der Signalverarbeitung). Zudem erlauben sie über die Operator- und Spektraltheorie oft einen tieferen Einblick in die Struktur von Problemstellungen als die entsprechenden Differentialoperatoren.
+Im Seminar werden die mathematischen Grundlagen von Integralgleichungen systematisch erarbeitet. Zu den zentralen Themen gehören:
+die klassische Fredholm- und Volterra-Theorie,
+Existenz- und Eindeutigkeitsaussagen,
+die Fredholm'sche Alternative in unendlichdimensionalen Räumen sowie
+die Spektraltheorie kompakter Operatoren, insbesondere die Hilbert-Schmidt-Theorie für symmetrische Kerne und deren Entwicklungssätze.
+Je nach Vorkenntnissen und Interesse der Teilnehmenden werden auch singuläre Integralgleichungen sowie numerische Diskretisierungsverfahren (z.B. Galerkinmethoden) thematisiert.
+Literatur
+Wolfgang Hackbusch: "Integralgleichungen: Theorie und Numerik", Vieweg & Teubner, 1997.
+Heinz W. Engl: "Integralgleichungen", Springer, 2013.
+Roland W. Freund und Ronald H. W. Hoppe: "Numerische Mathematik", Springer, 2007.
+Alle oben genannten Bücher befinden sich zum Download im
+Semesterapparat
+.
+Weitere Fragen?
+Bei Rückfragen kontaktieren Sie bitte
+Lukas Vierus
+Datenschutz
+|
+Impressum
+Bitte wenden Sie sich bei technischen Problemen an
+die Administratoren
+.

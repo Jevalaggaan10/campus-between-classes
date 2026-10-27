@@ -1,0 +1,37 @@
+News
+Foundations of Cybersecurity 1
+Ben Stock
+News
+List news
+Update on tutorials and exercises
+Written on 22.10.2026 13:09 			by Nicolas Gundall
+Dear all,
+Since today's lecture is cancelled, we are missing the main content that would normally be discussed in the tutorials. We will thus convert the next set of tutorials (23.10. and 26.10) into office hours. This means that no new content will be presented; instead you are welcome to ask your tutor questions about the course contents so far. If you do not have any questions, you do not need to attend. If you choose to come to an office hour, please arrive at the regular starting time, because the tutors may leave early in case all questions are answered.
+Furthermore, we have to make some adjustments to the scheduling of exercise sheets and python tasks. To prevent confusion, here is the current release schedule:
+Week
+New python tasks? (Tuesdays)
+New exercise sheet? (Thursdays)
+19.10. to 25.10. (current)
+✅️
+❌️
+26.10. to 1.11.
+✅️
+✅️
+2.11. to 8.11.
+✅️
+✅️
+9.11. to 15.11.
+✅️
+✅️
+16.11. to 22.11.
+❌️
+✅️
+From then on
+✅️
+✅️
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

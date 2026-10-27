@@ -1,0 +1,102 @@
+[
+  {
+    "route": "101",
+    "label": "Linienband",
+    "url": "https://www.saarbruecken.de/media/download-6a2b8c4685977"
+  },
+  {
+    "route": "101",
+    "label": "Richtung Dudweiler Dudoplatz",
+    "url": "https://www.saarbruecken.de/media/download-6a2664471a35c"
+  },
+  {
+    "route": "101",
+    "label": "Richtung Füllengarten Siedlung",
+    "url": "https://www.saarbruecken.de/media/download-6a2664474ef0f"
+  },
+  {
+    "route": "101",
+    "label": "Flyer 101",
+    "url": "https://www.saarbruecken.de/media/download-6a26a0ac19e0f"
+  },
+  {
+    "route": "109",
+    "label": "Linienband",
+    "url": "https://www.saarbruecken.de/media/download-6a2b8c48e9058"
+  },
+  {
+    "route": "109",
+    "label": "Richtung Universität Busterminal",
+    "url": "https://www.saarbruecken.de/media/download-6a26644b33c3a"
+  },
+  {
+    "route": "109",
+    "label": "Richtung Habsterdick",
+    "url": "https://www.saarbruecken.de/media/download-6a26644b8fc21"
+  },
+  {
+    "route": "109",
+    "label": "Flyer 109",
+    "url": "https://www.saarbruecken.de/media/download-6a26a0b2e2a97"
+  },
+  {
+    "route": "112",
+    "label": "Linienband",
+    "url": "https://www.saarbruecken.de/media/download-6a2b8c4962ac8"
+  },
+  {
+    "route": "112",
+    "label": "Richtung Universität Busterminal",
+    "url": "https://www.saarbruecken.de/media/download-6a26644c9f73e"
+  },
+  {
+    "route": "112",
+    "label": "Richtung Betriebshof/ Hauptbahnhof",
+    "url": "https://www.saarbruecken.de/media/download-6a26644d6cf50"
+  },
+  {
+    "route": "112",
+    "label": "Flyer 112",
+    "url": "https://www.saarbruecken.de/media/download-6a26a0b46d1fd"
+  },
+  {
+    "route": "112",
+    "label": "Linienband",
+    "url": "https://www.saarbruecken.de/media/download-6a2b8c4962ac8"
+  },
+  {
+    "route": "112",
+    "label": "Richtung Universität Busterminal",
+    "url": "https://www.saarbruecken.de/media/download-6a26644d1903c"
+  },
+  {
+    "route": "112",
+    "label": "Richtung Betriebshof/ Hauptbahnhof",
+    "url": "https://www.saarbruecken.de/media/download-6a26644dd10dc"
+  },
+  {
+    "route": "112",
+    "label": "Flyer 112",
+    "url": "https://www.saarbruecken.de/media/download-6a26a0b46d1fd"
+  },
+  {
+    "route": "124",
+    "label": "Linienband",
+    "url": "https://www.saarbruecken.de/media/download-6a2b8c4aa0361"
+  },
+  {
+    "route": "124",
+    "label": "Richtung Betriebshof / Calypso am Schanzenberg",
+    "url": "https://www.saarbruecken.de/media/download-6a26645116974"
+  },
+  {
+    "route": "124",
+    "label": "Richtung Universität Busterminal",
+    "url": "https://www.saarbruecken.de/media/download-6a2664516933a"
+  },
+  {
+    "route": "124",
+    "label": "Flyer 124",
+    "url": "https://www.saarbruecken.de/media/download-6a26a0b7eeb86"
+  }
+]

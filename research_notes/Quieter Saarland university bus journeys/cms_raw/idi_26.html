@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Hauptseite	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="4231d285cf1947148cfee86aa34b2ec9a0b05a05@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Sic/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Sic/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Sic/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Sic/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Sic/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/idi_26/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/idi_26/../system" class="navbar-brand">Courses</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/idi_26/">Main Page</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Information</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/idi_26/termine/calendar/index">Timetable</a></li><li><hr class="dropdown-divider" /></li><li><a class="dropdown-item" href="/idi_26/2/Curriculum">Curriculum</a></li><li><hr class="dropdown-divider" /></li><li><a class="dropdown-item" href="/idi_26/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/idi_26/students/register">Registration</a></li><li class="nav-item"><a class="nav-link" href="/idi_26/landing">Personal Status</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/idi_26/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="b5dc9dfd3f83aef58f8825ad5321e7e296b642b1ad8683871595717dd59f3bdbfe90dddab6f68c27019f5d0f32ff0a8e52b20cb04bb7904e7530c310cb9acb3b" id="Token1046370259" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Username" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Password" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Remember me</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.sic.saarland/idi_26/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="f71562a56f2c38be2bbd90d82de19075b0d0daeb%3AUser.redirect" id="TokenFields271136396" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked1230533547" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/idi_26/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registration</a>        </li>
+        <li>
+            <a href="/idi_26/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Forgot Password?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Enable dark mode            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Enable light mode            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/idi_26/../system" class="site-logo" title="Front Page"><img src="/system/theme/Sic/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					Ideen der Informatik				</h1>
+				<div>
+				<small class="text-muted">
+					Ingmar Weber, Till Koebe				</small>
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	
+<table class="table">
+	<colgroup>
+				<col span="1" style="width: auto;" />
+	</colgroup>
+	<tbody>
+	<tr>						<td class="align-top">
+				<a id="newsElement3"></a>
+				<h4 class="fs-5"><a href="/idi_26/news/view/3">Addendum to Session 2, Oct 23th, 2026</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="26.10.2026 15:55:16">26.10.26</span>												by Till Koebe					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse3">
+					<p>Dear all,</p>
+
+<p>just two quick follow-up points on last week&#39;s session:<br />
+<br />
+1. Here the website on the Altersvorsorge we vibe-coded in this session:&nbsp;<a href="https://incandescent-hummingbird-f75180.netlify.app/">Altersvorsorgedepot erkl&auml;rt</a><br />
+2. Here the link to the Deepfake event organised by the Gleichstellungsb&uuml;ro on Nov 11th:&nbsp;<a href="https://www.uni-saarland.de/verwaltung/gleichstellung/news/deepfakes-wenn-ein-bild-zur-waffe-wird-digitale-gewalt-gegen-frauen-51340.html">Deepfakes: Wenn ein Bild zur Waffe wird&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse3" href="#newsElement3">Read more</a></a></p>				</div>
+				<div class="collapse newsCollapse3">
+					<p>Dear all,</p>
+
+<p>just two quick follow-up points on last week&#39;s session:<br />
+<br />
+1. Here the website on the Altersvorsorge we vibe-coded in this session:&nbsp;<a href="https://incandescent-hummingbird-f75180.netlify.app/">Altersvorsorgedepot erkl&auml;rt</a><br />
+2. Here the link to the Deepfake event organised by the Gleichstellungsb&uuml;ro on Nov 11th:&nbsp;<a href="https://www.uni-saarland.de/verwaltung/gleichstellung/news/deepfakes-wenn-ein-bild-zur-waffe-wird-digitale-gewalt-gegen-frauen-51340.html">Deepfakes: Wenn ein Bild zur Waffe wird &ndash; digitale Gewalt gegen Frauen</a><br />
+<br />
+Looking forward seeing you on Friday!<br />
+Till</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+				</div>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement2"></a>
+				<h4 class="fs-5"><a href="/idi_26/news/view/2">Exam dates fixed!</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="23.10.2026 08:28:22">23.10.26</span>						(last change on <span data-bs-toggle="tooltip" data-bs-title="23.10.2026 08:28:38">23.10.26</span>)						by Till Koebe					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse2">
+					<p>Dear all,</p>
+
+<p>the exam dates are now fixed:<br />
+<br />
+1. Exam: February 12th, 2027, 8:15h - 9:45h in E1.7 R.323<br />
+2. Re-Exam: March 12th, 2027, 8:15h - 9:45h in E1.7 R.323</p>
+
+<p>Both dates are also noted in the Timetable. Online option will be available and details will be shared shortly.</p>
+
+<p>Let me know, if you&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse2" href="#newsElement2">Read more</a></p>				</div>
+				<div class="collapse newsCollapse2">
+					<p>Dear all,</p>
+
+<p>the exam dates are now fixed:<br />
+<br />
+1. Exam: February 12th, 2027, 8:15h - 9:45h in E1.7 R.323<br />
+2. Re-Exam: March 12th, 2027, 8:15h - 9:45h in E1.7 R.323</p>
+
+<p>Both dates are also noted in the Timetable. Online option will be available and details will be shared shortly.</p>
+
+<p>Let me know, if you have questions (till.koebe@uni-saarland.de)</p>
+
+<p>Best,<br />
+Till</p>
+				</div>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement1"></a>
+				<h4 class="fs-5"><a href="/idi_26/news/view/1">First lecture tomorrow</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="15.10.2026 23:20:55">15.10.26</span>						(last change on <span data-bs-toggle="tooltip" data-bs-title="15.10.2026 23:21:22">15.10.26</span>)						by Till Koebe					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse1">
+					<p>Dear all,</p>
+
+<p>we are very much looking forward to welcoming you to the first session of this year&#39;s &quot;Ideen der Informatik&quot; lecture tomorrow!</p>
+
+<p>Just a brief reminder:&nbsp;It takes place from 8-10am c.t. (so start at 8:15h), in E1.7 R.301. In-person attendance is preferred. If this is not possible, <a href="https://teams.microsoft.com/meet/37878900442303?p=aJFWX6AkSePfBDX8AN">here</a> the&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse1" href="#newsElement1">Read more</a></p>				</div>
+				<div class="collapse newsCollapse1">
+					<p>Dear all,</p>
+
+<p>we are very much looking forward to welcoming you to the first session of this year&#39;s &quot;Ideen der Informatik&quot; lecture tomorrow!</p>
+
+<p>Just a brief reminder:&nbsp;It takes place from 8-10am c.t. (so start at 8:15h), in E1.7 R.301. In-person attendance is preferred. If this is not possible, <a href="https://teams.microsoft.com/meet/37878900442303?p=aJFWX6AkSePfBDX8AN">here</a> the link to the MS Teams meeting again:&nbsp;<a href="https://teams.microsoft.com/meet/37878900442303?p=aJFWX6AkSePfBDX8AN">https://teams.microsoft.com/meet/37878900442303?p=aJFWX6AkSePfBDX8AN</a><br />
+<br />
+See you soon,<br />
+Ingmar &amp; Till</p>
+				</div>
+							</td>
+		</tr>		
+		</tbody>
+</table>
+
+</section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<h2>Ideen der Informatik</h2>
+
+<p><strong>Organisational:</strong></p>
+
+<p>- Successful completion of the course will give you 5 ECTS. The course consists of a weekly 90-min lecture, a weekly voluntary assignment and a final written exam. We are open for all students <strong>not</strong> enrolled in a study program at the Computer Science department.<br />
+- It takes place on Fridays, 8-10am c.t., in E1.7 R.301, starting on October 16th, 2026, ending February 5th, 2027. We encourage in-person participation, however, we will both stream and record the lectures, if you cannot attend physically.<br />
+- <a href="https://teams.microsoft.com/meet/37878900442303?p=aJFWX6AkSePfBDX8AN">Here</a> the Microsoft Teams link for the lecture.<br />
+- Recordings and all other content will be made available via CMS.<br />
+- Course language is English.<br />
+- Lectures consists of two parts: First 30-min discussion of last week&#39;s assignment. The remaining 60-min new input. A week&#39;s assignment builds on previous weeks input.<br />
+- The assignments are voluntary, thus not graded. We offer students to provide individual feedback on their assignments. We expect students who use this offer not to hand in LLM-generated answers.<br />
+- The final exam is in-person, date tbd. However, we also offer remote exams on request. More on remote exams below.<br />
+<br />
+<strong>Contents and goals:</strong></p>
+
+<p>Three goals:</p>
+
+<ul>
+	<li>Familiarize the audience with basic concepts in Computer Science: What is an algorithm? What is a computer? What is data?</li>
+	<li>Understand the interplay between information systems and society: How does technology transform society? How can technology be used to measure societal changes?</li>
+	<li>Gain enough knowledge to critically discuss various&nbsp;impacts of information systems on the society.</li>
+</ul>
+
+<p>We address following topics: history of computer science, algorithms, programming languages, technical concepts of data centres, search engines, large language models, cryptography, networks, block chains, security and privacy and societal impacts. A detailed curriculum will be added soon.</p>
+
+<p>We do not expect any prior knowledge about these topics. However, we highly welcome critical thinking and active involvement in the discussions.</p>
+
+<p><strong>Key deadlines (all end of day, German local time):</strong><br />
+- CMS registration deadline: 23.10.2026<br />
+- LSF registration (if applicable): 13.11.2026<br />
+<br />
+Please check with your study coordinator, if other deadlines specific to your program apply.<br />
+<br />
+We are very much looking forward to meeting you,<br />
+Ingmar &amp; Till</p>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/en/privacy.html" target="_blank">Privacy Policy</a> | <a href="https://www.uni-saarland.de/en/legal-notice.html" target="_blank">Legal Notice</a><br/>
+	If you encounter technical problems, please contact <a href="mailto:cakecms@cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">the administrators</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

@@ -1,0 +1,193 @@
+Main Page
+Trustworthy Machine Learning
+Adam Dziedzic
+Registration for this course
+is open until
+Monday, 30.11.2026 23:59
+.
+News
+Papers for this week: October 24th - October 30th
+Written on
+24.10.26
+by Adam Dziedzic
+Dear Students,
+We will discuss the following papers on October 30th:
+1. "Data Provenance Auditing of Fine-Tuned LLMs with a Text-Preserving Technique"
+ICML 2026 –
+https://openreview.net/forum?id=3D0x8oxOYH
+This work introduces invisible Unicode cue–reply marks that let data owners check…
+Read more
+Dear Students,
+We will discuss the following papers on October 30th:
+1. "Data Provenance Auditing of Fine-Tuned LLMs with a Text-Preserving Technique"
+ICML 2026 –
+https://openreview.net/forum?id=3D0x8oxOYH
+This work introduces invisible Unicode cue–reply marks that let data owners check whether their documents were used to fine-tune an LLM. The method does not change the visible text and has no false positives.
+2.  “Securing Multimodal AI through Internal Information Decomposition” (FlowGuard)
+https://openreview.net/forum?id=vTJmIhNvC3
+The idea of detecting attacks from the inconsistency between unimodal and fused predictions is appealing and the authors leave multi turn and multi image settings explicitly open, which seems like a natural place to build on.
+Have a good weekend,
+Adam Dziedzic
+Today's video
+Written on
+23.10.26
+by Adam Dziedzic
+Dear Students,
+The video from today was uploaded here: https://youtu.be/-v2qY6XpbHM
+Please, send me the 4 links to the papers that you would like to present.
+Have a good weekend!
+Adam Dziedzic
+Join via Zoom
+Written on
+23.10.26
+by Adam Dziedzic
+Dear Students,
+You can also join via zoom here:
+https://cispa-de.zoom-x.de/j/62622206082?pwd=YiGbuJZgPLrzo0Gqcxa93obUJa3XCi.1
+Meeting ID: 626 2220 6082
+Passcode: VW?^R5
+One tap mobile
++496938980596,,62622206082# Germany
+Dial by your location
++49 69 389 805 96 Germany
+Meeting ID:…
+Read more
+Dear Students,
+You can also join via zoom here:
+https://cispa-de.zoom-x.de/j/62622206082?pwd=YiGbuJZgPLrzo0Gqcxa93obUJa3XCi.1
+Meeting ID: 626 2220 6082
+Passcode: VW?^R5
+One tap mobile
++496938980596,,62622206082# Germany
+Dial by your location
++49 69 389 805 96 Germany
+Meeting ID: 626 2220 6082
+Find your local number:
+https://cispa-de.zoom-x.de/u/cd6d1pBvMg
+Privacy Notice:
+Please refer to
+https://cispa.de/en/data-privacy-policy-zoom
+for our privacy notice regarding the use of Zoom at CISPA
+Questions for tomorrow's seminar
+Written on
+22.10.26
+by Adam Dziedzic
+Dear Students,
+Please, send the questions for tomorrow's lecture in the thread on the forum for October 23rd: https://cms.cispa.saarland/tml26/forum/viewtopic.php?t=1
+As a reminder, we will discuss these 2 papers:
+1. SemBind: https://openreview.net/forum?id=Sva22o2fRs&noteId=QaQG7b76eO
+2.…
+Read more
+Dear Students,
+Please, send the questions for tomorrow's lecture in the thread on the forum for October 23rd: https://cms.cispa.saarland/tml26/forum/viewtopic.php?t=1
+As a reminder, we will discuss these 2 papers:
+1. SemBind: https://openreview.net/forum?id=Sva22o2fRs&noteId=QaQG7b76eO
+2. Post-hoc Watermarking: https://openreview.net/forum?id=ZR1GOaadgP&noteId=qCnbD0iqOq
+See you tomorrow,
+Adam Dziedzic
+Times of the meetings on November 13th and 20th
+Written on
+20.10.26
+by Adam Dziedzic
+Dear All,
+Due to the organization of hackathons, I plan that we will move the meetings on 13th of November to be from 16:00 to 18:00 and on November 20th to be from 12:00 to 14:00.
+With kind regards,
+Adam Dziedzic
+Video from Friday's Seminar
+Written on
+19.10.26
+by Adam Dziedzic
+Dear Students,
+The video for Friday's seminar can be found here: https://youtu.be/zB6lr7xjBmM
+We will record the videos from the seminars and share publicly on YouTube.
+With kind regards,
+Adam Dziedzic
+Papers for Next Seminar on October 23rd
+Written on
+17.10.26
+(last change on
+17.10.26
+)						by Adam Dziedzic
+Dear Students,
+We will discuss two paper next week on October 23rd:
+1. SemBind: https://openreview.net/forum?id=Sva22o2fRs&noteId=QaQG7b76eO
+2. Post-hoc Watermarking: https://openreview.net/forum?id=ZR1GOaadgP&noteId=qCnbD0iqOq
+With kind regards,
+Adam Dziedzic
+Show all
+Trustworthy Machine Learning
+Deploying machine learning in real-world systems necessitates methods to ensure trustworthy AI. This course explores research at the intersection of machine learning, privacy, and security. This course provides a comprehensive overview of techniques to build robust and trustworthy machine learning models, as well as the analysis of data privacy and provenance, focusing on generative models. Throughout the seminar, we will discuss outstanding challenges and future research directions to make machine learning more robust, private, and trustworthy.
+If you want to register for the seminar, you should do so via the
+central seminar assignment system
+.
+Time and place:
+(tentative) The course will take place on Fridays from 2 pm to 4 pm in the CISPA C0 building, room 0.02 (on campus). Some sessions will be via Zoom when the room is not available (part of January) or during main ML conferences (e.g., like NeurIPS in December).
+Class structure:
+In every class, we will discuss two papers. At the beginning of the semester, students will be assigned roles that will rotate every week. There are three roles:
+1. The Presenters: Two students. Each of them presents a paper and takes the lead in answering the questions posed by the Questioners.
+2. The Questioners: This group is responsible for preparing a list of questions (from each member of the team) about the papers to be discussed in class. For a given week, The Questioners must prepare their questions during the preceding week, and send them to the rest of the class by 5 pm Wednesday. This means that the Questioners must read the papers for their assigned week several days in advance of the actual discussion sessions. We suggest aiming to read the papers by the end of the day on Sunday, to allow at least one day to discuss possible questions.
+3. The Observers: This group will take notes on a shared document during a discussion. These notes are not meant to be a transcription of what is being said in the discussion; they should capture the major take-away points of the discussion, as well as any issues. The Observers should also search for additional resources or answers to unresolved questions.
+These roles do not preclude anyone in the class from participating in the discussion. A member of The Observers can jump in when a question is posed, and a presenter can pose a new question on the fly.
+Project:
+The seminars also incorporate project work to foster research skills and creativity. Students begin by selecting papers from the field of trustworthy machine learning that align with their interests. They present these papers and design a project with the potential to evolve into a scientific publication. We encourage you to think critically, identifying weak assumptions in prior work, exploring ways to improve existing methods, combining ideas from multiple sources, or integrating your own experiences and insights from the seminar discussions. Each student writes a comprehensive report detailing their findings and includes code to validate their results. At the end of the semester, you present your projects to the entire class, showcasing the progress and innovations. Use the following
+latex template
+for the report.
+Requirements:
+The course presumes a good understanding of machine learning. The students should have taken and passed a machine learning course and obtained a good grade (<2.0). This seminar is open to senior Bachelor, Master, and Doctoral students. Through seminal and recent papers, students will survey the emerging literature across research communities investigating these issues. The class aims to inspire new research directions and applications. Lectures, slides, and research papers comprise the course materials - no textbook is required. By engaging with the latest work in this rapidly evolving field, students will be prepared to advance trustworthy machine learning. Each student will present one or two papers during the seminar hours in the form of an oral presentation. In addition, each student will read the relevant papers for the other students’ presentations, and hand in a seminar paper summarizing their project at the end of the semester. There will be two sessions when each student presents their project for 10 minutes.
+Grading
+Grading scheme:
+50% as presenters (paper presentation, slide deck, and in-class discussion), 50% for the research project (design a task for the TML course or a hackathon) with a report and a poster. Bonus points: 10% weekly questions and comments as Questioners, 5% as Observers/Scribes, who write a report after each lecture and resolve any unsolved issues.
+Class participation:
+Course lectures will be driven by the contents of assigned papers. However, students are going to be required to (i) turn in at least 1 question per paper each week as a Questioner and actively participate in the discussion, (ii) present a paper and participate in discussions of the paper content during each class as a Presenter, and (iii) prepare the notes after the class and comment on the slides as the Observer. Hence, the student's ability to exhibit comprehension of papers is essential to a passing grade.
+Lateness policy:
+Questions submissions are assigned each week and presentations will not be accepted late (students will be assigned a 0 for that week). All other assignments (i.e., class or project reports) will be assessed a 10% per day late penalty, up to a maximum of 2 days. Students with legitimate reasons who contact the professor before the deadline may apply for an extension.
+Integrity:
+Students have to behave ethically.
+Detailed list of rooms and papers for the seminar will be decided during the first meeting.
+Online Communication:
+via Forum (here on CMS).
+Email:
+adam.dziedzic@cispa.de
+Plan of Seminars
+Plan of Seminars
+Date
+Presentation 1
+Presentation 2
+Video
+October 16th, 2026
+Adam Dziedzic: Introduction and Overview of the Research Topcis
+Kaif Shaikh: "Benchmarking Membership Privacy Risks in Preference-Based LLM Post-Training" NeurIPS 2026 https://adam-dziedzic.com/static/assets/papers/PrivacyAuditPreferLLMs.pdf
+https://youtu.be/zB6lr7xjBmM
+October 23rd, 2026
+Mahmoud Akrm: SemBind ICML 2026 https://openreview.net/forum?id=Sva22o2fRs&noteId=QaQG7b76eO
+Aditya Kasliwal: Post-hoc Watermarking ICML 2026: https://openreview.net/forum?id=ZR1GOaadgP&noteId=qCnbD0iqOq
+https://youtu.be/-v2qY6XpbHM
+October 30th, 2026
+Muhammad Saad Haroon: "Data Provenance Auditing of Fine-Tuned LLMs with a Text-Preserving Technique" ICML 2026
+Yogesh Kishor Kulkarni:
+"Securing Multimodal AI through Internal Information Decomposition” (FlowGuard) ICML 2026
+November 6th, 2026
+Presentations of the research projects: each Student presents for 10 minutes
+Presentations of the research projects: each Student presents for 10 minutes
+November 13th, 2026
+TBD
+TBD
+November 20th, 2026
+TBD
+TBD
+November 27th, 2026
+Baozhu Cai:
+GLEAN: Guideline-Grounded Evidence Accumulation for High-Stakes Agent Verification ICML 2026
+https://proceedings.mlr.press/v306/zhang26fc.html
+January 8th, 2027
+January 15th, 2027
+January 22nd, 2027
+January 29th, 2027
+February 5th, 2027
+Presentation of the research projects: each Student presents for 10 minutes
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

@@ -1,0 +1,85 @@
+Lean for Algorithms
+Lean for Algorithms
+Sebastian Brandt, Henrik Lievonen, Shreyas Srinivas
+Registration for this course
+is open until
+Friday, 13.11.2026 23:59
+.
+News
+Assignment 2 errata and Challenge 1
+Written on
+22.10.26
+by Chiara Piombi
+The file for Assignment 2 has been updated to have the correct induction syntax in exercise 2.
+You can find the challenge from today's exercise class at
+codeberg.org/Chipi/lfa2026-challenges
+; let me remind you here that these challenges are completely optional and meant to be solved with every…
+Read more
+The file for Assignment 2 has been updated to have the correct induction syntax in exercise 2.
+You can find the challenge from today's exercise class at
+codeberg.org/Chipi/lfa2026-challenges
+; let me remind you here that these challenges are completely optional and meant to be solved with every tool at your disposal, including working in groups. I will publish a solution to Challenge 1 on the same repository in two weeks; if any individual or group solves it and wants to show off their solution, they can email it to me and it will be published at the same time. Include a group name or you will be assigned a random bird name.
+Best regards, Chiara
+Assignments & exercise sessions
+Written on
+15.10.26
+by Henrik Lievonen
+Good morning!
+The first assignment, the lecture slides and the lecture demo are available both here at
+CMS Materials folder
+and in our exercise repository that you need for solving the exercises:
+https://codeberg.org/Henkkuli/lfa2026/
+During the lecture, I forgot to mention the following…
+Read more
+Good morning!
+The first assignment, the lecture slides and the lecture demo are available both here at
+CMS Materials folder
+and in our exercise repository that you need for solving the exercises:
+https://codeberg.org/Henkkuli/lfa2026/
+During the lecture, I forgot to mention the following regarding about assignments: to attend the exam, you need to get 50% of the overall assignment points, divided such that you get at least 40% of the assignment points in each of the three modules (weeks 1–4, 5–9 and 10–14).
+We also have our first exercise session today at 14:00. Normally, in the exercise sessions, we will be providing model solutions for the previous week's exercises, answering questions, and also handing out extra exercises for practice. This week, instead, we will be providing help with setting up the Lean environment and understanding how to turn in the assignments. The exercise sessions can also function as reserved time slots in your calendars when you can work on the exercises.
+Best,
+The course personnel
+Welcome
+Written on
+09.10.26
+by Henrik Lievonen
+Welcome on the Lean for Algorithms course!
+The first course activity will be our first lecture on Tuesday October 13 at 14:15 – 16:00, and then the exercise class on Thursday October 15 at 14:00 – 17:00; we have decided to extend the exercise session by an hour for those who have scheduling…
+Read more
+Welcome on the Lean for Algorithms course!
+The first course activity will be our first lecture on Tuesday October 13 at 14:15 – 16:00, and then the exercise class on Thursday October 15 at 14:00 – 17:00; we have decided to extend the exercise session by an hour for those who have scheduling conflicts before 16. All of our course activities will be held E9 1, 0.05 (CISPA building, lecture hall on ground floor).
+Before the first class, we recommend everyone to install the Lean tool chain, including VS Code,
+following the official instructions
+.
+Best,
+The course personnel
+Lean for Algorithms
+In this course, students learn the basics of formalizing mathematical and algorithmic results using the Lean proof assistant.
+At the end of the course, students should be able to define data structures, write algorithms on those data structures, and proof the correctness and time bounds on those algorithms using the Lean proof assistant.
+The course will be taught exclusively in English.
+Schedule
+The course starts on 12 October 2026, and teaching ends on 7 February 2027. There won't be teaching on 9 November – 15 November, nor on 21 December – 3 January. In total, there will be 14 weeks of teaching.
+Lectures: Tuesdays at 14:00
+Exercise sessions : Thursdays at 14:00
+Venue: E9 1, 0.05 (CISPA building, lecture hall on ground floor)
+Prerequisites
+We do not have formal prerequisites. However, familiarity with most of the following concepts is expected:
+- Basics of programming, including functional programming.
+- Formulating basic mathematical definitions, theorems and proofs, including using induction principle.
+- Basic data structures and algorithms, like basic sorting algorithms and binary search trees.
+Exam Registrations
+Like all courses at the uni, registrations for  exams happen through the university's
+HISPOS system
+. If you wish to take this course for credit and grades, this is essential. If you are taking this course purely to audit (aka you don't need/want grades), you can ignore this. We will announce the registration deadline in the upcoming weeks. Registration on the CMS does not count as registering in the university's system for exams and grades. The CMS is intended for course organizational purposes only
+Grading
+The course consists of three modules, each 4–5 weeks long. There are assignments after each week. A student needs to get 40% of the points for the assignments in each of the three modules, and 50% of the total points over all assignments to register for the exam. The assignments consist of both writing Lean code and handwritten mathematical proofs.
+At the end of the course, there is a final project and an oral exam focusing on the final project. The final exam may be retaken, but may require a second project at the discretion of the examiner.
+AI Policy
+One can learn computer-assisted formalization only by doing it. Therefore, we forbid the usage of AI tools for writing Lean code and for solving the assignments. One can use AI tools as a search engine at their discretion.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

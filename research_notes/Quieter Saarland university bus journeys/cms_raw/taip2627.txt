@@ -1,0 +1,232 @@
+Main Page
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Seminar: Trusted AI Planning
+Dr. Daniel Höller
+,
+Prof. Dr. Jörg Hoffmann
+News
+Currently, no news are available
+Seminar: Trusted AI Planning
+Basics.
+Seminar, 7 graded ECTS points.
+The seminar will be run in a block format. All meetings will take place in room 3.06, Building E1 1. The seminar language is English throughout. There will be an initial meeting on
+Monday, October 26, 16:00 - 17:00
+. All student presentations will be given on some day after the lecture's period (which ends Friday February 05) -- the exact date will be set once the seminar assignment is final to avoid any conflicts with exam dates.
+All email interaction must be pre-fixed with "[TAIP26]" in the email subject.
+Supervisors for the seminar are
+Daniel Höller
+and
+Jörg Hoffmann
+. Additional feedback will be provided by
+Jan Eisenhut
+,
+Songtuan Lin
+,
+Victor Scherer Putrich
+and
+Marcel Vinzent
+. For
+organizational
+questions please contact
+Victor Scherer Putrich
+.
+Your task will be
+to read and understand a research topic (see below), to write a summary paper in your own words and to give a presentation.
+to provide detailed feedback for the paper and presentation of a fellow student.
+No plagiarism, no LLMs.
+It is Ok (and encouraged) to use web resources to further your understanding of your assigned topic. However, it is inadmissible to use pieces of public material for your summary paper or presentation, and it is not allowed to generate parts of your slides or summary paper using LLMs. Any plagiarism or LLM use will result in disqualification from the seminar. You are allowed to include pieces (like formal definitions, empirical results tables or figures) from the paper you are summarizing; however, you need to clearly and explicitly mark such material as being from the paper.
+Content.
+AI Planning is the sub-area of AI concerned with complex action-choice problems. The seminar covers methods supporting trust in algorithmic solutions to such problems. This field of research is very recent, and we cover research conducted in the FAI group. A major concern are neural action policies, i.e., neural networks that map states to actions. While such policies can be very performant, they are fundamentally opaque and come without any guarantees. We cover methods for verifying, testing, and re-training such policies.
+Prerequisites.
+Participants must have successfully completed either an edition of the Artificial Intelligence core course, or of the (Trusted) AI Planning specialized course.
+Registration.
+Is via the central
+seminar registration system
+.
+Grading.
+The final grading will be based, in this order of importance, on:
+The quality of your final presentation.
+The quality of your final summary paper.
+The quality of the feedback you provide to your mentee student (and your participation in the feedback process in general, see below).
+Your participation in the discussions during the block seminar.
+You
+must fulfill each of these task to pass
+the seminar.
+Summary Paper.
+For the summary paper, you
+must
+use
+this tex template
+.
+You are required to read at least 2 related papers, for the related work section
+.
+You are allowed to modify the section structure given in the template if, for whatever reason, this is more adequate for the work you are summarizing.
+The seminar paper should be about 4 pages long (not counting the literature list, and in the double-column format of the template). This is a rough guideline, not a strict rule. If you need, say, 5-6 pages to do your topic justice then definitely do so.
+Presentation.
+Your talk should be roughly 20 minutes (not a lot longer, not a lot shorter). It will be accompanied by 10 minutes for discussion. For your presentation slides you are
+encouraged
+to use
+this tex template
+(or any other tex template).
+Schedule and Deadlines (tentative!).
+The following deadlines are
+firm
+:
+October 26, 16:00 - 17:00:
+Initial meeting. We will give a brief insight into each of the papers.
+October 28:
+Choose your preferences (via the Tutorial mechanism in the CMS).
+October 30:
+Receive your topic (as tutorial slots in the CMS).
+After topic assignment:
+Read the material associated with your topic carefully.
+November (x):
+Deadline for official registration to this seminar (exam registration, Prüfungsanmeldung).
+November 23-27
+Meeting with your feedback-giver (as listed with each paper) to discuss your paper. The purpose of this meeting is to ensure that you understood the topic correctly, and to ask questions about specific points. You should bring along notes about what you do not yet fully understand. You can also bring a first outline of your summary paper and/or presentation, and discuss this at the meeting. It is within your responsibility to contact your feedback giver to schedule the meeting.
+February 10
+Upload your final summary paper in the CMS.
+February 16
+(day before block seminar)
+:
+Upload your final presentation slides in the CMS.
+February (to be decided)
+Block seminar with presentations.
+Attendance to all talks is required.
+The following deadlines are a rough guideline (indicated by
+"(ca.)"
+). You are
+required to fulfill these tasks
+.
+January 8 (ca.):
+Send presentation slides and summary paper to mentor student (cc supervisor and feedback giver).
+January 15 (ca.):
+Send feedback regarding the presentation slides and summary paper to your mentee student (cc supervisor and feedback giver).
+January 22 (ca.):
+Send revised presentation slides and summary paper to mentor student (cc supervisor and feedback giver).
+January 29 (ca.):
+Send feedback regarding the revised presentation slides and summary paper to your mentee student (cc supervisor and feedback giver).
+Email communication:
+To avoid confusion, please use the following subject format when sending you summary paper, presentation slides or feedback:
+[TAIP26] <Type> -  <Summary|Presentation> - Topic <X> - <Student Name>
+where <type> is one of:
+Submission 1
+Submission 2
+Feedback 1
+Feedback 2
+For example: [TAIP26] Submission 1 - Presentation  - Topic 6 - Marcel Vinzent
+Topics.
+Each participant will be assigned one
+topic
+, most of which consists of one paper. The overall amount and difficulty of the material associated with each topic is roughly balanced.
+Each topic is associated with a mentee student (to whom you will provide feedback, see the deadlines above) and a mentor student (who will provide feedback to you, see deadlines). The mentee/mentor assignment will be a "cycle" through each of the topic areas as listed below: let k be the number of topics in an area, then the mentor->mentee relation is i->i+1 and k->1.
+NOTE: All papers can be freely accessed from within the
+university's vpn
+.
+Area 1: Open-Loop Verification
+(supervisor:
+Jörg Hoffmann
+, feedback giver:
+Marcel Vinzent
+)
+Topic 1
+: Guy Katz, Clark W. Barrett, David L. Dill, Kyle Julian, Mykel J. Kochenderfer:
+Reluplex: An Efficient SMT Solver for Verifying Deep Neural Networks
+. CAV 2017.
+Topic 2
+: Haoze Wu, Aleksandar Zeljic, Guy Katz, Clark W. Barrett:
+Efficient Neural Network Analysis with Sum-of-Infeasibilities
+. TACAS 2022.
+Topic 3
+: Gagandeep Singh, Timon Gehr, Markus Püschel, Martin T. Vechev:
+An abstract domain for certifying neural networks
+. POPL 2019.
+Topic 4
+: Laurens Devos, Wannes Meert, Jesse Davis:
+Versatile Verification of Tree Ensembles
+. ICML 2021.
+Area 2: Closed-Loop Verification
+(supervisor:
+Daniel Höller
+, feedback giver:
+Victor Scherer Putrich
+)
+Topic 5
+: Marcel Vinzent, Marcel Steinmetz, Jörg Hoffmann:
+Neural Network Action Policy Verification via Predicate Abstraction
+. ICAPS 2022.
+Topic 6
+: Marcel Vinzent, Siddhant Sharma, Jörg Hoffmann:
+Neural Policy Safety Verification via Predicate Abstraction: CEGAR
+. AAAI 2023.
+Topic 7
+: Chaahat Jain, Lorenzo Cascioli, Laurens Devos, Marcel Vinzent, Marcel Steinmetz, Jesse Davis, Jörg Hoffmann:
+Safety Verification of Tree-Ensemble Policies via Predicate Abstraction
+. ECAI 2024.
+Topic 8
+: Edoardo Bacci, Mirco Giacobbe, David Parker:
+Verifying Reinforcement Learning up to Infinity
+. IJCAI 2021.
+Area 3: Testing
+(supervisor:
+Daniel Höller
+, feedback giver:
+Jan Eisenhut
+)
+Topic 9
+: Hasan Ferit Eniser, Timo P. Gros, Valentin Wüstholz, Jörg Hoffmann, Maria Christakis:
+Metamorphic relations via relaxations: an approach to obtain oracles for action-policy testing
+. ISSTA 2022.
+Topic 10
+: Jan Eisenhut, Álvaro Torralba, Maria Christakis, Jörg Hoffmann:
+Automatic Metamorphic Test Oracles for Action-Policy Testing
+. ICAPS 2023.
+Topic 11
+: Maria Christakis, Hasan Ferit Eniser, Jörg Hoffmann, Adish Singla, Valentin Wüstholz:
+Specifying and Testing k-Safety Properties for Machine-Learning Models
+. IJCAI 2023.
+Topic 12
+: C. Jain, D. Sherbakov, M. Vinzent, M. Steinmetz J. Davis, and J. Hoffmann:
+Policy Safety Testing in Non-Deterministic Planning: Fuzzing, Test Oracles, Fault Analysis
+. ECAI 2025.
+Area 4: Repair
+(supervisor:
+Jörg Hoffmann
+, feedback giver:
+Songtuan Lin
+)
+Topic 13
+: Ben Goldberger, Yossi Adi, Joseph Keshet, Guy Katz:
+Minimal Modifications of Deep Neural Networks using Verification
+LPAR, 2020
+Topic 14
+: Guoliang Dong, Jun Sun, Xingen Wang, Xinyu Wang, Ting Dai:
+Towards Repairing Neural Networks Correctly
+QRS 2021
+Topic 15
+: F. Bauer-Marquart, David Boetius, Stefan Leue, Christian Schilling:
+SpecRepair Counter-Example Guided Safety Repair of Deep Neural Networks
+SPIN, 2022
+Topic 16
+: L. Cascioli, C., Jain, M. Steinmetz, J. Davis, and J. Hoffmann:
+Safety Debugging of Tree-Ensemble Action Policies in AI Planning: From Fault Detection to Fault Fixing
+, RIPL 2025.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

@@ -1,0 +1,146 @@
+Main Page
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Empirical Software Engineering Research
+Prof. Dr. Sven Apel
+,
+Dr. Norman Peitek
+Advanced Lecture— Winter Semester 2026
+News
+Welcome to the Course: First Mini-Test Tomorrow!
+Written on
+19.10.26
+by Norman Peitek
+Dear students,
+We would like to welcome you to
+Empirical Software Engineering Research
+. We are excited that you joined this course and hope you already had a chance to watch the kickoff and introduction lectures.
+This is a friendly reminder that we have our
+first mini-test tomorrow…
+Read more
+Dear students,
+We would like to welcome you to
+Empirical Software Engineering Research
+. We are excited that you joined this course and hope you already had a chance to watch the kickoff and introduction lectures.
+This is a friendly reminder that we have our
+first mini-test tomorrow (Tuesday)
+at any time during the day (00:00-23:59 CEST) on the CMS. Please also keep in mind that the mini-tests are always a week after the release of the lecture. This means tomorrow's mini-test will be on the
+Introduction
+lecture from last week, not on the "Controlled Experiments" lecture that will release today. Please note that participation in all mini-tests is
+mandatory
+for students aiming to earn credits for the course. But, even if you are only auditing the course, feel free to participate in the mini-test as feedback for your own and the groups’ understanding of the concepts. The CMS
+automatically saves your answers
+, and there is no explicit “save” or "submit" button. You should see an indicator confirming your responses have been saved. There is
+no direct feedback whether your answers were correct
+. The mini-tests are corrected manually, typically on Wednesday, and then entered as an exam result on the CMS.
+Later in the week on Thursday, we are meeting for our
+first live Q&A, which will start at 08:30am sharp.
+We will discuss the results of the mini-test, questions from the mini-test, and live questions regarding the organizational matters and for the introduction lecture (as time permits). You can find the Zoom link on the CMS calendar.
+To avoid cluttering inboxes, this will be the
+only time we remind everyone
+for the upcoming mini-test and Q&A. We recommend downloading the course schedule from the CMS to your calendar and setting up your own reminders depending on your needs.
+Best,
+EMSE-Team
+Empirical Software Engineering Research
+Empirical software engineering research plays an important role to improve software engineering by studying its processes, tools, and humans with empirical methods. In this course, we provide an overview of typical quantitative and qualitative research methods. We discuss in-depth on how to properly conduct empirical studies and interpret collected data. Specific topics will include:
+Importance of empirical methods in SE
+Controlled experiments
+Experiment designs, variables, operationalization, and threats to validity
+Data and measures
+Data analysis
+Experiment conduct
+Qualitative studies (e.g., surveys, case studies, interviews)
+Secondary studies (e.g., systematic literature reviews)
+Report writing
+Replication
+Open science
+Ethics
+In addition to the lectures, we plan for four guest lectures on current topics in empirical software engineering research.
+We hope that after taking this course, you will have achieved the following learning goals:
+Understand empirical methods in software engineering (research)
+Awareness of various experiment designs including their (dis)advantages
+Understand different types of data and how to describe and interpret them with statistical methods
+Awareness of critical topics and limitations surrounding empirical methods
+Please note that we will
+not
+cover detailed statistical methods or a deep-dive into every research method.
+This is a 6 CP course.
+Important Note on Online Lecture Format
+This course will be
+entirely online
+. The lectures will be uploaded as videos on Mondays. For each lecture, we will offer a live, online Q&A in the subsequent week (Thursday, 08:30–10:00).
+In addition, we have weekly online mini-tests (Tuesdays, can start at any time during the day, but is limited in time once started) and three larger assignments, that are a prerequisite to be admitted to the exam.
+Details are provided in the time table and also in the kickoff session, which is already available
+on YouTube
+.
+Limited Registration: First-Come-First-Serve
+We have limited staff to advise your learning and provide individual feedback. Thus, we have to
+limit the number of students that you can fully participate and take the exam in this semester to a maximum of 30 students
+.
+Nevertheless, we believe that the course material is valuable for more students. Thus, the course registration is open and unlimited so that any student can still access and audit the materials (but unfortunately not obtain credit points).
+To make it clear who is fully enrolled in the course, can submit assignments, and also take the exam (if the requirements are met), we display this status as a testing result. This means if you would like to participate in the assignments, take the exam, and get credits for this course, you must be one of the 30 students with the "passed" status in this testing. Note that this testing result is not automated, but rather set manually. Thus, it may take some time for us to update your personal status.
+We will enroll the first 30 students registered for the course purely based on a first-come first-serve basis. All students that register later will not be able to get credit in this course.
+UPDATE: All 30 spots have been taken. Everyone registering from now on can only audit the course, but not participate in the assignments or take the exam!
+To obtain access to the course material, you must register via this CMS course. Registration starts on
+Thursday, 1st of October 2026 at 8:00 am
+and ends on 16th of October 2026 at 11:00 am.
+Mini-Tests
+There will be 12 mini-tests, each mini-test is worth 4 points. The mini-test will take part online (Tuesdays), you can take the mini-test at any time on that day on the CMS. The mini-test itself has a time limit of 10 minutes, since started. The mini-tests are not scored automatically. Thus, the scores are only available the following day. The mini-test questions will focus on the lecture of the previous week, and will be discussed in the following Q&A.
+Assignments
+There will be three assignments in this course, each worth 20 points. For each, you have two to three weeks to work on. The three assignment topics are:
+Understanding empirical studies
+Data analysis
+Report writing
+For each submitted assignment, you can receive personalized feedback to help you improve.
+To qualify for the exam, you need to score, at least,
+50%
+(24/48 points) on the mini-tests
+50%
+(30/60 points) on the assignments
+10 of the 12
+mini-tests must be submitted (i.e., you can miss a maximum of two mini tests without an excuse; you must still participate in the mini-tests even if you already have reached the minimum points)
+No Tutorials
+This course does not contain tutorials. It only consists of lectures, Q&As, mini-tests, and assignments.
+Final Exam
+The written 90-minute exam will be TBA. We plan to offer a re-exam (TBA).
+You will need to
+register in the LSF/Hispos
+for the exam until TBA for the exam. We cannot help if you miss the registration deadline.
+Prerequisites
+There are no formal prerequisites. An understanding of the basics of software engineering is beneficial.
+Literature
+The library is
+providing access
+to the following books:
+Wohlin et al.,
+Experimentation in Software Engineering
+, Springer, 2012/2024
+Juristo and Moreno,
+Basics of Software Engineering Experimentation
+, Springer, 2001
+Felderer and Travassos,
+Contemporary Empirical Methods in Software Engineering
+. Springer, 2020.
+Prechelt,
+Kontrollierte Experimente in der Softwaretechnik: Potenzial und Methodik,
+Springer, 2001/2014
+Questions?
+If you have specific questions that cannot wait for a Q&A, or are individual circumanstances, please contact Norman Peitek via email.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

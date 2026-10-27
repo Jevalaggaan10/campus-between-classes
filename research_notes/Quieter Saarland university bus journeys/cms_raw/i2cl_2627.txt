@@ -1,0 +1,107 @@
+Hauptseite
+Kurse
+Hauptseite
+Informationen
+Termine
+FAQ
+Team
+Anmeldung
+Persönliche Statusseite
+Login
+Angemeldet bleiben
+Login
+Registrierung
+Passwort vergessen?
+Dunklen Modus aktivieren
+Hellen Modus aktivieren
+Einführung in die Computerlinguistik
+Prof. Dr. Vera Demberg
+Die
+Registrierung für diesen Kurs
+ist noch bis zum
+Dienstag, 27.10.2026 23:59
+geöffnet
+.
+News
+Gruppen, Forum, Klausurzulassung (Groups, Forum, Admission to the exam)
+Geschrieben am
+22.10.26
+(letzte Änderung am
+22.10.26
+)						von Margareta Wiegmann Planas
+Hallo zusammen,
+ich wollte kurz an drei Punkte erinnern:
+1) Ihr könnt euch bis nächste Woche Dienstag für die Bearbeitung der Übungsblätter in
+Zwei
+- oder
+Dreiergruppen
+aufteilen (empfohlen!). Nutzt hierfür die Gruppenfunktion auf eurer Persönlichen Statusseite. Wenn ihr im CMS als Gruppe…
+Weiterlesen
+Hallo zusammen,
+ich wollte kurz an drei Punkte erinnern:
+1) Ihr könnt euch bis nächste Woche Dienstag für die Bearbeitung der Übungsblätter in
+Zwei
+- oder
+Dreiergruppen
+aufteilen (empfohlen!). Nutzt hierfür die Gruppenfunktion auf eurer Persönlichen Statusseite. Wenn ihr im CMS als Gruppe angemeldet seid, muss nur ein Gruppenmitglied eure Abgabe hochladen. Alle Mitglieder erhalten dann automatisch dasselbe Feedback. Solltet ihr gerne in einer Gruppe arbeiten wollen, aber keine Partner gefunden haben, könnt ihr trotzdem auf eurer Persönlichen Statusseite eine Gruppe erstellen. Diese Gruppen aus Einzelpersonen lege ich dann per Zufall zu Zwei- und Dreiergruppen zusammen.
+2) Im
+Forum
+im CMS findet ihr jetzt einen Post für Fragen / Probleme / Feedback zum ersten Übungsblatt. Die Abgabe ist bis Montag, 26.10., 23:55 Uhr über eure Persönliche Statusseite möglich.
+3) Bitte meldet euch bei mir in der Übungsstunde / per PM im Forum / per Email, falls ihr
+a) in der
+alten
+Studienordnung
+(3CP) teilnehmt
+b) auf die neue Studienordnung (6CP) gewechselt habt, aber bereits die
+Klausurzulassung
+in
+einem
+Vorjahr
+erhalten habt.
+In beiden Fällen müsst ihr nicht an den Übungsblättern teilnehmen und ich trage euch die entsprechende Klausurzulassung auf eurer Persönlichen Statusseite ein.
+Viele Grüße
+Margareta
+Einführung in die Computerlinguistik
+Willkommen zur Einführung in die Computerlinguistik!
+Der Kurs richtet sich an Studierende der Studiengänge BSc Computerlinguistik im 1. Semester und BA Language Science WP1 (Computation and Cognition), sowie an Nebenfächler des Studiengangs Informatik, und einiger Studiengänge der Fakultät P.
+Der
+Kurs
+findet ein mal pro Woche, Dienstag 10-12 in HS003 von Gebäude E1 3 statt. Es wird jede Woche ein Übungsblatt geben, das jeweils bis zum nächsten Montag zu bearbeiten ist und dessen Lösungen in der folgenden Woche hochgeladen werden.
+Die
+freiwillige Übung
+findet wöchentlich Donnerstag 10-12 in Raum -1.05 von Gebäude C7 2 statt. Im ersten Teil der Übung können Fragen zu den Lösungen des vorherigen Übungsblatts besprochen werden. Daraufhin werden zusätzliche Übungsaufgaben zu den Themen der Vorwoche gestellt und gemeinsam erarbeitet. Außerdem dient die Übung für Fragen zur Vorlesung, dem aktuellen Übungsblatt und den benötigten mathematischen Grundlagen.
+Am Mittwoch der ersten Semesterwoche (
+14.10.2026, 10-12, Raum -1.05, Gebäude C7 2
+) findet eine
+Einführung in das CMS
+statt, bei der auch Details zur Vorlesung, den Übungsblättern und der freiwilligen Übungsstunde besprochen werden. Die wichtigsten Informationen sind auf der FAQ Seite unter 'Informationen' auch im CMS gelistet.
+Wichtig
+: Schon vor der ersten Vorlesung (20.10.2026) sollten Sie bitte
+Software installieren
+, die für die Bearbeitung der ersten Übung benötigt wird (Anleitung: siehe Informationen -> Materialien unter 00_General).
+Hilfe bei der Installation der Software:
+- Mittwoch, 14.10.2026, Raum -1.05, Gebäude C7 2
+im Anschluss an die Einführung
+- Donnerstag, 22.10.2026, 10-12, Raum -1.05, Gebäude C7 2
+(muss nicht besucht werden, wenn alles funktioniert)
+Themen:
+Woche 1: Einführung, Reguläre Ausdrücke, ELIZA
+Woche 2: Morphologie, Korpora, Tokenization
+Woche 3: n-gram Modelle
+Woche 4: Syntax
+Woche 5: Textklassifikation und Evaluation
+Woche 6: Logistische Regression
+Woche 7: Embeddings
+Woche 8: Semantik, Wordnet
+Woche 9: Neuronale Netze
+Woche 10: LLMs
+Woche 11: Transformer
+Woche 12: individuelle Klausurvorbereitung (freiwillige Probeklausur)
+Woche 13: Fragen zur Klausur
+Klausur
+Datenschutz
+|
+Impressum
+Bitte wenden Sie sich bei technischen Problemen an
+die Administratoren
+.

@@ -1,0 +1,84 @@
+Main Page
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Large Language Models for Physical Systems
+Roland Aydin
+Registration for this course
+is open until
+Sunday, 31.01.2027 23:59
+.
+News
+Welcome to LLMs for Physical Systems!
+Written on
+09.10.26
+by Roland Aydin
+This is a newly created course, consisting of 2 hours of weekly lectures and 2 hours of weekly exercises for 5 ECTS total.
+Contact roland.aydin@uni-saarland.de for any questions. We welcome everyone interested in LLMs for applications outside their usual domains, in these exciting times!
+Large Language Models for Physical Systems
+Code for joining the course on Teams (includes lecture content, exercise content, MC questions, etc.): npn9lp9
+Large language models are starting to be used as working tools for physical systems: to search the literature, suggest candidate models, write and run simulation code, and interpret results. They are being used for increasingly everything! This course covers how these models work, how they are applied to physical and engineering problems, and how well they actually perform.
+This is a Master-level course available for CS students, taught in English only, offering
+5 credits
+upon successful completion. First time offered this winter term! May also count as free credits for Bachelor study programs (check on LSF)!
+Lecture Dates:
+Every Friday, 14:15–15:45, starting 16.10.2026
+Room: C6 4, lecture hall II (0.09)
+Exercises:
+Exercises take place once a week and are offered in two time slots. Please choose one:
+Wednesday, 14:00–16:00, in A5.1, SR 3.19
+Thursday, 12:00–14:00, in C6 4, lecture hall II (0.09)
+Exercises start in the second week.
+There are no exercises from 12.10. to 16.10.2026. Please join the first lecture on
+16.10.2026
+.
+Contents
+The course is organised into three parts, with the foundations presented in the context of physical systems.
+Foundations
+What a language model is and how it works
+Attention and the transformer architecture
+Training and scaling laws
+Tokenisation and embeddings
+Retrieval-augmented generation
+Applications to Physical and Engineering Problems
+LLMs for generating constitutive models in materials science
+LLMs for corrosion research and finite element method (FEM) workflows
+Solving partial differential equations (PDEs): from physics-informed neural networks to LLM-written solvers
+Benchmarking, performance evaluation, and failure modes
+Current Research Topics
+Agentic and multi-agent systems that call tools and solvers
+LLMs as optimisers for design and experiment proposal
+Model mixing and alignment
+Tabular foundation models
+Multimodal models and world models
+We will also present possible master's thesis topics offered in our research group (CS and MWWT) to showcase current research trends.
+Note:
+Since this is the first iteration of the lecture, the content listed here is tentative and may still be adjusted before the semester starts.
+Requirements
+No prior machine learning knowledge is required, although it would be helpful. The necessary basics are developed in the exercises.
+Passing the Course
+The final exam lasts
+70 minutes
+and consists of a mix of
+multiple-choice and open questions
+.
+Up to
+20% bonus points
+can be earned for the final exam.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

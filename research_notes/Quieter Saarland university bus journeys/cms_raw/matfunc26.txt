@@ -1,0 +1,73 @@
+Hauptseite
+Kurse
+Hauptseite
+Informationen
+Termine
+Team
+Anmeldung
+Persönliche Statusseite
+Login
+Angemeldet bleiben
+Login
+Registrierung
+Passwort vergessen?
+Dunklen Modus aktivieren
+Hellen Modus aktivieren
+Seminar: Matrixfunktionen
+Benjamin Dörich, Andreas Rupp
+News
+Seminarvorbesprechung verlegt
+Geschrieben am
+02.10.26
+von Ruben Gutendorf
+Liebe Kommilitonen,
+der erste Seminartermin wird am Donnerstag, den 15. Oktober 2026, um 12:15 Uhr in Hörsaal IV stattfinden.
+Viele Grüße
+Ruben Gutendorf
+Allgemeine Informationen
+Dozent:
+Benjamin Dörich (
+benjamin.doerich@uni-saarland.de
+)
+Assistent:
+Ruben Gutendorf (
+ruben.gutendorf@uni-saarland.de
+)
+Inhalt
+Im Seminar werden wir zunächst Matrixfunktionen
+f(A)
+behandeln, wobei
+f : ℂ → ℂ
+eine Funktion ist und
+A
+eine quadratische Matrix. Das einfachste Beispiel ist ein Polynom
+f(z) = z
+k
+, dann gilt
+f(A) =
+A
+k
+. Ein weiteres wichtiges Beispiel ist die Matrixexponentialfunktion, die bei der Lösung gewöhnlicher Differentialgleichungen auftritt. Nach einigen grundlegenden Eigenschaften diskutieren wir für spezielle Funktionen geeignete Algorithmen, welche eine effiziente Berechnung erlauben.
+Als weiterführende Themen könnnen wir den Fall diskutieren, dass wir nicht an
+f(A)
+selbst, sondern an
+f(A) b
+für einen Vektor
+b
+∈ ℂ
+n
+interessiert sind.  Dies findet Anwendung in der Lösung von großen, dünn besetzen linearen Gleichungssystem sowie in der Zeitintegration partieller Differentialgleichungen. Wir betrachten dabei die Approximation in Krylovräumen und beweisen geeignete Fehlerabschätzungen.
+Dieses Seminar richtet sich an Mathematikstudenten ab dem dritten Semestern. Es wird ein breites Spektrum an Themen behandelt bzw. zur Verfügung gestellt.
+Ort und Zeit
+Die erste Seminarsitzung findet am Donnerstag, den 15. Oktober 2026, um 12:15 Uhr in Hörsaal IV (Gebäude E2.4) statt.
+In dieser Auftaktveranstaltung werden organisatorische Fragen geklärt und der Ablauf des Seminars vorgestellt. Die weiteren Termine finden donnerstags nach Absprache statt.
+Referenzen
+Der Kurs stützt sich maßgeblich auf das folgende Buch.
+N. J. Higham: Functions of Matrices: Theory and Computation,
+10.1137/1.9780898717778
+Datenschutz
+|
+Impressum
+Bitte wenden Sie sich bei technischen Problemen an
+die Administratoren
+.

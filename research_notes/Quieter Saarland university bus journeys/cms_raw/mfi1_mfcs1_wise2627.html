@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Main Page	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="4231d285cf1947148cfee86aa34b2ec9a0b05a05@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Sic/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Sic/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Sic/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Sic/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Sic/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/mfi1_mfcs1_wise2627/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/mfi1_mfcs1_wise2627/../system" class="navbar-brand">Courses</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/mfi1_mfcs1_wise2627/">Main Page</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Information</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/mfi1_mfcs1_wise2627/termine/calendar/index">Timetable</a></li><li><hr class="dropdown-divider" /></li><li><hr class="dropdown-divider" /></li><li><a class="dropdown-item" href="/mfi1_mfcs1_wise2627/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/mfi1_mfcs1_wise2627/students/register">Registration</a></li><li class="nav-item"><a class="nav-link" href="/mfi1_mfcs1_wise2627/landing">Personal Status</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/mfi1_mfcs1_wise2627/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="b1fc2eb885c2013dd8918f4080d7b442b671a9e87552852119d16d96dffb580c600eeb941b7b286f16982c7f2adab4b115ba3611638b360dda27c5df9973429d" id="Token517379568" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Username" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Password" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Remember me</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.sic.saarland/mfi1_mfcs1_wise2627/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="593730070dd79b3de91a1ee40b0d2e506a1123ce%3AUser.redirect" id="TokenFields958809414" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked1983412790" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/mfi1_mfcs1_wise2627/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registration</a>        </li>
+        <li>
+            <a href="/mfi1_mfcs1_wise2627/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Forgot Password?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Enable dark mode            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Enable light mode            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/mfi1_mfcs1_wise2627/../system" class="site-logo" title="Front Page"><img src="/system/theme/Sic/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					Mathematics for Computer Scientists I				</h1>
+				<div>
+				<small class="text-muted">
+					Prof. Dr. Peter Ochs				</small>
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	
+<table class="table">
+	<colgroup>
+				<col span="1" style="width: auto;" />
+	</colgroup>
+	<tbody>
+	<tr>						<td class="align-top">
+				<a id="newsElement7"></a>
+				<h4 class="fs-5"><a href="/mfi1_mfcs1_wise2627/news/view/7">Office hours of the tutors</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="25.10.2026 17:19:49">25.10.26</span>												by Tobias Mai					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse7">
+					<p>Starting this week, <strong>all office hours on <u>Tuesdays</u></strong>&nbsp;(Collmann, Wimmer, Lopez, Jamali) will take place in the <strong>student workroom 317/318</strong>, located on the second floor of <strong>building E2 4</strong>. This room should offer better working conditions than the originally planned room.</p>
+
+<p>Our&nbsp;<a href="https://cms.sic.saarland/mfi1_mfcs1_wise2627/termine/calendar/index">calendar</a>&nbsp;has been updated&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse7" href="#newsElement7">Read more</a></p>				</div>
+				<div class="collapse newsCollapse7">
+					<p>Starting this week, <strong>all office hours on <u>Tuesdays</u></strong>&nbsp;(Collmann, Wimmer, Lopez, Jamali) will take place in the <strong>student workroom 317/318</strong>, located on the second floor of <strong>building E2 4</strong>. This room should offer better working conditions than the originally planned room.</p>
+
+<p>Our&nbsp;<a href="https://cms.sic.saarland/mfi1_mfcs1_wise2627/termine/calendar/index">calendar</a>&nbsp;has been updated accordingly.</p>
+				</div>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement5"></a>
+				<h4 class="fs-5"><a href="/mfi1_mfcs1_wise2627/news/view/5">erweiterte deutschsprachige Sprechstunde | extended German-language office hour</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="21.10.2026 09:32:47">21.10.26</span>												by Tobias Mai					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse5">
+					<p>Zus&auml;tzlich zu den regul&auml;ren Sprechstunden der Tutorinnen und Tutoren bietet Tobias Mai eine &quot;erweiterte deutschsprachige Sprechstunde&quot; an. Im Rahmen dieser Veranstaltung k&ouml;nnen&nbsp;einzelne Themen der Vorlesung wiederholt bzw. etwas detaillierter besprochen werden.&nbsp;N&auml;here Informationen finden Sie <a href="https://cms.sic.saarland/mfi1_mfcs1_wise2627/2/Tutorials#Question_Time">&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse5" href="#newsElement5">Read more</a></a></p>				</div>
+				<div class="collapse newsCollapse5">
+					<p>Zus&auml;tzlich zu den regul&auml;ren Sprechstunden der Tutorinnen und Tutoren bietet Tobias Mai eine &quot;erweiterte deutschsprachige Sprechstunde&quot; an. Im Rahmen dieser Veranstaltung k&ouml;nnen&nbsp;einzelne Themen der Vorlesung wiederholt bzw. etwas detaillierter besprochen werden.&nbsp;N&auml;here Informationen finden Sie <a href="https://cms.sic.saarland/mfi1_mfcs1_wise2627/2/Tutorials#Question_Time">hier</a>.</p>
+
+<p>Die &quot;erweiterten deutschsprachigen Sprechstunden&quot; finden w&auml;hrend der Vorlesungszeit (ab dem 23. Oktober 2026) <strong>freitags um 14 Uhr (c.t.) im H&ouml;rsaal III in Geb&auml;ude E2 5</strong>&nbsp;statt. Alle Termine stehen auch im <a href="https://cms.sic.saarland/mfi1_mfcs1_wise2627/termine/calendar/index">Kalender</a>.</p>
+
+<hr />
+<p>In addition to the regular office hours held by the tutors, Tobias Mai offers an &quot;extended office hour&quot;; by decision of the faculty, these office hours will be held&nbsp;<span style="color:#e74c3c">exclusively in German</span>. During these events, specific topics from the lecture can be reviewed or discussed in greater detail. Further information can be found <a href="http://cms.sic.saarland/mfi1_mfcs1_wise2627/2/Tutorials#Question_Time">here</a>.</p>
+
+<p>The &quot;extended German-language office hours&quot; will take place during the lecture period (starting October 23, 2026) <strong>on Fridays at 2:15 pm in Lecture Hall III (H&ouml;rsaal III) in Building E2 5</strong>. All scheduled dates are also listed in the <a href="https://cms.sic.saarland/mfi1_mfcs1_wise2627/termine/calendar/index">calendar</a>.</p>
+				</div>
+							</td>
+		</tr>		
+		</tbody>
+</table>
+
+</section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<h2>Mathematics for Computer Scientists I</h2>
+
+<h4>Lecturer: Prof. Dr. Peter Ochs</h4>
+
+<h5>Assistant: Dr. Tobias Mai</h5>
+
+<p>&nbsp;</p>
+
+<h3>General information</h3>
+
+<ul style="list-style-type:disc">
+	<li>The lectures will be given by <strong>Prof. Dr. Peter Ochs</strong>.</li>
+	<li>The lecture course begins on <strong>Wednesday, October 14, at 10:15&nbsp;am</strong>.</li>
+	<li>Online attendance is <strong>not</strong> possible, but we will provide recordings of the lectures.</li>
+	<li>The lectures are held <strong>exclusively in English.</strong> However, we offer <strong>tutorials in both English and German</strong>; you can indicate your language preference when registering for the tutorials. (Registration for the tutorials is possible in CMS during the first week of lectures. More information will follow later.)</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<h3>Content</h3>
+
+<p>This lecture course is the first part of a three-semester course in mathematics for computer science students.</p>
+
+<p>In this first part, the emphasis is on basic notions of mathematics and the calculus&nbsp;of functions in one real variable.</p>
+
+<p>&nbsp;</p>
+
+<h3>Lecture times</h3>
+
+<ul style="list-style-type:disc">
+	<li>Wednesday, 10:15-11:45: G&uuml;nter Hotz lecture theatre, Building E2 2</li>
+	<li>Friday, 10:15-11:45: G&uuml;nter Hotz lecture theatre, Building E2 2</li>
+</ul>
+
+<p>You can&nbsp;find&nbsp;a map showing all the buildings on campus <a href="https://www.uni-saarland.de/fileadmin/upload/footer/lageplan/saarbruecken.pdf" target="_blank">here</a>.</p>
+
+<p>&nbsp;</p>
+
+<h3>References</h3>
+
+<p>Literature for the MfCS&nbsp;lecture course can be found in the corresponding Course Reference Shelf&nbsp;(<a href="https://www.infomath-bib.de/SemApp/SemAppInfoBasic.shtml#MathematicsforComputerScientists">English</a>&nbsp;or&nbsp;<a href="https://www.infomath-bib.de/SemApp/SemAppInfoBasic.shtml#MathematikfuerInformatiker">German</a>) provided&nbsp;by the <a href="http://www.infomath-bib.de/en/welcome.shtml" target="_blank">Campus Library for Computer Science and Mathematics</a>.</p>
+
+<p>Some books listed there are available online (free of charge) if you are using an IP address of the university. To obtain access from outside the university, it is necessary to set up a VPN-connection to the university servers; a detailed description (unfortunately only in German) can be found <a href="http://www.hiz-saarland.de/dienste/vpn/" target="_blank">here</a>.</p>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/en/privacy.html" target="_blank">Privacy Policy</a> | <a href="https://www.uni-saarland.de/en/legal-notice.html" target="_blank">Legal Notice</a><br/>
+	If you encounter technical problems, please contact <a href="mailto:cakecms@cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">the administrators</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

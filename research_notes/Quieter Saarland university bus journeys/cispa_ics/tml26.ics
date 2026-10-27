@@ -1,0 +1,10 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//127.0.1.1//NONSGML kigkonsult.se iCalcreator 2.41.92//
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+UID:33383963-6433-4131-a463-636333626461
+X-WR-CALNAME:Trustworthy Machine Learning Calendar
+X-WR-CALDESC:Events of the lecture Trustworthy Machine Learning
+X-WR-TIMEZONE:Europe/Berlin
+END:VCALENDAR

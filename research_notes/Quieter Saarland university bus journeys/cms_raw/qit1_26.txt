@@ -1,0 +1,136 @@
+Main Page
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Mathematical Foundations of Quantum Information
+Prof. Dr. Moritz Weber, Jonas Metzinger
+Winter Semester 2026, 9 CP
+Registration for this course
+is open until
+Tuesday, 27.10.2026 00:00
+.
+News
+Example of a Mini-test
+Written on
+23.10.26
+by Jonas Metzinger
+Hello everyone,
+I’ve just uploaded an example of a mini-test so that you can get a feel for what it should look like. You have 30 minutes to complete the mini-tests. Each one will consist of three exercises.
+If you have further questions, feel free to ask! I wish you a nice weekend! :)
+Best…
+Read more
+Hello everyone,
+I’ve just uploaded an example of a mini-test so that you can get a feel for what it should look like. You have 30 minutes to complete the mini-tests. Each one will consist of three exercises.
+If you have further questions, feel free to ask! I wish you a nice weekend! :)
+Best regards and see you,
+Jonas
+Upload of Sheet 1 Solutions
+Written on
+22.10.26
+by Jonas Metzinger
+Hello everyone,
+Those of you who have submitted the first sheet should please check again to see if your upload is there. I’m reopening the submission window until tomorrow evening.
+Due to problems with the CMS caused by the PHP security vulnerability, everything has been rolled back to the…
+Read more
+Hello everyone,
+Those of you who have submitted the first sheet should please check again to see if your upload is there. I’m reopening the submission window until tomorrow evening.
+Due to problems with the CMS caused by the PHP security vulnerability, everything has been rolled back to the backup from 20 October.
+Sheet 2 has also been re-uploaded and should now be available.
+Best regards,
+Jonas
+Mathematical Foundations of Quantum Information (WiSe 26/27)
+Quantum Information Theory is a rapidly growing field of research at the intersection of mathematics, computer science and physics. While its origins are closely connected to quantum mechanics, many of its central concepts can be studied from a rigorous mathematical perspective. This makes the field accessible from different backgrounds and opens the door to a wide range of applications, from quantum computing and quantum communication to quantum-inspired methods that can already be implemented on classical computers.
+This lecture provides a mathematical introduction to Quantum Information Theory. The aim is to develop the fundamental language and structures needed to understand quantum information, with an emphasis on clear definitions, precise formulations and basic examples. Starting from the mathematical framework underlying quantum systems, we will gradually build towards central notions such as quantum states, transformations, correlations and information-theoretic quantities. Towards the end of the course, we will also indicate how these concepts enter quantum algorithms and related topics in quantum information.
+No prior knowledge of physics is required.
+This lecture is part of the curriculum in the new
+Master's programme “Quanteninformationstheorie”
+.
+More specifically, the lecture will cover:
+Repetition of Complex numbers, Hilbert spaces, linear operators on Hilbert spaces, tensor products
+Basics of Quantum Computing
+Non-cloning theorem
+Quantum teleportation
+Partial traces and measurements
+Quantum channels
+Basics of Quantum algorithms
+Optional: Concepts of entropy
+The course will be coordinated with the course
+Random Matrices and Applications in Quantum Information
+, so that it is possible to take both courses in parallel.
+Lecture and Exercise Sessions
+Lecturer
+Prof. Dr. Moritz Weber
+(Room 310 in E2 4)
+Assistant
+Jonas Metzinger
+(Room 430 in E2 4)
+Lecture time
+Tuesdays 10-12 and Thursdays 10-12 in Lecture Hall III (E2 5)
+Exercise sessions
+Thursdays 12 - 2pm in Lecture Hall III (HS003) in E1 3 (Luc)
+Fridays 12 - 2pm in Lecture Hall II in E 2 5 (Jonas)
+The course will be taught in English unless all participants speak German.
+For any questions regarding the course, please contact
+Jonas Metzinger
+.
+The Exercise Sessions will be held by
+Alexander Karpenko
+/
+Luc Legroux
+and Jonas Metzinger.
+Prerequisites
+No prior knowledge of physics is required.
+We expect participants to be familiar with the material covered in the Saarland University lectures „Math for Computer Scientists 1-3" or similarly „Analysis 1-2" + „Linear Algebra 1".
+This lecture is part of the curriculum in the new
+Master's programme "Quantum Information Theory"
+. However, it is also open for BSc/MSc/"Lehramt" students in Mathematics, Computer Science, Physics or related fields. Please double check with us, in case you want to earn credit points within a study program different from the MSc Quantum Information Theory.
+Exam and admission requirements
+The course is worth 9 CP. The examination will be most likely written.
+Instead of traditional weekly homework submissions, short
+mini-tests
+will be held every two weeks during the tutorial sessions.
+Each mini-test will take approximately
+20 minutes
+and consist of 2–3 short exercises covering material from the lectures. These may include conceptual questions, simple calculations, or short proofs.
+To be eligible for the final exam, students must obtain at least 40% of the total points available across all mini-tests.
+Exercise sheets will be provided weekly, but
+submitting solutions is voluntary, but you can get feedback!
+Students are strongly encouraged to present and discuss their solutions during the tutorial sessions.
+Literature
+Nielsen, Michael A. and Chuang, Isaac. Quantum Computation and Quantum Information, 2010.
+Rieffel, Eleanor and Polak, Wolfgang.
+Quantum Computing: A Gentle Introduction
+, 2014.
+Watrous, John.
+The Theory of Quantum Information
+, 2018.
+Watrous, John.
+Understanding Quantum Information and Computation
+, with
+lectures on Youtube
+, 2025
+de Wolf, Ronald.
+Quantum Computing: Lecture Notes
+, 2023 arXiV
+Wilde, Mark. Quantum Information Theory, 2017.
+Lenze, Burkhard. Mathematik und Quantum Computing, 2018
+See also in the
+Semesterapparat
+.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

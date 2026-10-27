@@ -1,0 +1,78 @@
+Hauptseite
+Courses
+Main Page
+Information
+Timetable
+Guided Tour
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Image Acquisition Methods
+PD Dr. Pascal Peter
+News
+Currently, no news are available
+Image Acquisition Methods
+Lectures:
+Monday 12:15-14, E1.3, HS001
+First Lecture:
+19.10.2026
+Motivation:
+The course is designed as a supplement for image processing lectures, to be attended before, after or parallel to them. In order to choose the right image processing methods for a given image, it is important to know what the image data represents and what specific properties it possesses.
+Teaching Goals
+: In this lecture, participants learn:
+what digital images are,
+how they are acquired,
+what they encode and what they mean,
+which limitations are introduced by image acquisition.
+Contents
+: A broad variety of image acquisition methods is described, including imaging by virtually all sorts of electromagnetic waves, acoustic imaging, magnetic resonance imaging and more. While medical imaging methods play an important role, the overview is not limited to them.
+Below, you find a short summary of the most important aspects of the lecture. If you decide to take the lecture, please visit our
+guided tour
+.
+Entrance Requirements
+Basic mathematics courses are recommended.
+Basic knowledge in physics is helpful, but the lecture is designed to be self-sufficient in this regard.
+Tutorials
+Assignments are designed for group work. You are encouraged to connect with your fellow students and solve the problems together. You can do this whenever and wherever you choose, but we encourage you to make use of our counselling offers. The official tutorial session takes place in the time slot
+Thursday 12-14, E1.3, SR014
+First Tutorial: 29.10.26
+During the tutorial, our staff is available to give hints or discuss your solutions with you. Example solutions are also provided in the materials section. If this time slot is not convenient for you, there is also an office hour (time slot TBA).
+If you have questions concerning the tutorials, please do not hesitate to contact
+Pascal Peter
+.
+Assessments / Exams
+There will be two
+closed book
+written exams.
+First Exam: TBA
+Second Exam: TBA
+You can find the detailed rules for our exams in the self test assignment in the
+CMS materials
+. (Published in the beginning of the semester.)
+You can participate in both exams, and the better grades counts if your course of study allows that. Please remember that you have to register online for the exam in the
+HISPOS/LSF system
+.
+If you cannot attend the exam, contact Pascal Peter as early as possible. In case you have proof that you cannot take part for medical reasons, you can revoke your LSF registration by informing the examination office.
+Lecture notes / Assignments
+Lecture content in form slides and assignments are available for download online via CMS in the beginning of the semester. Access will be granted after registration.
+References
+B. Jähne, H. Haußecker, P. Geißler, editors, Handbook of Computer Vision and its Applications. Volume 1: Sensors and Imaging. Academic Press, San Diego 1999.
+S. Webb, The Physics of Medical Imaging. Institute of Physics Publishing, Bristol 1988.
+C. L. Epstein, Introduction to the Mathematics of Medical Imaging. Pearson, Upper Saddle River 2003.
+R. Blahut, Theory of Remote Image Formation. Cambridge University Press, 2005.
+A. C. Kak, M. Slaney, Principles of Computerized Tomographic Imaging. SIAM, Philadelphia 2001.
+Articles from journals and conferences.
+Further references will be given during the lecture.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

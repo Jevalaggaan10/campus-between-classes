@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Main Page	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="4231d285cf1947148cfee86aa34b2ec9a0b05a05@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Sic/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Sic/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Sic/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Sic/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Sic/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/emse_26/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/emse_26/../system" class="navbar-brand">Courses</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/emse_26/">Main Page</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Information</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/emse_26/termine/calendar/index">Timetable</a></li><li><a class="dropdown-item" href="/emse_26/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/emse_26/students/register">Registration</a></li><li class="nav-item"><a class="nav-link" href="/emse_26/landing">Personal Status</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/emse_26/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="dad20284829c8ad4b198a2112511ad824069acce0805123b304a0b061c61b9974533967114ded976fdddcc67458e58f8bf6a4879a3919bf36147eb7ba4afc1a6" id="Token2092428454" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Username" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Password" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Remember me</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.sic.saarland/emse_26/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="060964bebdee20bc81eacc4947eeb2374ef7269b%3AUser.redirect" id="TokenFields2056582593" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked1321280443" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/emse_26/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registration</a>        </li>
+        <li>
+            <a href="/emse_26/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Forgot Password?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Enable dark mode            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Enable light mode            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/emse_26/../system" class="site-logo" title="Front Page"><img src="/system/theme/Sic/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					Empirical Software Engineering Research				</h1>
+				<div>
+				<small class="text-muted">
+					<a href="https://www.se.cs.uni-saarland.de/apel/index.php">Prof. Dr. Sven Apel</a>, <a href="https://www.se.cs.uni-saarland.de/people/peitek.php">Dr. Norman Peitek</a>				</small>
+					</div>
+				<div class="mt-2"><small class="text-muted fs-6">Advanced Lecture— Winter Semester 2026</small></div>			</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	
+<table class="table">
+	<colgroup>
+				<col span="1" style="width: auto;" />
+	</colgroup>
+	<tbody>
+	<tr>						<td class="align-top">
+				<a id="newsElement1"></a>
+				<h4 class="fs-5"><a href="/emse_26/news/view/1">Welcome to the Course: First Mini-Test Tomorrow!</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="19.10.2026 09:40:12">19.10.26</span>												by Norman Peitek					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse1">
+					<p>Dear students,</p>
+
+<p>&nbsp;</p>
+
+<p>We would like to welcome you to <em>Empirical Software Engineering Research</em>. We are excited that you joined this course and hope you already had a chance to watch the kickoff and introduction lectures.</p>
+
+<p>&nbsp;</p>
+
+<p>This is a friendly reminder that we have our <strong>first mini-test tomorrow&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse1" href="#newsElement1">Read more</a></strong></p>				</div>
+				<div class="collapse newsCollapse1">
+					<p>Dear students,</p>
+
+<p>&nbsp;</p>
+
+<p>We would like to welcome you to <em>Empirical Software Engineering Research</em>. We are excited that you joined this course and hope you already had a chance to watch the kickoff and introduction lectures.</p>
+
+<p>&nbsp;</p>
+
+<p>This is a friendly reminder that we have our <strong>first mini-test tomorrow (Tuesday)</strong>&nbsp;at any time during the day (00:00-23:59 CEST) on the CMS. Please also keep in mind that the mini-tests are always a week after the release of the lecture. This means tomorrow&#39;s mini-test will be on the <strong>Introduction </strong>lecture from last week, not on the &quot;Controlled Experiments&quot; lecture that will release today. Please note that participation in all mini-tests is <strong>mandatory</strong> for students aiming to earn credits for the course. But, even if you are only auditing the course, feel free to participate in the mini-test as feedback for your own and the groups&rsquo; understanding of the concepts. The CMS <strong>automatically saves your answers</strong>, and there is no explicit &ldquo;save&rdquo; or &quot;submit&quot; button. You should see an indicator confirming your responses have been saved. There is <strong>no direct feedback whether your answers were correct</strong>. The mini-tests are corrected manually, typically on Wednesday, and then entered as an exam result on the CMS.</p>
+
+<p>&nbsp;</p>
+
+<p>Later in the week on Thursday, we are meeting for our <strong>first live Q&amp;A, which will start at 08:30am sharp. </strong>We will discuss the results of the mini-test, questions from the mini-test, and live questions regarding the organizational matters and for the introduction lecture (as time permits).&nbsp;You can find the Zoom link on the CMS calendar.</p>
+
+<p>&nbsp;</p>
+
+<p>To avoid cluttering inboxes, this will be the <strong>only time we remind everyone </strong>for the upcoming mini-test and Q&amp;A. We recommend downloading the course schedule from the CMS to your calendar and setting up your own reminders depending on your needs.</p>
+
+<p>&nbsp;</p>
+
+<p>Best,</p>
+
+<p>EMSE-Team</p>
+				</div>
+							</td>
+		</tr>		
+		</tbody>
+</table>
+
+</section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<h2>Empirical Software Engineering Research</h2>
+
+<p>Empirical software engineering research plays an important role to improve software engineering by studying its processes, tools, and humans with empirical methods. In this course, we provide an overview of typical&nbsp;quantitative and qualitative research methods. We discuss in-depth on how to properly conduct empirical studies and interpret collected data. Specific topics will include:</p>
+
+<ul>
+	<li>Importance of empirical methods in SE</li>
+	<li>Controlled experiments</li>
+	<li>Experiment designs, variables, operationalization, and threats to validity</li>
+	<li>Data and measures</li>
+	<li>Data analysis</li>
+	<li>Experiment conduct</li>
+	<li>Qualitative studies (e.g., surveys, case studies, interviews)</li>
+	<li>Secondary studies (e.g., systematic literature reviews)</li>
+	<li>Report writing</li>
+	<li>Replication</li>
+	<li>Open science</li>
+	<li>Ethics</li>
+</ul>
+
+<div>
+<div>In addition to the lectures, we plan for four guest lectures on current topics in empirical software engineering research.</div>
+
+<div>&nbsp;</div>
+
+<div>We hope that after taking this course, you will have achieved the following learning goals:</div>
+
+<div>
+<ul>
+	<li>Understand empirical methods in software engineering (research)</li>
+	<li>Awareness of various experiment designs including their (dis)advantages</li>
+	<li>Understand different types of data and how to describe and interpret them with statistical methods</li>
+	<li>Awareness of critical topics and limitations surrounding empirical methods</li>
+</ul>
+</div>
+
+<div>Please note that we will <em>not</em> cover detailed statistical methods or a deep-dive into every research method.</div>
+
+<div>This is a 6 CP course.</div>
+
+<div>&nbsp;</div>
+
+<div>
+<h2>Important Note on Online Lecture Format</h2>
+
+<p>This course will be <strong>entirely online</strong>. The lectures will be uploaded as videos on Mondays. For each lecture, we will offer a live, online Q&amp;A in the subsequent week (Thursday, 08:30&ndash;10:00).</p>
+
+<p>In addition, we have weekly online mini-tests (Tuesdays, can start at any time during the day, but is limited in time once started) and three larger assignments, that are a prerequisite to be admitted to the exam.&nbsp;</p>
+
+<p>Details are provided in the time table and also in the kickoff session, which is already available <a href="https://youtu.be/hpOBGwCE41w?Cc_load_policy=1">on YouTube</a>.<br />
+&nbsp;</p>
+
+<h3>Limited Registration: First-Come-First-Serve</h3>
+
+<p>We have limited staff to advise your learning and provide individual feedback. Thus, we have to <strong>limit the number of students that you can fully participate and take the exam in this semester to a maximum of 30 students</strong>.</p>
+
+<p>Nevertheless, we believe that the course material is valuable for more students. Thus, the course registration is open and unlimited so that any student can still access and audit the materials (but unfortunately not obtain credit points).</p>
+
+<p>To make it clear who is fully enrolled in the course, can submit assignments, and also take the exam (if the requirements are met), we display this status as a testing result. This means if you would like to participate in the assignments, take the exam, and get credits for this course, you must be one of the 30 students with the &quot;passed&quot; status in this testing. Note that this testing result is not automated, but rather set manually. Thus, it may take some time for us to update your personal status.</p>
+
+<p>We will enroll the first 30 students registered for the course purely based on a first-come first-serve basis. All students that register later will not be able to get credit in this course.</p>
+
+<p><span style="font-size:14px"><span style="color:#e74c3c"><span class="marker">UPDATE: All 30 spots have been taken. Everyone registering from now on can only audit the course, but not participate in the assignments or take the exam!</span></span></span></p>
+
+<p>To obtain access to the course material, you must register via this CMS course. Registration starts on <strong>Thursday, 1st of October 2026 at 8:00 am</strong> and ends on 16th of October 2026 at 11:00 am.</p>
+
+<h3>Mini-Tests</h3>
+
+<p>There will be 12 mini-tests, each mini-test is worth 4 points. The mini-test will take part online (Tuesdays), you can take the mini-test at any time on that day on the CMS. The mini-test itself has a time limit of 10 minutes, since started. The mini-tests are not scored automatically. Thus, the scores are only available the following day. The mini-test questions will focus on the lecture of the previous week, and will be discussed in the following Q&amp;A.</p>
+
+<h3>Assignments</h3>
+
+<p>There will be three assignments in this course, each worth 20 points. For each, you have two to three weeks to work on. The three assignment topics are:</p>
+
+<ul>
+	<li>Understanding empirical studies</li>
+	<li>Data analysis</li>
+	<li>Report writing</li>
+</ul>
+
+<p>For each submitted assignment, you can receive personalized feedback to help you improve.</p>
+
+<p>To qualify for the exam, you need to score, at least,</p>
+
+<ul>
+	<li><strong>50%</strong> (24/48 points) on the mini-tests</li>
+	<li><strong>50%</strong> (30/60 points) on the assignments</li>
+	<li><strong>10 of the 12&nbsp;</strong>mini-tests must be submitted (i.e., you can miss a maximum of two mini tests without an excuse;&nbsp;you must still participate in the&nbsp;mini-tests even if you already have reached the minimum points)</li>
+</ul>
+
+<h2>No Tutorials</h2>
+
+<p>This course does not contain tutorials. It only consists of lectures, Q&amp;As, mini-tests, and assignments.</p>
+
+<h3>Final Exam</h3>
+
+<p>The written 90-minute exam will be TBA. We plan to offer a&nbsp;re-exam (TBA).</p>
+
+<p>You will need to <strong>register in the LSF/Hispos </strong>for the exam until TBA for the exam. We cannot help if you miss the registration deadline.</p>
+
+<div>
+<h2>Prerequisites</h2>
+
+<p>There are no formal prerequisites. An understanding of the basics of software engineering is beneficial.</p>
+</div>
+
+<h2>Literature</h2>
+
+<p>The library is <a href="https://www.infomath-bib.de/tmp/vorlesungen/info-advanced_empirical-software-engineering-research.html">providing access</a> to the following books:</p>
+
+<ul>
+	<li>Wohlin et al., <em>Experimentation in Software Engineering</em>, Springer, 2012/2024</li>
+	<li>Juristo and Moreno, <em>Basics of Software Engineering Experimentation</em>, Springer, 2001</li>
+	<li>Felderer and Travassos, <em>Contemporary Empirical Methods in Software Engineering</em>. Springer, 2020.</li>
+	<li>Prechelt, <em>Kontrollierte Experimente in der Softwaretechnik: Potenzial und Methodik,</em> Springer, 2001/2014</li>
+</ul>
+
+<h2>Questions?</h2>
+
+<p>If you have specific questions that cannot wait for a Q&amp;A, or are individual circumanstances, please contact Norman Peitek via email.</p>
+
+<p>&nbsp;</p>
+</div>
+</div>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/en/privacy.html" target="_blank">Privacy Policy</a> | <a href="https://www.uni-saarland.de/en/legal-notice.html" target="_blank">Legal Notice</a><br/>
+	If you encounter technical problems, please contact <a href="mailto:cakecms@cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">the administrators</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

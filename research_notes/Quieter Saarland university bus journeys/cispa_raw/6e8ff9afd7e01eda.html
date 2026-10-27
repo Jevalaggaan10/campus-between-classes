@@ -1,0 +1,2293 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>Course Overview</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="300c92296ba275f6ef119c2f4d421cdb55afc9be@develop">
+    <style>
+        html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Cispa/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css"/><link rel="stylesheet" type="text/css" href="/system/theme/Cispa/css/theme-custom.css"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Cispa/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Cispa/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Cispa/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Cispa/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Cispa/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Cispa/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/system/js/ie_html5shiv.js"></script>
+	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-md fixed-top">
+	<div class="container-lg">
+		<a href="/system/../system" class="navbar-brand">CMS</a>		<div class="navbar-expand flex-grow-1 flex-s d-md-none overflow-none">
+			<ul class="navbar-nav d-md-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-system" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-system">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item">
+					<a href="/system/../system/courses" class="nav-link"><i class="fa fa-list fa-fw"></i> Course list</a>				</li>
+											</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/system/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="b9f6142cfbddf7bebbeef02e0110c04fa5180391965fefbfb3ddef99757a4c0153ce042daef685c02526c01db5d975ce09dbd17f5e485a7e4efd1d48deca4686" id="Token1671558638" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Username" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Password" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Remember me</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.cispa.saarland/system/courses" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="582f09171aea05c307fe1aab9b719278cb8e7180%3AUser.redirect" id="TokenFields970720207" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked1342925354" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/system/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registration</a>        </li>
+        <li>
+            <a href="/system/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Forgot Password?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Enable dark mode            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Enable light mode            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/system/../system" class="site-logo" title="Front Page"><img src="/system/theme/Cispa/img/logo.png" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					CISPA Courses				</h1>
+				<small class="text-muted">
+					Lectures				</small>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body flex-shrink-0 flex-grow-1 py-3">
+	<div class="container-lg main-layout">
+						
+		<div id="content" class="content">
+			<section>
+<h2>Course list</h2>
+
+<div class="action-row">
+</div>
+</section>
+
+<section>
+	<h3>
+		Winter term 2026/2027	</h3>
+	<table class="table">
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../farwsp2627">Formal analysis of real-world security protocols</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Advanced Lecture - 
+										Cas Cremers				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../ipml">Imprecise Probabilistic Machine Learning</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Advanced Lecture - 
+										Krikamol Muandet				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../lfa">Lean for Algorithms</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Advanced Lecture - 
+										Sebastian Brandt, Henrik Lievonen, Shreyas Srinivas				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../scad2627">Side-Channel Attacks and Defenses</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Advanced Lecture - 
+										Michael Schwarz				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../syssec_26">Systems Security</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Advanced Lecture - 
+										Ali Abbasi, Moritz Schloegel				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../cysec1_2627">Foundations of Cybersecurity 1</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Basic Lecture - 
+										Ben Stock				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../sec2627">Security (WS 2026/2027)</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Core Lecture - 
+										Nils Ole Tippenhauer				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../cyseclab26">CySec Lab (english BSc CySec only!)</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Lab - 
+										Sven Bugiel				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../cysecproj2627">CySec Project Winter Term &#039;26/27</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Project - 
+										CISPA				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../alprosem26">Automata Learning: Learnability of Computational Models</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Proseminar - 
+										Noa Izsak, Swen Jacobs				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../usld">Usable Security in the Last Decade</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Proseminar - 
+										Divyanshu Bhardwaj, Sumair Ijaz Hashmi, Katharina Krombholz, Taha Taha				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../aos_wise26">Autonomous Offensive Security</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Pellegrino				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../bms_winter2627">Bachelor- and Master Seminar (Winter 2026/27)</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										CISPA Staff				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../comparch_w26">Computer Architecture (Seminar and Proseminar)</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Michael Schwarz, Abdullah Giray Yaglikci				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../algseminar_26">Coping with computational hardness: approximation, moderately exponential-time, and parameterized algorithms</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Daniel Marx				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../orgsec26">Cybersecurity in Organizational Practice</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Jonas Hielscher				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../dle26">Deep Learning Efficiency: Smarter AI, Not Just Bigger </a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Rebekka Burkholz				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../hackasat">Hack-a-Sat</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Ali Abbasi				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../htai">Humans and Trustworthy AI Systems</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Maximilian Golla, Lea Schönherr				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../ps_2627">Program Synthesis</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Rayna Dimitrova				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../semrif26">Reproducibility in Fuzzing</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Addison Crump, Moritz Schloegel				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../robgenai">Robustness in Generative AI</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Xiao Zhang				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../spacesecurity2627">Space Informatics Cybersecurity</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Ali Abbasi				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../websecsem_wise26">The Web Security Seminar</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Pellegrino, Stock				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../ppmlo2627">Topics in Privacy-Preserving Machine Learning and Optimization</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Andrew Lowy				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../tml26">Trustworthy Machine Learning</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Adam Dziedzic				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../psas26">Privacy Systems and Applications Seminar</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar and Proseminar - 
+										Sylvain Chatel, Wouter Lueks				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+			</table>
+</section>
+<section>
+	<h3>
+		Summer term 2026	</h3>
+	<table class="table">
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../tml2026">Trustworthy Machine Learning</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										advanced lecture - 
+										Adam Dziedzic and Franziska Boenisch				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../algocrypt_26">Algorithms for Cryptanalysis</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Advanced Lecture - 
+										Antoine Joux				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../cpss26">Cyber-Physical Systems Security</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Advanced Lecture - 
+										Nils Ole Tippenhauer				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../dga26">Distributed Graph Algorithms</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Advanced Lecture - 
+										Sebastian Brandt				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../fws">Foundation of Wireless Security: Sniff, Sense, Secure</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Advanced Lecture - 
+										Mridula Singh				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../firmwaresec_ss_26">Foundations of Firmware Security</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Advanced Lecture - 
+										Ali Abbasi				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../fows26">Foundations of Web Security</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Advanced Lecture - 
+										Ben Stock				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../itf26"> IT Forensics </a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Advanced Lecture - 
+										Christoph Sorge				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../rdc26">IT-Recht für Informatiker</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Advanced Lecture - 
+										Christoph Sorge				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../paramalg_26">Parameterized Algorithms</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Advanced Lecture - 
+										Dániel Marx, Florian Hörsch				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../pv26">Parameterized Verification</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Advanced Lecture - 
+										Swen Jacobs				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../pets26">Privacy-Enhancing Technologies</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Advanced Lecture - 
+										Wouter Lueks				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../usec26">Usable Security Advanced Lecture</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Advanced Lecture - 
+										Katharina Krombholz				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../synt_26">Reactive Synthesis</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Advanced Lecture (Block Course) - 
+										Rayna Dimitrova				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../optml26">Optimization for Machine Learning</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Advanced Lecture (Block Format) - 
+										Sebastian Stich				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../cysecii26">Foundations of Cybersecurity 2</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Basic Lecture - 
+										Michael Schwarz				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../crypto26">Cryptography</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Core Lecture - 
+										Nico Döttling and Lucjan Hanzlik				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../cysecproj26">CySec Project Summer Term &#039;26</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Project - 
+										CISPA				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../algcomp26">Algorithms and Complexity</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Proseminar - 
+										Antoine Joux				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../atri2026">Advanced Topics in Rational Intelligence: Prediction, Causation, Decision, Incentive, and Regulation All at Once</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Krikamol Muandet				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../da_2026">Data anonymization and how to break it</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Ana-Maria Crețu				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../dude26">Data-driven Understanding of the Disinformation Epidemic (DUDE)</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Yang Zhang				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../emsecsem_26">Embedded Systems Security</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Ali Abbasi				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../orlafm_ss26">Opportunities and Risks of Large Language Models and Foundation Models</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Prof. Dr. Mario Fritz				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../pine26">Research Problems in Machine Learning and Security</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Thorsten Eisenhofer				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../rml26">The Rise of Agentic Networks - Risks in Collaboration</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Rebekka Burkholz				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../ppmlo_26">Topics in Privacy-Preserving Machine Learning and Optimization</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Andrew Lowy				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../plfuzz">Twelve test generators for twelve programming languages</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Andreas Zeller + Alexi Turcotte				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../capac26">Van Horn to Fuchsia: Capability-based Access Control</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Noah Mauthe, Huda Dawoud, Sven Bugiel				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../comparch_s26">Computer Architecture</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar and Proseminar - 
+										Michael Schwarz, Abdullah Giray Yaglikci				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+			</table>
+</section>
+<section>
+	<h3>
+		Winter term 2025/2026	</h3>
+	<table class="table">
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../farwsp25">Formal analysis of real-world security protocols</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Advanced Lecture - 
+										Cas Cremers				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../mlcysec_ws25">Machine Learning in Cybersecurity</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Advanced Lecture - 
+										Mario Fritz				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../mobsec25">Mobile Security</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Advanced Lecture - 
+										Sven Bugiel				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../fuzzing25">Security Testing</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Advanced Lecture - 
+										Andreas Zeller + Valentin Huber + Alexander Liggesmeyer + Tural Mammadov				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../scad25">Side-Channel Attacks and Defenses</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Advanced Lecture - 
+										Michael Schwarz				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../cysec1_2526">Foundations of Cybersecurity 1</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Basic Lecture - 
+										Ben Stock				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../sec25">Security (WS 2025/2026)</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Core Lecture - 
+										Nils Ole Tippenhauer				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../cyseclab25">CySec Lab (english BSc CySec only!)</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Lab - 
+										Ben Stock				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../itfl1_2526">IT Founders’ Lab 1 - Launchpad</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Lecture Series - 
+										Sven Bugiel, Andreas Zeller				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../cysecproj2526">CySec Project Winter Term &#039;25/26</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Project - 
+										CISPA				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../wms25">Wireless and Mobile Security </a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Pro-seminar - 
+										Mridula Singh				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../dgm_ws25">Deep Generative Models</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Proseminar - 
+										Xiao Zhang				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../daop2526">Distributed Algorithms for Optimization Problems</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Proseminar - 
+										Yann Bourreau, Sebastian Brandt, Ananth Narayanan Karunattillam, Chiara Piombi, Philipp Schneider				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../ais25">AI Safety</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Yihan Ma, Bo Shao, Ziqing Yang, Yang Zhang				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../bms_ws2526">Bachelor- and Master Seminar (WS 2025/2026)</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										CISPA Staff				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../compgames_2526">Complexity of Games</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Dániel Marx, Tim Hartmann				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../dle25">Deep Learning Efficiency</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Rebekka Burkholz				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../dp4fms">Differential Privacy in the Era of Foundation Models</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Franziska Boenisch				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../pcc_2526">Privacy in Computations and Communications </a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Sajin Sasy				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../psas25">Privacy Systems and Applications Seminar</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Sylvain Chatel, Wouter Lueks				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../ps_2526">Program Synthesis</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Rayna Dimitrova				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../websecsem_wise2526">The Web Security Seminar</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Pellegrino, Stock				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../optml_seminar_2526">Topics in Optimization for Machine Learning</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Sebastian Stich				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../tas">Trustworthy Agentic Systems</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Lea Schönherr				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../tml2526">Trustworthy Machine Learning</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Adam Dziedzic				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+			</table>
+</section>
+<section>
+	<h3>
+		Summer term 2025	</h3>
+	<table class="table">
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../algocrypt_25">Algorithms for Cryptanalysis</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Advanced Lecture - 
+										Antoine Joux				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../amlm2025">Attacks Against Machine Learning Models</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Advanced Lecture - 
+										Yang Zhang				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../proofs">Coinductive Proofs</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Advanced Lecture - 
+										Arthur Correnson, Bernd Finkbeiner				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../cpss25">Cyber-Physical Systems Security</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Advanced Lecture - 
+										Nils Ole Tippenhauer				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../dga25">Distributed Graph Algorithms</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Advanced Lecture - 
+										Sebastian Brandt				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../firmwaresec">Foundations of Firmware Security</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Advanced Lecture - 
+										Ali Abbasi				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../fows25">Foundations of Web Security</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Advanced Lecture - 
+										Ben Stock				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../itf25"> IT Forensics </a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Advanced Lecture - 
+										Janine Schneider, Christoph Sorge				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../optml25">Optimization for Machine Learning</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Advanced Lecture - 
+										Sebastian Stich				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../pets25">Privacy-Enhancing Technologies</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Advanced Lecture - 
+										Wouter Lueks				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../tml2025">Trustworthy Machine Learning</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Advanced Lecture - 
+										Adam Dziedzic and Franziska Boenisch				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../mom25">Lectures on Modern Optimization Methods</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Advanced Lecture (Block Format) - 
+										Anton Rodomanov, Sebastian Stich				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../cysecii25">Foundations of Cybersecurity 2</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Basic Lecture - 
+										Michael Schwarz				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../crypto25">Cryptography</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Core Lecture - 
+										Nico Döttling and Lucjan Hanzlik				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../cysecproj25">CySec Project Summer Term &#039;25</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Project - 
+										CISPA				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../algcomp25">Algorithms and Complexity</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Proseminar - 
+										Antoine Joux				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../pro_dl_25">Playing Roles To Discover Deep Learning</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Proseminar - 
+										Rebekka Burkholz				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../secmes25">Secure Messaging</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Proseminar - 
+										Aurora Naska, Erik Pallas				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../adv_pa_25">Advanced Topics in Program Analysis</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Rayna Dimitrova				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../algseminar_25">Coping with computational hardness: approximation, moderately exponential-time, and parameterized algorithms</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Dániel Marx				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../orgsec25">Cybersecurity in Organizational Practice</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Jonas Hielscher				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../dude25">Data-driven Understanding of the Disinformation Epidemic (DUDE)</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Yang Zhang				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../ipml2025">Imprecise Probabilistic Machine Learning</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Krikamol Muandet				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../psp">Politics of Security and Privacy</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Matthias Fassl, Carolyn Guthoff, Katharina Krombholz, Alexander Ponticello				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../pcc">Privacy in Computations and Communications </a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Lucjan Hanzlik, Sajin Sasy				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../keyexchange_25">Provable Security of Key Exchange Protocols</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Doreen Riepel				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../hcs">Research Methods in Human-centric Security</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Simon Anell, Dañiel Gerhardt, Katharina Krombholz				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../stims25">Selected Topics in Mobile Security</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Sven Bugiel				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../websecsem_sose25">The Web Security Seminar</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Aurore Fass, Giancarlo Pellegrino, Cristian-Alexandru Staicu, Ben Stock				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../vds_25">Verification of Distributed Systems</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Swen Jacobs				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+				<tr class="">
+			<td class="py-2">
+				<div class="mb-1">
+					<h6 class="d-inline">
+						<a href="/system/../ws_25">Wireless Security</a>					</h6>
+					<span class="text-nowrap">
+					
+										</span>
+				</div>
+				
+				<div class="text-muted">
+										Seminar - 
+										Mridula Singh				</div>
+
+				
+			</td>
+			<td class="td-action">
+							</td>
+		</tr>
+			</table>
+</section>
+
+
+<p><a href="/system/courses/index/all">Show older courses...</a></p>		</div>
+
+		        	</div>
+</div>
+<!-- /main-content -->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/en/privacy.html" target="_blank">Privacy Policy</a> | <a href="https://www.uni-saarland.de/en/legal-notice.html" target="_blank">Legal Notice</a><br/>
+	If you encounter technical problems, please contact <a href="mailto:cms-devs@mail-infsec.cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">the administrators</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

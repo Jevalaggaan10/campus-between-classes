@@ -1,0 +1,12 @@
+{
+  "catalog_entries": 74,
+  "root_fetch_success": 74,
+  "calendar_exports_success": 74,
+  "nonempty_calendars": 31,
+  "raw_calendar_occurrences": 1803,
+  "recurring_rows": 213,
+  "in_demand_rows": 186,
+  "courses_with_in_demand_times": 62,
+  "excluded_occurrences": 481,
+  "fetch_date": "2026-10-26"
+}

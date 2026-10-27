@@ -1,0 +1,10 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//127.0.1.1//NONSGML kigkonsult.se iCalcreator 2.41.92//
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+UID:37386235-3766-4438-b263-613935663734
+X-WR-CALNAME:Program Synthesis Calendar
+X-WR-CALDESC:Events of the lecture Program Synthesis
+X-WR-TIMEZONE:Europe/Berlin
+END:VCALENDAR

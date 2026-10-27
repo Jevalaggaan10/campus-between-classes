@@ -1,0 +1,79 @@
+Main Page
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Foundations of Mathematics
+Prof. Michael Hahn
+Registration for this course
+is open until
+Friday, 01.01.2027 23:59
+.
+News
+Currently, no news are available
+Overview
+This course corresponds to the lectures “Mathematische Grundlagen: Analysis und Lineare Algebra” for students in the BSc Computerlinguistik and “Foundations of Mathematics” for students in the MSc Language Science and Technology. The goal is to learn the basics of calculus and linear algebra in order to understand neural networks in technical detail and being prepared to read formulas in current research papers.
+Winter Semester 2026/27
+Michael Hahn
+When and where: see LSF
+Key dates:
+First class: see LSF
+Exam date:
+2027-02-05
+(in our usual lecture room)
+You can find the schedule (evolving over the course of the semester) here:
+https://docs.google.com/document/d/1YvaP6batpkdptIskd8a5mEdZZz8TxfmYah8yLCIi0Ps/edit?usp=sharing
+This class is a newly designed introductory course to mathematics for computational linguists. It is used in two study programs:
+Für Studierende des BSc Computerlinguistik ist dies die Vorlesung “Mathematische Grundlagen: Analysis und Lineare Algebra”.
+For students in the MSc Language Science and Technology, this is the lecture “Foundations of Mathematics”.
+The goal is to equip students with the mathematical background that is necessary to understand neural networks in technical detail and not be scared of the formulas in current research papers. The course covers the fundamentals of linear algebra (vector spaces, linear transformations, matrices and matrix arithmetic, dot products and angles) and calculus (derivatives, computing derivatives, limits, integrals, gradients). These will culminate in an explanation of the backpropagation algorithm.
+The course will be in English.
+Mathematische Grundlagen: Analysis und Lineare Algebra (BSc)
+Für wen ist diese Vorlesung?
+Die Vorlesung ist eine Pflichtveranstaltung im BSc Computerlinguistik (Studienordnung von 2020). Wir empfehlen dringend, sie im dritten Semester zu belegen, damit Sie im vierten Semester die Vorlesung “Neural Networks: Implementation and Application” (Klakow) absolvieren können und dann die volle Auswahl unter den Seminaren haben, die Kenntnisse zu neuronalen Netzen voraussetzen.
+Die Vorlesung und ihre Materialien sind auf Englisch, weil sie erstmals im WS 2020/21 für die Master-Studierenden gehalten wurde. Wenn Sie möchten, können Sie dabei helfen, die Kursmaterialien auf Deutsch zu übersetzen; melden Sie sich bei Interesse gerne bei mir.
+Sie können Fragen im Kurs gerne auf Deutsch stellen. Ich werde sie dann typischerweise auf Englisch beantworten.
+Foundations of Mathematics (MSc)
+Who should take this course?
+The course is meant to provide students who did not take college-level classes on linear algebra and calculus in their first degree with the basics of these fields. Such students should treat this course as mandatory for the MSc LST/LCT, even if the study regulations don’t say it explicitly.
+By contrast, students who
+have
+taken such classes in their first degrees (e.g. students with a BSc in mathematics or computer science) should
+not
+take this class. It would be a waste of your time, and we strongly encourage you to take other classes where you will learn something new.
+General information
+Online learning platform.
+We will use the computer science CMS for this course. Here you can find materials and news regarding the lectures. So please register as soon as you can. Once you have registered, you will also have access to a forum, where you can ask questions or discuss the content of the course.
+Structure of the course.
+You are expected to study the materials in your own time, and we meet twice a week to work through the material together and discuss any questions you might have.
+We will make heavy use of the fantastic Youtube channel
+3Blue1Brown
+, in particular its playlists on the
+Essence of Linear Algebra
+and
+Essence of Calculus
+. Feel free to start watching these videos right now. I will also assign reading to cover the same topics, in order to add some more depth and familiarize you with reading mathematical texts.
+Prerequisites.
+The course does not assume any prior knowledge beyond high-school math.
+Grading.
+Your grade for the course will be determined in a
+final written exam
+at the end of the semester.
+You will have to be physically present in Saarbrücken for this exam.
+It is extremely important to me that you participate actively in the interactive sessions.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

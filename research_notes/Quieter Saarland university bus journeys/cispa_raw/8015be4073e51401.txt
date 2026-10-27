@@ -1,0 +1,152 @@
+HAI seminar, UdS, WS 2026
+Home
+Requirements
+Topics
+Assignment
+Schedule
+Contact
+Advances in Hybrid
+Artificial Intelligence
+Seminar
+an der Universität des Saarlandes, Fachrichtung Informatik, LSF 166877
+Scope:
+Hybrid AI
+research
+is concerned with the feasability and benefit of combining different
+methods from one or different subfields of AI such as machine learning
+including deep learning, AI planning, automated reasoning, vision, and
+multi-agent systems. One prominent form of hybrid AI is
+neuro-symbolic or neuro-explicit AI
+that strategically integrates the strengths of symbolic reasoning and
+planning of symbolic AI with the pattern recognition and learning
+capabilities of neural networks of sub-symbolic AI, including
+generative AI models.
+In this regard, neuro-symbolic AI aims to overcome the inherent
+limitations of symbolic AI such as  brittleness and the knowledge
+acquisition bottleneck, and sub-symbolic AI, such as opacity
+("black-box"), data hunger, hallucinations, and lack of common sense or
+logic-based reasoning with provable correctness. Recently,
+neuro-explicit methods in Agentic AI for LLM-empowered perception,
+deliberation and acting of rational agents individually or jointly in
+dynamic environments has attracted increasing attention.
+In this
+seminar on hybrid AI
+,
+we will take a closer look at
+selected
+methods and systems for neuro-symbolic learning and AI planning,
+including generative AI model-assisted approaches in single agent and
+multi-agent settings
+, and discuss their strengths and
+weaknesses.
+The seminar type is classic in the sense that registered
+participants will present assigned topics. In addition, there will be
+two dedicated opponents for each presentation of an assigned topic.
+Participation in the seminar will be graded; please check the
+requirements page in this regard.
+The seminar counts 7 ECTS credit points (CS).
+Prerequisites:
+This
+seminar is primarily intended for advanced undergraduate and graduate
+students in computer science and DSAI. A solid foundation in artificial
+intelligence (ideally, completion and successful completion of
+introductory courses in AI, AI planning, machine learning, and
+generative AI, or sufficient knowledge in these areas gained from other
+sources) is required.
+Selected background papers for this seminar are referenced on the topic
+page and expected to be read and utilized by registered participants as
+appropriate. Attendance of the seminar without registration (no
+presentation and certificate) by anyone who is interested in the topics
+is, of course, very much welcome subject to available space. The
+seminar language is English.
+Date
+and Location:
+The seminar takes place weekly on Tuesday
+from 16:15 - 18:00.
+The
+seminar takes place in-person
+at  DFKI Saarbrücken, SIC Bldg. D3.2, in room “Turing 2” (NB +2.31)
+.
+Please
+ask at  the DFKI reception for directions.
+The
+first (welcome/introductory) session
+with topic assignment
+will be held on Tuesday
+20.10.2026.
+The
+topical seminar presentations and discussions start on Tuesday,
+24.11.2026.
+Application and
+Topic
+Assignment:
+A
+pplication for seminars is
+possible through the
+SIC
+seminar assignment system
+from 
+September 14, 2026 to October 14, 2026. Central assignment of students
+to the seminar will then be done by the system on October 16, 2026.
+If
+you are interested in attending specifically this seminar,  we
+kindly recommend you to
+send
+an request by
+e-mail to the seminar leader to put you on
+the list of very interested parties (LIP)
+as soon as possible
+- the topic list will be available on
+August 14, 2026. Please indicate
+your full name, enrollment# and
+your preferred  free topics (topic#) in the order of your
+preference
+, AND
+apply for this seminar
+in the central SIC seminar system with
+indication of priority  “High”
+and
+top rank , AND
+attend
+the
+introduction meeting
+of this
+seminar for topic assignment
+Assignment of seminar topics will be done
+in two phases
+:
+I
+nitial
+assignment
+: During
+seminar
+introduction meeting on 20.10.2026 (16:15-18:00, DFKI NB R +2.31
+“Turing 2”
+)
+Late
+assignment
+: If there are still free slots (topics) available
+after the introduction meeting
+-  pls  check the topics page - students can apply for them
+by
+sending
+an e-mail (with your full name, enrollment# and a list of free topics
+in the order of your preference)  to and decision by the seminar
+leader.
+“First-come-first-served” assignment  to
+students with
+priority for those
+on the LIP
+.
+Remark:
+If you applied for but have not been assigned to the HAI seminar by the
+central SIC seminar system, please note that the assignments issued by
+this system are formally not binding for any student to take. Besides,
+it also happens that the system does not assign students to all
+available places of a seminar such that  places may become
+re-available after the introduction meeting of the seminar.  The
+late assignment of interested students to these places then will be
+done by the seminar organizers on request on a first-come-first-served
+basis with
+priority for students on the LIP (see above).
+Impressum

@@ -1,0 +1,89 @@
+Hauptseite
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Grundlagen der Signalverarbeitung
+Dietrich Klakow
+Registration for this course
+is open until
+Saturday, 31.10.2026 23:59
+.
+News
+Abgabegruppen
+Written on
+25.10.26
+by Vincent Kiefer
+Liebe Studierende,
+ihr könnt euch
+auf CMS selbst in Teams von zwei Personen zusammentun
+.
+Dafür muss einer von euch ein Team erstellen, dem dann mit einem Code beigetreten werden kann.
+Über diese Teams erfolgt das gemeinsame Abgeben der Übungsblätter.
+Lädt ein Team-Mitglied Lösungen hoch sehen…
+Read more
+Liebe Studierende,
+ihr könnt euch
+auf CMS selbst in Teams von zwei Personen zusammentun
+.
+Dafür muss einer von euch ein Team erstellen, dem dann mit einem Code beigetreten werden kann.
+Über diese Teams erfolgt das gemeinsame Abgeben der Übungsblätter.
+Lädt ein Team-Mitglied Lösungen hoch sehen das auch alle anderen, selbes gilt dann für unser Feedback.
+Versucht nach Möglichkeit
+schon vor der ersten Abgabe einem Team beizutreten
+.
+Teams sind bis Ende des Semesters fix.
+Viele Grüße,
+Vincent
+Grundlagen der Signalverarbeitung
+Geeignet für Hörer der Studiengänge :
+Systems Engineeging, Mechatronik, M.Sc. LS&T, ES, Informatik, DSAI, VC
+Dozent
+:
+Dietrich Klakow
+Veranstaltungsort:
+A51 HS -1.03
+Zeit:
+14:15-15:45
+Vorlesungsbeginn:
+22.10.26 (ignore LSF)
+Klausur:
+Mo 15.2.27 14:00-16:00 GHH
+WICHTIG:
+Denken Sie an die HISPOS-Anmeldung zur Klausur! Ohne Anmeldung keine Teilnahme an der Klausur.
+Quizzes
+: Fünf Stück (je 8% Gewicht zur Gesamtnote)
+Übungen
+: zwei Gruppen; wöchentlich Do 16:00-17:30 Uhr A51, Einteilung folgt
+Inhalt der Veranstaltung
+In der Vorlesung werden die Grundlagen der Signalverarbeitung behandelt. Schwerpunkte sind dabei Lineare Zeitinvariante Systeme, Fourier- und Z-Transformation sowie statistische Signale, wobei theoretische und numerische Aspekte von Wichtigkeit sind.
+Darstellung von Signalen und LTI-Systeme
+Fourier-Transformation
+(Z-Transformation)
+Numerische Aspekte der Fouriertransformation und der FFT Algorithmus
+Korrelation von Signalen
+Statistische Beschreibung von Signalen
+Filter
+Quizz Termine
+Jeweils in den ersten 20-30min der Vorlesungen am:
+Quiz: 12.11.2026 (Themen aus Übung 1 & 2)
+Quiz: 26.11.2026 (Themen aus Übung 3 & 4)
+Quiz: 10.12.2026 (Themen aus Übung 5 & 6)
+Quiz: 07.01.2027 (Themen aus Übung 7 & 8)
+Quiz: 21.01.2021 (Themen aus Übung 9 & 10)
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

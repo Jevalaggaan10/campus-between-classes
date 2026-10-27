@@ -1,0 +1,10 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//127.0.1.1//NONSGML kigkonsult.se iCalcreator 2.41.92//
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+UID:32333464-3032-4739-b164-343735393032
+X-WR-CALNAME:Imprecise Probabilistic Machine Learning Calendar
+X-WR-CALDESC:Events of the lecture Imprecise Probabilistic Machine Learning
+X-WR-TIMEZONE:Europe/Berlin
+END:VCALENDAR

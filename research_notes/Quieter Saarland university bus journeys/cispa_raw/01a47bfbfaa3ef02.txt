@@ -1,0 +1,136 @@
+Main Page
+Autonomous Offensive Security
+Pellegrino
+News
+About the Interactive session
+Written on
+26.10.26
+by Giancarlo Pellegrino
+Dear students,
+During the interactive sessions, we will focus on setting up the target applications and configuring the assigned testing tools, and we will be available to assist you in exploiting your assigned vulnerabilities.
+Please bring your own laptop, preferably running GNU/Linux (either…
+Read more
+Dear students,
+During the interactive sessions, we will focus on setting up the target applications and configuring the assigned testing tools, and we will be available to assist you in exploiting your assigned vulnerabilities.
+Please bring your own laptop, preferably running GNU/Linux (either natively or in a VM). As the target applications will run in Docker containers, please ensure that Docker and its dependencies are installed and working beforehand. Also, make sure your system is up to date to avoid spending session time on updates.
+Finally, please download the testing tools relevant to your assigned vulnerabilities beforehand. The interactive sessions are also an opportunity to ask for help if you encounter issues installing, configuring, or using these tools.
+---
+Giancarlo
+Assignments of the vulnerabilities
+Written on
+20.10.26
+by Giancarlo Pellegrino
+Thank you everyone for being on time with your preferences. The assignments are online. See the page
+Information > Vulnerability Assignments
+.
+---
+Giancarlo
+Autonomous Offensive Security
+For registration, please apply for this seminar through the
+central seminar assignment system.
+LLMs and autonomous agents are changing the way security researchers hunt for bugs, analyze attack surfaces, and validate real vulnerabilities. Recent systems have shown increasingly strong capabilities in using tools, understanding targets, generating exploits, and automating parts of the vulnerability discovery workflow. This seminar explores this emerging frontier:
+autonomous offensive security
+.
+The goal of the seminar is for students to develop critical thinking about autonomous offensive security. Students will also gain a deeper understanding of vulnerability classes, study the state of the art in detecting and exploiting them, and identify where current approaches still fall short. Based on this analysis, each student will build their own autonomous agent for tasks such as vulnerability detection, validation, or exploitation.
+The seminar is organized around almost weekly meetings with discussions, presentations, and practical implementation and experimentation. Each student will work on a selected vulnerability class: they will study existing tools and recent research papers, identify one concrete open challenge, and implement an agentic solution that addresses it. The agent will be evaluated on selected targets, and the results will form the basis of the final seminar report.
+Notes on requirements and background knowledge
+Students without a background in computer security will likely find this seminar particularly challenging. The same applies to students without a hands-on attitude toward security, systems, and software development, as the seminar involves both reading research papers and building/evaluating an autonomous security agent.
+When applying, students must clearly state their current background in security in the motivation box, including relevant security courses and university projects.
+Important Details
+Kickoff on Wednesday, 14.10.2026, 16:15-18:00, CISPA C0, 0.05 Lecture Hall
+Almost regular sessions on Wednesdays; all in
+CISPA C0, 0.07 Meeting Room
+Attendance in all meetings is mandatory.
+For exceptional circumstances, contact the teaching staff.
+This seminar will
+not
+offer a hybrid participation. All sessions are only in-person.
+Deadlines
+Assignments: Mon, 19/10: Send email w/ your top 3 vulnerabilities
+Milestone 1, Fri, 30/10: Submit PDF on spawning the targets
+Milestone 2, Fri, 20/11: Submit PDF on exploiting vulnerabilities
+Milestone 3, Tue, 08/12: Submit PDF slides of your proposal presentation
+Milestone 4, Fri, 29/01: Submit PDF slides of your updated presentation (w/ results on firing-range applications)
+Milestone 5, Mon 01/03: Submit final paper, including source code and artifacts
+Schedule
+Date
+Time
+Content
+Description
+Tutor
+14.10.2026
+16:15 - 18:00
+Kickoff
+21.10.2026
+28.10.2026
+16:15 - 18:00
+Interactive session
+Installing/running targets; using testing tools; exploiting vulnerabilities
+Prerak
+04.11.2026
+16:15 - 18:00
+RG
+YuraScanner: Leveraging LLMs for Task-driven Web App Scanning
+Alex
+11.11.2026
+16:15 - 18:00
+Interactive session
+(overflow)
+Installing/running targets; using testing tools; exploiting vulnerabilities
+Prerak
+18.11.2026
+No seminar
+25.11.2026
+16:15 - 18:00
+RG
+EnIGMA: interactive tools substantially assist LM agents in finding security vulnerabilities
+Prerak
+02.12.2026
+16:15 - 18:00
+RG
+FirmAgent: Leveraging Fuzzing to Assist LLM Agents with IoT Firmware Vulnerability Discovery
+Alex
+09.12.2026
+16:15 - 18:00
+Presentations
+Short talk about motivations, designs, and architectures (10+5mins)
+16.12.2026
+16:15 - 18:00
+Scientific writing
++
+RG
+Scientific Writing Session (Giancarlo)
+Comparing AI Agents to Cybersecurity Professionals in Real-World Penetration Testing
+Gianluca
+23.12.2026
+No seminar, winter break 🎄
+30.12.2026
+No seminar, winter break 🎄
+06.01.2027
+No seminar, winter break 🎄
+13.01.2027
+No seminar, coding coding and coding!
+20.01.2027
+No seminar, coding coding and coding!
+27.01.2027
+16:15 - 18:00
+Presentations
+Short talk w/ results on firing-range applications (10+5mins)
+03.02.2027
+No seminar
+10.02.2027
+No seminar
+17.02.2027
+No seminar
+24.02.2027
+No seminar
+03.03.2027
+14:00 - 18:00
+Presentations
+Presentation of your seminar paper (20+10mins)
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

@@ -1,0 +1,40 @@
+Main Page
+Automata Learning: Learnability of Computational Models
+Noa Izsak, Swen Jacobs
+News
+Currently, no news are available
+Proseminar, Winter Term 2026/27
+Your IDE highlights a syntax error the moment you type it. Your compiler
+knows
+that the parentheses are unbalanced before you even run the program. These tools
+know
+the rules of the language -- but how did they get that knowledge? In most cases, the rules were written by hand. But what if they weren't? What if a system could figure out the rules just by observing examples?
+This is the central question of automata learning: given labeled examples of instances that belong (or do not belong) to some unknown language, can we automatically reconstruct a compact, correct model of it?
+The idea may feel familiar to many of you, coming from different directions. In
+machine learning
+, the goal is also to recover a hidden model from labeled instances. In
+security
+, an adversary observing the inputs and outputs of a black-box system is trying to reverse-engineer what is happening inside. In
+software testing
+, a tool that infers a model of a protocol from observed network traces can then check whether the implementation behaves correctly.
+These are all instances of the same underlying problem.
+In this seminar, we study the problem from a theoretical angle. We ask and answer four recurring questions about different classes of computational models: Can we always infer a correct model from a labeled sample? Is finding the smallest consistent model computationally tractable? How much data do we need to guarantee correct learning? And can we learn efficiently by asking questions, rather than passively receiving examples?
+During this class, students will learn how to read a scientific text and how to give a scientific presentation. Each student reads up on an assigned topic and teaches the results to their fellow students.
+Talks
+: We expect you to give two talks on your assigned topic: an ungraded short practice talk, after which you will receive detailed feedback, and a graded final talk of 30 minutes.
+Feedback and Discussion
+: Attendance at all talks is mandatory. We expect you to provide feedback to your fellow students after the practice talks and to participate in discussions after the final talks.
+Requirements:
+We expect you to be comfortable with basic mathematical reasoning and to have the ability to think about abstract concepts. Some familiarity with automata and formal languages is helpful, but we will cover all necessary background in the first sessions.
+Course Materials:
+De la Higuera, Colin,
+Grammatical inference:
+Learning automata and grammars
+Cambridge University Press
+2010
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

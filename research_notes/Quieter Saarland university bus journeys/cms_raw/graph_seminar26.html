@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Main Page	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="4231d285cf1947148cfee86aa34b2ec9a0b05a05@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Sic/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Sic/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Sic/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Sic/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Sic/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/graph_seminar26/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/graph_seminar26/../system" class="navbar-brand">Courses</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/graph_seminar26/">Main Page</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Information</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/graph_seminar26/termine/calendar/index">Timetable</a></li><li><a class="dropdown-item" href="/graph_seminar26/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/graph_seminar26/students/register">Registration</a></li><li class="nav-item"><a class="nav-link" href="/graph_seminar26/landing">Personal Status</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/graph_seminar26/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="452bd4bd16e5a52e90969739c651e97ed420049052358a7e005032bf3b3e024bc608e525761f25bd6d9224228dca13f90791a2681d334bac6ad5bdadef0858a7" id="Token1345189483" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Username" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Password" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Remember me</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.sic.saarland/graph_seminar26/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="c54100c71b7b3774331826065d197e6c8e28eef9%3AUser.redirect" id="TokenFields2089883428" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked960769178" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/graph_seminar26/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registration</a>        </li>
+        <li>
+            <a href="/graph_seminar26/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Forgot Password?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Enable dark mode            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Enable light mode            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/graph_seminar26/../system" class="site-logo" title="Front Page"><img src="/system/theme/Sic/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					Back to the Roots: Graph Algorithms for Small Molecules				</h1>
+				<div>
+				<small class="text-muted">
+					Andrea Volkamer, Michael Backenköhler, Lisa-Marie Rolli, Ana Mirandela				</small>
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	
+<table class="table">
+	<colgroup>
+				<col span="1" style="width: auto;" />
+	</colgroup>
+	<tbody>
+	<tr>						<td class="align-top">
+				<a id="newsElement1"></a>
+				<h4 class="fs-5"><a href="/graph_seminar26/news/view/1">Topic Assignment</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="23.10.2026 12:33:29">23.10.26</span>												by Lisa-Marie Rolli					</i></small>
+				</p>
+
+									<p>Dear all,</p>
+
+<p>we just performed the topic assignment. You can see your assigned topic on your personal status page. Please note that your presentation date (and thus, your first deadline) depend on your assigned supervisor:</p>
+
+<ul>
+	<li>Ana: 16.11.</li>
+	<li>Michael: 23.11.</li>
+	<li>Lisa: 30.11.</li>
+</ul>
+
+<p>Kind regards,</p>
+
+<p>Lisa</p>
+							</td>
+		</tr>		
+		</tbody>
+</table>
+
+</section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<h2>Back to the Roots: Graph Algorithms for Small Molecules</h2>
+
+<p>This seminar explores fundamental graph-based algorithms underlying modern cheminformatics, including molecular graph matching, ring perception, molecular descriptors, fingerprints, fragmentation, and conformer generation. Students will study selected seminal papers to understand the theoretical foundations and algorithmic concepts behind these methods and gain hands-on experience by implementing and applying them to molecular data. Through two presentations, students will first introduce their chosen method and later present and critically discuss their implementation, results, and practical insights. The seminar aims to bridge chemical graph theory, algorithmic thinking, and practical cheminformatics while developing skills in scientific reading, implementation, analysis, and communication</p>
+
+<h3><strong><span style="font-size:18px">Prerequisits:</span></strong></h3>
+
+<p>The course has no formal prerequisites for participation. However, participants should have prior knowledge from the following courses in order to participate successfully, as we assume familiarity with the relevant content and build upon it. Consequently, we will prioritize students, who successful participated in these courses:</p>
+
+<ul>
+	<li>Algorithms and Data Structures (core lecture)</li>
+	<li>Programming</li>
+	<li>Open-Source Software and Libraries for Data Driven Drug Design</li>
+</ul>
+
+<h3><span style="font-size:18px"><strong>Registration:</strong></span></h3>
+
+<p>If you wish to register send an email to Stefanie Wessinger (stefanie.wessinger@uni-saarland.de) along with your name, matriculation number, and a list of passed courses (e.g., in form of your transcript).</p>
+
+<p><span style="font-size:16px"><strong>To confirm your participation you have to register for the &quot;exam&quot; of this course in the <a href="https://www.lsf.uni-saarland.de/qisserver/rds?state=user&amp;type=0&amp;topitem=&amp;breadCrumbSource=&amp;topitem=functions">LSF </a>until 2.11.2026. If you miss this deadline, you cannot participate in the seminar.</strong></span></p>
+
+<h3><span style="font-size:18px"><strong>Requirements for Passing:</strong></span></h3>
+
+<p>To pass this course, you have to fulfil <strong>all&nbsp;</strong>following requirements:</p>
+
+<ul>
+	<li><strong>Attendance </strong>at the <strong>kick-off event</strong> and <strong>all</strong> talks</li>
+	<li>Submission of code and slides<strong> in time for the given deadlines</strong></li>
+	<li>Pass <strong>both talks</strong></li>
+</ul>
+
+<h3><strong><span style="font-size:18px">Dates:</span></strong></h3>
+
+<p>Kick-off event:<strong> 19.10.2027 12:15-14:00, building E2.1 room 416</strong></p>
+
+<p>Presentations block 1:&nbsp;<strong>Nov. 16, Nov. 23, Nov 30 at 12:15-14:00, building E2.1 room 416</strong></p>
+
+<p>Presentations block 1:&nbsp;<strong>Jan. 11, Jan. 25, Feb. 1 at 12:15-14:00, building E2.1 room 416</strong></p>
+
+<p><strong>All dates can also be found in the <a href="https://cms.sic.saarland/graph_seminar26/termine/calendar/index">calendar</a>.</strong></p>
+
+<h3><span style="font-size:18px"><strong>Grade</strong></span><span style="font-size:18px"><strong>:</strong></span></h3>
+
+<p>​​​​​​20% participation + ​40% talk 1 + 40% talk 2</p>
+
+<p>&nbsp;</p>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/en/privacy.html" target="_blank">Privacy Policy</a> | <a href="https://www.uni-saarland.de/en/legal-notice.html" target="_blank">Legal Notice</a><br/>
+	If you encounter technical problems, please contact <a href="mailto:cakecms@cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">the administrators</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

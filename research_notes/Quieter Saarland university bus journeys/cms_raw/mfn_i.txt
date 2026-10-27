@@ -1,0 +1,138 @@
+Hauptseite
+Kurse
+Hauptseite
+Informationen
+Termine
+Team
+Anmeldung
+Persönliche Statusseite
+Login
+Angemeldet bleiben
+Login
+Registrierung
+Passwort vergessen?
+Dunklen Modus aktivieren
+Hellen Modus aktivieren
+Mathematik für Naturwissenschaftler I
+Vladimir Lazić
+News
+Zeitplan für die Vorlesung
+Geschrieben am
+13.10.26
+von Massimiliano Alessandro
+Sehr geehrte Damen und Herren,
+unter „Materialien" finden Sie ab sofort den Zeitplan für die Vorlesung.
+Mit freundlichen Grüßen
+Massimiliano Alessandro
+Mathematik für Naturwissenschaftler I
+Dozent:
+Prof. Dr. Vladimir Lazić
+Sprechstunde: Nach Vereinbarung per Email.
+Assistent:
+Dr. Massimiliano Alessandro
+Sprechstunde: Nach Vereinbarung per Email.
+Anmeldung für die Übungsgruppen: melden Sie sich auf dieser Seite an.
+Die Vorlesung folgt im Wesentlichen dem Skript
+Mathematik für Naturwissenschaftler (Vorlesungsskript)
+von Michael Bildhauer.
+Falls eine Vorlesung online stattfindet, dann wird die aufgenommene Video-Vorlesung hochgeladen. Jedes Video wird zwei Wochen online verfügbar sein und danach gelöscht.
+Themen:
+Mathematik für Naturwissenschaftler I zusammen mit der im Sommersemester 2027 stattfindenden Vorlesung Mathematik für Naturwissenschaftler II behandelt die Grundlagen der ein- und mehrdimensionalen Analysis und der Linearen Algebra, sowie Anwendungen auf die Fehler- und Ausgleichsrechnung und die beschreibende Statistik.
+Vorlesungstermine:
+Di 10-12 Uhr (wöchentlich) in HS II
+Fr 10-12 Uhr in HS II (vierzehntäglich,
+im Wechsel mit den Übungen
+)
+Übungsbetrieb:
+In den Übungsgruppen werden die Lösungen der Übungsblätter vorgestellt und es können Fragen zum Stoff der Vorlesung, Bepunktung von Aufgaben oder allgemeine Fragen zum Übungsblatt gestellt werden.
+Die Tutorien finden vierzehntäglich im Wechsel mit der Vorlesung statt.
+Tutorium 1
+(Maximilian Steuer):
+Freitag 10 - 12 Uhr, Seminarraum 5 (011), Geb. E2 4. Der erste Übungstermin ist der
+23.10.2026
+.
+Tutorium 2
+(Adrian Jose): Freitag 16 - 18 Uhr, Seminarraum 5 (011), Geb. E2 4. Der erste Übungstermin ist der
+23.10.2026
+.
+Tutorium 3
+(Anthony Nork):
+Freitag 12 - 14 Uhr, Seminarraum 6 (217), Geb. E2 4. Der erste Übungstermin ist der
+23.10.2026
+.
+Tutorium 4
+(Anthony Nork):
+Freitag 14 - 16 Uhr, Seminarraum 6 (217), Geb. E2 4. Der erste Übungstermin ist der
+23.10.2026
+.
+Die Sprechstunden der Tutoren finden im Gruppenarbeitsraum (318), Gebäude E2 4, statt.
+Anthony Nork: Freitag 12 - 13 Uhr (vierzehntäglich, im Wechsel mit den Übungen). Der erste Sprechstundentermin ist der
+30.10.2026
+.
+Adrian Jose: Freitag 9 - 10 Uhr (wöchentlich). Der erste Sprechstundentermin ist der
+23.10.2026
+.
+Hier werden
+wöchentlich
+(dienstags)
+Übungsblätter
+veröffentlicht.
+Loggen Sie sich dazu bitte zuerst ein.
+Sie finden dann die Übungsblätter unter
+"Materialien"
+.
+Die Übungsblätter sollen bis zur
+darauf folgenden Woche
+(dienstags) bearbeitet werden.
+Die Abgabe der Übungsblätter erfolgt über CMS
+. Die Blätter werden in den Übungsstunden korrigiert und bepunktet zurückgegeben.
+Zudem werden voraussichtlich
+6 Testate
+während der offiziellen Übungszeit geschrieben.
+Wichtig:
+Die Übungsblätter können in Gruppen von bis zu drei Personen bearbeitet und abgegeben werden. Bitte erstellen Sie Ihr Team unter „
+Team Groupings → Gruppenabgabe
+“. Bitte beachten Sie, dass nur ein Mitglied des Teams das Übungsblatt über CMS einreichen sollte. Die Abgabe gilt dann für das gesamte Team.
+Scheinkriterien:
+Um einen Schein zu erhalten, sind die folgenden Kriterien zu erfüllen: mindestens 50% der erreichbaren Punkte in den Übungen, mindestens 4 bestandene Testate und eine bestandene Abschluss- oder Nachklausur.
+Klausurtermine:
+Hauptklausur:
+08.02.2027, 14-17 Uhr, in HS II und HS III
+Nachklausur:
+29.03.2027, 9-12 Uhr, in HS I und HS II
+Die
+Anmeldungen
+erfolgen über das
+LSF
+.
+Sie dürfen
+ein
+handschriftlich beidseitig beschriebenes DIN A4 Blatt
+verwenden. Es sind keine technischen Hilfsmittel erlaubt.
+Weiter Informationen werden noch bekannt gegeben.
+Wichtig:
+Wenn Sie sich nicht im LSF für die Haupt- oder Nachklausur anmelden können, dann melden Sie sich bitte bei Dr. Alessandro (Ihr Prüfungssekretariat muss uns
+rechtzeitig
+eine Bestätigung vor der Klausur übersenden, dass Sie an der Klausur teilnehmen dürfen). Falls Ihre Prüfungsordnung dies zulässt, kann die Nachklausur zur Verbesserung Ihrer Note genutzt werden.
+Literatur:
+Zu dieser Veranstaltung wurde von der
+Campus-Bibliothek für Informatik und Mathematik
+ein Semesterapparat eingerichtet. Eine Übersicht befindet sich
+hier
+.
+Die Skripte aus den Vorjahren sind nachfolgend verlinkt:
+M. Bildhauer,
+Mathematik für Naturwissenschaftler
+(Vorlesungsskript, WiSe 2010/2011, SoSe 2011)
+J. Eschmeier,
+Mathematik für Naturwissenschaftler I
+(Vorlesungsskript, WiSe 2018/2019)
+R. Schulze-Pillot,
+Mathematik für Naturwissenschaftler
+(Vorlesungsskript, WiSe 2017/2018)
+Datenschutz
+|
+Impressum
+Bitte wenden Sie sich bei technischen Problemen an
+die Administratoren
+.

@@ -1,0 +1,81 @@
+Hauptseite
+Kurse
+Hauptseite
+Informationen
+Termine
+Team
+Anmeldung
+Persönliche Statusseite
+Login
+Angemeldet bleiben
+Login
+Registrierung
+Passwort vergessen?
+Dunklen Modus aktivieren
+Hellen Modus aktivieren
+Funktionenräume mit Anwendungen
+Andreas Rupp
+Die
+Registrierung für diesen Kurs
+ist noch bis zum
+Donnerstag, 29.10.2026 23:59
+geöffnet
+.
+News
+Aktuell gibt es keine Neuigkeiten
+Allgemeine Informationen
+Dozent:
+Andreas Rupp (
+andreas.rupp@uni-saarland.de
+)
+Assistent:
+Benjamin Dörich (
+benjamin.doerich@uni-saarland.de
+)
+Ort und Zeit
+Die
+Vorlesungen
+finden mittwochs von 10:15 bis 11:45 Uhr im Seminarraum 9 (Raum X.XX, Gebäude E2.5) statt. Die Termine für die
+Übungen
+und die
+Sprechstunde
+werden rechtzeitig hier veröffentlicht bzw. in der ersten Vorlesung vereinbart.
+Die
+erste Vorlesung
+ist am
+28. Oktober
+. Das bedeutet, dass in den ersten beiden Vorlesungswochen keine Vorlesungen oder Übungen stattfinden. Stattdessen werden in der dritten Vorlesungswoche (KW 44/26) und in der Woche vor Weihnachten (KW 51/26) zusätzliche Vorlesungen bzw. Fragestunden angeboten.
+Die
+Klausuren
+werden voraussichtlich am XX.XX von XX bis XX Uhr und am XX.XX ab XX Uhr stattfinden (Angaben ohne Gewähr). Bitte melden Sie sich rechtzeitig zu den Klausuren an!
+Übungen und Abgabe der Hausaufgaben
+Die Studierenden haben von Dienstag bis zum darauffolgenden Dienstag vor der Vorlesung Zeit, die Übungsaufgaben eigenständig zu bearbeiten. In den Übungen besteht die Möglichkeit, Unterstützung bei den Aufgaben zu erhalten und Fragen zu stellen. Zudem werden die Aufgaben der Vorwoche besprochen. Theoretische Aufgaben können handschriftlich bearbeitet (TeX ist auch erlaubt) und vor der Vorlesung in den bereitgestellten Kasten im Hörsaal eingeworfen werden. Wenn Sie handschriftliche Lösungen per CMS einreichen, achten Sie bitte darauf, dass sie gut lesbar sind. Wir empfehlen daher, die Dokumente zu scannen statt Fotos zu machen. Programmieraufgaben sind immer per CMS einzureichen.
+Benotung und Klausur
+Um zur Klausur zugelassen zu werden, müssen Sie mindestens 50 % der maximal erreichbaren Punkte in den Hausaufgaben erzielen. Darüber hinaus können Sie durch die Hausaufgaben Bonuspunkte für die Klausur erhalten. Diese Bonuspunkte können Ihre Note verbessern, jedoch nicht dazu beitragen, die Klausur zu bestehen, falls Sie durchfallen. In diesem Fall verfallen die Bonuspunkte---sie gelten nur fuer Ihren Erstversuch bei der Klausur und auch nur in diesem Semester.
+Erreichen Sie mehr als 80 % der maximalen Punktezahl in den Hausaufgaben, erhalten Sie einen Bonuspunkt für die Klausur. Ab 85 % erhalten Sie 1,5 Bonuspunkte, ab 90 % gibt es 2 Bonuspunkte, ab 95 % 2,5 Bonuspunkte und bei mehr als 100 % der erreichbaren Punkte sogar 4 Bonuspunkte.
+Referenzen
+Der Kurs stützt sich maßgeblich auf die folgenden Bücher:
+H. Brezis. Functional Analysis, Sobolev Spaces and Partial Differential Equations.
+10.1007/978-0-387-70914-7
+L. Tartar. An Introduction to Sobolev Spaces and Interpolation Spaces.
+10.1007/978-3-540-71483-5
+J. Nečas. Direct Methods in the Theory of Elliptic Equations.
+10.1007/978-3-642-10455-8
+P. Grisvard. Elliptic Problems in Nonsmooth Domains.
+10.1137/1.9781611972030
+V. Girault und P.-A. Raviart. Finite Element Methods for Navier–Stokes Equations. Theory and Algorithms.
+10.1007/978-3-642-61623-5
+D. Boffi, F. Brezzi und M. Fortin. Mixed Finite Element Methods and Applications.
+10.1007/978-3-642-36519-5
+P. Monk. Finite Element Methods for Maxwell’s Equations.
+10.1093/acprof:oso/9780198508885.001.0001
+L. Ambrosio, N. Fusco und D. Pallara. Functions of Bounded Variation and Free Discontinuity Problems.
+10.1093/oso/9780198502456.001.0001
+Kursmaterialien
+Das Unterlagen (und Übungsaufgaben) zur Vorlesung finden Sie unter "Informationen -> Material." Diese Unterlagen enthalten immer mindestens die Inhalte der bisherigen sowie der nächsten Vorlesung und werden wöchentlich aktualisiert. Wenn Sie Fehler entdecken, schreiben Sie mir gerne eine E-Mail.
+Datenschutz
+|
+Impressum
+Bitte wenden Sie sich bei technischen Problemen an
+die Administratoren
+.

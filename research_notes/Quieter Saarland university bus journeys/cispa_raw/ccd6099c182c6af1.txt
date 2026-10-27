@@ -1,0 +1,63 @@
+Main Page
+Does Copilot Really Understand my Code? Methods for Mechanistic Interpretability of LLMs
+Prof. Dr. Sven Apel
+, Youssef Abdelsalam, Kingsley Kuan, Anna-Maria Maurer
+Seminar/Proseminar — Winter Semester 2026
+News
+Topic preferences: due Tuesday, 27.10., 23:59
+Written on
+22.10.26
+by Youssef Abdelsalam
+Dear all,
+thank you for attending today's kick-off session! The slides of the kick-off and of the introduction to LLMs are now available in the Materials section.
+As mentioned in the session, each of you will work on one topic over the course of the semester. To help us assign each of you a…
+Read more
+Dear all,
+thank you for attending today's kick-off session! The slides of the kick-off and of the introduction to LLMs are now available in the Materials section.
+As mentioned in the session, each of you will work on one topic over the course of the semester. To help us assign each of you a topic, please let us know which topics you would like most:
+1. Download preferences.txt from the Materials section. It briefly describes all seven topics.
+2. Fill in your name, matriculation number and whether you take the Seminar or the Proseminar.
+3. Rank all seven topics from 1 (most wanted) to 7 (least wanted).
+4. Upload the file to the CMS by
+Tuesday, 27.10., 23:59
+.
+If you do not submit a ranking, you will be assigned a random topic. You will receive your topic and its dataset in the next session on 29.10.2026.
+See you there!
+Does Copilot Really Understand my Code? Methods for Mechanistic Interpretability of LLMs
+by Sven Apel, Youssef Abdelsalam, Kingsley Kuan, and Anna-Maria Maurer
+Code LLMs have become ubiquitous in software understanding and development. However, despite their increasing integration into development workflows, they remain black-box models. What do these AI models actually understand about code, and what methods can we use to peek under the hood? What correlational and causal relationships or characteristics can be identified?
+In this seminar, students will read and critically discuss papers about methods for mechanistic interpretability, as well as familiarize themselves with these methods in short demos. Throughout the semester, they will formulate research questions targeting assigned topics centering diverse aspects of code, design small experiments for these questions using these methods, and then apply them to analyze what code LLMs represent internally and how information flows through the transformer architecture. Each student will be supported by a dedicated advisor and receive feedback throughout the semester. The seminar concludes with a final report and research presentations in which each participant presents their results and reflects on their implications.
+Kick-Off Meeting:
+Thursday, 22 October 2026
+Location:
+106 in E1 1
+The seminar takes place during the semester on
+Thursdays from 12:00 - 14:00
+(~12 sessions in sum) and in addition final presentation sessions during the lecture-free period.
+Participation in all sessions is
+mandatory
+, as is the submission of all assignments.
+Requirements:
+This seminar is open to motivated Bachelor and Master students who are eager to understand the inner workings of LLMs while critically and empirically examining their behavior. Prior knowledge of LLMs and transformer architectures is recommended, along with general programming experience.
+Further information will be provided via e-mail after registration.
+Registration
+Registration for the seminar is mandatory
+.
+To distribute students among the available seminars offered by the computer science department, you have to select your preferences for the
+seminar
+on the
+central registration platform for seminars and will be automatically assigned to a seminar according to your preferences.
+If you are assigned to this seminar, for organizational reasons,
+you have to sign up both in the course registration form that will be given above and in the LSF
+. Deadlines for the LSF (HISPOS) registration will be posted in the LSF (HISPOS) portal. Registration is possible up to three weeks after the topic assignment / kick-off.
+All sessions will take place
+on-site at the university
+. Participation in all sessions is
+mandatory
+.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

@@ -1,0 +1,14 @@
+{
+  "source_accounting": true,
+  "positive_intervals": true,
+  "weekday_bounds": true,
+  "weights_in_0_to_1": true,
+  "all_meetings_sourced": true,
+  "no_christmas_meetings": true,
+  "cybersecurity_17_nov_cancelled": true,
+  "five_weekdays_193_bins": true,
+  "all_bus_pairs_htw": true,
+  "no_unverified_101_return": true,
+  "unique_weekday_bus_trip": true,
+  "nonnegative_scores": true
+}

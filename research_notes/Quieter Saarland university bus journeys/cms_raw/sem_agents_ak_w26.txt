@@ -1,0 +1,175 @@
+Hauptseite
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Seminar - Who does the science in the age of agents?
+Johanna Becher, Philipp Flotho, Florian Kriegel
+News
+Announcement 1
+Written on
+22.10.26
+by Florian Kriegel
+Dear all,
+thank you for joining our kick-off session. A few organisational points that came up after the session:
+1. Kick-off slides
+The slides from the kick-off are now uploaded and available to you in the course materials.
+2. Registration in LSF
+Please do not forget to register for the…
+Read more
+Dear all,
+thank you for joining our kick-off session. A few organisational points that came up after the session:
+1. Kick-off slides
+The slides from the kick-off are now uploaded and available to you in the course materials.
+2. Registration in LSF
+Please do not forget to register for the seminar in LSF by 11 November.
+3. New starting time: 10:15
+There is a lecture scheduled before our seminar, so from now on we will start at 10:15 instead. The room stays the same.
+4. Your tutor
+Each topic has a tutor assigned who is your contact point for questions about the readings, the task, and your presentation. As mentioned in the presentation, this is optional. Don't forget to get in touch with your Tutor in time!
+Philipp Flotho  (Philipp.Flotho@uni-saarland.de)
+Topics 3 (Co-Scientist), 7 (Physical AI), 8 (Lab in the Loop for Perturbation Design), 9 (Can an Agent Replace a PhD? End-to-End Automation)
+Johanna Becher  (johanna.becher@ccb.uni-saarland.de)
+Topics 4 (Applications in Biotech: The Virtual Biotech Lab), 5 (Spatial Agent), 11 (Security Risks of Agentic Systems), 12 (Dual Use in Biomedical Agentic AI)
+Florian Kriegel  (florian.kriegel@ccb.uni-saarland.de)
+Topics 1 (Retrieval-Augmented Generation), 2 (Reasoning and Acting), 6 (The Commercial Science Workbench), 10 (Multi-Agent Failure Modes)
+Best regards,
+Your Agentic Seminar Team
+Topic Assignments
+Written on
+20.10.26
+by Florian Kriegel
+Dear all,
+Please find attached the final assignments for the topics:
+Retrieval Augmented Generation -> Srinath Balasundaram (04.11.2026)
+Reasoning and acting -> Maaaz Arshad Shaheen (11.11.2026)
+Co-Scientist -> Konstantin Maximilian Franke (18.11.2026)
+Applications in Biotech: The…
+Read more
+Dear all,
+Please find attached the final assignments for the topics:
+Retrieval Augmented Generation -> Srinath Balasundaram (04.11.2026)
+Reasoning and acting -> Maaaz Arshad Shaheen (11.11.2026)
+Co-Scientist -> Konstantin Maximilian Franke (18.11.2026)
+Applications in Biotech: The Virtual Biotech Lab -> Mohammed Ashraf Ahmed Refaey (25.11.2026)
+Spatial Agent -> Kamyar Kashefzand (02.12.2026)
+The Commercial Science Workbench -> Sadaf Reihani (09.12.2026)
+Physical AI -> Muhammadsultonbek Ergashev (16.12.2026)
+Lab in the loop for perturbation design -> Ahmed Samir Mohamed Shaaban (06.01.2027)
+Can an agent replace a PhD? End-to-end automation -> Fadlilah Nur Hasanah (13.01.2027)
+Multi-agent failure modes -> Ful Belin Korukoglu (20.01.2027)
+Security risks of agentic systems -> Burce Ozdemir (27.01.2027)
+Dual use in biomedical agentic AI -> Mohamed Hegazy (03.02.207)
+We tried to consider your preference as much as possible and hope that you are satisfied with your assigned topic. See you all on Wednesday!
+Best regards,
+Your Agentic Seminar Team
+topic preferences
+Written on
+14.10.26
+(last change on
+15.10.26
+)						by Florian Kriegel
+Dear all,
+Welcome to our seminar "Who does the science in the age of agents?".
+So far we have received topic preferences from only a few of you, and the kick-off meeting is approaching. This is a reminder to send us your preferences by e-mail to
+florian.kriegel@ccb.uni-saarland.de
+by
+Monday,…
+Read more
+Dear all,
+Welcome to our seminar "Who does the science in the age of agents?".
+So far we have received topic preferences from only a few of you, and the kick-off meeting is approaching. This is a reminder to send us your preferences by e-mail to
+florian.kriegel@ccb.uni-saarland.de
+by
+Monday, 19.10.2026, 23:59 CET
+, listing at least
+three
+topics in order of preference.
+If we do not receive your preferences by the deadline, you will be assigned a topic at random.
+The topic list
+:
+1. Retrieval Augmented Generation
+2. Reasoning and acting
+3. Co-Scientist
+4. Applications in Biotech: The Virtual Biotech Lab
+5. Spatial Agent
+6. The Commercial Science Workbench
+7. Physical AI
+8. Lab in the loop for perturbation design
+9. Can an agent replace a PhD? End-to-end automation
+10. Multi-agent failure modes
+11. Security risks of agentic systems
+12. Dual use in biomedical agentic AI
+On our CMS page you can go to
+Information
+->
+Materials
+and download the file
+All Seminar topics
+to get a detailed description of each task. You can further download the extensive task description in this section.
+Two further deadlines to keep in mind:
+- CMS registration: 19.10.2026, 23:59 CET. If you have not signed up in the CMS yet, please do so before this date.
+- LSF registration: 11.11.2026. If your study program requires additional registration steps elsewhere, please complete those as well.
+Kick-off:
+Wednesday, 21.10.2026, 10:00 in building E2.1 room 0.01
+. Attendance is mandatory, missing it results in exclusion from the course, and your spot will be given to a student on the waiting list.
+Looking forward to get to know you next week!
+Best regards,
+Your Agentic Seminar Team
+Seminar - Who does the science in the age of agents?
+How agentic AI alters the academic landscape.
+The fast development of large language models (LLMs) in recent years is starting to drive scientific discovery. Large-language-model agents are evolving from interactive assistants to full scientific operators: they write code, inspect data, launch analyses, design new methods, and draft reports. In this seminar we explore how agentic AI is altering the academic landscape with a focus on bioinformatics/biomedical research and have a closer look at the historic innovations that sparked this development. We divide the seminar into four broad categories:
+Basic concepts
+Multi-agent labs
+Lab in the loop systems
+Risks and Limitations
+Organization:
+Wednesday 10:15-12:00, first presentation 04.11.2026
+Kick-off: 21.10.2026, 10:00
+Attendance is mandatory!
+Formalities:
+Presentations are 30 minutes, followed by a 30-minute discussion. Students will be evaluated on how well they present their paper(s), answer questions, and participate in the discussion rounds (including asking questions themselves).
+This course is aimed at Master's students in Bioinformatics, Computer Science, and DSAI. Prior knowledge of Machine Learning or a related lecture is recommended.
+Bachelor students may also register for the seminar (as a proseminar worth 5 CP), but only a limited number of slots are reserved for them.
+Time Table:
+After the kick-off meeting on the 21st October, the course will take place weekly from 4th of November onward. In each session we will listen and discuss the presentation of one student to guarantee enough time for Q&A sessions.
+Registration:
+To register for the seminar, please sign up via the CMS by
+19.10.2026, 23:59 CET
+. Please also register in the LSF until
+11.11.2026
+. If your study program requires additional registration steps elsewhere, please make sure to complete those as well. We cannot be responsible for missed registrations outside the CMS.
+After registration, please send us an e-mail indicating your preferred topic by
+20.10. 2026, 23:59 CET
+. Please list a minimum of 3 topics there.
+After the registration deadline, we will review capacity and let you know whether you have been accepted or placed on the waiting list.
+Attendance at the kick-off meeting is mandatory, as topics will be assigned there. Missing it without prior notice will result in exclusion from the course, and your spot will be given to a student on the waiting list.
+Topic List:
+Retrieval Augmented Generation
+Reasoning and acting
+Co-Scientist
+Applications in Biotech: The Virtual Biotech Lab
+Spatial Agent
+The Commercial Science Workbench
+Physical AI
+Lab in the loop for perturbation design
+Can an agent replace a PhD? End-to-end automation
+Multi Agents failure modes
+Security risks of agentic system
+Dual use in biomedical agentic AI
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

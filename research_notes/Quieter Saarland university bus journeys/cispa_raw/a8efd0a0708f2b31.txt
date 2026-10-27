@@ -1,0 +1,68 @@
+Teaching – The LaLa Lab
+Teaching
+Every semester
+(Seminar) Living AI-ducation Dashboard
+— click for details ↓
+Prof. Dr. Tomohiro Nagashima, PD. Dr. Sarah Malone · TA: Meiyi Chen · 7ECTS · English
+The rise of artificial intelligence (AI) is transforming everyday lives, including education, and it requires us a deep understanding of and research insights into its applications and implications in the field. This seminar aims to equip students with the knowledge and skills needed to critically analyze AI in education and contribute to this evolving field. The seminar is jointly taught by Prof. Tomohiro Nagashima in the CS department and Dr. Sarah Malone in the Education Science department, and it targets students in both departments, as well as those from other departments!
+During the seminar, students will collaboratively design and develop a “Living AI-education Dashboard,” a dynamic resource that summarizes and visualizes current research, trends, and data on AI in education. Through project-based learning, students will gain hands-on experience in data visualization, dashboard development, dashboard design, and research methods (e.g., how to conduct systematic literature review). Students would also be testing the dashboard with “real” stakeholders. They will also develop interdisciplinary thinking by integrating concepts from both computer science and education science and through collaborations across the domains. The course is taught by an interdisciplinary team that encourages collaboration between departments and prepares students to tackle complex, real-world problems.
+📍 Location & Time:
+TBD
+Learning Objectives
+1) Understand key concepts and applications of AI in education: Students will gain a thorough understanding of the fundamental concepts and practical applications of artificial intelligence in educational settings.
+2) Develop research questions and conduct independent research on AI in Education: Students learn to formulate precise and relevant research questions related to AI in education. They develop the ability to conduct systematic literature searches using academic databases and other sources, to extract essential information from the retrieved records, and to synthesize the results into coherent overviews.
+3) Analyze and visualize data to communicate scientific results: Students will be able to collect, manage, and analyze data from original research relevant to AI in education. They will apply advanced data visualization techniques to effectively present research findings.
+4) Conceptualization and collaboration on dashboard design: Students will integrate their individual research findings into a unified, interactive dashboard. They will work collaboratively to ensure the dashboard effectively communicates aggregated insights and serves as a dynamic resource. They will also test the dashboard with relevant stakeholders.
+5) Contribute to a living resource (dashboard): Students of successive cohorts will actively contribute to the development and continuous updating of the Living AI-ducation Dashboard. This will ensure that the dashboard remains a current and valuable resource for AI in education, reflecting the latest research and data.
+Prerequisites
+None, but those with an experience of developing visualizations would be prioritized
+Schedule
+Introduction to AI in education
+Research methods
+Data visualization techniques
+Dashboard design principles
+Group Research Projects
+Sharing and integrating group research findings
+Collaborative dashboard design
+Dashboard Presentation
+Publishing living AI-ducation dashboard
+Readings
+TBD: All readings will be provided
+Notes
+Notes on respecting teaching team’s time: Every one of you have a busy schedule – balancing coursework, research jobs, tutor jobs, and other responsibilities – and that’s same for us. While we try to answer all the questions within 24 hours, we kindly ask you to understand that our response to your questions may sometimes be delayed, especially on weekends.
+Accommodations for learning needs and the importance of inclusion: If you have any needs that require some adjustments for you to succeed in this lecture, please discuss with Tomo in advance, and/or contact the Equal Opportunities and Diversity Unit at UdS: https://www.uni-saarland.de/en/administration/diversity.html Also, it is important that all members of the class feel respected, safe, and valued. I recognize that my ideas and thoughts might be biased based on my training and cultural experiences. Therefore, please let me know if at any time you feel uncomfortable in the class (this also applies to course materials and discussions we will have in the class).
+Course page / Register →
+WS2026-27
+(Seminar) From Research Ideas to Empirical Study Designs in Human–AI Interaction
+— click for details ↓
+Dr. Bingyi Han, Prof. Dr. Tomohiro Nagashima · 7ECTS · English
+This seminar is designed for students who have a research idea, or even just a broad curiosity, and want to learn how to turn it into a concrete empirical study design in Human–AI Interaction. The goal is to help students move from a broad research interest to a clear, feasible, and well-justified study design that can serve as the basis for a master’s thesis or doctoral research proposal.
+The seminar covers key stages of empirical research design, including identifying a research problem, conducting a critical literature review, formulating research questions, comparing methodological approaches, designing studies, and articulating expected contributions. The seminar will also touch on critical and creative thinking as important foundations for research design: how to evaluate existing work carefully, generate original ideas, and turn them into meaningful study designs.
+This seminar will be highly interactive and activity-based. It will combine short teaching inputs, paper discussions, hands-on activities, peer feedback, and research proposal development workshops. Students will read and discuss selected papers from Human–AI Interaction and related HCI research, while gradually developing their own empirical research proposal throughout the semester.
+By the end of the seminar, students are expected to have a structured proposal draft and a clearer understanding of how to design an empirical study from the initial idea to a concrete research plan.
+📍 Location & Time:
+TBD
+Learning Objectives
+Understand the main steps involved in developing an empirical research proposal and conducting an empirical research study in HCI.
+Identify a research problem and formulate clear research questions;
+Compare different empirical research methods and choose an appropriate method for a specific research question;
+Develop a structured empirical study design that can serve as the basis for a future research project.
+Prerequisites
+Students should have an interest in Human–AI Interaction, HCI, empirical research, or human-centered design. No advanced technical background is required.
+More importantly, students are expected to bring a curious mind: curiosity about people, technology, society, or the world more broadly. Since this seminar will be highly interactive and activity-based, students should be willing to actively participate in discussions, workshops, peer feedback, and proposal development exercises. It is especially suitable for students who are considering a research-oriented path, such as a master’s thesis, PhD, or research-related position.
+*If you completed HCI lecture, let us know in your motivation statement
+Grading
+20% Class participation and discussion engagement: Attendance, active participation in discussions, in-class activities, peer feedback.
+10% Weekly reflection posts: Students will submit short reflection posts on the assigned readings. These posts should go beyond summarizing the readings and include students’ own thoughts, questions, critiques, or connections to research design.
+20% Group presentation: Each student group will lead one short presentation on an assigned reading theme. The presentation should summarize the core ideas of the paper theme and raise critical questions.
+10% Proposal milestones: Students will complete two short assignments throughout the semester, including a research interest statement, literature review notes, research question draft, method comparison table, and study design outline.
+30% Final research proposal: Students will submit a structured empirical research proposal. The proposal should include a research problem, brief literature grounding, research question(s), proposed method, expected contribution, and feasibility reflection.
+10% Final proposal presentation: Students will present their final research proposal and receive feedback from the class.
+Schedule
+TBD
+Readings
+TBD: All readings will be provided
+Notes
+Notes on respecting teaching team’s time: Every one of you have a busy schedule – balancing coursework, research jobs, tutor jobs, and other responsibilities – and that’s same for us. While we try to answer all the questions within 24 hours, we kindly ask you to understand that our response to your questions may sometimes be delayed, especially on weekends.
+Accommodations for learning needs and the importance of inclusion: If you have any needs that require some adjustments for you to succeed in this lecture, please discuss with Tomo in advance, and/or contact the Equal Opportunities and Diversity Unit at UdS: https://www.uni-saarland.de/en/administration/diversity.html Also, it is important that all members of the class feel respected, safe, and valued. I recognize that my ideas and thoughts might be biased based on my training and cultural experiences. Therefore, please let me know if at any time you feel uncomfortable in the class (this also applies to course materials and discussions we will have in the class).
+Course page / Register →

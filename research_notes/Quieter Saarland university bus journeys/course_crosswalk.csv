@@ -1,0 +1,1111 @@
+﻿collection,course_id,title,canonical_course_id,canonical_title
+CMS,hmi32627,Höhere Mathematik für Ingenieure III,hmi32627,hohere mathematik fur ingenieure 3
+CMS,la12627,Lineare Algebra 1,la12627,lineare algebra 1
+CMS,alg26,Algebra,alg26,algebra
+CMS,math_bio_chem_la26,Mathematik für Biologen und Chemiker (Lehramt),math_bio_chem_la26,mathematik fur biologen und chemiker lehramt
+CMS,prog1_26,Programming 1,prog1_26,programming 1
+CMS,se_2627,Software Engineering,se_2627,software engineering
+CMS,algodat2627,Algorithmen und Datenstrukturen für Informatik-Lehramt Sekundarstufe I,algodat2627,algorithmen und datenstrukturen fur informatik lehramt sekundarstufe 1
+CMS,ana1_2627,Analysis 1,ana1_2627,analysis 1
+CMS,edsai26,Elements of Data Science and Artificial Intelligence,edsai26,elements of data science and artificial intelligence
+CMS,gdmi_2627,Grundlagen der Medieninformatik,gdmi_2627,grundlagen der medieninformatik
+CMS,ana3_2627,Analysis 3,ana3_2627,analysis 3
+CMS,cg_2627,Computer Graphics,cg_2627,computer graphics
+CMS,hfs_2627,Hilbert Function Spaces,hfs_2627,hilbert function spaces
+CMS,oscar,OSCAR-Kurs,oscar,oscar kurs
+CMS,ot_26,Optimal Transport,ot_26,optimal transport
+CMS,atos,Advanced Topics in Operating Systems,atos,advanced topics in operating systems
+CMS,graph_seminar26,Back to the Roots: Graph Algorithms for Small Molecules,graph_seminar26,back to the roots graph algorithms for small molecules
+CMS,inteq,(Pro-)Seminar: Integralgleichungen,inteq,integralgleichungen
+CMS,dbsys2627,Database Systems,dbsys2627,database systems
+CMS,iam26,Image Acquisition Methods,iam26,image acquisition methods
+CMS,perspectives2627,Perspectives of Computer Science (WS 2026),perspectives2627,perspectives of computer science
+CMS,aisystems,AI Systems,aisystems,ai systems
+CMS,vgm,Visual Generative Models,vgm,visual generative models
+CMS,alsa26,Algorithms for Sequence Analysis,alsa26,algorithms for sequence analysis
+CMS,enum26,Einführung in die Numerik,enum26,einfuhrung in die numerik
+CMS,statr_2627,Statistics with R,statr_2627,statistics with r
+CMS,stoch2,Stochastics II,stoch2,stochastics 2
+CMS,mfn_i,Mathematik für Naturwissenschaftler I,mfn_i,mathematik fur naturwissenschaftler 1
+CMS,hci_2627,Human Computer Interaction,hci_2627,human computer interaction
+CMS,i2cl_2627,Einführung in die Computerlinguistik,i2cl_2627,einfuhrung in die computerlinguistik
+CMS,avcn_2627,Audio-Visual Communication & Networks (WS 2026),avcn_2627,audio visual communication networks
+CMS,introalgdat2627,Introduction to Algorithms and Data Structures,introalgdat2627,introduction to algorithms and data structures
+CMS,bioinf1_26,Bioinformatik 1,bioinf1_26,bioinformatik 1
+CMS,causxai,Causal XAI,causxai,causal xai
+CMS,dtsp_2627,Digital Transmission & Signal Processing (WS 2026),dtsp_2627,digital transmission signal processing
+CMS,rmqi_2627,Random Matrices and Applications in Quantum Information,rmqi_2627,random matrices and applications in quantum information
+CMS,ai_2627,Artificial Intelligence,ai_2627,artificial intelligence
+CMS,nnti_2627,Neural Networks: Theory and Implementation,nnti_2627,neural networks theory and implementation
+CMS,qit1_26,Mathematical Foundations of Quantum Information,qit1_26,mathematical foundations of quantum information
+CMS,alg_geo,Algebraic Geometry,alg_geo,algebraic geometry
+CMS,dic_26,Differential Equations in Image Processing and Computer Vision,dic_26,differential equations in image processing and computer vision
+CMS,biostatslab26,BioStatsLab,biostatslab26,biostatslab
+CMS,mfcs3_wise2627,Mathematics for Computer Scientists III,mfcs3_wise2627,mathematics for computer scientists 3
+CMS,emlw26,Elements of Machine Learning,emlw26,elements of machine learning
+CMS,funcspaces26,Funktionenräume mit Anwendungen,funcspaces26,funktionenraume mit anwendungen
+CMS,mfi1_mfcs1_wise2627,Mathematics for Computer Scientists I,mfi1_mfcs1_wise2627,mathematics for computer scientists 1
+CMS,sem_agents_ak_w26,Seminar - Who does the science in the age of agents?,sem_agents_ak_w26,who does the science in the age of agents
+CMS,llm4ps,Large Language Models for Physical Systems,llm4ps,large language models for physical systems
+CMS,cla,Continually Learning Agents,cla,continually learning agents
+CMS,natcomp,Natural Computing and Algorithms,natcomp,natural computing and algorithms
+CMS,statdc26,Statistical Data Compression,statdc26,statistical data compression
+CMS,cv4d,3D and 4D Computer Vision,cv4d,3d and 4d computer vision
+CMS,ti2627,Introduction to Theoretical Computer Science,ti2627,introduction to theoretical computer science
+CMS,aet2026,Artificial Empathic Technology,aet2026,artificial empathic technology
+CMS,gis_2627,Grundlagen von Informatiksystemen,gis_2627,grundlagen von informatiksystemen
+CMS,semstoch,Seminar zur Stochastik,semstoch,zur stochastik
+CMS,life_w26,Life Insurance Mathematics,life_w26,life insurance mathematics
+CMS,srl26,Representation Learning: Foundations and Challenges,srl26,representation learning foundations and challenges
+CMS,komb26,Seminar Kombinatorik,komb26,kombinatorik
+CMS,gsv_ws2627,Grundlagen der Signalverarbeitung,gsv_ws2627,grundlagen der signalverarbeitung
+CMS,idi_26,Ideen der Informatik,idi_26,ideen der informatik
+CMS,das_26,Data and Society,das_26,data and society
+CISPA/seminars,farwsp2627,Formal analysis of real-world security protocols,farwsp2627,formal analysis of real world security protocols
+CISPA/seminars,ipml,Imprecise Probabilistic Machine Learning,ipml,imprecise probabilistic machine learning
+CISPA/seminars,lfa,Lean for Algorithms,lfa,lean for algorithms
+CISPA/seminars,scad2627,Side-Channel Attacks and Defenses,scad2627,side channel attacks and defenses
+CISPA/seminars,syssec_26,Systems Security,syssec_26,systems security
+CISPA/seminars,cysec1_2627,Foundations of Cybersecurity 1,cysec1_2627,foundations of cybersecurity 1
+CISPA/seminars,sec2627,Security (WS 2026/2027),sec2627,security
+CISPA/seminars,usld,Usable Security in the Last Decade,usld,usable security in the last decade
+CISPA/seminars,aos_wise26,Autonomous Offensive Security,aos_wise26,autonomous offensive security
+CISPA/seminars,htai,Humans and Trustworthy AI Systems,htai,humans and trustworthy ai systems
+CISPA/seminars,psas26,Privacy Systems and Applications Seminar,psas26,privacy systems and applications seminar
+CISPA/seminars,robgenai,Robustness in Generative AI,robgenai,robustness in generative ai
+CISPA/seminars,spacesecurity2627,Space Informatics Cybersecurity,spacesecurity2627,space informatics cybersecurity
+CISPA/seminars,websecsem_wise26,The Web Security Seminar,websecsem_wise26,the web security seminar
+CISPA/seminars,hai_ws26,Advances in Hybrid Artificial Intelligence,hai_ws26,advances in hybrid artificial intelligence
+CISPA/seminars,aqai_ws26,Advances in Quantum Artificial Intelligence,aqai_ws26,advances in quantum artificial intelligence
+CISPA/seminars,human_oversight_goodwork,Designing Human Oversight of AI for Good Work,human_oversight_goodwork,designing human oversight of ai for good work
+CISPA/seminars,probing_2627,Interpreting and Analyzing Neural Language Models,probing_2627,interpreting and analyzing neural language models
+CISPA/seminars,theory_2627,Theoretical Abilities and Limitations of Language Models,theory_2627,theoretical abilities and limitations of language models
+LSF,lsf_165373,Übung zum semesterbegleitenden Praktikum,lsf_165373,zum semesterbegleitenden praktikum
+LSF,lsf_165374,Geschichte im Integrationsfach: Zwischen fachlicher Identität und interdisziplinärer Vernetzung,lsf_165374,geschichte im integrationsfach zwischen fachlicher identitat und interdisziplinarer vernetzung
+LSF,lsf_165375,Saargeschichte im Unterricht,lsf_165375,saargeschichte im unterricht
+LSF,lsf_165376,Projektlernen und Geschichtswettbewerb. Digital- und fachdidaktisches Tutor:innenseminar in Kooperation mit saarländischen Schulen,lsf_165376,projektlernen und geschichtswettbewerb digital und fachdidaktisches tutor innenseminar in kooperation mit saarlandischen schulen
+LSF,lsf_165378,Übung: Vor- und Nachbereitung des fachdidaktischen Blockpraktikums der Fächer Geschichte und Gesellschaftswissenschaften,lsf_165378,vor und nachbereitung des fachdidaktischen blockpraktikums der facher geschichte und gesellschaftswissenschaften
+LSF,lsf_165379,Biopharmazie und Pharmazeutische Technologie einschließlich Medizinprodukte (Vorlesung),lsf_165379,biopharmazie und pharmazeutische technologie einschlielich medizinprodukte
+LSF,lsf_165381,Allgemeine und Anorganische Chemie für Pharmazeuten,lsf_165381,allgemeine und anorganische chemie fur pharmazeuten
+LSF,lsf_165383,Pharmazeutische Chemie,lsf_165383,pharmazeutische chemie
+LSF,lsf_165384,Grundlagen der Pharmazeutischen Biologie und Humanbiologie,lsf_165384,grundlagen der pharmazeutischen biologie und humanbiologie
+LSF,lsf_165385,Mathematische und Statistische Methoden für Pharmazeuten,lsf_165385,mathematische und statistische methoden fur pharmazeuten
+LSF,lsf_165386,Grundlagen der Physikalischen Chemie,lsf_165386,grundlagen der physikalischen chemie
+LSF,lsf_165387,Geschichte der Naturwissenschaften unter besonderer Berücksichtigung der Pharmazie,lsf_165387,geschichte der naturwissenschaften unter besonderer berucksichtigung der pharmazie
+LSF,lsf_165396,Einführung in die instrumentelle Analytik II,lsf_165396,einfuhrung in die instrumentelle analytik 2
+LSF,lsf_165397,Übungen zur Organischen Chemie,lsf_165397,ubungen zur organischen chemie
+LSF,lsf_165400,Klinische Pharmazie (Vorlesung),lsf_165400,klinische pharmazie
+LSF,lsf_165402,Medizinische Chemie und Drug Design Teil 1 für Pharmazie- und Bioinformatikstudierende,lsf_165402,medizinische chemie und drug design teil 1 fur pharmazie und bioinformatikstudierende
+LSF,lsf_165406,Pharmazeutische und medizinische Terminologie,lsf_165406,pharmazeutische und medizinische terminologie
+LSF,lsf_165408,"Immunologie, Impfstoffe und Sera",lsf_165408,immunologie impfstoffe und sera
+LSF,lsf_165410,Pathophysiologie/Pathobiochemie,lsf_165410,pathophysiologie pathobiochemie
+LSF,lsf_165414,"Analytik der organischen Arznei-, Hilfs- und Schadstoffe",lsf_165414,analytik der organischen arznei hilfs und schadstoffe
+LSF,lsf_165415,Systematische Einteilung und Physiologie der pathogenen und arzneistoffproduzierenden Organismen,lsf_165415,systematische einteilung und physiologie der pathogenen und arzneistoffproduzierenden organismen
+LSF,lsf_165428,Übung: Medizinische Chemie und Drug Design für Studierende der Bioinformatik,lsf_165428,medizinische chemie und drug design fur studierende der bioinformatik
+LSF,lsf_165438,Aktuelle Entwicklungen in der Medizinischen Chemie,lsf_165438,aktuelle entwicklungen in der medizinischen chemie
+LSF,lsf_165441,Grundlagen der Anatomie und Physiologie,lsf_165441,grundlagen der anatomie und physiologie
+LSF,lsf_165442,"„Hauptsach gudd gess“? Projektarbeiten zu Arbeit, Ernährung und Genuss an Mosel, Saar und Blies im 19. und 20. Jahrhundert.",lsf_165442,hauptsach gudd gess projektarbeiten zu arbeit ernahrung und genuss an mosel saar und blies im 19 und 20 jahrhundert
+LSF,lsf_165480,Von der »maniera moderna« zu den »multiple modernities«: Künstlerische Modernität und die Methoden der Kunstgeschichte,lsf_165480,von der maniera moderna zu den multiple modernities kunstlerische modernitat und die methoden der kunstgeschichte
+LSF,lsf_165481,Queer Worldmaking. Nicht-heteronormative Bilder und Bildpraktiken vom 19. Jahrhundert bis zur Gegenwart,lsf_165481,queer worldmaking nicht heteronormative bilder und bildpraktiken vom 19 jahrhundert bis zur gegenwart
+LSF,lsf_165484,Bilderzählung im europäischen Mittelalter,lsf_165484,bilderzahlung im europaischen mittelalter
+LSF,lsf_165485,Perspektiven der Linguistik,lsf_165485,perspektiven der linguistik
+LSF,lsf_165486,Peregrinatio maior. Kunst- und kulturgeschichtliche Aspekte des Pilgerwesens im Hochmittelalter,lsf_165486,peregrinatio maior kunst und kulturgeschichtliche aspekte des pilgerwesens im hochmittelalter
+LSF,lsf_165487,"Casting Antiquity: Plaster Casts, Knowledge, and the Museum in the 19th Century",lsf_165487,casting antiquity plaster casts knowledge and the museum in the 19th century
+LSF,lsf_165489,Körper wird Kunst. Body Art und Performance 1960-2000,lsf_165489,korper wird kunst body art und performance 1960 2000
+LSF,lsf_165490,Objekte am falschen Ort? Kontroverser Kunstbesitz und Praktiken der Restitution im 21. Jahrhundert,lsf_165490,objekte am falschen ort kontroverser kunstbesitz und praktiken der restitution im 21 jahrhundert
+LSF,lsf_165491,Statistik mit R (Grundlagen),lsf_165491,statistik mit r grundlagen
+LSF,lsf_165492,"Die Taufkirche im Mittelalter: Baptisterien und ihre Ausstattung. Idee, Gestalt, Bild und Raum",lsf_165492,die taufkirche im mittelalter baptisterien und ihre ausstattung idee gestalt bild und raum
+LSF,lsf_165493,Gefügte Bilder. Mosaik als Medium im mittelalterlichen Italien,lsf_165493,gefugte bilder mosaik als medium im mittelalterlichen italien
+LSF,lsf_165494,Sprachkurs Spanisch Ia,lsf_165494,sprachkurs spanisch ia
+LSF,lsf_165495,Einführung in die Methodik und das wissenschaftliche Arbeiten: Propädeutikum und Tutorium,lsf_165495,einfuhrung in die methodik und das wissenschaftliche arbeiten propadeutikum und tutorium
+LSF,lsf_165496,Einführung in die christliche Ikonographie,lsf_165496,einfuhrung in die christliche ikonographie
+LSF,lsf_165497,Architektonische Formenlehre,lsf_165497,architektonische formenlehre
+LSF,lsf_165498,Kunstkritik - Eine praktische Einführung,lsf_165498,kunstkritik eine praktische einfuhrung
+LSF,lsf_165500,Sprachkurs Spanisch IIIa,lsf_165500,sprachkurs spanisch iiia
+LSF,lsf_165502,Universals and rarities debunked,lsf_165502,universals and rarities debunked
+LSF,lsf_165526,Einführung in die Translationswissenschaft,lsf_165526,einfuhrung in die translationswissenschaft
+LSF,lsf_165527,Methodik des Übersetzens unter Verwendung von Tools (Englisch),lsf_165527,methodik des ubersetzens unter verwendung von tools englisch
+LSF,lsf_165528,Translation im gemeinsprachlichen Kulturtransfer aus BI,lsf_165528,translation im gemeinsprachlichen kulturtransfer aus bi
+LSF,lsf_165529,Textproduktion im Translationsprozess in BI,lsf_165529,textproduktion im translationsprozess in bi
+LSF,lsf_165530,Textverstehen,lsf_165530,textverstehen
+LSF,lsf_165537,Textwissen kontrastiv,lsf_165537,textwissen kontrastiv
+LSF,lsf_165538,Wissen und Text,lsf_165538,wissen und text
+LSF,lsf_165539,Sprachkurs Spanisch I,lsf_165539,sprachkurs spanisch 1
+LSF,lsf_165540,Übung zur Phonetik,lsf_165540,zur phonetik
+LSF,lsf_165541,Mündliche Kommunikation und Textproduktion (Spanisch III),lsf_165541,mundliche kommunikation und textproduktion spanisch 3
+LSF,lsf_165542,Translation im gemeinsprachlichen Kulturtransfer aus BII,lsf_165542,translation im gemeinsprachlichen kulturtransfer aus bii
+LSF,lsf_165543,Textproduktion im Translationsprozess in BII,lsf_165543,textproduktion im translationsprozess in bii
+LSF,lsf_165575,Translation im gemeinsprachlichen Kulturtransfer aus BII,lsf_165575,translation im gemeinsprachlichen kulturtransfer aus bii
+LSF,lsf_165576,Textproduktion im Translationsprozess in BII,lsf_165576,textproduktion im translationsprozess in bii
+LSF,lsf_165578,Zusatzübung: Praxisnahe Übersetzungsaufträge & Übersetzung mittelschwerer bis schwerer Texte IT-DE,lsf_165578,zusatzubung praxisnahe ubersetzungsauftrage ubersetzung mittelschwerer bis schwerer texte it de
+LSF,lsf_165579,Translation im gemeinsprachlichen Kulturtransfer aus BII,lsf_165579,translation im gemeinsprachlichen kulturtransfer aus bii
+LSF,lsf_165580,Textproduktion im Translationsprozess in BII,lsf_165580,textproduktion im translationsprozess in bii
+LSF,lsf_165583,Linguistics and Translatology,lsf_165583,linguistics and translatology
+LSF,lsf_165584,Methods in Linguistics and Translatology,lsf_165584,methods in linguistics and translatology
+LSF,lsf_165586,Translation and Content Management,lsf_165586,translation and content management
+LSF,lsf_165587,Translation and Content Management,lsf_165587,translation and content management
+LSF,lsf_165588,Introduction to Computer-assisted Translation,lsf_165588,introduction to computer assisted translation
+LSF,lsf_165589,Shell Scripting and Programming: Text Processing with Python and Bash,lsf_165589,shell scripting and programming text processing with python and bash
+LSF,lsf_165590,Übersetzen als Kulturtransfer (BI),lsf_165590,ubersetzen als kulturtransfer bi
+LSF,lsf_165591,Textproduktion und Übersetzen im kulturellen Kontext in BI,lsf_165591,textproduktion und ubersetzen im kulturellen kontext in bi
+LSF,lsf_165592,Korpuslinguistik,lsf_165592,korpuslinguistik
+LSF,lsf_165594,Translation Technologies,lsf_165594,translation technologies
+LSF,lsf_165595,Translation Technologies,lsf_165595,translation technologies
+LSF,lsf_165597,Projektarbeit (BI),lsf_165597,projektarbeit bi
+LSF,lsf_165598,Fachkommunikation und Wissensmanagement (BI),lsf_165598,fachkommunikation und wissensmanagement bi
+LSF,lsf_165599,Fachkommunikation und Textredaktion (BI),lsf_165599,fachkommunikation und textredaktion bi
+LSF,lsf_165600,Multilinguale technische Kommunikation,lsf_165600,multilinguale technische kommunikation
+LSF,lsf_165601,Text and Web Technology,lsf_165601,text and web technology
+LSF,lsf_165602,Textsortenbasiertes Übersetzen (BI),lsf_165602,textsortenbasiertes ubersetzen bi
+LSF,lsf_165605,Language use and rational communication,lsf_165605,language use and rational communication
+LSF,lsf_165607,LangSci Colloquium,lsf_165607,langsci colloquium
+LSF,lsf_165608,Erstellung von Webseiten (HTML-Kurs),lsf_165608,erstellung von webseiten html kurs
+LSF,lsf_165609,Textproduktion und Übersetzen im kulturellen Kontext aus BII (Französisch),lsf_165609,textproduktion und ubersetzen im kulturellen kontext aus bii franzosisch
+LSF,lsf_165611,Textproduktion und Übersetzen im kulturellen Kontext aus BII (Spanisch),lsf_165611,textproduktion und ubersetzen im kulturellen kontext aus bii spanisch
+LSF,lsf_165612,Textproduktion und Übersetzen im kulturellen Kontext in BII (Französisch),lsf_165612,textproduktion und ubersetzen im kulturellen kontext in bii franzosisch
+LSF,lsf_165613,Schriftliche Kommunikation im Berufsfeld,lsf_165613,schriftliche kommunikation im berufsfeld
+LSF,lsf_165614,Textproduktion und Übersetzen im kulturellen Kontext in BII (Spanisch),lsf_165614,textproduktion und ubersetzen im kulturellen kontext in bii spanisch
+LSF,lsf_165615,Projektarbeit (BII) Französisch,lsf_165615,projektarbeit bii franzosisch
+LSF,lsf_165616,Projektarbeit (BII) Italienisch,lsf_165616,projektarbeit bii italienisch
+LSF,lsf_165617,Projektarbeit (BII) Spanisch,lsf_165617,projektarbeit bii spanisch
+LSF,lsf_165618,Fachkommunikation und Textredaktion (BII) Französisch,lsf_165618,fachkommunikation und textredaktion bii franzosisch
+LSF,lsf_165619,Fachkommunikation und Textredaktion (BII) Italienisch,lsf_165619,fachkommunikation und textredaktion bii italienisch
+LSF,lsf_165620,Fachkommunikation und Textredaktion (BII) Spanisch,lsf_165620,fachkommunikation und textredaktion bii spanisch
+LSF,lsf_165621,Übersetzungsübungen zur Klausurvorbereitung,lsf_165621,ubersetzungsubungen zur klausurvorbereitung
+LSF,lsf_165622,Konversationskurs Spanisch III,lsf_165622,konversationskurs spanisch 3
+LSF,lsf_165625,Wissenschaftliche Datenverarbeitung 2,lsf_165625,wissenschaftliche datenverarbeitung 2
+LSF,lsf_165626,Physik I für MWWT,lsf_165626,physik 1 fur mwwt
+LSF,lsf_165627,Computersimulation für Materialphysiker,lsf_165627,computersimulation fur materialphysiker
+LSF,lsf_165631,Linguistic relativity,lsf_165631,linguistic relativity
+LSF,lsf_165633,Reinforcement Learning for LLMs,lsf_165633,reinforcement learning for llms
+LSF,lsf_165634,Language Models for Language Science,lsf_165634,language models for language science
+LSF,lsf_165635,Mechanistic Interpretability in NLP Models,lsf_165635,mechanistic interpretability in nlp models
+LSF,lsf_165637,Acquisition of Spoken Language,lsf_165637,acquisition of spoken language
+LSF,lsf_165639,Comparing Language Production and Comprehension,lsf_165639,comparing language production and comprehension
+LSF,lsf_165640,Computational Linguistics,lsf_165640,computational linguistics
+LSF,lsf_165641,Computational Psycholinguistics,lsf_165641,computational psycholinguistics
+LSF,lsf_165642,Computerlinguistische Algorithmen,lsf_165642,computerlinguistische algorithmen
+LSF,lsf_165643,Einführung in die Computerlinguistik,i2cl_2627,einfuhrung in die computerlinguistik
+LSF,lsf_165644,Einführung in die Psycholinguistik,lsf_165644,einfuhrung in die psycholinguistik
+LSF,lsf_165645,Einführung in die Syntax und Morphologie,lsf_165645,einfuhrung in die syntax und morphologie
+LSF,lsf_165647,Experimentelle Phonetik,lsf_165647,experimentelle phonetik
+LSF,lsf_165654,Foundations of Empirical Methods,lsf_165654,foundations of empirical methods
+LSF,lsf_165655,Foundations of Linguistics,lsf_165655,foundations of linguistics
+LSF,lsf_165657,Interpreting and Analyzing Neural Language Models,probing_2627,interpreting and analyzing neural language models
+LSF,lsf_165658,Introduction to Python Programming,lsf_165658,introduction to python programming
+LSF,lsf_165659,Lexical prediction in human sentence processing,lsf_165659,lexical prediction in human sentence processing
+LSF,lsf_165661,Mathematische Grundlagen: Analysis und Lineare Algebra,lsf_165661,mathematische grundlagen analysis und lineare algebra
+LSF,lsf_165662,Mathematische Grundlagen: Formale Sprachen und Automaten,lsf_165662,mathematische grundlagen formale sprachen und automaten
+LSF,lsf_165664,Neural Networks: Implementation and Application,lsf_165664,neural networks implementation and application
+LSF,lsf_165666,Phonetik und Phonologie slavischer Sprachen,lsf_165666,phonetik und phonologie slavischer sprachen
+LSF,lsf_165667,Phonetisches Kolloquium,lsf_165667,phonetisches kolloquium
+LSF,lsf_165668,Programmierkurs,lsf_165668,programmierkurs
+LSF,lsf_165669,Prosodie,lsf_165669,prosodie
+LSF,lsf_165670,Schriftsysteme,lsf_165670,schriftsysteme
+LSF,lsf_165671,Speech Science,lsf_165671,speech science
+LSF,lsf_165672,Sprachproduktion,lsf_165672,sprachproduktion
+LSF,lsf_165673,Statistics with R,statr_2627,statistics with r
+LSF,lsf_165674,Theoretical Abilities and Limitations of Language Models,theory_2627,theoretical abilities and limitations of language models
+LSF,lsf_165675,Übung: Phonetische Transkription II,lsf_165675,phonetische transkription 2
+LSF,lsf_165676,Übung: Sprachperzeption,lsf_165676,sprachperzeption
+LSF,lsf_165679,Theory of Mind in LLMs,lsf_165679,theory of mind in llms
+LSF,lsf_165683,Colloquium für Examenskandidat:innen (Pawlow/Rees/Mohnhaupt),lsf_165683,colloquium fur examenskandidat innen pawlow rees mohnhaupt
+LSF,lsf_165689,"„Europa von unten"" - Eine Geschichte der Populärkultur seit den 1860er Jahren",lsf_165689,europa von unten eine geschichte der popularkultur seit den 1860er jahren
+LSF,lsf_165691,Die Literatur Frankreichs I (von den Anfängen bis zur Aufklärung),lsf_165691,die literatur frankreichs 1 von den anfangen bis zur aufklarung
+LSF,lsf_165697,Latein II,lsf_165697,latein 2
+LSF,lsf_165698,Latein I a,lsf_165698,latein 1 a
+LSF,lsf_165699,Latein I b,lsf_165699,latein 1 b
+LSF,lsf_165700,Latein III,lsf_165700,latein 3
+LSF,lsf_165706,Einführung in die französische Sprachwissenschaft,lsf_165706,einfuhrung in die franzosische sprachwissenschaft
+LSF,lsf_165709,Einführung in das Studium der europäischen Regional- und Minderheitensprachen (Schwerpunkt Romania),lsf_165709,einfuhrung in das studium der europaischen regional und minderheitensprachen schwerpunkt romania
+LSF,lsf_165737,Einführung in die Vor- und Frühgeschichte,lsf_165737,einfuhrung in die vor und fruhgeschichte
+LSF,lsf_165738,Ziviles Leben in den römischen Nordwestprovinzen,lsf_165738,ziviles leben in den romischen nordwestprovinzen
+LSF,lsf_165741,Die Megalithkulturen des 5. bis 3. Jahrtausends v. Chr.,lsf_165741,die megalithkulturen des 5 bis 3 jahrtausends v chr
+LSF,lsf_165743,Masterkolloquium,lsf_165743,masterkolloquium
+LSF,lsf_165750,Stadt und Kolonialismus in der Großregion,lsf_165750,stadt und kolonialismus in der groregion
+LSF,lsf_165751,Europa unter Napoleon (1789-1815),lsf_165751,europa unter napoleon 1789 1815
+LSF,lsf_165752,Kolloquium zur westeuropäischen Geschichte - Für fortgeschrittene Studierende und Doktoranden,lsf_165752,kolloquium zur westeuropaischen geschichte fur fortgeschrittene studierende und doktoranden
+LSF,lsf_165753,Luxusproduktion in Europa - Übung (mit der Möglichkeit der Teilnahme an einer Exkursion nach Lyon),lsf_165753,luxusproduktion in europa ubung mit der moglichkeit der teilnahme an einer exkursion nach lyon
+LSF,lsf_165754,TWA - Technik des wissenschaftlichen Arbeitens,lsf_165754,twa technik des wissenschaftlichen arbeitens
+LSF,lsf_165759,Grundlagen der Sprachwissenschaft - Spanisch,lsf_165759,grundlagen der sprachwissenschaft spanisch
+LSF,lsf_165770,Grundlagen der Thermodynamik,lsf_165770,grundlagen der thermodynamik
+LSF,lsf_165776,Kolloquium der Gesellschaft Deutscher Chemiker (GDCh),lsf_165776,kolloquium der gesellschaft deutscher chemiker gdch
+LSF,lsf_165778,Reaktionsmechanismen in der Organischen Chemie (OC02),lsf_165778,reaktionsmechanismen in der organischen chemie oc02
+LSF,lsf_165782,Reaktionen und Reaktionsmechanismen in Lösung (AC03),lsf_165782,reaktionen und reaktionsmechanismen in losung ac03
+LSF,lsf_165785,Moderne Synthesemethoden I (OC07),lsf_165785,moderne synthesemethoden 1 oc07
+LSF,lsf_165788,Übungen zur Vorlesung Festkörperchemie und Strukturchemie (AC05Ü),lsf_165788,ubungen zur vorlesung festkorperchemie und strukturchemie ac05u
+LSF,lsf_165789,Seminar für eigene Mitarbeiter,lsf_165789,fur eigene mitarbeiter
+LSF,lsf_165790,Aromatenchemie (OC05),lsf_165790,aromatenchemie oc05
+LSF,lsf_165792,Seminar für eigene Mitarbeiter,lsf_165792,fur eigene mitarbeiter
+LSF,lsf_165793,Spektroskopie (PC05),lsf_165793,spektroskopie pc05
+LSF,lsf_165794,Exercises: Structural Chemistry and Crystallography (AC10Ü),lsf_165794,exercises structural chemistry and crystallography ac10u
+LSF,lsf_165797,Anorganisches Kolloquium,lsf_165797,anorganisches kolloquium
+LSF,lsf_165800,Seminar für eigene Mitarbeiter und Vertiefungsstudenten,lsf_165800,fur eigene mitarbeiter und vertiefungsstudenten
+LSF,lsf_165804,Festkörperchemie und Strukturchemie (AC05),lsf_165804,festkorperchemie und strukturchemie ac05
+LSF,lsf_165805,Praktikum Kristallographie und Strukturchemie (ACK),lsf_165805,praktikum kristallographie und strukturchemie ack
+LSF,lsf_165806,Metallorganische Chemie (OC06),lsf_165806,metallorganische chemie oc06
+LSF,lsf_165809,Grundlagen der Hauptgruppenchemie (AC02),lsf_165809,grundlagen der hauptgruppenchemie ac02
+LSF,lsf_165812,Seminar für eigene Mitarbeiter,lsf_165812,fur eigene mitarbeiter
+LSF,lsf_165813,Literaturseminar für Masteranden und Doktoranden,lsf_165813,literaturseminar fur masteranden und doktoranden
+LSF,lsf_165814,Allgemeine Chemie für Chemiker (AC01),lsf_165814,allgemeine chemie fur chemiker ac01
+LSF,lsf_165815,Grundlagen der Physikalischen Chemie für Chemiker (PC01),lsf_165815,grundlagen der physikalischen chemie fur chemiker pc01
+LSF,lsf_165816,Grundlagen der Analytischen Chemie (An01),lsf_165816,grundlagen der analytischen chemie an01
+LSF,lsf_165820,Molekülchemie und Metallorganische Chemie (AC06),lsf_165820,molekulchemie und metallorganische chemie ac06
+LSF,lsf_165824,Group Seminar,lsf_165824,group seminar
+LSF,lsf_165832,Synthese von Polymeren (MC01),lsf_165832,synthese von polymeren mc01
+LSF,lsf_165838,Technologie der Polymere und Komposite (MC07),lsf_165838,technologie der polymere und komposite mc07
+LSF,lsf_165839,Übung zu Reaktionsmechanismen in der OC (OC02Ü),lsf_165839,reaktionsmechanismen in der oc oc02u
+LSF,lsf_165842,Sustainable Materials Selection (SusMat1),lsf_165842,sustainable materials selection susmat1
+LSF,lsf_165847,Seminar für eigene Mitarbeiter,lsf_165847,fur eigene mitarbeiter
+LSF,lsf_165848,Seminar für eigene Mitarbeiter,lsf_165848,fur eigene mitarbeiter
+LSF,lsf_165852,Theoretische Chemie 2 (TC02),lsf_165852,theoretische chemie 2 tc02
+LSF,lsf_165855,Physikalische Chemie 3 (PC03),lsf_165855,physikalische chemie 3 pc03
+LSF,lsf_165856,Structural Chemistry and Crystallography (AC10),lsf_165856,structural chemistry and crystallography ac10
+LSF,lsf_165859,Moderne Komplexchemie (AC15),lsf_165859,moderne komplexchemie ac15
+LSF,lsf_165872,Molecular modelling (PCMD),lsf_165872,molecular modelling pcmd
+LSF,lsf_165873,Kolloide und Grenzflächen (PCMC),lsf_165873,kolloide und grenzflachen pcmc
+LSF,lsf_165882,Raumschiff Erde - Klimawandel,lsf_165882,raumschiff erde klimawandel
+LSF,lsf_165886,Seminar für eigene Mitarbeiter und Vertiefungsstudenten,lsf_165886,fur eigene mitarbeiter und vertiefungsstudenten
+LSF,lsf_165888,Functional Coatings (FC),lsf_165888,functional coatings fc
+LSF,lsf_165890,Einführung in die Theoretische Chemie (TC0),lsf_165890,einfuhrung in die theoretische chemie tc0
+LSF,lsf_165891,Catalysis,lsf_165891,catalysis
+LSF,lsf_165894,Raw Materials and Resources,lsf_165894,raw materials and resources
+LSF,lsf_165895,Medien und... Nachhaltigkeit,lsf_165895,medien und nachhaltigkeit
+LSF,lsf_165904,Special-topic Lecture Bioinformatics: Modern Methods in Drug Discovery,lsf_165904,special topic lecture bioinformatics modern methods in drug discovery
+LSF,lsf_165906,Softwarewerkzeuge der Bioinformatik,lsf_165906,softwarewerkzeuge der bioinformatik
+LSF,lsf_165907,Softwarewerkzeuge der Bioinformatik,lsf_165907,softwarewerkzeuge der bioinformatik
+LSF,lsf_165908,Special-Topic Lecture Biosciences: Cellular Programs,lsf_165908,special topic lecture biosciences cellular programs
+LSF,lsf_165928,Studienbegleitende Deutschkurse ISZ Saar,lsf_165928,studienbegleitende deutschkurse isz saar
+LSF,lsf_165929,Studienbegleitende Deutschkurse ISZ Saar,lsf_165929,studienbegleitende deutschkurse isz saar
+LSF,lsf_165936,Studienvorbereitende Deutschkurse und Fachkurse ISZ Saar,lsf_165936,studienvorbereitende deutschkurse und fachkurse isz saar
+LSF,lsf_165938,Die Zeit der Adoptivkaiser,lsf_165938,die zeit der adoptivkaiser
+LSF,lsf_165939,Trajan – optimus princeps,lsf_165939,trajan optimus princeps
+LSF,lsf_165941,Christenverfolgungen im Römischen Reich,lsf_165941,christenverfolgungen im romischen reich
+LSF,lsf_165942,Provinzherrschaft oder Imperialismus? Rom und seine Provinzen in den 60er & 50er Jahren v.Chr.,lsf_165942,provinzherrschaft oder imperialismus rom und seine provinzen in den 60er 50er jahren v chr
+LSF,lsf_165950,Kulturanthropologische Perspektiven. Felder und Fragestellungen,lsf_165950,kulturanthropologische perspektiven felder und fragestellungen
+LSF,lsf_165951,"Deindustrialisierung und Transformation im Saarland und in Europa: Erfahrungen, Emotionen und Zukunftsvorstellungen",lsf_165951,deindustrialisierung und transformation im saarland und in europa erfahrungen emotionen und zukunftsvorstellungen
+LSF,lsf_165953,Übersetzung Italienisch-Deutsch,lsf_165953,ubersetzung italienisch deutsch
+LSF,lsf_165954,Grundlagen der Sprachwissenschaft - Französisch,lsf_165954,grundlagen der sprachwissenschaft franzosisch
+LSF,lsf_165955,Grundlagen der italienischen Sprachwissenschaft,lsf_165955,grundlagen der italienischen sprachwissenschaft
+LSF,lsf_165972,"Präsidentschaftswahlen in Frankreich 1962-2027 - Wahlkämpfe, Wahlergebnisse, Wahlanalysen",lsf_165972,prasidentschaftswahlen in frankreich 1962 2027 wahlkampfe wahlergebnisse wahlanalysen
+LSF,lsf_165975,"Das Ende der Menschlichkeit III – die Aufarbeitung des Nationalsozialismus im geteilten Deutschland, Europa und der Welt",lsf_165975,das ende der menschlichkeit 3 die aufarbeitung des nationalsozialismus im geteilten deutschland europa und der welt
+LSF,lsf_165977,Polymerwerkstoffe 1 - Polymerwissenschaftliche Grundlagen und Polymerchemie,lsf_165977,polymerwerkstoffe 1 polymerwissenschaftliche grundlagen und polymerchemie
+LSF,lsf_165978,Einführung in die Sprachtypologie,lsf_165978,einfuhrung in die sprachtypologie
+LSF,lsf_165979,Polymerwerkstoffe 3 - Polymer Surfaces and Interfaces,lsf_165979,polymerwerkstoffe 3 polymer surfaces and interfaces
+LSF,lsf_165980,Einführung in die Sprachtypologie,lsf_165980,einfuhrung in die sprachtypologie
+LSF,lsf_165981,Grammatical Gender in English Varieties and in the Languages of the World,lsf_165981,grammatical gender in english varieties and in the languages of the world
+LSF,lsf_165982,Linguistische Datenanalyse,lsf_165982,linguistische datenanalyse
+LSF,lsf_165991,Das Tragische im Bereich der römischen Literatur,lsf_165991,das tragische im bereich der romischen literatur
+LSF,lsf_165992,Einführung in die Klassische Philologie,lsf_165992,einfuhrung in die klassische philologie
+LSF,lsf_165993,"Sueton, Nero",lsf_165993,sueton nero
+LSF,lsf_165995,Lucullus - Feldherr und Genießer,lsf_165995,lucullus feldherr und genieer
+LSF,lsf_165997,Thukydides,lsf_165997,thukydides
+LSF,lsf_166000,Frauenbilder in der griechischen Literatur,lsf_166000,frauenbilder in der griechischen literatur
+LSF,lsf_166001,"Griechische Stilübungen, Oberstufe",lsf_166001,griechische stilubungen oberstufe
+LSF,lsf_166003,"Lukan, De bello civili",lsf_166003,lukan de bello civili
+LSF,lsf_166004,Prudentius,lsf_166004,prudentius
+LSF,lsf_166005,"Cicero, De re publica",lsf_166005,cicero de re publica
+LSF,lsf_166008,Lateinische Stilübungen II,lsf_166008,lateinische stilubungen 2
+LSF,lsf_166009,Lateinische Stilübungen III,lsf_166009,lateinische stilubungen 3
+LSF,lsf_166010,Lateinisch-deutsche Übersetzungen I: Ovid,lsf_166010,lateinisch deutsche ubersetzungen 1 ovid
+LSF,lsf_166011,Lateinisch-deutsche Übersetzungen II: Aeneis,lsf_166011,lateinisch deutsche ubersetzungen 2 aeneis
+LSF,lsf_166012,Deutsch-lateinische Übersetzungen / Stilübungen Oberstufe,lsf_166012,deutsch lateinische ubersetzungen stilubungen oberstufe
+LSF,lsf_166014,Griechisch I,lsf_166014,griechisch 1
+LSF,lsf_166015,Griechisch II,lsf_166015,griechisch 2
+LSF,lsf_166016,Griechisch III,lsf_166016,griechisch 3
+LSF,lsf_166040,"Pharmakologie und Toxikologie, mit den Grundlagen der Anatomie, Physiologie, Pathophysiologie, Krankheitslehre und Pharmakotherapie",lsf_166040,pharmakologie und toxikologie mit den grundlagen der anatomie physiologie pathophysiologie krankheitslehre und pharmakotherapie
+LSF,lsf_166046,"Kolloquium zur Kultur-, Medien- und Gesellschaftsgeschichte",lsf_166046,kolloquium zur kultur medien und gesellschaftsgeschichte
+LSF,lsf_166047,Krieg und Medien: vom 18. Jahrhundert bis in die Gegenwart,lsf_166047,krieg und medien vom 18 jahrhundert bis in die gegenwart
+LSF,lsf_166048,"Der Spanische Bürgerkrieg: Gewalt, Medien, Erinnerung (1936-1939/2026)",lsf_166048,der spanische burgerkrieg gewalt medien erinnerung
+LSF,lsf_166049,Intelligenzblätter: Lokaler Alltag und Weltverständnis im 18. Jahrhundert,lsf_166049,intelligenzblatter lokaler alltag und weltverstandnis im 18 jahrhundert
+LSF,lsf_166050,The Federalist Papers,lsf_166050,the federalist papers
+LSF,lsf_166051,Nordamerika im 17. und 18. Jahrhundert,lsf_166051,nordamerika im 17 und 18 jahrhundert
+LSF,lsf_166053,Kolloquium für Geschichte der Frühen Neuzeit,lsf_166053,kolloquium fur geschichte der fruhen neuzeit
+LSF,lsf_166057,Corpus-Based Register Analysis,lsf_166057,corpus based register analysis
+LSF,lsf_166058,Übung: Phonetische Transkription I,lsf_166058,phonetische transkription 1
+LSF,lsf_166081,Einführung in das wissenschaftliche Arbeiten,lsf_166081,einfuhrung in das wissenschaftliche arbeiten
+LSF,lsf_166082,Proseminar zur: Einführung in die Vor- und Frühgeschichte,lsf_166082,zur einfuhrung in die vor und fruhgeschichte
+LSF,lsf_166084,Arbeitstechniken 1 / Tutorium,lsf_166084,arbeitstechniken 1 tutorium
+LSF,lsf_166086,Römische Mosaike,lsf_166086,romische mosaike
+LSF,lsf_166090,Die Archaik,lsf_166090,die archaik
+LSF,lsf_166091,Einführung in die griechische Archäologie,lsf_166091,einfuhrung in die griechische archaologie
+LSF,lsf_166092,Konstitutionslehre (Thermodynamik der Werkstoffe II),lsf_166092,konstitutionslehre thermodynamik der werkstoffe 2
+LSF,lsf_166095,"Mechanische Eigenschaften (Mechanical Properties, lectures)",lsf_166095,mechanische eigenschaften mechanical properties lectures
+LSF,lsf_166104,Übung/Praktikum Fertigungstechnik I - Technologien des Maschinenbaus,lsf_166104,praktikum fertigungstechnik 1 technologien des maschinenbaus
+LSF,lsf_166105,Spanende und abtragende Fertigungsverfahren,lsf_166105,spanende und abtragende fertigungsverfahren
+LSF,lsf_166106,Fertigungstechnik I - Technologien des Maschinenbaus,lsf_166106,fertigungstechnik 1 technologien des maschinenbaus
+LSF,lsf_166126,Übersetzungsübungen Deutsch-Italienisch,lsf_166126,ubersetzungsubungen deutsch italienisch
+LSF,lsf_166128,Italienische Grammatik I,lsf_166128,italienische grammatik 1
+LSF,lsf_166129,"Sprachkurs Italienisch (A2-B1), 6-stündig (MSK 1)",lsf_166129,sprachkurs italienisch a2 b1 6 stundig msk 1
+LSF,lsf_166132,Grundkurs Italienisch für Anfänger (A1-A2),lsf_166132,grundkurs italienisch fur anfanger a1 a2
+LSF,lsf_166133,Einführung in die italienische Kulturwissenschaft / Landeskunde,lsf_166133,einfuhrung in die italienische kulturwissenschaft landeskunde
+LSF,lsf_166135,Textredaktion I - Italienisch,lsf_166135,textredaktion 1 italienisch
+LSF,lsf_166136,Mündliche Kommunikation I - Italienisch,lsf_166136,mundliche kommunikation 1 italienisch
+LSF,lsf_166144,Das Wissen der Aufklärung: Wissen und Wissenschaft im 18. Jahrhundert,lsf_166144,das wissen der aufklarung wissen und wissenschaft im 18 jahrhundert
+LSF,lsf_166145,Grundkurs Literaturwissenschaft 1 - [Grundkurs Literaturwissenschaft I - Einführung] (Di 10-12),lsf_166145,grundkurs literaturwissenschaft 1 grundkurs literaturwissenschaft 1 einfuhrung di 10 12
+LSF,lsf_166147,Grundkurs Literaturwissenschaft 1 - [Grundkurs Literaturwissenschaft I - Einführung] (Di 12-14),lsf_166147,grundkurs literaturwissenschaft 1 grundkurs literaturwissenschaft 1 einfuhrung di 12 14
+LSF,lsf_166148,Grundkurs Literaturwissenschaft 1 - [Grundkurs Literaturwissenschaft I - Einführung] (Fr 10-12),lsf_166148,grundkurs literaturwissenschaft 1 grundkurs literaturwissenschaft 1 einfuhrung fr 10 12
+LSF,lsf_166149,Grundkurs Literaturwissenschaft 1 - [Grundkurs Literaturwissenschaft I - Einführung] (Fr 12-14),lsf_166149,grundkurs literaturwissenschaft 1 grundkurs literaturwissenschaft 1 einfuhrung fr 12 14
+LSF,lsf_166157,Computational Electromagnetics 1,lsf_166157,computational electromagnetics 1
+LSF,lsf_166158,Theoretische Elektrotechnik II,lsf_166158,theoretische elektrotechnik 2
+LSF,lsf_166160,Grundlagen der Elektrotechnik I (auch für Studierende des Juniorstudiums),lsf_166160,grundlagen der elektrotechnik 1 auch fur studierende des juniorstudiums
+LSF,lsf_166166,Grundlagen der Automatisierungstechnik,lsf_166166,grundlagen der automatisierungstechnik
+LSF,lsf_166167,Ai in Automation (Soft Control),lsf_166167,ai in automation soft control
+LSF,lsf_166168,Energiesysteme,lsf_166168,energiesysteme
+LSF,lsf_166174,"Ringvorlesung der Europäischen Kulturstudien: ""Un/Sichtbarkeiten""",lsf_166174,ringvorlesung der europaischen kulturstudien un sichtbarkeiten
+LSF,lsf_166175,Fachdidaktik I,lsf_166175,fachdidaktik 1
+LSF,lsf_166176,Grundlagen der Signalverarbeitung,gsv_ws2627,grundlagen der signalverarbeitung
+LSF,lsf_166185,Elektronik - Teilmodul Physikalische Grundlagen,lsf_166185,elektronik teilmodul physikalische grundlagen
+LSF,lsf_166196,Europäische Governance,lsf_166196,europaische governance
+LSF,lsf_166197,Europäische Governance,lsf_166197,europaische governance
+LSF,lsf_166198,Einführung in die räumliche Konstitution Europas,lsf_166198,einfuhrung in die raumliche konstitution europas
+LSF,lsf_166199,Einführung in die politikwissenschaftliche Europaforschung,lsf_166199,einfuhrung in die politikwissenschaftliche europaforschung
+LSF,lsf_166200,Einführung in die Humangeographie,lsf_166200,einfuhrung in die humangeographie
+LSF,lsf_166201,Gesellschaft und Raum,lsf_166201,gesellschaft und raum
+LSF,lsf_166202,Europäische Siedlungsentwicklung: Ländliche und städtische Räume im Wandel,lsf_166202,europaische siedlungsentwicklung landliche und stadtische raume im wandel
+LSF,lsf_166208,Wirtschaft und Gesellschaft im europäischen Vergleich,lsf_166208,wirtschaft und gesellschaft im europaischen vergleich
+LSF,lsf_166212,Politik zwischen Nationalstaat und EU,lsf_166212,politik zwischen nationalstaat und eu
+LSF,lsf_166213,Gespenstererzählungen des 19. Jahrhunderts aus genderkritischer Perspektive,lsf_166213,gespenstererzahlungen des 19 jahrhunderts aus genderkritischer perspektive
+LSF,lsf_166216,Antriebssystemtechnik - Bauelemente/Components of Mechatronic Drive Systems,lsf_166216,antriebssystemtechnik bauelemente components of mechatronic drive systems
+LSF,lsf_166217,Elektrische Antriebe,lsf_166217,elektrische antriebe
+LSF,lsf_166224,European transformations,lsf_166224,european transformations
+LSF,lsf_166228,Animal Studies,lsf_166228,animal studies
+LSF,lsf_166229,Einführung in das Studium der Evangelischen Theologie,lsf_166229,einfuhrung in das studium der evangelischen theologie
+LSF,lsf_166230,Einführung in die Kirchengeschichte,lsf_166230,einfuhrung in die kirchengeschichte
+LSF,lsf_166231,Vom Spätmittelalter bis in die Gegenwart,lsf_166231,vom spatmittelalter bis in die gegenwart
+LSF,lsf_166232,Kirchengeschichte und Konfessionskunde,lsf_166232,kirchengeschichte und konfessionskunde
+LSF,lsf_166234,Aktorik und Sensorik mit intelligenten Materialsystemen 4 (Regelungs- und Self-Sensingsmethoden für intelligente Materialsysteme),lsf_166234,aktorik und sensorik mit intelligenten materialsystemen 4 regelungs und self sensingsmethoden fur intelligente materialsysteme
+LSF,lsf_166235,Maschinendynamik,lsf_166235,maschinendynamik
+LSF,lsf_166239,Systemtheorie und Regelungstechnik 2,lsf_166239,systemtheorie und regelungstechnik 2
+LSF,lsf_166240,Flatness based control (Systemtheorie und Regelungstechnik 3),lsf_166240,flatness based control systemtheorie und regelungstechnik 3
+LSF,lsf_166250,Grenzüberschreitende Regionen - grenzüberschreitende Governance,lsf_166250,grenzuberschreitende regionen grenzuberschreitende governance
+LSF,lsf_166254,Microsensors,lsf_166254,microsensors
+LSF,lsf_166262,Aktorik und Sensorik mit intelligenten Materialsystemen 1 (Einführung in die Aktorik mit Aktiven Materialien),lsf_166262,aktorik und sensorik mit intelligenten materialsystemen 1 einfuhrung in die aktorik mit aktiven materialien
+LSF,lsf_166265,Einführung in die Werkstofftechnik für Ingenieure,lsf_166265,einfuhrung in die werkstofftechnik fur ingenieure
+LSF,lsf_166271,Systementwicklungsmethodik 1,lsf_166271,systementwicklungsmethodik 1
+LSF,lsf_166278,Aufbau- und Verbindungstechnik I,lsf_166278,aufbau und verbindungstechnik 1
+LSF,lsf_166279,Elektronik - Teilmodul Bauelemente,lsf_166279,elektronik teilmodul bauelemente
+LSF,lsf_166280,Zuverlässigkeit I,lsf_166280,zuverlassigkeit 1
+LSF,lsf_166281,Stochastische Bewertungsmethoden in der Technik,lsf_166281,stochastische bewertungsmethoden in der technik
+LSF,lsf_166285,Kolloquium Politikwissenschaft,lsf_166285,kolloquium politikwissenschaft
+LSF,lsf_166286,Mikroelektronik I,lsf_166286,mikroelektronik 1
+LSF,lsf_166287,Mikroelektronik III,lsf_166287,mikroelektronik 3
+LSF,lsf_166295,"Mauern, Türme, Tore. Befestigungsarchitektur in Griechenland und Kleinasien",lsf_166295,mauern turme tore befestigungsarchitektur in griechenland und kleinasien
+LSF,lsf_166296,Dionysos - ein Gott im Wandel der Zeit,lsf_166296,dionysos ein gott im wandel der zeit
+LSF,lsf_166297,Formanalyse und Datierung: Polychromie,lsf_166297,formanalyse und datierung polychromie
+LSF,lsf_166298,Digitale Rekonstruktion und Visualisierung mit Blender II: Fortgeschrittene,lsf_166298,digitale rekonstruktion und visualisierung mit blender 2 fortgeschrittene
+LSF,lsf_166299,Von der Zeichnung zum 3D-Modell - Visualisierungsmethoden für Skulptur,lsf_166299,von der zeichnung zum 3d modell visualisierungsmethoden fur skulptur
+LSF,lsf_166304,"Experimentalphysik I (EPI: Mechanik, Schwingungen und Wellen (Vorlesung mit Übungen und Mathematische Ergänzungen))",lsf_166304,experimentalphysik 1 epi mechanik schwingungen und wellen vorlesung mit ubungen und mathematische erganzungen
+LSF,lsf_166305,Experimentalphysik IIIa (Optik und Thermodynamik) (EP IIIa) und (Exp IIIa-LA),lsf_166305,experimentalphysik iiia optik und thermodynamik ep iiia und exp iiia la
+LSF,lsf_166306,Experimentalphysik IV a (Festkörperphysik I) (EP IV),lsf_166306,experimentalphysik iv a festkorperphysik 1 ep iv
+LSF,lsf_166307,Experimentalphysik Va (Atom- und Molekülphysik) - Physics of Atoms and Molecules,lsf_166307,experimentalphysik va atom und molekulphysik physics of atoms and molecules
+LSF,lsf_166314,Theoretische Physik Ia: Rechenmethoden der Mechanik,lsf_166314,theoretische physik ia rechenmethoden der mechanik
+LSF,lsf_166315,Theoretische Physik II (TP II),lsf_166315,theoretische physik 2 tp 2
+LSF,lsf_166316,Theoretische Physik IV (Quantenphysik und statistische Physik: Weiterführende Konzepte) mit Übungen,lsf_166316,theoretische physik iv quantenphysik und statistische physik weiterfuhrende konzepte mit
+LSF,lsf_166317,Theoretische Biophysik - Pflicht Master Biophysik + Physikalisches Wahlpflichtfach Master Physik,lsf_166317,theoretische biophysik pflicht master biophysik physikalisches wahlpflichtfach master physik
+LSF,lsf_166318,Theoretische Physik I+II für LAG (Modul TP I+II-LAG) mit Übungen,lsf_166318,theoretische physik 1 2 fur lag modul tp 1 2 lag mit
+LSF,lsf_166328,Fachdidaktik II (FD) mit Übungen,lsf_166328,fachdidaktik 2 fd mit
+LSF,lsf_166338,Biophysik,lsf_166338,biophysik
+LSF,lsf_166339,"Ringvorlesung ""Biophysik""",lsf_166339,ringvorlesung biophysik
+LSF,lsf_166340,Einführung in die Biologie I (für Bachelor Plus Mint),lsf_166340,einfuhrung in die biologie 1 fur bachelor plus mint
+LSF,lsf_166343,Technische Physik,lsf_166343,technische physik
+LSF,lsf_166344,"Elementare Einführung in die Physik I (Mechanik, Wärmelehre) für Chemiker und Pharmazeuten",lsf_166344,elementare einfuhrung in die physik 1 mechanik warmelehre fur chemiker und pharmazeuten
+LSF,lsf_166345,Ringvorlesung - Perspektiven des Quantum Engineering,lsf_166345,ringvorlesung perspektiven des quantum engineering
+LSF,lsf_166350,Physik der Phasenübergänge (Physikalisches Wahlpflichtfach),lsf_166350,physik der phasenubergange physikalisches wahlpflichtfach
+LSF,lsf_166351,Einführung in die Quanteninformationsverarbeitung - Theoretisch Physikalisches Wahlpflichtfach,lsf_166351,einfuhrung in die quanteninformationsverarbeitung theoretisch physikalisches wahlpflichtfach
+LSF,lsf_166352,Erzähltexte der Moderne,lsf_166352,erzahltexte der moderne
+LSF,lsf_166354,Tatort Campus: Detektivisches Wissen zwischen Nord und Süd,lsf_166354,tatort campus detektivisches wissen zwischen nord und sud
+LSF,lsf_166356,Build your own microscope (Biophysikalische Wahlpflichtvorlesung),lsf_166356,build your own microscope biophysikalische wahlpflichtvorlesung
+LSF,lsf_166357,Früher Film und Literatur,lsf_166357,fruher film und literatur
+LSF,lsf_166359,Examenskolloquium,lsf_166359,examenskolloquium
+LSF,lsf_166360,"Lieben, Lesen, Leben: Einführung in die vergleichende Literaturgeschichte",lsf_166360,lieben lesen leben einfuhrung in die vergleichende literaturgeschichte
+LSF,lsf_166361,Narrative der Migration,lsf_166361,narrative der migration
+LSF,lsf_166362,"Mensch, Maschine, Cyborg: Künstliche Intelligenz aus transkultureller Perspektive",lsf_166362,mensch maschine cyborg kunstliche intelligenz aus transkultureller perspektive
+LSF,lsf_166363,"Boom, Bubble – Crash! Wirtschaftskrisen in Literatur und Medien",lsf_166363,boom bubble crash wirtschaftskrisen in literatur und medien
+LSF,lsf_166364,Einführung in die Gegenstandsbereiche der AVL,lsf_166364,einfuhrung in die gegenstandsbereiche der avl
+LSF,lsf_166365,"Filme erzählen... Gemälde, Podcasts, Graphic Novels, Sachbücher, Brettspiele",lsf_166365,filme erzahlen gemalde podcasts graphic novels sachbucher brettspiele
+LSF,lsf_166366,Arbeitsgebiete der Komparatistik anhand kinderliterarischer Beispiele,lsf_166366,arbeitsgebiete der komparatistik anhand kinderliterarischer beispiele
+LSF,lsf_166374,Physics of trapped and cold atoms,lsf_166374,physics of trapped and cold atoms
+LSF,lsf_166375,Physikalisches Kolloquium,lsf_166375,physikalisches kolloquium
+LSF,lsf_166376,Erde im Klimawandel. Ursache und globale Folgen und gemeinsam aktiv werden,lsf_166376,erde im klimawandel ursache und globale folgen und gemeinsam aktiv werden
+LSF,lsf_166381,Arbeitsgruppenseminar Quantenoptik,lsf_166381,arbeitsgruppenseminar quantenoptik
+LSF,lsf_166387,Arbeitsgruppenseminar,lsf_166387,arbeitsgruppenseminar
+LSF,lsf_166388,Arbeitsgruppenseminar,lsf_166388,arbeitsgruppenseminar
+LSF,lsf_166389,Arbeitsgruppenseminar,lsf_166389,arbeitsgruppenseminar
+LSF,lsf_166391,Arbeitsgruppenseminar,lsf_166391,arbeitsgruppenseminar
+LSF,lsf_166396,Tutorium Leseliste Medien,lsf_166396,tutorium leseliste medien
+LSF,lsf_166397,Tutorium Leseliste Literaturtheorie,lsf_166397,tutorium leseliste literaturtheorie
+LSF,lsf_166406,Sustainable Ceramics and Glasses,lsf_166406,sustainable ceramics and glasses
+LSF,lsf_166413,Neue religiöse Bewegungen,lsf_166413,neue religiose bewegungen
+LSF,lsf_166416,Continually Learning Agents,cla,continually learning agents
+LSF,lsf_166421,Materielle Kultur und Sozialgeschichte Südetruriens in der Spätbronze- und Früheisenzeit (Dozent: Dr. A. Babbi),lsf_166421,materielle kultur und sozialgeschichte sudetruriens in der spatbronze und fruheisenzeit dozent dr a babbi
+LSF,lsf_166422,"Schöpfungslehre, Anthropologie, Eschatologie (bibl./syst.)",lsf_166422,schopfungslehre anthropologie eschatologie bibl syst
+LSF,lsf_166423,Biblische Gottesbilder und neutestamentliche Christologie,lsf_166423,biblische gottesbilder und neutestamentliche christologie
+LSF,lsf_166424,Griechisch I,lsf_166424,griechisch 1
+LSF,lsf_166425,Geschichte Israels und Einleitung in das Alte Testament,lsf_166425,geschichte israels und einleitung in das alte testament
+LSF,lsf_166427,Vertiefung Philosophie,lsf_166427,vertiefung philosophie
+LSF,lsf_166428,Ekklesiologie und Sakramentenlehre,lsf_166428,ekklesiologie und sakramentenlehre
+LSF,lsf_166429,Einführung in die Systematische Theologie,lsf_166429,einfuhrung in die systematische theologie
+LSF,lsf_166431,Religionsgeschichte,lsf_166431,religionsgeschichte
+LSF,lsf_166435,Methoden der historischen Theologie,lsf_166435,methoden der historischen theologie
+LSF,lsf_166436,Religion und Modernität (Religion und Transzendenz in zeitgenössischen Film- und Serienformaten),lsf_166436,religion und modernitat religion und transzendenz in zeitgenossischen film und serienformaten
+LSF,lsf_166437,Praktische Theologie,lsf_166437,praktische theologie
+LSF,lsf_166438,Fundamentalmoral,lsf_166438,fundamentalmoral
+LSF,lsf_166439,Christentum und Antike,lsf_166439,christentum und antike
+LSF,lsf_166440,Themenfelder der Kirchengeschichte - Die Entstehungsgeschichte des Antisemitismus. Geschichte des christlich-jüdischen Verhältnisses in Europa von der Antike bis zur Gegenwart,lsf_166440,themenfelder der kirchengeschichte die entstehungsgeschichte des antisemitismus geschichte des christlich judischen verhaltnisses in europa von der antike bis zur gegenwart
+LSF,lsf_166441,Vertiefung Ökumenische Theologie - Die Vielfalt des östlichen und westlichen Christentums in Europa,lsf_166441,vertiefung okumenische theologie die vielfalt des ostlichen und westlichen christentums in europa
+LSF,lsf_166443,Einführung in die Praktische Theologie,lsf_166443,einfuhrung in die praktische theologie
+LSF,lsf_166458,Beyond Talking Shop - Communicating Science Across European Audiences,lsf_166458,beyond talking shop communicating science across european audiences
+LSF,lsf_166459,History of Science 1.01,lsf_166459,history of science 1 01
+LSF,lsf_166462,Chor der Universität,lsf_166462,chor der universitat
+LSF,lsf_166463,Dr. Schröders Chor und Co GmbH,lsf_166463,dr schroders chor und co gmbh
+LSF,lsf_166464,Sinfonieorchester der Universität,lsf_166464,sinfonieorchester der universitat
+LSF,lsf_166467,Biblisches Hebräisch I,lsf_166467,biblisches hebraisch 1
+LSF,lsf_166468,Altes Testament: Bibelkunde AT / Einführung in die biblische Theologie,lsf_166468,altes testament bibelkunde at einfuhrung in die biblische theologie
+LSF,lsf_166471,Neues Testament: Umwelt des Neuen Testaments,lsf_166471,neues testament umwelt des neuen testaments
+LSF,lsf_166472,Altes Testament: Grundfragen biblischer Theologie - Kurs I: AT,lsf_166472,altes testament grundfragen biblischer theologie kurs 1 at
+LSF,lsf_166485,Religionspädagogik: Grundriss der Religionsdidaktik,lsf_166485,religionspadagogik grundriss der religionsdidaktik
+LSF,lsf_166486,Religionspädagogik: Methoden und Medien im RU (Vorbereitung Blockpraktikum),lsf_166486,religionspadagogik methoden und medien im ru vorbereitung blockpraktikum
+LSF,lsf_166487,Der Heilige Geist und seine Wirkungen,lsf_166487,der heilige geist und seine wirkungen
+LSF,lsf_166488,Judentum in Europa,lsf_166488,judentum in europa
+LSF,lsf_166489,Fremde Religionen im Unterricht — interreligiöses Lernen als didaktische Aufgabe,lsf_166489,fremde religionen im unterricht interreligioses lernen als didaktische aufgabe
+LSF,lsf_166490,Zwingli und die Zürcher Reformation,lsf_166490,zwingli und die zurcher reformation
+LSF,lsf_166495,Political Sociology: a problem-oriented insight into this sub-discipline of political science,lsf_166495,political sociology a problem oriented insight into this sub discipline of political science
+LSF,lsf_166500,International Relations: Challenges and opportunities to boost peace and security,lsf_166500,international relations challenges and opportunities to boost peace and security
+LSF,lsf_166510,Politische Soziologie: Einblicke in eine politikwissenschaftliche Teildisziplin und EU politics,lsf_166510,politische soziologie einblicke in eine politikwissenschaftliche teildisziplin und eu politics
+LSF,lsf_166511,„Die Welt ist Klang“ – ein Hörspielseminar,lsf_166511,die welt ist klang ein horspielseminar
+LSF,lsf_166512,Elementarmathematik (VL) - Vorlesung mit Computerkurs zur Elementarmathematik,lsf_166512,elementarmathematik vl vorlesung mit computerkurs zur elementarmathematik
+LSF,lsf_166515,Seminar: Informatische Bildung in der Primarstufe,lsf_166515,informatische bildung in der primarstufe
+LSF,lsf_166516,"Seminar: Heterogenität & Differenzierung im Mathematikunterricht der Primarstufe: ""Digitale und analoge Medien""",lsf_166516,heterogenitat differenzierung im mathematikunterricht der primarstufe digitale und analoge medien
+LSF,lsf_166517,Seminar: Diagnose und individuelle Förderung aller Kinder beim Lernen von Mathematik,lsf_166517,diagnose und individuelle forderung aller kinder beim lernen von mathematik
+LSF,lsf_166519,Sachrechnen und seine Didaktik (V),lsf_166519,sachrechnen und seine didaktik v
+LSF,lsf_166521,Seminar: Informatische Bildung in der Primarstufe,lsf_166521,informatische bildung in der primarstufe
+LSF,lsf_166522,Seminar: Wissenschaftliches Kolloquium,lsf_166522,wissenschaftliches kolloquium
+LSF,lsf_166524,Sachrechnen in der Grundschule (Ü),lsf_166524,sachrechnen in der grundschule u
+LSF,lsf_166525,Elementarmathematik (Ü),lsf_166525,elementarmathematik u
+LSF,lsf_166527,Seminar: Diagnose und individuelle Förderung aller Kinder beim Lernen von Mathematik,lsf_166527,diagnose und individuelle forderung aller kinder beim lernen von mathematik
+LSF,lsf_166528,"Diversität in Gesellschaft, Institutionen und Unternehmen",lsf_166528,diversitat in gesellschaft institutionen und unternehmen
+LSF,lsf_166532,Einführung in die Theorie und Praxis der Interkulturellen Kommunikation,lsf_166532,einfuhrung in die theorie und praxis der interkulturellen kommunikation
+LSF,lsf_166555,„Was ist der Mensch?“ Über das Menschsein in der europäischen Geistes- und Kulturgeschichte,lsf_166555,was ist der mensch uber das menschsein in der europaischen geistes und kulturgeschichte
+LSF,lsf_166557,"Texten, Teasern, Teilen - Professionell schreiben und publizieren",lsf_166557,texten teasern teilen professionell schreiben und publizieren
+LSF,lsf_166561,Active Matter (theoretisch-physikalisches Seminar),lsf_166561,active matter theoretisch physikalisches seminar
+LSF,lsf_166562,"Erinnern, Vergessen, Streiten: Ist Europa eine Erinnerungsgemeinschaft?",lsf_166562,erinnern vergessen streiten ist europa eine erinnerungsgemeinschaft
+LSF,lsf_166564,Grundlagen und Methoden,lsf_166564,grundlagen und methoden
+LSF,lsf_166566,Anwendungsbereiche der Digital Humanities,lsf_166566,anwendungsbereiche der digital humanities
+LSF,lsf_166567,Data Sciences in den Digital Humanities,lsf_166567,data sciences in den digital humanities
+LSF,lsf_166568,Datenarchitekturen und Data-Engineering in den Digital Humanities,lsf_166568,datenarchitekturen und data engineering in den digital humanities
+LSF,lsf_166576,Grundzüge der Archäologie des 1. Jahrtausends n. Chr.,lsf_166576,grundzuge der archaologie des 1 jahrtausends n chr
+LSF,lsf_166577,Ritual im Befund: Kultplätze und Deponierungen im 1. Jahrtausend n. Chr.,lsf_166577,ritual im befund kultplatze und deponierungen im 1 jahrtausend n chr
+LSF,lsf_166578,Problematik der ethnischen Deutung von frühmittelalterlichen Bestattungen - Auseinandersetzung mit alternativen Interpretationsansätzen (Dozentin Dr. A. Gabriel),lsf_166578,problematik der ethnischen deutung von fruhmittelalterlichen bestattungen auseinandersetzung mit alternativen interpretationsansatzen dozentin dr a gabriel
+LSF,lsf_166579,Einführung in QGIS,lsf_166579,einfuhrung in qgis
+LSF,lsf_166592,Neues Testament - Liebesleben-Partnerschaften und Sexualität in biblische Perspektiven,lsf_166592,neues testament liebesleben partnerschaften und sexualitat in biblische perspektiven
+LSF,lsf_166593,GK1 - Einführung in die Fachdidaktik Deutsch 1 - [Grundkurs Einführung in die Fachdidaktik Deutsch] (Fr 10-12),lsf_166593,gk1 einfuhrung in die fachdidaktik deutsch 1 grundkurs einfuhrung in die fachdidaktik deutsch fr 10 12
+LSF,lsf_166595,GK1 - Einführung in die Fachdidaktik Deutsch 1 - [Grundkurs Einführung in die Fachdidaktik Deutsch] (Di 10-12),lsf_166595,gk1 einfuhrung in die fachdidaktik deutsch 1 grundkurs einfuhrung in die fachdidaktik deutsch di 10 12
+LSF,lsf_166596,GK1 - Einführung in die Fachdidaktik Deutsch 1 - [Grundkurs Einführung in die Fachdidaktik Deutsch] (Di 12-14),lsf_166596,gk1 einfuhrung in die fachdidaktik deutsch 1 grundkurs einfuhrung in die fachdidaktik deutsch di 12 14
+LSF,lsf_166597,GK1 - Einführung in die Fachdidaktik Deutsch 1 - [Grundkurs Einführung in die Fachdidaktik Deutsch] (Fr 12-14),lsf_166597,gk1 einfuhrung in die fachdidaktik deutsch 1 grundkurs einfuhrung in die fachdidaktik deutsch fr 12 14
+LSF,lsf_166598,PS Schreiben als reflexive Praxis - [PS Sprachdidaktik] (Do 14-16),lsf_166598,ps schreiben als reflexive praxis ps sprachdidaktik do 14 16
+LSF,lsf_166601,PS Lyrik in Wissenschaft und Unterricht - in Kombination mit HS Lyrik in Wissenschaft und Unterricht (Kiefer) [PS Literaturdidaktik] (Mo 12-14),lsf_166601,ps lyrik in wissenschaft und unterricht in kombination mit hs lyrik in wissenschaft und unterricht kiefer ps literaturdidaktik mo 12 14
+LSF,lsf_166602,Ü Übung zum semesterbegleit. Praktikum - [Ü Übung zum semesterbegleit. Praktikum - FD 3] (Mi 16-18),lsf_166602,u ubung zum semesterbegleit praktikum u ubung zum semesterbegleit praktikum fd 3 mi 16 18
+LSF,lsf_166603,Ü Übung zum semesterbegleit. Praktikum - [Ü Übung zum semesterbegleit. Praktikum - FD 3] (Mi 16-18),lsf_166603,u ubung zum semesterbegleit praktikum u ubung zum semesterbegleit praktikum fd 3 mi 16 18
+LSF,lsf_166604,PS Ökopositiver Deutschunterricht – Ökokrise und BNE im Fachunterricht mit Kinder- und Jugendliteratur - [PS Literaturdidaktik] (Do 16-18),lsf_166604,ps okopositiver deutschunterricht okokrise und bne im fachunterricht mit kinder und jugendliteratur ps literaturdidaktik do 16 18
+LSF,lsf_166606,HS Lyrik in Wissenschaft und Unterricht - in Kombination mit PS Lyrik in Wissenschaft und Unterricht (Appel) [HS Lit. n. 1800 / Hist. Fragest. n. 1700 / Syst. Fragest. n. 1700] (Mo 14-16),lsf_166606,hs lyrik in wissenschaft und unterricht in kombination mit ps lyrik in wissenschaft und unterricht appel hs lit n 1800 hist fragest n 1700 syst fragest n 1700 mo 14 16
+LSF,lsf_166607,HS Expressionismus: Kunst – Literatur – Film - [HS Lit. n. 1800 / Hist. Fragest. n. 1700 / Syst. Fragest. n. 1700] (Di 14-16),lsf_166607,hs expressionismus kunst literatur film hs lit n 1800 hist fragest n 1700 syst fragest n 1700 di 14 16
+LSF,lsf_166608,HS Österreichische Erzähler des 19. Jahrhunderts - [HS Lit. n. 1800 / Hist. Fragest. n. 1700 / Syst. Fragest. n. 1700] (Di 8-10),lsf_166608,hs osterreichische erzahler des 19 jahrhunderts hs lit n 1800 hist fragest n 1700 syst fragest n 1700 di 8 10
+LSF,lsf_166609,HS Literarische Klerus-Kritik - [HS Lit. 1500-1800 u. n.1800 / Histor. Fragest. v. 1700 + n. 1700 / Syst. Fragest. v. 1700 + n. 1700] (Mo 12-14),lsf_166609,hs literarische klerus kritik hs lit 1500 1800 u n 1800 histor fragest v 1700 n 1700 syst fragest v 1700 n 1700 mo 12 14
+LSF,lsf_166610,ES Einführung in die Theaterwissenschaft - [Einführungsseminar: Theaterwissenschaft LKP] (Do 12-14),lsf_166610,es einfuhrung in die theaterwissenschaft einfuhrungsseminar theaterwissenschaft lkp do 12 14
+LSF,lsf_166611,ES Einführung in die Filmwissenschaft [Einführungsseminar: Filmwissenschaft LKP] (Mi 10-12),lsf_166611,es einfuhrung in die filmwissenschaft einfuhrungsseminar filmwissenschaft lkp mi 10 12
+LSF,lsf_166612,ES Einführungsseminar Editionswissenschaft (LKP) - [Einführungsseminar Editionswissenschaft] (Di 10-12),lsf_166612,es einfuhrungsseminar editionswissenschaft lkp einfuhrungsseminar editionswissenschaft di 10 12
+LSF,lsf_166614,VL Theorien und Methoden der Literaturwissenschaft - [VL Theorien und Methoden der Literaturwissenschaft (Germanistik)] (Mo 10-12),lsf_166614,vl theorien und methoden der literaturwissenschaft vl theorien und methoden der literaturwissenschaft germanistik mo 10 12
+LSF,lsf_166615,VL Die Bühne als Welt: Formen der Wirklichkeitsverhandlung im Drama (17.-21. Jh.) - [VL Hist. Fragest. v.+n. 1700 / Lit. 1500-1800 / n.1800 / Lit. allg. / Lit. n. 1500 / Syst. Fragst.] (Do 10-12),lsf_166615,vl die buhne als welt formen der wirklichkeitsverhandlung im drama 17 21 jh vl hist fragest v n 1700 lit 1500 1800 n 1800 lit allg lit n 1500 syst fragst do 10 12
+LSF,lsf_166616,Quantum Information Technologies (experimental-physikalisches Seminar),lsf_166616,quantum information technologies experimental physikalisches seminar
+LSF,lsf_166623,"Überblicksvorlesung ""Einführung in die spanische Sprachwissenschaft""",lsf_166623,uberblicksvorlesung einfuhrung in die spanische sprachwissenschaft
+LSF,lsf_166626,Die Klaviersonaten Franz Schuberts,lsf_166626,die klaviersonaten franz schuberts
+LSF,lsf_166627,Programmierung 1,prog1_26,programming 1
+LSF,lsf_166628,Grundzüge von Algorithmen und Datenstrukturen,introalgdat2627,introduction to algorithms and data structures
+LSF,lsf_166629,Grundzüge der Theoretischen Informatik,ti2627,introduction to theoretical computer science
+LSF,lsf_166630,Ringvorlesung Perspektiven der Informatik,lsf_166630,ringvorlesung perspektiven der informatik
+LSF,lsf_166631,Foundations of Cyber Security 1 (Grundlagen der Cybersicherheit 1),cysec1_2627,foundations of cybersecurity 1
+LSF,lsf_166632,Grundlagen der Medieninformatik,gdmi_2627,grundlagen der medieninformatik
+LSF,lsf_166633,Elements of Data Science and Artificial Intelligence,edsai26,elements of data science and artificial intelligence
+LSF,lsf_166635,Elements of Machine Learning,emlw26,elements of machine learning
+LSF,lsf_166641,"Angewandte Optik und Photonik: Optische Technologien in Industrie, Telekommunikation und Medizin (exp-physik. Wahlpflichtveranstaltung)",lsf_166641,angewandte optik und photonik optische technologien in industrie telekommunikation und medizin exp physik wahlpflichtveranstaltung
+LSF,lsf_166642,10112 Recherchieren und Präsentieren (10100) (10100 Modul Recherchieren und Präsentieren),lsf_166642,10112 recherchieren und prasentieren 10100 10100 modul recherchieren und prasentieren
+LSF,lsf_166643,10113 Recherchieren und Präsentieren (10100) (10100 Modul Recherchieren und Präsentieren),lsf_166643,10113 recherchieren und prasentieren 10100 10100 modul recherchieren und prasentieren
+LSF,lsf_166644,10111 Recherchieren und Präsentieren (10100) (10100 Modul Recherchieren und Präsentieren),lsf_166644,10111 recherchieren und prasentieren 10100 10100 modul recherchieren und prasentieren
+LSF,lsf_166647,Artificial Intelligence,ai_2627,artificial intelligence
+LSF,lsf_166648,Automated Reasoning,lsf_166648,automated reasoning
+LSF,lsf_166649,Computer Graphics,cg_2627,computer graphics
+LSF,lsf_166651,"Digital Transmission, Signal Processing",dtsp_2627,digital transmission signal processing
+LSF,lsf_166652,Human Computer Interaction,hci_2627,human computer interaction
+LSF,lsf_166653,Security,sec2627,security
+LSF,lsf_166654,Software Engineering,se_2627,software engineering
+LSF,lsf_166655,"Vorlesung AT: Die Erzeltern: Geschichte, Theologie und Rezeption",lsf_166655,at die erzeltern geschichte theologie und rezeption
+LSF,lsf_166656,"Altes Testament: ""Wir müssen reden"", Kommunikation mit Gott in den Psalmen",lsf_166656,altes testament wir mussen reden kommunikation mit gott in den psalmen
+LSF,lsf_166658,Einführung in das juristische Denken und Arbeiten - zugleich Vorbereitung auf die Propädeutische Übung -,lsf_166658,einfuhrung in das juristische denken und arbeiten zugleich vorbereitung auf die propadeutische ubung
+LSF,lsf_166659,Bürgerliches Vermögensrecht I,lsf_166659,burgerliches vermogensrecht 1
+LSF,lsf_166661,Strafrecht I,lsf_166661,strafrecht 1
+LSF,lsf_166663,"Staatsrecht I (Staatsgrundlagen, Staatsorganisation)",lsf_166663,staatsrecht 1 staatsgrundlagen staatsorganisation
+LSF,lsf_166665,Schuldrecht,lsf_166665,schuldrecht
+LSF,lsf_166667,Europarecht I,lsf_166667,europarecht 1
+LSF,lsf_166668,Allgemeines Verwaltungsrecht,lsf_166668,allgemeines verwaltungsrecht
+LSF,lsf_166669,Rechts- und Verfassungsgeschichte I (Grundlagenfach),lsf_166669,rechts und verfassungsgeschichte 1 grundlagenfach
+LSF,lsf_166670,Arbeitsrecht (Individualarbeitsrecht I),lsf_166670,arbeitsrecht individualarbeitsrecht 1
+LSF,lsf_166671,Strafrecht IV,lsf_166671,strafrecht iv
+LSF,lsf_166672,Besonderes Verwaltungsrecht Teil III (Kommunalrecht),lsf_166672,besonderes verwaltungsrecht teil 3 kommunalrecht
+LSF,lsf_166674,Verwaltungsrecht - Vertiefung,lsf_166674,verwaltungsrecht vertiefung
+LSF,lsf_166675,Zivilprozessrecht I (Erkenntnisverfahren),lsf_166675,zivilprozessrecht 1 erkenntnisverfahren
+LSF,lsf_166676,Übung im Bürgerlichen Recht für Fortgeschrittene,lsf_166676,im burgerlichen recht fur fortgeschrittene
+LSF,lsf_166677,Rechtsvergleichung (Grundlagenfach),lsf_166677,rechtsvergleichung grundlagenfach
+LSF,lsf_166678,Kapitalmarktrecht,lsf_166678,kapitalmarktrecht
+LSF,lsf_166679,Wettbewerbs- und Kartellrecht,lsf_166679,wettbewerbs und kartellrecht
+LSF,lsf_166680,Handelsrecht für Fortgeschrittene,lsf_166680,handelsrecht fur fortgeschrittene
+LSF,lsf_166681,Allgemeines Steuerrecht - Abgabenordnung,lsf_166681,allgemeines steuerrecht abgabenordnung
+LSF,lsf_166682,Einkommensteuer- und Körperschaftsteuerrecht,lsf_166682,einkommensteuer und korperschaftsteuerrecht
+LSF,lsf_166683,Übungen im Steuerrecht,lsf_166683,ubungen im steuerrecht
+LSF,lsf_166684,Kollektives Arbeitsrecht (einschließlich Unternehmensmitbestimmung),lsf_166684,kollektives arbeitsrecht einschlielich unternehmensmitbestimmung
+LSF,lsf_166685,Völkerrecht (Allgemeiner Teil),lsf_166685,volkerrecht allgemeiner teil
+LSF,lsf_166686,Recht der Internationalen Organisationen,lsf_166686,recht der internationalen organisationen
+LSF,lsf_166687,Urheberrecht,lsf_166687,urheberrecht
+LSF,lsf_166689,Medienrecht,lsf_166689,medienrecht
+LSF,lsf_166693,Europäisches Strafrecht,lsf_166693,europaisches strafrecht
+LSF,lsf_166694,Internationales Strafrecht,lsf_166694,internationales strafrecht
+LSF,lsf_166696,Allgemeines Versicherungsvertragsrecht (Einführung in die Grundlagen),lsf_166696,allgemeines versicherungsvertragsrecht einfuhrung in die grundlagen
+LSF,lsf_166697,Besonderes Versicherungsvertragsrecht I (Einzelne Versicherungszweige),lsf_166697,besonderes versicherungsvertragsrecht 1 einzelne versicherungszweige
+LSF,lsf_166698,Einführung in das IT-Recht (Zivilrechtliche Grundlagen des IT-Rechts),lsf_166698,einfuhrung in das it recht zivilrechtliche grundlagen des it rechts
+LSF,lsf_166699,Technische Grundlagen des Internets und der Künstlichen Intelligenz,lsf_166699,technische grundlagen des internets und der kunstlichen intelligenz
+LSF,lsf_166700,Künstliche Intelligenz im Jurastudium,lsf_166700,kunstliche intelligenz im jurastudium
+LSF,lsf_166707,[fd/ spr] Language Learning and Teaching Methodology (Language Course III),lsf_166707,fd spr language learning and teaching methodology language course 3
+LSF,lsf_166708,[lingp/ fd] Fachdidaktik,lsf_166708,lingp fd fachdidaktik
+LSF,lsf_166710,[fd] Vor- und Nachbereitung des 4-wöchiges BP,lsf_166710,fd vor und nachbereitung des 4 wochiges bp
+LSF,lsf_166711,[fd] Vor- und Nachbereitung des semesterbegleitenden fachdidaktischen Praktikums,lsf_166711,fd vor und nachbereitung des semesterbegleitenden fachdidaktischen praktikums
+LSF,lsf_166712,Ontologie und Philosophie des Geistes,lsf_166712,ontologie und philosophie des geistes
+LSF,lsf_166713,Introduction into classical chinese philosophy,lsf_166713,introduction into classical chinese philosophy
+LSF,lsf_166714,Einführung in die Philosophie,lsf_166714,einfuhrung in die philosophie
+LSF,lsf_166715,Practical Philosophy,lsf_166715,practical philosophy
+LSF,lsf_166717,Einführung in die Sprachphilosophie und Logik I,lsf_166717,einfuhrung in die sprachphilosophie und logik 1
+LSF,lsf_166718,Lernwerkstatt Demokratische Schule: Philosophieren mit Kindern,lsf_166718,lernwerkstatt demokratische schule philosophieren mit kindern
+LSF,lsf_166719,Democratic Theory and Practice,lsf_166719,democratic theory and practice
+LSF,lsf_166720,Wittgenstein – Philosophische Untersuchungen,lsf_166720,wittgenstein philosophische untersuchungen
+LSF,lsf_166721,Press Start to Enter - Fiktion und virtuelle Welten,lsf_166721,press start to enter fiktion und virtuelle welten
+LSF,lsf_166722,Immanuel Kant: Die Religion innerhalb der Grenzen der bloßen Vernunft (Ethik in den Religionen spezial),lsf_166722,immanuel kant die religion innerhalb der grenzen der bloen vernunft ethik in den religionen spezial
+LSF,lsf_166723,Philosophie des Weltraums,lsf_166723,philosophie des weltraums
+LSF,lsf_166724,Einführung in die Methoden des Philosophie- und Ethikunterrichts,lsf_166724,einfuhrung in die methoden des philosophie und ethikunterrichts
+LSF,lsf_166725,Planung des Philosophie- und Ethikunterricht,lsf_166725,planung des philosophie und ethikunterricht
+LSF,lsf_166727,Einführung in die Methoden des Philosophie- und Ethikunterrichts,lsf_166727,einfuhrung in die methoden des philosophie und ethikunterrichts
+LSF,lsf_166728,Planung des Philosophie-/Ethikunterrichts,lsf_166728,planung des philosophie ethikunterrichts
+LSF,lsf_166732,"Lesen, Argumentieren, Schreiben",lsf_166732,lesen argumentieren schreiben
+LSF,lsf_166733,Platon: Politeia,lsf_166733,platon politeia
+LSF,lsf_166735,Planung des Philosophie- und Ethikunterricht,lsf_166735,planung des philosophie und ethikunterricht
+LSF,lsf_166738,Bachelorkolloquium,lsf_166738,bachelorkolloquium
+LSF,lsf_166739,Forschungskolloquium Theoretische Philosophie,lsf_166739,forschungskolloquium theoretische philosophie
+LSF,lsf_166741,Gute Folien und gute Rhetorik: Der Weg zur erfolgreichen Präsentation,lsf_166741,gute folien und gute rhetorik der weg zur erfolgreichen prasentation
+LSF,lsf_166743,ZB: Zellbiologie,lsf_166743,zb zellbiologie
+LSF,lsf_166744,GE: Genetik,lsf_166744,ge genetik
+LSF,lsf_166746,PP: Pflanzenphysiologie für Lehramt,lsf_166746,pp pflanzenphysiologie fur lehramt
+LSF,lsf_166750,BC: Biochemie I,lsf_166750,bc biochemie 1
+LSF,lsf_166752,HI: Histologie & Anatomie,lsf_166752,hi histologie anatomie
+LSF,lsf_166757,ZO: Praktikum Zoologie für Lehramt,lsf_166757,zo praktikum zoologie fur lehramt
+LSF,lsf_166770,GIS 2: Analyse-Tools und forschungsbezogene Anwendungen,lsf_166770,gis 2 analyse tools und forschungsbezogene anwendungen
+LSF,lsf_166776,[spr] English for Specific Purposes: Introduction to English Sentence Structure,lsf_166776,spr english for specific purposes introduction to english sentence structure
+LSF,lsf_166777,[spr] English for Specific Purposes: The English Verb: Tense/Aspect/Voice,lsf_166777,spr english for specific purposes the english verb tense aspect voice
+LSF,lsf_166778,[spr] Vocabulary,lsf_166778,spr vocabulary
+LSF,lsf_166779,[spr] Language Course Advanced / Language Course IV,lsf_166779,spr language course advanced language course iv
+LSF,lsf_166781,Linguistik und Sport [Französisch],lsf_166781,linguistik und sport franzosisch
+LSF,lsf_166784,Bildungswissenschaftliche Grundlagen (V),lsf_166784,bildungswissenschaftliche grundlagen v
+LSF,lsf_166793,Persönlichkeitsentwicklung und Erziehung I (MO 12-14),lsf_166793,personlichkeitsentwicklung und erziehung 1 mo 12 14
+LSF,lsf_166794,Persönlichkeitsentwicklung und Erziehung I (DI 12-14),lsf_166794,personlichkeitsentwicklung und erziehung 1 di 12 14
+LSF,lsf_166798,Pädagogisch-psychologische Diagnostik und Intervention (V),lsf_166798,padagogisch psychologische diagnostik und intervention v
+LSF,lsf_166799,Pädagogisch-psychologische Diagnostik und Intervention (MO 8-10),lsf_166799,padagogisch psychologische diagnostik und intervention mo 8 10
+LSF,lsf_166800,Pädagogisch-psychologische Diagnostik und Intervention (MO 16-18),lsf_166800,padagogisch psychologische diagnostik und intervention mo 16 18
+LSF,lsf_166801,Pädagogisch-psychologische Diagnostik und Intervention (MI 10-12),lsf_166801,padagogisch psychologische diagnostik und intervention mi 10 12
+LSF,lsf_166802,Pädagogisch-psychologische Diagnostik und Intervention (MI 14-16),lsf_166802,padagogisch psychologische diagnostik und intervention mi 14 16
+LSF,lsf_166803,PDAU (SL) - SegelZeit (DI 8-10) - keine Anmeldung über LSF möglich,lsf_166803,pdau sl segelzeit di 8 10 keine anmeldung uber lsf moglich
+LSF,lsf_166804,PDAU (SL) - FreiDay (FR 8-10) keine Anmeldung über LSF möglich,lsf_166804,pdau sl freiday fr 8 10 keine anmeldung uber lsf moglich
+LSF,lsf_166810,Persönlichkeitsentwicklung und Erziehung II (DO 8-10),lsf_166810,personlichkeitsentwicklung und erziehung 2 do 8 10
+LSF,lsf_166811,Persönlichkeitsentwicklung und Erziehung II (DI 10-12),lsf_166811,personlichkeitsentwicklung und erziehung 2 di 10 12
+LSF,lsf_166812,Persönlichkeitsentwicklung und Erziehung II (DI 12-14),lsf_166812,personlichkeitsentwicklung und erziehung 2 di 12 14
+LSF,lsf_166815,"Schulqualität, Qualitätsentwicklung und -sicherung in Schulen (DO 14-16)",lsf_166815,schulqualitat qualitatsentwicklung und sicherung in schulen do 14 16
+LSF,lsf_166816,"Schulqualität, Qualitätsentwicklung und -sicherung in Schulen (DI 14-16)",lsf_166816,schulqualitat qualitatsentwicklung und sicherung in schulen di 14 16
+LSF,lsf_166817,"Schulqualität, Qualitätsentwicklung und -sicherung in Schulen (DO 12-14)",lsf_166817,schulqualitat qualitatsentwicklung und sicherung in schulen do 12 14
+LSF,lsf_166818,"Schulqualität, Qualitätsentwicklung und -sicherung in Schulen (MI 12-14)",lsf_166818,schulqualitat qualitatsentwicklung und sicherung in schulen mi 12 14
+LSF,lsf_166819,"Schulqualität, Qualitätsentwicklung und -sicherung in Schulen (DO 10-12)",lsf_166819,schulqualitat qualitatsentwicklung und sicherung in schulen do 10 12
+LSF,lsf_166822,Grundlagen des sprachsensiblen Fachunterrichts und Schreibförderung (Mo 12-14 / Di 14-16),lsf_166822,grundlagen des sprachsensiblen fachunterrichts und schreibforderung mo 12 14 di 14 16
+LSF,lsf_166823,Sprachförderung in der Grundschule: Grundlagen (Mo 14-16),lsf_166823,sprachforderung in der grundschule grundlagen mo 14 16
+LSF,lsf_166826,Sprachförderung in der Grundschule: praktische Umsetzung,lsf_166826,sprachforderung in der grundschule praktische umsetzung
+LSF,lsf_166827,"VL Grundlagen der (Zweit-) Spracherwerbsforschung für den Unterricht in mehrsprachigen Klassen (Weiterbildungsmaster, Lehrämter, Zertifikat 3, Erasmus Linguistik) (Fr 14-16)",lsf_166827,vl grundlagen der zweit spracherwerbsforschung fur den unterricht in mehrsprachigen klassen weiterbildungsmaster lehramter zertifikat 3 erasmus linguistik fr 14 16
+LSF,lsf_166828,Service Learning - SegelZeit (DI 10-12) keine Anmeldung über LSF möglich,lsf_166828,service learning segelzeit di 10 12 keine anmeldung uber lsf moglich
+LSF,lsf_166829,Service Learning - FreiDay (FR 10-12) keine Anmeldung über LSF möglich,lsf_166829,service learning freiday fr 10 12 keine anmeldung uber lsf moglich
+LSF,lsf_166833,Bildungstechnologie und Digitale Medien (MI 10-12),lsf_166833,bildungstechnologie und digitale medien mi 10 12
+LSF,lsf_166834,Audio/Visual Communication and Networks (Telecommunications 2),avcn_2627,audio visual communication networks
+LSF,lsf_166835,Natural Computing and Algorithms,natcomp,natural computing and algorithms
+LSF,lsf_166842,PS ABC und andere Irrtümer – Zwischen Rechtschreib- und Grammatikunterricht - [PS Sprachdidaktik] (Fr 12-14),lsf_166842,ps abc und andere irrtumer zwischen rechtschreib und grammatikunterricht ps sprachdidaktik fr 12 14
+LSF,lsf_166844,Image Acquisition Methods,iam26,image acquisition methods
+LSF,lsf_166854,Program Analysis,lsf_166854,program analysis
+LSF,lsf_166856,Artificially Empathic Technology,aet2026,artificial empathic technology
+LSF,lsf_166863,Statistical Data Compression,statdc26,statistical data compression
+LSF,lsf_166864,Advanced Topics in Operating Systems,atos,advanced topics in operating systems
+LSF,lsf_166871,[spr] Practical English Phonetics / Phonetics with Listening Practice (American),lsf_166871,spr practical english phonetics phonetics with listening practice american
+LSF,lsf_166872,[spr] Practical English Phonetics / Phonetics with Listening Practice (General),lsf_166872,spr practical english phonetics phonetics with listening practice general
+LSF,lsf_166873,[spr] Practical English Phonetics / Phonetics with Listening Practice (British),lsf_166873,spr practical english phonetics phonetics with listening practice british
+LSF,lsf_166874,[spr] Oral Expression (Advanced),lsf_166874,spr oral expression advanced
+LSF,lsf_166875,[spr] Listening to English (Advanced),lsf_166875,spr listening to english advanced
+LSF,lsf_166880,Konstruktive Stoffdidaktik I: Messen und Zahl,lsf_166880,konstruktive stoffdidaktik 1 messen und zahl
+LSF,lsf_166882,Analytische Geometrie (LS1+2),lsf_166882,analytische geometrie ls1 2
+LSF,lsf_166885,Vorbereitungsseminar zum Blockpraktikum,lsf_166885,vorbereitungsseminar zum blockpraktikum
+LSF,lsf_166888,Elementarmathematik: Optimieren,lsf_166888,elementarmathematik optimieren
+LSF,lsf_166909,Islam in Europa,lsf_166909,islam in europa
+LSF,lsf_166910,Einführung in die Religionspädagogik,lsf_166910,einfuhrung in die religionspadagogik
+LSF,lsf_166913,[spr] Mediation - Sprachmittlung - Translation,lsf_166913,spr mediation sprachmittlung translation
+LSF,lsf_166915,[spr] Written Expression Advanced (BA/MA/Lehramt),lsf_166915,spr written expression advanced ba ma lehramt
+LSF,lsf_166917,Written Expression Intermediate,lsf_166917,written expression intermediate
+LSF,lsf_166920,VL Einführung in die Historische Sprachwissenschaft - [VL zur Historischen Sprachwissenschaft] (Di 10-12),lsf_166920,vl einfuhrung in die historische sprachwissenschaft vl zur historischen sprachwissenschaft di 10 12
+LSF,lsf_166921,PS Überblick über die Geschichte der deutschen Sprache - [PS Gesch. der dt. Sprache / Histor. Sprachwissenschaft] (Mo 10-12),lsf_166921,ps uberblick uber die geschichte der deutschen sprache ps gesch der dt sprache histor sprachwissenschaft mo 10 12
+LSF,lsf_166922,PS Überblick über die Geschichte der deutschen Sprache - [PS Gesch. der dt. Sprache / Histor. Sprachwissenschaft] (Mi 12-14),lsf_166922,ps uberblick uber die geschichte der deutschen sprache ps gesch der dt sprache histor sprachwissenschaft mi 12 14
+LSF,lsf_166923,PS Überblick über die Geschichte der deutschen Sprache - [PS Gesch. der dt. Sprache / Histor. Sprachwissenschaft] (Di 8-10),lsf_166923,ps uberblick uber die geschichte der deutschen sprache ps gesch der dt sprache histor sprachwissenschaft di 8 10
+LSF,lsf_166924,PS Überblick über die Geschichte der deutschen Sprache - [PS Gesch. der dt. Sprache / Histor. Sprachwissenschaft] (Mo 14-16),lsf_166924,ps uberblick uber die geschichte der deutschen sprache ps gesch der dt sprache histor sprachwissenschaft mo 14 16
+LSF,lsf_166925,K Kolloquium Germanistische Mediävistik (Für Examenskandidat[inn]en und fortgeschrittene Studierende) - (Do 8-10),lsf_166925,k kolloquium germanistische mediavistik fur examenskandidat inn en und fortgeschrittene studierende do 8 10
+LSF,lsf_166928,Grammatik I,lsf_166928,grammatik 1
+LSF,lsf_166933,PS Helmbrecht - [PS Lektüre mittelhochdeutscher Texte] (Mi 14-16),lsf_166933,ps helmbrecht ps lekture mittelhochdeutscher texte mi 14 16
+LSF,lsf_166934,PS Walther von der Vogelweide - [PS Lektüre mittelhochdeutscher Texte] (Do 12-14),lsf_166934,ps walther von der vogelweide ps lekture mittelhochdeutscher texte do 12 14
+LSF,lsf_166936,PS Nibelungenlied - [PS Lektüre mittelhochdeutscher Texte] (Do 14-16),lsf_166936,ps nibelungenlied ps lekture mittelhochdeutscher texte do 14 16
+LSF,lsf_166937,PS Hartmann von Aue: Gregorius - [PS Lektüre mittelhochdeutscher Texte] (Fr 10-12),lsf_166937,ps hartmann von aue gregorius ps lekture mittelhochdeutscher texte fr 10 12
+LSF,lsf_166938,HS Lug und Trug im Mittelalter - [HS Lit. d. Mittelalters / Hist. Fragest. v. 1700 / Syst. Fragest. v. 1700] (Di 12-14),lsf_166938,hs lug und trug im mittelalter hs lit d mittelalters hist fragest v 1700 syst fragest v 1700 di 12 14
+LSF,lsf_166939,HS -Der Parzival in seinem Umfeld- [HS Lit. d. Mittelalters / Hist. Fragest. v. 1700 / Syst. Fragest. v. 1700] (Di 14-16),lsf_166939,hs der parzival in seinem umfeld hs lit d mittelalters hist fragest v 1700 syst fragest v 1700 di 14 16
+LSF,lsf_166944,[spr] Language Course Intermediate II / Language Course II,lsf_166944,spr language course intermediate 2 language course 2
+LSF,lsf_166945,[spr] Language Course Intermediate I / Language Course I,lsf_166945,spr language course intermediate 1 language course 1
+LSF,lsf_166955,Ü Grundlagen des Literatur- und Medienunterrichts in der Grundschule- [Ü Übung Literatur und Medien in der Grundschule] (Mi 8.30-10.00),lsf_166955,u grundlagen des literatur und medienunterrichts in der grundschule u ubung literatur und medien in der grundschule mi 8 30 10 00
+LSF,lsf_166957,Ü Grundlagen des Literatur- und Medienunterrichts in der Grundschule - [Ü Übung Literatur und Medien in der Grundschule] (Mi 14.15-15.45),lsf_166957,u grundlagen des literatur und medienunterrichts in der grundschule u ubung literatur und medien in der grundschule mi 14 15 15 45
+LSF,lsf_166958,Analysis I,ana1_2627,analysis 1
+LSF,lsf_166959,Mathematische Bildverarbeitung,lsf_166959,mathematische bildverarbeitung
+LSF,lsf_166960,VSI MINT Proseminar: Erstellen mathematischer Texte in LaTeX,lsf_166960,vsi mint proseminar erstellen mathematischer texte in latex
+LSF,lsf_166961,"Lesen mit Kopf, Herz, Hand und Tablet - Handlungs- und produktionsorientierter Umgang mit Kinder- und Jugendliteratur [PS Kinder- u. Jugendliteratur/Leseförderung 1] (Do 14-16)",lsf_166961,lesen mit kopf herz hand und tablet handlungs und produktionsorientierter umgang mit kinder und jugendliteratur ps kinder u jugendliteratur leseforderung 1 do 14 16
+LSF,lsf_166965,Ausgewählte Themen zu Wissen und Wissenschaft (auch: Einführung in das wissenschaftliche Arbeiten),lsf_166965,ausgewahlte themen zu wissen und wissenschaft auch einfuhrung in das wissenschaftliche arbeiten
+LSF,lsf_166966,Repetitorium im Strafrecht,lsf_166966,repetitorium im strafrecht
+LSF,lsf_166972,Gemeinschaftsrepetitorium im Privatrecht,lsf_166972,gemeinschaftsrepetitorium im privatrecht
+LSF,lsf_166974,Mathematik für Informatiker III (Mathematics for Computer Scientists III),mfcs3_wise2627,mathematics for computer scientists 3
+LSF,lsf_166975,Evolutionsbiologie,lsf_166975,evolutionsbiologie
+LSF,lsf_166976,Life Insurance Mathematics,life_w26,life insurance mathematics
+LSF,lsf_166977,Mathematik für Naturwissenschaftler I,mfn_i,mathematik fur naturwissenschaftler 1
+LSF,lsf_166978,Algebraic Geometry,alg_geo,algebraic geometry
+LSF,lsf_166979,Höhere Mathematik für Ingenieure III,hmi32627,hohere mathematik fur ingenieure 3
+LSF,lsf_166981,Seminar: Integralgleichungen,inteq,integralgleichungen
+LSF,lsf_166983,Differential- und Integralrechnung in einer Veränderlichen mit numerischen Aspekten [DIN 1] (LS1),lsf_166983,differential und integralrechnung in einer veranderlichen mit numerischen aspekten din 1 ls1
+LSF,lsf_166984,Differential- und Integralrechnung in mehreren Veränderlichen mit numerischen Aspekten [DIN 2] (LS1),lsf_166984,differential und integralrechnung in mehreren veranderlichen mit numerischen aspekten din 2 ls1
+LSF,lsf_166985,Wahrscheinlichkeit und Statistik (LS1 und LS1+2),lsf_166985,wahrscheinlichkeit und statistik ls1 und ls1 2
+LSF,lsf_166986,Einführung in die Numerik,enum26,einfuhrung in die numerik
+LSF,lsf_166989,Funktionenräume mit Anwendungen,funcspaces26,funktionenraume mit anwendungen
+LSF,lsf_166990,Tutorium Leseliste Literaturgeschichte,lsf_166990,tutorium leseliste literaturgeschichte
+LSF,lsf_166991,Unionsbürgerschaft. Theoretische und ideengeschichtliche Grundlagen einer besonderen Staatsbürgerschaft,lsf_166991,unionsburgerschaft theoretische und ideengeschichtliche grundlagen einer besonderen staatsburgerschaft
+LSF,lsf_167001,[litv] Writing Politics: Conflict and Power in American Literature,lsf_167001,litv writing politics conflict and power in american literature
+LSF,lsf_167005,VL Epochen der deutschsprachigen Literatur von der Reformationszeit bis zur Romantik - [VL Hist. Fragest. v.+n. 1700 / Lit. 1500-1800 / n.1800 / Lit. allg. / Lit. n. 1500 / Syst. Fragst.] (Mo 8-10),lsf_167005,vl epochen der deutschsprachigen literatur von der reformationszeit bis zur romantik vl hist fragest v n 1700 lit 1500 1800 n 1800 lit allg lit n 1500 syst fragst mo 8 10
+LSF,lsf_167006,Grundkurs Literaturwissenschaft 1 - [Grundkurs Literaturwissenschaft I - Einführung] (Do 16-18),lsf_167006,grundkurs literaturwissenschaft 1 grundkurs literaturwissenschaft 1 einfuhrung do 16 18
+LSF,lsf_167007,Grundkurs Literaturwissenschaft 1 - [Grundkurs Literaturwissenschaft I - Einführung] (Do 14-16),lsf_167007,grundkurs literaturwissenschaft 1 grundkurs literaturwissenschaft 1 einfuhrung do 14 16
+LSF,lsf_167008,Grundkurs Literaturwissenschaft 1 - [Grundkurs Literaturwissenschaft I - Einführung] (Do 10-12),lsf_167008,grundkurs literaturwissenschaft 1 grundkurs literaturwissenschaft 1 einfuhrung do 10 12
+LSF,lsf_167010,[lith] Writing with Water,lsf_167010,lith writing with water
+LSF,lsf_167011,[litp] 20th Century American Drama (North American Literary and Cultural Studies),lsf_167011,litp 20th century american drama north american literary and cultural studies
+LSF,lsf_167012,Lektürekurs zu den literaturgeschichtlichen Vorlesungen (nur für ERASMUS-Studierende) (Do 14-16),lsf_167012,lekturekurs zu den literaturgeschichtlichen vorlesungen nur fur erasmus studierende do 14 16
+LSF,lsf_167013,PS Von der Empfindsamkeit zum Sturm und Drang - [PS Lit. 1500-1800] (Mo10-12),lsf_167013,ps von der empfindsamkeit zum sturm und drang ps lit 1500 1800 mo10 12
+LSF,lsf_167014,"PS Zwischen Kunst, Wissenschaft und Psychoanalyse: Weibliche Aufbrüche in der Literatur um 1900 - [PS Lit. n. 1800] (Di 16-18)",lsf_167014,ps zwischen kunst wissenschaft und psychoanalyse weibliche aufbruche in der literatur um 1900 ps lit n 1800 di 16 18
+LSF,lsf_167015,PS Mascha Kaléko und die Lyrik der Neuen Sachlichkeit - [PS Lit. n. 1800] (Di 16-18),lsf_167015,ps mascha kaleko und die lyrik der neuen sachlichkeit ps lit n 1800 di 16 18
+LSF,lsf_167016,PS Genette lesen. Erzähltextanalyse in Theorie und Praxis - [PS Lit. n. 1800] (Mi 14-16),lsf_167016,ps genette lesen erzahltextanalyse in theorie und praxis ps lit n 1800 mi 14 16
+LSF,lsf_167017,PS Computerspiele in/als Literatur - [PS Lit. n. 1800] (Do 14-16),lsf_167017,ps computerspiele in als literatur ps lit n 1800 do 14 16
+LSF,lsf_167018,PS Schlachtfeld und Schreibtisch. Krieg als Thema der Literatur - [PS Lit. 1500-1800 + n. 1800] (Mi 14-16),lsf_167018,ps schlachtfeld und schreibtisch krieg als thema der literatur ps lit 1500 1800 n 1800 mi 14 16
+LSF,lsf_167019,[lingp] Applied Linguistics,lsf_167019,lingp applied linguistics
+LSF,lsf_167020,PS Das Wiener Volkstheater - [PS Lit. 1500-1800 + n. 1800] (Do 8-10),lsf_167020,ps das wiener volkstheater ps lit 1500 1800 n 1800 do 8 10
+LSF,lsf_167021,PS Doktor Johann Faust – Der Fauststoff im Wandel der Zeit - [PS Lit. 1500-1800 + n. 1800] (Fr 8-10),lsf_167021,ps doktor johann faust der fauststoff im wandel der zeit ps lit 1500 1800 n 1800 fr 8 10
+LSF,lsf_167024,"Forschendes Lernen: Vision, Prophetie und Klage. Formen politischer Theologie im AT.",lsf_167024,forschendes lernen vision prophetie und klage formen politischer theologie im at
+LSF,lsf_167027,Geschichte des Papsttums im Mittelalter,lsf_167027,geschichte des papsttums im mittelalter
+LSF,lsf_167029,"Arabische Diasporas in Europa: Migration, Identität und transnationale Lebenswelten aus kulturanthropologischer Perspektive",lsf_167029,arabische diasporas in europa migration identitat und transnationale lebenswelten aus kulturanthropologischer perspektive
+LSF,lsf_167030,Sprachmittlung (Master) - Dimension interculturelle,lsf_167030,sprachmittlung master dimension interculturelle
+LSF,lsf_167032,Fachsprache: Parler français dans le monde de l’économie ? Na klar!,lsf_167032,fachsprache parler francais dans le monde de leconomie na klar
+LSF,lsf_167033,"Cuisine (genrée ?) et cinéma (séries télé et films français, allemands et autres...)",lsf_167033,cuisine genree et cinema series tele et films francais allemands et autres
+LSF,lsf_167035,La culture française : un héritage politique ? De 1981 à nos jours,lsf_167035,la culture francaise un heritage politique de 1981 a nos jours
+LSF,lsf_167048,HS Hermann Hesse: Der Steppenwolf - [HS Lit. n. 1800 / Hist. Fragest. n. 1700 / Syst. Fragest. n. 1700] (Di 14-16),lsf_167048,hs hermann hesse der steppenwolf hs lit n 1800 hist fragest n 1700 syst fragest n 1700 di 14 16
+LSF,lsf_167051,"HS Wozu Theorie? Geschichte, Macht und Repräsentation in literarischen Texten - [HS Lit. 1500-1800 u. n.1800 / Histor. Fragest. v. 1700 + n. 1700 / Syst. Fragest. v. 1700 + n. 1700] (Mi 14-16)",lsf_167051,hs wozu theorie geschichte macht und reprasentation in literarischen texten hs lit 1500 1800 u n 1800 histor fragest v 1700 n 1700 syst fragest v 1700 n 1700 mi 14 16
+LSF,lsf_167058,Grundkurs Sprachwissenschaft II - [Grundkurs Sprachwissenschaft II - Einführung] (Di 12-14),lsf_167058,grundkurs sprachwissenschaft 2 grundkurs sprachwissenschaft 2 einfuhrung di 12 14
+LSF,lsf_167059,Grundkurs Sprachwissenschaft I - [Grundkurs Sprachwissenschaft I - Einführung] (Mi 14-16),lsf_167059,grundkurs sprachwissenschaft 1 grundkurs sprachwissenschaft 1 einfuhrung mi 14 16
+LSF,lsf_167060,Grundkurs Sprachwissenschaft I - [Grundkurs Sprachwissenschaft I - Einführung] (Mo 10-12) Beginn 19.10.2026,lsf_167060,grundkurs sprachwissenschaft 1 grundkurs sprachwissenschaft 1 einfuhrung mo 10 12 beginn 19 10 2026
+LSF,lsf_167061,Grundkurs Sprachwissenschaft I - [Grundkurs Sprachwissenschaft I - Einführung] (Do 14-16),lsf_167061,grundkurs sprachwissenschaft 1 grundkurs sprachwissenschaft 1 einfuhrung do 14 16
+LSF,lsf_167063,Grundkurs Sprachwissenschaft I - [Grundkurs Sprachwissenschaft I - Einführung] (Mi 10-12),lsf_167063,grundkurs sprachwissenschaft 1 grundkurs sprachwissenschaft 1 einfuhrung mi 10 12
+LSF,lsf_167064,Grundkurs Sprachwissenschaft I - [Grundkurs Sprachwissenschaft I - Einführung] (Mo 8-10) Beginn 19.10.2026,lsf_167064,grundkurs sprachwissenschaft 1 grundkurs sprachwissenschaft 1 einfuhrung mo 8 10 beginn 19 10 2026
+LSF,lsf_167066,Grundkurs Sprachwissenschaft I - [Grundkurs Sprachwissenschaft I - Einführung] (Mi 8-10),lsf_167066,grundkurs sprachwissenschaft 1 grundkurs sprachwissenschaft 1 einfuhrung mi 8 10
+LSF,lsf_167069,HS Syntax gesprochener Sprache - [HS Gramm. + Strukturb. d. Dt. + Spr. u. Str.] (Mi 10-12),lsf_167069,hs syntax gesprochener sprache hs gramm strukturb d dt spr u str mi 10 12
+LSF,lsf_167070,HS Neuere Theorien zur Phonologie - [HS Gramm. + Strukturb. d. Dt. + Spr. u. Str.] (Do 12-14),lsf_167070,hs neuere theorien zur phonologie hs gramm strukturb d dt spr u str do 12 14
+LSF,lsf_167071,PS Morphologie des Deutschen im Vergleich - [PS Grammatik / Sprache u. Struktur] (Do 10-12),lsf_167071,ps morphologie des deutschen im vergleich ps grammatik sprache u struktur do 10 12
+LSF,lsf_167072,K Master- und Doktorandenkolloquium (Mi 12-14),lsf_167072,k master und doktorandenkolloquium mi 12 14
+LSF,lsf_167073,VL Syntax - [VL Grammatik / Sprache + Struktur] (Do 14-16),lsf_167073,vl syntax vl grammatik sprache struktur do 14 16
+LSF,lsf_167075,15624 Volleyball (15620] (15600 Modul Sportpraxis 3),lsf_167075,15624 volleyball 15620 15600 modul sportpraxis 3
+LSF,lsf_167078,15611 Basketball (15610] (15600 Modul Sportpraxis 3),lsf_167078,15611 basketball 15610 15600 modul sportpraxis 3
+LSF,lsf_167080,15641 Spielmethodik (15600 Modul Spielen),lsf_167080,15641 spielmethodik 15600 modul spielen
+LSF,lsf_167082,15642 Spielmethodik (15600 Modul Spielen),lsf_167082,15642 spielmethodik 15600 modul spielen
+LSF,lsf_167086,15643 Spielmethodik (15600 Modul Spielen),lsf_167086,15643 spielmethodik 15600 modul spielen
+LSF,lsf_167091,HS Orthographie - [HS Gramm. + Strukturb. d. Dt. + Spr. u. Str.] (Do 8-10),lsf_167091,hs orthographie hs gramm strukturb d dt spr u str do 8 10
+LSF,lsf_167092,"HS ""Was Hänschen nicht lernt..."" Zum Altersfaktor im Spracherwerb - [HS Sem./Pragm. + Text u. Disk. + Spr. u. Bed. / HS Gramm. + Strukturb. d. Dt. + Spr. u. Str.] (Do 10-12)",lsf_167092,hs was hanschen nicht lernt zum altersfaktor im spracherwerb hs sem pragm text u disk spr u bed hs gramm strukturb d dt spr u str do 10 12
+LSF,lsf_167094,HS Was weißt Duden? Über Grammatik - [HS Sem./Pragm. + Text u. Disk. + Spr. u. Bed. / HS Gramm. + Strukturb. d. Dt. + Spr. u. Str.] (Di 8-10),lsf_167094,hs was weit duden uber grammatik hs sem pragm text u disk spr u bed hs gramm strukturb d dt spr u str di 8 10
+LSF,lsf_167095,PS Einführung in die Semantik - [PS Semantik/Pragmatik / Sprache u. Bedeutung] (Mo 12-14),lsf_167095,ps einfuhrung in die semantik ps semantik pragmatik sprache u bedeutung mo 12 14
+LSF,lsf_167096,VL Pragmatik: Sprache im Kontext - [VL Semantik/Pragmatik / Sprache u. Bedeutung] (Di 10-12),lsf_167096,vl pragmatik sprache im kontext vl semantik pragmatik sprache u bedeutung di 10 12
+LSF,lsf_167099,HS Experimentelle Linguistik - [HS Sem./Pragm. + Text u. Disk. + Spr. u. Bed. / HS Gramm. + Strukturb. d. Dt. + Spr. u. Str.] (Mi 8-10),lsf_167099,hs experimentelle linguistik hs sem pragm text u disk spr u bed hs gramm strukturb d dt spr u str mi 8 10
+LSF,lsf_167106,HS Fragesätze und Fragen - [HS Sem./Pragm. + Text u. Disk. + Spr. u. Bed. / HS Gramm. + Strukturb. d. Dt. + Spr. u. Str.] (Mo 10-12),lsf_167106,hs fragesatze und fragen hs sem pragm text u disk spr u bed hs gramm strukturb d dt spr u str mo 10 12
+LSF,lsf_167107,Proseminar zur mittelalterliche Geschichte: Kirchenreform und Investiturstreit,lsf_167107,zur mittelalterliche geschichte kirchenreform und investiturstreit
+LSF,lsf_167108,HS Soziolinguistik - [HS Sem./Pragm. + Text u. Disk. + Spr. u. Bed. / HS Gramm. + Strukturb. d. Dt. + Spr. u. Str.] (Di 10-12),lsf_167108,hs soziolinguistik hs sem pragm text u disk spr u bed hs gramm strukturb d dt spr u str di 10 12
+LSF,lsf_167109,Quellenübung: Der erste Kreuzzug,lsf_167109,quellenubung der erste kreuzzug
+LSF,lsf_167110,HS Generative Syntax - [HS Gramm. + Strukturb. d. Dt. + Spr. u. Str.] (Di 10-12),lsf_167110,hs generative syntax hs gramm strukturb d dt spr u str di 10 12
+LSF,lsf_167115,15511 Bewegen an Geräten (15510) (15500 Modul Sportpraxis 2),lsf_167115,15511 bewegen an geraten 15510 15500 modul sportpraxis 2
+LSF,lsf_167116,15513 Bewegen an Geräten (15510) (15500 Modul Sportpraxis 2),lsf_167116,15513 bewegen an geraten 15510 15500 modul sportpraxis 2
+LSF,lsf_167117,15512 Bewegen an Geräten (15510) (15500 Modul Sportpraxis 2),lsf_167117,15512 bewegen an geraten 15510 15500 modul sportpraxis 2
+LSF,lsf_167120,22021 Begleitseminar (22020) (20300 Modul Praktikum 1),lsf_167120,22021 begleitseminar 22020 20300 modul praktikum 1
+LSF,lsf_167124,PS Einführung in die Statistik für Sprachwissenschaftler*innen - [PS Grammatik / Sprache u. Struktur + PS Semantik/Pragmatik / Sprache u. Bedeutung] (Di 14-16),lsf_167124,ps einfuhrung in die statistik fur sprachwissenschaftler innen ps grammatik sprache u struktur ps semantik pragmatik sprache u bedeutung di 14 16
+LSF,lsf_167125,PS Einführung in die Pragmatik - [PS Semantik/Pragmatik / Sprache u. Bedeutung] (Mi 16-18),lsf_167125,ps einfuhrung in die pragmatik ps semantik pragmatik sprache u bedeutung mi 16 18
+LSF,lsf_167126,PS Davon wird man nicht dummer/dümmer - Wissenschaftliches Arbeiten am Beispiel der Adjektivsteigerung - [PS Grammatik / Sprache u. Struktur] (Mo 14-16),lsf_167126,ps davon wird man nicht dummer dummer wissenschaftliches arbeiten am beispiel der adjektivsteigerung ps grammatik sprache u struktur mo 14 16
+LSF,lsf_167134,Gesellschaftsrecht für Wirtschaftswissenschaftler,lsf_167134,gesellschaftsrecht fur wirtschaftswissenschaftler
+LSF,lsf_167135,Wirtschaftsprivatrecht I,lsf_167135,wirtschaftsprivatrecht 1
+LSF,lsf_167136,Grundlagenmodul 2: Einführung in das Wirtschaftsprivatrecht,lsf_167136,grundlagenmodul 2 einfuhrung in das wirtschaftsprivatrecht
+LSF,lsf_167137,Mikroökonomie,lsf_167137,mikrookonomie
+LSF,lsf_167138,Märkte und Strategien I,lsf_167138,markte und strategien 1
+LSF,lsf_167140,Handwerk (in) der Frühen Neuzeit: Arbeit an originalen Quellen,lsf_167140,handwerk in der fruhen neuzeit arbeit an originalen quellen
+LSF,lsf_167142,15743 Sportpädagogik (15740) (15700 Modul Entwicklung fördern),lsf_167142,15743 sportpadagogik 15740 15700 modul entwicklung fordern
+LSF,lsf_167144,15742 Sportpädagogik (15740) (15700 Modul Entwicklung fördern),lsf_167144,15742 sportpadagogik 15740 15700 modul entwicklung fordern
+LSF,lsf_167145,15753 Sportpsychologie (15750) (15700 Modul Entwicklung fördern),lsf_167145,15753 sportpsychologie 15750 15700 modul entwicklung fordern
+LSF,lsf_167146,15751 Sportpsychologie (15750) (15700 Modul Entwicklung fördern),lsf_167146,15751 sportpsychologie 15750 15700 modul entwicklung fordern
+LSF,lsf_167167,11123 Evaluation von Individual- und Sozialverhalten (Modul Diagnostische Kompetenzen entwickeln),lsf_167167,11123 evaluation von individual und sozialverhalten modul diagnostische kompetenzen entwickeln
+LSF,lsf_167168,11121 Evaluation von Individual- und Sozialverhalten (Modul Diagnostische Kompetenzen entwickeln),lsf_167168,11121 evaluation von individual und sozialverhalten modul diagnostische kompetenzen entwickeln
+LSF,lsf_167169,11122 Evaluation von Individual- und Sozialverhalten (Modul Diagnostische Kompetenzen entwickeln),lsf_167169,11122 evaluation von individual und sozialverhalten modul diagnostische kompetenzen entwickeln
+LSF,lsf_167183,Rechnergestütztes Controlling,lsf_167183,rechnergestutztes controlling
+LSF,lsf_167185,Koordinationskonzepte des Controlling,lsf_167185,koordinationskonzepte des controlling
+LSF,lsf_167186,Controlling: Internes Rechnungswesen,lsf_167186,controlling internes rechnungswesen
+LSF,lsf_167203,21202 Unterrichten in Sportarten und Bewegungsfeldern (21200) (21000 Modul Unterrichten),lsf_167203,21202 unterrichten in sportarten und bewegungsfeldern 21200 21000 modul unterrichten
+LSF,lsf_167204,21201 Unterrichten in Sportarten und Bewegungsfeldern (21200) (21000 Modul Unterrichten),lsf_167204,21201 unterrichten in sportarten und bewegungsfeldern 21200 21000 modul unterrichten
+LSF,lsf_167207,Wiederholungskurs zur Deskriptiven Statistik und Wahrscheinlichkeitsrechnung,lsf_167207,wiederholungskurs zur deskriptiven statistik und wahrscheinlichkeitsrechnung
+LSF,lsf_167209,Schließende Statistik,lsf_167209,schlieende statistik
+LSF,lsf_167210,PS Erstspracherwerb - [PS Grammatik / Sprache u. Struktur + PS Semantik/Pragmatik / Sprache u. Bedeutung] (Fr 10-12) Achtung! TERMINÄNDERUNG nicht mehr Mo,lsf_167210,ps erstspracherwerb ps grammatik sprache u struktur ps semantik pragmatik sprache u bedeutung fr 10 12 achtung terminanderung nicht mehr mo
+LSF,lsf_167212,PS Saarländisch - [PS Grammatik / Sprache u. Struktur + PS Semantik/Pragmatik / Sprache u. Bedeutung] (Di 16-18),lsf_167212,ps saarlandisch ps grammatik sprache u struktur ps semantik pragmatik sprache u bedeutung di 16 18
+LSF,lsf_167214,PS Korpuslinguistik - [PS Grammatik / Sprache u. Struktur + PS Semantik/Pragmatik / Sprache u. Bedeutung - Projektorientiertes Arbeiten PA] (Mi 16-18),lsf_167214,ps korpuslinguistik ps grammatik sprache u struktur ps semantik pragmatik sprache u bedeutung projektorientiertes arbeiten pa mi 16 18
+LSF,lsf_167216,23200 Begleitseminar (23000 Modul Praktikum 2),lsf_167216,23200 begleitseminar 23000 modul praktikum 2
+LSF,lsf_167217,22021 Begleitseminar (22020) (20300 Modul Praktikum 1),lsf_167217,22021 begleitseminar 22020 20300 modul praktikum 1
+LSF,lsf_167218,40210 Sportpädagogik (40200 Modul Sozialwissenschaftliches Vertiefungsfach),lsf_167218,40210 sportpadagogik 40200 modul sozialwissenschaftliches vertiefungsfach
+LSF,lsf_167219,40121 Bewegungswissenschaft (40100 Modul Naturwissenschaftliches Vertiefungsfach),lsf_167219,40121 bewegungswissenschaft 40100 modul naturwissenschaftliches vertiefungsfach
+LSF,lsf_167220,40230 Sportsoziologie (40200 Modul Sozialwissenschaftliches Vertiefungsfach),lsf_167220,40230 sportsoziologie 40200 modul sozialwissenschaftliches vertiefungsfach
+LSF,lsf_167221,40131 Trainingswissenschaft (40100 Modul Naturwissenschaftliches Vertiefungsfach),lsf_167221,40131 trainingswissenschaft 40100 modul naturwissenschaftliches vertiefungsfach
+LSF,lsf_167222,Empirisches Projekt zum Marketing,lsf_167222,empirisches projekt zum marketing
+LSF,lsf_167223,Marketingmanagement,lsf_167223,marketingmanagement
+LSF,lsf_167224,Marktforschung I,lsf_167224,marktforschung 1
+LSF,lsf_167231,PS Leichte Sprache - [PS Grammatik / Sprache u. Struktur + PS Semantik/Pragmatik / Sprache u. Bedeutung] (Di 16-18),lsf_167231,ps leichte sprache ps grammatik sprache u struktur ps semantik pragmatik sprache u bedeutung di 16 18
+LSF,lsf_167234,PS Valenz - [PS Grammatik / Sprache u. Struktur] (Di 12-14),lsf_167234,ps valenz ps grammatik sprache u struktur di 12 14
+LSF,lsf_167238,Entraînement interculturel,lsf_167238,entrainement interculturel
+LSF,lsf_167241,12011 Begleitseminar (12010) (12000 Modul Bachelorarbeit),lsf_167241,12011 begleitseminar 12010 12000 modul bachelorarbeit
+LSF,lsf_167245,Technologiemanagement,lsf_167245,technologiemanagement
+LSF,lsf_167247,Innovations- und Gründungsmanagement,lsf_167247,innovations und grundungsmanagement
+LSF,lsf_167248,[cs] Cultural Studies II UK and Ireland: Introduction to Gender Studies,lsf_167248,cs cultural studies 2 uk and ireland introduction to gender studies
+LSF,lsf_167250,[litk] Research Colloquium,lsf_167250,litk research colloquium
+LSF,lsf_167251,Mathematik für Wirtschaftswissenschaftler,lsf_167251,mathematik fur wirtschaftswissenschaftler
+LSF,lsf_167252,[lingp] Global Englishes in Use: Exploring English as a Lingua Franca,lsf_167252,lingp global englishes in use exploring english as a lingua franca
+LSF,lsf_167253,Advanced Econometrics,lsf_167253,advanced econometrics
+LSF,lsf_167254,[lingp] Language Change: English and Beyond,lsf_167254,lingp language change english and beyond
+LSF,lsf_167255,[lith] Early Modern Sonnets,lsf_167255,lith early modern sonnets
+LSF,lsf_167258,[litp] Romantic Poetry (British Literary and Cultural Studies),lsf_167258,litp romantic poetry british literary and cultural studies
+LSF,lsf_167259,[litp] Literature of World War I (British Literary and Cultural Studies),lsf_167259,litp literature of world war 1 british literary and cultural studies
+LSF,lsf_167261,[lingks] Kolloquium Self-Study Linguistics,lsf_167261,lingks kolloquium self study linguistics
+LSF,lsf_167273,"[lingv] Language, Culture and Cognition",lsf_167273,lingv language culture and cognition
+LSF,lsf_167274,[lingh] Advanced Topics in Semantics,lsf_167274,lingh advanced topics in semantics
+LSF,lsf_167275,"[cs] Introduction to Media Studies: Is AI Taking Over - for Better or Worse? AI, Robots and Technology in North American Sci-Fi Media (Movies, Series & Games)",lsf_167275,cs introduction to media studies is ai taking over for better or worse ai robots and technology in north american sci fi media movies series games
+LSF,lsf_167276,Bewertungs- und Optionspreistheorie,lsf_167276,bewertungs und optionspreistheorie
+LSF,lsf_167277,Unternehmensfinanzierung und Kapitalmarkttheorie,lsf_167277,unternehmensfinanzierung und kapitalmarkttheorie
+LSF,lsf_167278,Investition und Finanzierung,lsf_167278,investition und finanzierung
+LSF,lsf_167280,Anwendungsorientierte Fragen der Unternehmensbewertung,lsf_167280,anwendungsorientierte fragen der unternehmensbewertung
+LSF,lsf_167282,Die Perserkriege,lsf_167282,die perserkriege
+LSF,lsf_167284,Korrosion und Hochtemperaturverhalten,lsf_167284,korrosion und hochtemperaturverhalten
+LSF,lsf_167286,Experimentelle Grundlagen der Mikroskopie und Spektroskopie,lsf_167286,experimentelle grundlagen der mikroskopie und spektroskopie
+LSF,lsf_167287,Interne Veranstaltung des Lehrstuhls Experimentelle Methodik der Werkstoffwissenschaften,lsf_167287,interne veranstaltung des lehrstuhls experimentelle methodik der werkstoffwissenschaften
+LSF,lsf_167288,Methodik 5: Bruchmechanik,lsf_167288,methodik 5 bruchmechanik
+LSF,lsf_167289,Methodik 2,lsf_167289,methodik 2
+LSF,lsf_167290,Methodik 4: Hochauflösende Mikroskopieverfahren II,lsf_167290,methodik 4 hochauflosende mikroskopieverfahren 2
+LSF,lsf_167291,Methodik 2,lsf_167291,methodik 2
+LSF,lsf_167293,Methodik 5: Bruchmechanik,lsf_167293,methodik 5 bruchmechanik
+LSF,lsf_167295,Patentrecht,lsf_167295,patentrecht
+LSF,lsf_167299,[litp] Roots and Routes: Region and Mobility in American Literature (North American Literary and Cultural Studies),lsf_167299,litp roots and routes region and mobility in american literature north american literary and cultural studies
+LSF,lsf_167300,16310 Grundschulspezifiche Bewegungsfelder (16300 Modul Bewegungsfelder),lsf_167300,16310 grundschulspezifiche bewegungsfelder 16300 modul bewegungsfelder
+LSF,lsf_167301,30720 Bewegungserziehung (30700 Wahlmodul Bewegungserziehung),lsf_167301,30720 bewegungserziehung 30700 wahlmodul bewegungserziehung
+LSF,lsf_167303,30710 Kindliche Entwicklung (30700 Wahlmodul Bewegungserziehung),lsf_167303,30710 kindliche entwicklung 30700 wahlmodul bewegungserziehung
+LSF,lsf_167304,30320 Methoden des Fitnesstrainings (30300 Wahlmodul Fitnesstraining),lsf_167304,30320 methoden des fitnesstrainings 30300 wahlmodul fitnesstraining
+LSF,lsf_167305,30310 Sportpädagogische und -psychologische Aspekte von Fitnessprogrammen (30300 Wahlmodul Fitnesstraining),lsf_167305,30310 sportpadagogische und psychologische aspekte von fitnessprogrammen 30300 wahlmodul fitnesstraining
+LSF,lsf_167306,30110 Funktions- und Zweckgymnastik (30100 Modul Funktionsgymnastik),lsf_167306,30110 funktions und zweckgymnastik 30100 modul funktionsgymnastik
+LSF,lsf_167307,30120 Funktionelle Gymnastik (30100 Modul Funktionsgymnastik),lsf_167307,30120 funktionelle gymnastik 30100 modul funktionsgymnastik
+LSF,lsf_167309,31110 Sozialwissenschaftliche Aspekte des Freizeitsports (31100 Modul Freizeitsport),lsf_167309,31110 sozialwissenschaftliche aspekte des freizeitsports 31100 modul freizeitsport
+LSF,lsf_167311,G1512 Herzsport (G1500 Modul Rehabilitation),lsf_167311,g1512 herzsport g1500 modul rehabilitation
+LSF,lsf_167313,"G1110 Gesprächsführung, Stressmangement und Coaching (G1100 Modul Kommunikation)",lsf_167313,g1110 gesprachsfuhrung stressmangement und coaching g1100 modul kommunikation
+LSF,lsf_167315,G1311 Pathophysiologie wichtiger Erkrankungen (G1300 Modul Konzeption),lsf_167315,g1311 pathophysiologie wichtiger erkrankungen g1300 modul konzeption
+LSF,lsf_167316,G1010 Statisik (G1000 Modul Forschung),lsf_167316,g1010 statisik g1000 modul forschung
+LSF,lsf_167319,G1211 Methoden und Evaluation des Qualitätsmanagements (G1200 Modul Evaluation),lsf_167319,g1211 methoden und evaluation des qualitatsmanagements g1200 modul evaluation
+LSF,lsf_167321,G1511 Sporttherapie bei internistischen Erkrankungen (G1500 Modul Rehabilitation),lsf_167321,g1511 sporttherapie bei internistischen erkrankungen g1500 modul rehabilitation
+LSF,lsf_167323,I30310 Performance Analysis and data-science (I30300 Modul Performance Analysis and data-science),lsf_167323,i30310 performance analysis and data science i30300 modul performance analysis and data science
+LSF,lsf_167357,Wirtschaftsinformatik III - (AKBIS) Anwendungskonzepte betrieblicher Informationssysteme,lsf_167357,wirtschaftsinformatik 3 akbis anwendungskonzepte betrieblicher informationssysteme
+LSF,lsf_167358,Wirtschaftsinformatik I,lsf_167358,wirtschaftsinformatik 1
+LSF,lsf_167359,Process Mining,lsf_167359,process mining
+LSF,lsf_167360,Forschungskolloquium,lsf_167360,forschungskolloquium
+LSF,lsf_167361,Proseminar zur Wirtschaftsinformatik,lsf_167361,zur wirtschaftsinformatik
+LSF,lsf_167366,Development and Management of Information Systems,lsf_167366,development and management of information systems
+LSF,lsf_167367,Human-Centered Information Systems,lsf_167367,human centered information systems
+LSF,lsf_167369,Einführung in die Programmierung (für Bachelor-Studiengänge),lsf_167369,einfuhrung in die programmierung fur bachelor studiengange
+LSF,lsf_167370,Internationale Rechnungslegung (Vorlesung),lsf_167370,internationale rechnungslegung
+LSF,lsf_167371,Konzernrechnungslegung nach HGB,lsf_167371,konzernrechnungslegung nach hgb
+LSF,lsf_167372,Buchführung und Unternehmensrechnung,lsf_167372,buchfuhrung und unternehmensrechnung
+LSF,lsf_167375,Handelsmanagement,lsf_167375,handelsmanagement
+LSF,lsf_167376,Empirisches Projekt zum Handel,lsf_167376,empirisches projekt zum handel
+LSF,lsf_167377,Personalmanagement,lsf_167377,personalmanagement
+LSF,lsf_167378,Business Analytics I: Basic Analytics (Digital HRM III - Basic Analytics),lsf_167378,business analytics 1 basic analytics digital hrm 3 basic analytics
+LSF,lsf_167379,Digital Management Research (Digital Human Resource Management II: Research),lsf_167379,digital management research digital human resource management 2 research
+LSF,lsf_167414,Höhere Mathematik für Ingenieure I,lsf_167414,hohere mathematik fur ingenieure 1
+LSF,lsf_167417,Höhere Mathematik für Ingenieure I,lsf_167414,hohere mathematik fur ingenieure 1
+LSF,lsf_167419,Bewertung und Erbschaftsteuer A,lsf_167419,bewertung und erbschaftsteuer a
+LSF,lsf_167421,Praxis des Bilanzrechts,lsf_167421,praxis des bilanzrechts
+LSF,lsf_167422,"Internationale Besteuerung (ersetzt ""Betriebswirtschaftliche Steuerlehre B"")",lsf_167422,internationale besteuerung ersetzt betriebswirtschaftliche steuerlehre b
+LSF,lsf_167423,"Unternehmensbesteuerung (ersetzt ""Steuern"")",lsf_167423,unternehmensbesteuerung ersetzt steuern
+LSF,lsf_167424,Praxisfragen der Internationalen Besteuerung,lsf_167424,praxisfragen der internationalen besteuerung
+LSF,lsf_167426,Nationale Besteuerung,lsf_167426,nationale besteuerung
+LSF,lsf_167427,Nachhaltigkeit im Recht - Ein neues Rechtsgebiet?,lsf_167427,nachhaltigkeit im recht ein neues rechtsgebiet
+LSF,lsf_167429,Krieg und Recht im 21. Jahrhundert,lsf_167429,krieg und recht im 21 jahrhundert
+LSF,lsf_167430,Europarecht für Nicht-Jurist:innen (Inklusive Tutorium),lsf_167430,europarecht fur nicht jurist innen inklusive tutorium
+LSF,lsf_167432,Herstellung und Verarbeitung von Grobblech,lsf_167432,herstellung und verarbeitung von grobblech
+LSF,lsf_167433,Schweißtechnik,lsf_167433,schweitechnik
+LSF,lsf_167434,Nicht-Eisen-Metalle,lsf_167434,nicht eisen metalle
+LSF,lsf_167435,Geschichte der NATO-Osterweiterung: Zwischen Mythen und Realität,lsf_167435,geschichte der nato osterweiterung zwischen mythen und realitat
+LSF,lsf_167436,Frauen auf See. Weibliche Maritimität in der Frühen Neuzeit,lsf_167436,frauen auf see weibliche maritimitat in der fruhen neuzeit
+LSF,lsf_167437,Elementarkurs Katalanisch für AnfängerInnen (computergestützt),lsf_167437,elementarkurs katalanisch fur anfangerinnen computergestutzt
+LSF,lsf_167440,3D-Analyse von Mikro- und Nanostrukturen I - Grundlagen (3D-Analysis of Micro- und Nano-Structures I),lsf_167440,3d analyse von mikro und nanostrukturen 1 grundlagen 3d analysis of micro und nano structures 1
+LSF,lsf_167442,Einführung in die Materialwissenschaft,lsf_167442,einfuhrung in die materialwissenschaft
+LSF,lsf_167444,Einführung in die Materialwissenschaft,lsf_167444,einfuhrung in die materialwissenschaft
+LSF,lsf_167445,Laserbehandlung (Wechselwirkung mit Materie),lsf_167445,laserbehandlung wechselwirkung mit materie
+LSF,lsf_167447,Kontinuumsmechanik,lsf_167447,kontinuumsmechanik
+LSF,lsf_167453,Seminar Kontinuumsmechanik,lsf_167453,kontinuumsmechanik
+LSF,lsf_167454,Statik,lsf_167454,statik
+LSF,lsf_167455,Einführung in die Finite-Elemente-Methode,lsf_167455,einfuhrung in die finite elemente methode
+LSF,lsf_167456,Experimentelle Mechanik,lsf_167456,experimentelle mechanik
+LSF,lsf_167458,Musikkritik,lsf_167458,musikkritik
+LSF,lsf_167466,Mathematics for Computer Scientists I,mfi1_mfcs1_wise2627,mathematics for computer scientists 1
+LSF,lsf_167468,Band-Coaching,lsf_167468,band coaching
+LSF,lsf_167472,"Songwriting, Digitales & Leadsheet",lsf_167472,songwriting digitales leadsheet
+LSF,lsf_167477,Stochastics II,stoch2,stochastics 2
+LSF,lsf_167479,"PS Didaktik der Rechtschreibung (Di, 12 - 14)",lsf_167479,ps didaktik der rechtschreibung di 12 14
+LSF,lsf_167482,Random Matrices and Applications in Quantum Information,rmqi_2627,random matrices and applications in quantum information
+LSF,lsf_167483,Lesen- und Schreibenlernen verstehen und begleiten – Grundlagen und Herausforderungen - PS Erstlesen und Erstschreiben unter Einbezug besonderer Schwierigkeiten (Mi 12-14),lsf_167483,lesen und schreibenlernen verstehen und begleiten grundlagen und herausforderungen ps erstlesen und erstschreiben unter einbezug besonderer schwierigkeiten mi 12 14
+LSF,lsf_167484,Lineare Algebra I,la12627,lineare algebra 1
+LSF,lsf_167485,"Geschichten sehen, Sprache erleben – Bilderbücher im Deutschunterricht der Primarstufe praktisch nutzen. PS Proseminar Kinder- u. Jugendliteratur/Leseförderung 2 (Mi 14-16)",lsf_167485,geschichten sehen sprache erleben bilderbucher im deutschunterricht der primarstufe praktisch nutzen ps proseminar kinder u jugendliteratur leseforderung 2 mi 14 16
+LSF,lsf_167487,"VL Vorlesung Grundlagen der Literatur- und Medienwissenschaft (Di 16.15-19.45) (14-tägig, Di)",lsf_167487,vl vorlesung grundlagen der literatur und medienwissenschaft di 16 15 19 45 14 tagig di
+LSF,lsf_167488,General Topology,lsf_167488,general topology
+LSF,lsf_167491,Representations of Finite Groups,lsf_167491,representations of finite groups
+LSF,lsf_167492,Algebra,alg26,algebra
+LSF,lsf_167493,Seminar Kombinatorik,komb26,kombinatorik
+LSF,lsf_167494,Analysis III,ana3_2627,analysis 3
+LSF,lsf_167495,Optimal Transport,ot_26,optimal transport
+LSF,lsf_167498,Funktionalanalysis I,lsf_167498,funktionalanalysis 1
+LSF,lsf_167499,Mathematical Foundations of Quantum Information,qit1_26,mathematical foundations of quantum information
+LSF,lsf_167503,Einführung in die Literatur Lateinamerikas,lsf_167503,einfuhrung in die literatur lateinamerikas
+LSF,lsf_167507,Grundkurs Spanisch,lsf_167507,grundkurs spanisch
+LSF,lsf_167509,Spanisch II,lsf_167509,spanisch 2
+LSF,lsf_167518,"Palermo und Ustica. Eine Stadt und ihre Insel in Literatur, Film, Fotografie.",lsf_167518,palermo und ustica eine stadt und ihre insel in literatur film fotografie
+LSF,lsf_167522,VL Aspekte einer kleinen Kulturgeschichte Frankreichs,lsf_167522,vl aspekte einer kleinen kulturgeschichte frankreichs
+LSF,lsf_167524,Übung zum semesterbegleitenden Praktikum,lsf_167524,zum semesterbegleitenden praktikum
+LSF,lsf_167548,Mathematik für Studierende der Biologie und des Lehramtes Chemie,math_bio_chem_la26,mathematik fur biologen und chemiker lehramt
+LSF,lsf_167549,Oberseminar Noncommutative and Functional Analysis,lsf_167549,oberseminar noncommutative and functional analysis
+LSF,lsf_167552,Dogmatik: Kernfragen des Glaubens – die Confession Augustana als ökumenische Konzeption,lsf_167552,dogmatik kernfragen des glaubens die confession augustana als okumenische konzeption
+LSF,lsf_167553,Interreligiöser Dialog,lsf_167553,interreligioser dialog
+LSF,lsf_167559,Wissenschaftliches Arbeiten/Kolloquium - Examen,lsf_167559,wissenschaftliches arbeiten kolloquium examen
+LSF,lsf_167561,Experimentieren im Sachunterricht: GOFEX Ia,lsf_167561,experimentieren im sachunterricht gofex ia
+LSF,lsf_167562,Themenbereiche / Dimensionen des Sachunterrichts: Theorien des Sachunterrichts Personen und Positionen des Sachunterrichts,lsf_167562,themenbereiche dimensionen des sachunterrichts theorien des sachunterrichts personen und positionen des sachunterrichts
+LSF,lsf_167564,Einführung in die Didaktik des Sachunterrichts - Vorlesung mit Übungen,lsf_167564,einfuhrung in die didaktik des sachunterrichts vorlesung mit
+LSF,lsf_167567,Themenbereiche / Dimensionen des Sachunterrichts: Außerschulische Lernorte am Beispiel Kinderuni,lsf_167567,themenbereiche dimensionen des sachunterrichts auerschulische lernorte am beispiel kinderuni
+LSF,lsf_167570,Themenbereiche / Dimensionen des Sachunterrichts: Grundschule Digital,lsf_167570,themenbereiche dimensionen des sachunterrichts grundschule digital
+LSF,lsf_167579,Einführung in die Betriebswirtschaftslehre,lsf_167579,einfuhrung in die betriebswirtschaftslehre
+LSF,lsf_167582,Imaginaire et récits culturels: rendre l'écologie/ la protection du vivant désirable,lsf_167582,imaginaire et recits culturels rendre l ecologie la protection du vivant desirable
+LSF,lsf_167584,Englisch für Historiker: The life and premierships of Winston Churchill,lsf_167584,englisch fur historiker the life and premierships of winston churchill
+LSF,lsf_167600,Die Kreuzzüge und der Verlust von Akkon,lsf_167600,die kreuzzuge und der verlust von akkon
+LSF,lsf_167601,Generative KI und Geschichtswissenschaft,lsf_167601,generative ki und geschichtswissenschaft
+LSF,lsf_167605,Technische Grundlagen e-Justice,lsf_167605,technische grundlagen e justice
+LSF,lsf_167608,Italienische Rechtsterminologie (Gruppe 1),lsf_167608,italienische rechtsterminologie gruppe 1
+LSF,lsf_167609,Griechische Rechtsterminologie,lsf_167609,griechische rechtsterminologie
+LSF,lsf_167610,Deutsche Rechtsterminologie für ausländische Erasmus-Studierende,lsf_167610,deutsche rechtsterminologie fur auslandische erasmus studierende
+LSF,lsf_167612,Technik Wissenschaftlichen Arbeitens,lsf_167612,technik wissenschaftlichen arbeitens
+LSF,lsf_167624,[cs] Cultural Studies II North America: Deconstructing Speculative Fiction: Gender and Sex in Dystopian Narratives,lsf_167624,cs cultural studies 2 north america deconstructing speculative fiction gender and sex in dystopian narratives
+LSF,lsf_167626,Risikomessung und Value at Risk,lsf_167626,risikomessung und value at risk
+LSF,lsf_167632,Essen. Fragen an Lebenswelt und Kultur im Anthropozän.,lsf_167632,essen fragen an lebenswelt und kultur im anthropozan
+LSF,lsf_167634,[lingp/ fd] Fachdidaktik,lsf_167634,lingp fd fachdidaktik
+LSF,lsf_167635,Einführung in das deutsche Recht für ERASMUS-Studierende,lsf_167635,einfuhrung in das deutsche recht fur erasmus studierende
+LSF,lsf_167636,Strafrecht für LL.M. und Erasmus Studierende,lsf_167636,strafrecht fur ll m und erasmus studierende
+LSF,lsf_167638,Bebrablau - Kreatives Schreiben,lsf_167638,bebrablau kreatives schreiben
+LSF,lsf_167641,Angewandte Wirtschaftspolitik,lsf_167641,angewandte wirtschaftspolitik
+LSF,lsf_167647,Einführung in die Didaktik und Methodik von Lernprozessen in der wirtschaftsberuflichen Bildung I - Arbeitstechniken,lsf_167647,einfuhrung in die didaktik und methodik von lernprozessen in der wirtschaftsberuflichen bildung 1 arbeitstechniken
+LSF,lsf_167648,Begleitseminar zum semesterbegleitenden fachdidaktischen Praktikum,lsf_167648,begleitseminar zum semesterbegleitenden fachdidaktischen praktikum
+LSF,lsf_167649,Seminar/Übung Fachdidaktik Wirtschaft,lsf_167649,ubung fachdidaktik wirtschaft
+LSF,lsf_167673,La lessicografia storica ed etimologica dell'italiano,lsf_167673,la lessicografia storica ed etimologica dell italiano
+LSF,lsf_167674,Einführung in die Kulturwissenschaft Lateinamerika/Spanien,lsf_167674,einfuhrung in die kulturwissenschaft lateinamerika spanien
+LSF,lsf_167675,Ritterorden,lsf_167675,ritterorden
+LSF,lsf_167679,Religiöse Vielfalt und interreligiöses Lernen,lsf_167679,religiose vielfalt und interreligioses lernen
+LSF,lsf_167680,Vertiefung Religionsdidaktik - Theorie,lsf_167680,vertiefung religionsdidaktik theorie
+LSF,lsf_167681,Grundfragen der Theologie in historischer und systematischer Perspektive,lsf_167681,grundfragen der theologie in historischer und systematischer perspektive
+LSF,lsf_167687,[cs] Introduction to Media Studies: Unhinged Women on TV,lsf_167687,cs introduction to media studies unhinged women on tv
+LSF,lsf_167690,"""Was wird mit uns, wenn wir tot sind?“ – Kulturen des Lebensendes",lsf_167690,was wird mit uns wenn wir tot sind kulturen des lebensendes
+LSF,lsf_167693,"Ü Übung zur Vorlesung „Spracherwerbstheorien und Mehrsprachigkeit: Grundlagen der (Zweit-) Spracherwerbsforschung für den Unterricht in mehrsprachigen Klassen“ für Lehrämter (Lehramt, Zertifikat DaZ-D)",lsf_167693,u ubung zur vorlesung spracherwerbstheorien und mehrsprachigkeit grundlagen der zweit spracherwerbsforschung fur den unterricht in mehrsprachigen klassen fur lehramter lehramt zertifikat daz d
+LSF,lsf_167699,Medienpsychologisches Seminar: Sozialpsychologische Aspekte der Medienpsychologie,lsf_167699,medienpsychologisches seminar sozialpsychologische aspekte der medienpsychologie
+LSF,lsf_167701,TWA - Technik des wissenschaftlichen Arbeitens (Kurs 1),lsf_167701,twa technik des wissenschaftlichen arbeitens kurs 1
+LSF,lsf_167702,TWA - Technik des wissenschaftlichen Arbeitens (Kurs 2),lsf_167702,twa technik des wissenschaftlichen arbeitens kurs 2
+LSF,lsf_167703,TWA - Technik des wissenschaftlichen Arbeitens (Kurs 3),lsf_167703,twa technik des wissenschaftlichen arbeitens kurs 3
+LSF,lsf_167706,Ü Sprachsensibler Fachunterricht; S Deutsch als Zweitsprache in allen Fächern/ S Förderung von sprachlichem und fachlichem Lernen (Zertifikat 3),lsf_167706,u sprachsensibler fachunterricht s deutsch als zweitsprache in allen fachern s forderung von sprachlichem und fachlichem lernen zertifikat 3
+LSF,lsf_167707,Database Systems,dbsys2627,database systems
+LSF,lsf_167708,S Das deutsche Sprachsystem aus Sicht der Lerner/ VL Einführung in die Sprachwissenschaft,lsf_167708,s das deutsche sprachsystem aus sicht der lerner vl einfuhrung in die sprachwissenschaft
+LSF,lsf_167709,VL Spracherwerb(stheorien) und Mehrsprachigkeit (konsekutive Master),lsf_167709,vl spracherwerb stheorien und mehrsprachigkeit konsekutive master
+LSF,lsf_167710,Ü zum Seminar Das deutsche Sprachsystem.../ Ü Mehrsprachigkeit und Sprachkontakt,lsf_167710,u zum seminar das deutsche sprachsystem u mehrsprachigkeit und sprachkontakt
+LSF,lsf_167729,Proseminar zur mittelalterliche Geschichte: Kirchenreform und Investiturstreit (Ohne Latein),lsf_167729,zur mittelalterliche geschichte kirchenreform und investiturstreit ohne latein
+LSF,lsf_167759,Italienische Rechtsterminologie (Gruppe 2),lsf_167759,italienische rechtsterminologie gruppe 2
+LSF,lsf_167760,Starke Frauen. Gender und Geschlechterordnungen in der deutschen und französischen Literatur der Frühen Neuzeit.,lsf_167760,starke frauen gender und geschlechterordnungen in der deutschen und franzosischen literatur der fruhen neuzeit
+LSF,lsf_167761,Kultur- und Mediengeschichte der Nacht 18.-20. Jahrhundert,lsf_167761,kultur und mediengeschichte der nacht 18 20 jahrhundert
+LSF,lsf_167774,"Zusammen -wachsen, -halten und streiten: Europäisierung von 1945 bis heute",lsf_167774,zusammen wachsen halten und streiten europaisierung von 1945 bis heute
+LSF,lsf_167799,"""This is what it feels like to be young."" Kulturanthropologische Annäherungen an Lebenswelten und Lebensstile von Jugendlichen und jungen Erwachsenen",lsf_167799,this is what it feels like to be young kulturanthropologische annaherungen an lebenswelten und lebensstile von jugendlichen und jungen erwachsenen
+LSF,lsf_167800,Vom Eisernen Vorhang über Volksaufstände im ‚Ostblock‘ bis zum Mauerfall: Europäische Schauplätze des Kalten Krieges,lsf_167800,vom eisernen vorhang uber volksaufstande im ostblock bis zum mauerfall europaische schauplatze des kalten krieges
+LSF,lsf_167809,Oberseminar Algebraische Geometrie,lsf_167809,oberseminar algebraische geometrie
+LSF,lsf_167834,Neuere Texte der Feministischen Philosophie,lsf_167834,neuere texte der feministischen philosophie
+LSF,lsf_167835,"Elisabeth Barnes ""The Minority Body – A Theory of Disability"": Ein Lektürekurs",lsf_167835,elisabeth barnes the minority body a theory of disability ein lekturekurs
+LSF,lsf_167837,[liti] Introduction to Literature - Übung,lsf_167837,liti introduction to literature ubung
+LSF,lsf_167867,Large Language Models for Physical Systems,llm4ps,large language models for physical systems
+LSF,lsf_167868,Large Language Models for Physical Systems,lsf_167868,large language models for physical systems
+LSF,lsf_167871,Auswärtige Kultur- und Bildungspolitik und die Situation der deutschen Sprache in der Welt,lsf_167871,auswartige kultur und bildungspolitik und die situation der deutschen sprache in der welt
+LSF,lsf_167874,Anfangsunterricht für WBM und DaZ-Zertifikat,lsf_167874,anfangsunterricht fur wbm und daz zertifikat
+LSF,lsf_167875,Ü Übung zur Vorlesung „Spracherwerbstheorien und Mehrsprachigkeit“ (konsekutiver Master),lsf_167875,u ubung zur vorlesung spracherwerbstheorien und mehrsprachigkeit konsekutiver master
+LSF,lsf_167889,Hilbert Function Spaces,hfs_2627,hilbert function spaces
+LSF,lsf_167891,Modul Vertiefung Forschungsmethoden: Modulelement 'Multivariate Statistik',lsf_167891,modul vertiefung forschungsmethoden modulelement multivariate statistik
+LSF,lsf_167899,"""Dal Trecento al Rinascimento“ - Musik- und Handschriftenkultur und Musikgeschichte zwischen dem 14. und 16. Jahrhundert",lsf_167899,dal trecento al rinascimento musik und handschriftenkultur und musikgeschichte zwischen dem 14 und 16 jahrhundert
+LSF,lsf_167903,prope castrum domini imperatoris – Funde von der Ministerialienburg Hohenecken,lsf_167903,prope castrum domini imperatoris funde von der ministerialienburg hohenecken
+LSF,lsf_167909,GK 02: Herodot – Vater der Geschichte(n),lsf_167909,gk 02 herodot vater der geschichte n
+LSF,lsf_167912,GK 05: Caesar: aus dem Leben eines (späteren) Diktators,lsf_167912,gk 05 caesar aus dem leben eines spateren diktators
+LSF,lsf_167915,"Modul Vertiefung Testtheorie, Diagnostik und Evaluation: Modulelement 'Planen, Testen und Entscheiden'",lsf_167915,modul vertiefung testtheorie diagnostik und evaluation modulelement planen testen und entscheiden
+LSF,lsf_167916,Modul Arbeits- und Organisationspsychologie: Modulelement 'Vertiefung Arbeits- und Organisationspsychologie',lsf_167916,modul arbeits und organisationspsychologie modulelement vertiefung arbeits und organisationspsychologie
+LSF,lsf_167917,Modul Angewandte Sozialpsychologie: Modulelement Vorlesung Angewandte Sozialpsychologie 1',lsf_167917,modul angewandte sozialpsychologie modulelement vorlesung angewandte sozialpsychologie 1
+LSF,lsf_167918,Fortgeschrittene computergestützte Datenanalyse,lsf_167918,fortgeschrittene computergestutzte datenanalyse
+LSF,lsf_167927,Dokumentation und Evaluation von Behandlungen TDPT2,lsf_167927,dokumentation und evaluation von behandlungen tdpt2
+LSF,lsf_167928,"GK 14: „Europa, Europa, ich komme zu dir!“ – Migration und Integration in autobiografischen und filmischen Narrationen",lsf_167928,gk 14 europa europa ich komme zu dir migration und integration in autobiografischen und filmischen narrationen
+LSF,lsf_167929,Seminar Angewandte Psychotherapie 2,lsf_167929,angewandte psychotherapie 2
+LSF,lsf_167937,Einführung in die Presse- und Öffentlichkeitsarbeit,lsf_167937,einfuhrung in die presse und offentlichkeitsarbeit
+LSF,lsf_167938,GK 12: English Conversation Club – in person,lsf_167938,gk 12 english conversation club in person
+LSF,lsf_167941,GK 15: Geschichte im Wandel – die Transformation der Goldenen Horde,lsf_167941,gk 15 geschichte im wandel die transformation der goldenen horde
+LSF,lsf_167943,GK 17: Geschichte und Gesellschaft Englands im Spiegel englischer Romanklassiker,lsf_167943,gk 17 geschichte und gesellschaft englands im spiegel englischer romanklassiker
+LSF,lsf_167952,GK 21: Mittelalterliche Wurzeln moderner Demokratie,lsf_167952,gk 21 mittelalterliche wurzeln moderner demokratie
+LSF,lsf_167955,GK 23: Parteien als „Motoren der Demokratie“?,lsf_167955,gk 23 parteien als motoren der demokratie
+LSF,lsf_167957,GK 25: Von Adenauer bis Merz – Zehn Kanzlerschaften in einer Ära der bürgerlichen Mitte,lsf_167957,gk 25 von adenauer bis merz zehn kanzlerschaften in einer ara der burgerlichen mitte
+LSF,lsf_167959,GK 26: Parteiensystem im Wandel? Aktuelle Entwicklungen und Herausforderungen in Deutschland,lsf_167959,gk 26 parteiensystem im wandel aktuelle entwicklungen und herausforderungen in deutschland
+LSF,lsf_167960,"GK 27: Geopolitik, Geoökonomie, Geostrategie – Neuausrichtung der Internationalen Beziehungen?",lsf_167960,gk 27 geopolitik geookonomie geostrategie neuausrichtung der internationalen beziehungen
+LSF,lsf_167962,GK 28: Anna Katharina Emmerick. Frömmigkeit unter Beobachtung,lsf_167962,gk 28 anna katharina emmerick frommigkeit unter beobachtung
+LSF,lsf_167964,GK 29: Was ist Musik? Teil 2,lsf_167964,gk 29 was ist musik teil 2
+LSF,lsf_167971,GK 34: Was ist Musik? Teil 3,lsf_167971,gk 34 was ist musik teil 3
+LSF,lsf_167974,GK 36: Das Phänomen Beethoven,lsf_167974,gk 36 das phanomen beethoven
+LSF,lsf_167979,GK 40: Emotionale Intelligenz,lsf_167979,gk 40 emotionale intelligenz
+LSF,lsf_167980,GK 41: Der Weg der bewussten Selbststeuerung – Freier Wille oder innere Programme?,lsf_167980,gk 41 der weg der bewussten selbststeuerung freier wille oder innere programme
+LSF,lsf_167990,Vertiefung Angewandte Entwicklungspsychologie 1: Theory of Mind im Kindes- und Jugendalter,lsf_167990,vertiefung angewandte entwicklungspsychologie 1 theory of mind im kindes und jugendalter
+LSF,lsf_167993,Vertiefung Pädagogische Psychologie 1 Seminar,lsf_167993,vertiefung padagogische psychologie 1 seminar
+LSF,lsf_167996,"Vertiefungsseminar Kognitive Psychologie: "" Gedächtnis""",lsf_167996,vertiefungsseminar kognitive psychologie gedachtnis
+LSF,lsf_167999,Modul Kognitive Neuropsychologie: Modulelement 'Kognitive Neuropsychologie',lsf_167999,modul kognitive neuropsychologie modulelement kognitive neuropsychologie
+LSF,lsf_168018,Vertiefungsseminar A&O- Psychologie Praxisseminar,lsf_168018,vertiefungsseminar a o psychologie praxisseminar
+LSF,lsf_168019,Vertiefungsseminar Sozialpsychologie - „Klimaschutz und Nachhaltigkeit 1“,lsf_168019,vertiefungsseminar sozialpsychologie klimaschutz und nachhaltigkeit 1
+LSF,lsf_168020,Vertiefungsseminar Sozialpsychologie: Interpersonelle Beziehungen: Partnerschaft & Sexualität,lsf_168020,vertiefungsseminar sozialpsychologie interpersonelle beziehungen partnerschaft sexualitat
+LSF,lsf_168021,Vertiefung Angewandte Entwicklungspsychologie 3: Elterliche Feinfühligkeit und kindliche Entwicklung,lsf_168021,vertiefung angewandte entwicklungspsychologie 3 elterliche feinfuhligkeit und kindliche entwicklung
+LSF,lsf_168022,Vertiefung Pädagogische Psychologie 3 Seminar - Selbstreguliertes Lernen,lsf_168022,vertiefung padagogische psychologie 3 seminar selbstreguliertes lernen
+LSF,lsf_168023,Vertiefung Psychologie der Lebensspanne 3,lsf_168023,vertiefung psychologie der lebensspanne 3
+LSF,lsf_168024,Vertiefungsseminar kognitive Neuropsychologie,lsf_168024,vertiefungsseminar kognitive neuropsychologie
+LSF,lsf_168025,"Vertiefungsseminar Kognitive Psychologie: ""Kognition & Emotion""",lsf_168025,vertiefungsseminar kognitive psychologie kognition emotion
+LSF,lsf_168026,Projektarbeit II aus dem Bereich der Angewandten Sozialpsychologie,lsf_168026,projektarbeit 2 aus dem bereich der angewandten sozialpsychologie
+LSF,lsf_168028,Projektarbeit II polyvalent mit Begleitseminar zu Bachelor- und Masterarbeiten der Allgemeinen Psychologie,lsf_168028,projektarbeit 2 polyvalent mit begleitseminar zu bachelor und masterarbeiten der allgemeinen psychologie
+LSF,lsf_168029,Projektarbeit II aus dem Bereich der Pädagogischen Psychologie,lsf_168029,projektarbeit 2 aus dem bereich der padagogischen psychologie
+LSF,lsf_168031,Begleitseminar zu Bachelor- und Masterarbeiten aus dem Bereich der Kognitiven Neuropsychologie/Projektarbeit II,lsf_168031,begleitseminar zu bachelor und masterarbeiten aus dem bereich der kognitiven neuropsychologie projektarbeit 2
+LSF,lsf_168032,Begleitseminar zu Bachelor- und Masterarbeiten aus dem Bereich der Pädagogischen Psychologie,lsf_168032,begleitseminar zu bachelor und masterarbeiten aus dem bereich der padagogischen psychologie
+LSF,lsf_168033,Begleitseminar zu Bachelor- und Masterarbeiten aus dem Bereich der Entwicklungspsychologie,lsf_168033,begleitseminar zu bachelor und masterarbeiten aus dem bereich der entwicklungspsychologie
+LSF,lsf_168036,"Begleitseminar zu Bachelor- und Masterarbeiten aus dem Bereich Entwicklung von Sprache, Lernen und Handlung",lsf_168036,begleitseminar zu bachelor und masterarbeiten aus dem bereich entwicklung von sprache lernen und handlung
+LSF,lsf_168038,Modul Allgemeine Psychologie II: Modulelement 'Allgemeine Psychologie II - Lernen und Sprache',lsf_168038,modul allgemeine psychologie 2 modulelement allgemeine psychologie 2 lernen und sprache
+LSF,lsf_168039,"Modul Arbeit,Diagnostik und Beratung : Modulelement 'Einführung in die Arbeits- und Organisationspsychologie'",lsf_168039,modul arbeit diagnostik und beratung modulelement einfuhrung in die arbeits und organisationspsychologie
+LSF,lsf_168040,Modul Klinische Psychologie und Klinische Neuropsychologie: Modulelement 'Einführung in die Klinische Psychologie' (Störungslehre 1),lsf_168040,modul klinische psychologie und klinische neuropsychologie modulelement einfuhrung in die klinische psychologie storungslehre 1
+LSF,lsf_168043,Modul Einführung in die Psychologie,lsf_168043,modul einfuhrung in die psychologie
+LSF,lsf_168044,Modul Forschungsmethoden I: Modulelement 'Psychologische Methodenlehre I',lsf_168044,modul forschungsmethoden 1 modulelement psychologische methodenlehre 1
+LSF,lsf_168045,Modul Forschungsmethoden I: Modulelement 'Computergestützte Datenanalyse 1',lsf_168045,modul forschungsmethoden 1 modulelement computergestutzte datenanalyse 1
+LSF,lsf_168046,Modul Allgemeine Psychologie I: Modulelement 'Allgemeine Psychologie I: Wahrnehmung und Aufmerksamkeit',lsf_168046,modul allgemeine psychologie 1 modulelement allgemeine psychologie 1 wahrnehmung und aufmerksamkeit
+LSF,lsf_168047,Modul Biologische Psychologie: Modulelement 'Biologische Psychologie 1',lsf_168047,modul biologische psychologie modulelement biologische psychologie 1
+LSF,lsf_168048,Empirisches Projektmodul 1 (Forschungsorientiertes Praktikum I) - Arbeits- und Organisationspsychologie,lsf_168048,empirisches projektmodul 1 forschungsorientiertes praktikum 1 arbeits und organisationspsychologie
+LSF,lsf_168049,"Empirisches Projektmodul 1 (Forschungsorientiertes Praktikum I) - Entwicklung von Sprache, Lernen und Handlung",lsf_168049,empirisches projektmodul 1 forschungsorientiertes praktikum 1 entwicklung von sprache lernen und handlung
+LSF,lsf_168050,Empirisches Projektmodul 1 (Forschungsorientiertes Praktikum I) - Allgemeine Psychologie & Methodenlehre,lsf_168050,empirisches projektmodul 1 forschungsorientiertes praktikum 1 allgemeine psychologie methodenlehre
+LSF,lsf_168058,Empirisches Projektmodul 1 (Forschungsorientiertes Praktikum I) Klinische Psychologie,lsf_168058,empirisches projektmodul 1 forschungsorientiertes praktikum 1 klinische psychologie
+LSF,lsf_168059,Modul Sozialpsychologie: Modulelement 'Inter- und intrapersonelle Aspekte',lsf_168059,modul sozialpsychologie modulelement inter und intrapersonelle aspekte
+LSF,lsf_168060,Modul Entwicklungspsychologie: Modulelement 'Vorlesung Entwicklungspsychologie 1',lsf_168060,modul entwicklungspsychologie modulelement vorlesung entwicklungspsychologie 1
+LSF,lsf_168061,"Modul Kognition, Lernen und Entwicklung: Modulelement 'Vorlesung Pädagogische Psychologie'",lsf_168061,modul kognition lernen und entwicklung modulelement vorlesung padagogische psychologie
+LSF,lsf_168062,Modul Klinische Psychologie: Vertiefungsseminar Klinische Psychologie (Störungslehre 2),lsf_168062,modul klinische psychologie vertiefungsseminar klinische psychologie storungslehre 2
+LSF,lsf_168063,"Modul Kognition, Lernen und Entwicklung: Modulelement 'Angewandte Kognitive und Neurokognitive Psychologie'",lsf_168063,modul kognition lernen und entwicklung modulelement angewandte kognitive und neurokognitive psychologie
+LSF,lsf_168064,Modul Grundlagen der Medizin: Modulelement 'Vorlesung Grundlagen der Medizin',lsf_168064,modul grundlagen der medizin modulelement vorlesung grundlagen der medizin
+LSF,lsf_168069,Spezielle Krankheits- & Behandlungslehre 3,lsf_168069,spezielle krankheits behandlungslehre 3
+LSF,lsf_168070,Psychotherapie in der ambulanten Versorgung 2,lsf_168070,psychotherapie in der ambulanten versorgung 2
+LSF,lsf_168073,Klinisches Fallseminar: Praxis der Psychotherapie im Kindes- und Jugendalter,lsf_168073,klinisches fallseminar praxis der psychotherapie im kindes und jugendalter
+LSF,lsf_168109,Musik und Traum: Traumthematisches Komponieren in musikhistorischer Perspektive,lsf_168109,musik und traum traumthematisches komponieren in musikhistorischer perspektive
+LSF,lsf_168115,"Die Wiener Schule: Schönberg, Berg, Webern – Voraussetzungen, Kontexte, Folgen",lsf_168115,die wiener schule schonberg berg webern voraussetzungen kontexte folgen
+LSF,lsf_168134,Formen des Aufbruchs: Ästhetik und Politik im Maghreb seit der Dekolonisierung,lsf_168134,formen des aufbruchs asthetik und politik im maghreb seit der dekolonisierung
+LSF,lsf_168136,Sprachgrenzen überwinden - traverser les frontières linguistiques,lsf_168136,sprachgrenzen uberwinden traverser les frontieres linguistiques
+LSF,lsf_168150,„Il était une fois / C’era una volta…“: (Post-)Strukturalistische Märchenforschung – analog und digital,lsf_168150,il etait une fois cera una volta post strukturalistische marchenforschung analog und digital
+LSF,lsf_168169,Barlaam et Josaphat – Facetten buddhistisch-christlicher Kulturkontakte in der Romania,lsf_168169,barlaam et josaphat facetten buddhistisch christlicher kulturkontakte in der romania
+LSF,lsf_168171,Samurai und ‚Blut und Eisen‘ – Deutschland und Japan auf dem Weg zum Nationalstaat,lsf_168171,samurai und blut und eisen deutschland und japan auf dem weg zum nationalstaat
+LSF,lsf_168180,Empirisches Projektmodul 1 (Forschungsorientiertes Praktikum I) -Pädagogische Psychologie,lsf_168180,empirisches projektmodul 1 forschungsorientiertes praktikum 1 padagogische psychologie
+LSF,lsf_168184,Die Deutsche Demokratische Republik (1949–1989) und ihre Darstellung im Film seit der Wiedervereinigung,lsf_168184,die deutsche demokratische republik 19491989 und ihre darstellung im film seit der wiedervereinigung
+LSF,lsf_168190,"„Das wollen wir genauer wissen!“ – Gemeinsam fragen, forschen, diskutieren",lsf_168190,das wollen wir genauer wissen gemeinsam fragen forschen diskutieren
+LSF,lsf_168194,Fachdidaktikseminar II / Grundlagen der Informatikdidaktik,lsf_168194,fachdidaktikseminar 2 grundlagen der informatikdidaktik
+LSF,lsf_168197,Biopharmazie und Drug Delivery,lsf_168197,biopharmazie und drug delivery
+LSF,lsf_168217,"Tutorium I ""Lesen, Argumentieren, Schreiben""",lsf_168217,tutorium 1 lesen argumentieren schreiben
+LSF,lsf_168218,"Tutorium II ""Lesen, Argumentieren, Schreiben""",lsf_168218,tutorium 2 lesen argumentieren schreiben
+LSF,lsf_168219,"Tutorium III ""Lesen, Argumentieren, Schreiben""",lsf_168219,tutorium 3 lesen argumentieren schreiben
+LSF,lsf_168239,Musikgeschichte im Überblick III,lsf_168239,musikgeschichte im uberblick 3
+LSF,lsf_168240,"Geschichte des Balletts und der Ballettmusik, 1600 bis zur Gegenwart",lsf_168240,geschichte des balletts und der ballettmusik 1600 bis zur gegenwart
+LSF,lsf_168241,Schreibwerkstatt: Praktische Übungen im wissenschaftlichen Schreiben,lsf_168241,schreibwerkstatt praktische ubungen im wissenschaftlichen schreiben
+LSF,lsf_168242,Grundkurs Sprachwissenschaft I - [Grundkurs Sprachwissenschaft I - Einführung] (Di 8-10),lsf_168242,grundkurs sprachwissenschaft 1 grundkurs sprachwissenschaft 1 einfuhrung di 8 10
+LSF,lsf_168243,Methodenfragen der Musikwissenschaft,lsf_168243,methodenfragen der musikwissenschaft
+LSF,lsf_168244,Vorlesung Spezielle Krankheits- und Behandlungslehre 1,lsf_168244,spezielle krankheits und behandlungslehre 1
+LSF,lsf_168245,Grundzüge der Höheren Mathematik I,lsf_168245,grundzuge der hoheren mathematik 1
+LSF,lsf_168246,Grundzüge der Höheren Mathematik III,lsf_168246,grundzuge der hoheren mathematik 3
+LSF,lsf_168247,Freiwilliges Tutorium zum PS Geschichte der deutschen Sprache (Fr 12-14),lsf_168247,freiwilliges tutorium zum ps geschichte der deutschen sprache fr 12 14
+LSF,lsf_168248,Freiwilliges Tutorium zum PS Geschichte der deutschen Sprache (Mi 8-10),lsf_168248,freiwilliges tutorium zum ps geschichte der deutschen sprache mi 8 10
+LSF,lsf_168279,"Was ist Wahrheit? Von Wissen, Wissenschaft und gesellschaftlicher Wirklichkeit",lsf_168279,was ist wahrheit von wissen wissenschaft und gesellschaftlicher wirklichkeit
+LSF,lsf_168284,Towards self-improving agents,lsf_168284,towards self improving agents
+LSF,lsf_168285,Building language models from scratch,lsf_168285,building language models from scratch
+LSF,lsf_168296,Einführung in den Fernsehjournalismus,lsf_168296,einfuhrung in den fernsehjournalismus
+LSF,lsf_168298,Projektmanagement 1,lsf_168298,projektmanagement 1
+LSF,lsf_168299,Kolloquium,lsf_168299,kolloquium
+LSF,lsf_168300,Modul Differentielle Psychologie und Persönlichkeitspsychologie: Modulelement 'Einführung in die Differentielle Psychologie und Persönlichkeitspsychologie',lsf_168300,modul differentielle psychologie und personlichkeitspsychologie modulelement einfuhrung in die differentielle psychologie und personlichkeitspsychologie
+LSF,lsf_168302,Vertiefungsseminar A&O- Psychologie Wissenschaftsseminar,lsf_168302,vertiefungsseminar a o psychologie wissenschaftsseminar
+LSF,lsf_168354,Sustainable Finance,lsf_168354,sustainable finance
+LSF,lsf_168356,Behavioral Finance,lsf_168356,behavioral finance
+LSF,lsf_168366,Weltkrieg im 18. Jahrhundert? Der Siebenjährige Krieg (1756–1763),lsf_168366,weltkrieg im 18 jahrhundert der siebenjahrige krieg 17561763
+LSF,lsf_168368,Wasserstoffzertifikat - Vorlesung,lsf_168368,wasserstoffzertifikat
+LSF,lsf_168369,Wasserstoffzertifikat - Praktikum,lsf_168369,wasserstoffzertifikat praktikum
+LSF,lsf_168390,Ein anderer Blick? Geschichte von Frauen in der Fotografie (19. Jahrhundert bis heute),lsf_168390,ein anderer blick geschichte von frauen in der fotografie 19 jahrhundert bis heute
+LSF,lsf_168392,Ü Übung zur Vorlesung Syntax Prof. Speyer - [VL Grammatik / Sprache + Struktur] (###,lsf_168392,u ubung zur vorlesung syntax prof speyer vl grammatik sprache struktur
+LSF,lsf_168393,International Political Economy and Geoeconomics,lsf_168393,international political economy and geoeconomics
+LSF,lsf_168394,Causal Inference in Economics,lsf_168394,causal inference in economics
+LSF,lsf_168398,Ringvorlesung: Einführung in die Bioinformatik WS 26/27,lsf_168398,ringvorlesung einfuhrung in die bioinformatik
+LSF,lsf_168427,Englische Rechtsterminologie,lsf_168427,englische rechtsterminologie
+LSF,lsf_168456,Mathematische Methoden für die Biotechnologie,lsf_168456,mathematische methoden fur die biotechnologie
+LSF,lsf_168479,Differentialgeometrie I,lsf_168479,differentialgeometrie 1
+LSF,lsf_168484,Language Contact and Change: European Languages and Beyond,lsf_168484,language contact and change european languages and beyond
+LSF,lsf_168487,Modul Diagnostik und Beratung II: Modulelement ' Diagnostik und Beratung',lsf_168487,modul diagnostik und beratung 2 modulelement diagnostik und beratung
+LSF,lsf_168507,"Computer, Physik und Python",lsf_168507,computer physik und python
+LSF,lsf_168508,"Gute wissenschaftliche Praxis, Open Science und Forschungsdatenmanagement",lsf_168508,gute wissenschaftliche praxis open science und forschungsdatenmanagement
+LSF,lsf_168527,Prost! - Einführung in den Industriefilm und die interdisziplinäre Filmanalyse anhand der Bier- und Schwerindustrie,lsf_168527,prost einfuhrung in den industriefilm und die interdisziplinare filmanalyse anhand der bier und schwerindustrie
+LSF,lsf_168530,[kber] Kolloquium Career Orientation & Professionalization (COP),lsf_168530,kber kolloquium career orientation professionalization cop
+LSF,lsf_168531,Modul Psychologische Diagnostik: Modulelement 'Grundlagen psychologischer Diagnostik',lsf_168531,modul psychologische diagnostik modulelement grundlagen psychologischer diagnostik
+LSF,lsf_168537,Writing for Academic Purposes (ISZ),lsf_168537,writing for academic purposes isz
+LSF,lsf_168544,Krankenhausplanungs- und Krankenhausfinanzierungsrecht,lsf_168544,krankenhausplanungs und krankenhausfinanzierungsrecht
+LSF,lsf_168633,Von der Provinzialisierung Europas zur Klimakrise: Lektüreseminar zu Dipesh Chakrabarty,lsf_168633,von der provinzialisierung europas zur klimakrise lektureseminar zu dipesh chakrabarty
+LSF,lsf_168634,"Post- und dekoloniale Kulturtheorien. Grundbegriffe, Problemfelder, Kontexte",lsf_168634,post und dekoloniale kulturtheorien grundbegriffe problemfelder kontexte
+LSF,lsf_168637,Arbeitsgruppenseminar,lsf_168637,arbeitsgruppenseminar
+LSF,lsf_168638,Interdisciplinary Lecture Series: Entrepreneurship (Former: You can do IT. Start your idea! Entrepreneurship in IT and Maths),lsf_168638,interdisciplinary lecture series entrepreneurship former you can do it start your idea entrepreneurship in it and maths
+LSF,lsf_168640,Europäische Governance,lsf_168640,europaische governance
+LSF,lsf_168645,Wirkstoffbiotechnologie,lsf_168645,wirkstoffbiotechnologie
+LSF,lsf_168653,Einführung in die elektromagnetische Feldsimulation,lsf_168653,einfuhrung in die elektromagnetische feldsimulation
+LSF,lsf_168670,Freiwilliges Tutorium zum Proseminar Lektüre mittelhochdeutscher Texte (Mo 14-16),lsf_168670,freiwilliges tutorium zum proseminar lekture mittelhochdeutscher texte mo 14 16
+LSF,lsf_168671,Freiwilliges Tutorium zum Proseminar Lektüre mittelhochdeutscher Texte (Di 8-10),lsf_168671,freiwilliges tutorium zum proseminar lekture mittelhochdeutscher texte di 8 10
+LSF,lsf_168673,Vertiefung Angewandte Entwicklungspsychologie 1: Mutter-Kind-Interaktion: Feinfühligkeit und Bindung,lsf_168673,vertiefung angewandte entwicklungspsychologie 1 mutter kind interaktion feinfuhligkeit und bindung
+LSF,lsf_168675,"""Übersetzungs-Skills für Erasmus Studierende: Übersetzen leichter bis mittelschwerer Texte im Bereich Kultur u. Lifestyle IT-DE""",lsf_168675,ubersetzungs skills fur erasmus studierende ubersetzen leichter bis mittelschwerer texte im bereich kultur u lifestyle it de
+LSF,lsf_168702,"Tutorium ""VL Sprachphilosophie und Logik""",lsf_168702,tutorium vl sprachphilosophie und logik
+LSF,lsf_168703,"Tutorium ""VL Sprachphilosophie und Logik""",lsf_168703,tutorium vl sprachphilosophie und logik
+LSF,lsf_168713,ERASMUS - Übersetzen gemeinsprachlicher Texte (EN-DE),lsf_168713,erasmus ubersetzen gemeinsprachlicher texte en de
+LSF,lsf_168722,ERASMUS - Übersetzungsübung DE-EN,lsf_168722,erasmus ubersetzungsubung de en
+LSF,lsf_168727,Seminar Stochastik,lsf_168727,stochastik

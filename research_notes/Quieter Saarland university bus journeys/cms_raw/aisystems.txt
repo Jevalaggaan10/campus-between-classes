@@ -1,0 +1,195 @@
+Overview
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+AI Systems
+Christina Giannoula
+News
+Paper reviews
+Written on
+25.10.26
+(last change on
+25.10.26
+)						by Basel Fakhri
+Student
+Review 1
+Review 2
+Review 3
+Sindarov, Asadbek
+H2-LLM: Hardware-Dataflow Co-Exploration for Heterogeneous Hybrid-Bonding-based Low-Batch LLM Inference
+FlashInfer: Efficient and Customizable Attention Engine for…
+Read more
+Student
+Review 1
+Review 2
+Review 3
+Sindarov, Asadbek
+H2-LLM: Hardware-Dataflow Co-Exploration for Heterogeneous Hybrid-Bonding-based Low-Batch LLM Inference
+FlashInfer: Efficient and Customizable Attention Engine for LLM Inference Serving
+MPK: A Compiler and Runtime for Mega-Kernelizing Tensor Programs
+Kazemi, Mehrafarin
+TANGRAM: Optimized Coarse-Grained Dataflow for Scalable NN Accelerators
+POD-Attention: Unlocking Full Prefill-Decode Overlap for Faster LLM Inference
+DistServe: Disaggregating Prefill
+and Decoding for Goodputoptimized
+Large Language Model Serving
+Le, Hoang Dang Nguyen
+MPK: A Compiler and Runtime for Mega-Kernelizing Tensor Programs
+ARC: Warp-level Adaptive Atomic Reduction in GPUs to Accelerate Differentiable Rendering
+ThunderKittens: Simple, Fast, and Adorable AI Kernels
+Kooshky, Amirmohammad
+Eyeriss: A Spatial Architecture for Energy-Efficient Dataflow for
+Convolutional Neural Networks
+MP-Rec: Hardware-Software Co-Design to Enable Multi-Path Recommendation
+TVM: An Automated End-to-End Optimizing Compiler for Deep Learning
+Farag, Yousef
+Efficient Memory Management for Large Language Model Serving  with PagedAttention
+Orca: A Distributed Serving System for Transformer-Based Generative Models
+ARC: Warp-level Adaptive Atomic Reduction in GPUs to Accelerate Differentiable Rendering
+Hariharan, Tarun
+POD-Attention: Unlocking Full PrefillDecode Overlap for
+Faster LLM Inference
+PointAcc: Efficient Point Cloud Accelerator
+throttLL’eM: Predictive GPU Throttling for Energy Efficient LLM Inference Serving
+Wang, Zirui
+Zeus: Understanding and  Optimizing GPU Energy Consumption of DNN Training
+ELSA: Hardware-Software Co-Design for Efficient,  Lightweight Self-Attention Mechanism in Neural Networks
+Efficient Memory Management for Large Language Model Serving  with PagedAttention
+Patel, Nehali Sudarshan
+ELSA: Hardware-Software Co-Design for Efficient,  Lightweight Self-Attention Mechanism in Neural Networks
+FlashInfer: Efficient and Customizable Attention Engine for LLM Inference Serving
+AttAcc! Unleashing the Power of PIM for Batched Transformer-based Generative Model Inference
+K.A., Abdul Manan
+WLB-LLM: Workload-Balanced 4D Parallelism for Large Language Model Training
+FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness
+ZeRO: Memory Optimizations Toward Training Trillion Parameter Models
+Subedi, Ashish
+H2-LLM: Hardware-Dataflow Co-Exploration for Heterogeneous Hybrid-Bonding-based Low-Batch LLM Inference
+Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM
+DynamoLLM: Designing LLM Inference Clusters for Performance and Energy Efficiency
+Suntoro, Marcellius William
+H2-LLM: Hardware-Dataflow Co-Exploration for Heterogeneous Hybrid-Bonding-based Low-Batch
+LLM Inference
+Orca: A Distributed Serving System for Transformer-Based Generative Models
+NanoFlow: Towards Optimal Large Language Model Serving Throughput
+Presentations Schedule
+Written on
+24.10.26
+(last change on
+26.10.26
+)						by Basel Fakhri
+Paper
+Student
+Mentor
+Date
+DistServe: Disaggregating Prefill and Decoding for Goodput optimized Large Language Model Serving
+Kazemi, Mehrafarin
+Basel
+Nov 9
+ThunderKittens: Simple, Fast, and…
+Read more
+Paper
+Student
+Mentor
+Date
+DistServe: Disaggregating Prefill and Decoding for Goodput optimized Large Language Model Serving
+Kazemi, Mehrafarin
+Basel
+Nov 9
+ThunderKittens: Simple, Fast, and Adorable AI Kernels
+Le, Hoang Dang Nguyen
+Dionysios
+Nov 16
+TVM: An Automated End-to-End Optimizing Compiler for Deep Learning
+Kooshky, Amirmohammad
+Dionysios
+Nov 23
+ARC: Warp-level Adaptive Atomic Reduction in GPUs to Accelerate Differentiable Rendering
+Farag, Yousef
+Prathamesh
+Nov 30
+throttLL’eM: Predictive GPU Throttling for Energy Efficient LLM Inference Serving
+Hariharan, Tarun
+Basel
+Dec 7
+Efficient Memory Management for Large Language Model Serving with PagedAttention
+Wang, Zirui
+Basel
+Dec 14
+AttAcc! Unleashing the Power of PIM for Batched Transformer-based Generative Model Inference
+Patel, Nehali Sudarshan
+Prathamesh
+Jan 11
+ZeRO: Memory Optimizations Toward Training Trillion Parameter Models
+K.A., Abdul Manan
+Dionysios
+Jan 18
+DynamoLLM: Designing LLM Inference Clusters for Performance and Energy Efficiency
+Subedi, Ashish
+Prathamesh
+Jan 25
+NanoFlow: Towards Optimal Large Language Model Serving Throughput
+Suntoro, Marcellius William.
+Dionysios
+Feb 1
+MPK: A Compiler and Runtime for Mega-Kernelizing Tensor Programs
+Sindarov, Asadbek
+Basel
+Nov 9
+Course Schedule
+Written on
+25.08.26
+(last change on
+04.09.26
+)						by Prathamesh Doundkar
+The class meets on
+Kick-Off Lecture:
+Oct 14th, Wednesday 15:00 - 17:00
+First Lecture:
+Oct 21st, Wednesday 15:00 - 17:00
+Weekly Lectures
+:
+Starting Oct 26th (included), a weekly lecture will take place every Monday at 15:00 - 17:00
+Location
+: Campus
+E1.5 029,
+Saarbrücken (
+MPI-SWS
+…
+Read more
+The class meets on
+Kick-Off Lecture:
+Oct 14th, Wednesday 15:00 - 17:00
+First Lecture:
+Oct 21st, Wednesday 15:00 - 17:00
+Weekly Lectures
+:
+Starting Oct 26th (included), a weekly lecture will take place every Monday at 15:00 - 17:00
+Location
+: Campus
+E1.5 029,
+Saarbrücken (
+MPI-SWS
+building)
+Note: people who have registered for the course it is important to attend the first lecture on Oct 14 so that they will understand the course logistics and the first assignment which is due to the first week of the semester
+Seminar on AI Systems
+This seminar covers core concepts and research developments in hardware/software infrastructure for large-scale AI model training, serving, and system optimization. AI infrastructure and system optimization are essential for improving the performance and energy efficiency of AI models, thereby enhancing not only quality of service and cost efficiency, but also unlocking new AI capabilities and applications. During the seminar, students will present research papers and prepare paper reviews based on a reading list provided at the beginning of the course; they may also participate in a semester project.
+Topics include: specialized AI accelerators; AI compilation and system optimizations; parallel programming techniques for GPUs; distributed training algorithms; runtime frameworks and engines for large-scale AI workloads; and efficient methods and systems for training, inference, and model serving. The goal of the course is to develop a deep understanding of the design principles behind next-generation AI systems and hardware platforms, and to explore the challenges in supporting emerging AI models.
+This is an advanced systems seminar integrating lectures, research paper discussions and reviews, and potentially a hands-on open-ended programming project. Students will explore research-oriented projects and present their findings through both written reports and oral presentations.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

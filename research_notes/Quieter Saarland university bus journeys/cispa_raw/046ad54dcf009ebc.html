@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Hauptseite	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="300c92296ba275f6ef119c2f4d421cdb55afc9be@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Cispa/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/theme/Cispa/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Cispa/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Cispa/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Cispa/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Cispa/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Cispa/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Cispa/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/usld/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/usld/../system" class="navbar-brand">CMS</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/usld/">Main Page</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Information</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/usld/termine/calendar/index">Timetable</a></li><li><a class="dropdown-item" href="/usld/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/usld/students/register">Registration</a></li><li class="nav-item"><a class="nav-link" href="/usld/landing">Personal Status</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/usld/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="b9f6142cfbddf7bebbeef02e0110c04fa5180391965fefbfb3ddef99757a4c0153ce042daef685c02526c01db5d975ce09dbd17f5e485a7e4efd1d48deca4686" id="Token1555145691" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Username" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Password" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Remember me</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.cispa.saarland/usld/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="2f973f3c1575234fbdb4318ba55b85f87b741131%3AUser.redirect" id="TokenFields1637164197" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked881374694" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/usld/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registration</a>        </li>
+        <li>
+            <a href="/usld/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Forgot Password?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Enable dark mode            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Enable light mode            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/usld/../system" class="site-logo" title="Front Page"><img src="/system/theme/Cispa/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					Usable Security in the Last Decade				</h1>
+				<div>
+				<small class="text-muted">
+					Divyanshu Bhardwaj, Sumair Ijaz Hashmi, Katharina Krombholz, Taha Taha				</small>
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					<div class="alert alert-info"><a href="/usld/students/register">Registration for this course</a> is open until <strong>Tuesday, 27.10.2026 23:59</strong>.</div>
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	
+<table class="table">
+	<colgroup>
+				<col span="1" style="width: auto;" />
+	</colgroup>
+	<tbody>
+	<tr>						<td class="align-top">
+				<a id="newsElement1"></a>
+				<h4 class="fs-5"><a href="/usld/news/view/1">27th October Session + Module Preference Form</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="21.10.2026 16:14:22">21.10.26</span>												by Taha Taha					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse1">
+					<p>Hello everyone,</p>
+
+<p>Next week, we will go over techniques for reading research papers and discuss the structure of a research paper. Please read the <strong>two compulsory readings</strong> in the CMS before the session. <strong>No</strong> <strong>critique is due for the next session.</strong></p>
+
+<p>Please submit your module preferences using this form: <a href="https://cispa.qualtrics.com/jfe/form/SV_2nu1YrpeJmPtq62">&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse1" href="#newsElement1">Read more</a></a></p>				</div>
+				<div class="collapse newsCollapse1">
+					<p>Hello everyone,</p>
+
+<p>Next week, we will go over techniques for reading research papers and discuss the structure of a research paper. Please read the <strong>two compulsory readings</strong> in the CMS before the session. <strong>No</strong> <strong>critique is due for the next session.</strong></p>
+
+<p>Please submit your module preferences using this form: <a href="https://cispa.qualtrics.com/jfe/form/SV_2nu1YrpeJmPtq62">https://cispa.qualtrics.com/jfe/form/SV_2nu1YrpeJmPtq62</a></p>
+
+<p><strong>Deadline: </strong>Tuesday, 27th October</p>
+
+<p>Before filling it out, we recommend skimming the abstracts of the readings in the modules that interest you. Then select your top 3 preferences, in order, in the Qualtrics form. Please note we will do our best to assign you your most preferred module, but we cannot guarantee your first choice. Moreover, preferences cannot be changed once the form is submitted, so please choose carefully. Lastly, please submit the form only once. Duplicate responses will not be accepted.</p>
+
+<p>If you have any questions, feel free to reach us at proseminar_usable_security@cispa.de&nbsp;</p>
+
+<p>See you next week!</p>
+				</div>
+							</td>
+		</tr>		
+		</tbody>
+</table>
+
+</section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<h1>Content</h1>
+
+<p>This course explores usable security and privacy, a field that examines how people interact with security &amp; privacy technologies, and how those technologies can be designed to actually work for them. Across the semester we will read and discuss papers from the last decade (2016-2026) covering subfields, such as security advice, authentication, scams &amp; fraud, privacy &amp; consent, at-risk users, and emerging threats to name a few. Students will learn to read papers critically, connect findings across the broader field, and present research effectively to their peers.</p>
+
+<p>&nbsp;</p>
+
+<h1>Time &amp; Location</h1>
+
+<p>The seminar meets weekly on <strong>Tuesdays, 10:00 am &ndash; 12:00 pm</strong><br />
+Location: <strong>CISPA&nbsp; </strong><strong>C0 - 0.01 Presentation Room, Stuhlsatzenhaus 5, 66123 Saarbr&uuml;cken.</strong></p>
+
+<p>&nbsp;</p>
+
+<h1>Learning Outcomes</h1>
+
+<p>Students will learn:</p>
+
+<ul>
+	<li>About topics usable security and privacy delves into</li>
+	<li>To read papers effectively</li>
+	<li>To analyze papers</li>
+	<li>To present papers</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<h1>Grading</h1>
+
+<ul>
+	<li>Research paper critiques: 40%</li>
+	<li>Paper presentation: 40%</li>
+	<li>Class participation: 10%</li>
+	<li>Attendance: 10%</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<h1>Class Structure</h1>
+
+<p>&nbsp;The course runs as weekly, module-based sessions. Each module corresponds to one subfield within usable security and privacy.&nbsp;</p>
+
+<p><strong>ATTENDANCE IS MANDATORY. If you cannot attend on these dates, please don&#39;t register for the seminar.</strong></p>
+
+<p>&nbsp;</p>
+
+<h1>Critiques</h1>
+
+<p>Each week&#39;s module comes with 3 readings: 2 compulsory and 1 optional. Every week, students will be required to submit a critique on <strong>one</strong> of the compulsory readings for that week&#39;s module. The critique for the week will be due on&nbsp; <strong>Mondays 3 PM&nbsp;</strong> before every session. Since each session happens on a <strong>Tuesday</strong> , and the critique is due the <strong>Monday before</strong> at <strong>3 PM</strong> , that means the deadline falls on the day <strong><em>before</em></strong> the week&#39;s session.</p>
+
+<p>All students submit a critique on one of the compulsory readings via CMS AND publicly in a discussion forum before the presentation day.</p>
+
+<p>Instructions on how to write a critique will be provided in the first few sessions and will be made available in the Materials tab.</p>
+
+<p>&nbsp;</p>
+
+<h1>Presentations</h1>
+
+<p>Every module will be a student-led discussion and presentation of that week&#39;s <strong>compulsory&nbsp;</strong> readings. One student presents the&nbsp; <strong>compulsory</strong> readings for that module. As pointed out in the section above, each week&#39;s module comes with 3 readings: 2 compulsory and 1 optional. Rather than presenting each paper separately, the presenter is expected to synthesize <strong>the compulsory readings</strong> of that week&#39;s readings into a single, cohesive talk. The presentation should draw connections across the papers, weaving them into one narrative about the module&#39;s topic rather than summarizing them one by one.</p>
+
+<p>The presenter may incorporate classmates&#39; critiques into their presentation, if they choose to. Students are encouraged, but not required, to conduct additional research on current affairs and additional papers to strengthen their talk as they see fit.</p>
+
+<p>Students will be judged on content, clarity, interactiveness, ability to tackle questions, and engagement with external materials.</p>
+
+<p>More details on how to present the module, including an example presentation, will be provided in the sessions. A grading rubric will also be made available in the Materials tab.</p>
+
+<p>&nbsp;</p>
+
+<h1>Session Breakdown</h1>
+
+<table cellspacing="0" style="border-collapse:collapse; font-family:inherit; width:100%">
+	<thead>
+		<tr>
+			<th style="text-align:left">Date</th>
+			<th style="text-align:left">Module</th>
+			<th style="text-align:left">Readings</th>
+			<th style="text-align:left">Session Lead</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">October 20, 2026</td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">Introduction Lecture</td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">&mdash;</td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">Course Team</td>
+		</tr>
+		<tr>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">27 Oct 2026</td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">Reading and Analyzing Papers</td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">
+			<p><strong><span style="color:#2ecc71">Compulsory</span></strong>&nbsp;<a href="https://dl.acm.org/doi/10.1145/1273445.1273458"> How to read a paper</a></p>
+
+			<p><strong><span style="color:#2ecc71">Compulsory</span></strong>&nbsp;<a href="https://ieeexplore.ieee.org/abstract/document/9229666">End User and Expert Perceptions of Threats and Potential Countermeasures</a>&nbsp;&mdash;<em>&nbsp;IEEE Euro S&amp;P Workshop 2020</em></p>
+			</td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">Course Team</td>
+		</tr>
+		<tr>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">3 Nov 2026</td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">Learning How to Criticize a Paper</td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px"><strong><span style="color:#2ecc71">Compulsory&nbsp;</span></strong><span style="color:#2ecc71"><a href="https://www.usenix.org/conference/soups2016/technical-sessions/presentation/krombholz">Use the Force: Evaluating Force-Sensitive Authentication for Mobile Devices</a>&nbsp;</span>&mdash;<em> SOUPS 2016</em></td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">Course Team</td>
+		</tr>
+		<tr>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">November 10, 2026</td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">Hate &amp; Harassment <em>(model presentation)</em></td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px"><span style="color:#2ecc71"><strong>Compulsory</strong></span> <a href="https://dl.acm.org/doi/10.1145/3491102.3501879"> &ldquo;It&#39;s common and a part of being a content creator&rdquo;: Understanding How Creators Experience and Cope with Hate and Harassment Online</a> &mdash;<em> CHI 2022 </em><br />
+			<span style="color:#2ecc71"><strong>Compulsory</strong></span> <a href="https://dl.acm.org/doi/10.1145/3290605.3300232"> &ldquo;They Don&#39;t Leave Us Alone Anywhere We Go&rdquo;: Gender and Digital Abuse in South Asia</a> &mdash;<em> CHI 2019 </em><br />
+			<span style="color:#fff2cc; font-size:0.85em">Optional </span> <a href="https://dl.acm.org/doi/10.1145/3173574.3174241">&ldquo;A Stalker&#39;s Paradise&rdquo;: How Intimate Partner Abusers Exploit Technology</a> &mdash;<em> CHI 2018</em></td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">Course Team</td>
+		</tr>
+		<tr>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">November 17, 2026</td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">Scams &amp; Fraud</td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px"><span style="color:#2ecc71"><strong>Compulsory</strong></span> <a href="https://ieeexplore.ieee.org/document/7546509"> Users Really Do Plug in USB Drives They Find</a> &mdash;<em> IEEE S&amp;P 2016 </em><br />
+			<span style="color:#2ecc71"><strong>Compulsory</strong></span> <a href="https://www.usenix.org/conference/usenixsecurity19/presentation/tu"> Users Really Do Answer Telephone Scams</a> &mdash;<em> USENIX Security 2019 </em><br />
+			<span style="color:#fff2cc; font-size:0.85em">Optional </span> <a href="https://www.usenix.org/conference/soups2026/presentation/eiger">Experiences with Digital Scams Post-Incarceration in the US</a> &mdash;<em> SOUPS 2026</em></td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">&mdash;</td>
+		</tr>
+		<tr>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">November 24, 2026</td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">Security Advice</td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px"><span style="color:#2ecc71"><strong>Compulsory</strong></span> <a href="https://dl.acm.org/doi/10.1145/2976749.2978307"> How I Learned to be Secure: a Census-Representative Survey of Security Advice Sources and Behavior</a> &mdash;<em> CCS 2016 </em><br />
+			<span style="color:#2ecc71"><strong>Compulsory</strong></span> <a href="https://www.computer.org/csdl/proceedings-article/sp/2026/606500a076/2bojv9k3yOk"> &ldquo;I Wonder if These Warnings Are Accurate&rdquo;: Security and Privacy Advice in Nine Majority World Countries</a> &mdash;<em> USENIX Security 2026 </em><br />
+			<span style="color:#fff2cc; font-size:0.85em">Optional </span> <a href="https://www.usenix.org/conference/soups2015/proceedings/presentation/ion">&ldquo;&hellip;No one can hack my Mind&rdquo;: Comparing Expert and Non-Expert Security Practices</a> &mdash;<em> SOUPS 2015</em></td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">&mdash;</td>
+		</tr>
+		<tr>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">1 Dec 2026</td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">Authentication &amp; Credentials</td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px"><span style="color:#2ecc71"><strong>Compulsory</strong></span> <a href="https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-lyastani.pdf"> Better Managed than Memorized? Studying the Impact of Managers on Password Strength and Reuse</a> &mdash;<em> USENIX Security 2018 </em><br />
+			<span style="color:#2ecc71"><strong>Compulsory</strong></span> <a href="https://ieeexplore.ieee.org/document/9152694"> Is FIDO2 the Kingslayer of User Authentication? A Comparative Usability Study of FIDO2 Passwordless Authentication</a> &mdash;<em> IEEE S&amp;P 2020 </em><br />
+			<span style="color:#fff2cc; font-size:0.85em">Optional </span> <a href="https://www.usenix.org/system/files/soups2019-reese.pdf">A Usability Study of Five Two-Factor Authentication Methods</a> &mdash;<em> SOUPS 2019</em></td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">&mdash;</td>
+		</tr>
+		<tr>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">December 8, 2026</td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">Research Methods</td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px"><span style="color:#2ecc71"><strong>Compulsory</strong></span> <a href="https://www.usenix.org/conference/soups2025/presentation/ortloff"> Replication: &ldquo;No One Can Hack My Mind&rdquo; &ndash; 10 Years Later: An Update and Outlook on Experts&#39; and Non-Experts&#39; Security Practices and Advice</a> &mdash;<em> SOUPS 2025 </em><br />
+			<span style="color:#2ecc71"><strong>Compulsory</strong></span> <a href="https://ieeexplore.ieee.org/document/8835345"> How Well Do My Results Generalize? Comparing Security and Privacy Survey Results from MTurk, Web, and Telephone Samples</a> &mdash;<em> IEEE S&amp;P 2019 </em><br />
+			<span style="color:#fff2cc; font-size:0.85em">Optional </span> <a href="https://dl.acm.org/doi/10.1145/3544548.3580766">Different Researchers, Different Results? Analyzing the Influence of Researcher Experience and Data Type During Qualitative Analysis of an Interview and Survey Study on Security Advice</a> &mdash;<em> CHI 2023</em></td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">&mdash;</td>
+		</tr>
+		<tr>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">December 15, 2026</td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">Privacy &amp; Consent</td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px"><span style="color:#2ecc71"><strong>Compulsory</strong></span> <a href="https://dl.acm.org/doi/10.1145/3319535.3354212"> (Un)informed Consent: Studying GDPR Consent Notices in the Field</a> &mdash;<em> CCS 2019 </em><br />
+			<span style="color:#2ecc71"><strong>Compulsory</strong></span> <a href="https://dl.acm.org/doi/10.1145/3313831.3376321"> Dark Patterns after the GDPR: Scraping Consent Pop-ups and Demonstrating Their Influence</a> &mdash;<em> CHI 2020 </em><br />
+			<span style="color:#fff2cc; font-size:0.85em">Optional </span> <a href="https://www.usenix.org/system/files/soups2019-habib.pdf">An Empirical Analysis of Data Deletion and Opt-Out Choices on 150 Websites</a> &mdash;<em> SOUPS 2019</em></td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">&mdash;</td>
+		</tr>
+		<tr>
+			<td colspan="4" style="border-color:#cccccc; border-style:solid; border-width:1px; text-align:center">Christmas Break: 21&nbsp;December 2026 - 3 January 2027</td>
+		</tr>
+		<tr>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">January 5, 2027</td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">At-Risk Users</td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px"><span style="color:#2ecc71"><strong>Compulsory</strong></span> &ldquo;<a href="https://ieeexplore.ieee.org/document/10179410"> In Eighty Percent of the Cases, I Select the Password for Them&rdquo;: Security and Privacy Challenges, Advice, and Opportunities at Cybercafes in Kenya</a> &mdash;<em> IEEE S&amp;P 2024 </em><br />
+			<span style="color:#2ecc71"><strong>Compulsory</strong></span> <a href="https://ieeexplore.ieee.org/document/9833643"> SoK: A Framework for Unifying At-Risk User Research</a> &mdash;<em> IEEE S&amp;P 2022 </em><br />
+			<span style="color:#fff2cc; font-size:0.85em">Optional </span> <a href="https://www.usenix.org/conference/usenixsecurity24/presentation/hasegawa">How WEIRD Is Usable Privacy and Security Research?</a> &mdash;<em> USENIX Security 2024</em></td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">&mdash;</td>
+		</tr>
+		<tr>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">January 12, 2027</td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">Emerging Threats</td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px"><span style="color:#2ecc71"><strong>Compulsory</strong></span> <a href="https://www.usenix.org/conference/usenixsecurity24/presentation/qin"> &ldquo;Did They F***ing Consent to That?&rdquo;: Safer Digital Intimacy via Proactive Protection Against Image-Based Sexual Abuse</a> &mdash;<em> USENIX Security 2024 </em><br />
+			<span style="color:#2ecc71"><strong>Compulsory</strong></span> <a href="https://dl.acm.org/doi/10.1145/3613904.3642310"> Mental Models, Expectations and Implications of Client-Side Scanning: An Interview Study with Experts</a> &mdash;<em> CHI 2024 </em><br />
+			<span style="color:#fff2cc; font-size:0.85em">Optional </span> <a href="https://dl.acm.org/doi/10.1145/3613904.3642242">In Focus, Out of Privacy: The Wearer&#39;s Perspective on the Privacy Dilemma of Camera Glasses</a> &mdash;<em> CHI 2024</em></td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">&mdash;</td>
+		</tr>
+		<tr>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">January 19, 2027</td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">Developers &amp; Experts</td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px"><span style="color:#2ecc71"><strong>Compulsory</strong></span> <a href="https://ieeexplore.ieee.org/document/8835228"> &ldquo;If HTTPS Were Secure, I Wouldn&#39;t Need 2FA&rdquo;: End User and Administrator Mental Models of HTTPS</a> &mdash;<em> IEEE S&amp;P 2020 </em><br />
+			<span style="color:#2ecc71"><strong>Compulsory</strong></span> <a href="https://ieeexplore.ieee.org/document/7958576"> Comparing the Usability of Cryptographic APIs</a> &mdash;<em> IEEE S&amp;P 2017 </em><br />
+			Optional <a href="https://www.usenix.org/conference/usenixsecurity23/presentation/grober">To Cloud or Not to Cloud: A Qualitative Study on Self-Hosters&#39; Motivation, Operation, and Security Mindset</a> &mdash;<em> USENIX Security 2023</em></td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">&mdash;</td>
+		</tr>
+		<tr>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">January 26, 2027</td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">Free Lecture</td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">&mdash;</td>
+			<td style="border-color:#cccccc; border-style:solid; border-width:1px">
+			<p>&mdash;</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<h1>&nbsp;</h1>
+
+<h1>Academic Dishonesty</h1>
+
+<p>In this course, you will be reading a wide range of scholarly sources and will work to integrate these concepts into your own research, critiques and professional practice. It is imperative that any use of others&#39; intellectual work (including, but not limited to, quotations, paraphrasing of ideas, figures, models) be accompanied by an appropriate citation or reference. The course follows Saarland University and DFG&#39;s guidelines regarding academic dishonesty: https://www.uni-saarland.de/en/administration/research-integrity.html&nbsp;</p>
+
+<p>Any form of cheating will result in a penalty up to automatic fail grade for the course. All instances of cheating will be forwarded to the associated university body for appropriate disciplinary action.</p>
+
+<p>Helping another student to cheat and cheating are considered equal cases of academic dishonesty and will be treated as outlined above.</p>
+
+<p>Giving another student an electronic copy of your homework, or access to your computer account constitutes cheating on your behalf if that other student copies or uses any files that become implicated in a cheating case.</p>
+
+<p>&nbsp;</p>
+
+<h1>AI Policy</h1>
+
+<p>The use of AI tools (eg, ChatGPT, Claude, or similar) is <strong>strictly prohibited</strong> for all coursework in this seminar, including critiques and presentations. All critiques and presentation content must be the student&#39;s own original work and analysis. Any case of plagiarism will be reported directly to the Examination Office.</p>
+
+<p>&nbsp;</p>
+
+<h1>Accessibility</h1>
+
+<p>If you anticipate or experience physical or academic barriers based on disability, you are welcome to let us know so that we can discuss options (such as live captions during class). You are also encouraged to contact the Equal Opportunities and Diversity Management Unit at: ksb@uni-saarland.de.</p>
+
+<p>&nbsp;</p>
+
+<h1>Student with Disabilities</h1>
+
+<p>If you have a disability that requires special academic accommodation, please make an appointment to speak with us within the first three (3) weeks of the semester in order to discuss any adjustments. It is important that we talk about this at the beginning of the semester. It is the student&#39;s responsibility to notify the Equal Opportunities and Diversity Management Unit (https://www.uni-saarland.de/en/administration/diversity/inclusive-education.html) of an impairment/condition that may require accommodations and/or classroom modifications.</p>
+
+<p>&nbsp;</p>
+
+<h1>Mental Health</h1>
+
+<p>If you find yourself beginning to feel some stress, anxiety and/or slightly feeling overwhelmed, please contact the counseling service made available to students through the university: https://www.stw-saarland.de/beratung/</p>
+
+<p>&nbsp;</p>
+
+<h1>Harassment Policy</h1>
+
+<p>We are committed to providing a safe and secure classroom environment for our students. Any kind of harassment or violent behavior is strictly prohibited and will be promptly reported to the Gender Equality Office (https://www.uni-saarland.de/en/administration/gender-equality-office.html).</p>
+
+<p>&nbsp;</p>
+
+<h1>Questions</h1>
+
+<p>We will make use of a discussion forum to ask questions about the course modules and for students to submit their critiques publicly. We encourage all questions to be asked via this discussion forum so that everyone can learn from each other. For questions that you are not comfortable asking publicly, please reach out at the following email address:&nbsp; <a href="mailto:proseminar_usable_security@cispa.de">proseminar_usable_security@cispa.de</a>&nbsp;</p>
+
+<p>&nbsp;</p>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/en/privacy.html" target="_blank">Privacy Policy</a> | <a href="https://www.uni-saarland.de/en/legal-notice.html" target="_blank">Legal Notice</a><br/>
+	If you encounter technical problems, please contact <a href="mailto:cms-devs@mail-infsec.cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">the administrators</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

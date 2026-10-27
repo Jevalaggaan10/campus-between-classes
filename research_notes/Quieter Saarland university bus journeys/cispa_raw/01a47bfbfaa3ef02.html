@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Main Page	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="300c92296ba275f6ef119c2f4d421cdb55afc9be@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Cispa/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/theme/Cispa/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Cispa/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Cispa/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Cispa/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Cispa/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Cispa/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Cispa/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/aos_wise26/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/aos_wise26/../system" class="navbar-brand">CMS</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/aos_wise26/">Main Page</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Information</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/aos_wise26/termine/calendar/index">Timetable</a></li><li><hr class="dropdown-divider" /></li><li><hr class="dropdown-divider" /></li><li><a class="dropdown-item" href="/aos_wise26/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/aos_wise26/students/register">Registration</a></li><li class="nav-item"><a class="nav-link" href="/aos_wise26/landing">Personal Status</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/aos_wise26/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="b9f6142cfbddf7bebbeef02e0110c04fa5180391965fefbfb3ddef99757a4c0153ce042daef685c02526c01db5d975ce09dbd17f5e485a7e4efd1d48deca4686" id="Token1881873376" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Username" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Password" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Remember me</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.cispa.saarland/aos_wise26/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="23227e1500ee73262d4ccfda3a52d73931b8b020%3AUser.redirect" id="TokenFields946091747" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked83193738" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/aos_wise26/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registration</a>        </li>
+        <li>
+            <a href="/aos_wise26/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Forgot Password?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Enable dark mode            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Enable light mode            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/aos_wise26/../system" class="site-logo" title="Front Page"><img src="/system/theme/Cispa/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					Autonomous Offensive Security				</h1>
+				<div>
+				<small class="text-muted">
+					Pellegrino				</small>
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	
+<table class="table">
+	<colgroup>
+				<col span="1" style="width: auto;" />
+	</colgroup>
+	<tbody>
+	<tr>						<td class="align-top">
+				<a id="newsElement2"></a>
+				<h4 class="fs-5"><a href="/aos_wise26/news/view/2">About the Interactive session</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="26.10.2026 10:58:52">26.10.26</span>												by Giancarlo Pellegrino					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse2">
+					<p>Dear students,</p>
+
+<p>During the interactive sessions, we will focus on setting up the target applications and configuring the assigned testing tools, and we will be available to assist you in exploiting your assigned vulnerabilities.</p>
+
+<p>Please bring your own laptop, preferably running GNU/Linux (either&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse2" href="#newsElement2">Read more</a></p>				</div>
+				<div class="collapse newsCollapse2">
+					<p>Dear students,</p>
+
+<p>During the interactive sessions, we will focus on setting up the target applications and configuring the assigned testing tools, and we will be available to assist you in exploiting your assigned vulnerabilities.</p>
+
+<p>Please bring your own laptop, preferably running GNU/Linux (either natively or in a VM). As the target applications will run in Docker containers, please ensure that Docker and its dependencies are installed and working beforehand. Also, make sure your system is up to date to avoid spending session time on updates.</p>
+
+<p>Finally, please download the testing tools relevant to your assigned vulnerabilities beforehand. The interactive sessions are also an opportunity to ask for help if you encounter issues installing, configuring, or using these tools.</p>
+
+<p>---<br />
+Giancarlo</p>
+				</div>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement1"></a>
+				<h4 class="fs-5"><a href="/aos_wise26/news/view/1">Assignments of the vulnerabilities</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="20.10.2026 16:53:17">20.10.26</span>												by Giancarlo Pellegrino					</i></small>
+				</p>
+
+									<p>Thank you everyone for being on time with your preferences. The assignments are online. See the page <code>Information &gt; Vulnerability Assignments</code>.</p>
+
+<p>---<br />
+Giancarlo</p>
+							</td>
+		</tr>		
+		</tbody>
+</table>
+
+</section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<h1>Autonomous Offensive Security</h1>
+
+<p><s><em>For registration, please apply for this seminar through the <a href="https://seminars.cs.uni-saarland.de/">central seminar assignment system.</a></em></s></p>
+
+<p>LLMs and autonomous agents are changing the way security researchers hunt for bugs, analyze attack surfaces, and validate real vulnerabilities. Recent systems have shown increasingly strong capabilities in using tools, understanding targets, generating exploits, and automating parts of the vulnerability discovery workflow. This seminar explores this emerging frontier: <strong>autonomous offensive security</strong>.</p>
+
+<p>The goal of the seminar is for students to develop critical thinking about autonomous offensive security. Students will also gain a deeper understanding of vulnerability classes, study the state of the art in detecting and exploiting them, and identify where current approaches still fall short. Based on this analysis, each student will build their own autonomous agent for tasks such as vulnerability detection, validation, or exploitation.</p>
+
+<p>The seminar is organized around almost weekly meetings with discussions, presentations, and practical implementation and experimentation. Each student will work on a selected vulnerability class: they will study existing tools and recent research papers, identify one concrete open challenge, and implement an agentic solution that addresses it. The agent will be evaluated on selected targets, and the results will form the basis of the final seminar report.</p>
+
+<h3>Notes on requirements and background knowledge</h3>
+
+<p>Students without a background in computer security will likely find this seminar particularly challenging. The same applies to students without a hands-on attitude toward security, systems, and software development, as the seminar involves both reading research papers and building/evaluating an autonomous security agent.</p>
+
+<p>When applying, students must clearly state their current background in security in the motivation box, including relevant security courses and university projects.</p>
+
+<p>&nbsp;</p>
+
+<h2>Important Details</h2>
+
+<ul>
+	<li><s>Kickoff&nbsp;on Wednesday, 14.10.2026, 16:15-18:00, CISPA&nbsp;C0, 0.05 Lecture Hall</s></li>
+	<li>Almost regular&nbsp;sessions on Wednesdays; all in&nbsp;<strong><span style="background-color:#f39c12">CISPA C0,&nbsp;0.07 Meeting Room</span></strong></li>
+	<li><strong>Attendance in all meetings is mandatory. </strong>For exceptional circumstances, contact the teaching staff.</li>
+	<li>This seminar&nbsp;will <strong>not</strong>&nbsp;offer a hybrid participation. All sessions are only in-person.</li>
+</ul>
+
+<h2>&nbsp;</h2>
+
+<h2>Deadlines</h2>
+
+<ol>
+	<li>Assignments: Mon, 19/10: Send email w/&nbsp;your top 3 vulnerabilities</li>
+	<li>Milestone 1, Fri, 30/10: Submit PDF&nbsp;on spawning the targets</li>
+	<li>Milestone 2, Fri, 20/11: Submit PDF&nbsp;on exploiting vulnerabilities</li>
+	<li>Milestone 3, Tue, 08/12: Submit PDF slides of your proposal presentation</li>
+	<li>Milestone 4, Fri, 29/01: Submit PDF slides of your&nbsp;updated presentation (w/ results on firing-range applications)</li>
+	<li>Milestone 5, Mon 01/03: Submit final paper, including source code and artifacts</li>
+</ol>
+
+<h2>&nbsp;</h2>
+
+<h2>Schedule</h2>
+
+<table border="0" cellpadding="1" cellspacing="1" class="table table-striped">
+	<thead>
+		<tr>
+			<th scope="col">Date</th>
+			<th scope="col">Time</th>
+			<th scope="col">Content</th>
+			<th scope="col">Description</th>
+			<th scope="col">Tutor</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>14.10.2026</td>
+			<td>16:15 - 18:00</td>
+			<td>Kickoff</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>21.10.2026</td>
+			<td>&nbsp;</td>
+			<td colspan="2" rowspan="1">&nbsp;</td>
+			<td rowspan="1">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>28.10.2026</td>
+			<td>16:15 - 18:00</td>
+			<td><span style="background-color:#95a5a6">Interactive session</span></td>
+			<td>Installing/running targets; using testing tools; exploiting vulnerabilities</td>
+			<td>Prerak</td>
+		</tr>
+		<tr>
+			<td>04.11.2026</td>
+			<td>16:15 - 18:00</td>
+			<td><span style="background-color:#2ecc71">RG</span></td>
+			<td>YuraScanner: Leveraging LLMs for Task-driven Web App Scanning</td>
+			<td>Alex</td>
+		</tr>
+		<tr>
+			<td>11.11.2026</td>
+			<td>16:15 - 18:00</td>
+			<td><span style="background-color:#95a5a6">Interactive session</span> (overflow)</td>
+			<td>Installing/running targets; using testing tools; exploiting vulnerabilities</td>
+			<td>Prerak</td>
+		</tr>
+		<tr>
+			<td>18.11.2026</td>
+			<td>&nbsp;</td>
+			<td>No seminar</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>25.11.2026</td>
+			<td>16:15 - 18:00</td>
+			<td><span style="background-color:#2ecc71">RG</span></td>
+			<td>EnIGMA: interactive tools substantially assist LM agents in finding security vulnerabilities</td>
+			<td>Prerak</td>
+		</tr>
+		<tr>
+			<td>02.12.2026</td>
+			<td>16:15 - 18:00</td>
+			<td><span style="background-color:#2ecc71">RG</span></td>
+			<td>FirmAgent: Leveraging Fuzzing to Assist LLM Agents with IoT Firmware Vulnerability Discovery</td>
+			<td>Alex</td>
+		</tr>
+		<tr>
+			<td>09.12.2026</td>
+			<td>16:15 - 18:00</td>
+			<td><span style="background-color:#3498db">Presentations</span></td>
+			<td>Short talk about motivations, designs, and architectures&nbsp;(10+5mins)</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>16.12.2026</td>
+			<td>16:15 - 18:00</td>
+			<td><span style="background-color:#95a5a6">Scientific writing</span>&nbsp;+<span style="background-color:#2ecc71">RG</span></td>
+			<td>
+			<ul>
+				<li>Scientific Writing Session (Giancarlo)</li>
+				<li>Comparing AI Agents to Cybersecurity Professionals in Real-World Penetration Testing</li>
+			</ul>
+			</td>
+			<td>Gianluca</td>
+		</tr>
+		<tr>
+			<td>23.12.2026</td>
+			<td>&nbsp;</td>
+			<td colspan="2">No seminar, winter break 🎄</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>30.12.2026</td>
+			<td>&nbsp;</td>
+			<td colspan="2">No seminar, winter break 🎄</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>06.01.2027</td>
+			<td>&nbsp;</td>
+			<td colspan="2">No seminar, winter break 🎄</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>13.01.2027</td>
+			<td>&nbsp;</td>
+			<td colspan="2" rowspan="1">No seminar, coding coding and coding!</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>20.01.2027</td>
+			<td>&nbsp;</td>
+			<td colspan="2" rowspan="1">No seminar, coding coding and coding!</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>27.01.2027</td>
+			<td>16:15 - 18:00</td>
+			<td><span style="background-color:#3498db">Presentations</span></td>
+			<td>Short talk w/&nbsp;results on firing-range applications (10+5mins)</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>03.02.2027</td>
+			<td>&nbsp;</td>
+			<td>No seminar</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>10.02.2027</td>
+			<td>&nbsp;</td>
+			<td>No seminar</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>17.02.2027</td>
+			<td>&nbsp;</td>
+			<td>No seminar</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>24.02.2027</td>
+			<td>&nbsp;</td>
+			<td>No seminar</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>03.03.2027</td>
+			<td><span style="background-color:#f39c12">14:00 - 18:00</span></td>
+			<td><span style="background-color:#3498db">Presentations</span></td>
+			<td>Presentation of your seminar paper (20+10mins)</td>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/en/privacy.html" target="_blank">Privacy Policy</a> | <a href="https://www.uni-saarland.de/en/legal-notice.html" target="_blank">Legal Notice</a><br/>
+	If you encounter technical problems, please contact <a href="mailto:cms-devs@mail-infsec.cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">the administrators</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

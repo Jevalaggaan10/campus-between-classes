@@ -1,0 +1,30 @@
+[
+  {
+    "key": "economics",
+    "url": "https://www.lsf.uni-saarland.de/qisserver/rds?P.vx=lang&root120262=461590%7C458383%7C462020&search=1&state=wtree&trex=total",
+    "status": 200,
+    "size": 3602501,
+    "elapsed": 4.36
+  },
+  {
+    "key": "economics_no_www",
+    "url": "https://lsf.uni-saarland.de/qisserver/rds?P.vx=lang&root120262=461590%7C458383%7C462020&search=1&state=wtree&trex=total",
+    "status": 200,
+    "size": 3588286,
+    "elapsed": 4.41
+  },
+  {
+    "key": "informatik",
+    "url": "https://www.lsf.uni-saarland.de/qisserver/rds?P.vx=lang&root120262=461590%7C469204%7C459756&search=1&state=wtree&trex=total",
+    "status": 200,
+    "size": 3238451,
+    "elapsed": 3.64
+  },
+  {
+    "key": "root",
+    "url": "https://www.lsf.uni-saarland.de/qisserver/rds?P.vx=kurz&root120262=461590&search=1&state=wtree&trex=step",
+    "status": 200,
+    "size": 53730,
+    "elapsed": 1.31
+  }
+]

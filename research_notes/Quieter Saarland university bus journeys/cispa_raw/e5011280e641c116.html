@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Main Page	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="300c92296ba275f6ef119c2f4d421cdb55afc9be@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Cispa/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/theme/Cispa/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Cispa/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Cispa/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Cispa/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Cispa/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Cispa/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Cispa/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/hackasat/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/hackasat/../system" class="navbar-brand">CMS</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/hackasat/">Main Page</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Information</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/hackasat/termine/calendar/index">Timetable</a></li><li><a class="dropdown-item" href="/hackasat/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/hackasat/students/register">Registration</a></li><li class="nav-item"><a class="nav-link" href="/hackasat/landing">Personal Status</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/hackasat/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="b9f6142cfbddf7bebbeef02e0110c04fa5180391965fefbfb3ddef99757a4c0153ce042daef685c02526c01db5d975ce09dbd17f5e485a7e4efd1d48deca4686" id="Token1604186090" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Username" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Password" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Remember me</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.cispa.saarland/hackasat/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="e400d01274d4931c040f9dc9ed73d88fb8dd15e3%3AUser.redirect" id="TokenFields279389740" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked459848427" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/hackasat/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registration</a>        </li>
+        <li>
+            <a href="/hackasat/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Forgot Password?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Enable dark mode            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Enable light mode            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/hackasat/../system" class="site-logo" title="Front Page"><img src="/system/theme/Cispa/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					Hack-a-Sat				</h1>
+				<div>
+				<small class="text-muted">
+					Ali Abbasi				</small>
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	<p><i class="text-muted">Currently, no news are available</i></p></section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<h1>Hack-a-Sat</h1>
+
+<p>Satellite systems combine many challenging security domains, while Capture the Flag competitions are a practical way to explore these domains hands-on by designing, implementing, testing, and solving realistic security challenges. This seminar combines both and focuses on creating high-quality challenges for a satellite- and space-themed Capture the Flag. Students will learn how to design and implement challenges, document intended solutions, deploy challenges reproducibly, test challenges created by others, and evaluate their quality, difficulty, and playability.</p>
+
+<h2>Organization</h2>
+
+<p>In this seminar, you will create a high-quality CTF challenge in one of the following categories:</p>
+
+<ul>
+	<li>Space Cryptography</li>
+	<li>Mission Control Center</li>
+	<li>On Board Computer Software</li>
+	<li>Protocols</li>
+	<li>RF</li>
+</ul>
+
+<p>The seminar is structured around the process of designing, implementing, testing, refining, and solving CTF challenges. This includes:</p>
+
+<ul>
+	<li>learning the important features of a good CTF challenge</li>
+	<li>understanding the surrounding infrastructure</li>
+	<li>developing a challenge with a clear goal, intended solution, and realistic technical setting</li>
+	<li>creating a reproducible deployment environment</li>
+	<li>documenting the challenge and its intended solution</li>
+	<li>testing challenges developed by other participants</li>
+	<li>identifying bugs, unintended solutions, and usability issues</li>
+	<li>refining the challenge based on testing feedback</li>
+	<li>playing and solving challenges created by others</li>
+</ul>
+
+<p>Students will work on their own challenge throughout the semester. After the initial development phase, challenges will be exchanged between participants for testing and subsequently improved based on the feedback received.</p>
+
+<h2>Challenge Development</h2>
+
+<p>Each participant or group will design and implement a CTF challenge related to satellite or space systems security. The challenge should be technically meaningful, well documented, and suitable for other students to solve. The challenge should have a clearly defined intended solution and an appropriate level of difficulty.</p>
+
+<p>The challenge must be reproducibly deployable without undocumented manual steps. For the draft submission, a first complete and working version must be deployable using a simple <code>docker compose up</code> command.</p>
+
+<p>The challenge draft must include:</p>
+
+<ul>
+	<li>a complete and working version of the challenge</li>
+	<li>the required Docker configuration and challenge files</li>
+	<li>a working solve script demonstrating that the challenge is solvable</li>
+	<li>a detailed write-up describing the challenge design and intended solution</li>
+</ul>
+
+<p>The draft submission is the main development milestone. It must already represent a complete, working, and good-quality challenge. The later testing and finalization phases are intended to identify and address remaining issues rather than to complete functionality that should have been present in the draft.</p>
+
+<h2>Challenge Testing</h2>
+
+<p>After the draft submission, each student or group will select one or more challenges developed by other participants for testing.</p>
+
+<p>During the testing phase, you should approach the selected challenge as a player and perform a substantial technical analysis. The goal is not only to determine whether the intended solution works, but also to evaluate the overall solving experience and identify possible weaknesses in the challenge.</p>
+
+<p>The testing report should include:</p>
+
+<ul>
+	<li>issues found in the challenge, including bugs or deployment problems</li>
+	<li>potential unintended solutions or alternative attack paths</li>
+	<li>the solution path you attempted or would follow</li>
+	<li>an assessment of the challenge&#39;s clarity and playability</li>
+	<li>optionally, a solve script</li>
+</ul>
+
+<p>Successfully solving the selected challenge is not strictly required if the testing demonstrates substantial and useful technical analysis. However, a complete solution is necessary to receive full credit for the challenge-solving component.</p>
+
+<h2>Finalization</h2>
+
+<p>After the testing phase, challenge authors will receive feedback from the participants who tested their challenge. This feedback should be evaluated and used to refine the challenge where appropriate. In particular, bugs, unintended solutions, edge cases, deployment problems, and unclear challenge behavior should be addressed.</p>
+
+<p>The final submission must include:</p>
+
+<ul>
+	<li>the finalized challenge and challenge files</li>
+	<li>a final write-up</li>
+	<li>a final solve script</li>
+	<li>final deployment instructions</li>
+	<li>the final Docker configuration and related files</li>
+</ul>
+
+<p>Improvements made during the finalization phase do not recover points lost because of an incomplete or low-quality draft submission. Each milestone is graded based on the quality of the work at the corresponding deadline.</p>
+
+<h2>Important Dates</h2>
+
+<p><strong>Meeting #1: 13.11.2026,&nbsp;16:00-18:00.&nbsp; Location: CISPA C0 - 0.07 Meeting Room</strong></p>
+
+<p><strong>Meeting #2: 04.12.2026,&nbsp;16:00-18:00.&nbsp; Location: CISPA C0 - 0.07 Meeting Room</strong></p>
+
+<p><strong>Meeting #3: 13.01.2027,&nbsp;16:00-18:00.&nbsp; Location: CISPA C0 - 0.01&nbsp;Presentation Room</strong></p>
+
+<p><strong>Meeting #4: 05.02.2027,&nbsp;16:00-18:00.&nbsp; Location: CISPA C0 - 0.07 Meeting Room</strong></p>
+
+<ul>
+	<li><strong>Kick off: 30.10.2026, 16:00-18:00.&nbsp; Location: CISPA C0 - 0.07 Meeting Room</strong></li>
+</ul>
+
+<ul>
+	<li><strong>19.12.2026:&nbsp;Challenge draft submission:</strong> Complete and working first version of the challenge, deployable using <code>docker compose up</code>, including a working solve script and detailed write-up.</li>
+	<li><strong>20.12.2026 - 31.12.2026:&nbsp;Challenge selection for testing:</strong> Select one or more challenges developed by other students or groups.</li>
+	<li><strong>01.01.2027 - 14.01.2027:&nbsp;Testing phase:</strong> Test the selected challenge(s) and submit the final testing report by 14.01.2027.</li>
+	<li><strong>15.01.2027 - 15.02.2027:&nbsp;Fixing and finalization phase:</strong> Evaluate testing feedback, fix identified issues and unintended solutions, and refine the challenge.</li>
+	<li><strong>15.02.2027:&nbsp;Final challenge submission:</strong> Submit the final challenge, write-up, solve script, deployment instructions, Docker configuration, and related files.</li>
+</ul>
+
+<h2>Deliverables and Grading</h2>
+
+<p><strong>1. Challenge Draft 50%</strong><br />
+Deadline: <strong>19.12.2026</strong></p>
+
+<ul>
+	<li><strong>25% Challenge Quality</strong>
+
+	<ul>
+		<li>Technical quality</li>
+		<li>Challenge design and intended solution</li>
+		<li>Appropriate difficulty</li>
+		<li>Meaningful development and refinement</li>
+	</ul>
+	</li>
+	<li><strong>10% Solvability</strong>
+	<ul>
+		<li>The intended solution works reliably</li>
+		<li>A working solve script is provided</li>
+	</ul>
+	</li>
+	<li><strong>5% Deployment</strong>
+	<ul>
+		<li>The challenge can be easily and reproducibly deployed</li>
+		<li>No undocumented manual deployment steps are required</li>
+	</ul>
+	</li>
+	<li><strong>10% Write-Up</strong>
+	<ul>
+		<li>The challenge design is clearly documented</li>
+		<li>The intended solution is clearly documented</li>
+	</ul>
+	</li>
+</ul>
+
+<p><strong>2. Challenge Testing 30%</strong><br />
+Deadline: <strong>14.01.2027</strong></p>
+
+<ul>
+	<li><strong>20% Challenge Solving</strong>
+
+	<ul>
+		<li>Depth of the technical analysis</li>
+		<li>Progress toward solving the challenge</li>
+		<li>Identification of potential issues or unintended solutions</li>
+	</ul>
+	</li>
+	<li><strong>10% Testing Report</strong>
+	<ul>
+		<li>Quality and completeness of the report</li>
+		<li>Clear description of findings and attempted solution paths</li>
+	</ul>
+	</li>
+</ul>
+
+<p>Successfully solving the challenge is not strictly required if the testing demonstrates substantial and useful technical analysis. However, a complete solution is necessary to receive full credit.</p>
+
+<p><strong>3. Final Challenge 20%</strong><br />
+Deadline: <strong>15.02.2027</strong></p>
+
+<ul>
+	<li><strong>15% Refinement</strong>
+
+	<ul>
+		<li>Issues discovered during testing are properly addressed</li>
+		<li>Feedback is evaluated and incorporated where appropriate</li>
+		<li>Unintended solutions and edge cases are fixed</li>
+	</ul>
+	</li>
+	<li><strong>5% Final Deliverables</strong>
+	<ul>
+		<li>Final write-up</li>
+		<li>Final solve script</li>
+		<li>Final deployment instructions and Docker configuration</li>
+	</ul>
+	</li>
+</ul>
+
+<h2>Milestone Requirement</h2>
+
+<p>The challenge draft is the main development milestone and accounts for <strong>50% of the final grade</strong>. Although the challenge will be tested and refined after the draft submission, the draft must already be complete, working, deployable, solvable, and of good quality.</p>
+
+<p>The testing and finalization phases are intended to identify and address issues, improve the solving experience, and refine an already functional challenge. They are not intended to complete work that should have been finished before the draft deadline.</p>
+
+<p>Improvements made after the draft deadline do not recover points lost because of an incomplete or low-quality draft submission.</p>
+
+<h2>AI Rules</h2>
+
+<p>AI tools may be used to support the challenge development and testing process, but they must not replace substantial human work.</p>
+
+<p>Challenges should <strong>not be entirely AI-generated</strong>. Challenge design should involve substantial human creativity, technical judgment, and guidance.</p>
+
+<p>Similarly, challenges should <strong>not be tested entirely using AI</strong>. Because the challenges are ultimately intended to be solved by humans, they must also be tested by humans in order to evaluate:</p>
+
+<ul>
+	<li>difficulty</li>
+	<li>clarity</li>
+	<li>unintended solutions</li>
+	<li>technical issues</li>
+	<li>the overall solving experience</li>
+</ul>
+
+<p>AI may be used as a supporting tool, but the core challenge design, implementation decisions, analysis, and human testing remain the responsibility of the participants.</p>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/en/privacy.html" target="_blank">Privacy Policy</a> | <a href="https://www.uni-saarland.de/en/legal-notice.html" target="_blank">Legal Notice</a><br/>
+	If you encounter technical problems, please contact <a href="mailto:cms-devs@mail-infsec.cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">the administrators</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

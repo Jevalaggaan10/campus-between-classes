@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Main Page	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="4231d285cf1947148cfee86aa34b2ec9a0b05a05@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Sic/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Sic/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Sic/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Sic/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Sic/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/cg_2627/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/cg_2627/../system" class="navbar-brand">Courses</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/cg_2627/">Main Page</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Information</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/cg_2627/termine/calendar/index">Timetable</a></li><li><hr class="dropdown-divider" /></li><li><hr class="dropdown-divider" /></li><li><a class="dropdown-item" href="/cg_2627/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/cg_2627/students/register">Registration</a></li><li class="nav-item"><a class="nav-link" href="/cg_2627/landing">Personal Status</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/cg_2627/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="5081518084b2a8a914b49252d39aaaccc30445e4fa405d1c84cf7897606c355d73b9c87f992d7c1dea64d2f967662094a24eb4418895eec7396acecd178c4255" id="Token616990668" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Username" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Password" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Remember me</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.sic.saarland/cg_2627/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="76b42ad98bfa78491744257c1d38c1f65aea5378%3AUser.redirect" id="TokenFields685510459" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked314918056" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/cg_2627/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registration</a>        </li>
+        <li>
+            <a href="/cg_2627/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Forgot Password?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Enable dark mode            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Enable light mode            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/cg_2627/../system" class="site-logo" title="Front Page"><img src="/system/theme/Sic/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					Computer Graphics				</h1>
+				<div>
+				<small class="text-muted">
+					Pascal Grittmann, Philipp Slusallek				</small>
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	
+<table class="table">
+	<colgroup>
+				<col span="1" style="width: auto;" />
+	</colgroup>
+	<tbody>
+	<tr>						<td class="align-top">
+				<a id="newsElement3"></a>
+				<h4 class="fs-5"><a href="/cg_2627/news/view/3">Colloquium Assignment</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="26.10.2026 11:07:12">26.10.26</span>												by Lukas Auer					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse3">
+					<p>Dear Students,<br />
+<br />
+you are now assigned to Colloquia and your group repos have been created.<br />
+Check your personal status page to check your timeslot. If that slots is impossible to attend for you, please contact Lukas Auer (auer@cg.uni-saarland.de).<br />
+<br />
+Note: The first Tutorial assignment had a mistake&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse3" href="#newsElement3">Read more</a></p>				</div>
+				<div class="collapse newsCollapse3">
+					<p>Dear Students,<br />
+<br />
+you are now assigned to Colloquia and your group repos have been created.<br />
+Check your personal status page to check your timeslot. If that slots is impossible to attend for you, please contact Lukas Auer (auer@cg.uni-saarland.de).<br />
+<br />
+Note: The first Tutorial assignment had a mistake so we reassigned everyone.</p>
+				</div>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement2"></a>
+				<h4 class="fs-5"><a href="/cg_2627/news/view/2">No Minitest on Monday</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="23.10.2026 12:32:58">23.10.26</span>												by Lukas Auer					</i></small>
+				</p>
+
+									<p>Dear Students,</p>
+
+<p>there will&nbsp;<strong>NOT&nbsp;</strong>be a Minitest on Monday. This year there will in general not be any Minitests.</p>
+
+<p>Sorry for the confusion and the miscommunication.&nbsp;</p>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement1"></a>
+				<h4 class="fs-5"><a href="/cg_2627/news/view/1">Welcome to CG 🥳</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="19.10.2026 16:11:04">19.10.26</span>												by Lukas Auer					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse1">
+					<p>TL;DR: <strong>Deadline 25.10 at 23:59</strong>: (1) log into GitLab once so you get access to the lightwave framework, and (2) register a team (even if you work alone) in the CMS.</p>
+
+<p>Dear Students,</p>
+
+<p>welcome to CG 🥳!<br />
+In order to have a smooth start in the CG course, we would like to give you some information&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse1" href="#newsElement1">Read more</a></p>				</div>
+				<div class="collapse newsCollapse1">
+					<p>TL;DR: <strong>Deadline 25.10 at 23:59</strong>: (1) log into GitLab once so you get access to the lightwave framework, and (2) register a team (even if you work alone) in the CMS.</p>
+
+<p>Dear Students,</p>
+
+<p>welcome to CG 🥳!<br />
+In order to have a smooth start in the CG course, we would like to give you some information regarding team creation and the GitLab access needed to work on the assignments.</p>
+
+<p>GitLab access:<br />
+If you have not already done so, log into your uni GitLab account once (https://gitlab.cs.uni-saarland.de/). We cannot give you access to the lightwave framework if you did not log into the account once.<br />
+After your first login, it might take a day until you get access to the upstream https://gitlab.cs.uni-saarland.de/cg1/ws26/upstream and can start working on the submission. So do it now rather than later. This also has to happen before the team registration deadline on Sunday as you cannot get a team repo otherwise.</p>
+
+<p>Team Creation:<br />
+The deadline to register a team and give preferences for the colloquium slot is Sunday 25.10 at 23:59.<br />
+After this deadline we will create your group repositories for code submission and assign you and your teammate to a colloquium slot according to your preferences.<br />
+<strong>Creating a team is necessary even if you plan to submit the assignments by yourself</strong>. If you do not register a team, we will not create a GitLab repo for you and you will not be able to submit solutions.<br />
+In order to find a teammate, feel free to come to this week&#39;s Office Hours or use the forum.</p>
+
+<p>&nbsp;</p>
+				</div>
+							</td>
+		</tr>		
+		</tbody>
+</table>
+
+</section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<h2>Computer Graphics</h2>
+
+<p>This course provides a hands-on introduction to the fundamentals of computer graphics, with a focus on rendering. You will learn concepts including ray tracing, texturing, and camera models. In the practical assignments, you will apply this knowledge to build your own ray tracer. The course culminates in a rendering competition, where students model a 3D scene and render it with their own renderer, competing to see who can make best artistic use of the tools they have built.</p>
+
+<p>The <strong>first lecture</strong> is on <strong>Thursday, 15.10. at 08:30 in E1 3 HS 001.</strong></p>
+
+<h3>Pre-requisites</h3>
+
+<ul>
+	<li>Programming experience (assignments use C++)</li>
+	<li>Basic math knowledge (What is a vector? What is an integral?)</li>
+</ul>
+
+<p>We will be using the <a href="https://gitlab.cs.uni-saarland.de">CS department&#39;s GitLab</a> for the practical assignments. A <a href="https://sam.sic.saarland">SIC account</a> is mandatory for that, so please make sure you can log into yours.</p>
+
+<h3>Format</h3>
+
+<p>The course follows a non-standard format:</p>
+
+<ul>
+	<li>The course is split into <em>blocks</em>, each lasting <em>two weeks</em></li>
+	<li>Each block comprises
+	<ul>
+		<li>two lectures (Monday and Thursday of the first week),</li>
+		<li>a practical assignment (<strong>passing all tests required</strong>),</li>
+		<li>a theoretical assignment (<strong>mandatory</strong> but ungraded),</li>
+		<li>a colloquium sheet (<strong>mandatory</strong> but ungraded)</li>
+		<li>a reading assignment</li>
+	</ul>
+	</li>
+	<li>During the first week of each block:
+	<ul>
+		<li>Monday, 10:15: lecture, assignments released</li>
+		<li>Thursday, 08:30: lecture, reading assignment released</li>
+		<li>Throughout the week: colloquia with your tutor about the previous assignments (<strong>mandatory</strong>, must be <strong>passed</strong>)</li>
+		<li>Throughout the week: office hours</li>
+	</ul>
+	</li>
+	<li>During the second week of each block:
+	<ul>
+		<li>Throughout the week: office hours</li>
+		<li>Sunday, 23:59: deadline for all submissions</li>
+	</ul>
+	</li>
+</ul>
+
+<p>Precise dates can be found in the <a href="https://cms.sic.saarland/cg_2627/termine/calendar/index">calendar</a> here on CMS (Information/Timetable at the top).</p>
+
+<h3>Assignments and teams</h3>
+
+<p>At the beginning of each block, we release a practical and a theoretical assignment sheet on CMS. The exception is the <em>rendering competition</em>, which will be the practical assignment for multiple blocks. That is, some blocks only feature a theoretical sheet.</p>
+
+<p>Students can work on these assignments in teams of two. Teams must be registered on CMS at the beginning of the course and remain fixed throughout. Each team is assigned a tutor who will be responsible for them during the course.</p>
+
+<p>Solutions to practical assignments are pushed to GitLab, solutions to theory exercises are uploaded to CMS.</p>
+
+<p>To be admitted to the exam, students must pass all tests for all practical assignments. Additionally, they must demonstrate in the colloquia that they understand the submitted code and have worked on the theoretical exercises.</p>
+
+<h3>Colloquia</h3>
+
+<p>Colloquia take place in the week after each assignment submission. They are mandatory to attend and must be passed to be admitted to the exam.</p>
+
+<p>In the colloquium, two teams of students (i.e., up to 4 students in total) meet with their tutor for 20 minutes. To pass the colloquium, the student must demonstrate that they fully understand every line of code submitted by their team, and show that they have worked on the theoretical exercises diligently. Both students in a team are expected to understand <strong>all</strong> code.</p>
+
+<p>The first failed colloquium can be repeated once (with the TA or lecturer present). Students who fail the repeat attempt, or fail multiple colloquia, are not admitted to the exam.</p>
+
+<h3>Office hours</h3>
+
+<p>Multiple office hours will be offered during both weeks of a block. Times will be announced on the <a href="https://cms.sic.saarland/cg_2627/termine/calendar/index">calendar</a>.</p>
+
+<p>Students are encouraged to attend the office hours to clarify questions about the assignments, get help with technical issues or debugging, or to ask general questions about course materials.</p>
+
+<h3>Practical assignments</h3>
+
+<p>During the lecture they will guide you through the fun parts of building your own renderer. They will come with a testsuite, and <em>passing all tests</em> is a strict requirement for exam admission. The submission is done through the <a href="https://gitlab.cs.uni-saarland.de">CS department&#39;s GitLab</a>.</p>
+
+<h3>Project and rendering competition</h3>
+
+<p>With the rendering competition, you will show that not only do you know how to write a renderer, but also how to use it to render an appealing, original scene. As part of your competition entry, you will also implement a feature of your choice (e.g., an additional light effect, material model, or performance improvement). This feature should be picked such that it benefits your competition entry in a meaningful way.</p>
+
+<p><em>Bonus points</em> will be awarded to the top-ranking submissions (based on artistic merit as judged by a jury).</p>
+
+<p>You can also check out the results of the <a href="https://graphics.cg.uni-saarland.de/courses/cg-2025/index.html#rendering-competition">previous iteration</a>.</p>
+
+<h4>Defense</h4>
+
+<p>You will present your competition entry and accompanying feature(s) in a 20 min presentation (per team of up to two students) at the end of the course.</p>
+
+<h3>Grading</h3>
+
+<p>The final grade is computed as follows:</p>
+
+<ul>
+	<li>100% final exam (minimum 50% to pass)</li>
+</ul>
+
+<h4>Bonus points</h4>
+
+<p>You can improve your overall grade by submitting an outstanding entry to the rendering competition.</p>
+
+<p>Additionally, we award a bonus towards the final grade to students who demonstrated exceptional performance throughout the course. This is measured by multiple criteria:</p>
+
+<ul>
+	<li>Improving the performance of your implementation.</li>
+	<li>Implementing additional features beyond the mandatory one. We prefer quality over quantity: one excellently implemented, documented, and validated feature is worth more than ten half-hearted implementations.</li>
+	<li>Communication
+	<ul>
+		<li>Outstanding performance in the colloquia</li>
+		<li>Great answers to questions on the forum (sharing LLM output is not considered a great answer)</li>
+	</ul>
+	</li>
+	<li>Validation
+	<ul>
+		<li>Excellent tests for your feature(s)</li>
+		<li>Submitting useful new tests for the assignments</li>
+	</ul>
+	</li>
+</ul>
+
+<h3>Exam</h3>
+
+<p>The Exam and Re-Exam will both take place in E2.2 GHH. The dates are:</p>
+
+<ul>
+	<li>Main Exam: 23.02.2027 14:00-16:00</li>
+	<li>Re-Exam: 25.03.2027 14:00-16:00</li>
+</ul>
+
+<h3>Materials</h3>
+
+<p>All electronic documents for this lecture are made available exclusively for your studies and must not be forwarded, reproduced, or used in other documents without consent. Individual figures may originate from copyrighted sources even when not explicitly designated as such.</p>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/en/privacy.html" target="_blank">Privacy Policy</a> | <a href="https://www.uni-saarland.de/en/legal-notice.html" target="_blank">Legal Notice</a><br/>
+	If you encounter technical problems, please contact <a href="mailto:cakecms@cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">the administrators</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

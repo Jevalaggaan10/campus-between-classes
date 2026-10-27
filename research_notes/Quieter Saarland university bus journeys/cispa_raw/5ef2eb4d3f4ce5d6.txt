@@ -1,0 +1,43 @@
+Main Page
+Privacy Systems and Applications Seminar
+Sylvain Chatel, Wouter Lueks
+News
+Paper Assignments and Dates
+Written on
+26.10.26
+by Sylvain Chatel
+Dear all,
+We have made the paper assignments and tried to match everyone's wishes.
+The assignments and dates are available in the
+material section here
+.
+We are still assessing the potential time schedule shift and will let you know shortly.
+Best,
+Privacy Systems and Applications Seminar
+As technology becomes prevalent, we carry more and more devices everywhere we go and our digital trail becomes more and more pronounced. On the one hand, digitalization brings enormous benefits. On the other hand, it makes it almost much easier to violate user's privacy, to surveil large fractions of a population, and sometimes even to control or influence what people do and think.
+In this seminar, we will look at privacy-enhancing technologies, digital means that can help counteract this reduction in privacy caused by increasing digitalization.
+We will read and discuss new and seminal papers to learn about new techniques and ideas in the field of privacy-enhancing technologies. You will learn how to critically analyze and present existing research papers, emulate a small scale conference, and think about your own research ideas.
+Example of topics covered will include:
+Systems for End-to-End Privacy
+Anonymous Communication Systems
+Private Set Intersection
+Private Information Retrieval
+Fully-Homomorphic Encryption
+Censorship Resistance Systems
+Schedule:
+The Seminar will take place on Wednesdays between 9:00am-11:00am in CISPA C0 building.
+Please refer to the
+material page for the exact dates and rooms
+.
+Requirement:
+Basics of cryptography and security: required
+Advanced cryptography and PETs: strongly recommended for seminar students
+Grading:
+The final grade for this course consists of the presentation(s), the quizzes, the essay, and the participation throughout the semester.
+Grading subject to small changes. Details will be explained in the first lecture.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

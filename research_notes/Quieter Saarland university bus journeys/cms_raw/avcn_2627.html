@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Course Information	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="4231d285cf1947148cfee86aa34b2ec9a0b05a05@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Sic/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Sic/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Sic/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Sic/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Sic/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/avcn_2627/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/avcn_2627/../system" class="navbar-brand">Courses</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/avcn_2627/">Main Page</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Information</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/avcn_2627/termine/calendar/index">Timetable</a></li><li><hr class="dropdown-divider" /></li><li><a class="dropdown-item" href="/avcn_2627/2/Registration">Registration</a></li><li><hr class="dropdown-divider" /></li><li><a class="dropdown-item" href="/avcn_2627/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/avcn_2627/students/register">Registration</a></li><li class="nav-item"><a class="nav-link" href="/avcn_2627/landing">Personal Status</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/avcn_2627/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="b82f0853729a0f7e711a5dc958a8897465635ce2482265e19e954dbd860d44db997a2784e4155a731ac989b66cfe299ab5851d7e4d77cb1324a46417a35ae344" id="Token1131007202" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Username" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Password" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Remember me</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.sic.saarland/avcn_2627/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="cf2f99e2e9cbffeaee20331d9e03158f35ab9f1c%3AUser.redirect" id="TokenFields429249162" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked1163674046" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/avcn_2627/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registration</a>        </li>
+        <li>
+            <a href="/avcn_2627/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Forgot Password?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Enable dark mode            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Enable light mode            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/avcn_2627/../system" class="site-logo" title="Front Page"><img src="/system/theme/Sic/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					Audio-Visual Communication & Networks (WS 2026)				</h1>
+				<div>
+				<small class="text-muted">
+					Thorsten Herfet				</small>
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<h2><a name="AVCNstart"></a>Quick Links</h2>
+
+<ul>
+	<li><a href="#AVCNcourse_details">Course Details</a></li>
+	<li><a href="#AVCNcourse_structure">Course Structure</a></li>
+	<li><a href="#AVCNmatlab">Matlab</a></li>
+	<li><a href="#AVCNliterature">Literature</a></li>
+</ul>
+
+<h2><a name="AVCNcourse_details"></a>Course Details</h2>
+
+<p>Continuing the positive experience from the last semesters, we have decided to offer the course &quot;Audio/Visual Communications &amp; Networks&quot; in a format that considers the possibility for as well students as lecturer and tutors to give and&nbsp;/ or consume parts of the course online using webconference tools:</p>
+
+<ul>
+	<li>One unit per week will be devoted to a pre-announced chapter of the underlying 5G NR eBook.</li>
+	<li>The other units of the week based on a manuscript will be devoted to the mathematical background of the techniques introduced.</li>
+</ul>
+
+<p><strong>Important:</strong>The course will be given <em>synchronously</em>, i.e. participation is live either in presence or online. An interactive manuscript will support preparation and reworking but cannot replace participation. We strongly encourage personal presence in the units.</p>
+
+<h3><a name="AVCNintroduction"></a>Introduction</h3>
+
+<p>The course will focus on&nbsp;<strong>5G New Radio</strong>, which is the recently specified fifth generation cellular system.<br />
+All students have access to a recent&nbsp;<strong>5GNR eBook</strong>&nbsp;(see&nbsp;<a href="#AVCNliterature" target="_blank">Literature</a>).</p>
+
+<p><em>Audio/Visual Communications &amp; Networks</em>&nbsp;will focus on 5G since from a telecommunications perspective the combination of audio/visual data &ndash; meaning inherently high data rate and putting high requirements on the real-time capabilities of the underlying network &ndash; and wireless transmission &ndash; that is unreliable and highly dynamic with respect to the channel characteristics and its capacity &ndash; is the most demanding application domain.<br />
+The lecture will build on the foundation layed as well in &bdquo;<em>Signals and Systems / Signale und Systeme</em>&ldquo; as in &bdquo;<em>Digital Transmission and Signal Processing</em>&ldquo; and it will apply the building blocks introduced there. The course will aim at being self-contained, however, it will not be able to repeat basic mathematical concepts and tools introduced in &bdquo;Digital Transmission and Signal Processing&ldquo;.</p>
+
+<p>The course will introduce the frequency bands available for 5G and their characteristics with respect to propagation, it will shed light on several multiple access (MA) schemes like TDMA, FDMA, OFDMA and SDMA and the corresponding duplex schemes TDD and FDD. A part of the course will be devoted to so called MIMO (multiple input multiple output systems), since the use of several phase- and amplitude-correlated antennas has boosted the data-rate of telecommunications systems.</p>
+
+<h3><a name="AVCNprerequisites"></a>Prerequisites</h3>
+
+<p>&bdquo;<em>Audio/Visual Communications &amp; Networks</em>&ldquo; is a course during the main study period and by such requires a solid foundation of mathematics (differential and integral calculus) and probability theory. The course will build on the mathematical concepts and tools taught in &bdquo;<em>Digital Transmission and Signal Processing</em>&ldquo; while trying to enable everyone to follow and to fill gaps by an accelerated study of the accompanying literature. &bdquo;<em>Signals and Systems</em>&ldquo; as well as &bdquo;<em>Digital Transmission and Signal Processing</em>&ldquo; are strongly recommended but not required.</p>
+
+<h2><a name="AVCNcourse_structure"></a>Course Structure</h2>
+
+<h3>Basic Rules</h3>
+
+<ul>
+	<li>Please note that small changes and corrections will be applied to the lecture notes throughout the semester. If you find mistakes or have suggestions how to enhance the lecture notes we appreciate your input!&nbsp;</li>
+	<li>Please&nbsp;<strong>don&rsquo;t hesitate</strong>&nbsp;to tell us if you have any comments or suggestions related to lecture notes, task sheets, exercises or even organizational things. We will improve it soon so you can benefit from it, not only future students.</li>
+</ul>
+
+<h3>Lectures</h3>
+
+<ul>
+	<li>The lecture will be offered in a hybrid format (classroom plus remote participation via MS Teams). Under special circumstances it might be advantageous or even required to omit the classroom and switch to fully remote. This will be announced on time.</li>
+	<li>MS Teams:&nbsp;<a href="https://teams.microsoft.com/l/team/19%3AUaeUDLmNSN31T10iTql8glGkHokhncnSDkNejCe6tM01%40thread.tacv2/conversations?groupId=834d881e-f57c-40ef-9b7b-812165664279&amp;tenantId=67610027-1ac3-49b6-8641-ccd83ce1b01f" target="_blank">AVCN WS 2026/27 Team</a> (send a join request for remote participation)</li>
+	<li>Place:&nbsp;<strong>Campus E1.3</strong>, Room:&nbsp;<strong>HS001</strong>&nbsp; (possible to join remotely via MS Teams)</li>
+	<li>Time: &nbsp;<strong>Tuesday 10:30&ndash;11:45</strong>&nbsp;and&nbsp;<strong>Wednesday 12:15 - 13:45 </strong>(start <strong>&nbsp;October 13<sup>th</sup></strong>)</li>
+</ul>
+
+<h3>Tutorials</h3>
+
+<ul>
+	<li>Moodle: <a href="https://moodle.uni-saarland.de/course/view.php?id=12943" target="_blank">AVCN (WS26)</a> (enrol to access quizzes and assignments)</li>
+	<li>Place:&nbsp;<strong>Campus C6.3</strong>, Room:&nbsp;<strong>9.05</strong>&nbsp; (in presence)</li>
+	<li>Time: &nbsp;<strong>Thursday 14:15&ndash;15:45</strong></li>
+</ul>
+
+<h3>Quizzes</h3>
+
+<ul>
+	<li>Weekly Moodle quizzes with 15 minutes for 5 questions within the time below.</li>
+	<li>Place:&nbsp;<strong>via Moodle (you can do it remotely or come to the lecture room early)</strong></li>
+	<li>Time: &nbsp;<strong>Tuesday 10:00&ndash;10:30</strong></li>
+</ul>
+
+<h3>Task Sheets</h3>
+
+<ul>
+	<li>Task sheets are published on the day succeeding the tutorials in Moodle.</li>
+	<li>You submit your solution and work on the tasks up to and including the following tutorial.</li>
+	<li>During the tutorial you can discuss and evolve your solutions.</li>
+</ul>
+
+<h3>Exam Dates</h3>
+
+<ul>
+	<li>The exams will be held as&nbsp;<strong>ORAL</strong>&nbsp;exams.<br />
+	We will schedule all exam slots on the two dates as given below. The exact time of each slot and how you can choose a certain slot will be announced during the lecture.</li>
+	<li>Main Exam<strong> CW07, February, 2027, Place: C6 3 10.02, Slots tbd</strong></li>
+	<li>Re-Exam <strong> CW11, March, 2027, Place: C6 3 10.02, Slots tbd</strong></li>
+</ul>
+
+<h3>Exam Eligibility</h3>
+
+<ul>
+	<li>The weekly quizzes and task sheets for this course will be divided into two parts, blocks A&amp;B containing 6 quizzes and 6 task sheets each.</li>
+	<li>You need a minimum of 19.2 points (40%) of the 48 points achievable in a block to pass a block. (Each quiz is worth 5 points and each task sheet is worth 3 points.)</li>
+	<li>You must pass both block A and B to be eligible for the exam.</li>
+</ul>
+
+<h2><a name="AVCNmatlab"></a>Matlab</h2>
+
+<ul>
+	<li>UdS has a <a href="https://www.hiz-saarland.de/dienste/software-lizenzen/mathworks" target="_blank">MATLAB campus license</a> which can be used by all university students for non-commercial purposes.</li>
+</ul>
+
+<h2><a name="AVCNliterature"></a>Literature</h2>
+
+<ul>
+	<li><strong>Erik Dahlman, Stefan Parkvall, Johan Skold:</strong>&nbsp;&quot;5G NR&nbsp; : The Next Generation Wireless Access Technology&quot;,&nbsp;Elsevier Science &amp; Technology, 2018.<br />
+	This book is available on:&nbsp;<a href="https://ebookcentral.proquest.com/lib/sulb/detail.action?docID=6353377" target="_blank">https://ebookcentral.proquest.com/lib/sulb/detail.action?docID=6353377</a>.<br />
+	You need to create an account:&nbsp;<a href="https://ebookcentral.proquest.com/auth/lib/sulb/login.action" target="_blank">https://ebookcentral.proquest.com/auth/lib/sulb/login.action</a></li>
+	<li><strong>Simon Haykin, Michael Moher:</strong>&nbsp;&quot;Modern Wireless Communications&quot;, Prentice Hall, 2011</li>
+</ul>
+
+<h3>Additional Material</h3>
+
+<ul>
+	<li><strong>Aura Ganz, Zvi Ganz, Kitty Wongthavarawat:</strong>&nbsp;&quot;Multimedia Wireless Networks - Technologies, Standards, and QoS&quot;, Prentice Hall, 2004</li>
+	<li><strong>Matthew S. Gast:&nbsp;</strong>&quot;802.11ac: A Survival Guide&quot;, O&#39;Reilly, 2013</li>
+	<li><strong>John G. Proakis, Masoud Salehi:</strong>&nbsp;&quot;Communication Systems Engineering 2nd Edition&quot;, Prentice Hall, 2002</li>
+	<li><strong>Ulrich Reimers:</strong>&nbsp;&quot;Digital Video Broadcasting - The Family of International Standards for Digital Video Broadcasting&quot;, Springer, 2005</li>
+	<li><strong>Claude E. Shannon, Warren Weaver:</strong>&nbsp;&quot;The Mathematical Theory of Communication&quot;, University of Illinois Press, 1963</li>
+	<li><strong>William Stallings:</strong>&nbsp;&quot;Wireless Communications &amp; Networks 2nd Edition&quot;, Prentice Hall, 2005</li>
+</ul>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/en/privacy.html" target="_blank">Privacy Policy</a> | <a href="https://www.uni-saarland.de/en/legal-notice.html" target="_blank">Legal Notice</a><br/>
+	If you encounter technical problems, please contact <a href="mailto:cakecms@cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">the administrators</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

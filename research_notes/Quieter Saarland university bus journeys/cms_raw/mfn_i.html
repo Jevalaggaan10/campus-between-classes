@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="de" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Hauptseite	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="4231d285cf1947148cfee86aa34b2ec9a0b05a05@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Sic/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Sic/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Sic/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Sic/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Sic/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/mfn_i/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/mfn_i/../system" class="navbar-brand">Kurse</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/mfn_i/">Hauptseite</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Informationen</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/mfn_i/termine/calendar/index">Termine</a></li><li><a class="dropdown-item" href="/mfn_i/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/mfn_i/students/register">Anmeldung</a></li><li class="nav-item"><a class="nav-link" href="/mfn_i/landing">Persönliche Statusseite</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/mfn_i/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="bca3eff778cb7df4752cdf669b43a1e4ef5d63138ee4f1feee89f0bae70cc2cb6bf1ecd2c82cae407e1226a57d4f0d90a831f48db14138224ad5ca7c91aef432" id="Token1466216320" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Benutzername" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Passwort" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Angemeldet bleiben</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.sic.saarland/mfn_i/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="9bb335491a78305ff0257217707b55153856316a%3AUser.redirect" id="TokenFields1380381270" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked1425300173" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/mfn_i/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registrierung</a>        </li>
+        <li>
+            <a href="/mfn_i/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Passwort vergessen?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Dunklen Modus aktivieren            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Hellen Modus aktivieren            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/mfn_i/../system" class="site-logo" title="Front Page"><img src="/system/theme/Sic/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					Mathematik für Naturwissenschaftler I				</h1>
+				<div>
+				<small class="text-muted">
+					Vladimir Lazić				</small>
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	
+<table class="table">
+	<colgroup>
+				<col span="1" style="width: auto;" />
+	</colgroup>
+	<tbody>
+	<tr>						<td class="align-top">
+				<a id="newsElement1"></a>
+				<h4 class="fs-5"><a href="/mfn_i/news/view/1">Zeitplan für die Vorlesung</a></h4>				<p>
+					<small class="text-muted"><i>
+						Geschrieben am <span data-bs-toggle="tooltip" data-bs-title="13.10.2026 23:00:24">13.10.26</span>												von Massimiliano Alessandro					</i></small>
+				</p>
+
+									<p>Sehr geehrte Damen und Herren,</p>
+
+<p>unter&nbsp;&bdquo;Materialien&quot; finden Sie ab sofort den Zeitplan f&uuml;r die Vorlesung.</p>
+
+<p>Mit freundlichen Gr&uuml;&szlig;en</p>
+
+<p>Massimiliano Alessandro</p>
+							</td>
+		</tr>		
+		</tbody>
+</table>
+
+</section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<h2>Mathematik f&uuml;r Naturwissenschaftler I</h2>
+
+<p>&nbsp;</p>
+
+<p><strong>Dozent:&nbsp;</strong><a href="https://www.uni-saarland.de/lehrstuhl/lazic/prof-dr-vladimir-lazic.html">Prof. Dr. Vladimir Lazić</a><br />
+Sprechstunde: Nach Vereinbarung per Email.</p>
+
+<p><strong>Assistent:&nbsp;</strong><a href="https://massimiliano-alessandro.github.io/">Dr. Massimiliano Alessandro</a><br />
+Sprechstunde: Nach Vereinbarung per Email.</p>
+
+<p><strong>Anmeldung f&uuml;r die &Uuml;bungsgruppen: melden Sie sich auf dieser Seite an.</strong></p>
+
+<p>Die Vorlesung folgt im Wesentlichen dem Skript <a href="https://www.uni-saarland.de/fileadmin/upload/lehrstuhl/lazic/Skripten/Bildhauer.pdf">Mathematik f&uuml;r Naturwissenschaftler (Vorlesungsskript)</a> von Michael Bildhauer.</p>
+
+<p>Falls eine Vorlesung online stattfindet, dann wird die aufgenommene&nbsp;Video-Vorlesung&nbsp;hochgeladen. Jedes Video wird zwei Wochen online verf&uuml;gbar sein und danach gel&ouml;scht.</p>
+
+<p>&nbsp;</p>
+
+<h3><strong>Themen:</strong></h3>
+
+<p>Mathematik f&uuml;r Naturwissenschaftler I zusammen mit der im Sommersemester 2027 stattfindenden Vorlesung Mathematik f&uuml;r Naturwissenschaftler II behandelt die Grundlagen der ein- und mehrdimensionalen Analysis und der Linearen Algebra, sowie Anwendungen auf die Fehler- und Ausgleichsrechnung und die beschreibende Statistik.</p>
+
+<p>&nbsp;</p>
+
+<h3><strong>Vorlesungstermine:&nbsp;</strong></h3>
+
+<p><strong>Di 10-12 Uhr (w&ouml;chentlich) in HS II</strong></p>
+
+<p><strong>Fr 10-12 Uhr in HS II (vierzehnt&auml;glich,&nbsp;<strong>im Wechsel mit den &Uuml;bungen</strong>)</strong></p>
+
+<p>&nbsp;</p>
+
+<h3><strong>&Uuml;bungsbetrieb:</strong></h3>
+
+<p>In den &Uuml;bungsgruppen werden die L&ouml;sungen der &Uuml;bungsbl&auml;tter vorgestellt und es k&ouml;nnen Fragen zum Stoff der Vorlesung, Bepunktung von Aufgaben oder allgemeine Fragen zum &Uuml;bungsblatt gestellt werden.</p>
+
+<ul>
+	<li>Die Tutorien finden vierzehnt&auml;glich im Wechsel mit der Vorlesung statt.
+	<ul>
+		<li><strong>Tutorium 1</strong>&nbsp;(Maximilian Steuer):<strong>&nbsp;</strong>Freitag&nbsp;10&nbsp;- 12&nbsp;Uhr,&nbsp;Seminarraum 5&nbsp;(011), Geb. E2 4. Der erste&nbsp;&Uuml;bungstermin ist der <strong>23.10.2026</strong>.</li>
+		<li><strong>Tutorium 2&nbsp;</strong>(Adrian Jose): Freitag&nbsp;16&nbsp;- 18&nbsp;Uhr, Seminarraum 5&nbsp;(011), Geb. E2 4.&nbsp;Der erste&nbsp;&Uuml;bungstermin ist der <strong>23.10.2026</strong>.</li>
+		<li><strong>Tutorium 3&nbsp;</strong>(Anthony Nork):<strong>&nbsp;</strong>Freitag 12&nbsp;- 14&nbsp;Uhr,&nbsp;Seminarraum 6 (217), Geb. E2 4.&nbsp;Der erste&nbsp;&Uuml;bungstermin ist der <strong>23.10.2026</strong>.</li>
+		<li><strong>Tutorium 4&nbsp;</strong>(Anthony Nork):<strong>&nbsp;</strong>Freitag 14&nbsp;- 16&nbsp;Uhr,&nbsp;Seminarraum 6 (217), Geb. E2 4.&nbsp;Der erste&nbsp;&Uuml;bungstermin ist der <strong>23.10.2026</strong>.</li>
+	</ul>
+	</li>
+	<li>Die Sprechstunden der Tutoren finden&nbsp;im&nbsp;Gruppenarbeitsraum (318), Geb&auml;ude E2 4, statt.
+	<ul>
+		<li>Anthony Nork: Freitag&nbsp;12&nbsp;- 13&nbsp;Uhr (vierzehnt&auml;glich,&nbsp;im Wechsel mit den &Uuml;bungen).&nbsp;Der erste Sprechstundentermin&nbsp;ist der <strong>30.10.2026</strong>.</li>
+		<li>Adrian Jose: Freitag 9&nbsp;- 10 Uhr (w&ouml;chentlich).&nbsp;Der erste Sprechstundentermin&nbsp;ist der&nbsp;<strong>23.10.2026</strong>.</li>
+	</ul>
+	</li>
+	<li>Hier werden&nbsp;<strong>w&ouml;chentlich</strong>&nbsp;(dienstags)<strong>&nbsp;&Uuml;bungsbl&auml;tter</strong>&nbsp;ver&ouml;ffentlicht.&nbsp;<strong>Loggen Sie sich dazu bitte zuerst ein.&nbsp;</strong>Sie finden dann die &Uuml;bungsbl&auml;tter unter&nbsp;<strong>&quot;Materialien&quot;</strong>.</li>
+	<li>Die &Uuml;bungsbl&auml;tter sollen bis zur&nbsp;<strong>darauf folgenden Woche</strong>&nbsp;(dienstags) bearbeitet werden.&nbsp;<strong>Die Abgabe der &Uuml;bungsbl&auml;tter erfolgt &uuml;ber CMS</strong>. Die Bl&auml;tter werden in den &Uuml;bungsstunden korrigiert und bepunktet zur&uuml;ckgegeben.</li>
+	<li>Zudem werden voraussichtlich&nbsp;<strong>6 Testate</strong>&nbsp;w&auml;hrend der offiziellen &Uuml;bungszeit geschrieben.</li>
+</ul>
+
+<p><strong>Wichtig:&nbsp;</strong>Die &Uuml;bungsbl&auml;tter k&ouml;nnen in Gruppen von bis zu drei Personen bearbeitet und abgegeben werden. Bitte erstellen Sie Ihr Team unter &bdquo;<strong>Team Groupings &rarr; Gruppenabgabe</strong>&ldquo;.&nbsp;Bitte beachten Sie, dass nur ein Mitglied des Teams das &Uuml;bungsblatt &uuml;ber CMS einreichen sollte. Die Abgabe gilt dann f&uuml;r das gesamte Team.</p>
+
+<p>&nbsp;</p>
+
+<h3><strong>Scheinkriterien:</strong></h3>
+
+<p>Um einen Schein zu erhalten, sind die folgenden Kriterien zu erf&uuml;llen: mindestens 50% der erreichbaren Punkte in den &Uuml;bungen, mindestens 4 bestandene Testate und eine bestandene Abschluss- oder Nachklausur.</p>
+
+<p>&nbsp;</p>
+
+<h3><strong>Klausurtermine:</strong></h3>
+
+<p>Hauptklausur: <strong>08.02.2027, 14-17 Uhr, in HS II und HS III</strong><br />
+Nachklausur: <strong>29.03.2027, 9-12 Uhr, in HS I und HS II</strong></p>
+
+<ul>
+	<li>
+	<p>Die&nbsp;<strong>Anmeldungen</strong>&nbsp;erfolgen&nbsp;&uuml;ber&nbsp;das&nbsp;<strong>LSF</strong>.</p>
+	</li>
+	<li>
+	<p>Sie d&uuml;rfen&nbsp;<strong>ein</strong>&nbsp;<strong>handschriftlich beidseitig beschriebenes DIN A4 Blatt</strong>&nbsp;verwenden. Es sind keine technischen Hilfsmittel erlaubt.</p>
+	</li>
+	<li>Weiter Informationen werden noch bekannt gegeben.</li>
+</ul>
+
+<p><br />
+<strong>Wichtig:&nbsp;</strong>Wenn Sie sich nicht im LSF f&uuml;r die Haupt- oder Nachklausur anmelden k&ouml;nnen, dann melden Sie sich bitte bei Dr. Alessandro (Ihr Pr&uuml;fungssekretariat muss uns <strong>rechtzeitig </strong>eine Best&auml;tigung vor der Klausur &uuml;bersenden, dass Sie an der Klausur teilnehmen d&uuml;rfen). Falls Ihre Pr&uuml;fungsordnung dies zul&auml;sst, kann die Nachklausur zur Verbesserung Ihrer Note genutzt werden.</p>
+
+<p>&nbsp;</p>
+
+<h3><strong>Literatur:</strong></h3>
+
+<p>Zu dieser Veranstaltung wurde von der <a class="link link--external" href="http://www.infomath-bib.de/en/welcome.shtml" rel="noreferrer" target="_blank">Campus-Bibliothek f&uuml;r Informatik und Mathematik</a> ein Semesterapparat eingerichtet. Eine &Uuml;bersicht befindet sich <a class="link link--external" href="http://www.infomath-bib.de/tmp/vorlesungen/mathe-basic_mathematik-fuer-naturwissenschaftler.html" rel="noreferrer" target="_blank">hier</a>.<br />
+<br />
+Die Skripte aus den Vorjahren sind nachfolgend verlinkt:&nbsp;</p>
+
+<ul>
+	<li>M. Bildhauer, <a href="https://www.uni-saarland.de/fileadmin/upload/lehrstuhl/lazic/Skripten/Bildhauer.pdf">Mathematik f&uuml;r Naturwissenschaftler</a> (Vorlesungsskript, WiSe 2010/2011, SoSe 2011)</li>
+	<li>J. Eschmeier, <a href="https://www.uni-saarland.de/fileadmin/upload/lehrstuhl/lazic/Skripten/Eschmeier1.pdf">Mathematik f&uuml;r Naturwissenschaftler I</a> (Vorlesungsskript, WiSe 2018/2019)</li>
+	<li>R. Schulze-Pillot, <a href="https://www.uni-saarland.de/fileadmin/upload/lehrstuhl/lazic/Skripten/Schulze-Pillot.pdf">Mathematik f&uuml;r Naturwissenschaftler</a> (Vorlesungsskript, WiSe 2017/2018)</li>
+</ul>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/datenschutzerklaerung.html" target="_blank">Datenschutz</a> | <a href="https://www.uni-saarland.de/impressum.html" target="_blank">Impressum</a><br/>
+	Bitte wenden Sie sich bei technischen Problemen an <a href="mailto:cakecms@cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">die Administratoren</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

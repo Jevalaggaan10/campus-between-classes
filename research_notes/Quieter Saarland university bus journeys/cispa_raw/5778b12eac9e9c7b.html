@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Main Page	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="300c92296ba275f6ef119c2f4d421cdb55afc9be@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Cispa/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/theme/Cispa/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Cispa/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Cispa/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Cispa/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Cispa/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Cispa/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Cispa/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/tml26/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/tml26/../system" class="navbar-brand">CMS</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/tml26/">Main Page</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Information</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/tml26/termine/calendar/index">Timetable</a></li><li><a class="dropdown-item" href="/tml26/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/tml26/students/register">Registration</a></li><li class="nav-item"><a class="nav-link" href="/tml26/landing">Personal Status</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/tml26/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="b9f6142cfbddf7bebbeef02e0110c04fa5180391965fefbfb3ddef99757a4c0153ce042daef685c02526c01db5d975ce09dbd17f5e485a7e4efd1d48deca4686" id="Token1217176575" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Username" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Password" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Remember me</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.cispa.saarland/tml26/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="9464652947c1febc4b188ed6bcbfa1affd65eaab%3AUser.redirect" id="TokenFields1799306870" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked923958692" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/tml26/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registration</a>        </li>
+        <li>
+            <a href="/tml26/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Forgot Password?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Enable dark mode            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Enable light mode            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/tml26/../system" class="site-logo" title="Front Page"><img src="/system/theme/Cispa/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					Trustworthy Machine Learning				</h1>
+				<div>
+				<small class="text-muted">
+					Adam Dziedzic				</small>
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					<div class="alert alert-info"><a href="/tml26/students/register">Registration for this course</a> is open until <strong>Monday, 30.11.2026 23:59</strong>.</div>
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	
+<table class="table">
+	<colgroup>
+				<col span="1" style="width: auto;" />
+	</colgroup>
+	<tbody>
+	<tr>						<td class="align-top">
+				<a id="newsElement7"></a>
+				<h4 class="fs-5"><a href="/tml26/news/view/7">Papers for this week: October 24th - October 30th</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="24.10.2026 20:25:34">24.10.26</span>												by Adam Dziedzic					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse7">
+					<p>Dear Students,</p>
+
+<p>We will discuss the following papers on October 30th:</p>
+
+<p>1. &quot;Data Provenance Auditing of Fine-Tuned LLMs with a Text-Preserving Technique&quot;</p>
+
+<p>ICML 2026 &ndash; <a href="https://openreview.net/forum?id=3D0x8oxOYH">https://openreview.net/forum?id=3D0x8oxOYH</a>&nbsp;</p>
+
+<p>This work introduces invisible Unicode cue&ndash;reply marks that let data&nbsp;owners check&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse7" href="#newsElement7">Read more</a></p>				</div>
+				<div class="collapse newsCollapse7">
+					<p>Dear Students,</p>
+
+<p>We will discuss the following papers on October 30th:</p>
+
+<p>1. &quot;Data Provenance Auditing of Fine-Tuned LLMs with a Text-Preserving Technique&quot;</p>
+
+<p>ICML 2026 &ndash; <a href="https://openreview.net/forum?id=3D0x8oxOYH">https://openreview.net/forum?id=3D0x8oxOYH</a>&nbsp;</p>
+
+<p>This work introduces invisible Unicode cue&ndash;reply marks that let data&nbsp;owners check whether their documents were used to fine-tune an LLM. The method does not change the visible text and has no false positives.</p>
+
+<p>2.&nbsp;&nbsp;&ldquo;Securing Multimodal AI through Internal Information Decomposition&rdquo; (FlowGuard)&nbsp;<a href="https://openreview.net/forum?id=vTJmIhNvC3" style="font-family: Aptos; font-size: medium; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;" title="https://openreview.net/forum?id=vTJmIhNvC3">https://openreview.net/forum?id=vTJmIhNvC3</a>&nbsp;</p>
+
+<div>The idea of detecting&nbsp;attacks from the inconsistency between unimodal and fused predictions is&nbsp;appealing and the authors leave multi turn and multi image settings&nbsp;explicitly open, which seems like a natural place to build on.</div>
+
+<div>&nbsp;</div>
+
+<div>Have a good weekend,</div>
+
+<div>Adam Dziedzic</div>
+				</div>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement6"></a>
+				<h4 class="fs-5"><a href="/tml26/news/view/6">Today&#039;s video</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="23.10.2026 16:49:51">23.10.26</span>												by Adam Dziedzic					</i></small>
+				</p>
+
+									<p>Dear Students,</p>
+
+<p>The video from today was uploaded here:&nbsp;https://youtu.be/-v2qY6XpbHM</p>
+
+<p>Please, send me the 4 links to the papers that you would like to present.</p>
+
+<p>Have a good weekend!</p>
+
+<p>Adam Dziedzic</p>
+
+<p>&nbsp;</p>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement5"></a>
+				<h4 class="fs-5"><a href="/tml26/news/view/5">Join via Zoom </a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="23.10.2026 13:58:12">23.10.26</span>												by Adam Dziedzic					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse5">
+					<p>Dear Students,</p>
+
+<p>You can also join via zoom here:<br />
+<a href="https://www.google.com/url?q=https://cispa-de.zoom-x.de/j/62622206082?pwd%3DYiGbuJZgPLrzo0Gqcxa93obUJa3XCi.1&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw1lXuZWo45Ds1uYZz75d4Bu" target="_blank">https://cispa-de.zoom-x.de/j/62622206082?pwd=YiGbuJZgPLrzo0Gqcxa93obUJa3XCi.1</a><br />
+<br />
+Meeting ID: 626 2220 6082<br />
+Passcode: VW?^R5<br />
+One tap mobile<br />
++496938980596,,62622206082# Germany<br />
+<br />
+Dial by your location<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+49 69 389 805 96 Germany<br />
+Meeting ID:&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse5" href="#newsElement5">Read more</a></p>				</div>
+				<div class="collapse newsCollapse5">
+					<p>Dear Students,</p>
+
+<p>You can also join via zoom here:<br />
+<a href="https://www.google.com/url?q=https://cispa-de.zoom-x.de/j/62622206082?pwd%3DYiGbuJZgPLrzo0Gqcxa93obUJa3XCi.1&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw1lXuZWo45Ds1uYZz75d4Bu" target="_blank">https://cispa-de.zoom-x.de/j/62622206082?pwd=YiGbuJZgPLrzo0Gqcxa93obUJa3XCi.1</a><br />
+<br />
+Meeting ID: 626 2220 6082<br />
+Passcode: VW?^R5<br />
+One tap mobile<br />
++496938980596,,62622206082# Germany<br />
+<br />
+Dial by your location<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+49 69 389 805 96 Germany<br />
+Meeting ID: 626 2220 6082<br />
+Find your local number: <a href="https://www.google.com/url?q=https://cispa-de.zoom-x.de/u/cd6d1pBvMg&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw0LdJDLvipbyTNg-arzY72_" target="_blank">https://cispa-de.zoom-x.de/u/cd6d1pBvMg</a><br />
+<br />
+Privacy Notice:<br />
+Please refer to <a href="https://www.google.com/url?q=https://cispa.de/en/data-privacy-policy-zoom&amp;sa=D&amp;source=calendar&amp;usd=2&amp;usg=AOvVaw1uaFfEbuD9NVtV-5ihxxfW" target="_blank">https://cispa.de/en/data-privacy-policy-zoom</a> for our privacy notice regarding the use of Zoom at CISPA</p>
+
+<p>&nbsp;</p>
+				</div>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement4"></a>
+				<h4 class="fs-5"><a href="/tml26/news/view/4">Questions for tomorrow&#039;s seminar</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="22.10.2026 08:51:01">22.10.26</span>												by Adam Dziedzic					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse4">
+					<p>Dear Students,</p>
+
+<p>Please, send the questions for tomorrow&#39;s lecture in the thread on the forum for October 23rd:&nbsp;https://cms.cispa.saarland/tml26/forum/viewtopic.php?t=1</p>
+
+<p>As a reminder, we will discuss these 2 papers:</p>
+
+<p>1. SemBind:&nbsp;https://openreview.net/forum?id=Sva22o2fRs&amp;noteId=QaQG7b76eO</p>
+
+<p>2.&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse4" href="#newsElement4">Read more</a></p>				</div>
+				<div class="collapse newsCollapse4">
+					<p>Dear Students,</p>
+
+<p>Please, send the questions for tomorrow&#39;s lecture in the thread on the forum for October 23rd:&nbsp;https://cms.cispa.saarland/tml26/forum/viewtopic.php?t=1</p>
+
+<p>As a reminder, we will discuss these 2 papers:</p>
+
+<p>1. SemBind:&nbsp;https://openreview.net/forum?id=Sva22o2fRs&amp;noteId=QaQG7b76eO</p>
+
+<p>2. Post-hoc Watermarking: https://openreview.net/forum?id=ZR1GOaadgP&amp;noteId=qCnbD0iqOq</p>
+
+<p>See you tomorrow,</p>
+
+<p>Adam Dziedzic</p>
+				</div>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement3"></a>
+				<h4 class="fs-5"><a href="/tml26/news/view/3">Times of the meetings on November 13th and 20th</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="20.10.2026 12:59:56">20.10.26</span>												by Adam Dziedzic					</i></small>
+				</p>
+
+									<p>Dear All,</p>
+
+<p>Due to the organization of hackathons, I plan that we will move the meetings on 13th of November to be from 16:00 to 18:00 and on November 20th to be from 12:00 to 14:00.</p>
+
+<p>With kind regards,</p>
+
+<p>Adam Dziedzic</p>
+							</td>
+		</tr>		
+	<tr class="collapse news-hidden">						<td class="align-top">
+				<a id="newsElement2"></a>
+				<h4 class="fs-5"><a href="/tml26/news/view/2">Video from Friday&#039;s Seminar</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="19.10.2026 16:24:41">19.10.26</span>												by Adam Dziedzic					</i></small>
+				</p>
+
+									<p>Dear Students,</p>
+
+<p>The video for Friday&#39;s seminar can be found here:&nbsp;https://youtu.be/zB6lr7xjBmM</p>
+
+<p>We will record the videos from the seminars and share publicly on YouTube.&nbsp;</p>
+
+<p>With kind regards,</p>
+
+<p>Adam Dziedzic</p>
+							</td>
+		</tr>		
+	<tr class="collapse news-hidden">						<td class="align-top">
+				<a id="newsElement1"></a>
+				<h4 class="fs-5"><a href="/tml26/news/view/1">Papers for Next Seminar on October 23rd</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="17.10.2026 21:27:09">17.10.26</span>						(last change on <span data-bs-toggle="tooltip" data-bs-title="17.10.2026 21:39:13">17.10.26</span>)						by Adam Dziedzic					</i></small>
+				</p>
+
+									<p>Dear Students,</p>
+
+<p>We will discuss two paper next week on October 23rd:</p>
+
+<p>1. SemBind:&nbsp;https://openreview.net/forum?id=Sva22o2fRs&amp;noteId=QaQG7b76eO</p>
+
+<p>2. Post-hoc Watermarking: https://openreview.net/forum?id=ZR1GOaadgP&amp;noteId=qCnbD0iqOq</p>
+
+<p>With kind regards,</p>
+
+<p>Adam Dziedzic&nbsp;</p>
+							</td>
+		</tr>		
+		</tbody>
+</table>
+
+<a data-bs-toggle="collapse" data-bs-target=".news-hidden" class="btn btn-secondary transitions-none show news-hidden"><i class="fa fa-list fa-fw"></i> Show all</a></section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<h2>Trustworthy Machine Learning</h2>
+
+<p>Deploying machine learning in real-world systems necessitates methods to ensure trustworthy AI. This course explores research at the intersection of machine learning, privacy, and security. This course provides a comprehensive overview of techniques to build robust and trustworthy machine learning models, as well as the analysis of data privacy and provenance, focusing on generative models. Throughout the seminar, we will discuss outstanding challenges and future research directions to make machine learning more robust, private, and trustworthy.</p>
+
+<p><strong>If you want to register for the seminar, you should do so via the <a href="https://seminars.cs.uni-saarland.de/">central seminar assignment system</a>.</strong></p>
+
+<p><strong>Time and place:</strong>&nbsp;(tentative) The course will take place on Fridays from 2 pm to 4 pm in the CISPA C0 building, room 0.02 (on campus). Some sessions will be via Zoom when the room is not available (part of January) or during main ML conferences (e.g., like NeurIPS in December).&nbsp;</p>
+
+<p><strong>Class structure:</strong> In every class, we will discuss two papers. At the beginning of the semester, students will be assigned roles that will rotate every week. There are three roles:</p>
+
+<p>1. The Presenters: Two students. Each of them presents a paper and takes the lead in answering the questions posed by the Questioners.</p>
+
+<p>2. The Questioners: This group is responsible for preparing a list of questions (from each member of the team) about the papers to be discussed in class. For a given week, The Questioners must prepare their questions during the preceding week, and send them to the rest of the class by 5 pm Wednesday. This means that the Questioners must read the papers for their assigned week several days in advance of the actual discussion sessions. We suggest aiming to read the papers by the end of the day on Sunday, to allow at least one day to discuss possible questions.</p>
+
+<p>3. The Observers: This group will take notes on a shared document during a discussion. These notes are not meant to be a transcription of what is being said in the discussion; they should capture the major take-away points of the discussion, as well as any issues. The Observers should also search for additional resources or answers to unresolved questions.</p>
+
+<p>These roles do not preclude anyone in the class from participating in the discussion. A member of The Observers can jump in when a question is posed, and a presenter can pose a new question on the fly.</p>
+
+<p><strong>Project:</strong> The seminars also incorporate project work to foster research skills and creativity. Students begin by selecting papers from the field of trustworthy machine learning that align with their interests. They present these papers and design a project with the potential to evolve into a scientific publication. We encourage you to think critically, identifying weak assumptions in prior work, exploring ways to improve existing methods, combining ideas from multiple sources, or integrating your own experiences and insights from the seminar discussions. Each student writes a comprehensive report detailing their findings and includes code to validate their results. At the end of the semester, you present your projects to the entire class, showcasing the progress and innovations. Use the following <a href="https://www.overleaf.com/latex/templates/template-for-iclr-2025-conference-submission/gqzkdyycxtvt">latex template</a> for the report.</p>
+
+<p><strong>Requirements:</strong> The course presumes a good understanding of machine learning. The students should have taken and passed a machine learning course and obtained a good grade (&lt;2.0). This seminar is open to senior Bachelor, Master, and Doctoral students. Through seminal and recent papers, students will survey the emerging literature across research communities investigating these issues. The class aims to inspire new research directions and applications. Lectures, slides, and research papers comprise the course materials - no textbook is required. By engaging with the latest work in this rapidly evolving field, students will be prepared to advance trustworthy machine learning. Each student will present one or two papers during the seminar hours in the form of an oral presentation. In addition, each student will read the relevant papers for the other students&rsquo; presentations, and hand in a seminar paper summarizing their project at the end of the semester. There will be two sessions when each student presents their project for 10 minutes.</p>
+
+<h4>Grading</h4>
+
+<p><strong>Grading scheme:</strong> 50% as presenters (paper presentation, slide deck, and in-class discussion), 50% for the research project (design a task for the TML course or a hackathon) with a report and a poster. Bonus points: 10% weekly questions and comments as Questioners, 5% as Observers/Scribes, who write a report after each lecture and resolve any unsolved issues.</p>
+
+<p><strong>Class participation:</strong> Course lectures will be driven by the contents of assigned papers. However, students are going to be required to (i) turn in at least 1 question per paper each week as a Questioner and actively participate in the discussion, (ii) present a paper and participate in discussions of the paper content during each class as a Presenter, and (iii) prepare the notes after the class and comment on the slides as the Observer. Hence, the student&#39;s ability to exhibit comprehension of papers is essential to a passing grade.</p>
+
+<p><strong>Lateness policy:</strong> Questions submissions are assigned each week and presentations will not be accepted late (students will be assigned a 0 for that week). All other assignments (i.e., class or project reports) will be assessed a 10% per day late penalty, up to a maximum of 2 days. Students with legitimate reasons who contact the professor before the deadline may apply for an extension.</p>
+
+<p><strong>Integrity: </strong>Students have to behave ethically.</p>
+
+<p><strong>Detailed list of rooms and papers for the seminar will be decided during the first meeting.</strong></p>
+
+<p><strong>Online Communication: </strong>via Forum (here on CMS).</p>
+
+<p><strong>Email:</strong> adam.dziedzic@cispa.de</p>
+
+<h4>Plan of Seminars</h4>
+
+<table align="left" border="1" cellpadding="1" cellspacing="1" style="height:649px; width:1365px">
+	<caption>Plan of Seminars</caption>
+	<thead>
+		<tr>
+			<th scope="col">Date</th>
+			<th scope="col">Presentation 1</th>
+			<th scope="col">Presentation 2</th>
+			<th scope="col">Video</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>October 16th, 2026</td>
+			<td>Adam Dziedzic: Introduction and Overview of the Research Topcis</td>
+			<td>Kaif Shaikh: &quot;Benchmarking Membership Privacy Risks in Preference-Based LLM Post-Training&quot; NeurIPS 2026&nbsp;https://adam-dziedzic.com/static/assets/papers/PrivacyAuditPreferLLMs.pdf&nbsp;</td>
+			<td>https://youtu.be/zB6lr7xjBmM</td>
+		</tr>
+		<tr>
+			<td>October 23rd, 2026</td>
+			<td>Mahmoud Akrm:&nbsp;SemBind ICML 2026&nbsp;https://openreview.net/forum?id=Sva22o2fRs&amp;noteId=QaQG7b76eO</td>
+			<td>Aditya Kasliwal:&nbsp;Post-hoc Watermarking ICML 2026: https://openreview.net/forum?id=ZR1GOaadgP&amp;noteId=qCnbD0iqOq</td>
+			<td>https://youtu.be/-v2qY6XpbHM</td>
+		</tr>
+		<tr>
+			<td>October 30th, 2026</td>
+			<td>
+			<p>Muhammad Saad Haroon: &quot;Data Provenance Auditing of Fine-Tuned LLMs with a Text-Preserving&nbsp;Technique&quot; ICML 2026</p>
+			</td>
+			<td>Yogesh Kishor Kulkarni:&nbsp;
+			<div>&quot;Securing Multimodal AI through Internal Information&nbsp;Decomposition&rdquo; (FlowGuard) ICML 2026</div>
+			</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>November 6th, 2026</td>
+			<td><strong>Presentations of the research projects: each Student presents for 10 minutes</strong></td>
+			<td><strong>Presentations of the research projects: each Student presents for 10 minutes</strong></td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>November 13th, 2026</td>
+			<td>
+			<p>TBD</p>
+			</td>
+			<td>TBD</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>November 20th, 2026</td>
+			<td>
+			<p>TBD</p>
+			</td>
+			<td>TBD</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>November 27th, 2026</td>
+			<td>Baozhu Cai:&nbsp;
+			<p>GLEAN: Guideline-Grounded Evidence Accumulation for High-Stakes Agent Verification ICML 2026<br />
+			<a href="https://proceedings.mlr.press/v306/zhang26fc.html?utm_source=chatgpt.com" title="https://proceedings.mlr.press/v306/zhang26fc.html?utm_source=chatgpt.com">https://proceedings.mlr.press/v306/zhang26fc.html</a></p>
+			</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>January 8th, 2027</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>January 15th, 2027</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>January 22nd, 2027</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>January 29th, 2027</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>February 5th, 2027</td>
+			<td><strong>Presentation of the research projects: each Student presents for 10 minutes</strong></td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/en/privacy.html" target="_blank">Privacy Policy</a> | <a href="https://www.uni-saarland.de/en/legal-notice.html" target="_blank">Legal Notice</a><br/>
+	If you encounter technical problems, please contact <a href="mailto:cms-devs@mail-infsec.cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">the administrators</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

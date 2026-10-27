@@ -1,0 +1,201 @@
+Theoretical Abilities and Limitations of Language Models | LaCoCo Lab
+LaCoCo Lab
+Theoretical Abilities and Limitations of Language Models
+Course Description:
+LLM have amazing capabilities, but also hallucinate and make reasoning mistakes. Can we understand these abilities and limitations theoretically, as way to figure out ways of overcoming them?
+The incredible scale of current LLMs makes this a daunting prospect. However, recent research has developed mathematical understanding sheeding light on questions such as:
+Why do LLMs struggle with tasks (e.g., multiplying 6-digit numbers) that a simple calculator can perform easily?
+Which kinds of problems is a transformer likely to generalize on well?
+What are differences between transformers and other architectures (e.g. state-space models)?
+What possible future architectures – if any – could replace transformers as the backbone of LLMs?
+Research on these questions draws on fields such as computational complexity, formal language theory, and statistical learning theory.
+Prerequisites:
+This seminar will not presuppose knowledge of any of these fields. However, a willingness to engage with technical content is
+important
+.
+We will discuss recent research papers, both from our own group and from other groups. A lot of this content is highly technical, and starting early is highly recommended. It is okay to not understand everything in the paper assigned to you, but you are encouraged to ask questions about things that are confusing. We will try to help each other in getting familiar with techniques that are useful establishing such results, and also at the same time make sure everybody is on-board with the high level idea of the papers at the very least.
+Course Management System:
+CMS
+Instructors:
+Yash Sarrof
+Time:
+12:15 - 13:45 (every Friday)
+Room:
+Building C7 3 - Seminarraum 1.14
+Registration:
+If you are an
+LST / CoLi
+student, and want to take this class, you should directly register in the
+Course Management System (CMS)
+. Admissions decision will be made by the 20th October.
+If you are a
+Computer Science
+student, you should initially register via the Computer Science department seminar registration system. Only register in
+Course Management System (CMS)
+once you were selected by the assignment system or otherwise admitted by us.
+Syllabus
+Date
+Session / core reading
+Optional material
+Presenters
+16 Oct 2026
+Course introduction
+Logistics, course structure, and expectations.
+—
+23 Oct 2026
+No class
+—
+30 Oct 2026
+Tutorial
+For presenters of papers on expressivity and length generalization.
+—
+Expressivity
+In principle, if we could magically hardcode the weights of a transformer, what would they be capable of?
+6 Nov 2026
+Theoretical Limitations of Self-Attention in Neural Sequence Models
+Hahn · TACL 2020
+Formal Language Recognition by Hard Attention Transformers: Perspectives from Circuit Complexity
+Hao, Angluin & Frank · TACL 2022
+Samuel BK
+13 Nov 2026
+The Expressive Power of Transformers with Chain of Thought
+Merrill & Sabharwal · ICLR 2024
+Attention is Turing-Complete
+Pérez, Barceló & Marinkovic · JMLR 2021
+Aftab Khan
+Length Generalization
+When do Transformers learn to do a task, at lengths bigger than the maximum training length?
+20 Nov 2026
+RASP:
+Thinking Like Transformers
+Weiss, Goldberg & Yahav · ICML 2021
+RASP-L:
+What Algorithms can Transformers Learn? A Study in Length Generalization
+Zhou et al. · ICLR 2024
+D-RASP:
+Discovering Interpretable Algorithms by Decompiling Transformers to RASP
+Huang et al. · ICML 2026
+Deng Zhepei
+27 Nov 2026
+A Formal Framework for Understanding Length Generalization in Transformers
+Huang et al. · ICLR 2025
+C-RASP:
+Counting Like Transformers: Compiling Temporal Counting Logic Into Softmax Transformers
+Yang & Chiang · COLM 2024
+Nazanin Zarei Rad
+4 Dec 2026
+Tutorial
+For rest of the readings
+—
+Fine-Grained Theoretical Insights
+Can we get deeper/ more predictive insights into architecture performance?
+11 Dec 2026
+Characterizing the Expressivity of Fixed-Precision Transformer Language Models
+Li & Cotterell · NeurIPS 2025
+A Logic for Expressing Log-Precision Transformers
+Merrill & Sabharwal · NeurIPS 2023
+Meropi Maria Lampropoulou
+18 Dec 2026
+Knee-Deep in C-RASP: A Transformer Depth Hierarchy
+Yang, Cadilhac & Chiang · NeurIPS 2025
+Disentangling the Expressivity of RoPE
+Jerad et al. · COLM 2026
+Zhanyu Chen
+8 Jan 2027
+Algebraic Decomposition Theory for Transformer Length Generalization
+Yang et al. · COLM 2026
+Transformers Learn Shortcuts to Automata
+Liu et al. · ICLR 2023
+Gaspard Tomas
+Towards Better Architectures?
+How can this kind of theory be useful? Can we make better architectures based on theoretical insights?
+15 Jan 2027
+Unlocking State-Tracking in Linear RNNs Through Negative Eigenvalues
+Grazzi et al. · ICLR 2025
+The Expressive Capacity of State Space Models: A
+Formal Language Perspective
+Sarrof, Veitsman & Hahn · NeurIPS 2024
+Phineas Degener
+22 Jan 2027
+Olmo Hybrid: From Theory to Practice and Back
+Merrill et al. · COLM 2026
+The Illusion of State in State-Space Models
+Merrill, Petty & Sabharwal · ICML 2024
+Ali Alfwari
+Why Are Transformers Still So Good?
+An alternate and very new way to think about architectures that very clearly establishes why Transformers are so much better than any alternate architecture that has been used in language modeling, thus far.
+29 Jan 2027
+Transformers are Inherently Succinct
+Bergsträßer, Cotterell & Lin · ICLR 2026
+—
+Maike Kalms
+Attendance
+Active participation is expected in every seminar session. You may miss up to two sessions without providing justification. For each additional session missed beyond that, you must submit a short (~500 words) writeup summarizing your thoughts on the paper(s) discussed in the session you missed.
+Evaluation
+Important: Study programs may differ in which versions of the class you can take. Please check with your study program coordinator if in doubt.
+For students taking the seminar for 4 credits:
+Presentation: 40%
+Questions about readings: 30%
+Participation in class: 30%
+For students taking the seminar for 7 credits:
+Presentation: 20%
+Questions about readings: 15%
+Participation in class: 15%
+Final paper: 50%
+Important: You need to be registered on LSF for the correct version of the class in order to receive credit.
+Questions
+Please register on the forum on CMS (in CMS, you will see “forum” on the top toolbar, and reply in the forum to post questions).
+When the presentations starts, every student submits one question about the readings by Wednesday noon.
+Questions are graded on a 3-point scale (0: no question submitted, 1: superficial question, 2: insightful question). Students can also submit a few more questions, the grade will be calculated as the highest score among questions.（So you can also ask some basic questions that you want clarification). Try to be direct with your questions, and ask the same question in class, if it hasn’t been answered by the presenter.
+Presentations
+Depending on the difficulty of the reading, we might take 2 weeks to discuss a single paper, or at times do 2 papers in a single week. Feel free to present in any format you like, including a white board presentation if you want. If you want a suggestion, here’s a recommended (albeit new) format.
+Short overview
+: Every presentation should start with, a
+15 minute presentation
+giving high level details, and the overall idea of the paper. You should also then leave about
+15 minutes for Q&A
+. You are encouraged to combine the Q&A with your presentation, but are not required to do so. In this version of the presentation, you should focus on
+big picture findings
+and conclusions, and you are not expected to include every finding from the paper.
+For instance, instead of a table of numbers, highlight key results.
+When there are multiple similar results in the paper, synthesize them.
+If the papers have many studies, you might select a presentative subset to explain the paper’s conclusions.
+On the other hand, if the assigned papers primarily discuss/review other work, draw on material from the work cited to provide richer content and even details where useful.
+Discussing a specific claim in detail
+: We won’t have time to discuss all the claims of the paper in detail, and thus try to identify the central claim of the paper, and design and then aim for about
+30 minutes
+, to go into the details of that claim, including explaining the underlying proof, if necessary.
+Give background on key concepts, if necessary to explain whats going on here.
+Your own opinion
+: Finally end the paper, by critically engaging with the reading: contribute your own opinion on the key findings, and on the paper’s motivation and arguments. In what ways do or don’t you agree with arguments made by the authors? Aim for around
+10
+minutes here, leaving the rest of the time for Q&A.
+You will have sufficient time, so avoid speaking too fast for others to keep up, make sure your audience is following. You can do so by giving more examples, or simply repeating again. Making presentation is to convey information, if audience cannot follow, it’s waste of time for both sides.
+Generating and moderating in-class discussion is a key component of your presentation – thinking about what will be interesting to your audience will thus be important.
+Try to engage the audience and
+create ample opportunity for discussion during your presentation
+.
+Before the presentation, take a look at the questions that have been posted in the forum and refer to these as needed. These may be useful for getting discussion started.
+Conversely, when attending other students’ talks, reciprocate by participating actively in the discussion.
+Final Papers (for the 7CP version)
+Term papers will be about a small independent project.
+You will investigate some question about the abilities of language models. It can be a theoretical work, or an empirical project verifying insights from theoretical work or providing inputs to theoretical work. For example, one may do experiments to show the expressivity or generalization performance of some novel architectures (
+1
+,
+2
+,
+3
+,
+4
+,
+5
+, do not repeat previous work, try to experiment with new architectures or new tasks).
+The report is expected to contain a brief literature review, motivation of your study, a description of what you did, and you found. It’s recommended to include quantitative validation of what you found, so that you show it’s not an illusion.
+The report should have 8 pages of main report, plus unlimited appendix, in the NeurIPS style format. The main report should be self-contained, but you can use the appendix to report prompts, further analyses, or other material.
+The report should be uploaded via CMS. The due date is 23:59 on March 15, 2027.
+Contact
+Please contact Yash (ysarrof@lst.uni-saarland.de) or Michael (mhahn@lst.uni-saarland.de) for any questions.
+Accommodations
+If you need any accommodations due to a disability or chronic illness, please either contact Michael at mhahn@lst.uni-saarland.de or the
+Equal Opportunities and Diversity Management Unit
+of the university.

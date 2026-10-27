@@ -1,0 +1,62 @@
+Main Page
+Cybersecurity in Organizational Practice
+Jonas Hielscher
+News
+Currently, no news are available
+Cybersecurity in Organizational Practice
+To
+register
+, please apply for this seminar through the
+central seminar assignment system.
+We are proud to announce that the 2025 version of this seminar was selected as Busy-Beaver runner-up, and hence voted as of the three best seminars by the student council!
+Content
+In this seminar, we will
+learn
+how cybersecurity is practically implemented in organizations (enterprises, public agencies, NGOs, etc.) and discuss why academic cybersecurity concepts are often not followed in practice. We will
+read
+and discuss papers on cybersecurity in organizations, frequently utilizing human-centered research methods such as interviews, surveys, focus groups, and case studies.
+We will
+read
+various recent scientific publications on cybersecurity in organizational practice and foundational papers, some of which have been around for over two decades. We will
+discuss
+those papers in the seminar based on
+presentations
+by student teams. Throughout the seminar, we will
+reflect
+upon our own (current and future) experience with cybersecurity in organizational practice. We will
+learn
+to negotiate cybersecurity strategies with other stakeholders in our future professions.
+Topics might include
+Organizational Security Research Methods,
+Regulations, Norms, and Frameworks,
+Various Roles in Organizational Security,
+Human-Centered Security,
+Economics of Information Security,
+Organizational (Security) Leadership, Change Management, Communication,
+Secure Software Development in Organizations, and
+How to Find and Read Scientific Papers.
+Time & Location
+The seminar will take place on
+Tuesdays from 10:15 to 11:45
+. There will be irregular seminar meetings, where there will be lecture-style teaching, group discussions, presentations, etc. The exact schedule will be discussed at the seminar start. As the grading will happen during these sessions you can only sign up if you are available on all Tuesdays in the semester.
+The
+kick-off session will take place on October 20th at 10:15 in TBA.
+Location
+: TBA
+Tasks & Grading
+Grading will be based on (group) presentations, discussion participation, and further hand-ins.
+Regular attendance is required to pass the seminar.
+Registration & Prerequisites
+All students must register using the
+central seminar assignment system.
+There are no formal prerequisites for this course. However, to succeed in this seminar, you should consider the following:
+You should be interested in perfecting your presentation skills. Throughout the seminar, you will give multiple (smaller) presentations, and we expect you to progress in your skills over time.
+You should be interested in learning to read and understand a variety of research papers, their methods, and their limitations, and you should be willing to discuss this.
+You should be interested in questioning your position and approach to cybersecurity and able to consider the perspectives of various organizational stakeholders.
+You must be interested in interdisciplinary perspectives on cybersecurity, expanding the mathematical and engineering approach to a more human-centered perspective.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

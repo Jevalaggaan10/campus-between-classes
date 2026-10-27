@@ -1,0 +1,44 @@
+Hauptseite
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Natural Computing and Algorithms
+Markus Bläser, Anurag Pandey
+Registration for this course
+is open until
+Saturday, 14.11.2026 23:59
+.
+News
+Currently, no news are available
+Natural Computing and Algorithms
+In this lecture, we will look at nature through the lens of theoretical computer science. In particular, we'll see
+Algorithms in nature and algorithms inspired by nature (eg. Slime Mould Foraging, Evolutionary Algorithms)
+Computing beyond conventional hardware (eg. DNA Computing)
+Natural processes as computational processes (eg. Bird Flocking, Biological Evolution)
+Time and Date:
+Every Wednesday, 12:25 - 14:00, E1.3, HS III (Room 003.1)
+First lecture:
+Wednesday, October 14
+This is an advanced lecture of 3 Credit Points. There will be no tutorials.
+Exams:
+There will be oral exams at the end of the semester (This might change depending on the number of participants).
+The exams can be at any time between the last week of the lecture period and end of April (provided that I am available).
+Recommended Prerequisites:
+Algorithms & Data Structures and Theoretical Computer Science (or equivalent)
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

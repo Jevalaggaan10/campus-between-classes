@@ -1,0 +1,129 @@
+Main Page
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Introduction to Theoretical Computer Science
+Markus Bläser
+News
+CMS is back! What now?
+Written on
+22.10.26
+by Julian Dörfler
+The CMS is back, but was restored to an
+old state
+from the middle of tuesday.
+As a result we have reopened exercise sheet group forming until
+today 20:00
+(please make sure to check that your groups still exist). In case you are not able to change it until then, please send me an E-Mail as soon as…
+Read more
+The CMS is back, but was restored to an
+old state
+from the middle of tuesday.
+As a result we have reopened exercise sheet group forming until
+today 20:00
+(please make sure to check that your groups still exist). In case you are not able to change it until then, please send me an E-Mail as soon as possible.
+Moreover, due to this, we had to push back the exercise sheet submission. Submissions will open
+today 20:00
+and submission is extended until
+tomorrow 10:00
+instead of the usual 8:00 submission deadline.
+Tutorials
+Written on
+17.10.26
+by Julian Dörfler
+We have distributed the tutorials. You can now find your assigned tutorial on your Personal Status page.
+Remember, the tutorials start this monday, February 19th.
+Introduction to Theoretical Computer Science
+Time & Date
+Lectures:
+Wed. 14:15-16:00 (E2 2, Günter-Hotz-Hörsaal)
+Fri.     8:30-10:00 (E2 2, Günter-Hotz-Hörsaal)
+The lectures will be held in English.
+Exercise sheets
+Every Friday we will release an exercise sheet. You have time until the next Friday at 8:00 to submit your solution via (this) CMS. The solutions are submitted as separate PDF-files for each exercise, either digitally created, for example with
+LaTeX
+,
+Typst
+or
+LibreOffice
+, or as a
+high quality scan
+(not photos) of a handwritten submission.
+Each group must write their own solution and must not copy the solution of another group!
+You can work in groups of up to 4 students on the exercises. You need to register your permanent groups
+until October 21st, 16:00
+, in CMS. Your group size determines which exercises you have to submit:
+Each exercise (or sometimes subexercise) is marked as being for some number of students, between 1 and 4.
+If an exercise is marked as being for x students, then all groups of size >= x have to submit this exercise.
+You may optionally also submit the other exercises to obtain feedback (pending availability of our tutors), however you will not gain any points towards admission for the exams.
+All exercises, even the ones you did not have to submit will be relevant for the exam or even future exercises!
+What is the idea behind this system?
+In a dysfunctional group, every person will work on ≈25% of the lecture's content at random. We believe that if your main reason to form a group is to avoid having to do all the exercises, that at least you should be working on the 25% of the exercises that will teach you the most important parts, instead of at random. Will those parts be enough for the exam? No! But you will be better off than with a dysfunctional group where everyone just submits one of the exercises.
+The first exercise sheet is due October 23rd, 8:00, the submission will open on October 21st, 16:00.
+While the exercise sheets themselves will be in English, you are free to choose both German or English as the language for your submissions.
+For questions about the grading of your exercise sheets, please come to the Office Hours.
+Plagiarism Policy
+...aka: what about ChatGPT & co.?
+First of all, we need to differentiate between
+Using ChatGPT to study and understand the concepts and
+Using ChatGPT to solve the exercises given to you
+Example for case 1:
+"Explain to me the difference between a DFA and an NFA intuitively. Add some examples."
+Example for case 2:
+"Solve the following exercise: [...]"
+Case 1 is obviously allowed and does not require any special indication. It is a perfectly valid way to learn, not much different from doing regular research on the internet. Therefore, in what follows, we will mainly concern ourselves with case 2.
+Case 2 means that you have used an external source for a (parts of a) solution. You should clearly indicate what source you used for what part of the solution on the same submission (same PDF file) as the task.
+If you do not state your source, it will count as plagiarism.
+If you state your source, it will not be plagiarism. We will grade the solution, but upon the first (no matter how small) mistake we will stop the grading and award that particular exercise 0 points. We will also not put in extra effort to give detailed feedback (why would we be giving feedback to ChatGPT?)
+Note that while we were mostly mentioning ChatGPT, the same holds for other external sources as well.
+In addition:
+Any materials from this year's iteration of the lecture can be used and using them is never counted as plagiarism.
+Copying any part of a solution of another group always counts as plagiarism.
+Tutorials
+The tutorials are in person on Mondays and will start October 19th. We are offering tutorials in both English and German. You have to register for your tutorials with your preferred tutorial language until October 16th, 23:59, on this website.
+Office Hours
+Twice a week, always in room E1.7, room 0.01:
+Tuesdays 14:15-15:45
+Thursdays 14:15-15:45
+Starting October 20th
+Grading
+To be admitted to the endterm and the reexam you need (always relative to the points available to your group size):
+50% of the regular points of all exercise sheets
+30% of the regular points in each major topic of the course:
+Automata and Regular Languages (sheets 1-4)
+Computability (sheets 5-9)
+Complexity Theory (and Grammars) (sheets 11-13)
+Your grade will be the better grade of:
+Endterm
+Reexam
+Exams
+For the written exams you are allowed to bring a single(!) handwritten(!) DinA4-sheet, written on both sides. Photocopies and printouts are not allowed!
+Endterm: expected: February 15th, starting 9:00
+Reexam: expected: March 17th, starting 14:00
+The raw time to complete the exam will be at least 120 minutes.
+Literature
+There are many good books on the topic of this lecture. Here is a selection:
+Michael Sipser, Introduction to the Theory of Computation, PWS
+John Hopcroft, Rajeev Motwani & Jeffrey Ullman, Introduction to Automata Theory, Languages, and Computation, Pearson
+Harry Lewis & Christos Papadimitriou, Elements of the Theory of Computation, Prentice Hall
+Dexter Kozen, Automata and Computability, Springer
+Uwe Schöning, Theoretische Informatik - kurzgefasst, Spektrum (in German)
+You may find these in the InfoMath library
+.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

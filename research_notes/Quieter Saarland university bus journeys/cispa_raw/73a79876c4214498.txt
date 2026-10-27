@@ -1,0 +1,34 @@
+Main Page
+Program Synthesis
+Rayna Dimitrova
+News
+Currently, no news are available
+Seminar Description
+Program synthesis is the task of automatically generating programs that fulfill a user’s intent, expressed through high-level specifications such as input/output examples, logical formulas, or partial program sketches. Program synthesis aims to allow developers to focus on describing what a program should do, while leaving the tedious and error-prone implementation details to automated tools. Program synthesis has been a topic of interest at the intersection of programming languages, formal methods, and artificial intelligence since the 1960s, and is one of the long-standing dreams of computer science. While it has been considered impractical for a long time, recent advances in automated reasoning, formal verification, and inductive machine learning-based approaches have led to remarkable progress towards achieving this dream. Today, program synthesis can generate small but useful programs for automating repetitive tasks, solving programming exercises, and performing complex data wrangling.
+In this seminar, we will study the foundations of program synthesis, covering the main synthesis techniques. Participants will read and critically discuss the state-of-the-art research papers in this field, gaining a comprehensive understanding of the current landscape, recent breakthroughs, and the open challenges driving ongoing research.
+Organization
+Structure of the seminar
+Kickoff
+meeting
+: Presentation of the seminar's topic and goals.
+Reading-group phase (5 sessions):
+Everyone reads and discusses one paper per session.
+− Everyone submits 3 questions for each discussion in advance.
+− Attendance at each meeting is mandatory, and so is participation in the discussion.
+Presentations phase:
+Everyone prepares and delivers a presentation of their assigned paper.
+− Everyone except the speaker is required to submit 3 questions for each presentation in advance.
+− Attendance at each presentation is mandatory, and so is participation in the discussion.
+Seminar meetings
+When:
+TBD
+Where
+:
+Attendance:
+Participation in all meetings is mandatory (exceptions require an official document, i.e., doctor's certificate).
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

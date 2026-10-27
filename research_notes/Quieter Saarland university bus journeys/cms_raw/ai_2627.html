@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Main Page	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="4231d285cf1947148cfee86aa34b2ec9a0b05a05@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Sic/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Sic/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Sic/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Sic/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Sic/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/ai_2627/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/ai_2627/../system" class="navbar-brand">Courses</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/ai_2627/">Main Page</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Information</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/ai_2627/termine/calendar/index">Timetable</a></li><li><hr class="dropdown-divider" /></li><li><a class="dropdown-item" href="/ai_2627/5/Organization">Organization</a></li><li><hr class="dropdown-divider" /></li><li><a class="dropdown-item" href="/ai_2627/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/ai_2627/students/register">Registration</a></li><li class="nav-item"><a class="nav-link" href="/ai_2627/landing">Personal Status</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/ai_2627/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="05c08fcd8e18d428242ea364f26aca715a6b10ea799b4a5ea42faba1bd1bfb4496438b6f2495319a592fe3b280266f5188b05abac2fad61b4486e9d25c4015de" id="Token409768961" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Username" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Password" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Remember me</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.sic.saarland/ai_2627/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="79f9a7407d4a625339b3059dd56acea466bdbfbb%3AUser.redirect" id="TokenFields311108929" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked1765605023" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/ai_2627/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registration</a>        </li>
+        <li>
+            <a href="/ai_2627/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Forgot Password?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Enable dark mode            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Enable light mode            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/ai_2627/../system" class="site-logo" title="Front Page"><img src="/system/theme/Sic/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					Artificial Intelligence				</h1>
+				<div>
+				<small class="text-muted">
+					<a href="https://fai.cs.uni-saarland.de/hoffmann">Prof. Dr. Jörg Hoffmann</a>, <a href="https://fai.cs.uni-saarland.de/hoeller">Dr. Daniel Höller</a>, <a href="https://fai.cs.uni-saarland.de/schmalz">Johannes Schmalz, PhD</a>				</small>
+					</div>
+				<div class="mt-2"><small class="text-muted fs-6">Stammvorlesung (9 CP), Winter Semester 2026</small></div>			</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	
+<table class="table">
+	<colgroup>
+				<col span="1" style="width: auto;" />
+	</colgroup>
+	<tbody>
+	<tr>						<td class="align-top">
+				<a id="newsElement2"></a>
+				<h4 class="fs-5"><a href="/ai_2627/news/view/2">Tutorial Assignment</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="26.10.2026 17:23:51">26.10.26</span>												by Jan Eisenhut					</i></small>
+				</p>
+
+									<p>Dear students,</p>
+
+<p>you can now find your tutorial group on the &quot;Personal Status&quot; page in CMS. The tutorials start next week (November 2 to November 6).</p>
+
+<p>Best regards,<br />
+Jan Eisenhut</p>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement1"></a>
+				<h4 class="fs-5"><a href="/ai_2627/news/view/1">Tutorial Preferences</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="22.10.2026 20:44:44">22.10.26</span>												by Jan Eisenhut					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse1">
+					<p>Dear students,</p>
+
+<p>you can now select your tutorial preferences on your personal status page in CMS. If you wish to attend a tutorial, please submit your preferences by&nbsp;<strong>Monday, October 26, 12:00</strong>. If you do not submit preferences, we will assume you do not wish to attend the tutorials and will not&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse1" href="#newsElement1">Read more</a></p>				</div>
+				<div class="collapse newsCollapse1">
+					<p>Dear students,</p>
+
+<p>you can now select your tutorial preferences on your personal status page in CMS. If you wish to attend a tutorial, please submit your preferences by&nbsp;<strong>Monday, October 26, 12:00</strong>. If you do not submit preferences, we will assume you do not wish to attend the tutorials and will not assign you to any.</p>
+
+<p>Best regards,<br />
+Jan Eisenhut</p>
+				</div>
+							</td>
+		</tr>		
+		</tbody>
+</table>
+
+</section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<p><span style="font-size:14px">The first lecture will be on <strong>October 13th, 14:15 in E1 3, Lecture Hall 002</strong>. See also the&nbsp;<a href="https://cms.sic.saarland/ai_2627/termine/calendar/index">Timetable</a>.</span></p>
+
+<p>&nbsp;</p>
+
+<h2>Course Description</h2>
+
+<p>This course offers an introduction to the field of Artificial Intelligence (AI). We focus on the theory and practice of sequential decision making where the AI agent needs to decide about actions in a complex environment so as to achieve a long-term objective such as reaching a goal, maximizing expected reward, or winning a game. For example, games like Go and Chess are sequential decision making problems. The course includes aspects of both, symbolic and sub-symbolic AI (aka data-driven AI aka ML), as well as combinations thereof, and therewith provides students with a glimpse of one of the most important challenges in AI today -- combining symbolic and sub-symbolic AI. A prominent example of an AI system leveraging such a combination is the AlphaGo/Zero system series, which changed the world of computer game-playing, and whose ingredients and architecture we will understand as part of the course.</p>
+
+<p>Students learn to master techniques developed in the fields of search algorithms, classical planning, Markov decision processes, and game playing. The lecture is accompanied by C++ programming projects in which students implement some of the concepts and algorithms encountered in the lecture. With the knowledge acquired in this course, students are knowledgeable in crucial aspects of AI, and are well-prepared for student assistants jobs as well as BSc and MSc theses at FAI and other AI-related research groups in Saarbr&uuml;cken.</p>
+
+<p>For further information, please check the&nbsp;<a href="https://cms.sic.saarland/ai_2627/contents/view/5">organization</a> page.</p>
+
+<p><strong>Prerequisites. </strong>Solid knowledge in algorithms and data structures is necessary to follow this course. Solid knowledge in imperative programming is also necessary. In particular, the projects require to program in C++ and (some) Python. Basic knowledge in machine learning will help, but is not strictly required; the same goes for basic knowledge in complexity theory.</p>
+
+<p><strong>Note. </strong>Students who have passed the Artificial Intelligence course&nbsp;in previous years&nbsp;are not allowed to retake the exam.</p>
+
+<p>The first lecture will primarily address organizational matters. We aim to answer any remaining questions there. If for some reason you cannot wait until then, you may contact <a href="mailto:songtuan.lin@cs.uni-saarland.de">Songtuan Lin</a> directly or visit the <a href="https://fai.forum.mi.uni-saarland.de">Forum</a>.</p>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/en/privacy.html" target="_blank">Privacy Policy</a> | <a href="https://www.uni-saarland.de/en/legal-notice.html" target="_blank">Legal Notice</a><br/>
+	If you encounter technical problems, please contact <a href="mailto:cakecms@cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">the administrators</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

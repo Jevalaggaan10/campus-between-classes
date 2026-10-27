@@ -1,0 +1,73 @@
+Main Page
+Courses
+Main Page
+Information
+Timetable
+Organization
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Artificial Intelligence
+Prof. Dr. Jörg Hoffmann
+,
+Dr. Daniel Höller
+,
+Johannes Schmalz, PhD
+Stammvorlesung (9 CP), Winter Semester 2026
+News
+Tutorial Assignment
+Written on
+26.10.26
+by Jan Eisenhut
+Dear students,
+you can now find your tutorial group on the "Personal Status" page in CMS. The tutorials start next week (November 2 to November 6).
+Best regards,
+Jan Eisenhut
+Tutorial Preferences
+Written on
+22.10.26
+by Jan Eisenhut
+Dear students,
+you can now select your tutorial preferences on your personal status page in CMS. If you wish to attend a tutorial, please submit your preferences by
+Monday, October 26, 12:00
+. If you do not submit preferences, we will assume you do not wish to attend the tutorials and will not…
+Read more
+Dear students,
+you can now select your tutorial preferences on your personal status page in CMS. If you wish to attend a tutorial, please submit your preferences by
+Monday, October 26, 12:00
+. If you do not submit preferences, we will assume you do not wish to attend the tutorials and will not assign you to any.
+Best regards,
+Jan Eisenhut
+The first lecture will be on
+October 13th, 14:15 in E1 3, Lecture Hall 002
+. See also the
+Timetable
+.
+Course Description
+This course offers an introduction to the field of Artificial Intelligence (AI). We focus on the theory and practice of sequential decision making where the AI agent needs to decide about actions in a complex environment so as to achieve a long-term objective such as reaching a goal, maximizing expected reward, or winning a game. For example, games like Go and Chess are sequential decision making problems. The course includes aspects of both, symbolic and sub-symbolic AI (aka data-driven AI aka ML), as well as combinations thereof, and therewith provides students with a glimpse of one of the most important challenges in AI today -- combining symbolic and sub-symbolic AI. A prominent example of an AI system leveraging such a combination is the AlphaGo/Zero system series, which changed the world of computer game-playing, and whose ingredients and architecture we will understand as part of the course.
+Students learn to master techniques developed in the fields of search algorithms, classical planning, Markov decision processes, and game playing. The lecture is accompanied by C++ programming projects in which students implement some of the concepts and algorithms encountered in the lecture. With the knowledge acquired in this course, students are knowledgeable in crucial aspects of AI, and are well-prepared for student assistants jobs as well as BSc and MSc theses at FAI and other AI-related research groups in Saarbrücken.
+For further information, please check the
+organization
+page.
+Prerequisites.
+Solid knowledge in algorithms and data structures is necessary to follow this course. Solid knowledge in imperative programming is also necessary. In particular, the projects require to program in C++ and (some) Python. Basic knowledge in machine learning will help, but is not strictly required; the same goes for basic knowledge in complexity theory.
+Note.
+Students who have passed the Artificial Intelligence course in previous years are not allowed to retake the exam.
+The first lecture will primarily address organizational matters. We aim to answer any remaining questions there. If for some reason you cannot wait until then, you may contact
+Songtuan Lin
+directly or visit the
+Forum
+.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

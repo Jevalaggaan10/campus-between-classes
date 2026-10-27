@@ -1,0 +1,114 @@
+Main Page
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Mathematics for Computer Scientists I
+Prof. Dr. Peter Ochs
+News
+Office hours of the tutors
+Written on
+25.10.26
+by Tobias Mai
+Starting this week,
+all office hours on
+Tuesdays
+(Collmann, Wimmer, Lopez, Jamali) will take place in the
+student workroom 317/318
+, located on the second floor of
+building E2 4
+. This room should offer better working conditions than the originally planned room.
+Our
+calendar
+has been updated…
+Read more
+Starting this week,
+all office hours on
+Tuesdays
+(Collmann, Wimmer, Lopez, Jamali) will take place in the
+student workroom 317/318
+, located on the second floor of
+building E2 4
+. This room should offer better working conditions than the originally planned room.
+Our
+calendar
+has been updated accordingly.
+erweiterte deutschsprachige Sprechstunde | extended German-language office hour
+Written on
+21.10.26
+by Tobias Mai
+Zusätzlich zu den regulären Sprechstunden der Tutorinnen und Tutoren bietet Tobias Mai eine "erweiterte deutschsprachige Sprechstunde" an. Im Rahmen dieser Veranstaltung können einzelne Themen der Vorlesung wiederholt bzw. etwas detaillierter besprochen werden. Nähere Informationen finden Sie
+…
+Read more
+Zusätzlich zu den regulären Sprechstunden der Tutorinnen und Tutoren bietet Tobias Mai eine "erweiterte deutschsprachige Sprechstunde" an. Im Rahmen dieser Veranstaltung können einzelne Themen der Vorlesung wiederholt bzw. etwas detaillierter besprochen werden. Nähere Informationen finden Sie
+hier
+.
+Die "erweiterten deutschsprachigen Sprechstunden" finden während der Vorlesungszeit (ab dem 23. Oktober 2026)
+freitags um 14 Uhr (c.t.) im Hörsaal III in Gebäude E2 5
+statt. Alle Termine stehen auch im
+Kalender
+.
+In addition to the regular office hours held by the tutors, Tobias Mai offers an "extended office hour"; by decision of the faculty, these office hours will be held
+exclusively in German
+. During these events, specific topics from the lecture can be reviewed or discussed in greater detail. Further information can be found
+here
+.
+The "extended German-language office hours" will take place during the lecture period (starting October 23, 2026)
+on Fridays at 2:15 pm in Lecture Hall III (Hörsaal III) in Building E2 5
+. All scheduled dates are also listed in the
+calendar
+.
+Mathematics for Computer Scientists I
+Lecturer: Prof. Dr. Peter Ochs
+Assistant: Dr. Tobias Mai
+General information
+The lectures will be given by
+Prof. Dr. Peter Ochs
+.
+The lecture course begins on
+Wednesday, October 14, at 10:15 am
+.
+Online attendance is
+not
+possible, but we will provide recordings of the lectures.
+The lectures are held
+exclusively in English.
+However, we offer
+tutorials in both English and German
+; you can indicate your language preference when registering for the tutorials. (Registration for the tutorials is possible in CMS during the first week of lectures. More information will follow later.)
+Content
+This lecture course is the first part of a three-semester course in mathematics for computer science students.
+In this first part, the emphasis is on basic notions of mathematics and the calculus of functions in one real variable.
+Lecture times
+Wednesday, 10:15-11:45: Günter Hotz lecture theatre, Building E2 2
+Friday, 10:15-11:45: Günter Hotz lecture theatre, Building E2 2
+You can find a map showing all the buildings on campus
+here
+.
+References
+Literature for the MfCS lecture course can be found in the corresponding Course Reference Shelf (
+English
+or
+German
+) provided by the
+Campus Library for Computer Science and Mathematics
+.
+Some books listed there are available online (free of charge) if you are using an IP address of the university. To obtain access from outside the university, it is necessary to set up a VPN-connection to the university servers; a detailed description (unfortunately only in German) can be found
+here
+.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

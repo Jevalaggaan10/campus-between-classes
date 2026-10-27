@@ -1,0 +1,238 @@
+Main Page
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Differential Equations in Image Processing and Computer Vision
+Prof. Dr. Joachim Weickert
+News
+Currently, no news are available
+Differential Equations in Image Processing and Computer Vision
+Five Teaching Awards (4 in Computer Science, 1 in Mathematics)
+Lecturer:
+Prof. Dr. Joachim Weickert
+Assistant:
+Vassillen Chizhov
+Winter Term 2026 / 2027
+Lectures (4h) with tutorials (2h)
+(9 ECTS points)
+Online
+lectures based on the
+Zoom
+platform (
+privacy information
+):
+Wednesday, 10:15-12:00
+Friday, 10:15-12:00
+First lecture:
+Wednesday, October 14
+The Zoom link can be found in the
+Materials section
+.
+Due to bad experiences in the past, lecture recordings will
+not
+be provided.
+Tutorials: 2 hours each week
+in person
+; see below.
+Based on the maximum capacity of our tutorials, this lecture is limited to 40 registrations.
+Synopsis
+–
+Prerequisites
+–
+Tutorials
+–
+Registration
+–
+Written Exams
+–
+Contents
+–
+References
+Synopsis
+Many model-based techniques in image processing and computer vision make use of methods based on partial differential equations (PDEs) and variational calculus. Moreover, many classical methods may be reinterpreted as approximations of PDE-based techniques. In this course we will get an in-depth insight into these methods. For each of these techniques, we will discuss the basic ideas as well as theoretical and algorithmic aspects. Examples from medical imaging and other fields illustrate the various application possibilities.
+In this lecture we focus on classical, model-based image processing methods, not on deep learning.
+Since this class guides its participants to many research topics in our group, its attendance is required for everyone who wishes to pursue a master thesis in our group.
+Prerequisites
+Equally suited for students of visual computing, mathematics, computer science, and related study programs. It is based on undergraduate mathematical knowledge from the first three semesters (such as "Mathematics for Computer Scientists I-III"). For the programming assignments, some elementary knowledge of C is required. It is strongly recommended that students have some prior knowledge of image processing and computer vision, e.g. obtained through our earlier class on "
+Image Processing and Computer Vision
+". Knowledge in differential equations is useful, but not required. The lectures will be given in English.
+Assignments and Tutorials
+The tutorials include homework assignments (theory and programming) as well as classroom assignments. The programming assignments give an intuition about the way how image processing and computer vision algorithms work, while the theoretical assignments provide additional mathematical insights. Classroom assignments are supposed to be easier and should guide you gently to the main themes.
+For the homework assignments you can obtain up to 24 points per week. Actively participating in the classroom assignments gives you 12 more points per week, regardless of the correctness of your solutions. You can earn up to 2 bonus points in a tutorial by presenting a solution to a classroom assignment. To qualify for both exams you need 2/3 of all possible points. For 13 weeks, this comes down to 13 x 24 = 312 points. Working in groups of up to 3 people is permitted and strongly encouraged.
+If you miss a tutorial because you are sick, you can still get the points for participation, if you provide a doctor's certificate.
+If you have questions concerning the tutorials, please do not hesitate to contact
+Vassillen Chizhov
+.
+There is one tutorial group scheduled:
+Tuesday, 16:15-18:00
+Tutor:
+Vassillen Chizhov
+Building E1.3, Seminar Room 016
+First tutorial:
+Tuesday, October 20
+Additionally the following office hour is offered:
+Tuesday, 11:00-12:00
+Tutor:
+Vassillen Chizhov
+Building E1.7, Room 4.05
+Registration
+You can register for this course via the CMS.
+Please do not forget to register for the exam also in the HISPOS/LSF system (apart from Erasmus students). This system administrates your exam admission and your grades.
+Written Exams
+It is planned to have two written exams, one at the beginning and one at the end of the semester break.
+The
+first
+written exam takes place on
+Friday, February 19, 2027, 14:00 - 17:00
+, in
+E1.3, HS002
+.
+The
+second
+written exam takes place on
+Friday, March 19, 2027, 14:00 - 17:00
+, in
+E1.3, HS002
+.
+Please be at the exam hall at 13:30 to allow for sufficient time for all organisational matters to be handled.
+In order to qualify for the exams you need a total amount of 2/3 of all possible points from the homework and classroom assignments. In case of qualification, you are allowed to take part in both exams.
+The better grade counts, but each exam will count as an attempt individually.
+Exam admissions from previous semesters do not qualify you to take part in the exams of this course.
+The exams will be
+closed book
+. These are the rules during the exams:
+You are allowed and obliged to bring three things to your desk only:
+Your student ID card (Studierendenausweis), a ball-pen that has no function other than writing, and a so-called
+cheat sheet
+. This cheat sheet is a A4 page with formulas or important equations from the lecture. Please note that the cheat sheet has to be handwritten by yourself. It will be collected at the end of the exam, and you can get it back at the exam inspection.
+Everything else has to be deposited at the walls of the exam hall. In particular, electronic devices (including your cell phone), bags, jackets, briefcases, lecture notes, homework and classroom work solutions, additional handwritten notes, books, dictionaries, and paper are
+not allowed
+at your desk.
+Please keep your student ID card ready for an attendance check during the exam.
+Do not use pencils or pens that are erasable with a normal rubber.
+You are not allowed to take anything with you that contains information about the exam.
+A violation of this rule means failing the DIC course.
+You must stay until the exam is completely over.
+If a student is unable to attend the written exams due to reasons beyond their control (e.g. because of an illness (medical certificate required immediately), or another exam at the same day), we aim to offer alternative options such as an oral exam. It takes 30 minutes, no aids are permitted, and the candidate should demonstrate that they have understood the main concepts and relations and knows important formulas. For fairness reasons, the difficulties, grades and passing chances are comparable to those in the written exams.
+Contents
+Course material is available on this webpage in order to
+support
+the teaching and the tutorials, not to
+replace
+them. Additional organisational information, examples and explanations that may be relevant for your understanding and the exam are provided in the lectures and tutorials. It is solely
+your
+responsibility - not ours - to make sure that you receive this information.
+Here is a preliminary list of the planned contents:
+Date
+Topic
+14/10
+Introduction, Overview
+16/10
+Homogeneous Diffusion I: Basic Concepts
+(contains classroom assignment C1 and homework H1)
+21/10
+Homogeneous Diffusion II: Key Points, Algorithms, Limitations, Alternatives
+23/10
+Nonlinear Isotropic Diffusion I: Modelling and Continuous Theory
+(contains classroom assignment C2 and homework H2)
+28/10
+Nonlinear Isotropic Diffusion II: Semidiscrete and Fully Discrete Theory
+30/10
+Nonlinear Isotropic Diffusion III: Diffusion Echo and Efficient Algorithms
+(contains classroom assignment C3 and homework H3)
+04/11
+Nonlinear Anisotropic Diffusion I: Modelling
+06/11
+Nonlinear Anisotropic Diffusion II: Continuous and Discrete Theory
+(contains classroom assignment C4 and homework H4)
+11/11
+Diffusion Filtering: Parameter Selection
+13/11
+Variational Methods I: Modelling and Theory
+(contains classroom assignment C5 and homework H5)
+18/11
+Variational Methods II: Discrete Aspects
+20/11
+Variational Methods III: TV Regularisation and Primal-Dual Methods
+(contains classroom assignment C6 and homework H6)
+25/11
+Variational Methods IV: Functionals of Two Variables
+27/11
+Vector- and Matrix-Valued Images
+(contains classroom assignment C7 and homework H7)
+02/12
+Image Sequence Analysis I: Models for the Smoothness Term
+04/12
+Image Sequence Analysis II: Models for the Data Term
+(contains classroom assignment C8 and homework H8)
+09/12
+Image Sequence Analysis III: Practical Aspects
+11/12
+Image Sequence Analysis IV: Numerical Methods
+(contains classroom assignment C9 and homework H9)
+16/12
+Osmosis I: Continuous Theory and Modelling
+18/12
+Osmosis II: Discrete Theory and Efficient Algorithms
+(contains classroom assignment C10 and homework H10)
+06/01
+Continuous-Scale Morphology I: Basic Ideas
+08/01
+Continuous-Scale Morphology II: Shock Filters and Nonflat Morphology
+(contains classroom assignment C11 and homework H11)
+13/01
+Curvature-Based Morphology I: Mean Curvature Motion
+15/01
+Curvature-Based Morphology II: Affine Morphological Scale-Space
+(contains classroom assignment C12 and homework H12)
+20/01
+Self-Snakes and Active Contours
+22/01
+Backward Parabolic PDEs and M-smoothers
+(contains classroom assignment C13 and homework H13)
+27/01
+PDE-Based Image Compression I: Data Selection
+29/01
+PDE-Based Image Compression II: Optimised Encoding and Better PDEs
+(please take a look at the self-test problems)
+03/02
+PDEs and Learning
+05/02
+Summary and Outlook
+The slides for these lectures will be made available in the
+Materials section
+before each lecture.
+References
+J. Weickert:
+Anisotropic Diffusion in Image Processing
+. Teubner, Stuttgart, 1998.
+G. Aubert and P. Kornprobst:
+Mathematical Problems in Image Processing: Partial Differential Equations and the Calculus of Variations.
+Second Edition, Springer, New York, 2006.
+T. F. Chan and J. Shen:
+Image Processing and Analysis: Variational, PDE, Wavelet, and Stochastic Methods
+. SIAM, Philadelphia, 2005.
+K. Bredies, D. Lorenz:
+Mathematical Image Processing.
+Birkhäuser, Basel, 2018.
+F. Cao:
+Geometric Curve Evolutions and Image Processing.
+Lecture Notes in Mathematics, Vol. 1805, Springer, Berlin, 2003.
+Articles from journals and conferences.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

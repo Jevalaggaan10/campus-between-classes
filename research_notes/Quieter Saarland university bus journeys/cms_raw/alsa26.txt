@@ -1,0 +1,152 @@
+Main Page
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Algorithms for Sequence Analysis
+Alexey Gurevich
+News
+Course news
+Written on
+20.10.26
+(last change on
+20.10.26
+)						by Alexey Gurevich
+Dear all,
+Slides 27–30.
+Sorry for running over time in today's lecture (01-3-kmp.pdf). We went through the last slides (27–30) very quickly, so please look through them yourselves. I expect we will have extra time on Thursday to discuss them further.
+Extended deadline (one-time…
+Read more
+Dear all,
+Slides 27–30.
+Sorry for running over time in today's lecture (01-3-kmp.pdf). We went through the last slides (27–30) very quickly, so please look through them yourselves. I expect we will have extra time on Thursday to discuss them further.
+Extended deadline (one-time exception!).
+Following individual requests, I am extending
+both the course registration and the deadline for submitting Assignment-00 to today, 20.10.2026, 23:59
+. If you plan to take this course this semester, please register and submit the assignment by then.
+Do not expect any other deadline to be extended.
+For reference, only 17 of the 55 enrolled students have submitted Assignment-00, which is required (!) to pass the course.
+CMS changes.
+I removed a redundant registration step inside the CMS, which confused several students. Only 28 of the 55 enrolled students had completed it, and it had no effect on anything anyway.
+I also added an option to unregister from the course in the CMS until 01.11.2026. I don't mind if you stay registered without submitting anything. But if unregistering is more convenient for you, you can now do it.
+Best regards,
+Alexey Gurevich
+ALSA Tutorial Sessions: Schedule and Start Date
+Written on
+19.10.26
+by Moein Karami
+Dear students,
+I hope you are doing well.
+There will be two identical tutorial sessions each week, and you are welcome to attend either one:
+Tuesdays, 14:30–16:00, Room 001
+Wednesdays, 10:30–12:00, Room 007
+The first session will take place next week, on Tuesday, 27 October.
+Best…
+Read more
+Dear students,
+I hope you are doing well.
+There will be two identical tutorial sessions each week, and you are welcome to attend either one:
+Tuesdays, 14:30–16:00, Room 001
+Wednesdays, 10:30–12:00, Room 007
+The first session will take place next week, on Tuesday, 27 October.
+Best regards,
+Moein Karami
+Reminders: Assignment 00 Submission & TA Session Poll (Deadline Tonight)
+Written on
+15.10.26
+by Moein Karami
+Hello everyone,
+I hope you enjoyed the summer break!
+Two quick reminders, especially for those who missed the first two lectures:
+Assignment 00: Don’t forget to submit your solution. You must score at least 50% on this assignment to be eligible for the final exam. Please also pay close…
+Read more
+Hello everyone,
+I hope you enjoyed the summer break!
+Two quick reminders, especially for those who missed the first two lectures:
+Assignment 00: Don’t forget to submit your solution. You must score at least 50% on this assignment to be eligible for the final exam. Please also pay close attention to your output: print only what is asked, in exactly the format specified.
+TA session poll: The poll for choosing a time slot for the TA sessions closes tonight. Please vote
+HERE
+and select all slots that work for you.
+Best regards,
+Moein
+Algorithms for Sequence Analysis
+(Special lecture 4V+2Ü, 9 CP for MSc
+Bioinformatics
+, Advanced lecture to other
+CS degree programs
+as well: Computer Science, DSAI, Cybersecurity, etc.)
+Note: If you intend to take this course in a later semester, please be aware that the
+next instance will most likely be in Summer 2028
+.
+Lecture Dates:
+every Tuesday 08:30 - 10:00, starting 13.10.2026
+every Thursday 08:30 - 10:00, ending 04.02.2026
+except on official holidays and during New Year's break (21.12.2026 -- 01.01.2027)
+Room: E2.1, room 001 (Center for Bioinformatics, seminar room, ground floor)
+Tutorials (two equivalent sessions; feel free to attend any), starting 27.10.2026:
+Tuesdays, 14:30–16:00, Room: E2.1, room 001 (the same as lectures)
+Wednesdays, 10:30–12:00, Room: E2.1, room 007 (small seminar room, ground floor)
+You need to be registered for this course in order to access the
+Materials
+section with lecture slides, homework assignments, etc.
+Contents
+Some of the topics discussed are
+different algorithms for exact pattern search (searching for substrings in longer strings)
+data structures for full-text indexing, in particular suffix tree, array, Burrows-Wheeler transform, FM index
+useful companion data structures: rank (and select) data structures on bit sequences; wavelet trees
+applications of full-text indexes in genomics (repeat finding, etc.)
+error-tolerant pattern search in strings (Hamming distance; edit distance)
+biological sequence alignment and models of evolutionary processes
+algorithm engineering for sequence alignment (affine gap costs; linear space; different objectives)
+the read mapping problem; seed-filter-extend approaches
+text compression algorithms
+alignment-free sequence analysis: basics, methods, successes, challenges
+Requirements
+There are no special requirements for the course. However, you should be familiar with elementary algorithms and data structures (sorting; stacks, queues) and algorithm analysis (asymptotic notation like
+O
+(
+n
+)). For bioinformatics, this is a fairly theoretical and formal course about algorithms. For theoretical computer scientists, this is a fairly practical course, actually considering good implementations of different algorithms. Programming skills are absolutely necessary to solve the practical homework exercises. Do not take this course if you have no or poor programming skills; it will not work out well.
+Passing the Course
+To pass this (graded) course for 9 ECTS credits, several conditions need to be satisfied:
+You need to register for the course here in the CMS to access the course materials, including homework (
+registration deadline is 18.10.2026 at 23:59
+).
+You need to achieve at least 50% of the points in
+each
+of the following: the introductory Assignment 00 (
+due 19.10.2026, 23:59
+), all theoretical and all programming exercises across the ~14 assignments. (Yes, this means at least 50% in each category separately. If you cannot program, do not take this course!)
+Quizzes: There will be 3 short quizzes during tutorials (approx. weeks 5, 10, 14), each containing one theoretical and one programming task. Questions are personalized: the theory question is drawn from problems you attempted in your homework, or a random one if you attempted none; the programming question is based on your own submitted code, or a provided snippet if you submitted none. To pass a quiz, you need to solve both parts. You must pass at least 2 of the 3 quizzes.
+Midterm: A written midterm exam (approx. week 8) will check your understanding of a wide variety of topics taught in the weeks 1–7 of the course. You need to score at least 1/4 of the midterm points to pass. If you fail, you get one 2nd attempt.
+When you qualify for the final exam (based on homework, quizzes, and midterm), you need to register for it in the LSF system (instructions will come towards the end of the semester; exam dates will be shortly after the lecture period). LSF registration closes one week before the exam; no exceptions.
+Final exam: A written or oral final exam covers the course material from weeks 8–15. Whether it is written or oral depends on the number of qualifying participants; this will be estimated and announced no later than the end of November.
+Your
+final course grade
+is the sum of your midterm and final exam scores, weighted as 40/60, and you need at least 50% of the combined points to pass. If your combined score is below this threshold, you get one 2nd attempt at the final exam.
+No Grade Improvement
+Important: Once you have passed the exam, you
+cannot
+retake it to
+improve your grade
+. This is different from basic lectures where there is an improvement possibility within the same exam period.
+No Automatic Re-Admission for the Next Exam Period
+If you qualified for the exam in one exam period (say, winter '26/27), but then failed the exam(s), and you want to re-take the exam later (say, summer '28), then
+you have to re-qualify
+(e.g., do the homework again and obtain enough points). In any case, it is highly recommended to prepare for the exam by solving the homework assignments!
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

@@ -1,0 +1,121 @@
+Main Page
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Perspectives of Computer Science (WS 2026)
+Tomohiro Nagashima
+Introductory lecture on topics of Computer Science (1st semester), aka "Perspektiven der Informatik"
+Registration for this course
+is open until
+Friday, 27.11.2026 23:59
+.
+News
+Currently, no news are available
+Perspectives of Computer Science
+Lectures:
+The lecture is a first orientation towards different research areas in Computer Science and related fields, covered by local world-class experts (our own professors and PIs!). Every week, you will meet different professors and other group leaders from Saarland Informatics Campus to introduce their field of research.
+Organisation:
+Prof. Dr. Tomohiro Nagashima (Chair of Technology-Enhanced Learning: https://lala.cs.uni-saarland.de/) nagashima[at]cs.uni-saarland.de
+Time:
+Every Monday, starting
+19.10.2026, at 14:15 - 15:45
+Location:
+Lecture hall 1 in E2.5 (math lecture hall building)
+You are encouraged to come to the lecture in-person/real-time. Lectures will
+not
+be live-streamed online. For those who are unable to join in-person/real-time: we will give access to recorded lectures. However, this is only for students in the specific study program that does not allow them to come in person. All other students will not get recordings.
+Prerequisites:
+none; the lecture is for beginning students in computer science.
+Passing the course:
+This is a mandatory but ungraded course for 2 ECTS credits.
+After every lecture, there will be an online quiz that must be taken by each student. A certain number of correct answers (60%) must be given in the quizzes to pass the course (Students whose study plan counts this course with only 1 ECTS credit need to get half of that, i.e. 30%).
+How quizzes will be administered will be announced in the organizational session.
+Quizzes consist of approximately 10 multiple-choice questions.
+Quizzes are open till
+Friday after the lecture, 23:59
+.
+Important registration information:
+You must register for this course on this website (CMS) in order to access the recorded lectures and other material.
+You must register
+for the exam
+of this course separately in HIS/POS (LSF) until
+27.11.2026
+; otherwise you cannot get credit. No exceptions;
+no late registrations (VERY hard deadline).
+If you forget the HIS/POS registration, you will be put out of the course.
+Note:
+Some group of students, including exchange students and junior students, cannot register in LSF / HISPOS. They have to register directly with us by the deadline and must provide proof of their status, e.g. via their enrolment certificate by email. Late registration is also not possible. Please contact Tomo via email (nagashima[at]cs.uni-saarland.de) with "Perspectives CS registration" in the subject line of the email (otherwise I might miss your email).
+Questions?
+Please read the FAQ below first, then email us.
+Schedule
+Date
+Presenter: Topic
+19.10.2026
+Prof. Dr. Tomo Nagashima: Introduction and organization
+26.10.2026
+- we take a break! -
+02.11.2026
+Prof. Dr. Benjamin Kaminski: "Ancient and Modern (Quantitative) Verification"
+09.11.2026
+Prof. Dr. Sven Rahmann: "On local uniqueness and repetitiveness of the human genome sequence -
+Algorithm engineering for human genetics"
+16.11.2026
+Prof. Dr. Viktor Zaverkin: title TBD
+23.11.2026
+Prof. Dr. Olga Kalinina: "Data leakage and generalizability to out-of-distribution data in modern (biomedical) AI"
+30.11.2026
+Prof. Dr. Jilles Vreeken: "The Lecture of Why"
+07.12.2026
+Prof. Dr. Holger Hermanns: "Pigs in Space"
+14.12.2026
+Prof. Dr. Thorsten Herfet: "Signals from Space: Decoding Weather Satellite Images"
+(holidays)
+---
+04.01.2027
+Prof. Dr.-Ing. Philipp Slusallek: "Computer Graphics, Artificial Intelligence and the Real World"
+11.01.2027
+Prof. Dr. Verena Wolf: "AI in Drug Discovery: Predicting and Explaining Molecular Properties"
+18.01.2027
+Prof. Dr. Andreas Zeller: "AI-based system testing"
+25.01.2027
+Prof. Dr. Giancarlo Pellegrino: "Autonomous Offensive Security"
+01.02.2027
+Prof. Dr. André Brinkmann: "Systems for AI and AI for systems"
+Frequently Asked Questions (FAQ)
+How do I register in LSF / HISPOS ?
+For those who are able to register via LSF/HISPOS
+Registration has to be completed till
+27.11.2026
+!
+Please choose exam number 10036 in "Prüfungsstrukturbaum" -> "Informatik" -> "Bachelor" -> "Lecture Series on Topics in Computer Science".
+For those who are not able to register via LSF/HISPOS (e.g., exchange students, junior students)
+They have to register directly with us by the deadline and must provide proof of their status (enrolment certificate) by email.
+Earlier versions of "Perspektiven der Informatik"
+WS 2025/26
+(CMS)
+WS 2024/25
+(CMS)
+WS 2023/24
+(CMS)
+WS 2022/23
+(CMS)
+WS 2021/22
+WS 2019/20
+WS 2011/12
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

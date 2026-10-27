@@ -1,0 +1,15 @@
+Timetable
+Robustness in Generative AI
+Xiao Zhang
+No permissions to access this file
+Timetable
+Date Overview
+Export as .ics-file
+Export as .ics-file with prefix
+You can import this calendar in your calendar app by copying an export link from the "Date Overview" menu.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

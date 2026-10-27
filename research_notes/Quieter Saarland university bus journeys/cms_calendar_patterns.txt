@@ -1,0 +1,433 @@
+
+### cv4d 3D and 4D Computer Vision 33 raw dates
+(3, '14:15', '15:45', 'Introduction and Fundamentals of 3D and 4D Computer Vision I', 'E1 5 002') N=1 first=2026-10-21 last=2026-10-21
+(3, '14:15', '15:45', 'Fundamentals of 3D and 4D Computer Vision II', 'E1 5 002') N=1 first=2026-10-28 last=2026-10-28
+(4, '14:15', '15:45', 'Q&A Exercise sheet 1', 'E1 4 023') N=1 first=2026-10-29 last=2026-10-29
+(3, '14:15', '15:45', 'Scene Representations', 'E1 5 002') N=1 first=2026-11-04 last=2026-11-04
+(4, '14:15', '15:45', 'Solutions for Exercise sheet 1 presented', 'E1 4 023') N=1 first=2026-11-05 last=2026-11-05
+(3, '14:15', '15:45', 'Correspondence Problems', 'E1 5 002') N=1 first=2026-11-11 last=2026-11-11
+(4, '14:15', '15:45', 'Q&A Exercise sheet 2', 'E1 4 023') N=1 first=2026-11-12 last=2026-11-12
+(3, '14:15', '15:45', 'Multi-View Geometry and Structure from Motion', 'E1 5 002') N=1 first=2026-11-18 last=2026-11-18
+(4, '14:15', '15:45', 'Solutions for Exercise sheet 2 presented', 'E1 4 023') N=1 first=2026-11-19 last=2026-11-19
+(3, '14:15', '15:45', 'Volumetric Rendering', 'Remote') N=1 first=2026-11-25 last=2026-11-25
+(4, '14:15', '15:45', 'Q&A Exercise sheet 3', 'E1 4 023') N=1 first=2026-11-26 last=2026-11-26
+(3, '14:15', '15:45', 'General 4D Reconstruction', 'Remote') N=1 first=2026-12-09 last=2026-12-09
+(4, '14:15', '15:45', 'Solutions for Exercise sheet 3 presented', 'E1 4 023') N=1 first=2026-12-10 last=2026-12-10
+(4, '14:15', '15:45', 'Q&A Exercise sheet 4', 'E1 4 023') N=1 first=2026-12-17 last=2026-12-17
+(3, '14:15', '15:45', 'Human Pose Estimation', 'Remote') N=1 first=2027-01-13 last=2027-01-13
+(4, '14:15', '15:45', 'Solutions for Exercise sheet 4 presented', 'E1 4 023') N=1 first=2027-01-14 last=2027-01-14
+(3, '14:15', '15:45', 'Egocentric 4D Vision', 'Remote') N=1 first=2027-01-20 last=2027-01-20
+(4, '14:15', '15:45', 'Q&A Exercise sheet 5', 'E1 4 023') N=1 first=2027-01-21 last=2027-01-21
+(3, '14:15', '15:45', 'Generative Models', 'E1 5 002') N=1 first=2027-01-27 last=2027-01-27
+(4, '14:15', '15:45', 'Solutions for Exercise sheet 5 presented', 'E1 4 023') N=1 first=2027-01-28 last=2027-01-28
+(3, '14:15', '15:45', 'Event-Based Vision', 'E1 5 002') N=1 first=2027-02-03 last=2027-02-03
+(4, '14:15', '15:45', 'Q&A Exercise sheet 6', 'E1 4 023') N=1 first=2027-02-04 last=2027-02-04
+
+### atos Advanced Topics in Operating Systems 0 raw dates
+
+### aisystems AI Systems 15 raw dates
+(3, '15:00', '17:00', 'Kick-Off', 'Campus E1.5 029, Saarbrücken (MPI-SWS building)') N=1 first=2026-10-14 last=2026-10-14
+(3, '15:00', '17:00', 'Weekly meeting', 'Campus E1.5 029, Saarbrücken (MPI-SWS building)') N=1 first=2026-10-21 last=2026-10-21
+(1, '15:00', '17:00', 'Weekly meeting', 'Campus E1.5 029, Saarbrücken (MPI-SWS building)') N=13 first=2026-10-26 last=2027-02-01
+
+### alg26 Algebra 0 raw dates
+
+### alg_geo Algebraic Geometry 0 raw dates
+
+### algodat2627 Algorithmen und Datenstrukturen für Informatik-Lehramt Sekundarstufe I 33 raw dates
+(4, '08:00', '10:00', 'Vorlesung', 'E1 7, Raum 0.08') N=17 first=2026-10-15 last=2027-02-04
+(1, '10:00', '12:00', 'Vorlesung', 'E1 7, Raum 0.08') N=16 first=2026-10-19 last=2027-02-01
+
+### alsa26 Algorithms for Sequence Analysis 0 raw dates
+
+### ana1_2627 Analysis 1 113 raw dates
+(3, '10:00', '12:00', 'Vorlesung', 'HS I') N=15 first=2026-10-14 last=2027-02-03
+(1, '10:00', '12:00', 'Vorlesung', 'HS I') N=14 first=2026-10-19 last=2027-02-01
+(1, '14:00', '16:00', 'Tutorium 2', 'Seminarraum 6') N=14 first=2026-10-19 last=2027-02-01
+(1, '16:00', '18:00', 'Tutorium 3', 'Seminarraum 6') N=14 first=2026-10-19 last=2027-02-01
+(2, '14:00', '16:00', 'Tutorium 1', 'Seminarraum 10') N=14 first=2026-10-20 last=2027-02-02
+(2, '16:00', '18:00', 'Tutorium 4', 'Seminarraum 3') N=14 first=2026-10-20 last=2027-02-02
+(3, '14:00', '16:00', 'Sondervorlesung: Logik und Beweise', 'HS 1') N=1 first=2026-10-21 last=2026-10-21
+(3, '16:00', '18:00', 'Tutorium 5', 'Seminarraum') N=14 first=2026-10-21 last=2027-02-03
+(3, '14:00', '16:00', 'Saalübung', 'HS 1') N=13 first=2026-10-28 last=2027-02-03
+
+### ana3_2627 Analysis 3 0 raw dates
+
+### aet2026 Artificial Empathic Technology 14 raw dates
+(4, '10:00', '12:00', 'From Social Computing to Artifically Empathic Technology', '') N=1 first=2026-10-22 last=2026-10-22
+(4, '10:00', '12:00', 'Affect, emotion, mood and other related concepts', '') N=1 first=2026-10-29 last=2026-10-29
+(4, '10:00', '12:00', 'Methods I: Thinking like an Experimenter', '') N=1 first=2026-11-05 last=2026-11-05
+(4, '10:00', '12:00', 'Computational Affect + ALMA Explorer (hands-on)', '') N=1 first=2026-11-19 last=2026-11-19
+(4, '10:00', '12:00', 'Interactive Systems + VisualSceneMaker web (hands-on)', '') N=1 first=2026-11-26 last=2026-11-26
+(4, '10:00', '12:00', 'Methods II: Measurement and Running a Study', '') N=1 first=2026-12-03 last=2026-12-03
+(4, '10:00', '12:00', 'KET I: Regulation and the Individual', '') N=1 first=2026-12-17 last=2026-12-17
+(4, '10:00', '12:00', 'Methods III: Data Analysis', '') N=1 first=2027-01-07 last=2027-01-07
+(4, '10:00', '12:00', 'KET II: Relationship and Social Interaction', '') N=1 first=2027-01-14 last=2027-01-14
+(4, '10:00', '12:00', 'KET III: Making Values Computable, and Limits', '') N=1 first=2027-01-21 last=2027-01-21
+(4, '10:00', '12:00', 'Presentation of Student Projects', '') N=2 first=2027-01-28 last=2027-02-04
+
+### ai_2627 Artificial Intelligence 38 raw dates
+(2, '14:15', '16:00', 'About this Course', 'E1 3, Lecture Hall 002') N=1 first=2026-10-13 last=2026-10-13
+(4, '10:15', '12:00', 'Introduction to AI & A Glimpse of the Omitted Areas', 'E1 3, Lecture Hall 002') N=1 first=2026-10-15 last=2026-10-15
+(2, '14:15', '16:00', 'Search I: Blind Search', 'E1 3, Lecture Hall 002') N=1 first=2026-10-20 last=2026-10-20
+(4, '10:15', '12:00', 'Search I: Blind Search & Search II: Heuristic Search', 'E1 3, Lecture Hall 002') N=1 first=2026-10-22 last=2026-10-22
+(2, '14:15', '16:00', 'Search II: Heuristic Search & Search III: Sparse Search', 'E1 3, Lecture Hall 002') N=1 first=2026-10-27 last=2026-10-27
+(4, '10:15', '12:00', 'Search III: Sparse Search', 'E1 3, Lecture Hall 002') N=1 first=2026-10-29 last=2026-10-29
+(2, '14:15', '16:00', 'Symbolic Planning I: Formalisms', 'E1 3, Lecture Hall 002') N=1 first=2026-11-03 last=2026-11-03
+(4, '14:15', '15:45', 'Office Hour', 'E1 1, 3.06') N=12 first=2026-11-05 last=2027-02-04
+(2, '14:15', '16:00', 'Symbolic Planning II: Heuristic Search Basics & Symbolic Planning I', 'E1 3, Lecture Hall 002') N=1 first=2026-11-10 last=2026-11-10
+(4, '10:15', '12:00', 'Symbolic Planning IV: Delete-Relaxation Heuristics', 'E1 3, Lecture Hall 002') N=1 first=2026-11-12 last=2026-11-12
+(2, '14:15', '16:00', 'Symbolic Planning IV: Delete-Relaxation Heuristics', 'E1 3, Lecture Hall 002') N=1 first=2026-11-17 last=2026-11-17
+(2, '14:15', '16:00', 'Symbolic Planning V: Abstractions', 'E1 3, Lecture Hall 002') N=1 first=2026-11-24 last=2026-11-24
+(4, '10:15', '12:00', 'Symbolic Planning V: Abstractions & Symbolic Planning VI: Pattern D', 'E1 3, Lecture Hall 002') N=1 first=2026-11-26 last=2026-11-26
+(2, '14:15', '16:00', 'ML Basics', 'E1 3, Lecture Hall 002') N=1 first=2026-12-01 last=2026-12-01
+(4, '10:15', '12:00', 'ML Basics & Symbolic Planning VII: Learning', 'E1 3, Lecture Hall 002') N=1 first=2026-12-03 last=2026-12-03
+(4, '10:15', '12:00', 'MDPs I: Introduction & Heuristic Search', 'E1 3, Lecture Hall 002') N=1 first=2026-12-10 last=2026-12-10
+(2, '14:15', '16:00', 'MDPs II: Probabilistic Planning & PDBs', 'E1 3, Lecture Hall 002') N=1 first=2026-12-15 last=2026-12-15
+(4, '10:15', '12:00', 'MDPs III: Reinforcement Learning', 'E1 3, Lecture Hall 002') N=1 first=2027-01-07 last=2027-01-07
+(2, '14:15', '16:00', 'MDPs III: Reinforcement Learning & Games I: Search', 'E1 3, Lecture Hall 002') N=1 first=2027-01-12 last=2027-01-12
+(4, '10:15', '12:00', 'Games I: Search', 'E1 3, Lecture Hall 002') N=1 first=2027-01-14 last=2027-01-14
+(2, '14:15', '16:00', 'Games II: Learning', 'E1 3, Lecture Hall 002') N=1 first=2027-01-19 last=2027-01-19
+(4, '10:15', '14:00', 'Trusted AI: Action Policies', 'E1 3, Lecture Hall 002') N=1 first=2027-01-21 last=2027-01-21
+(2, '14:15', '16:00', 'Trusted AI: Action Policies', 'E1 3, Lecture Hall 002') N=1 first=2027-01-26 last=2027-01-26
+(4, '10:15', '12:00', 'Guest Lecture: LLMs in Symbolic Planning', 'E1 3, Lecture Hall 002') N=1 first=2027-01-28 last=2027-01-28
+(2, '14:15', '16:00', 'Exam Preparation', 'E1 3, Lecture Hall 002') N=1 first=2027-02-02 last=2027-02-02
+
+### avcn_2627 Audio-Visual Communication & Networks (WS 2026) 0 raw dates
+
+### graph_seminar26 Back to the Roots: Graph Algorithms for Small Molecules 12 raw dates
+(1, '12:00', '14:00', 'Kick-Off', '') N=1 first=2026-10-19 last=2026-10-19
+(1, '12:00', '14:00', 'Block 1', '') N=3 first=2026-11-16 last=2026-11-30
+(1, '12:00', '14:00', 'Block 2', '') N=3 first=2027-01-11 last=2027-02-01
+
+### bioinf1_26 Bioinformatik 1 69 raw dates
+(2, '14:15', '15:45', 'Vorlesung', '') N=13 first=2026-10-13 last=2027-02-02
+(4, '14:15', '15:45', 'Vorlesung', '') N=13 first=2026-10-15 last=2027-02-04
+(2, '12:15', '13:45', 'Tutorium', '') N=13 first=2026-10-27 last=2027-02-02
+(2, '12:15', '12:30', 'Minitest 1', '') N=1 first=2026-10-27 last=2026-10-27
+(2, '12:15', '12:30', 'Minitest 2', '') N=1 first=2026-11-03 last=2026-11-03
+(2, '12:15', '12:30', 'Minitest 3', '') N=1 first=2026-11-10 last=2026-11-10
+(2, '12:15', '12:30', 'Minitest 4', '') N=1 first=2026-11-17 last=2026-11-17
+(2, '12:15', '12:30', 'Minitest 5', '') N=1 first=2026-11-24 last=2026-11-24
+(2, '12:15', '12:30', 'Minitest 6', '') N=1 first=2026-12-01 last=2026-12-01
+(2, '12:15', '12:30', 'Minitest 7', '') N=1 first=2026-12-08 last=2026-12-08
+(2, '12:15', '12:30', 'Minitest 8', '') N=1 first=2027-01-05 last=2027-01-05
+(2, '12:15', '12:30', 'Minitest 9', '') N=1 first=2027-01-12 last=2027-01-12
+(2, '12:15', '12:30', 'Minitest 10', '') N=1 first=2027-01-19 last=2027-01-19
+(2, '12:15', '12:30', 'Minitest 11', '') N=1 first=2027-01-26 last=2027-01-26
+(2, '12:15', '12:30', 'Minitest 12', '') N=1 first=2027-02-02 last=2027-02-02
+
+### biostatslab26 BioStatsLab 0 raw dates
+
+### latex_2627 Block Course "Introduction to LaTeX" 0 raw dates
+
+### causxai Causal XAI 0 raw dates
+
+### cg_2627 Computer Graphics 94 raw dates
+(4, '08:30', '10:00', 'Intro Lecture', '') N=1 first=2026-10-15 last=2026-10-15
+(1, '10:15', '11:45', 'Ray Tracing 1', '') N=1 first=2026-10-19 last=2026-10-19
+(1, '14:00', '16:00', 'Office Hour (Gino)', 'E1.1 E10') N=1 first=2026-10-19 last=2026-10-19
+(2, '12:00', '14:00', 'Office Hour (Alejandro)', 'E1.1 E10') N=1 first=2026-10-20 last=2026-10-20
+(3, '10:00', '12:00', 'Office Hour (Achyut)', 'E1.1 E10') N=1 first=2026-10-21 last=2026-10-21
+(4, '08:30', '10:00', 'Ray Tracing 2', '') N=1 first=2026-10-22 last=2026-10-22
+(4, '14:00', '16:00', 'Office Hour (Aron)', 'E1.1 E10') N=1 first=2026-10-22 last=2026-10-22
+(5, '12:00', '14:00', 'Office Hour (Natalia)', 'E1.1 E10') N=1 first=2026-10-23 last=2026-10-23
+(1, '14:00', '16:00', 'Office Hour', 'E1.1 E10') N=13 first=2026-10-26 last=2027-02-01
+(2, '12:00', '14:00', 'Office Hour', 'E1.1 E10') N=13 first=2026-10-27 last=2027-02-02
+(3, '10:00', '12:00', 'Office Hour', 'E1.1 E10') N=13 first=2026-10-28 last=2027-02-03
+(4, '14:00', '16:00', 'Office Hour', 'E1.1 E10') N=13 first=2026-10-29 last=2027-02-04
+(5, '12:00', '14:00', 'Office Hour', 'E1.1 E10') N=13 first=2026-10-30 last=2027-02-05
+(1, '10:15', '11:45', 'Lights & Shading 1', '') N=1 first=2026-11-02 last=2026-11-02
+(4, '08:30', '10:00', 'Lights & Shading 2', '') N=1 first=2026-11-05 last=2026-11-05
+(1, '10:15', '11:45', 'Materials 1', '') N=1 first=2026-11-16 last=2026-11-16
+(4, '08:30', '10:00', 'Materials 2', '') N=1 first=2026-11-19 last=2026-11-19
+(1, '10:15', '11:45', 'Rendering Competition', '') N=1 first=2026-11-30 last=2026-11-30
+(4, '08:30', '10:00', 'Volumes', '') N=1 first=2026-12-03 last=2026-12-03
+(1, '10:15', '11:45', 'Color', '') N=1 first=2026-12-07 last=2026-12-07
+(1, '10:15', '11:45', 'Splines & Subdivision Surfaces', '') N=1 first=2027-01-04 last=2027-01-04
+(4, '08:30', '10:00', 'Rasterization', '') N=1 first=2027-01-07 last=2027-01-07
+(1, '10:15', '11:45', 'GPU Programming', '') N=1 first=2027-01-18 last=2027-01-18
+(4, '08:30', '10:00', 'Shadow Algorithms', '') N=1 first=2027-01-21 last=2027-01-21
+(1, '10:15', '11:45', 'Town Hall', '') N=1 first=2027-02-01 last=2027-02-01
+(4, '08:30', '10:00', 'Rendering Competition Results', '') N=1 first=2027-02-04 last=2027-02-04
+
+### cla Continually Learning Agents 0 raw dates
+
+### das_26 Data and Society 0 raw dates
+
+### dbsys2627 Database Systems 84 raw dates
+(3, '10:15', '12:00', 'Lecture: Introduction and Administrative Regulations', 'E1 3, HS II') N=1 first=2026-10-14 last=2026-10-14
+(5, '10:15', '12:00', 'Recap Lab', 'E1 3, HS II') N=1 first=2026-10-16 last=2026-10-16
+(3, '10:15', '12:00', 'Lecture: MVCC', 'E1 3, HS II') N=1 first=2026-10-21 last=2026-10-21
+(5, '10:15', '12:00', 'Lecture: MVCC', 'E1 3, HS II') N=1 first=2026-10-23 last=2026-10-23
+(1, '12:15', '14:00', 'Tutorial 1', 'E1 3, HS002') N=13 first=2026-10-26 last=2027-02-01
+(1, '12:15', '14:00', 'Tutorial 2', 'E1 3, HS003') N=13 first=2026-10-26 last=2027-02-01
+(1, '14:15', '16:00', 'Tutorial 4', 'E1 3, HS003') N=13 first=2026-10-26 last=2027-02-01
+(1, '14:15', '16:00', 'Tutorial 3', 'E1 3, HS002') N=13 first=2026-10-26 last=2027-02-01
+(3, '10:15', '12:00', 'Lecture: Elasticity', 'E1 3, HS II') N=1 first=2026-10-28 last=2026-10-28
+(5, '10:15', '12:00', 'Lecture: Database Architecture', 'E1 3, HS II') N=1 first=2026-10-30 last=2026-10-30
+(3, '10:15', '12:00', 'Lecture', 'E1 3, HS II') N=12 first=2026-11-04 last=2027-02-03
+(5, '10:15', '12:00', 'Lecture', 'E1 3, HS II') N=11 first=2026-11-06 last=2027-02-05
+(5, '10:00', '12:00', 'Midterm', '') N=1 first=2026-12-11 last=2026-12-11
+
+### dic_26 Differential Equations in Image Processing and Computer Vision 0 raw dates
+
+### dtsp_2627 Digital Transmission & Signal Processing (WS 2026) 0 raw dates
+
+### i2cl_2627 Einführung in die Computerlinguistik 33 raw dates
+(3, '10:15', '11:45', 'Einführungsveranstaltung', 'Gebäude C7 2 - Seminarraum -1.05') N=1 first=2026-10-14 last=2026-10-14
+(3, '10:30', '11:45', 'Hilfe bei der Installation', 'Gebäude C7 2 - Seminarraum -1.05') N=1 first=2026-10-14 last=2026-10-14
+(2, '10:15', '11:45', 'Vorlesung', 'Gebäude E1 3 - Hörsaal III (0.03.1)') N=14 first=2026-10-20 last=2027-01-19
+(4, '10:15', '11:45', 'Hilfe bei der Installation', 'Gebäude C7 2 - Seminarraum -1.05') N=1 first=2026-10-22 last=2026-10-22
+(4, '10:15', '11:45', 'Freiwillige Übung', 'Gebäude C7 2 - Seminarraum -1.05') N=13 first=2026-10-29 last=2027-01-21
+(2, '10:15', '11:45', 'Fragestunde', 'Gebäude E1 3 - Hörsaal III (0.03.1)') N=1 first=2027-01-26 last=2027-01-26
+(4, '10:15', '11:45', 'Fragestunde', 'Gebäude C7 2 - Seminarraum -1.05') N=1 first=2027-01-28 last=2027-01-28
+(2, '08:00', '10:00', 'Klausur (1. Termin)', 'Gebäude E2 2 - Hörsaal 0.01 (Günter-Hotz-Hörsaal)') N=1 first=2027-02-02 last=2027-02-02
+
+### enum26 Einführung in die Numerik 0 raw dates
+
+### edsai26 Elements of Data Science and Artificial Intelligence 111 raw dates
+(4, '12:00', '14:00', 'Lecture', 'E1.3 HS002') N=14 first=2026-10-15 last=2027-01-28
+(1, '10:00', '12:00', 'Lecture', 'E1.3 HS002') N=14 first=2026-10-19 last=2027-02-01
+(1, '12:00', '14:00', 'Tutorial 1', 'E1.3 013') N=14 first=2026-10-19 last=2027-02-01
+(2, '08:00', '10:00', 'Tutorial 2', 'E1.3 015') N=14 first=2026-10-20 last=2027-02-02
+(2, '16:00', '18:00', 'Tutorial 4', 'E1.3 015') N=14 first=2026-10-20 last=2027-02-02
+(3, '08:00', '10:00', 'Tutorial 3', '') N=14 first=2026-10-21 last=2027-02-03
+(4, '12:00', '12:15', 'Minitest I', 'E1.3 HS002') N=1 first=2026-11-12 last=2026-11-12
+(4, '12:00', '12:15', 'Minitest II', 'E1.3 HS002') N=1 first=2026-12-10 last=2026-12-10
+(4, '12:00', '12:15', 'Minitest III', '') N=1 first=2027-01-14 last=2027-01-14
+(4, '12:00', '14:00', 'Q&A', 'E1.3 HS002') N=1 first=2027-02-04 last=2027-02-04
+(4, '12:00', '12:15', 'Minitest IV', 'E1.3 HS002') N=1 first=2027-02-04 last=2027-02-04
+
+### emlw26 Elements of Machine Learning 0 raw dates
+
+### emse_26 Empirical Software Engineering Research 43 raw dates
+(1, '10:00', '11:30', 'Upload Lecture: Introduction to Empirical Software Engineering', '') N=1 first=2026-10-12 last=2026-10-12
+(1, '10:00', '11:30', 'Upload Lecture: Controlled Experiments', '') N=1 first=2026-10-19 last=2026-10-19
+(4, '08:30', '10:00', 'Q and A Session: Organizational Matters & Introduction', 'https://cs-uni-saarland-de.zoom.us/j/88914198859?pwd=EsjSUW2OsO9pA') N=1 first=2026-10-22 last=2026-10-22
+(1, '10:00', '11:30', 'Upload Guest Lecture: How To Literature Search (Dr. Marvin Wyrich)', '') N=1 first=2026-10-26 last=2026-10-26
+(4, '08:30', '10:00', 'Q and A Session: Controlled Experiments', 'https://cs-uni-saarland-de.zoom.us/j/88914198859?pwd=EsjSUW2OsO9pA') N=1 first=2026-10-29 last=2026-10-29
+(1, '10:00', '11:30', 'Upload Lecture: Experiment Quality', '') N=1 first=2026-11-02 last=2026-11-02
+(1, '10:01', '11:30', "Upload 'Guest' Lecture: Neuroimaging Studies on Program Comprehensi", '') N=1 first=2026-11-02 last=2026-11-02
+(1, '10:00', '11:30', 'Upload Lecture: Experiment Design', '') N=1 first=2026-11-09 last=2026-11-09
+(4, '08:30', '10:00', 'Q and A Session: Experiment Quality', 'https://cs-uni-saarland-de.zoom.us/j/88914198859?pwd=EsjSUW2OsO9pA') N=1 first=2026-11-12 last=2026-11-12
+(1, '10:00', '11:30', 'Upload Lecture: Data & Measures', '') N=1 first=2026-11-16 last=2026-11-16
+(4, '08:30', '10:00', 'Q and A Session: Experiment Design', 'https://cs-uni-saarland-de.zoom.us/j/88914198859?pwd=EsjSUW2OsO9pA') N=1 first=2026-11-19 last=2026-11-19
+(1, '10:00', '11:30', 'Upload Lecture: Data Analysis', '') N=1 first=2026-11-23 last=2026-11-23
+(4, '08:30', '10:00', 'Q and A Session: Data & Measures', 'https://cs-uni-saarland-de.zoom.us/j/88914198859?pwd=EsjSUW2OsO9pA') N=1 first=2026-11-26 last=2026-11-26
+(1, '10:00', '11:30', 'Upload Lecture: Experiment Conduct', '') N=1 first=2026-11-30 last=2026-11-30
+(1, '10:01', '11:30', 'Upload Guest Lecture: Mining Software Repositories of Evolving Open', '') N=1 first=2026-11-30 last=2026-11-30
+(4, '08:30', '10:00', 'Q and A Session: Data Analysis', 'https://cs-uni-saarland-de.zoom.us/j/88914198859?pwd=EsjSUW2OsO9pA') N=1 first=2026-12-03 last=2026-12-03
+(1, '10:00', '11:30', 'Upload Lecture: Qualitative Studies', '') N=1 first=2026-12-07 last=2026-12-07
+(4, '08:30', '10:00', 'Q and A Session: Experiment Conduct', 'https://cs-uni-saarland-de.zoom.us/j/88914198859?pwd=EsjSUW2OsO9pA') N=1 first=2026-12-10 last=2026-12-10
+(1, '10:00', '11:30', 'Upload Lecture: Report Writing', '') N=1 first=2026-12-14 last=2026-12-14
+(1, '10:01', '11:30', 'Upload Guest Lecture: Reasoning about Software Performance (Lukas A', '') N=1 first=2026-12-14 last=2026-12-14
+(4, '08:30', '10:00', 'Q and A Session: Qualitative Studies', 'https://cs-uni-saarland-de.zoom.us/j/88914198859?pwd=EsjSUW2OsO9pA') N=1 first=2026-12-17 last=2026-12-17
+(1, '10:00', '11:30', 'Upload Lecture: Secondary Studies', '') N=1 first=2027-01-04 last=2027-01-04
+(4, '08:30', '10:00', 'Q and A Session: Report Writing', 'https://cs-uni-saarland-de.zoom.us/j/88914198859?pwd=EsjSUW2OsO9pA') N=1 first=2027-01-07 last=2027-01-07
+(1, '10:00', '11:30', 'Upload Lectures: Replication & Open Science', '') N=1 first=2027-01-11 last=2027-01-11
+(4, '08:30', '10:00', 'Q and A Session: Secondary Studies', 'https://cs-uni-saarland-de.zoom.us/j/88914198859?pwd=EsjSUW2OsO9pA') N=1 first=2027-01-14 last=2027-01-14
+(1, '10:00', '11:30', 'Upload Lecture: Ethics', '') N=1 first=2027-01-18 last=2027-01-18
+(4, '08:30', '10:00', 'Q and A Session: Replication & Open Science', 'https://cs-uni-saarland-de.zoom.us/j/88914198859?pwd=EsjSUW2OsO9pA') N=1 first=2027-01-21 last=2027-01-21
+(4, '08:30', '10:00', 'Q and A Session: Ethics & Exam', 'https://cs-uni-saarland-de.zoom.us/j/88914198859?pwd=EsjSUW2OsO9pA') N=1 first=2027-01-28 last=2027-01-28
+
+### exml_2627 Explainable Machine Learning 0 raw dates
+
+### fof_math_ws2627 Foundations of Mathematics 0 raw dates
+
+### funcspaces26 Funktionenräume mit Anwendungen 0 raw dates
+
+### gdmi_2627 Grundlagen der Medieninformatik 82 raw dates
+(3, '12:15', '13:45', 'Vorlesung', 'DFKI, Reuse') N=10 first=2026-10-14 last=2027-01-20
+(3, '12:15', '13:45', 'Praxisvortrag - CIX & UMTL', 'D3.2 - DFKI - Reuse') N=1 first=2026-10-21 last=2026-10-21
+(4, '14:15', '15:45', 'Praxisvortrag - HCI Lab & LaLa Lab', 'D3.2 - DFKI - Reuse') N=1 first=2026-10-22 last=2026-10-22
+(4, '14:15', '15:45', 'Vorlesung', 'DFKI, Reuse') N=8 first=2026-10-29 last=2027-01-21
+(1, '10:00', '12:00', 'Tutorium 1', 'E1.1 SR 106') N=12 first=2026-11-02 last=2027-02-01
+(1, '12:00', '14:00', 'Tutorium 2', 'E1.1 SR 106') N=12 first=2026-11-02 last=2027-02-01
+(1, '14:00', '16:00', 'Tutorium 3', 'E1.1 SR 106') N=12 first=2026-11-02 last=2027-02-01
+(4, '13:00', '14:00', 'Office-Hour', 'Lehrstuhl UMTL (im DFKI, D3.4, Etage +1)') N=11 first=2026-11-05 last=2027-01-28
+(3, '12:15', '13:45', 'Vorlesung', 'E 1.3 - HS002') N=2 first=2026-11-11 last=2026-12-16
+(4, '14:15', '15:45', 'Praxisvortrag - Dokumentendigitialisierung', 'D3.2 - DFKI - Reuse') N=1 first=2026-11-12 last=2026-11-12
+(4, '14:15', '14:30', 'Mini-Test', 'E1.3 Hörsaal 2') N=5 first=2026-11-12 last=2027-01-21
+(4, '14:15', '15:45', 'Vorlesung - JONGLIEREN', 'E 1.3 - HS002') N=1 first=2026-12-17 last=2026-12-17
+(3, '12:00', '14:00', 'Klausur', 'E1.3 Hörsaal 2') N=1 first=2027-02-03 last=2027-02-03
+
+### gsv_ws2627 Grundlagen der Signalverarbeitung 0 raw dates
+
+### gis_2627 Grundlagen von Informatiksystemen 17 raw dates
+(4, '10:00', '12:00', 'Vorlesung', 'E1 7, Raum 0.08') N=17 first=2026-10-15 last=2027-02-04
+
+### hfs_2627 Hilbert Function Spaces 0 raw dates
+
+### hmi32627 Höhere Mathematik für Ingenieure III 0 raw dates
+
+### hci_2627 Human Computer Interaction 146 raw dates
+(2, '10:15', '12:00', 'Lecture', 'Building E1 3 – Lecture Hall II (0.02.1)') N=10 first=2026-10-13 last=2027-01-19
+(3, '14:15', '16:00', 'Lecture', 'Building E1 3 – Lecture Hall II (0.02.1)') N=11 first=2026-10-14 last=2027-01-20
+(4, '10:00', '12:00', 'Tutorial #1 (Divya)', 'E1.1, SR206') N=12 first=2026-10-29 last=2027-01-28
+(4, '12:00', '14:00', 'Tutorial #2 (Sriram)', 'E1.1, SR206') N=12 first=2026-10-29 last=2027-01-28
+(4, '14:00', '16:00', 'Tutorial #3 (Aiza)', 'E1.1, SR206') N=12 first=2026-10-29 last=2027-01-28
+(4, '16:00', '18:00', 'Tutorial #4 (Shehryar)', 'E1.1, SR206') N=12 first=2026-10-29 last=2027-01-28
+(5, '10:00', '12:00', 'Tutorial #6 (Kevin)', 'E1.3, SR013') N=12 first=2026-10-30 last=2027-01-29
+(5, '10:00', '12:00', 'Tutorial #5 (Gülin)', 'E1.1, SR206') N=12 first=2026-10-30 last=2027-01-29
+(5, '12:00', '14:00', 'Tutorial #7 (Luis)', 'E1.1, SR206') N=12 first=2026-10-30 last=2027-01-29
+(5, '14:00', '16:00', 'Tutorial #8 (Rafqa)', 'E1.1, SR206') N=12 first=2026-10-30 last=2027-01-29
+(5, '14:00', '16:00', 'Tutorial #9 (Pardis)', 'E1.3, SR013') N=12 first=2026-10-30 last=2027-01-29
+(2, '10:15', '12:00', 'Lab Tour', 'Building E1 7 – Second Floor (HCI Lab)') N=1 first=2027-02-02 last=2027-02-02
+(3, '14:15', '16:00', 'Office Hour (Q&A)', 'Building E1 3 – Lecture Hall II (0.02.1)') N=1 first=2027-02-03 last=2027-02-03
+
+### idi_26 Ideen der Informatik 16 raw dates
+(5, '08:00', '10:00', 'Lecture', 'E1.7 Room 301, alternatively via Teams') N=15 first=2026-10-16 last=2027-02-05
+
+### iam26 Image Acquisition Methods 1 raw dates
+
+### probing_2627 Interpreting and Analyzing Neural Language Models 0 raw dates
+
+### introalgdat2627 Introduction to Algorithms and Data Structures 17 raw dates
+(2, '12:00', '14:00', 'Lecture', 'GHH E2.2') N=17 first=2026-10-13 last=2027-02-02
+
+### ti2627 Introduction to Theoretical Computer Science 72 raw dates
+(3, '14:15', '16:00', 'Lecture', 'E2.2 Günter-Hotz-Hörsaal') N=15 first=2026-10-14 last=2027-02-03
+(5, '08:30', '10:00', 'Lecture', 'E2.2 Günter-Hotz-Hörsaal') N=15 first=2026-10-16 last=2027-02-05
+(2, '14:15', '16:00', 'Office Hour', 'E1.7 0.01') N=14 first=2026-10-20 last=2027-02-02
+(4, '14:15', '16:00', 'Office Hour', 'E1.7 0.01') N=14 first=2026-10-22 last=2027-02-04
+
+### llm4ps Large Language Models for Physical Systems 43 raw dates
+(5, '14:00', '16:00', 'Lecture - LLMs for Physical Systems', 'Building C6 4 (ground floor of the tall MatSci building), lecture') N=15 first=2026-10-16 last=2027-02-05
+(3, '12:00', '14:00', 'Exercise - LLMs for Physical Systems', 'Building A5.1, SR 3.19') N=14 first=2026-10-21 last=2027-02-03
+(4, '12:00', '14:00', 'Exercise - LLMs for Physical Systems', 'Building C6 4 (ground floor of the tall MatSci building), lecture') N=14 first=2026-10-22 last=2027-02-04
+
+### life_w26 Life Insurance Mathematics 0 raw dates
+
+### la12627 Lineare Algebra 1 0 raw dates
+
+### qit1_26 Mathematical Foundations of Quantum Information 38 raw dates
+(2, '14:15', '15:45', 'Lecture', '') N=15 first=2026-10-13 last=2027-02-02
+(4, '14:15', '15:45', 'Lecture', '') N=15 first=2026-10-15 last=2027-02-04
+
+### mfi1_mfcs1_wise2627 Mathematics for Computer Scientists I 279 raw dates
+(3, '10:15', '11:45', 'Lecture', 'Günter-Hotz Lecture Theatre, building E2 2') N=15 first=2026-10-14 last=2027-02-03
+(5, '10:15', '11:45', 'Lecture', 'Günter-Hotz Lecture Theatre, building E2 2') N=15 first=2026-10-16 last=2027-02-05
+(1, '10:00', '11:00', 'Office Hour Mohamed Akram Hlali', 'SR 3 (U.11), E2 5') N=14 first=2026-10-19 last=2027-02-01
+(2, '12:00', '13:00', 'Sprechstunde Jannis Collmann', 'Workroom U008, E2 4') N=1 first=2026-10-20 last=2026-10-20
+(2, '13:00', '14:00', 'Sprechstunde Alice Fanny Wimmer', 'Workroom U008, E2 4') N=1 first=2026-10-20 last=2026-10-20
+(2, '15:00', '16:00', 'Office Hour Alan Lopez', 'Workroom U008, E2 4') N=1 first=2026-10-20 last=2026-10-20
+(2, '16:00', '17:00', 'Sprechstunde Omar Jamali', 'Workroom U008, E2 4') N=1 first=2026-10-20 last=2026-10-20
+(3, '18:00', '19:00', 'Office Hour Kobylandy Urastayev', 'SR 1 (U.37), E2 5') N=14 first=2026-10-21 last=2027-02-03
+(4, '09:00', '10:00', 'Office Hour Yelyzaveta Tryfonova', 'SR 4 (U.16) , E2 5') N=14 first=2026-10-22 last=2027-02-04
+(4, '12:00', '13:00', 'Sprechstunde Sebastian Schneider', 'SR 2 (U.36), E2 5') N=14 first=2026-10-22 last=2027-02-04
+(4, '13:00', '14:00', 'Office Hour Mahmoud Elnezely', 'SR 2 (U.36), E2 5') N=14 first=2026-10-22 last=2027-02-04
+(4, '14:00', '15:00', 'Sprechstunde Salem Issa', 'SR 1 (U.37), E2 5') N=14 first=2026-10-22 last=2027-02-04
+(4, '15:00', '16:00', 'Office Hour Philip Aji', 'SR 1 (U.37), E2 5') N=14 first=2026-10-22 last=2027-02-04
+(4, '18:00', '19:00', 'Office Hour Muhammad Saad', 'SR 1 (U.37), E2 5') N=14 first=2026-10-22 last=2027-02-04
+(5, '12:00', '13:00', 'Sprechstunde Yunus Kananizadeh', 'SR 4 (U.16) , E2 5') N=14 first=2026-10-23 last=2027-02-05
+(5, '14:15', '15:45', 'erweiterte deutschsprachige Sprechstunde', 'Hörsaal III, Gebäude E2 5') N=13 first=2026-10-23 last=2027-02-05
+(5, '16:00', '17:00', 'Sprechstunde Cag Öztopal', 'SR 4 (U.16) , E2 5') N=14 first=2026-10-23 last=2027-02-05
+(2, '12:00', '13:00', 'Sprechstunde Jannis Collmann', 'Workroom 317/318, E2 4') N=13 first=2026-10-27 last=2027-02-02
+(2, '13:00', '14:00', 'Sprechstunde Alice Fanny Wimmer', 'Workroom 317/318, E2 4') N=13 first=2026-10-27 last=2027-02-02
+(2, '15:00', '16:00', 'Office Hour Alan Lopez', 'Workroom 317/318, E2 4') N=13 first=2026-10-27 last=2027-02-02
+(2, '16:00', '17:00', 'Sprechstunde Omar Jamali', 'Workroom 317/318, E2 4') N=13 first=2026-10-27 last=2027-02-02
+
+### mfcs3_wise2627 Mathematics for Computer Scientists III 4 raw dates
+(5, '14:15', '15:00', 'Minitest I (Exercise Sheet 3, on-site)', '') N=1 first=2026-11-06 last=2026-11-06
+(5, '14:15', '15:00', 'Minitest II (Exercise Sheet 6, on-site)', '') N=1 first=2026-11-27 last=2026-11-27
+(5, '14:15', '15:00', 'Minitest III (Exercise Sheet 9, on-site)', '') N=1 first=2026-12-18 last=2026-12-18
+(5, '14:15', '15:00', 'Minitest IV (Exercise Sheet 13, on-site)', '') N=1 first=2027-01-29 last=2027-01-29
+
+### math_bio_chem_la26 Mathematik für Biologen und Chemiker (Lehramt) 0 raw dates
+
+### mfn_i Mathematik für Naturwissenschaftler I 0 raw dates
+
+### natcomp Natural Computing and Algorithms 0 raw dates
+
+### nnia_2627 Neural Networks: Implementation and Application (CoLI/LST students only!!!!) 0 raw dates
+
+### nnti_2627 Neural Networks: Theory and Implementation 0 raw dates
+
+### ot_26 Optimal Transport 0 raw dates
+
+### oscar OSCAR-Kurs 0 raw dates
+
+### perspectives2627 Perspectives of Computer Science (WS 2026) 0 raw dates
+
+### prog1_26 Programming 1 113 raw dates
+(1, '08:30', '10:00', 'Lecture', 'E2 2 - GHH') N=13 first=2026-10-19 last=2027-02-01
+(4, '10:15', '12:00', 'Lecture', 'E2 2 - GHH') N=13 first=2026-10-22 last=2027-02-04
+(4, '14:15', '15:45', 'Office Hour', 'E1 3 SR 016') N=14 first=2026-10-22 last=2027-02-04
+(5, '14:15', '15:45', 'Office Hour', 'E1 3 SR 016') N=14 first=2026-10-23 last=2027-02-05
+(1, '10:30', '11:45', 'Office Hour', 'E1 3 SR 016') N=13 first=2026-10-26 last=2027-02-01
+(2, '10:00', '12:00', 'Tutorial', 'See personal status page') N=13 first=2026-10-27 last=2027-02-02
+(2, '12:00', '14:00', 'Tutorial', 'See personal status page') N=13 first=2026-10-27 last=2027-02-02
+(2, '14:00', '16:00', 'Tutorial', 'See personal status page') N=13 first=2026-10-27 last=2027-02-02
+(5, '13:59', '17:00', 'Midterm', 'See personal status page') N=1 first=2026-12-11 last=2026-12-11
+(5, '13:59', '17:00', 'Midterm Retake', 'See personal status page') N=1 first=2027-01-08 last=2027-01-08
+(1, '08:30', '10:00', 'TBA', 'E2 2 - GHH') N=1 first=2027-01-11 last=2027-01-11
+(4, '10:15', '12:00', 'TBA', 'E2 2 - GHH') N=1 first=2027-01-14 last=2027-01-14
+
+### inteq (Pro-)Seminar: Integralgleichungen 12 raw dates
+(1, '12:15', '13:15', 'Die Abelsche Integralgleichung', 'SR 6, E2 4') N=1 first=2026-12-07 last=2026-12-07
+(1, '12:15', '13:15', 'Fredholmgleichungen erster Art und inverse Probleme', 'SR 6, E2 4') N=1 first=2026-12-14 last=2026-12-14
+(1, '12:15', '13:15', 'Tikhonov-Regularisierung', 'SR 6, E2 4') N=1 first=2027-01-11 last=2027-01-11
+(1, '12:15', '13:15', 'Integralgleichungen in der Potentialtheorie', 'SR 6, E2 4') N=1 first=2027-01-18 last=2027-01-18
+
+### rmqi_2627 Random Matrices and Applications in Quantum Information 0 raw dates
+
+### srl26 Representation Learning: Foundations and Challenges 0 raw dates
+
+### komb26 Seminar Kombinatorik 0 raw dates
+
+### matfunc26 Seminar: Matrixfunktionen 0 raw dates
+
+### underwater_2627 (Seminar) Real-Time Control of Underwater Robots 0 raw dates
+
+### taip2627 Seminar: Trusted AI Planning 0 raw dates
+
+### sem_agents_ak_w26 Seminar - Who does the science in the age of agents? 14 raw dates
+(3, '10:00', '12:00', 'Kick-off event', '') N=1 first=2026-10-21 last=2026-10-21
+(3, '10:00', '12:00', 'Presentation', '') N=12 first=2026-11-04 last=2027-02-03
+
+### semstoch Seminar zur Stochastik 9 raw dates
+(4, '10:00', '12:00', 'Vortrag Raphael Ihme', 'Seminarraum 6 (E2 4)') N=1 first=2026-11-26 last=2026-11-26
+(4, '10:00', '12:00', 'Vortrag Dennis Bernhard', 'Seminarraum 6 (E2 4)') N=1 first=2026-12-03 last=2026-12-03
+(4, '10:00', '12:00', 'Vortrag Khaled Alekasir', 'Seminarraum 6 (E2 4)') N=1 first=2026-12-10 last=2026-12-10
+(4, '10:00', '11:00', 'Vortrag Yann Fahs', 'Seminarraum 6 (E2 4)') N=1 first=2026-12-17 last=2026-12-17
+(4, '10:00', '12:00', 'Vortrag Jan Bernhard', 'Seminarraum 6 (E2 4)') N=1 first=2027-01-07 last=2027-01-07
+(4, '10:00', '12:00', 'Vortrag Leon Quirin', 'Seminarraum 6 (E2 4)') N=1 first=2027-01-14 last=2027-01-14
+(4, '10:00', '12:00', 'Vortrag Letizia Maciol', 'Seminarraum 6 (E2 4)') N=1 first=2027-01-21 last=2027-01-21
+(4, '10:00', '12:00', 'Vortrag Tim Herzog', 'Seminarraum 6 (E2 4)') N=1 first=2027-01-28 last=2027-01-28
+(4, '10:00', '12:00', 'Vortrag Simon Flohr', 'Seminarraum 6 (E2 4)') N=1 first=2027-02-04 last=2027-02-04
+
+### se_2627 Software Engineering 34 raw dates
+(2, '12:15', '13:45', 'Lecture', '') N=9 first=2026-10-20 last=2026-12-15
+(1, '08:30', '10:00', 'Lecture', '') N=8 first=2026-10-26 last=2026-12-14
+(4, '14:15', '15:45', 'Tutorial', 'E1.1 SR 106') N=8 first=2026-10-29 last=2026-12-17
+(5, '14:15', '15:45', 'Tutorial', 'E1.1 SR 106') N=8 first=2026-10-30 last=2026-12-18
+
+### statdc26 Statistical Data Compression 51 raw dates
+(3, '14:00', '16:00', 'Lecture', 'HS2 E2.5') N=12 first=2026-10-14 last=2027-01-20
+(3, '15:00', '16:00', 'Tutorial', 'HS2 E2.5') N=13 first=2026-10-14 last=2027-01-27
+(4, '14:00', '16:00', 'Lecture', 'HS2 E2.5') N=11 first=2026-10-15 last=2027-01-21
+(4, '15:00', '16:00', 'Tutorial', 'HS2 E2.5') N=11 first=2026-10-15 last=2027-01-21
+(4, '14:00', '16:00', 'Tutorial', 'HS2 E2.5') N=2 first=2026-11-19 last=2027-01-28
+(3, '14:00', '17:00', 'Midterm Exam', '') N=1 first=2026-11-25 last=2026-11-25
+(3, '14:00', '15:00', 'Lecture', 'HS2 E2.5') N=1 first=2027-01-27 last=2027-01-27
+
+### statr_2627 Statistics with R 121 raw dates
+(2, '08:30', '10:00', 'Lecture', 'Geb. E2 2 - Hörsaal 0.01 (Günter-Hotz-Hörsaal)') N=16 first=2026-10-20 last=2027-02-02
+(4, '08:30', '10:00', 'Tutorial 2', 'SR014') N=15 first=2026-10-22 last=2027-01-28
+(4, '08:30', '10:00', 'Tutorial 1', 'SR016') N=15 first=2026-10-22 last=2027-01-28
+(4, '10:15', '11:45', 'Tutorial 4', 'SR014') N=15 first=2026-10-22 last=2027-01-28
+(4, '10:15', '11:45', 'Tutorial 3', 'SR016') N=15 first=2026-10-22 last=2027-01-28
+(4, '12:15', '13:45', 'Tutorial 5', 'SR016') N=15 first=2026-10-22 last=2027-01-28
+(5, '10:15', '11:45', 'Tutorial 7', 'SR014') N=15 first=2026-10-23 last=2027-01-29
+(5, '10:15', '11:45', 'Tutorial 6', 'SR016') N=15 first=2026-10-23 last=2027-01-29
+
+### stoch2 Stochastics II 0 raw dates
+
+### structbioinf Structural Bioinformatics 0 raw dates
+
+### theory_2627 Theoretical Abilities and Limitations of Language Models 0 raw dates
+
+### tds2627 Tutor Didactics Seminar 0 raw dates
+
+### vgm Visual Generative Models 0 raw dates

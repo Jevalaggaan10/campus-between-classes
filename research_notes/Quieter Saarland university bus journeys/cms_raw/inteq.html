@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="de" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Hauptseite	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="4231d285cf1947148cfee86aa34b2ec9a0b05a05@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Sic/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Sic/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Sic/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Sic/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Sic/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/inteq/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/inteq/../system" class="navbar-brand">Kurse</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/inteq/">Hauptseite</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Informationen</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/inteq/termine/calendar/index">Termine</a></li><li><a class="dropdown-item" href="/inteq/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/inteq/students/register">Anmeldung</a></li><li class="nav-item"><a class="nav-link" href="/inteq/landing">Persönliche Statusseite</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/inteq/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="a26aa226ad42156d5b798aed9624515ae99b6d16c7936ff058ef4b79f2fd5e98404b85b7bb7403502db904cac73e832af9db4b4dba245582b7494b44ed53f5ab" id="Token291112075" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Benutzername" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Passwort" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Angemeldet bleiben</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.sic.saarland/inteq/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="52b6d980fbdd83fe16edeeb1f86d1c1a845c452c%3AUser.redirect" id="TokenFields1143417634" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked153733274" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/inteq/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registrierung</a>        </li>
+        <li>
+            <a href="/inteq/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Passwort vergessen?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Dunklen Modus aktivieren            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Hellen Modus aktivieren            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/inteq/../system" class="site-logo" title="Front Page"><img src="/system/theme/Sic/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					(Pro-)Seminar: Integralgleichungen				</h1>
+				<div>
+				<small class="text-muted">
+					Thomas Schuster				</small>
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	
+<table class="table">
+	<colgroup>
+				<col span="1" style="width: auto;" />
+	</colgroup>
+	<tbody>
+	<tr>						<td class="align-top">
+				<a id="newsElement2"></a>
+				<h4 class="fs-5"><a href="/inteq/news/view/2">Vortragsthemen und Termine</a></h4>				<p>
+					<small class="text-muted"><i>
+						Geschrieben am <span data-bs-toggle="tooltip" data-bs-title="15.10.2026 15:52:08">15.10.26</span>						(letzte Änderung am <span data-bs-toggle="tooltip" data-bs-title="21.10.2026 10:09:47">21.10.26</span>)						von Lukas Vierus					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse2">
+					<p>Hallo zusammen,</p>
+
+<p>ich habe euch allen ein Vortragsthema zugeteilt. Unter&nbsp;<strong>Informationen &gt; Termine</strong>&nbsp;k&ouml;nnt ihr auch nochmal alle Termine einsehen. Bitte denkt daran, dass wir in den ersten <strong>4 Sitzungen jeweils 2 Vortr&auml;ge</strong> h&ouml;ren und deshalb bereits um <strong>12:00 Uhr s.t.</strong> beginnen.</p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="height:651px; width:657px">
+	<tbody>
+		<tr>
+			<td style="text-align:center"><strong>Datum</strong></td>
+			<td style="text-align:center"><strong>&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse2" href="#newsElement2">Weiterlesen</a></strong></td></tr></tbody></table>				</div>
+				<div class="collapse newsCollapse2">
+					<p>Hallo zusammen,</p>
+
+<p>ich habe euch allen ein Vortragsthema zugeteilt. Unter&nbsp;<strong>Informationen &gt; Termine</strong>&nbsp;k&ouml;nnt ihr auch nochmal alle Termine einsehen. Bitte denkt daran, dass wir in den ersten <strong>4 Sitzungen jeweils 2 Vortr&auml;ge</strong> h&ouml;ren und deshalb bereits um <strong>12:00 Uhr s.t.</strong> beginnen.</p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="height:651px; width:657px">
+	<tbody>
+		<tr>
+			<td style="text-align:center"><strong>Datum</strong></td>
+			<td style="text-align:center"><strong>Uhrzeit</strong></td>
+			<td style="text-align:center"><strong>Titel</strong></td>
+			<td style="text-align:center"><strong>Name</strong></td>
+		</tr>
+		<tr>
+			<td style="text-align:center">&nbsp;02.11.2026&nbsp;</td>
+			<td style="text-align:center">&nbsp;12:00-12:45&nbsp;Uhr&nbsp;</td>
+			<td>
+			<p style="text-align:center">Einf&uuml;hrung in Integralgleichungen und ihre Klassifikation</p>
+			</td>
+			<td style="text-align:center">Adrian Jose</td>
+		</tr>
+		<tr>
+			<td style="text-align:center">02.11.2026</td>
+			<td style="text-align:center">13:00-13:45 Uhr</td>
+			<td>
+			<p style="text-align:center">Funktionalanalysis und numerische Grundlagen</p>
+			</td>
+			<td style="text-align:center">Benjamin Barleben</td>
+		</tr>
+		<tr>
+			<td style="text-align:center">09.11.2026</td>
+			<td style="text-align:center">12:00-12:45 Uhr</td>
+			<td>
+			<p style="text-align:center">Volterra-Gleichungen</p>
+			</td>
+			<td style="text-align:center">Tommy Kolar</td>
+		</tr>
+		<tr>
+			<td style="text-align:center">09.11.2026</td>
+			<td style="text-align:center">13:00-13:45 Uhr</td>
+			<td>
+			<p style="text-align:center">Fredholmsche Alternative: Existenz und Eindeutigkeit</p>
+			</td>
+			<td style="text-align:center">Tim Herzog</td>
+		</tr>
+		<tr>
+			<td style="text-align:center">16.11.2026</td>
+			<td style="text-align:center">12:00-12:45 Uhr</td>
+			<td>
+			<p style="text-align:center">Spektraltheorie und Neumann-Reihe</p>
+			</td>
+			<td style="text-align:center">Anthony Nork</td>
+		</tr>
+		<tr>
+			<td style="text-align:center">16.11.2026</td>
+			<td style="text-align:center">13:00-13:45 Uhr</td>
+			<td>
+			<p style="text-align:center">Kernapproximation, Konsistenz und Konvergenz bei Fredholm-Gleichungen 2. Art</p>
+			</td>
+			<td style="text-align:center">Dennis Bernhard</td>
+		</tr>
+		<tr>
+			<td style="text-align:center">23.11.2026</td>
+			<td style="text-align:center">12:00-12:45 Uhr</td>
+			<td style="text-align:center">Projektionsmethoden, insbesondere das Kollokationsverfahren</td>
+			<td style="text-align:center">Lukas Zabeh</td>
+		</tr>
+		<tr>
+			<td style="text-align:center">23.11.2026</td>
+			<td style="text-align:center">13:00-13:45 Uhr</td>
+			<td>
+			<p style="text-align:center">Das Galerkin-Verfahren</p>
+			</td>
+			<td style="text-align:center">Norman Weinland</td>
+		</tr>
+		<tr>
+			<td style="text-align:center">07.12.2026</td>
+			<td style="text-align:center">12:15-13:15&nbsp;Uhr</td>
+			<td>
+			<p style="text-align:center">Die Abelsche Integralgleichung</p>
+			</td>
+			<td style="text-align:center">Gajanan Santhireswaran</td>
+		</tr>
+		<tr>
+			<td style="text-align:center">14.12.2026</td>
+			<td style="text-align:center">12:15-13:15&nbsp;Uhr</td>
+			<td>
+			<p style="text-align:center">Fredholm-Gleichungen 1. Art und inverse Probleme</p>
+			</td>
+			<td style="text-align:center">Lukas Zenner</td>
+		</tr>
+		<tr>
+			<td style="text-align:center">11.01.2027</td>
+			<td style="text-align:center">12:15-13:15 Uhr</td>
+			<td>
+			<p style="text-align:center">Tikhonov-Regularisierung</p>
+			</td>
+			<td style="text-align:center">Paul M&uuml;ller</td>
+		</tr>
+		<tr>
+			<td style="text-align:center">18.01.2027</td>
+			<td style="text-align:center">12:15-13:15 Uhr</td>
+			<td>
+			<p style="text-align:center">Integralgleichungen in der Potentialtheorie</p>
+			</td>
+			<td style="text-align:center">Maximilian Reinhard</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p>Viel Spa&szlig; und Erfolg bei der Vorbereitung!</p>
+
+<p>Beste Gr&uuml;&szlig;e, Lukas</p>
+				</div>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement1"></a>
+								<p>
+					<small class="text-muted"><i>
+						Geschrieben am <span data-bs-toggle="tooltip" data-bs-title="14.10.2026 15:28:53">14.10.26</span>												von Lukas Vierus					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse1">
+					<p>Hallo zusammen,</p>
+
+<p>hier noch einmal die wichtigsten Informationen aus unserer heutigen Besprechung im &Uuml;berblick:</p>
+
+<p><br />
+&nbsp;</p>
+
+<p><strong>Ablauf der Vortr&auml;ge</strong></p>
+
+<p>Der erste Vortrag findet am 26.10. statt. Je nachdem, ob ihr die Veranstaltung als Pro- oder Seminar einbringen wollt, betr&auml;gt die <strong>Vortragszeit 45 oder 60&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse1" href="#newsElement1">Weiterlesen</a></strong></p>				</div>
+				<div class="collapse newsCollapse1">
+					<p>Hallo zusammen,</p>
+
+<p>hier noch einmal die wichtigsten Informationen aus unserer heutigen Besprechung im &Uuml;berblick:</p>
+
+<p><br />
+&nbsp;</p>
+
+<p><strong>Ablauf der Vortr&auml;ge</strong></p>
+
+<p>Der erste Vortrag findet am 26.10. statt. Je nachdem, ob ihr die Veranstaltung als Pro- oder Seminar einbringen wollt, betr&auml;gt die <strong>Vortragszeit 45 oder 60 Minuten</strong>. Im Anschluss ist jeweils Zeit f&uuml;r Fragen und Diskussionen vorgesehen. Die Vortr&auml;ge k&ouml;nnen wahlweise an der Tafel oder mit dem Beamer gehalten werden.</p>
+
+<p>Zus&auml;tzlich ist ein ausf&uuml;hrliches <strong>Handout von 8&ndash;10 Seiten</strong> zu erstellen, das vor Beginn des Vortrags ausgedruckt an alle Teilnehmenden verteilt wird.</p>
+
+<p>Da es erfreulich viele Anmeldungen gibt, werden insbesondere in den ersten Wochen jeweils zwei Vortr&auml;ge pro Sitzung stattfinden. In diesen F&auml;llen beginnen wir bereits um <strong>12:00 Uhr s.t.</strong>, damit ausreichend Zeit f&uuml;r die anschlie&szlig;ende Diskussion bleibt.</p>
+
+<p><br />
+&nbsp;</p>
+
+<p><strong>Themenvergabe und Vorbereitung</strong></p>
+
+<p>Die Zuordnung der Themen sowie die Bekanntgabe aller Termine erfolgen morgen im Laufe des Tages. Ich werde euch au&szlig;erdem jeweils pers&ouml;nlich mitteilen, welche Inhalte in eurem Vortrag nach M&ouml;glichkeit behandelt werden sollten.</p>
+
+<p>Ich m&ouml;chte euch bitten, in der Woche vor eurem Vortrag einen Termin mit mir zu vereinbaren, damit wir den Vortrag und das Handout gemeinsam besprechen k&ouml;nnen. Dann kann ich euch noch einige Hinweise und Tipps zur Vorbereitung geben.</p>
+
+<p>Bei Fragen aller Art k&ouml;nnt ihr euch jederzeit gerne per E-Mail oder pers&ouml;nlich bei mir melden.</p>
+
+<p><br />
+&nbsp;</p>
+
+<p>Solltet ihr aus gesundheitlichen Gr&uuml;nden nicht teilnehmen k&ouml;nnen, gebt mir bitte per E-Mail Bescheid.</p>
+
+<p>Viele Gr&uuml;&szlig;e, Lukas</p>
+				</div>
+							</td>
+		</tr>		
+		</tbody>
+</table>
+
+</section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<h2>(Pro-)Seminar: Integralgleichungen</h2>
+
+<p>Dozent: Prof. Dr. Thomas Schuster</p>
+
+<p>Zeit und Ort: Montag, 12-14 Uhr im SR 6</p>
+
+<p><strong>Vorbesprechung:</strong> &nbsp;<strong>14.10.2026</strong>, <strong>12:15 Uhr</strong>, Raum 4.12, Geb&auml;ude E1.1</p>
+
+<p>Bitte melden Sie sich bis sp&auml;testens <strong>12.10.2026</strong>&nbsp;&uuml;ber das CMS&nbsp;an.</p>
+
+<p>Das Seminar ist im <strong>Bachelor-</strong>, <strong>Master-</strong> oder <strong>Lehramtsstudiengang</strong> anrechenbar.</p>
+
+<p><br />
+Integralgleichungen bilden ein zentrales Fundament der modernen Analysis und der mathematischen Physik. Sie treten naturgem&auml;&szlig; bei der Reformulierung von Rand- und Anfangswertproblemen f&uuml;r partielle Differentialgleichungen auf und sind ein wichtiges Werkzeug bei der Behandlung inverser Probleme (wie der Bildrekonstruktion in der Tomographie oder der Signalverarbeitung). Zudem erlauben sie &uuml;ber die Operator- und Spektraltheorie oft einen tieferen Einblick in die Struktur von Problemstellungen als die entsprechenden Differentialoperatoren.</p>
+
+<p>Im Seminar werden die mathematischen Grundlagen von Integralgleichungen systematisch erarbeitet. Zu den zentralen Themen geh&ouml;ren:</p>
+
+<ul>
+	<li>die klassische Fredholm- und Volterra-Theorie,</li>
+	<li>Existenz- und Eindeutigkeitsaussagen,</li>
+	<li>die Fredholm&#39;sche Alternative in unendlichdimensionalen R&auml;umen sowie</li>
+	<li>die Spektraltheorie kompakter Operatoren, insbesondere die Hilbert-Schmidt-Theorie f&uuml;r symmetrische Kerne und deren Entwicklungss&auml;tze.</li>
+</ul>
+
+<p>Je nach Vorkenntnissen und Interesse der Teilnehmenden werden auch singul&auml;re Integralgleichungen sowie numerische Diskretisierungsverfahren (z.B. Galerkinmethoden) thematisiert.</p>
+
+<p><strong>Literatur</strong></p>
+
+<ul>
+	<li>Wolfgang Hackbusch: &quot;Integralgleichungen: Theorie und Numerik&quot;, Vieweg &amp; Teubner, 1997.</li>
+	<li>Heinz W. Engl: &quot;Integralgleichungen&quot;, Springer, 2013.</li>
+	<li>Roland W. Freund und Ronald H. W.&nbsp;Hoppe: &quot;Numerische Mathematik&quot;, Springer, 2007.</li>
+</ul>
+
+<p>Alle oben genannten B&uuml;cher befinden sich zum Download im <a href="https://www.infomath-bib.de/tmp/vorlesungen/mathe-core_integralgleichungen.html">Semesterapparat</a>.</p>
+
+<p><strong>Weitere Fragen?</strong></p>
+
+<p>Bei R&uuml;ckfragen kontaktieren Sie bitte <a href="mailto:vierus@num.uni-sb.de">Lukas Vierus</a></p>
+
+<p>&nbsp;</p>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/datenschutzerklaerung.html" target="_blank">Datenschutz</a> | <a href="https://www.uni-saarland.de/impressum.html" target="_blank">Impressum</a><br/>
+	Bitte wenden Sie sich bei technischen Problemen an <a href="mailto:cakecms@cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">die Administratoren</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

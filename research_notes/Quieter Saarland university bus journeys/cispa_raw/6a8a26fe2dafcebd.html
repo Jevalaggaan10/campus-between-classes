@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Main Page	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="300c92296ba275f6ef119c2f4d421cdb55afc9be@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Cispa/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/theme/Cispa/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Cispa/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Cispa/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Cispa/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Cispa/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Cispa/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Cispa/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/bms_winter2627/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/bms_winter2627/../system" class="navbar-brand">CMS</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/bms_winter2627/">Main Page</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Information</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/bms_winter2627/termine/calendar/index">Timetable</a></li><li><a class="dropdown-item" href="/bms_winter2627/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/bms_winter2627/students/register">Registration</a></li><li class="nav-item"><a class="nav-link" href="/bms_winter2627/landing">Personal Status</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/bms_winter2627/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="b9f6142cfbddf7bebbeef02e0110c04fa5180391965fefbfb3ddef99757a4c0153ce042daef685c02526c01db5d975ce09dbd17f5e485a7e4efd1d48deca4686" id="Token348612862" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Username" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Password" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Remember me</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.cispa.saarland/bms_winter2627/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="58e381e2fc06865470a7dc2d97b83511b742ecb4%3AUser.redirect" id="TokenFields580427172" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked1415143234" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/bms_winter2627/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registration</a>        </li>
+        <li>
+            <a href="/bms_winter2627/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Forgot Password?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Enable dark mode            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Enable light mode            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/bms_winter2627/../system" class="site-logo" title="Front Page"><img src="/system/theme/Cispa/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					Bachelor- and Master Seminar (Winter 2026/27)				</h1>
+				<div>
+				<small class="text-muted">
+					CISPA Staff				</small>
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					<div class="alert alert-info"><a href="/bms_winter2627/students/register">Registration for this course</a> is open until <strong>Monday, 01.11.2027 23:59</strong>.</div>
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	
+<table class="table">
+	<colgroup>
+				<col span="1" style="width: auto;" />
+	</colgroup>
+	<tbody>
+	<tr>						<td class="align-top">
+				<a id="newsElement2"></a>
+				<h4 class="fs-5"><a href="/bms_winter2627/news/view/2">Next On-Site Seminar on 14.10.2026, CISPA D1 Room 0.15</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="07.10.2026 20:28:18">07.10.26</span>												by Xinyi Xu					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse2">
+					<h4>Dear All,</h4>
+
+<h4><br />
+The next seminar(s) will take place on 14.10.2026, 14:00 - 16:00, CISPA D1 (Kaiserstra&szlig;e 21 66386 St. Ingbert, Germany) - D1_Room_0.15. Presenters and their advisors are encouraged to present in person. We especially encourage other students and teachers to attend and present in person&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse2" href="#newsElement2">Read more</a></h4>				</div>
+				<div class="collapse newsCollapse2">
+					<h4>Dear All,</h4>
+
+<h4><br />
+The next seminar(s) will take place on 14.10.2026, 14:00 - 16:00, CISPA D1 (Kaiserstra&szlig;e 21 66386 St. Ingbert, Germany) - D1_Room_0.15. Presenters and their advisors are encouraged to present in person. We especially encourage other students and teachers to attend and present in person as well.</h4>
+
+<p>For presenters,<br />
+1. We would book the room half an hour in advance, so you are encouraged to arrive a few minutes early to set up your own poster.<br />
+2. For this session, you need to print the poster on your own. The size of the poster should be 116x86cm or 86x116cm. You can use the poster printing service of Saarland University (https://www.uni-saarland.de/en/page/uds-card/functions/printing.html -&gt; Posterdruck A0).<br />
+3. You need to present your poster in a much smaller group, but you are encouraged to roam around and ask questions about other posters.<br />
+4. We encourage you to bring your laptop to present your demo; there will be small tables in the room where you can put your laptop.<br />
+&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Presenters: Jonas Schmitt, Muhammad Saqib, Nomaan Shaikh, Sumair Ijaz Hashmi, Mutahar Aamir, Adham Mahgoub, Ved Rahul Shinkre, Aditya Gupta, Oleksii Palagin, Anshul Birwal</strong></p>
+
+<p>&nbsp;</p>
+
+<pre>
+14.10.2026, 14:00 - 16:00, CISPA D1 (Kaiserstra&szlig;e 21 66386 St. Ingbert, Germany)</pre>
+
+<p>Presenter: Jonas Schmitt</p>
+
+<p>Type of Poster: Master Intro</p>
+
+<p>Advisor: Jonas Hielscher</p>
+
+<p>Title: Exploring the Gap Between Human-Centered Security Research and Organizational Practice</p>
+
+<p>Research Area: RA6: Empirical and Behavioural Security</p>
+
+<p>Abstract: Human-Centered security (HCS) shifts the focus from pure computational problems to the users. Information security within companies is therefore also dependent on usability and employee focused organizational security. Many companies use phishing simulations and unified awareness training to educate their employees about the protection of corporate data. In research literature on the other hand we observe a shift towards individual threat evaluation and training. This thesis explores the gap between research and organizational practice from an educational perspective. Previous work has questioned the effectiveness of widely used organizational security practices such as phishing simulations. Interviews with chief information security officers (CISOs) then found that reasons for this gap include the lack of familiarity with the current research literature as well as company specific compliance rules. This work aims to find out whether the next generation of security actors learn the relevant competencies in their higher education to bridge this gap. To do so, we present a qualitative research approach that uses semi-structured interviews with HCS educators around the world to determine teaching focuses, importance in university curricula and challenges that they face. The collected data will be assessed via thematic analysis to extract overarching themes and patterns. With this study we aim to understand the representation of HCS in higher education and how educators perceive its role and recognition. This gives us grounds for predictions on the HCS knowledge the next generation of security actors have prepared for their future employers. We are going to develop guidelines for curricula designs that provide a stronger focus on the human factor.</p>
+
+<p>&nbsp;</p>
+
+<pre>
+14.10.2026, 14:00 - 16:00, CISPA D1 (Kaiserstra&szlig;e 21 66386 St. Ingbert, Germany)</pre>
+
+<p>&nbsp;</p>
+
+<p>Presenter: Muhammad Saqib</p>
+
+<p>Type of Poster: Master Intro</p>
+
+<p>Advisor: Mario Fritz, Sarath Sivaprasad</p>
+
+<p>Title: A Behavioural and Representational Investigation of Graph World Models in Open-Weight Reasoning Models</p>
+
+<p>Research Area: RA2: Trustworthy Information Processing</p>
+
+<p>Abstract: This thesis aims to investigate whether open-weight reasoning models develop and utilize limited, task-specific world models for graph-based planning. It compares internal representations formed while models observe random walks with the representations that evolve during self-generated reasoning trails. Using unseen graph instances i.e., a controlled subset of CogEval-inspired tasks, the models will perform route planning and adapt to detours, shortcuts and goal changes. Behavioural evaluation will mainly measure route validity and adaptation while token-level analysis will examine how graph structure develops across layers and the reasoning steps. Probes and targeted causal interventions will distinguish information that is merely decodable from representations that models actively update and utilize for planning. The thesis will provide evidence for or against graph world models in open-weight reasoning models while avoiding broader claims about human-like world understanding.</p>
+
+<p>&nbsp;</p>
+
+<pre>
+14.10.2026, 14:00 - 16:00, CISPA D1 (Kaiserstra&szlig;e 21 66386 St. Ingbert, Germany)</pre>
+
+<p>&nbsp;</p>
+
+<p>Presenter: Nomaan Shaikh</p>
+
+<p>Type of Poster: Master Intro</p>
+
+<p>Advisor: Andrea Mengascini</p>
+
+<p>Title: Improving Usability in Security Dashboards: Designing and Evaluating an Empowered Product Team-Centric Interface for Security KPIs and Findings Management</p>
+
+<p>Research Area: RA6: Empirical and Behavioural Security</p>
+
+<p>Abstract: Modern day software development practices integrate security responsibilities that are to be managed by Empowered Product Teams (a.k.a EPTs). As an organization adopts DevSecOps, and cloud-native development models, developers are required to assess, interpret, and remediate security findings whilst their daily engineering tasks. To support this shift, organizations often use dashboards to visualize and provide information about their products active findings during the software life cycle. However, these dashboards are often designed with the assumption and mental model of security experts, creating significant usability challenges for developers. From high cognitive load, inconsistent terminology and metrics, to poor visualization of crucial data. These elements prevent EPTs from understanding vulnerabilities that require immediate attention or how these findings are related to their system. In this thesis we explore and perform usability studies on users to understand the pain points of the current security dashboard, that brings data from multiple different sources, and visualize them into one central dashboard.</p>
+
+<p>&nbsp;</p>
+
+<pre>
+14.10.2026, 14:00 - 16:00, CISPA D1 (Kaiserstra&szlig;e 21 66386 St. Ingbert, Germany)</pre>
+
+<p>&nbsp;</p>
+
+<p>Presenter: Sumair Ijaz Hashmi</p>
+
+<p>Type of Poster: Master Intro</p>
+
+<p>Advisor: Katharina Krombholz</p>
+
+<p>Title: Understanding the Threat Landscape of Low Socioeconomic Pakistanis</p>
+
+<p>Research Area: RA6: Empirical and Behavioural Security</p>
+
+<p>Abstract: Online cybersecurity and privacy technology is typically designed with literate and Westernized users in mind. Hence, smartphone users from low socioeconomic backgrounds, especially those who are illiterate, face severe security challenges when navigating the online world. However, little is known about how low socioeconomic status (LSES) smartphone users experience, perceive, and defend against threats under financial, literacy, and social constraints. This thesis aims to explore the threat landscape of LSES smartphone users in Pakistan to understand which threats and harms they face, how they perceive risk, and how they protect themselves and each other.</p>
+
+<p>&nbsp;</p>
+
+<pre>
+14.10.2026, 14:00 - 16:00, CISPA D1 (Kaiserstra&szlig;e 21 66386 St. Ingbert, Germany)</pre>
+
+<p>&nbsp;</p>
+
+<p>Presenter: Mutahar Aamir</p>
+
+<p>Type of Poster: Master Intro</p>
+
+<p>Advisor: Rebekka Burkholz</p>
+
+<p>Title: Post-hoc Pruning with Gradients and Resampling</p>
+
+<p>Research Area: RA2: Trustworthy Information Processing</p>
+
+<p>Abstract: We aim to increase the efficiency of Large Language Models by reducing their parameter count via pruning. Static masks are found through small calibration datasets, but model quality collapses at higher sparsities. Dynamic sparse training fixes bad masks, but requires multiple rounds of retraining, which is computationally infeasible for LLMs. We propose a new technique inspired by dynamic sparse training that uses gradient information as well as resampling from the calibration dataset to find the optimal mask. We generalize this technique so that it can be applied on top of existing masks, leading to more robust sparse models</p>
+
+<p>&nbsp;</p>
+
+<pre>
+14.10.2026, 14:00 - 16:00, CISPA D1 (Kaiserstra&szlig;e 21 66386 St. Ingbert, Germany)</pre>
+
+<p>&nbsp;</p>
+
+<p>Presenter: Adham Mahgoub</p>
+
+<p>Type of Poster: Master Intro</p>
+
+<p>Advisor: Pouya Narimani, Andreas Zeller, Ali Abbasi</p>
+
+<p>Title: Software Composition Analysis using Power Side-channels</p>
+
+<p>Research Area: RA5: Secure Mobile and Autonomous Systems</p>
+
+<p>Abstract: Identifying software components running on embedded devices is challenging when the devices can only be analyzed as black boxes, without access to their firmware binaries or source code. This lack of access complicates vulnerability assessment because embedded firmware commonly incorporates third-party open-source libraries that may remain outdated long after known vulnerabilities have been patched. Therefore, identifying the libraries used by a device can help assess its exposure to known vulnerabilities. Power side-channels provide a potential information source for such identification. The power consumption of a microcontroller reflects aspects of its internal code execution and can be observed without direct access to the firmware. In this work, we investigate whether power side-channel measurements can be used to fingerprint library functions from commonly used open-source libraries and subsequently identify their execution within an unknown firmware. Our evaluation studies the feasibility and practical requirements of power side-channel-based software composition analysis for black-box embedded systems by examining the extent to which power traces can be segmented into regions associated with different library functionalities, the robustness of identification across devices, and the minimum measurement capabilities required for reliable detection.</p>
+
+<p>&nbsp;</p>
+
+<pre>
+14.10.2026, 14:00 - 16:00, CISPA D1 (Kaiserstra&szlig;e 21 66386 St. Ingbert, Germany)</pre>
+
+<p>&nbsp;</p>
+
+<p>Presenter: Ved Rahul Shinkre</p>
+
+<p>Type of Poster: Bachelor Intro</p>
+
+<p>Advisor: Mario Fritz, Philipp Christmann, Tejumade Afonja</p>
+
+<p>Title: Differentially Private Multimodal Tabular Data Generation</p>
+
+<p>Research Area: RA2: Trustworthy Information Processing</p>
+
+<p>Abstract: Generating synthetic tabular data becomes difficult when datasets contain both structured attributes and free-form text. Current generative approaches typically specialise in only one modality: tabular models accurately capture numerical distributions and categorical dependencies, but cannot handle unstructured text. Conversely, large language models produce fluent and realistic text, but struggle to maintain exact numerical correlations, statistical distributions, and mathematical consistency. To address this trade-off, this thesis proposes a three-stage generative pipeline designed to balance both modalities without sacrificing quality. First, unstructured text is compressed into tabular features by extracting domain-specific entities, numerical values, and stylistic properties. Second, tabular generative models learn and synthesise the joint distributions across these extracted attributes, ensuring that mathematical and statistical relationships are properly preserved. Finally, a language model conditioned on the synthetic tabular features re-inflates the attributes back into coherent natural language text. By separating statistical distribution modelling from text generation, this framework aims to generate realistic synthetic data that preserves both strict numerical integrity and high-quality text.</p>
+
+<p>&nbsp;</p>
+
+<pre>
+14.10.2026, 14:00 - 16:00, CISPA D1 (Kaiserstra&szlig;e 21 66386 St. Ingbert, Germany)</pre>
+
+<p>&nbsp;</p>
+
+<p>Presenter: Aditya Gupta</p>
+
+<p>Type of Poster: Master Intro</p>
+
+<p>Advisor: Katharina Krombholz, Simon Anell</p>
+
+<p>Title: OPEN-SOURCE DEVELOPERS&rsquo; REPOSITORY TRANSFER STRATEGIES</p>
+
+<p>Research Area: RA6: Empirical and Behavioural Security</p>
+
+<p>Abstract: Open-source software plays a crucial role in technological innovation and research. A 2024 Harvard Business School study estimates that without open-source software, firms would spend more than 3.5 times what they currently spend on software. This widespread dependence creates significant security risks. Supply chain attacks targeting open-source projects could affect numerous downstream dependents. Existing research has focused primarily on the technical perspectives of such attacks, and less attention has been given to the human and organisational factors involved in maintaining and transferring the responsibilities of such repositories. This study investigates how open-source developers perceive and manage these security risks. Following a qualitative approach, this study aims to identify the challenges and practices surrounding repository responsibilities, as well as the roles and support required from the repository platforms and the broader open-source community.</p>
+
+<p>&nbsp;</p>
+
+<pre>
+14.10.2026, 14:00 - 16:00, CISPA D1 (Kaiserstra&szlig;e 21 66386 St. Ingbert, Germany)</pre>
+
+<p>&nbsp;</p>
+
+<p>Presenter: Oleksii Palagin</p>
+
+<p>Type of Poster: Master Intro</p>
+
+<p>Advisor: Wouter Lueks, Sylvain Chatel</p>
+
+<p>Title: PIVO:&nbsp;Privacy-Preserving Indexing and Verification of Record Overlaps</p>
+
+<p>Research Area: RA2: Trustworthy Information Processing</p>
+
+<p>Abstract: Record linkage identifies records referring to the same person across databases, even when identifying attributes contain errors or missing values. In privacy-sensitive settings such as healthcare, secure multi-party computation enables this process without disclosing raw identifiers. However, its computational and communication costs remain a significant scalability challenge. This thesis presents PIVO, an integrated system for privacy-preserving record linkage that addresses both the number of comparisons and the cost of secure matching. PIVO combines locality-sensitive hashing and private filtering with a purpose-built three-party MPC library. The library uses packed data representations, batched operations, and specialized routines for similarity computation and secure best-match selection. Together, these components reduce unnecessary comparisons and optimize the remaining matching work. Weighted fuzzy and exact comparisons, missing-field handling, and final classification are evaluated inside MPC. The privacy-oriented configuration additionally hides intermediate candidate relationships and individual filtering decisions under a semi-honest, honest-majority model. The contribution is the design, implementation, and evaluation of these techniques within one configurable linkage system.</p>
+
+<p>&nbsp;</p>
+
+<pre>
+14.10.2026, 14:00 - 16:00, CISPA D1 (Kaiserstra&szlig;e 21 66386 St. Ingbert, Germany)</pre>
+
+<p>&nbsp;</p>
+
+<p>Presenter: Anshul Birwal</p>
+
+<p>Type of Poster: Bachelor Intro</p>
+
+<p>Advisor: Sajin Sasy</p>
+
+<p>Title: Scaling Metadata-Protecting Communications using PIR &amp; Intersecting Topologies</p>
+
+<p>Research Area: RA1: Algorithmic Foundations and Cryptography</p>
+
+<p>Abstract: Everyday messaging apps like WhatsApp, Signal etc. use end-to-end encryption. E2E protects the message content but leaves the sensitive communication metadata exposed. To protect this metadata, some existing systems like Pung rely on single-server PIR. Senders deposit encrypted messages into a central database, and recipients retrieve them without revealing the accessed index, resulting in computational cost for each read to be $O(n)$ for server. In private-write based systems like Express, users insert their message into a particular recipient&#39;s mailbox in database without letting the server know whose mailbox it was. This also results in $O(n)$ computation cost for the server. In this thesis, we propose a new architecture that breaks this bottleneck by mapping the intersecting routing topologies traditionally used in multi-server mix-nets onto a single-server PIR database. We structure the database geometrically using Finite Projective Planes (FPP), where each user is assigned a static subset of $O(\sqrt{n})$ mailbox slots. The algebraic properties of FPP guarantee that any two users&rsquo; subsets intersect at exactly one unique mailbox.</p>
+
+<p>&nbsp;</p>
+				</div>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement1"></a>
+				<h4 class="fs-5"><a href="/bms_winter2627/news/view/1">Winter is Coming</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="06.10.2026 22:56:23">06.10.26</span>												by Xinyi Xu					</i></small>
+				</p>
+
+									<h4>Dear all,</h4>
+
+<p>Welcome to the new course for the Bachelor and Master seminar in the winter term.<br />
+Please switch to this course.</p>
+
+<p>Best wishes,</p>
+
+<p>BAMA Seminar Team</p>
+							</td>
+		</tr>		
+		</tbody>
+</table>
+
+</section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<h2>Bachelor- and Master-Seminar</h2>
+
+<p>The bachelor/master seminar is a stage for all talks related to bachelor or master theses at CISPA.</p>
+
+<p>Starting with the Winter Semester (Oct 2026), we will try a new style for the seminar course. The main idea is to have students introduce their theses in a larger&nbsp;<u>in-person <em><strong>poster</strong></em></u><em><strong>&nbsp;</strong></em>session.</p>
+
+<p>We sincerely encourage everyone to drop by, even if you are not a speaker &ndash; we may prepare snacks for you.</p>
+
+<h2><strong><em>Poster Session Format</em></strong></h2>
+
+<ol start="1">
+	<li>A poster session is held at the beginning, middle, and end of each semester and once in the break between semesters.</li>
+	<li>Students preparing to do theses will bring and present a poster introducing their thesis at this poster session.</li>
+	<li>Advisors attend the poster session to interact at least with students&rsquo; posters in their groups. Students are graded by the advisor based on:</li>
+</ol>
+
+<ol start="1" style="margin-left:40px">
+	<li>the poster,</li>
+	<li>the poster defense, and</li>
+	<li>the thesis proposal material.</li>
+</ol>
+
+<p>Further notes:</p>
+
+<ol start="1">
+	<li>If a student really needs to start their thesis as soon as possible, presenting the prepared poster individually to the advisor can kick off the thesis.</li>
+	<li>The physical poster session alternates&nbsp;between Saarbr&uuml;cken and St. Ingbert CISPA buildings.</li>
+</ol>
+
+<ol start="1" style="margin-left:40px">
+	<li>CISPA C0: Stuhlsatzenhaus 5, 66123 Saarbr&uuml;cken</li>
+	<li>CISPA D1: Kaiserstra&szlig;e 21, 66386 St. Ingbert, Germany</li>
+</ol>
+
+<ol start="3">
+	<li>After the poster session, each student receives a graded certificate (Schein) that is required to register their thesis. Ask your advisor for this certificate and/or have them reach out to <a href="mailto:bamaseminar@cispa.saarland">bamaseminar@cispa.saarland</a> for details.</li>
+</ol>
+
+<ol start="4">
+	<li>Important:&nbsp;<u><strong>Final talks not a part of the this seminar any more.</strong></u> Final talks are now held as a separate colloquium within each research group and should be scheduled by the students and their advisors directly and independently.</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<h2><em><strong>Frequently Asked Questions</strong></em></h2>
+
+<h4><strong>How do I make a poster?</strong></h4>
+
+<p>The <a href="https://cms.cispa.saarland/bms_winter2627/materials/">materials</a>&nbsp;section on the CMS page contains example poster templates. Attend a poster session to get a feel for what works and what doesn&#39;t. :)</p>
+
+<h4><strong>How do I print my poster?</strong></h4>
+
+<p>The university library (SULB Fotostelle) offers <a class="c7" href=" https://www.sulb.uni-saarland.de/en/courses-and-learning-spaces/fotostelle/printing-and-copying">printing services for students</a>. You can print your poster in portrait or landscape format. On-site we&#39;ll have stand-up displays for DIN A0 posters. Smaller poster sizes might also work fine.</p>
+
+<h4><strong>Do I have to pay for printing?</strong></h4>
+
+<p>Unfortunately, poster printing is not something that the seminar / CISPA can provide. Your advisor might be able to reimburse your printing cost for the seminar.</p>
+
+<h4><strong>How do I register for a session and submit my poster?</strong></h4>
+
+<p>To register for a session, you should:</p>
+
+<ol start="1">
+	<li>Fill in your poster information at <a class="c7" href="https://www.google.com/url?q=https://forms.gle/zYjAR2dPCttqfgGo6&amp;sa=D&amp;source=editors&amp;ust=1737384454493352&amp;usg=AOvVaw1ginMUIt9V3uY7ygj8JcSW">https://forms.gle/KT9eUnq8NbsB8Wxe9</a></li>
+</ol>
+
+<ul style="margin-left:40px">
+	<li>If you haven&#39;t found the corresponding session, then the time of this session has not yet been determined. Please send an email to &nbsp;bamaseminar@cispa.saarland&nbsp; or check again later.</li>
+</ul>
+
+<ol start="2">
+	<li>Submit your poster as a PDF in CMS course-&gt;Personal Status-&gt;Submissions-&gt;&rdquo;&nbsp;<a class="c7" href="https://www.google.com/url?q=https://cms.cispa.saarland/bms_winter2627/Submissions/view/2&amp;sa=D&amp;source=editors&amp;ust=1737384454494179&amp;usg=AOvVaw1gHWckAuhOwhUGs9poxDf3">POSTER: Please submit your poster file</a>&ldquo; no later than one week before your session.</li>
+	<li>We will send you a verification/confirmation email one week before your session</li>
+</ol>
+
+<p>To list your poster in the announcement, you will have to hand in some information about it, namely:</p>
+
+<ul>
+	<li><strong>Speaker:</strong> Your name.</li>
+	<li><strong>Type of poster:</strong> Bachelor Intro or Master Intro</li>
+	<li><strong>Advisor:</strong>&nbsp;Please provide the name of your advisor.</li>
+	<li><strong>Title:</strong> Title of your work.</li>
+	<li><strong>Research Area: </strong>the number of your area. (In doubt, check https://cispa.de/en/research or ask your advisor) The areas are the following:
+	<ul>
+		<li>RA1: Algorithmic Foundations and Cryptography</li>
+		<li>RA2: Trustworthy Information Processing</li>
+		<li>RA3: Reliable Security Guarantees</li>
+		<li>RA4: Threat Detection and Defenses</li>
+		<li>RA5: Secure Mobile and Autonomous Systems</li>
+		<li>RA6: Empirical and Behavioural Security</li>
+		<li>RA7: Others</li>
+	</ul>
+	</li>
+	<li><strong>Abstract:</strong> An abstract introducing your work.</li>
+</ul>
+
+<p>Refer to <a href="https://cms.cispa.saarland/bms_winter2627/news/">previous announcements</a>&nbsp;for examples. Please kindly ensure that each value is in a separate line, not multiple lines, except for the abstract, as it will be automatically parsed.</p>
+
+<h4><strong>What will the timeline for poster submission be?</strong></h4>
+
+<p>Please submit your poster one week before the poster session via CMS. This should give you enough time to handle printing without being in a rush.</p>
+
+<h4><strong>Wait, I have a different question: who can I talk to?</strong></h4>
+
+<p>Please email <a class="c7" href="mailto:alexi.turcotte@cispa.de">alexi.turcotte@cispa.de</a>&nbsp;with any further questions.</p>
+
+<h3>Contact the organizers</h3>
+
+<p>If there are any questions left, please use the email address&nbsp;<a href="mailto:bamaseminar@cispa.saarland">bamaseminar@cispa.saarland</a> to contact the organizers.</p>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/en/privacy.html" target="_blank">Privacy Policy</a> | <a href="https://www.uni-saarland.de/en/legal-notice.html" target="_blank">Legal Notice</a><br/>
+	If you encounter technical problems, please contact <a href="mailto:cms-devs@mail-infsec.cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">the administrators</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

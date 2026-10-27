@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="de" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Hauptseite	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="4231d285cf1947148cfee86aa34b2ec9a0b05a05@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Sic/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Sic/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Sic/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Sic/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Sic/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/ana3_2627/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/ana3_2627/../system" class="navbar-brand">Kurse</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/ana3_2627/">Hauptseite</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Informationen</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/ana3_2627/termine/calendar/index">Termine</a></li><li><a class="dropdown-item" href="/ana3_2627/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/ana3_2627/students/register">Anmeldung</a></li><li class="nav-item"><a class="nav-link" href="/ana3_2627/landing">Persönliche Statusseite</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/ana3_2627/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="3ba4ea313908906ad4f0f6d399deb6ad958a68ebcb018d638593f23957e2ac4103d551c63682b7133a9ee114fc8d62659f3c004e2f22fcd868a4c504eceb4dbd" id="Token752379657" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Benutzername" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Passwort" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Angemeldet bleiben</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.sic.saarland/ana3_2627/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="d57394225c486cfcd48ce3afb8295ec95d6d10c6%3AUser.redirect" id="TokenFields58673743" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked1555057822" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/ana3_2627/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registrierung</a>        </li>
+        <li>
+            <a href="/ana3_2627/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Passwort vergessen?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Dunklen Modus aktivieren            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Hellen Modus aktivieren            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/ana3_2627/../system" class="site-logo" title="Front Page"><img src="/system/theme/Sic/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					Analysis 3				</h1>
+				<div>
+				<small class="text-muted">
+					Michael Hartz				</small>
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	
+<table class="table">
+	<colgroup>
+				<col span="1" style="width: auto;" />
+	</colgroup>
+	<tbody>
+	<tr>						<td class="align-top">
+				<a id="newsElement2"></a>
+				<h4 class="fs-5"><a href="/ana3_2627/news/view/2">Einteilung der Kleingruppenübungen</a></h4>				<p>
+					<small class="text-muted"><i>
+						Geschrieben am <span data-bs-toggle="tooltip" data-bs-title="18.10.2026 10:44:25">18.10.26</span>												von Jens De Vries					</i></small>
+				</p>
+
+									<p>Die Kleingruppen&uuml;bungen sind nun eingeteilt (siehe CMS). Die ersten Termine finden am 20.10. bzw. am 23.10 statt.</p>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement1"></a>
+				<h4 class="fs-5"><a href="/ana3_2627/news/view/1">Erste Vorlesung am Mittwoch</a></h4>				<p>
+					<small class="text-muted"><i>
+						Geschrieben am <span data-bs-toggle="tooltip" data-bs-title="10.10.2026 16:01:22">10.10.26</span>												von Michael Hartz					</i></small>
+				</p>
+
+									<p>Auf Grund der zentralen Er&ouml;ffnungsveranstaltung findet die erste Vorlesung am Mittwoch statt.</p>
+							</td>
+		</tr>		
+		</tbody>
+</table>
+
+</section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<h2>Analysis 3</h2>
+
+<hr />
+<p><strong>Dozent</strong>: Michael Hartz&nbsp;<br />
+<strong>Assistent</strong>: Jens de Vries</p>
+
+<hr />
+<h4>Vorlesung</h4>
+
+<ul>
+	<li>Montag, 10:15 - 12 Uhr&nbsp;in H&ouml;rsaal III</li>
+	<li>Mittwoch, 10:15 - 12 Uhr&nbsp;in H&ouml;rsaal IV</li>
+</ul>
+
+<p>Die erste Vorlesung ist am Mi, 14.10.26. Ein Skript zur Vorlesung wird schrittweise unter Informationen/Materialien bereitgestellt.</p>
+
+<h5>Kleingruppen&uuml;bungen</h5>
+
+<p>Die Kleingruppen&uuml;bungen beginnen in der zweiten Vorlesungswoche.</p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width:600px">
+	<tbody>
+		<tr>
+			<td><strong>Tutorium Nr.</strong></td>
+			<td><strong>Tag</strong></td>
+			<td><strong>Zeit</strong></td>
+			<td><strong>Tutor</strong></td>
+			<td><strong>Raum</strong></td>
+			<td><strong>Sprechstunde</strong></td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>Di</td>
+			<td>14-16</td>
+			<td>Benjamin Klasen</td>
+			<td>SR5</td>
+			<td>keine</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Fr</td>
+			<td>10-12</td>
+			<td>Yann Fahs</td>
+			<td>SR10</td>
+			<td>Do 16-17</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><!--
+<h5>Sprechstunden</h5>
+
+<p>Die Sprechstunden beginnen in der dritten Vorlesungswoche und finden im Gruppenarbeitsraum statt (3.17 in E2.4).</p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width:500px">
+	<tbody>
+		<tr>
+			<td>Nico Wiedmann</td>
+			<td>Mittwoch</td>
+			<td>13:00-14:00</td>
+		</tr>
+		<tr>
+			<td>Florian Schilling</td>
+			<td>Donnerstag</td>
+			<td>13:00-14:00</td>
+		</tr>
+		<tr>
+			<td>Nicolas L&ouml;w</td>
+			<td>Donnerstag</td>
+			<td>14:00-15:00</td>
+		</tr>
+		<tr>
+			<td>Yann Fahs</td>
+			<td>Freitag</td>
+			<td>14:00-15:00</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>Sprechstunde des Dozenten: Dienstag, 16:00-17:00, Raum 4.01</p>
+--></p>
+
+<p>Alle Sprechstunden finden im Gruppenarbeitsraum (Raum 317) statt. Zus&auml;tzlich gibt es eine Sprechstunde des Assistenten, die jede Woche mittwochs von 12 - 13 Uhr in Raum 4.35 (E2.4) stattfindet.</p>
+
+<h5>Klausurtermine (vorl&auml;ufig)</h5>
+
+<p>Die erste Klausur findet voraussichtlich am 24.02. und die zweite Klausur am 24.03. statt.</p>
+
+<hr /><!--
+<h5>Wechselfrist HMI</h5>
+
+<p>In manchen Studieng&auml;ngen ist es m&ouml;glich, den HMI-Zyklus als Alternative zur Analysis und Linearen Algebra zu h&ouml;ren. Ein Wechsel von Analysis 1 zu HMI 1 ist bis Ende November m&ouml;glich, wenden Sie sich dazu bitte an die Veranstalter der <a href="https://cms.sic.saarland/hmi12526/" target="_blank">HMI 1</a>.</p>
+-->
+<h5><strong>Inhalt</strong></h5>
+
+<ul>
+	<li>Grundz&uuml;ge der Ma&szlig;- und Integrationstheorie</li>
+	<li>Konstruktion des Lebesgue-Ma&szlig;es</li>
+	<li>Konvergenzs&auml;tze, Satz von Fubini, Transformationsformel</li>
+	<li>Lebesguer&auml;ume</li>
+	<li>Integration auf Untermannigfaltigkeiten, Satz von Gau&szlig;, Satz von Stokes</li>
+</ul>
+
+<h5>Literatur</h5>
+
+<p><a href="https://www.infomath-bib.de/SemApp/SemAppMathBasic.shtml#Analysis3">Siehe Semesterapparat</a></p>
+
+<hr />
+<h4>&Uuml;bungsbetrieb/Klausurzulassung</h4>
+
+<p>Jeden Montag werden ein Hausaufgabenblatt und ein Pr&auml;senz&uuml;bungsblatt ver&ouml;ffentlicht. Die Pr&auml;senz&uuml;bungen werden in den Kleingruppen&uuml;bungen gemeinsam gel&ouml;st und besprochen. Das Hausaufgabenblatt wird im Anschluss selbstst&auml;ndig bearbeitet und in Gruppen von maximal 3 Studierenden bis zum Dienstag, 12:00 Uhr, der Folgewoche &uuml;ber CMS abgegeben.</p>
+
+<p>Um die Zulassung zur Klausur zu erhalten, m&uuml;ssen Sie mindestens 2/3 aller m&ouml;glichen &Uuml;bungspunkte erlangen. Die &Uuml;bungspunkte entfallen zu 2/3 auf die &Uuml;bungsbl&auml;tter und zu 1/3 auf die Anwesenheit in den Kleingruppen (bei letzterem ist die maximale Ausbeute bereits nach 10 besuchten &Uuml;bungsterminen erreicht).</p>
+
+<p>Zulassungen aus fr&uuml;heren Iterationen der Analysis 3 sind <strong>nicht</strong> f&uuml;r diese Veranstaltung g&uuml;ltig!</p>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/datenschutzerklaerung.html" target="_blank">Datenschutz</a> | <a href="https://www.uni-saarland.de/impressum.html" target="_blank">Impressum</a><br/>
+	Bitte wenden Sie sich bei technischen Problemen an <a href="mailto:cakecms@cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">die Administratoren</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

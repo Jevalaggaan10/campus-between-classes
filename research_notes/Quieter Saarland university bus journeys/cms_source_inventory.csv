@@ -1,0 +1,75 @@
+﻿course_id,title,source_url,semester,page_status,calendar_status,calendar_events,recurring_rows,in_demand_rows,coverage_status,coverage_notes
+cv4d,3D and 4D Computer Vision,https://cms.sic.saarland/cv4d/,Winter2026/27,ok,ics,37,2,2,timed,
+atos,Advanced Topics in Operating Systems,https://cms.sic.saarland/atos/,Winter2026/27,ok,ics,0,3,3,timed,
+aisystems,AI Systems,https://cms.sic.saarland/aisystems/,Winter2026/27,ok,ics,21,1,1,timed,
+alg26,Algebra,https://cms.sic.saarland/alg26/,Winter2026/27,ok,ics,0,3,3,timed,
+alg_geo,Algebraic Geometry,https://cms.sic.saarland/alg_geo/,Winter2026/27,ok,ics,0,3,3,timed,
+algodat2627,Algorithmen und Datenstrukturen für Informatik-Lehramt Sekundarstufe I,https://cms.sic.saarland/algodat2627/,Winter2026/27,ok,ics,33,2,2,timed,
+alsa26,Algorithms for Sequence Analysis,https://cms.sic.saarland/alsa26/,Winter2026/27,ok,ics,0,4,4,timed,
+ana1_2627,Analysis 1,https://cms.sic.saarland/ana1_2627/,Winter2026/27,ok,ics,113,8,8,timed,
+ana3_2627,Analysis 3,https://cms.sic.saarland/ana3_2627/,Winter2026/27,ok,ics,0,4,4,timed,
+aet2026,Artificial Empathic Technology,https://cms.sic.saarland/aet2026/,Winter2026/27,ok,ics,15,1,1,timed,
+ai_2627,Artificial Intelligence,https://cms.sic.saarland/ai_2627/,Winter2026/27,ok,ics,42,3,2,timed,
+avcn_2627,Audio-Visual Communication & Networks (WS 2026),https://cms.sic.saarland/avcn_2627/,Winter2026/27,ok,ics,0,3,3,timed,
+graph_seminar26,Back to the Roots: Graph Algorithms for Small Molecules,https://cms.sic.saarland/graph_seminar26/,Winter2026/27,ok,ics,12,1,1,timed,
+bioinf1_26,Bioinformatik 1,https://cms.sic.saarland/bioinf1_26/,Winter2026/27,ok,ics,69,3,3,timed,
+biostatslab26,BioStatsLab,https://cms.sic.saarland/biostatslab26/,Winter2026/27,ok,ics,0,2,2,timed,"Lectures mapped; Wed14:15/Thu12:15 tutorials have no public end time, omitted."
+latex_2627,"Block Course ""Introduction to LaTeX""",https://cms.sic.saarland/latex_2627/,Winter2026/27,ok,ics,0,0,0,excluded_or_unresolved,"Block course7–9October, beforeteachingperiod and alreadyover; omitted."
+causxai,Causal XAI,https://cms.sic.saarland/causxai/,Winter2026/27,ok,ics,0,1,1,timed,
+cg_2627,Computer Graphics,https://cms.sic.saarland/cg_2627/,Winter2026/27,ok,ics,96,7,2,timed,
+cla,Continually Learning Agents,https://cms.sic.saarland/cla/,Winter2026/27,ok,ics,0,1,1,timed,
+das_26,Data and Society,https://cms.sic.saarland/das_26/,Winter2026/27,ok,ics,0,1,1,timed,
+dbsys2627,Database Systems,https://cms.sic.saarland/dbsys2627/,Winter2026/27,ok,ics,86,6,6,timed,
+dic_26,Differential Equations in Image Processing and Computer Vision,https://cms.sic.saarland/dic_26/,Winter2026/27,ok,ics,0,1,1,timed,
+dtsp_2627,Digital Transmission & Signal Processing (WS 2026),https://cms.sic.saarland/dtsp_2627/,Winter2026/27,ok,ics,0,3,3,timed,
+i2cl_2627,Einführung in die Computerlinguistik,https://cms.sic.saarland/i2cl_2627/,Winter2026/27,ok,ics,33,2,2,timed,
+enum26,Einführung in die Numerik,https://cms.sic.saarland/enum26/,Winter2026/27,ok,ics,0,5,5,timed,
+edsai26,Elements of Data Science and Artificial Intelligence,https://cms.sic.saarland/edsai26/,Winter2026/27,ok,ics,113,6,6,timed,
+emlw26,Elements of Machine Learning,https://cms.sic.saarland/emlw26/,Winter2026/27,ok,ics,0,7,7,timed,
+emse_26,Empirical Software Engineering Research,https://cms.sic.saarland/emse_26/,Winter2026/27,ok,ics,44,0,0,excluded_or_unresolved,All public meetings areonline/asynchronous; excludeddefaultbusdemand.
+exml_2627,Explainable Machine Learning,https://cms.sic.saarland/exml_2627/,Winter2026/27,ok,ics,0,0,0,excluded_or_unresolved,"23Octintroonly; blockdatesTBA, no recurringphysicalpattern."
+fof_math_ws2627,Foundations of Mathematics,https://cms.sic.saarland/fof_math_ws2627/,Winter2026/27,ok,ics,0,0,0,excluded_or_unresolved,SeeLSF; no recurringtimingonCMSpageorcalendar.
+funcspaces26,Funktionenräume mit Anwendungen,https://cms.sic.saarland/funcspaces26/,Winter2026/27,ok,ics,0,1,1,timed,
+gdmi_2627,Grundlagen der Medieninformatik,https://cms.sic.saarland/gdmi_2627/,Winter2026/27,ok,ics,85,6,5,timed,
+gsv_ws2627,Grundlagen der Signalverarbeitung,https://cms.sic.saarland/gsv_ws2627/,Winter2026/27,ok,ics,0,2,2,timed,
+gis_2627,Grundlagen von Informatiksystemen,https://cms.sic.saarland/gis_2627/,Winter2026/27,ok,ics,17,1,1,timed,
+hfs_2627,Hilbert Function Spaces,https://cms.sic.saarland/hfs_2627/,Winter2026/27,ok,ics,0,2,2,timed,
+hmi32627,Höhere Mathematik für Ingenieure III,https://cms.sic.saarland/hmi32627/,Winter2026/27,ok,ics,0,10,10,timed,
+hci_2627,Human Computer Interaction,https://cms.sic.saarland/hci_2627/,Winter2026/27,ok,ics,146,11,11,timed,
+idi_26,Ideen der Informatik,https://cms.sic.saarland/idi_26/,Winter2026/27,ok,ics,18,1,1,timed,
+iam26,Image Acquisition Methods,https://cms.sic.saarland/iam26/,Winter2026/27,ok,ics,1,2,2,timed,
+probing_2627,Interpreting and Analyzing Neural Language Models,https://cms.sic.saarland/probing_2627/,Winter2026/27,ok,ics,0,0,0,excluded_or_unresolved,No CMS times; externalcurrentseminarpagecoveredbyseminarsresearcher.
+introalgdat2627,Introduction to Algorithms and Data Structures,https://cms.sic.saarland/introalgdat2627/,Winter2026/27,ok,ics,17,1,1,timed,
+ti2627,Introduction to Theoretical Computer Science,https://cms.sic.saarland/ti2627/,Winter2026/27,ok,ics,74,4,2,timed,
+llm4ps,Large Language Models for Physical Systems,https://cms.sic.saarland/llm4ps/,Winter2026/27,ok,ics,43,3,3,timed,
+life_w26,Life Insurance Mathematics,https://cms.sic.saarland/life_w26/,Winter2026/27,ok,ics,0,2,2,timed,
+la12627,Lineare Algebra 1,https://cms.sic.saarland/la12627/,Winter2026/27,ok,ics,0,10,10,timed,
+qit1_26,Mathematical Foundations of Quantum Information,https://cms.sic.saarland/qit1_26/,Winter2026/27,ok,ics,38,2,2,timed,
+mfi1_mfcs1_wise2627,Mathematics for Computer Scientists I,https://cms.sic.saarland/mfi1_mfcs1_wise2627/,Winter2026/27,ok,ics,282,17,2,timed,Lectures and optionalconsultationsmapped; smallgrouptutorialtimesnotpublicinroot/calendar.
+mfcs3_wise2627,Mathematics for Computer Scientists III,https://cms.sic.saarland/mfcs3_wise2627/,Winter2026/27,ok,ics,6,3,3,timed,Lectures/general tutorialmapped; smallgrouptutorialtimesrequirematerials/access.
+math_bio_chem_la26,Mathematik für Biologen und Chemiker (Lehramt),https://cms.sic.saarland/math_bio_chem_la26/,Winter2026/27,ok,ics,0,6,6,timed,
+mfn_i,Mathematik für Naturwissenschaftler I,https://cms.sic.saarland/mfn_i/,Winter2026/27,ok,ics,0,6,6,timed,
+natcomp,Natural Computing and Algorithms,https://cms.sic.saarland/natcomp/,Winter2026/27,ok,ics,0,1,1,timed,
+nnia_2627,Neural Networks: Implementation and Application (CoLI/LST students only!!!!),https://cms.sic.saarland/nnia_2627/,Winter2026/27,ok,ics,0,0,0,excluded_or_unresolved,"Start20Octandlocationonly; end/weeklytimeabsent; possible sharedNNTImeeting, donotdoublecount."
+nnti_2627,Neural Networks: Theory and Implementation,https://cms.sic.saarland/nnti_2627/,Winter2026/27,ok,ics,0,1,1,timed,
+ot_26,Optimal Transport,https://cms.sic.saarland/ot_26/,Winter2026/27,ok,ics,0,2,2,timed,
+oscar,OSCAR-Kurs,https://cms.sic.saarland/oscar/,Winter2026/27,ok,ics,0,1,1,timed,
+perspectives2627,Perspectives of Computer Science (WS 2026),https://cms.sic.saarland/perspectives2627/,Winter2026/27,ok,ics,0,1,1,timed,
+prog1_26,Programming 1,https://cms.sic.saarland/prog1_26/,Winter2026/27,ok,ics,117,8,5,timed,
+inteq,(Pro-)Seminar: Integralgleichungen,https://cms.sic.saarland/inteq/,Winter2026/27,ok,ics,12,1,1,timed,
+rmqi_2627,Random Matrices and Applications in Quantum Information,https://cms.sic.saarland/rmqi_2627/,Winter2026/27,ok,ics,0,2,2,timed,
+srl26,Representation Learning: Foundations and Challenges,https://cms.sic.saarland/srl26/,Winter2026/27,ok,ics,0,1,1,timed,
+komb26,Seminar Kombinatorik,https://cms.sic.saarland/komb26/,Winter2026/27,ok,ics,0,1,1,timed,
+matfunc26,Seminar: Matrixfunktionen,https://cms.sic.saarland/matfunc26/,Winter2026/27,ok,ics,0,0,0,excluded_or_unresolved,"15Octkickoff12:15; furtherThursdaysbyarrangement, noend/weeklypattern."
+underwater_2627,(Seminar) Real-Time Control of Underwater Robots,https://cms.sic.saarland/underwater_2627/,Winter2026/27,ok,ics,0,0,0,excluded_or_unresolved,No timed recurringmeetingspubliclyavailableonCMS.
+taip2627,Seminar: Trusted AI Planning,https://cms.sic.saarland/taip2627/,Winter2026/27,ok,ics,0,0,0,excluded_or_unresolved,Blockseminar;26Oct16–17kickoffonly; finalblockafterteachingperiodTBA.
+sem_agents_ak_w26,Seminar - Who does the science in the age of agents?,https://cms.sic.saarland/sem_agents_ak_w26/,Winter2026/27,ok,ics,14,1,1,timed,
+semstoch,Seminar zur Stochastik,https://cms.sic.saarland/semstoch/,Winter2026/27,ok,ics,9,1,1,timed,
+se_2627,Software Engineering,https://cms.sic.saarland/se_2627/,Winter2026/27,ok,ics,36,4,4,timed,
+statdc26,Statistical Data Compression,https://cms.sic.saarland/statdc26/,Winter2026/27,ok,ics,51,2,2,timed,
+statr_2627,Statistics with R,https://cms.sic.saarland/statr_2627/,Winter2026/27,ok,ics,123,8,8,timed,
+stoch2,Stochastics II,https://cms.sic.saarland/stoch2/,Winter2026/27,ok,ics,0,3,3,timed,
+structbioinf,Structural Bioinformatics,https://cms.sic.saarland/structbioinf/,Winter2026/27,ok,ics,0,0,0,excluded_or_unresolved,No timetable publiconCMS.
+theory_2627,Theoretical Abilities and Limitations of Language Models,https://cms.sic.saarland/theory_2627/,Winter2026/27,ok,ics,0,0,0,excluded_or_unresolved,CMSlinktextcurrent26buthrefprevious25; currentexternalpagecoveredbyseminarresearcher.
+tds2627,Tutor Didactics Seminar,https://cms.sic.saarland/tds2627/,Winter2026/27,ok,ics,0,0,0,excluded_or_unresolved,Block12–16Oct9–17alreadycompleted; notrecurrentafter26Oct.
+vgm,Visual Generative Models,https://cms.sic.saarland/vgm/,Winter2026/27,ok,ics,0,2,2,timed,

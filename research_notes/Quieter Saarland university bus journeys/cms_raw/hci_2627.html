@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Main Page	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="4231d285cf1947148cfee86aa34b2ec9a0b05a05@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Sic/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Sic/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Sic/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Sic/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Sic/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/hci_2627/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/hci_2627/../system" class="navbar-brand">Courses</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/hci_2627/">Main Page</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Information</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/hci_2627/termine/calendar/index">Timetable</a></li><li><a class="dropdown-item" href="/hci_2627/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/hci_2627/students/register">Registration</a></li><li class="nav-item"><a class="nav-link" href="/hci_2627/landing">Personal Status</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/hci_2627/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="43140261c74597bff10b28b0ffcf0b6f06c26cb89f0ddc7badb7b79f1e2dc3d5be4508f1e87c138fc97a3c537cd2d5cd5105982fa980ad5f4b4815380050cc38" id="Token45162512" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Username" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Password" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Remember me</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.sic.saarland/hci_2627/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="3605f3c0b4062a290e286a3638df2e503746fc90%3AUser.redirect" id="TokenFields82904329" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked317823380" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/hci_2627/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registration</a>        </li>
+        <li>
+            <a href="/hci_2627/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Forgot Password?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Enable dark mode            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Enable light mode            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/hci_2627/../system" class="site-logo" title="Front Page"><img src="/system/theme/Sic/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					Human Computer Interaction				</h1>
+				<div>
+				<small class="text-muted">
+					Prof. Dr. Jürgen Steimle				</small>
+					</div>
+				<div class="mt-2"><small class="text-muted fs-6">Core Lecture, 9 CP</small></div>			</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	
+<table class="table">
+	<colgroup>
+				<col span="1" style="width: auto;" />
+	</colgroup>
+	<tbody>
+	<tr>						<td class="align-top">
+				<a id="newsElement6"></a>
+				<h4 class="fs-5"><a href="/hci_2627/news/view/6">Tutorial Assignments</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="26.10.2026 08:53:34">26.10.26</span>						(last change on <span data-bs-toggle="tooltip" data-bs-title="26.10.2026 09:25:14">26.10.26</span>)						by David Wagmann					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse6">
+					<p>Hello all,</p>
+
+<p>Tutorial assignments are out now. <strong>You can now start to form teams of 3 people until the end of the week</strong>. We advise you to use the forum or the first tutorial to find team members.</p>
+
+<p><u><strong>I will auto-merge people who do not find a team in time, so it is in your own interest to find good&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse6" href="#newsElement6">Read more</a></strong></u></p>				</div>
+				<div class="collapse newsCollapse6">
+					<p>Hello all,</p>
+
+<p>Tutorial assignments are out now. <strong>You can now start to form teams of 3 people until the end of the week</strong>. We advise you to use the forum or the first tutorial to find team members.</p>
+
+<p><u><strong>I will auto-merge people who do not find a team in time, so it is in your own interest to find good partners before the deadline!</strong></u></p>
+
+<p><span style="background-color:#c0392b">Remember that team members must all be from the same tutorial!</span></p>
+
+<p>We know that for some students, preferences for tutorials might change within the first few weeks of the semester. Therefore, we support mutual tutorial swaps; i.e., if two students both agree that they want to swap tutorial slots. In that case, please write to&nbsp;hci2026@cs.uni-saarland.de.</p>
+
+<p><u><strong>UPDATE:</strong></u></p>
+
+<p>Bc I get flooded with mails: <strong>I am not taking any wishes or reservations whatsoever. YOU have to find a person to swap tutorials with and you write an email to me (with the other person in cc) and tell me that you want to swap. I am not finding another person for you!</strong></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>Best,</p>
+
+<p>David</p>
+				</div>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement5"></a>
+				<h4 class="fs-5"><a href="/hci_2627/news/view/5">Student Teams</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="23.10.2026 09:09:37">23.10.26</span>												by David Wagmann					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse5">
+					<p>Hi all,</p>
+
+<p>A note regarding student teams: Since <strong>all three team members must participate in the same tutorial</strong>, it doesn&#39;t make sense to put your team together just yet, since you don&#39;t know which tutorial each member will end up in. The normal plan was to do the tutorial assignment yesterday, but&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse5" href="#newsElement5">Read more</a></p>				</div>
+				<div class="collapse newsCollapse5">
+					<p>Hi all,</p>
+
+<p>A note regarding student teams: Since <strong>all three team members must participate in the same tutorial</strong>, it doesn&#39;t make sense to put your team together just yet, since you don&#39;t know which tutorial each member will end up in. The normal plan was to do the tutorial assignment yesterday, but because of the CMS outage, I will do the tutorial assignments by Monday. <strong><span style="background-color:#e74c3c">Note that I locked the team creation again and that I deleted the existing teams. This is not a bug!</span></strong></p>
+
+<p>Best,</p>
+
+<p>David</p>
+
+<p>&nbsp;</p>
+				</div>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement4"></a>
+				<h4 class="fs-5"><a href="/hci_2627/news/view/4">VERY URGENT - Last minute CMS registrations</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="22.10.2026 15:30:45">22.10.26</span>						(last change on <span data-bs-toggle="tooltip" data-bs-title="22.10.2026 15:31:53">22.10.26</span>)						by David Wagmann					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse4">
+					<p>Hello all,</p>
+
+<p>You probably all have heard about the php issues worldwide. Therefore, CMS might not have worked as intended in the past few days. Please, everyone, <strong>check if you are still registered in CMS</strong> and otherwise, contact&nbsp;hci2026@cs.uni-saarland.de</p>
+
+<p><strong><span style="background-color:#e74c3c">The deadline for this is by the end of&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse4" href="#newsElement4">Read more</a></span></strong></p>				</div>
+				<div class="collapse newsCollapse4">
+					<p>Hello all,</p>
+
+<p>You probably all have heard about the php issues worldwide. Therefore, CMS might not have worked as intended in the past few days. Please, everyone, <strong>check if you are still registered in CMS</strong> and otherwise, contact&nbsp;hci2026@cs.uni-saarland.de</p>
+
+<p><strong><span style="background-color:#e74c3c">The deadline for this is by the end of tomorrow: 23th October 23:59.</span></strong></p>
+
+<p>Please tell your fellow students to check this asap.</p>
+
+<p>Best,</p>
+
+<p>David</p>
+				</div>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement3"></a>
+				<h4 class="fs-5"><a href="/hci_2627/news/view/3">Readings</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="19.10.2026 09:07:38">19.10.26</span>												by David Wagmann					</i></small>
+				</p>
+
+									<p>Dear all,</p>
+
+<p>This week, there won&#39;t be a lecture on Tuesday. Instead, please <strong>read </strong>the provided sections of <strong>Norman&#39;s Design of Everyday Things</strong> (Information &lt; Materials &lt; Other Material)</p>
+
+<p>Best,</p>
+
+<p>David</p>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement2"></a>
+				<h4 class="fs-5"><a href="/hci_2627/news/view/2">LSF Admittance</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="16.10.2026 14:42:49">16.10.26</span>						(last change on <span data-bs-toggle="tooltip" data-bs-title="16.10.2026 14:43:32">16.10.26</span>)						by David Wagmann					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse2">
+					<p>Since I receive a lot of emails:</p>
+
+<p>If your LSF mentions any of the following, then&nbsp;<u><strong>you have a slot for the course</strong>:</u></p>
+
+<p><span style="color:#27ae60">- Admitted</span></p>
+
+<p><span style="color:#27ae60">- Accepted</span></p>
+
+<p><span style="color:#27ae60">- Zugelassen</span></p>
+
+<p>If there is something similar to <strong><span style="color:#f39c12">rejected </span><u>you are not in</u></strong>, but might get a slot through the waiting list.</p>
+
+<p><strong>Please share this information&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse2" href="#newsElement2">Read more</a></strong></p>				</div>
+				<div class="collapse newsCollapse2">
+					<p>Since I receive a lot of emails:</p>
+
+<p>If your LSF mentions any of the following, then&nbsp;<u><strong>you have a slot for the course</strong>:</u></p>
+
+<p><span style="color:#27ae60">- Admitted</span></p>
+
+<p><span style="color:#27ae60">- Accepted</span></p>
+
+<p><span style="color:#27ae60">- Zugelassen</span></p>
+
+<p>If there is something similar to <strong><span style="color:#f39c12">rejected </span><u>you are not in</u></strong>, but might get a slot through the waiting list.</p>
+
+<p><strong>Please share this information among your fellow students!</strong></p>
+
+<p>Best,</p>
+
+<p>David</p>
+				</div>
+							</td>
+		</tr>		
+	<tr class="collapse news-hidden">						<td class="align-top">
+				<a id="newsElement1"></a>
+				<h4 class="fs-5"><a href="/hci_2627/news/view/1">CMS registration is open now!</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="15.10.2026 09:47:31">15.10.26</span>						(last change on <span data-bs-toggle="tooltip" data-bs-title="15.10.2026 12:25:04">15.10.26</span>)						by David Wagmann					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse1">
+					<p>Everyone who got a slot through the LSF, the waiting list, or does a project transfer <u><strong>MUST</strong></u> register on CMS to take the course.</p>
+
+<p>If you transfer your project from last year, you only write the exam and do not make submissions/attend tutorials. But the CMS still asks you for your tutorial preferences&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse1" href="#newsElement1">Read more</a></p>				</div>
+				<div class="collapse newsCollapse1">
+					<p>Everyone who got a slot through the LSF, the waiting list, or does a project transfer <u><strong>MUST</strong></u> register on CMS to take the course.</p>
+
+<p>If you transfer your project from last year, you only write the exam and do not make submissions/attend tutorials. But the CMS still asks you for your tutorial preferences during registration. Please just ignore this (i.e., give any preference). We will filter you out.</p>
+
+<p>&nbsp;</p>
+
+<p>Best,</p>
+
+<p>David</p>
+				</div>
+							</td>
+		</tr>		
+		</tbody>
+</table>
+
+<a data-bs-toggle="collapse" data-bs-target=".news-hidden" class="btn btn-secondary transitions-none show news-hidden"><i class="fa fa-list fa-fw"></i> Show all</a></section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<p>The first class starts on <strong>Tuesday, 13 October 2026, 10:15-12:00 (</strong>Building E1 3 &ndash; Lecture Hall 2<strong>).</strong></p>
+
+<p><strong>Important new admission requirements</strong></p>
+
+<p>The number of participants has increased significantly in recent years. Due to the extensive practical project that is part of the course, we are unfortunately unable to increase this number any further. We therefore have to limit the number of participants to 250. All students who wish to enroll in this course must&nbsp;<strong>register on LSF no later than October 13, 2026 at 23:59 CEST</strong>.</p>
+
+<p>For students of the BSc program in Media Informatics: Since this is a compulsory course, you are guaranteed a place if you register on LSF before the deadline. If you have not registered by the deadline, we cannot admit you. For students in all other programs: If more students register for the course than there are places available, the remaining places will be allocated at <strong>random among all students who have<u> registered on LSF</u></strong>. The results of the allocation will be available on LSF by October 16.<strong> If you have been allocated a place on the course, you must submit your preferences for the tutorials <u>on CMS</u></strong> by October 20 at 23:59 CEST.</p>
+
+<p>The registration will open in the first week of the course.</p>
+
+<p><span style="background-color:#e74c3c">Important:</span></p>
+
+<ul>
+	<li>Please do <u><strong>NOT </strong></u>register on CMS if you have not been assigned a place through the LSF. Without LSF admittance, you are not allowed to take the course.</li>
+	<li>If you got the LSF admittance but do not sign up in CMS in time, you are <u><strong>NOT</strong></u>&nbsp;allowed to take the course either!</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><strong>Registration Deadline for Tutorials and Exercise Groups: 20 October 2026, 23:59.</strong></p>
+
+<p><strong>Note:&nbsp;</strong>We will upload videos from the last online iteration of this lecture. These will serve as additional learning material.&nbsp;<br />
+Nevertheless,&nbsp;<strong>only&nbsp;the content of the on-site lecture is relevant for the exam.</strong>&nbsp;The online videos may differ from this.</p>
+
+<p>For urgent questions, please contact&nbsp;<a href="mailto:hci2026@cs.uni-saarland.de">David Wagmann</a><strong>.</strong></p>
+
+<h2>Description</h2>
+
+<p>This course teaches the theoretical and practical foundations for human computer interaction. It covers a wide overview of topics, techniques and approaches used for the design and evaluation of modern user interfaces.</p>
+
+<p>The course covers the principles that underlie successful user interfaces, provides an overview of input and output devices and user interface types, and familiarizes students with the methods for designing and evaluating user interfaces. Students learn to critically assess user interfaces, to design user interfaces themselves, and to evaluate them in empirical studies.</p>
+
+<p><strong>Topics:</strong></p>
+
+<ul>
+	<li>Fundamentals of human-computer interaction</li>
+	<li>User interface paradigms, input and output devices</li>
+	<li>Desktop &amp; graphical user interfaces</li>
+	<li>Mobile user interfaces</li>
+	<li>Natural user interfaces</li>
+	<li>User-centered interaction design</li>
+	<li>Design principles and guidelines</li>
+	<li>Prototyping</li>
+	<li>Evaluation of user interfaces</li>
+</ul>
+
+<h2>Eligibility</h2>
+
+<p><strong>This lecture replaces the UID lecture.</strong>&nbsp;Therefore students who successfully completed UID will not be allowed to take the lecture.</p>
+
+<p><strong>Transfer of credit from previous semesters:</strong></p>
+
+<ul>
+	<li><em>&ldquo;I have successfully completed the exercises and projects of&nbsp;<strong>HCI last year</strong>, but have not passed the final exam. Can I just write the exam?&rdquo;</em><br />
+	Yes you can transfer your exercises and projects from HCI&nbsp;in winter term 2025/26 to HCI in winter term 2026/27, so you do not have to hand in exercises and project assignments a second time.&nbsp;&nbsp;Please contact&nbsp;<a href="mailto:hci2026@cs.uni-saarland.de">David Wagmann</a>&nbsp;before&nbsp;<strong>October 16&nbsp;2026, 23:59.</strong></li>
+	<li>You cannot transfer partial grades from previous HCI or UID lectures.</li>
+</ul>
+
+<p>Details on the grading scheme will be announced in the first lecture.</p>
+
+<h2>Literature</h2>
+
+<p>The lecture will be based on the book:<br />
+<em>Interaction Design: Beyond Human-Computer Interaction (Rogers et al, 3rd ed.)</em></p>
+
+<p>Additional literature:</p>
+
+<ul>
+	<li>Shneiderman, B., Plaisant, C.: Designing the User Interface, Pearson, 5<sup>th</sup>&nbsp;ed.</li>
+	<li>Butz, A., Kr&uuml;ger, A.: Mensch-Maschine-Interaktion, De Gruyter</li>
+	<li>Preim, B., Dachselt, R.: Interaktive Systeme, Springer, 2<sup>nd</sup>&nbsp;edition (two volumes)</li>
+	<li>Dix, A.: Human-Computer Interaction, Pearson, 3<sup>rd</sup>&nbsp;edition</li>
+</ul>
+
+<p>All books are available in the library (paper copy, some of them also electronic, see here&nbsp;<a href="http://www.infomath-bib.de/tmp/vorlesungen/info-core_human-computer-interaction.html" rel="noopener" target="_blank">http://www.infomath-bib.de/tmp/vorlesungen/info-core_human-computer-interaction.html</a>).</p>
+
+<h2>Materials</h2>
+
+<p>Slides, assignments, and videos will be made available online in CMS.</p>
+
+<p>&nbsp;</p>
+
+<h2>Exams</h2>
+
+<p>Main exam: 10 February 2027, 14:00 (sharp!)</p>
+
+<p>Re-exam: 11 March&nbsp; 2027, 10:00 (sharp!)</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Lecturer</strong><br />
+<a href="https://hci.cs.uni-saarland.de/people/juergen-steimle/" rel="noopener noreferrer" target="_blank">Prof. Dr. J&uuml;rgen Steimle</a></p>
+
+<p><strong>Tutorials and Organization</strong></p>
+
+<p><a href="mailto:hci2026@cs.uni-saarland.de">David Wagmann</a></p>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/en/privacy.html" target="_blank">Privacy Policy</a> | <a href="https://www.uni-saarland.de/en/legal-notice.html" target="_blank">Legal Notice</a><br/>
+	If you encounter technical problems, please contact <a href="mailto:cakecms@cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">the administrators</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

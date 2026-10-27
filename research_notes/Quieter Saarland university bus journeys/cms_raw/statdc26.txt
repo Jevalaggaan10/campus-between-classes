@@ -1,0 +1,124 @@
+Main Page
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Statistical Data Compression
+Kamila Szewczyk &
+Prof. Dr. Sven Rahmann
+Advanced lecture V2+Ü2 [6 ECTS credits]
+Registration for this course
+is open until
+Thursday, 19.11.2026 23:59
+.
+News
+Today's Materials
+Written on
+14.10.26
+(last change on
+14.10.26
+)						by Kamila Szewczyk
+Dear Students,
+I will soon upload a partial recording of the first lecture. Sadly it's not very good and does not include the tutorial. We will try to fix this for the upcoming lecture recordings.
+I have also uploaded the example code from the tutorial. Feel free to put your (faster/alternative)…
+Read more
+Dear Students,
+I will soon upload a partial recording of the first lecture. Sadly it's not very good and does not include the tutorial. We will try to fix this for the upcoming lecture recordings.
+I have also uploaded the example code from the tutorial. Feel free to put your (faster/alternative) solutions on the forums and discuss :-). I am also open to feedback either through the anonymous feedback option or the forums.
+Thank you for attending and I hope to see you tomorrow again!
+Statistical Data Compression
+Advanced lecture with theoretical and practical exercises, V2+Ü2, for Computer Science and related programs.
+Prerequisites
+Solid foundations of
+mathematics and probability
+(MInf1 - Minf3 or equivalent);
+Solid
+programming
+skills (Prog2 or equivalent is sufficient).
+Some familiarity with
+algorithms
+(e.g. Heaps, BWT, suffix arrays, Bloom filters) is beneficial. That said, we will offer a quick refresher on relevant algorithms at the start of the semester.
+Credits
+6 ECTS credits
+Required time
+V2+Ü2 (2 hours of lectures, 2 hours of tutorials per week)
+Language
+English
+Final Exam
+written; need to have passed midterm to take part. Course failed if failed. If passed, 70% of your grade.
+Midterm Exam
+mandatory to pass to qualify for final exam. If passed, 30% of your grade.
+25 Nov 2026 14:00 - 16:00 s.t.
+(please arrive at least 15 minutes early).
+Registration
+Click on Registration in the menu header
+Details
+Materials will be available after registration under Information > Materials
+Times
+Sessions:
+Wednesdays and Thursdays, 14:00 - 16:00 c.t., HS II E2.5.
+Each session will be split between lecture and tutorial components with a break in between.
+Office Hours:
+by appointment
+Mode
+Lecture in presence
+Link
+https://cms.sic.saarland/statdc26/
+Instructor
+Kamila Szewczyk
+Examiner
+Prof. Dr. Sven Rahmann
+Please verify with your exam office if you can get ECTS credit for this course if you are not studying one of the following programs:
+Computer Science (B.Sc and M.Sc)
+Bioinformatics (M.Sc)
+Mathematics and Computer Science (B.Sc, M.Sc)
+Data Science and AI (B.Sc, M.Sc)
+Mediainformatics (B.Sc, M.Sc)
+Embedded Systems (M. Sc)
+Enterpreneurial Cybersecurity (M. Sc)
+Quantum Information Theory (M.Sc)
+Lehramt Informatik
+Content Overview
+Basic notions of information theory
+Review of string algorithms (suffix arrays, Burrows-Wheeler Transform BWT)
+Optimal prefix codes (e.g. Huffman codes)
+Optimal codes (arithmetic coding)
+Asymmetric numeral systems (rANS, tANS)
+Lempel-Ziv factoring and compression (LZ77, LZ78, LZP/ROLZ)
+LZ match finding algorithms
+Adaptive range coding
+Introduction to Prediction by Partial Matching (PPM)
+Context-adaptive binary arithmetic coding
+Dynamic Markov coding
+Advanced techniques im PPM (information inheritance, secondary escape estimation, low order estimation)
+Advanced low-order bitwise models (indirect, finite state machines)
+Linear/logistic context mixing
+Non-linear post-mixing maps (adaptive probability maps, APM)
+Symbol ranking (SR); move-to-front (MTF), quantised local-frequency coding (QLFC)
+BWT post-coding techniques
+Parsing optimization for context mixing (PAQ9A)
+PAQ8 architecture
+Compression via large language models (LLMs)
+Neural network mixing
+Case study: DNA compression
+Target audience
+This course is offered as an advanced / specialized lecture at UdS.
+It should be taken later in the B.Sc. program or any time in the M.Sc. program.
+The material requires good mathematical knowledge (probabilities!) and low-level programming skill (you need to know your hardware).
+Good programming languages to know would be C, Rust or C++, for example.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

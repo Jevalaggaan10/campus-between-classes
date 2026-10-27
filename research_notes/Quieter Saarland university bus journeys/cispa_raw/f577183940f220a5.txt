@@ -1,0 +1,92 @@
+Hauptseite
+Systems Security
+Ali Abbasi, Moritz Schloegel
+Sorry, but the limit for this course is reached (170 students)!
+You cannot register for this course anymore.
+News
+First lecture tomorrow at 14:15: limited seats, Zoom available
+Written on
+22.10.26
+by Ali Abbasi
+Hi everyone,
+Welcome to Systems Security.
+This is a reminder that the first lecture takes place tomorrow at 14:00 c.t. The lecture will start at 14:15.
+Please note that the lecture hall at CISPA (C0, Lecture Hall 0.05) seats only 90 people. We currently have 200 registrations for this course…
+Read more
+Hi everyone,
+Welcome to Systems Security.
+This is a reminder that the first lecture takes place tomorrow at 14:00 c.t. The lecture will start at 14:15.
+Please note that the lecture hall at CISPA (C0, Lecture Hall 0.05) seats only 90 people. We currently have 200 registrations for this course of which 170 are from UdS. I therefore ask some of you to join the lecture online instead of attending in person. We will add a Zoom link to the “Information” menu on the course’s CMS page tomorrow.
+Cheers,
+Ali
+About the course
+In this course, important theoretical and practical aspects from the area of systems security are presented and discussed. The focus is on various aspects of software security and program analysis. Beyond reverse engineering, we discuss important attack methods (e.g.,
+buffer overflows
+,
+use-after-free
+,
+heap overflows
+, etc.) as well as defense strategies (e.g.,
+non-executable memory
+,
+Address Space Layout Randomization,
+memory tagging
+, etc.). Other topics of the lecture are fuzzing, symbolic execution, obfuscation, and similar aspects of systems security.
+At the end of the course, students should be able to analyze security aspects of various types of software systems, detect vulnerabilities in the design and implementation, and independently develop security mechanisms. An important part of the course are exercises, which illustrate and deepen the material with practical examples.
+Prerequisites
+There are no formal prerequisites for this course. However, if you want to participate, please take the following aspects into account:
+You should have experience in systems-oriented programming. In particular, you should have experience with the C programming language (analyzed programs are written in C) and Python (which we use for exploit scripts).
+You should have a basic understanding of operating systems (e.g., memory management, scheduling, etc.).
+You should be familiar with Linux, as the exercises are Linux-based.
+You should be familiar with the command-line and, in particular, SSH connections, which are required to access the remote exercise framework.
+A background in security is also an advantage (e.g., prior participation in the
+Foundations of Cybersecurity
+lecture or
+Security
+core lecture). However, we will also cover several relevant aspects as part of the lectures.
+Time and Location
+Lectures: every Friday 14:00 to 16:00, starting 23 Oct 2026
+Tutorial start: every Monday 14:00 to 16:00, starting 26 Oct 2026
+Lecture/tutorial location: Lecture hall 0.05 in c0 (CISPA main building on UdS campus) or online via Zoom (Information -> Zoom Link)
+Grading
+To pass the course, you must score at least 50% on the final exam. In the final exam, you can reach 100 points, so you need to achieve at least 50 points in the final exam to pass the course. To be admitted to the exam, you must pass the midterm exam and pass the assignments. Your final grade is based only on your exam result. You can find more details below:
+Tutorials
+We offer weekly tutorials (every Monday, 14:00 to 16:00) that primarily consist of "pen-and-paper"-style exercises. Some tutorials may include practical components using a remote environment, so we recommend you bring a laptop if you attend in person.
+The tutorials are designed to deepen your understanding of the lecture material and prepare you for the assignments and exams. You can also ask questions about on-going assignments, and the tutor will briefly introduce new assignments or discuss the solutions of completed ones.
+We strongly recommend you attend the tutorials.
+Assignments
+During the semester there will be six assignment sheets containing a total of 20
+Capture-The-Flag (CTF)
+-style challenges.
+You must solve at least 14 of the 20 challenges to be admitted to the exam.
+The assignments focus on the practical application of concepts and techniques covered in the lectures. Typical challenges involve analyzing a binary or exploiting a vulnerability to extract a secret flag. We strongly encourage you to attempt all challenges, as they provide valuable hands-on experience and help deepen your understanding of the lecture material.
+Assignments must be completed
+individually
+, group work is not permitted. All challenges are solved and submitted directly within a remote environment, which provides the necessary tools and materials. We will provide more information in the first tutorial.
+Strict no cheating policy
+You may discuss general concepts related to assignments with other students, but you must solve challenges independently. Sharing solutions, code, flags, or detailed solution steps is not permitted. Your solutions must be your own and must not be copied from other students or external sources. All submissions will be automatically checked for plagiarism and unauthorized collaboration. Any challenge for which we identify cheating or plagiarism will receive zero points. If you get stuck, you can ask questions in the forum or participate in the tutorial lessons. We invite you to help fellow students who have asked questions, but avoid giving away the solution. Nobody likes spoilers :)
+Strict no AI / LLM policy
+You are expected to solve assignments on your own without the help of AI or LLMs, unless explicitly permitted for a particular challenge. This includes using AI/LLMs to generate solutions, code, hints, or answers to the challenges. Unauthorized AI/LLM use is considered cheating and will result in zero points for the challenge, as per the no-cheating policy.
+Solutions
+We will publish solutions for all assignments after their deadlines. They will be relatively concise in nature and may not answer all your questions. If anything remains unclear, we recommend using the forum or attending the tutorials.
+Midterm Exam
+On December 11, we will hold a midterm exam during the lecture slot. Physical attendance is required, and we will announce further details such as the rooms soon. The midterm will cover all material up to and including Lecture 6 and consist of both theoretical questions and practical questions. The theoretical questions will cover concepts introduced in the lecture or tutorials, including material discussed during these sessions that may not explicitly appear on the slides. The practical questions will be similar in principle to the assignments, but their complexity will be adjusted to fit the available exam time (e.g., you will not be expected to implement lengthy pieces of assembly code). All questions will be in English, but you may answer in either German or English. No lecture notes or other materials are permitted during the midterm. All materials required to solve the practical questions will be provided.
+Passing the midterm is required for admission to the final exam. To pass the midterm, you must achieve at least 50% of the available points.
+Written Exam
+At the end of the semester, there will be a written exam and a re-exam. The dates will be announced by the end of October. Physical attendance is required for both exams.
+To be admitted to the exam, you need to solve 14 out of the 20 challenges on the remote environment and pass the midterm.
+The exam will consist of both theoretical questions and practical questions. The theoretical questions will cover concepts introduced in the lectures and tutorials, including material discussed during these sessions that may not explicitly appear on the slides. The practical questions will be similar in principle to the assignments, but their complexity will be adjusted to fit the available exam time (e.g., you will not be expected to implement lengthy pieces of assembly code).
+All questions will be in English, but you may answer in either English or German. No lecture notes or other materials are permitted during the exam. All materials required to solve the practical questions will be provided.
+To pass the course, you must achieve at least 50% of the available points on the written exam. Your final grade is determined exclusively by your written exam result.
+The end-term exam will take place on
+February 12, 9:30am to 11:30am.
+The re-exam will take place on
+March 18, 9:30am to 11:30am.
+Registration
+Register for the course here in the CISPA CMS.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

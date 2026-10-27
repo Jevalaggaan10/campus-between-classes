@@ -1,0 +1,38 @@
+Main Page
+(Seminar) Real-Time Control of Underwater Robots
+Martina Maggio
+News
+Currently, no news are available
+(Seminar) Real-Time Control of Underwater Robots
+Underwater robots operate in one of the most demanding settings in all of robotics. There is no GPS to localise them, the hydrodynamic forces acting on them are strongly nonlinear and only partially known, and disturbances are everywhere: underwater currents, surface waves, and buoyancy that shifts with salinity and payload. On top of this, the vehicle must make every decision on its own, in real time, on limited onboard hardware. The distance between an elegant controller on paper and one that actually keeps a robot on course in the water is large, and bridging it is a genuinely open and active research problem.
+This seminar examines how that gap is being closed. Through a set of papers, spanning foundational work from the 2010s to results from the last two years, we will study the control methods that let autonomous underwater vehicles (AUVs), remotely operated vehicles (ROVs), and vehicle–manipulator systems hold position, track trajectories, and stay safe despite uncertainty and disturbance.
+The papers form a coherent arc across the main families of approaches:
+Robust and adaptive control
+: classical feedback designs that remain stable when the vehicle model is inaccurate, which underwater it always is.
+Predictive control
+: methods that anticipate future disturbances and plan control actions over a horizon, including for docking and manipulation tasks.
+Safety-critical control
+: techniques that provide formal guarantees a vehicle will not violate safety constraints, for example when operating close to a structure.
+Learning-based control
+(possibly, depending on the number of participants): recent reinforcement-learning and sim-to-real approaches, where policies are trained in simulation and transferred to real vehicles, and where learning is combined with classical control architectures.
+Throughout, the methods are tied to real platforms and tasks: AUVs validated in open water, an ROV cleaning an offshore monopile, a vehicle docking with a moving station, and an underactuated AUV performing agile manoeuvres near a glacier front.
+However, this is not only a literature review. Our concrete aim is to identify a few control methods that we can realistically implement on our own ROV (a vehicle that is currently operated manually and that we would like to turn into an automated system). The seminar therefore doubles as the groundwork for a real implementation decision: by the end, the group should be able to argue, on the basis of the literature, which approaches are the most promising candidates to put into practice.
+The seminar follows a scientific-discussion model in which we collectively build an understanding of the field and its related work:
+Introductory session.
+We give an overview of the topics, discuss how the papers fit together, and assign one paper to each student.
+Presentations.
+Each student reads their assigned papers in depth and prepares a presentation explaining the problem they address, their core idea, and their results.
+Prepared discussion.
+For every presentation, the other students read the same paper in advance and prepare questions.
+Each session is therefore a genuine scientific discussion rather than a one-way talk. By participating, you will learn how to read and critically assess a research paper, how to identify the key idea behind a technical contribution, and how to present and defend it in front of others, while contributing to a shared practical goal.
+Attendance is mandatory.
+Prerequisites
+: Curiosity about robotics and control, and a basic mathematical background, are sufficient. The core lecture
+cyber-physical systems
+is a plus. No prior experience with underwater robotics is required.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

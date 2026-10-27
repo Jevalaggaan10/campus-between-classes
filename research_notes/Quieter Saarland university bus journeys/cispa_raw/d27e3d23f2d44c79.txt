@@ -1,0 +1,102 @@
+Syllabus
+Topics in Privacy-Preserving Machine Learning and Optimization
+Andrew Lowy
+News
+Currently, no news are available
+Seminar: Topics in Privacy-Preserving Machine Learning and Optimization
+Machine learning systems increasingly rely on sensitive personal data, raising fundamental questions about privacy and data governance. Regulations such as the GDPR and the EU AI Act motivate both the development of learning algorithms with rigorous privacy guarantees and the ability to remove individuals’ data from trained models (“machine unlearning”).
+This seminar explores modern research in
+differentially private optimization and machine learning
+, focusing on both foundational results and recent advances. We will study core concepts in differential privacy and optimization, fundamental tradeoffs between privacy and accuracy, and algorithmic techniques for private optimization and learning.
+In addition, the seminar will cover recent research on
+machine unlearning
+, which investigates how trained models can efficiently forget individual data points, and how this problem relates to—but is distinct from—differentially private learning.
+The seminar is based on a mix of foundational papers and recent research publications.
+Requirements
+Students are expected to have a solid command of probability theory and multivariable calculus. Comfort with mathematical proofs and theoretical arguments is strongly recommended. Familiarity with convex optimization or learning theory is helpful but not required.
+Preference will be given to Master’s students in Computer Science or related fields with a convincing motivation.
+Places:
+14
+Organization
+In this seminar, students will learn to read, present, discuss, and synthesize research papers in privacy-preserving machine learning, optimization, and machine unlearning. The seminar consists of three phases:
+1. Introductory lectures on fundamentals (TBA)
+At the beginning of the seminar, a small number of lectures will introduce the key concepts in differential privacy and optimization needed for the seminar.
+2. Independent reading phase (TBA)
+Students will work independently on their assigned topics, read and review research papers, and prepare their presentations and seminar papers. A short paper review will be due during this phase.
+3. Block seminar with student presentations (TBA)
+Student presentations will be grouped into a block seminar held over 1–3 days in person.
+Each student will be assigned one topic consisting of two related papers. Topics cover both foundational results and recent advances in differentially private optimization and machine unlearning.
+Important Dates
+Kick-off meeting & introductory lectures:
+TBA
+Independent reading phase:
+TBA
+LSF/HISPOS registration deadline:
+TBA. The seminar cannot be graded if you miss the registration deadline.
+Short paper review due:
+TBA
+Block seminar (presentations): TBA
+Submission of seminar paper:
+TBA
+Students should keep the full presentation block available. The final daily schedule will be announced after topics are assigned; depending on the number of presentations, not all reserved time may be used.
+Deliverables and Grading
+Each student will complete the following:
+1. Short Paper Review (1 page, 10%)
+Each student will write a short review of a paper from another topic (not their own topic). The reviewed paper must be selected from the list of papers assigned to seminar topics.
+The review should address:
+What is the problem addressed by the paper?
+What was known before, and how does the paper improve on previous work?
+What are the main strengths and limitations of the paper?
+Which parts were difficult to understand?
+What are possible extensions or open questions?
+The short paper review is due on
+TBA
+.
+2. Presentation (45%)
+Each student will prepare and deliver a
+~20-minute presentation
+(plus 10 minutes for discussion) on their assigned topic (based on the two assigned papers). For selected topics, slightly longer presentations may be scheduled.
+Presentations should:
+explain the problem setting and motivation,
+summarize the main ideas and results,
+provide intuition for the algorithms, techniques, and proofs,
+discuss limitations and open research directions.
+Students will have the opportunity to receive feedback on their slides before the presentation.
+3. Seminar Paper (35%)
+Each student will write a seminar paper (maximum 6 pages, excluding references and appendices) on their assigned topic. The content should be aligned with the presentation but covered in more depth.
+The seminar paper should:
+provide a coherent exposition of the topic,
+synthesize the main ideas of the assigned papers,
+interpret the results and explain the algorithms and proofs,
+and discuss connections to other works, alternative proofs, extensions, limitations, open problems, or future research directions.
+4. Participation (10%)
+Active participation in seminar discussions is expected. Students are encouraged to ask questions, provide feedback to presenters, and engage critically with the material.
+Background Lectures
+The seminar begins with a small number of introductory lectures covering the foundations needed for the student presentations:
+Lecture 1:
+Foundations of Differential Privacy
+Lecture 2:
+Foundations of Optimization
+Lecture 3:
+Foundations of Differentially Private Optimization
+Lecture 4:
+Machine Unlearning
+Further details and references will be provided on the course website.
+Policy on Generative AI Tools
+The goal of this seminar is for students to develop their own ability to read, understand, critically discuss, explain and present research papers. For this reason, the use of generative AI tools is
+not permitted for producing, revising, polishing, or structuring submitted work
+.
+Students may use generative AI tools
+only
+for asking general background questions about standard concepts, such as definitions or basic examples. Students may not use such tools to summarize assigned papers, explain proofs from assigned papers, generate reviews, generate critiques, suggest open problems, write or revise seminar paper text, create or revise presentation slides, or improve the wording or structure of submitted work.
+Students also may
+not
+upload assigned papers, their own drafts, or presentation slides to generative AI tools for analysis, summarization, rewriting, or feedback.
+Each submitted written assignment must include a short AI-use statement. If no generative AI tools were used, students should state this explicitly. If generative AI tools were used for permitted background questions, students should briefly state which tool was used and for what type of background question.
+Students are fully responsible for the correctness and originality of all submitted work and must be able to explain and defend their work orally. Undisclosed or inappropriate use of generative AI tools may be treated as academic misconduct and may result in a failing course grade.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

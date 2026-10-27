@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Syllabus	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="300c92296ba275f6ef119c2f4d421cdb55afc9be@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Cispa/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/theme/Cispa/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Cispa/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Cispa/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Cispa/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Cispa/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Cispa/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Cispa/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/ppmlo2627/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/ppmlo2627/../system" class="navbar-brand">CMS</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/ppmlo2627/">Main Page</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Information</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/ppmlo2627/termine/calendar/index">Timetable</a></li><li><a class="dropdown-item" href="/ppmlo2627/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/ppmlo2627/students/register">Registration</a></li><li class="nav-item"><a class="nav-link" href="/ppmlo2627/landing">Personal Status</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/ppmlo2627/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="b9f6142cfbddf7bebbeef02e0110c04fa5180391965fefbfb3ddef99757a4c0153ce042daef685c02526c01db5d975ce09dbd17f5e485a7e4efd1d48deca4686" id="Token2135898639" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Username" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Password" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Remember me</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.cispa.saarland/ppmlo2627/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="753f7368f1b354657774bccb8bfb2298e72ac13b%3AUser.redirect" id="TokenFields899609951" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked1165898797" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/ppmlo2627/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registration</a>        </li>
+        <li>
+            <a href="/ppmlo2627/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Forgot Password?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Enable dark mode            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Enable light mode            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/ppmlo2627/../system" class="site-logo" title="Front Page"><img src="/system/theme/Cispa/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					Topics in Privacy-Preserving Machine Learning and Optimization				</h1>
+				<div>
+				<small class="text-muted">
+					Andrew Lowy				</small>
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	<p><i class="text-muted">Currently, no news are available</i></p></section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<p><strong>Seminar: Topics in Privacy-Preserving Machine Learning and Optimization</strong></p>
+
+<p>Machine learning systems increasingly rely on sensitive personal data, raising fundamental questions about privacy and data governance. Regulations such as the GDPR and the EU AI Act motivate both the development of learning algorithms with rigorous privacy guarantees and the ability to remove individuals&rsquo; data from trained models (&ldquo;machine unlearning&rdquo;).</p>
+
+<p>This seminar explores modern research in <strong>differentially private optimization and machine learning</strong>, focusing on both foundational results and recent advances. We will study core concepts in differential privacy and optimization, fundamental tradeoffs between privacy and accuracy, and algorithmic techniques for private optimization and learning.</p>
+
+<p>In addition, the seminar will cover recent research on <strong>machine unlearning</strong>, which investigates how trained models can efficiently forget individual data points, and how this problem relates to&mdash;but is distinct from&mdash;differentially private learning.</p>
+
+<p>The seminar is based on a mix of foundational papers and recent research publications.</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Requirements</strong></p>
+
+<p>Students are expected to have a solid command of probability theory and multivariable calculus. Comfort with mathematical proofs and theoretical arguments is strongly recommended. Familiarity with convex optimization or learning theory is helpful but not required.</p>
+
+<p>Preference will be given to Master&rsquo;s students in Computer Science or related fields with a convincing motivation.</p>
+
+<p><strong>Places:</strong> 14</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Organization</strong></p>
+
+<p>In this seminar, students will learn to read, present, discuss, and synthesize research papers in privacy-preserving machine learning, optimization, and machine unlearning. The seminar consists of three phases:</p>
+
+<p><strong>1. Introductory lectures on fundamentals (TBA)</strong><br />
+At the beginning of the seminar, a small number of lectures will introduce the key concepts in differential privacy and optimization needed for the seminar.</p>
+
+<p><strong>2. Independent reading phase (TBA)</strong><br />
+Students will work independently on their assigned topics, read and review research papers, and prepare their presentations and seminar papers. A short paper review will be due during this phase.</p>
+
+<p><strong>3. Block seminar with student presentations (TBA)</strong><br />
+Student presentations will be grouped into a block seminar held over 1&ndash;3 days in person.</p>
+
+<p>Each student will be assigned one topic consisting of two related papers. Topics cover both foundational results and recent advances in differentially private optimization and machine unlearning.</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Important Dates</strong></p>
+
+<ul>
+	<li><strong>Kick-off meeting &amp; introductory lectures:</strong>&nbsp;<strong>TBA</strong></li>
+	<li><strong>Independent reading phase:</strong>&nbsp;TBA</li>
+	<li><strong>LSF/HISPOS registration deadline: </strong>TBA. The seminar cannot be graded if you miss the registration deadline.</li>
+	<li><strong>Short paper review due:</strong> TBA</li>
+	<li><strong>Block seminar (presentations): TBA</strong></li>
+	<li><strong>Submission of seminar paper:</strong> TBA</li>
+</ul>
+
+<p>Students should keep the full presentation block available. The final daily schedule will be announced after topics are assigned; depending on the number of presentations, not all reserved time may be used.</p>
+
+<p><strong>Deliverables and Grading</strong></p>
+
+<p>Each student will complete the following:</p>
+
+<p><strong>1. Short Paper Review (1 page, 10%)</strong></p>
+
+<p>Each student will write a short review of a paper from another topic (not their own topic). The reviewed paper must be selected from the list of papers assigned to seminar topics.</p>
+
+<p>The review should address:</p>
+
+<ul>
+	<li>What is the problem addressed by the paper?</li>
+	<li>What was known before, and how does the paper improve on previous work?</li>
+	<li>What are the main strengths and limitations of the paper?</li>
+	<li>Which parts were difficult to understand?</li>
+	<li>What are possible extensions or open questions?</li>
+</ul>
+
+<p>The short paper review is due on <strong>TBA</strong>.</p>
+
+<p>&nbsp;</p>
+
+<p><strong>2. Presentation (45%)</strong></p>
+
+<p>Each student will prepare and deliver a <strong>~20-minute presentation</strong> (plus 10 minutes for discussion) on their assigned topic (based on the two assigned papers). For selected topics, slightly longer presentations may be scheduled.</p>
+
+<p>Presentations should:</p>
+
+<ul>
+	<li>explain the problem setting and motivation,</li>
+	<li>summarize the main ideas and results,</li>
+	<li>provide intuition for the algorithms, techniques, and proofs,</li>
+	<li>discuss limitations and open research directions.</li>
+</ul>
+
+<p>Students will have the opportunity to receive feedback on their slides before the presentation.</p>
+
+<p>&nbsp;</p>
+
+<p><strong>3. Seminar Paper (35%)</strong></p>
+
+<p>Each student will write a seminar paper (maximum 6 pages, excluding references and appendices) on their assigned topic. The content should be aligned with the presentation but covered in more depth.</p>
+
+<p>The seminar paper should:</p>
+
+<ul>
+	<li>provide a coherent exposition of the topic,</li>
+	<li>synthesize the main ideas of the assigned papers,</li>
+	<li>interpret the results and explain the algorithms and proofs,</li>
+	<li>and discuss connections to other works, alternative proofs, extensions, limitations, open problems, or future research directions.</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><strong>4. Participation (10%)</strong></p>
+
+<p>Active participation in seminar discussions is expected. Students are encouraged to ask questions, provide feedback to presenters, and engage critically with the material.</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Background Lectures</strong></p>
+
+<p>The seminar begins with a small number of introductory lectures covering the foundations needed for the student presentations:</p>
+
+<ul>
+	<li><strong>Lecture 1:</strong> Foundations of Differential Privacy</li>
+	<li><strong>Lecture 2:</strong> Foundations of Optimization</li>
+	<li><strong>Lecture 3:</strong> Foundations of Differentially Private Optimization</li>
+	<li><strong>Lecture 4:</strong> Machine Unlearning</li>
+</ul>
+
+<p>Further details and references will be provided on the course website.</p>
+
+<p>&nbsp;</p>
+
+<h3>Policy on Generative AI Tools</h3>
+
+<p>The goal of this seminar is for students to develop their own ability to read, understand, critically discuss, explain and present research papers. For this reason, the use of generative AI tools is <strong>not permitted for producing, revising, polishing, or structuring submitted work</strong>.</p>
+
+<p>Students may use generative AI tools <strong>only</strong> for asking general background questions about standard concepts, such as definitions or basic examples. Students may not use such tools to summarize assigned papers, explain proofs from assigned papers, generate reviews, generate critiques, suggest open problems, write or revise seminar paper text, create or revise presentation slides, or improve the wording or structure of submitted work.</p>
+
+<p>Students also may <strong>not</strong> upload assigned papers, their own drafts, or presentation slides to generative AI tools for analysis, summarization, rewriting, or feedback.</p>
+
+<p>Each submitted written assignment must include a short AI-use statement. If no generative AI tools were used, students should state this explicitly. If generative AI tools were used for permitted background questions, students should briefly state which tool was used and for what type of background question.</p>
+
+<p>Students are fully responsible for the correctness and originality of all submitted work and must be able to explain and defend their work orally. Undisclosed or inappropriate use of generative AI tools may be treated as academic misconduct and may result in a failing course grade.</p>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/en/privacy.html" target="_blank">Privacy Policy</a> | <a href="https://www.uni-saarland.de/en/legal-notice.html" target="_blank">Legal Notice</a><br/>
+	If you encounter technical problems, please contact <a href="mailto:cms-devs@mail-infsec.cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">the administrators</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

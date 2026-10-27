@@ -1,0 +1,223 @@
+Main Page
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Representation Learning: Foundations and Challenges
+Lena Marie Budde, María Martínez-García, Isabel Valera, Thuc Khanh Huyen Vo
+News
+Recommended reading for the next background session
+Written on
+26.10.26
+by Lena Marie Budde
+We recommend reading the following paper in preparation for the next background session. This paper will be used as an example to demonstrate how to read a paper:
+Chen, T., Kornblith, S., Norouzi, M., & Hinton, G. (2020). A Simple Framework for Contrastive Learning of Visual Representations. In…
+Read more
+We recommend reading the following paper in preparation for the next background session. This paper will be used as an example to demonstrate how to read a paper:
+Chen, T., Kornblith, S., Norouzi, M., & Hinton, G. (2020). A Simple Framework for Contrastive Learning of Visual Representations. In Proceedings of the 37th International Conference on Machine Learning (pp. 1597-1607). PMLR
+Representation Learning: Foundations and Challenges
+Representation learning refers to a family of methods that enable models to automatically discover informative representations of data. Designing models that operate directly on raw inputs (such as pixels, waveforms, or text tokens) is often challenging: these inputs are high-dimensional, the underlying factors of variation are entangled, and the information relevant to a given task typically constitutes only a small fraction of the observed signal. Representation learning addresses this challenge by learning transformations that map raw inputs into a representation space where the relevant structure of the data becomes more explicit and easier to exploit. When successful, these learned representations can be more informative than the original inputs and support a wide range of downstream tasks, such as classification, retrieval, and generation.
+This seminar is organized around the central question:
+how do training objectives shape learned representations?
+More specifically, we will study the types of structure that different learning objectives induce in the representation space. To explore this question, the seminar is divided into four thematic blocks:
+Block 1 – Generative Models
+How latent variable models learn representations as a byproduct of the generative process.
+Keywords: latent spaces, VAEs, multimodal VAEs, representation learning in diffusion models.
+Block 2 – Contrastive Learning
+How representations can be learned by aligning data across modalities and the geometric properties induced by this alignment.
+Keywords:
+InfoNCE, CLIP, cross-modal alignment, modality gap.
+Block 3 – Disentanglement
+How to learn structured representations in which individual dimensions or subspaces correspond to meaningful factors of variation in the data.
+Keywords: β-VAE, shared vs. private representations.
+Block 4 – Causal Representations
+How to move beyond statistical correlations toward representations that capture the underlying causal structure of the data.
+Keywords: causal representation learning, spurious correlations, interventions.
+Students will be divided into four teams (one team per seminar block). Each team will work collaboratively throughout the seminar, guided by the instructors, to conduct a literature review on their assigned topic. The final goal of each team is to prepare and deliver a tutorial that introduces the topic, explains its evolution over time, and discusses the current state of the art.
+Evaluation will be based on participation, the quality of the presentations, and the depth of the literature analysis.
+Time and place
+Thursdays, 12:15 to 13:45.
+Room:
+0.01 at building E1.7
+Attendance
+The seminar will be held in person, and attendance is mandatory.
+General structure
+The students will be divided into four teams (one team per seminar block), with three students per team. Each team will work collaboratively throughout the seminar, guided by the instructors, to conduct a literature review on their assigned topic. The final goal is for each group to prepare and deliver a tutorial that introduces the topic, explains how it has evolved over time, and discusses the current state of the art.
+The seminar will include three types of sessions:
+Background sessions:
+Sessions led by the instructors to provide the necessary foundations in representation learning and guidance on how to approach and understand research papers.
+Private group meetings:
+Informal meetings with each team to discuss their progress, evaluate the current state of their presentation, address questions, identify missing elements or unclear aspects, and provide feedback on the content, structure, and their overall understanding of the research landscape.
+These meetings are not rehearsals
+: students are expected to understand and explain their material and answer questions.
+Public presentations:
+Sessions where each team presents their tutorial to the rest of the class, followed by questions and discussion.
+Calendar
+Date
+Session Type
+Content
+October 22
+Background
+Introduction to Representation Learning
+October 29
+Background
+How to read a paper?
+2 weeks without seminar sessions
+November 19
+Private meetings (GM, CL)
+Building a tutorial I
+November 26
+Private meetings (D, CRL)
+Building a tutorial I
+1 week without seminar sessions
+December 10
+Public presentations (GM, CL)
+Building a tutorial I
+December 17
+Public presentations (D, CRL)
+Building a tutorial I
+3 weeks without seminar sessions
+January 14
+Private meetings (GM, CL)
+Building a tutorial II
+January 21
+Private meetings (D, CRL)
+Building a tutorial II
+1 week without seminar sessions
+February 4
+Public presentations (GM, CL)
+Building a tutorial II
+February 11
+Public presentations (D, CRL)
+Building a tutorial II
+* Each team has 2 weeks between the private group meeting and the presentation, and 4 weeks between their first presentation and the next private meeting.
+IMPORTANT NOTE:
+The session scheduled for December 10 will likely be rescheduled due to NeurIPS (December 9–13).
+LSF REGISTRATION: students must register in LSF by
+November 12
+(one week before the first private meetings).
+Selecting topic
+We will share a form with the students to indicate their preferences.
+Release form to indicate preferences:
+October 22 (first background session).
+FORM:
+https://forms.gle/6ESsBW8PjkewW1j98
+Release team assignment:
+October 29, 23:59 (second background session, 3 weeks before the first private group meeting)
+Deliverables and grading scheme
+Each team is expected to prepare presentation slides for the private meetings and public presentations. The private meetings provide an opportunity to assess students' understanding and give feedback to improve the final public presentations. Students should arrive prepared to explain and discuss their material; the meetings are not rehearsals.
+Individual responsibility.
+Although the presentations are prepared in groups, each member is expected to understand the material they are responsible for and contribute to the discussion. Each group must also provide a brief
+contribution statement
+specifying the work carried out by each member, including their contributions to the literature review and presentation preparation.
+Grading:
+Each of the four meetings will be assessed according to its corresponding grading scheme, covering content quality, understanding, critical analysis, presentation quality, and participation as applicable.
+Session Type
+Deliverables
+Points
+Private Meeting I
+Slides + list of limitations
+15
+Public Presentation I
+Slides + contribution statement
+30
+Private Meeting II
+Slides + list of papers (connected to the gaps)
+15
+Public Presentation II
+Slides + contribution statement
+40
+Total
+–
+100
+To get an excellent grade you need to:
+Explain, not just describe:
+Show that you understand the intuition behind concepts and methods.
+Be critical:
+Discuss assumptions, limitations, and unresolved problems rather than simply summarizing papers.
+Connect ideas:
+Build a clear narrative from the initial approaches to later developments and remaining challenges.
+Support your arguments:
+Use concrete examples and evidence from the literature.
+Demonstrate ownership
+: Be prepared to defend your choices, explain your assigned papers, and answer questions.
+Detailed structure
+Background sessions (2 sessions)
+The seminar will start with two background sessions designed to give students the necessary tools to begin their literature review.
+Building a tutorial I: Foundations, Definitions, and Research Questions (4 sessions)
+The goal of this stage is for each team to build a strong understanding of the foundations of their topic. Their presentation should introduce the key definitions and concepts, present the main approaches in the literature, and discuss the limitations and open questions that motivated subsequent research.
+Private group meetings (2 sessions)
+One private meeting per team (45 min).
+Two teams per session.
+What are students expected to do during these sessions?
+Briefly walk the instructors through the slides planned for the first public presentation, covering the motivation, key concepts, foundational approaches, and research gaps.
+This is not a rehearsal!
+The goal is to review the slides and explain what the team plans to present and why.
+Explain the material clearly and demonstrate an understanding of the underlying concepts and methods.
+Be prepared to answer questions and discuss the limitations and assumptions of the approaches presented.
+Use the feedback received to improve the content and structure of the public presentation.
+Public presentation (2 sessions)
+One presentation per team (30 min presentation + 15 min Q&A).
+Two presentations per session.
+The presentation should cover:
+Motivation and problem framing
+:
+Why the topic matters, its applications, and the problem it addresses.
+Key definitions and concepts
+:
+Correct explanations, supported by intuition and examples.
+Foundational approaches
+:
+The main initial methods, their core ideas, and how they differ.
+Limitations and research gaps
+:
+The assumptions and limitations of the foundational approaches, and the open questions they leave unresolved.
+Building a Tutorial II: Evolution of the Topic and Current State of the Art (4 sessions)
+During this stage, students should expand their presentation to cover the evolution of the field, including major developments, influential works, recent advances, and current open research directions and challenges. They should also incorporate their own perspective and draw their own conclusions. At this stage, each team is expected to discuss at least 9 papers (a minimum of 3 papers per team member).
+Tutorial II should not feel like a second, longer version of Tutorial I. While Tutorial I establishes the foundations and identifies research gaps, Tutorial II explains how the field has responded to those gaps and critically assesses its current state.
+Private group meetings (2 sessions)
+One private meeting per team (45 minutes).
+Two teams per session.
+What are students expected to do during these sessions?
+Briefly walk the instructors through the slides planned for the second public presentation, including a revised introduction incorporating feedback from Tutorial I.
+Discuss the selected papers and explain how they relate to the research gaps identified in Tutorial I.
+Explain the contributions, methods, assumptions, results, and limitations of the selected papers.
+Identify remaining open questions and develop a critical perspective on the literature.
+Be prepared to discuss the material in depth and answer questions.
+Public presentation (2 sessions)
+One presentation per team (35 min presentation + 10 min Q&A)
+Two presentations per session.
+The presentation should cover
+Recap
+:
+A concise review of the essential foundations and research gaps from Tutorial I.
+Evolution of the field
+:
+A coherent storyline showing how the literature developed and how papers build on, differ from, or improve upon earlier work.
+Analysis of individual papers
+:
+The problem addressed, core method, intuition, assumptions, key results, and limitations of each paper.
+Remaining challenges
+:
+Specific open questions that follow from the literature.
+Own perspective and conclusions
+:
+A reasoned assessment of what has been achieved, what remains unresolved, and which future directions are promising.
+List of seminal papers
+TBA
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

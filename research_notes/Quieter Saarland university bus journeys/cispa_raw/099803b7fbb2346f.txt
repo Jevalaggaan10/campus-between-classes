@@ -1,0 +1,202 @@
+Fixed Point Theory (WS 26/27) – Quantitative Verification Group
+Skip to content
+Fixed Point Theory (WS 26/27)
+Seminar
+WS 26/27
+Organizers
+Prof. Benjamin Kaminski
+,
+Tobias Gürtler
+,
+Lucas Kehrer
+,
+Lena Verscht
+,
+Anran Wang
+Places
+8
+Kick-off meeting slides (TBA)
+Download
+Find the full list of topics that we will cover
+below
+!
+Prerequisites
+Mandatory
+Programmierung 1
+Programmierung 2
+Grundzüge der Theoretischen Informatik
+Recommended
+Semantics
+Introduction to Computational Logic
+Automata, Games and Verification
+Ideal
+Verification
+Reports
+The report must be prepared using the ACM template
+acmart-pacmpl-template.tex
+with the following options in the preamble:
+\documentclass[acmsmall,dvipsnames,x11names,svgnames,cleveref, nonacm]{acmart}
+\settopmatter{printfolios=true,printccs=false,printacmref=false}
+The report must not exceed 10 pages, excluding references.
+Presentations
+As a block seminar at the end of the semester.
+More information TBA.
+Timeline / Deadlines (tentative)
+Kick-off meeting
+October 30
+Room 528,
+Building E1 3
+Bidding for topics
+until November 3
+– via email to Benjamin Kaminski –
+Student-topic assignment announced
+by November 5
+– on this website –
+Detailed report outline +
+1 page of main part due
+TBD
+– via email to your supervisor –
+Registration in LSF due
+TBD
+– via LSF (your responsibility) –
+Final report due
+TBD
+– via email to your supervisor –
+Make an appointment for mandatory
+practice presentation
+with your supervisor
+by
+TBD
+– make appointment with your supervisor –
+Seminar presentations
+w/c
+TBD
+likely Room 528, Building E1 3
+w/c = week commencing
+Topics
+Topics marked
+(BA)
+are particularly well-suited for Bachelor students.
+Graphical Fixed Point Theory
+de Mendoca Frereire et al.
+An Equational and Graphical Fixed-Point Calculus (Functional Pearl)
+Student:
+—
+Presentation:
+—
+Random Fixed Points
+Nieto et al.
+Random fixed point theorems in partially ordered metric spaces
+Student:
+—
+Presentation:
+—
+Unique Fixed Points for Probabilistic Programs
+Kura et al.
+Supermartingales for Unique Fixed Points: A Unified Approach to Lower Bound Verification
+Student:
+—
+Presentation:
+—
+Banach Fixed Point Theorem
+(BA)
+Baranga.
+The Contraction Principle as a Particular Case of Kleene’s Fixed Point Theorem
+Student:
+—
+Presentation:
+—
+Reverse Directional Fixed Point Theory
+Baldan et al.
+Fixpoint Theory — Upside Down
+Student:
+—
+Presentation:
+—
+Antitone Functions
+(BA)
+Dacic.
+On Fixed Edges of Antitone Self-Mappings of Complete Lattices
+Student:
+—
+Presentation:
+—
+Fixed Point Equations
+Baldan et al.
+Fixpoint Games on Continuous Lattices
+Student:
+—
+Presentation:
+—
+Hetzl and Kloibhofer.
+An Abstract Fixed-Point Theorem for Horn Formula Equations
+Student:
+—
+Presentation:
+—
+Expressive Equivalence of Fixed Point Logics
+Kreutzer.
+Expressive equivalence of least and inflationary fixed-point logic
+Student:
+—
+Presentation:
+—
+Model-guided Synthesis
+Murali et al.
+Model-guided synthesis of inductive lemmas for FOL with least fixpoints
+Student:
+—
+Presentation:
+—
+Expected Rewards as Least Fixed Points
+(BA)
+Batz et al.
+J-P: MDP. FP. PP.
+Student:
+—
+Presentation:
+—
+Latticed k-Induction
+Batz et al.
+Latticed k-Induction with an Application to Probabilistic Programs
+Student:
+—
+Presentation:
+—
+Parameterized Coinduction
+Hur et al.
+The power of parameterization in coinductive proof
+Student:
+—
+Presentation:
+—
+Modality for Recursion
+H. Nakano.
+A modality for recursion
+Student:
+—
+Presentation:
+—
+⁠Matrices for Fixed Points in Probabilistic Programming
+(BA)
+Torres-ruiz et al.
+On Iteration in Discrete Probabilistic Programming
+Student:
+—
+Presentation:
+—
+Invariant Synthesis in Probabilistic Programming
+Batz et al.
+Probabilistic Program Verification via Inductive Synthesis of Inductive Invariants
+Student:
+—
+Presentation:
+—
+⁠Lower Bounds for Least Fixed Points
+(BA)
+Quatmann and Katoen.
+Sound Value Iteration
+Student:
+—
+Presentation:
+—

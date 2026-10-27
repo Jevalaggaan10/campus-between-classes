@@ -1,0 +1,57 @@
+Main Page
+Space Informatics Cybersecurity
+Ali Abbasi
+News
+Currently, no news are available
+Space Informatics Cybersecurity
+This seminar covers different topics related to space information security. Students will learn the soft-skill of explaining technical topics both verbally through presentations and via hands-on learning through practical exercises.
+Organization
+In this seminar, you will learn about different topics related to space informatics security. The goal is to practice explaining technical material clearly to other students and to make complex security topics understandable through practical exercises.
+The seminar is structured around the following activities:
+You prepare a specific topic on space informatics security in groups of two
+You give a presentation that is supported by academic literature, technical reports, standards, real-world incidents, or practical demonstrations (where appropriate)
+You create practical exercises that help explain the technical aspects of your topic
+You prepare a write-up of your exercise so that others can understand and reproduce it
+Topics
+Students will choose one topic related to the security of space systems. Each topic should be approached from both a technical and a security perspective and should include a practical component where appropriate.
+Possible seminar topics include:
+Module 1: Orbital Mechanics and Satellite OSINT
+Satellite orbits (LEO, MEO, GEO, HEO, SSO), orbital elements, ground-station geometry, contact windows, and satellite tracking using TLEs and tools such as Gpredict. Satellite launches, rideshare deployments, and launch interfaces. Publicly available mission information, orbital OSINT, and its security implications. Introduction to attitude determination and control systems (ADCS), including sensors, actuators, and potential attacks.
+Module 2: Satellite Signals and RF Security
+Satellite frequency bands (UHF, L, S, X, Ku, Ka), spectrum regulations, modulation techniques (BPSK, QPSK, QAM), error correction, link budgets, and RF propagation. Spread-spectrum techniques (DSSS, FHSS), signal synchronization, and satellite frequency OSINT. Security threats such as eavesdropping, jamming, and spoofing, including detection and mitigation techniques. Practical signal reception, demodulation, and decoding.
+Module 3: Satellite Radio Equipment and Communication Infrastructure
+Onboard and ground-station radio hardware, including antennas, transponders, SDRs, COTS transceivers, amplifiers, and frequency converters. Radio software such as GNU Radio and SatNOGS-COMMS. Communication interfaces with onboard subsystems, inter-satellite links, and VSAT network architectures. Hardware security, supply-chain risks, firmware integrity, and FPGA bitstream protection.
+Module 4: Space Communication Protocols and Security
+CCSDS communication protocols, including Space Packets, TM/TC, AOS, and PUS, alongside DVB-S/S2 and their mapping to the ISO/OSI model. Space Data Link Security (SDLS), encryption, authentication, replay protection, and implementations such as NASA CryptoLib. Protocol vulnerabilities, packet injection, replay attacks, firmware reverse engineering, and practical packet-decoding exercises.
+Module 5: Ground-Station and Mission-Control Security
+Ground-segment architectures, telemetry and telecommand processing, mission databases, and XTCE. Mission-control platforms such as OpenC3/COSMOS, NASA Open MCT, and YAMCS. Security of command transmission, SDLS misconfigurations, scripting and automation, operator workstations, network services, and access control. Threat modeling and attacks that pivot from conventional IT infrastructure into mission systems.
+Module 6: Spacecraft Subsystems and Internal Communication Security
+Spacecraft architecture and subsystems, including ADCS, EPS, COM, CDHS, and payload systems. Internal communication protocols such as CAN, CSP/libcsp, SpaceWire, I2C, and SPI. FPGA-based payloads, embedded hardware security, and subsystem trust boundaries. Analysis of spacecraft data flows, inter-component attacks, and the consequences of compromised onboard components.
+Module 7: Positioning, Navigation, and Timing (PNT) Security
+GNSS fundamentals, satellite navigation and timing, and onboard GNSS receiver architectures. GNSS spoofing, jamming, and manipulation of positioning or timing information. Threat modeling, receiver vulnerabilities, attack detection, and mitigation techniques, including sensor fusion, signal authentication, and resilient navigation architectures.
+Module 8: Satellite Flight Software and Exploitation
+Flight-software architectures, real-time operating systems (VxWorks, RTEMS), and spacecraft processor architectures (SPARC/LEON, ARM, RISC-V). Frameworks such as NASA cFS, JPL F´, and RaccoonOS. Component isolation, memory protection, firmware integrity, and secure command handling. Flight-software vulnerabilities, exploitation techniques, post-compromise attack chains, and practical security analysis in simulated environments.
+The final set of available topics and their exact scope will be announced during the seminar. Related topics may be proposed by students after discussion with the instructors.
+Presentation
+Each group will prepare and give a presentation on a chosen topic in space informatics security. The presentation should introduce the topic, explain the relevant technical background, discuss security challenges, and make the material understandable to the other students.
+Practical Exercise
+Each group will create practical technical exercises related to their topic. These exercises should help other students understand the technical aspects of the presentation through hands-on learning.
+The exercises should be clearly connected to the presentation topic and should be designed so that other students can follow and complete them.
+Exercise Write-up
+Each group will submit a write-up for their practical exercise. The write-up should explain the exercise's goal, the required setup, the steps to complete it, and the expected outcome or solution.
+Important Dates
+Kick-off meeting and topic assignments:
+30.10.2026, 09:00-11:00 AM (weekly, for 7 consecutive weeks).
+Location: CISPA C0 - 0.07 Meeting Room.
+Exercise submission: TBA
+Exercise write-up submission: TBA
+Deliverables
+Presentation on the topic: (50%)
+Practical technical exercises: (25%)
+Write-up of your exercise (25%)
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

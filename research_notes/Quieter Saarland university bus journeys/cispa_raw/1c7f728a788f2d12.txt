@@ -1,0 +1,159 @@
+Main Page
+The Web Security Seminar
+Pellegrino, Stock
+News
+Topic assignment done
+Written on
+20.10.26
+by Giancarlo Pellegrino
+The assignments are now available on the CMS main page. Please check your assigned session and note your presentation date.
+---
+Giancarlo
+The Web Security Seminar
+For registration, please apply for this seminar through the
+central seminar assignment system.
+The Web is the foundation of much of today's digital infrastructure: it connects users, services, devices, businesses, and critical applications across the globe. Its openness and ubiquity make it extraordinarily powerful, but also a constant target for attacks. Understanding Web Security therefore means understanding one of the most important and continuously evolving security frontiers.
+This seminar explores that frontier through recent scientific papers, open problems, and the arguments that shape where the field is heading next. The focus is not only on learning about advanced technical topics, but on learning how to read, analyze, discuss, and critically evaluate research papers.
+This year, The Web Security Seminar is offered both as a seminar and as a proseminar.
+In both formats, students will work on advanced topics in Web Security through a combination of presentations and reading-group-style discussions. Each topic is centered around recent research papers, which students will use to understand the state of the art, identify strengths and limitations, and discuss how the work advances the field.
+Seminar students will give a presentation and write a seminar paper.
+Proseminar students will give a presentation, but will not write a seminar paper.
+This seminar adopts a strict no-LLMs/GenAI policy.
+The goal of the course is for students to develop and exercise their own critical thinking when reading, analyzing, and discussing research papers. For this reason,
+all intellectual work
+in the seminar, including presentations, discussions, and seminar papers,
+must be carried out independently and without the aid of generative AI tools
+.
+Important Details
+Kickoff on Wednesday, 14.10.2026, 14:15-16:00, CISPA C0, 0.05 Lecture Hall
+Session on writing a seminar paper on Wednesday, 21.10.2026, at 14:15,
+C0, room 0.01
+Regular reading group sessions on Wednesdays. First session is on
+Wednesday, 28.19.2026, 14:15-16:00,
+CISPA C0, 0.07
+Per session requirements will be published here soon
+Attendance in all meetings, including satisfying the requirements of each session, is mandatory.
+For exceptional circumstances, contact the teaching staff.
+This seminar will
+not
+offer a hybrid participation. All sessions are in-person.
+Schedule, List of Topics, and Papers
+Date
+Time
+Content / Deadlines
+Tutor
+Student
+Topic
+Main paper (discussed)
+Follow-up papers (presented)
+14.10.2026
+14:00-16:00
+Kickoff pt.1
+C0, room 0.05
+All
+21.10.2026
+14:00-16:00
+Kickoff pt. 2: Writing a seminar paper
+C0, room 0.01
+Sem. only
+28.10.2026
+14:00-16:00
+Prosem 1
+C0, room 0.07
+Andrea
+Ahmet-Efdal
+Trusting the client in WebXR platforms
+The Big Brother's New Playground: Unmasking the Illusion of Privacy in Web Metaverses from a Malicious User's Perspective
+That Doesn't Go There: Attacks on Shared State in Multi-User Augmented Reality Applications
+04.11.2026
+14:00-16:00
+Prosem 2
+Kristina
+Mattia
+Broken Access Control in the Wild
+403 Forbidden? Ethically Evaluating Broken Access Control in the Wild
+BACScan: Automatic Black-Box Detection of Broken-Access-Control Vulnerabilities in Web Applications
+11.11.2026
+14:00-16:00
+Prosem 3
+Ali
+Erik
+Web Cache Attacks, Deception and Poisoning
+Web Cache Deception Escalates!
+Internet's Invisible Enemy: Detecting and Measuring Web Cache Poisoning in the Wild
+18.11.2026
+No seminar
+25.11.2026
+14:00-16:00
+Prosem 4
+Valentino
+Yannick
+Detection of Malicious Browser Extensions
+Arcanum: Detecting and Evaluating the Privacy Risks of Browser Extensions on Web Pages and Web Content
+You’ve Changed: Detecting Malicious Browser Extensions through their Update Deltas
+02.12.2026
+14:00-16:00
+Prosem 5 / Deadline:
+Paper draft deadline
+Dominic
+Larisa
+Web Security Scanners
+YuraScanner: Leveraging LLMs for Task-driven Web App Scanning
+Black Ostrich: Web Application Scanning with String Solvers
+09.12.2026
+14:00-16:00
+Sem 1
+Kristina
+Arya
+Web Content in Android Apps
+Iframes/Popups Are Dangerous in Mobile WebView: Studying and Mitigating Differential Context Vulnerabilities
+Plain Text, Plain Risks: Measuring HTTP Inclusion in Android WebViews at Scale
+16.12.2026
+14:00-16:00
+Sem 2
+Ali
+Arjun
+PII Leakage from Web Forms to Third Parties
+Leaky Forms: A Study of Email and Password Exfiltration Before Form Submission
+PIIxel Leaks: Passive Identification of Personally Identifiable Information Leakage through Meta Pixel
+23.12.2026
+No seminar, winter break 🎄
+30.12.2026
+No seminar, winter break 🎄
+06.01.2027
+No seminar, winter break 🎄
+13.01.2027
+14:00-16:00
+Sem 3
+Valentino
+Tim
+Malware in Third-Party Extension Ecosystems
+Mistrust Plugins You Must: A Large-Scale Study Of Malicious Plugins In WordPress Marketplaces
+Dissecting Malicious VS Code Extensions: Characterization and Classification
+20.01.2027
+14:00-16:00
+Sem 4
+Dominic
+Saria
+Type Confusion in Gradually Typed Languages
+Typed and Confused: Studying the Unexpected Dangers of Gradual Typing
+Type Devil: Dynamic Type Inconsistency Analysis for JavaScript
+27.01.2027
+14:00-16:00
+Sem 5
+Andrea
+Leon
+Third-Party Content Isolation Gaps in WebXR
+Shadowed Realities: An Investigation of UI Attacks in WebXR
+AdCube: WebVR Ad Fraud and Practical Confinement of Third-Party Ads
+03.02.2027
+10.02.2027
+17.02.2027
+Deadline:
+Final paper
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

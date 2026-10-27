@@ -1,0 +1,158 @@
+QAI seminar, UdS, WS 2026
+Home
+Requirements
+Topics
+Assignment
+Schedule
+Contact
+Advances in
+Quantum Artificial Intelligence
+Seminar
+an der Universität des Saarlandes, Fachrichtung Informatik, LSF 166878
+Scope:
+Quantum
+computing [1] can simulate and even go beyond classical computing in
+terms of computational speedup in theory. Initial versions of real
+quantum computing hardware and frameworks for quantum programming
+became available only in about the past decade. On the other hand,
+artificial intelligence (AI) [2], not restricted to machine learning or
+generative AI, is commonly considered as one of the most disruptive key
+technologies of our time for industry and business, our private and
+social life, notwithstanding the challenges of its future, trustworthy
+and controlled use for the benefit of the people affected by it.
+Quantum Artificial Intelligence (QAI) [3, 4] is the intersection of
+both technologies and concerned with the investigation of the
+feasibility and the potential of leveraging quantum computing for AI,
+and vice versa, AI for quantum computing. In particular, QAI covers all
+subfields of AI in both directions, such as in quantum planning and
+scheduling (QPS), quantum natural language processing (QNLP), quantum
+computer vision (QCV), and quantum agents and multi-agent systems
+(QMAS). In this seminar on QAI, we will take a closer look at selected
+methods from various areas of QAI and discuss their advantages and
+limitations.
+The seminar type is classic in the sense that registered
+participants will present assigned topics. In addition, there will be
+two dedicated opponents for each presentation of an assigned topic.
+Participation in the seminar will be graded; please check the
+requirements page in this regard.
+The seminar counts 7 ECTS credit points (CS).
+Prerequisites:
+This
+seminar is primarily intended for advanced undergraduate and graduate
+students in computer science and DSAI. A solid foundation in AI and
+mathematics (particularly linear algebra) is required. Successful
+completion of one of our previous advanced courses on “Quantum
+Artificial Intelligence” is advantageous, but not mandatory.
+Selected
+background papers for this seminar are referenced on the topic
+page and expected to be read and utilized by registered participants as
+appropriate. Attendance of the seminar without registration (no
+presentation and certificate) by anyone who is interested in the topics
+is, of course, very much welcome subject to available space. The
+seminar language is English.
+Date
+and Location:
+The seminar takes place weekly on Thursday
+from 16:15 - 18:00.
+The
+seminar takes place in-person
+at  DFKI Saarbrücken, SIC Bldg. D3.2, in room “Turing 2” (NB +2.31)
+.
+Please
+ask at  the DFKI reception for directions.
+The
+first (welcome/introductory) session
+with topic assignment
+will be held on Thursday
+22.10.2026.
+The
+topical seminar presentations and discussions start on Thursday,
+26.11.2026.
+Application and
+Topic
+Assignment:
+A
+pplication for seminars is
+possible through the
+SIC
+seminar assignment system
+from 
+September 14, 2026 to October 14, 2026. Central assignment of students
+to the seminar will then be done by the system on October 16, 2026.
+If
+you are interested in attending specifically this seminar,  we
+kindly recommend you to
+send
+an request by
+e-mail to the seminar leader to put you on
+the list of very interested parties (LIP)
+as soon as possible
+- the topic list will be available on
+August 14, 2026. Please indicate
+your full name, enrollment# and
+your preferred  free topics (topic#) in the order of your
+preference
+, AND
+apply for this seminar
+in the central SIC seminar system with
+indication of priority  “High”
+and
+top rank , AND
+attend
+the
+introduction meeting
+of this
+seminar for topic assignment
+Assignment of seminar topics will be done
+in two phases
+:
+I
+nitial
+assignment
+: During
+seminar
+introduction meeting on 22.10.2026 (16:15-18:00, DFKI NB R +2.31
+“Turing 2”
+)
+Late
+assignment
+: If there are still free slots (topics) available
+after the introduction meeting
+-  pls  check the topics page - students can apply for them
+by
+sending
+an e-mail (with your full name, enrollment# and a list of free topics
+in the order of your preference)  to and decision by the seminar
+leader.
+“First-come-first-served” assignment  to
+students with
+priority for those
+on the LIP
+.
+Remark:
+If you applied for but have not been assigned to the QAI seminar by the
+central SIC seminar system, please note that the assignments issued by
+this system are formally not binding for any student to take. Besides,
+it also happens that the system does not assign students to all
+available places of a seminar such that  places may become
+re-available after the introduction meeting of the seminar.  The
+late assignment of interested students to these places then will be
+done by the seminar organizers on request on a first-come-first-served
+basis with
+priority for students on the LIP (see above).
+[1]
+Nielsen, M. A., & Chuang, I. L. (2010). Quantum Computation and
+Quantum Information. Cambridge University Press.
+[2]
+Russell, S.  & Norvig, P. (2010). Artificial Intelligence: A
+Modern Approach. Third Edition. Pearson.
+[3]
+Klusch, M., Lässig, J., Müssig, D., Macaluso, A., & Wilhelm, F.K.
+(2024). Quantum Artificial Intelligence: A Brief Survey. Künstliche
+Intelligenz, 38(4). Springer.
+ref
+[4] Acampora, G., Chiatto, A., Schiattarella, R., & Vitiello, A.
+(2026). Quantum Artificial Intelligence: A Survey. Computer Science
+Review, 59, Elsevier.
+ref
+Impressum

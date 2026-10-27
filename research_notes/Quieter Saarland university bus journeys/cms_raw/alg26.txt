@@ -1,0 +1,93 @@
+Main Page
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Algebra
+Christian Steinhart
+Registration for this course
+is open until
+Saturday, 31.10.2026 23:59
+.
+News
+CMS is working again
+Written on
+22.10.26
+by Christian Steinhart
+Dear all,
+the CMS was updated and works again. You can find the next exercise sheet and the notes for this week (plus what we are going to do next Wednesday) as usual under materials.
+Best regards and have fun!
+Christian
+exercise sheet 1
+Written on
+15.10.26
+(last change on
+15.10.26
+)						by Christian Steinhart
+Dear all,
+the first exercise sheet is now online and can be found under "
+materials
+" in the CMS.
+You can hand it in until next week Thursday per CMS under "Personal Status".
+There you can also create/join your working group. If you are in a working group, only one person needs to submit the…
+Read more
+Dear all,
+the first exercise sheet is now online and can be found under "
+materials
+" in the CMS.
+You can hand it in until next week Thursday per CMS under "Personal Status".
+There you can also create/join your working group. If you are in a working group, only one person needs to submit the solution for the whole group and points will be distributed to each group member.
+The first tutorial will take place next Monday at 8:30 in SR 9.
+Best regards and have fun!
+Christian
+Algebra
+Language:
+The course will take place either in English or German, depending on if non-native German speakers are present. The exams can be taken in either language. For simplicity this page is written in German and will be translated soon. If you have questions please let me know.
+Lecturer:
+Christian Steinhart
+e-mail: "surname"@math.uni-sb.de
+office hours: just come by to my office (building E 2.4 in room 3 03) or write a short e-mail beforehand
+dates:
+Lecture
+Wednesdays, 14:15-15:45 o'clock in "Zeichensaal", building E 2 5
+Thursdays, 10:15-11:45 o'clock in "Zeichensaal", building E 2 5
+Tutorial
+Mondays 8:30-10:00 o'clock in SR 9, building E 2 4 starting at the 19th October
+office hours from Laura: Mondays 14 o'clock in building E 2.4 in room 3 03
+Exam
+presumably written at 11th of February and 30th of March
+Content:
+We will cover the following topics:
+Groups: normal subgroups, group actions, Sylow's theorems, solvable groups
+Rings: ideals, principal ideal rings, unique factorization domains, Chinese remainder theorem
+Modules und algebras
+Fields: finite fields, field extensions, algebraic closure, Galois theory
+eventually: constructible numbers
+Exercises:
+There will be weekly exercise sheets which can be submitted each week per CMS. Submissions in fixed groups of 3 people are permitted.
+There will also be weekly tutorials each Monday from 8:30 to 10:00 in SR 9 where you can ask questions regarding the exercise and get an additional tutorial exercise sheet.
+On each exercise sheet you can attain up to 30 points, for attending the tutorial you get 5P each week and up to 10P for successful participation of the tutorial.
+You will need in average 25P/45P per week of the attainable points to be
+permitted for the exam.
+Prerequisites:
+The lecture follows directly Linear Algebra I and II in terms of content.
+Literature:
+see Semesterapparat
+and the notes in the
+material
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

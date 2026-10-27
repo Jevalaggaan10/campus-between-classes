@@ -1,0 +1,82 @@
+Hauptseite
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Software Engineering
+Prof. Dr. Sven Apel
+Core Lecture — Winter Semester 2026
+Registration for this course
+is open until
+Saturday, 31.10.2026 23:59
+.
+News
+Start of Lectures
+Written on
+12.10.26
+(last change on
+12.10.26
+)						by Yannick Lehmen
+Dear students,
+the first lecture will be on Tuesday in the second week of lectures (October 20th) at 12:15 in lecture hall 0.02 (E1.3).
+Tutorials will start the week after. More information regarding the course organisation will be presented in the first lecture.
+Best,
+the SE-team
+Software Engineering Winter Semester 2026/27
+About the Lecture
+The lecture Software Engineering covers a broad range of topics in software engineering with a special focus on software variability, configuration, generation, and optimization. It builds on basic programming and software engineering concepts, as taught in the lectures Programming 1 & 2 and the SE Lab (Softwarepraktikum). Topics that are covered include:
+Domain analysis, feature modelling
+Automated reasoning about software configuration using SAT solvers
+Runtime parameters, design patterns, frameworks
+Version control, build systems, preprocessors, parametric polymorphism, traits / mixins
+Expression problem, preplanning problem, code scattering & tangling, tyranny of the dominant decomposition, inheritance vs. delegation vs. trait / mixin composition
+Feature interaction problem (structural, control- & data-flow, behavioral, non-functional feature interactions)
+Variability-aware analysis and variational program representation (with applications to type checking and static program analysis)
+Sampling (random, coverage)
+Machine learning for software performance prediction and optimization
+Lecture Format
+The lecture will be held in presence in the HS002 lecture hall in building E1 3. For the tutorials, we are currently planning a hybrid format (in person + online). More information will be announced closer to the start of the semester. All relevant dates will be in the course's timetable.
+The first lecture will be on 20.10.2026 at 12:15 PM.
+Registration
+To get access to exercise sheets and other course material you need to register via this CMS course.
+Prerequisites
+Knowledge of programming concepts (as taught in the lectures
+Programming 1
+and
+Programming 2
+)
+Basic knowledge of software processes, design, and testing (as taught and applied in the lecture
+SE Lab/Softwarepraktikum
+)
+Assignments / Exam
+Beside the lecture and weekly practical exercises, there will be a mandatory exam admission test. The exam admission will be assessed based on the principles covered in the lecture. Passing the exam admission test is a prerequisite for taking the final written exam. The written exam will be graded. Further examination details will be announced by the lecturer at the beginning of the course.
+In short to pass this course you have to:
+Pass the exam admission test (prerequisite for the written exam)
+Pass the written exam
+Exam Admission Test
+The exam admission test will be conducted as an online test via CMS. The online test will be available from 09.12.2026 12:00 (Noon) until 10.12.2026 12:00 (Noon). Once you start the test, you have 20 minutes to complete it. The exam admission test will cover basic principles about configurable software systems and other aspects covered in the lectures. Further details will be announced in the first lecture.
+Passing the exam admission test is mandatory to be admitted to the exam. If you cannot participate in the exam admission test due to sickness, you need to hand in a doctors note. We will then arrange for an alternative exam admission test on an individual basis.
+Literature
+Feature-Oriented Software Product Lines: Concepts and Implementation. S. Apel, et al., Springer, 2013.
+Generative Programming: Methods, Tools, and Applications: Methods, Techniques and Applications. K. Czarnecki, et al., Addison-Wesley, 2000.
+Mastering Software Variability with FeatureIDE. J. Meinicke, et al., Springer, 2017.
+Types and Programming Languages. Benjamin C. Pierce, The MIT Press, 2002.
+Programmierung - eine Einführung in die Informatik mit Standard ML. Gert Smolka, Oldenbourg Verlag, 2011.
+Literature available here:
+https://www.infomath-bib.de/tmp/vorlesungen/info-core_software-engineering.html
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

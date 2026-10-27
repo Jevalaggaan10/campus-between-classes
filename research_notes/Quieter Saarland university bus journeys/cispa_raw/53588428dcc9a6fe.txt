@@ -1,0 +1,94 @@
+Winter Semester 2026/27 - Imprecise Probabilistic Machine Learning / Winter Semester 2026/27
+CISPA Helmholtz Center for Information Security
+Imprecise Probabilistic Machine Learning
+Winter Semester 2026/27
+Main Navigation
+Home
+Overview
+Schedule
+Lectures
+Exercises
+References
+Past Offerings
+Imprecise Probabilistic Machine Learning
+/ Winter Semester 2026/27
+Updates
+[23.10.2026]
+New lecture is up: Lecture 2: From Precise to Imprecise Probabilities
+                [
+slides
+]
+[16.10.2026]
+New lecture is up: Lecture 1: Introduction
+                [
+slides
+]
+[25.09.2026]
+The Google group for the Winter Semester 2026/27 is now
+live
+. Click
+Ask to
+join
+to request access.
+[20.09.2026]
+The
+schedule
+for Winter Semester
+2026/27 is now online.
+[20.09.2026]
+Welcome to the IPML course website!
+Logistics
+Lecture
+Friday, 10 a.m. – 12 p.m.
+Exercise
+Friday, 12 p.m. – 2 p.m.
+Location
+Saarland University (UdS) - CISPA C0 - 0.05 Lecture Hall
+University of Hamburg (UHH) - Seminar Room 1.8, Haus der Informatik, Bundesstraße 56b
+Online
+Format
+Weekly lectures with biweekly in-class exercises and assignments
+Discussion
+Google Group
+Exam dates
+UdS (Feb 26, 2027, 09:00-12:00, Geb. E1.3: HS001 & Mar 19, 2027, 09:00-12:00, Geb. E1.3: HS001)
+UHH (Feb 18, 2027, 12:00-15:00, Hörsaal 5 & Mar 23, 2027, 12:00-15:00, Hörsaal 5)
+Registration
+All students are encouraged to register via this
+registration link
+to receive the Zoom link and join our Google Group,
+ipml-course-ws-2026-2027
+, to receive course news, updates, and announcements. Click
+Ask to join
+to request access to the group.
+Students at Saarland University and the University of Hamburg
+must officially enroll in the course at their respective universities to receive credits
+. Students from other universities are welcome to participate through our public enrollment.
+Course Material
+Schedule
+— lecture and exercise dates
+Lectures
+— planned topics; slides are posted as the semester progresses
+Exercises
+— worksheets are released during the semester
+Reading material that is not specific to a single semester is collected on the
+references
+page. Slides from the
+previous offering
+remain available.
+Instructor
+Krikamol Muandet
+CISPA Helmholtz Center for Information Security
+Teaching Assistants
+Anurag Singh
+CISPA Helmholtz Center for Information Security
+Kiet Vo
+CISPA Helmholtz Center for Information Security
+Gowtham Reddy
+CISPA Helmholtz Center for Information Security
+Yuhao Wang
+Amazon
+Rational Intelligence Lab
+CISPA Helmholtz Center for Information Security
+Saarbrücken, Germany
+ri-lab.org/

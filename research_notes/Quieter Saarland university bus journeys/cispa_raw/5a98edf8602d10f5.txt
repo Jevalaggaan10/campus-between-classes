@@ -1,0 +1,173 @@
+Main Page
+Computer Architecture
+Michael Schwarz, Abdullah Giray Yaglikci
+News
+Currently, no news are available
+Computer Architecture (Seminar and Proseminar)
+This seminar covers cutting-edge and seminal research papers, focusing on fundamental research problems in the field of computer architecture. Relevant topics include: security and reliability of microarchitecture, memory, and storage, new and emerging paradigms in computer architecture (e.g., data-centric processing), energy efficiency, hardware/software co-design, and fault tolerance.
+Organization
+The course portal is for both seminar and proseminar students. Each week after the kick-off meeting, a critical review presentation will take place. All students are expected to read the relevant paper(s) and engage in the discussion. Throughout the semester, each student is expected to
+present the student’s own critical review of a paper or a set of papers,
+prepare discussion questions for the critical reviews of other students,
+proactively participate the discussion and brainstorming in all sessions,
+prepare a final report containing the student’s own critical review, enriched by the online and offline discussions and brainstorming.
+A seminar student is expected to prepare an additional literature survey based on one of the critical reviews of other students. The literature survey should contain a summary of the other student’s critical review, an evaluation of the review, relevant online and offline discussions, a summary of the relevant works other than the presented paper(s), and outstanding fundamental research challenges at the cutting-edge. Students may choose paper(s) from the provided list or propose alternative papers, subject to approval. Each student must submit a ranked list of preferences in decreasing order of priority. Papers will be assigned by considering students’ highest available preference, following a first-come, first-served policy based on submission time. Critical reviews should follow the structure that will be explained in the first lecture (kick-off meeting), including: a thorough summary of the paper, list of strengths, list of weaknesses, student’s takeaways from the paper, detailed discussions on weaknesses, and future research-oriented discussions.
+Schedule
+Paper assignments are final. Talk dates and mentor assignment can change. Please stay tuned.
+Date
+Theme
+Title
+Speaker
+Mentor
+Resources
+Apr 27
+Kickoff Meeting
+Introduction, Logistics, and Example Presentation
+Abdullah Giray Yaglikci
+L1a Slides: (
+pptx
+) (
+pdf
+)
+L1b Slides: (
+pptx
+) (
+pdf
+)
+Video (
+YouTube
+)
+May 4
+Preparation Week
+Talk Preparation (No Meeting)
+May 11
+Performance and Scaling
+Runahead Execution: An Alternative to Very Large Instruction Windows for Out-of-Order Processors
+Yousef Mostafa Farouk Farag
+Tristan Hornetz
+Paper (
+pdf
+)
+Dark Silicon and the End of Multicore Scaling
+Tigran Minasian
+Lorenz Hetterich
+Paper (
+pdf
+)
+May 18
+Branch Prediction and Trusted Execution
+Dynamic Branch Prediction with Perceptrons
+Mattis Henry Hollendieck
+Namhun Kim
+Paper (
+pdf
+)
+Keystone: An Open Framework for Architecting Trusted Execution Environments
+Chong Zhang
+Namhun Kim
+Paper (
+pdf
+)
+May 25
+Whit Monday
+Due: Critical Paper Review Report v1 (No Meeting)
+Jun 1
+Side Channels
+Timing Attacks on Implementations of Diffie-Hellman, RSA, DSS, and Other Systems
+Jonathan Ralph Felix Wandera
+Lorenz Hetterich
+Paper (
+pdf
+)
+Spectre Attacks: Exploiting Speculative Execution
+Yuvraj Singh
+Eduard Ebert
+Paper (
+pdf
+)
+Jun 8
+Discovering CPU Microarchitectural Vulnerabilities
+RISCVuzz: Discovering Architectural CPU Vulnerabilities via Differential Hardware Fuzzing
+Simran Kathpalia
+Lorenz Hetterich
+Paper (
+pdf
+)
+ZombieLoad: Cross-Privilege-Boundary Data Sampling
+Simon Rudolf Pankraz Einzinger
+Tristan Hornetz
+Paper (
+pdf
+)
+Jun 15
+Defenses Against Microarchitectural Side Channels
+ScatterCache: Thwarting Cache Attacks via Cache Set Randomization
+Yuhuai Xie
+Eduard Ebert
+Paper (
+pdf
+)
+PreFence: A Fine-Grained and Scheduling-Aware Defense Against Prefetching-Based Attacks
+Mahsa Rasti Najafabadi
+Lorenz Hetterich
+Paper (
+pdf
+)
+Jun 22
+DRAM
+Ambit: In-Memory Accelerator for Bulk Bitwise Operations Using Commodity DRAM Technology
+Jonah Kable
+Namhun Kim
+Paper (
+pdf
+)
+DRAM-based Attacks and Defenses
+Another Flip in the Wall of Rowhammer Defenses
+Nils Vondermühl
+Eduard Ebert
+Paper (
+pdf
+)
+Memory Performance Attacks: Denial of Memory Service in Multi-Core Systems
+Mohammed Farhan Parvaes
+Tristan Hornetz
+Paper (
+pdf
+)
+Jun 29
+ISCA Week
+Critical Paper Review Report and Literature Review Preparation (No Meeting)
+Jul 6
+Euro S&P Week
+Critical Paper Review Report and Literature Review Preparation (No Meeting)
+Jul 13
+Last Week of Classes
+Extended: 01.08.2026 23:59
+Due: Critical Paper Review Report v2
+Two weeks before the last day of grading (More precise deadline will be announced soon)
+Due: Literature Review (for seminar students)
+Grading
+Proseminar Students
+Seminar Students
+Presentation of the Critical Review
+50%
+40%
+Active Participation in Discussion
+30%
+20%
+Final Report
+20%
+10%
+Literature Survey
+0%
+30%
+BONUS: Literature Survey*
+10%
+10%
+* Collecting BONUS points is possible only if the student satisfactorily delivers the presentation, participates in discussions, and delivers the final report.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

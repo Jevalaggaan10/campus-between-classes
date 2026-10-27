@@ -1,0 +1,165 @@
+Main Page
+Robustness in Generative AI
+Xiao Zhang
+News
+Topic & Paper Assignment
+Written on
+23.10.26
+(last change on
+23.10.26
+)						by Xiao Zhang
+Hello student,
+The topics and papers have been assigned (see
+Topic & Paper Assignment.pdf
+). Each of you will present a paper and serve as a challenger twice.
+The next class meeting will be on Nov 05, and the topic is "Jailbreak & Safety Alignment". For the assigned presenters and challengers,…
+Read more
+Hello student,
+The topics and papers have been assigned (see
+Topic & Paper Assignment.pdf
+). Each of you will present a paper and serve as a challenger twice.
+The next class meeting will be on Nov 05, and the topic is "Jailbreak & Safety Alignment". For the assigned presenters and challengers, please be prepared. As we discussed yesterday, I'll also act as the challenger for the first paper presentation to give you an example. The presenter needs to submit the presentation slides, and the other students need to submit at least one question about the paper by the end of Nov 04.
+The
+tutorial slides
+have also been uploaded; you can find all the instructions there. In case you have any questions about the assignment, please let me know via email by the end of this week.
+Cheers,
+Xiao
+Written on
+21.10.26
+by Xiao Zhang
+Hello student,
+First, welcome to the seminar "Robustness in Generative AI." Tomorrow, I'll give a tutorial on paper reading, presentation, and the mini-SoK project, all of which are important components of this course. The meeting time is 10:15 am - 11:45 am, Thursday (Oct. 22). The meeting…
+Read more
+Hello student,
+First, welcome to the seminar "Robustness in Generative AI." Tomorrow, I'll give a tutorial on paper reading, presentation, and the mini-SoK project, all of which are important components of this course. The meeting time is 10:15 am - 11:45 am, Thursday (Oct. 22). The meeting location is Showroom 0.02, CISPA E9 1 (Stuhlsatzenhaus 5, 66123 Saarbrücken).
+Thanks to everyone who has already sent your topic preferences. If you haven't done so, please
+review the
+topic & paper list
+and email me the top 3 topics
+you are most interested in. Note that this needs to be completed by the end of Oct. 22. I look forward to seeing you all tomorrow!
+Cheers,
+Xiao
+[Important]
+If you want to take this seminar, please register for the course on: https://seminars.cs.uni-saarland.de/wise2627seminars. The deadline for seminar registration is
+Oct. 14, 20:00 CET.
+You will know whether you are assigned to this seminar on Oct. 16.
+Course Description:
+Modern generative AI systems, such as large language models (LLMs), multimodal models, and agentic systems, are increasingly deployed in real-world applications. At the same time, they face a broad range of robustness challenges, such as jailbreak and prompt-injection attacks, hallucinations and out-of-distribution generalization, and failures in reasoning and in autonomous agents.
+This seminar will examine these challenges through recent research on the robustness of generative AI. Each student will present an assigned paper, participate in weekly paper discussions, and write a mini SoK-style seminar paper by synthesizing a small set of papers. By the end of the seminar, students will develop a structured understanding of how and why generative AI systems fail under stress, as well as how robustness can be defined, measured, and improved across different dimensions of generative AI. The seminar will also highlight common methodological challenges in robustness research and encourage students to critically assess the assumptions, evaluation practices, and proposed solutions in the literature.
+Instructor:
+Xiao Zhang (xiao.zhang@cispa.de)
+Seminar Kickoff:
+16:15 - 17:45 on Tuesday, October 13th
+, at
+Room 0.02 CISPA E9 1
+(Stuhlsatzenhaus 5, 66123 Saarbrücken)
+Regular Weekly Meeting:
+10:00 - 12:00 on Thursdays
+, at
+CISPA E9 1
+(see course schedule below for room details)
+Requirements:
+There are no formal prerequisites for this seminar, but students should have a basic understanding of machine learning. The required language for the presentations is English. The course is particularly suitable for master's students interested in conducting research in trustworthy ML and generative AI.
+Covered Topics
+Jailbreak & Safety Alignment
+Poisoning, Backdoors & Prompt Injection Attacks
+Hallucination & Factual Robustness
+OOD Generalization & Detection
+Robustness of Reasoning Models
+Multi-Agent System: Failure Modes & Robustness
+Course Schedule
+(Tentative)
+Date & Time
+Location
+Topic & Format
+1
+October 13 (16:15 - 17:45)
+Showroom 0.02, CISPA E9 1
+Seminar Kickoff: Course overview & logistics
+2
+October 22 (10:15 - 11:45)
+Showroom 0.02, CISPA E9 1
+Tutorial: Paper Reading, Presentation & SoK Project
+-
+October 29
+-
+No Meeting: Preparation time
+3
+November 5 (10:15 - 11:45)
+Showroom 0.02, CISPA E9 1
+Paper presentation + Q&A
+4
+November 12 (10:15 - 11:45)
+Showroom 0.02, CISPA E9 1
+Paper presentation + Q&A
+5
+November 19 (10:15 - 11:45)
+Lecture Hall 0.05, CISPA E9 1
+Paper presentation + Q&A
+6
+November 26 (10:15 - 11:45)
+Lecture Hall 0.05, CISPA E9 1
+Paper presentation + Q&A
+7
+December 3 (10:15 - 11:45)
+Meeting Room 0.07, CISPA E9 1
+Paper presentation + Q&A
+-
+December 10
+-
+No Meeting: Preparation time
+8
+December 17 (10:15 - 11:45)
+Meeting Room 0.07, CISPA E9 1
+Paper presentation + Q&A
+-
+December 24
+-
+No Meeting: Winter break
+-
+December 31
+-
+No Meeting: Winter break
+-
+January 7
+-
+No Meeting: Preparation time
+9
+January 14 (10:00 - 12:00)
+Meeting Room 0.07, CISPA E9 1
+SoK Proposal Presentation + Feedback
+10
+January 21 (10:00 - 12:00)
+Meeting Room 0.07, CISPA E9 1
+SoK Proposal Presentation + Feedback
+11
+January 28 (10:00 - 12:00)
+Showroom 0.02, CISPA E9 1
+SoK Proposal Presentation + Feedback
+Deliverables & Grading
+In-Class Participation (20%).
+Students are required to attend all weekly meetings and are expected to contribute to the discussion. To ensure a fruitful discussion after the paper presentation, students are required to read the assigned papers for the week in advance and submit at least 1 question (with a short explanation) for each paper.
+Paper Presentation (30%).
+The topic and paper assignment will take place during the first week after the seminar kickoff, where students will have access to the full list of research papers and vote on their preferences. According to the preferences, the course instructor will assign a topic and an associated paper to each student. Each student will then present the assigned paper and lead a Q&A session to discuss it further, where pre-submitted student questions will be addressed. Additionally, a small team of remaining students, serving as challengers to the presenter, may be assigned based on students' preferences, with the goal of raising critical questions and making the discussion session even more engaging.
+SoK Proposal & Report (50%).
+Throughout the semester, each student will work on a mini systematization-of-knowledge (SoK) project regarding the assigned topic. In particular, it consists of a SoK proposal presentation
+(20%)
+happening in January next year and a written final report synthesizing a small set of research papers
+(30%)
+. Feedback will be provided after the proposal presentation, and the final SoK report will be due at the end of the semester (TBD).
+Responsibility & Integrity
+We believe in the value of a community of trust and expect all students in this class to help strengthen it. The course will be better for everyone if everyone can assume everyone else is trustworthy. The course instructor starts with the assumption that all students deserve to be trusted. For some topics, we will learn about and explore vulnerabilities that could be used to compromise deployed systems. You are trusted to behave responsibly and ethically. You may not attack any system without the permission of its owners and may not use anything you learn in this class for evil. If you have any doubts about whether or not something you want to do is ethical and legal, you should check with the course instructor before proceeding.
+In this course, generative AI tools are viewed as powerful learning aids. You are encouraged to use them ethically to brainstorm ideas or refine the structure of your writing. However, AI should supplement
+your learning, not replace it. You are ultimately responsible for the accuracy, logic, and integrity of the work you submit. To ensure transparency, your final written report must include an
+AI Disclosure Statement
+. Select the option below that applies (and you are encouraged to add more details):
+Option A: No AI Used.
+"No generative AI tools were used in the conception, literature review, or writing of this report."
+Option B: AI Used for Assistance.
+"I utilized [name of the tool] to assist with [specific tasks]. All final analysis and writing were completed and verified by the author."
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

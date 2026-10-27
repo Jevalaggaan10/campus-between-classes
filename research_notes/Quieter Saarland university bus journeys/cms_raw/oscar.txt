@@ -1,0 +1,38 @@
+Hauptseite
+Kurse
+Hauptseite
+Informationen
+Termine
+Team
+Anmeldung
+Persönliche Statusseite
+Login
+Angemeldet bleiben
+Login
+Registrierung
+Passwort vergessen?
+Dunklen Modus aktivieren
+Hellen Modus aktivieren
+OSCAR-Kurs
+Pascal Kattler
+News
+Aktuell gibt es keine Neuigkeiten
+OSCAR-Course
+Dates:
+Seminar: Monday 10:15-11:45   Room: Seminaraum 4 in building E2 5
+The first  seminar will be at 21.10.2026
+The Team:
+Lecturer: Pascal Kattler (kattler [at] math.uni-sb.de)
+Prerequisites:
+Basic Knowledge in Algebra  (LAI + LAII)
+Advanced Algebra lecture (f.e Algebra) recommended
+basic programming skills
+Topics:
+OSCAR is a powerfull Compuer Algebra System, in particular in computations in algebra, geometry, and number theory. In this serminar  we want to get fammiliar with OSCAR .
+In the beginning we will give a introduction to OSCAR.
+Datenschutz
+|
+Impressum
+Bitte wenden Sie sich bei technischen Problemen an
+die Administratoren
+.

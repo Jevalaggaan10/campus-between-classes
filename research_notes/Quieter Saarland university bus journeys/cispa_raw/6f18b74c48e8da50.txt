@@ -1,0 +1,194 @@
+Hauptseite
+Humans and Trustworthy AI Systems
+Maximilian Golla, Lea Schönherr
+News
+Topic Selection
+Written on
+26.10.26
+by Lea Schönherr
+Hi everyone,
+I hope you had a great week. We just wanted to send a gentle reminder to rank your favorite topic by the end of  today (Monday): https://simpleassign.net/poll/-P4FCNOgcECzgJ5pUCJi
+We will announce the assignments tomorrow during our seminar.
+Best regards,
+Lea and Maximilian
+Registration:
+About
+Many of the central challenges of trustworthy AI arise at the intersection of technical systems and human behavior. The seminar is jointly taught and is designed around an approximately
+equal balance
+between
+human-centered usable security and privacy topics
+and
+the
+technical security of AI, machine-learning, and large language model systems
+. Further information about presentation formats, topic assingment, and assessment requirements will be provided at the beginning of the seminar.
+Prerequisites
+This seminar is aimed at
+master's students in Cybersecurity
+or related fields. Participants should have a basic understanding of computer security, privacy, artificial intelligence, and machine learning and an interest in examining these technologies from
+both technical and human-centered perspectives
+.
+Learning Objectives
+Students will develop a critical understanding of
+how AI systems affect security, privacy, fairness, and society
+. They will learn to analyze trustworthy AI systems from complementary human-centered and technical perspectives, assess relevant research, identify limitations and potential harms, and communicate complex findings clearly. Particular attention will be paid to the gap between an AI system's intended behavior and the ways in which it may be understood, used, misused, or experienced in practice.
+Seminar Content
+The seminar explores trustworthy AI through an equal combination of two perspectives
+.
+The
+human-centered perspective
+focuses on usable security and privacy, including
+users' mental models of AI,
+privacy concerns,
+vulnerable or marginalized groups,
+technology-facilitated abuse, scams, and misinformation.
+The
+technical perspective
+examines the security of AI, machine-learning, and large language model systems, including
+secure code generation,
+the offensive use of AI,
+risks introduced by autonomous agents, and
+methods for detecting generated media.
+Students will engage with
+recent scientific publications
+,
+present one selected topic
+, and
+lead a critical discussion
+of its human and technical dimensions. Presentations should explain the underlying technology, examine relevant security and privacy concerns, consider how people understand and interact with the system, and discuss how proposed safeguards may fail in real-world settings.
+Topics
+#
+Topic
+1
+Mental Models of AI
+2
+Privacy in AI Chatbots
+3
+Youth, AI, and Privacy
+4
+AI-Facilitated Scams and Phishing
+5
+Deepfakes, Misinformation, and Authenticity
+6
+AI and Image-Based Sexual Abuse
+7
+Overreliance and Verification of AI Advice
+8
+AI Coding Assistants and Secure Development
+9
+AI Agents and Human Oversight
+10
+Workplace AI and Organizational Security
+11
+Bystander Privacy in AI Systems
+12
+Minorities, Fairness, and Unequal AI Harms
+Special Notes
+This seminar does not include a written seminar paper. In light of the growing use of generative AI in writing, the course instead places particular emphasis on students' own understanding,
+presentation
+, critical reasoning, and
+active participation in discussion
+. Assessment will therefore be based on presentations and contributions to seminar discussions.
+Talk Schedule (Tentative)
+#
+Date
+Room
+Meeting
+-
+October 13, 2026
+-
+Seminar Assignment Week
+1
+October 20, 2026 - 2:00pm till 5:00pm
+CISPA (E9 1) - Room 0.02 Showroom
+Kick-off - Humans & AI
+2
+October 27, 2026 - 2:00pm till 5:00pm
+CISPA (E9 1) - Room 0.02 Showroom
+How to Read and Present Scientific Papers
+-
+November 3, 2026
+-
+No Meeting - Preparation Time
+-
+November 10, 2026
+-
+No Meeting - Preparation Time
+-
+November 17, 2026
+-
+No Meeting - Preparation Time
+3
+November 24, 2026 - 2:00pm till 5:00pm
+CISPA (E9 1) - Room 0.02 Showroom
+2x Practice Talks + 2x Practice Talks
+4
+December 1, 2026 - 2:00pm till 5:00pm
+CISPA (E9 1) - Room 0.02 Showroom
+2x Practice Talks + 2x Practice Talks
+-
+December 8, 2026
+-
+No Meeting - Preparation Time
+5
+December 15, 2026 - 2:00pm till 5:00pm
+CISPA (E9 1) - Room 0.02 Showroom
+2x Practice Talks + 2x Practice Talks
+-
+December 22, 2026
+-
+No Meeting - Winter Break 🎅
+-
+December 29, 2026
+-
+No Meeting - Winter Break 🎆
+-
+January 5, 2027
+-
+No Meeting - Preparation Time
+6
+January 12, 2027 - 2:00pm till 5:00pm
+CISPA (E9 1) - Room 0.02 Showroom
+2x Final Talks + 2x Final Talks
+7
+January 19, 2027 - 2:00pm till 5:00pm
+CISPA (E9 1) - Room 0.02 Showroom
+2x Final Talks + 2x Final Talks
+8
+January 26, 2027 - 2:00pm till 5:00pm
+CISPA (E9 1) - Room 0.02 Showroom
+2x Final Talks + 2x Final Talks
+-
+February 2, 2027
+-
+No Meeting - Reserved: Backup
+Time and Location
+Date
+:
+The seminar will take place on
+Tuesdays
+,
+starting
+October 20, 2026
+.
+Time
+:
+2-5pm
+(with a short break)
+Location
+:
+Building
+E9 1
+,
+CISPA C0
+, Stuhlsatzenhaus 5, 66123 Saarbruecken.
+Room: 0.02 Showroom
+Links
+:
+SIC Seminars
+Course Catalog
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

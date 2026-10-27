@@ -1,0 +1,80 @@
+Lecture schedule
+Systems Security
+Ali Abbasi, Moritz Schloegel
+Lecture schedule
+The following schedule provides an overview of the planned topics for all lectures. Note that unexpected circumstances may require changes to the plan.
+Lecture
+Date
+Topic
+Info
+Instructor
+1
+October 23
+Intro
+Administrative aspects and introduction
+Ali
+2
+October 30
+x86 assembly I
+x86/x64 introduction
+Moritz
+3
+November 6
+x86 assembly II
+x86/x64 introduction
+Moritz
+4
+November 13
+Reverse Engineering
+Control + data structure recovery
+Moritz
+5
+November 20
+Software Security I
+Buffer overflows and Co.
+Moritz
+6
+November 27
+Software Security II
+Defenses and more vulnerabilities
+Moritz
+7
+December 4
+Software Security III
+ROP / CFI / other defenses
+Ali
+8
+December 11
+Midterm
+Ali
+9
+December 18
+Software Security IV
+Other kinds of vulnerabilities
+Ali
+10
+January 8
+ARM Assembly
+Intro to ARM Assembly
+Ali
+11
+January 15
+Heap Security I
+Attacks on heap data structures
+Ali
+12
+January 22
+Heap Security II
+Attacks on heap data structures
+Ali
+13
+January 29
+Software Testing
+Fuzzing
+Addison Crump (guest lecture)
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

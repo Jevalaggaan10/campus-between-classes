@@ -1,0 +1,112 @@
+Hauptseite
+Courses
+Main Page
+Information
+Timetable
+Curriculum
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Ideen der Informatik
+Ingmar Weber, Till Koebe
+News
+Addendum to Session 2, Oct 23th, 2026
+Written on
+26.10.26
+by Till Koebe
+Dear all,
+just two quick follow-up points on last week's session:
+1. Here the website on the Altersvorsorge we vibe-coded in this session:
+Altersvorsorgedepot erklärt
+2. Here the link to the Deepfake event organised by the Gleichstellungsbüro on Nov 11th:
+Deepfakes: Wenn ein Bild zur Waffe wird…
+Read more
+Dear all,
+just two quick follow-up points on last week's session:
+1. Here the website on the Altersvorsorge we vibe-coded in this session:
+Altersvorsorgedepot erklärt
+2. Here the link to the Deepfake event organised by the Gleichstellungsbüro on Nov 11th:
+Deepfakes: Wenn ein Bild zur Waffe wird – digitale Gewalt gegen Frauen
+Looking forward seeing you on Friday!
+Till
+Exam dates fixed!
+Written on
+23.10.26
+(last change on
+23.10.26
+)						by Till Koebe
+Dear all,
+the exam dates are now fixed:
+1. Exam: February 12th, 2027, 8:15h - 9:45h in E1.7 R.323
+2. Re-Exam: March 12th, 2027, 8:15h - 9:45h in E1.7 R.323
+Both dates are also noted in the Timetable. Online option will be available and details will be shared shortly.
+Let me know, if you…
+Read more
+Dear all,
+the exam dates are now fixed:
+1. Exam: February 12th, 2027, 8:15h - 9:45h in E1.7 R.323
+2. Re-Exam: March 12th, 2027, 8:15h - 9:45h in E1.7 R.323
+Both dates are also noted in the Timetable. Online option will be available and details will be shared shortly.
+Let me know, if you have questions (till.koebe@uni-saarland.de)
+Best,
+Till
+First lecture tomorrow
+Written on
+15.10.26
+(last change on
+15.10.26
+)						by Till Koebe
+Dear all,
+we are very much looking forward to welcoming you to the first session of this year's "Ideen der Informatik" lecture tomorrow!
+Just a brief reminder: It takes place from 8-10am c.t. (so start at 8:15h), in E1.7 R.301. In-person attendance is preferred. If this is not possible,
+here
+the…
+Read more
+Dear all,
+we are very much looking forward to welcoming you to the first session of this year's "Ideen der Informatik" lecture tomorrow!
+Just a brief reminder: It takes place from 8-10am c.t. (so start at 8:15h), in E1.7 R.301. In-person attendance is preferred. If this is not possible,
+here
+the link to the MS Teams meeting again:
+https://teams.microsoft.com/meet/37878900442303?p=aJFWX6AkSePfBDX8AN
+See you soon,
+Ingmar & Till
+Ideen der Informatik
+Organisational:
+- Successful completion of the course will give you 5 ECTS. The course consists of a weekly 90-min lecture, a weekly voluntary assignment and a final written exam. We are open for all students
+not
+enrolled in a study program at the Computer Science department.
+- It takes place on Fridays, 8-10am c.t., in E1.7 R.301, starting on October 16th, 2026, ending February 5th, 2027. We encourage in-person participation, however, we will both stream and record the lectures, if you cannot attend physically.
+-
+Here
+the Microsoft Teams link for the lecture.
+- Recordings and all other content will be made available via CMS.
+- Course language is English.
+- Lectures consists of two parts: First 30-min discussion of last week's assignment. The remaining 60-min new input. A week's assignment builds on previous weeks input.
+- The assignments are voluntary, thus not graded. We offer students to provide individual feedback on their assignments. We expect students who use this offer not to hand in LLM-generated answers.
+- The final exam is in-person, date tbd. However, we also offer remote exams on request. More on remote exams below.
+Contents and goals:
+Three goals:
+Familiarize the audience with basic concepts in Computer Science: What is an algorithm? What is a computer? What is data?
+Understand the interplay between information systems and society: How does technology transform society? How can technology be used to measure societal changes?
+Gain enough knowledge to critically discuss various impacts of information systems on the society.
+We address following topics: history of computer science, algorithms, programming languages, technical concepts of data centres, search engines, large language models, cryptography, networks, block chains, security and privacy and societal impacts. A detailed curriculum will be added soon.
+We do not expect any prior knowledge about these topics. However, we highly welcome critical thinking and active involvement in the discussions.
+Key deadlines (all end of day, German local time):
+- CMS registration deadline: 23.10.2026
+- LSF registration (if applicable): 13.11.2026
+Please check with your study coordinator, if other deadlines specific to your program apply.
+We are very much looking forward to meeting you,
+Ingmar & Till
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

@@ -1,0 +1,140 @@
+Main Page
+Courses
+Main Page
+Information
+Timetable
+Team
+Registration
+Personal Status
+Login
+Remember me
+Login
+Registration
+Forgot Password?
+Enable dark mode
+Enable light mode
+Introduction to Algorithms and Data Structures
+Raimund Seidel
+Registration for this course
+is open until
+Monday, 16.11.2026 23:59
+.
+News
+Extension of deadline for submission for Exercise Sheet 1
+Written on
+22.10.26
+by Sanyam Agarwal
+Hi all,
+Due to the CMS being down recently, we are extending the deadline to submit the solutions to assignment sheet 1 until 24 Oct (18:00).
+Best,
+Sanyam
+Introduction to Algorithms and Data Structures
+This lecture gives an introduction to the design of efficient algorithms and data structures, as well as analyzing their correctness and running time. We will discuss algorithm design techniques such as divide and conquer, exhaustive search, greedy and dynamic programming as well as randomized algorithms and amortized analysis of algorithms.
+Lecture Format
+Lecture: Tuesday 12:15-13:45 (Location: GHH E2.2)
+The first lecture will take place on October 13, 2026 . The lectures will be held in English.
+Prerequisites: It is recommended to have taken Programming 1+2 and Mathematics for Computer Scientists 1+2 before this course.
+Exercise Sheets & Tutorials
+This course has the goal that participants become familiar with fundamental concepts of algorithms, data structures, and their analysis. Students should become able to recognize algorithmic or storage situations and to apply appropriate methods and justify the choice of these methods. Such a familiarity and facility with the subject matter can hardly be achieved just by consuming various materials, be it attending lectures, viewing videos or slide presentations, or reading somebody else's write-ups. Instead you need to study the ideas, mull them over, grapple with the details, and possibly discuss your ideas with others. And, of course, solving exercise problems will be extremely helpful.
+However, solving exercise problems will only be useful if it happens by your own efforts. Copying somebody else's solutions or appealing to ChatGPT or the like will not really help you much with gaining familiarity with the subject matter. Of course easy availability of such solution sources makes it all the more tempting to use them.
+In order to minimize this temptation we have removed all grade relevance from the exercise sets. We will offer such a set each week. You are free to work on them or ignore them. If you turn in a solution we will give you feedback (some of which may be in form of points). However,your handed in solutions will not directly influence your grade or play a role in the qualification for the final exams (everybody registered for the course qualifies). In such a setting it really makes no sense to  turn in solutions that are not your own. You would just be wasting  resources, in particular your time, and, more importantly the time of  the tutors. Their time would be much better spent answering your questions.
+Exercise sheets will be handed out on Wednesday Morning at 8:00 AM and are due on the next Tuesday 11:59AM before the lecture. Why the deadline? For one, it seems to be human nature that such a pacing helps with getting things done.  But more importantly, tutors need to be able to manage their time. You can turn in solutions late, but in this case we do not guarantee to look at them and provide feedback.
+You are free to work in groups.  But in this case please do not turn in multiple duplicate solutions. You should be able to share the feedback.
+Your solutions should be digitally submitted to CMS as a PDF. You can arrive at such a pdf file by writing in LaTeX, writing in a common word processor like Word, or as a
+high quality
+scan/photo of a handwritten submission.
+The exercises sheets will be written in English, but you can choose to write your solutions in English or German
+depending on the tutorial you choose
+(i.e. check the submission language in the table below).
+Solutions to the exercises will be presented in the weekly tutorials. Tutorials start on October 21. We offer the following tutorial slots:
+Time
+Tutor
+Room
+Tutorial Language
+Submission Language
+Wed 08-10
+Philip
+E13 SR014
+English
+English
+Wed 10-12
+Nehesh
+E13 SR014
+English
+English
+Wed 12-14
+Thorben
+E13 SR014
+English
+Deutsch/English
+Wed 14-16
+Xiyang
+E13 SR014
+English
+Deutsch/English
+Wed 16-18
+Stefaniia
+E13 SR014
+English
+Deutsch/English
+Wed 08-10
+Maurice
+E13 SR015
+Deutsch
+Deutsch/English
+Wed 10-12
+Lucas
+E13 SR015
+Deutsch
+Deutsch/English
+Wed 12-14
+Florian
+E13 SR015
+Deutsch
+Deutsch/English
+Wed 14-16
+Benjamin
+E13 SR015
+Deutsch
+Deutsch/English
+Wed 16-18
+Jan
+E13 SR015
+Deutsch
+Deutsch/English
+When registering on this website, you are asked to give your preferences for tutorial slots.
+You can submit your preferences until October 16
+. We will then create a tutorial assignment on October 17.
+Office Hours
+We offer Office Hours, where you can ask tutors about the course material or exercises:
+Slot 1 (Monday):- 10:15-11:45 (Room: E1 3, 415)
+Slot 2 (Thursday):- 14:15-15:45 (Room: E1 3, 415)
+The office hours start from 22nd October.
+Grading and Exams
+Your grade for the course will be completely determined by your performance on a written exam. Your final grade will be the better of your grade in the final exam and your grade in the re-exam.
+Final Exam:
+February 11, 2027 15:00-18:00
+Re-Exam:
+March 24, 2027 15:00-18:00
+For these exams you will not be allowed the use of any materials, computers, phones, or other gadgets. You will be allowed to bring a single handwritten DinA4-sheet (which can be written on both sides); photocopies and printouts are not allowed. If you use such a sheet you must turn it in with your exam papers.
+In order to allow you to become familiar with such an exam setting for practice we will offer a mid-term examination, the scores of which will
+not
+be counted towards the final grade. The midterm will happen on
+Friday, 11th December, 15:00-18:00.
+To participate in the end exams and to be able to obtain a certificate you must register in the LSF system. If you are unable to register in LSF, please contact Sanyam.
+Literature
+There are many good books and lecture scripts on the topic, here is a selection:
+[Blä] M. Bläser,
+Introduction to Algorithms and Data Structures
+, 2015 (Script)
+[MS] K. Mehlhorn, P. Sanders, Algorithms and Data Structures - The Basic Toolbox, Springer, 2008 (ISBN: 9783540779773)
+[CLRS] T. H. Cormen, C. E. Leiserson, R. L. Rivest, C. Stein, Introduction to Algorithms - Fourth Edition, MIT Press, 2022 (ISBN: 9780262046305)
+[Eri] J. Erickson,
+Algorithms
+, 2019 (Free electronic version)
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

@@ -1,0 +1,22 @@
+Timetable
+Formal analysis of real-world security protocols
+Cas Cremers
+Timetable
+Date Overview
+Export as .ics-file
+Export as .ics-file with prefix
+Export a category ...
+Exam
+Lecture
+OfficeHour
+Export a category with prefix ...
+Exam
+Lecture
+OfficeHour
+You can import this calendar in your calendar app by copying an export link from the "Date Overview" menu.
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

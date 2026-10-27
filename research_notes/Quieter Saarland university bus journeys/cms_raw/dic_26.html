@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Main Page	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="4231d285cf1947148cfee86aa34b2ec9a0b05a05@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Sic/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Sic/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Sic/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Sic/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Sic/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/dic_26/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/dic_26/../system" class="navbar-brand">Courses</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/dic_26/">Main Page</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Information</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/dic_26/termine/calendar/index">Timetable</a></li><li><a class="dropdown-item" href="/dic_26/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/dic_26/students/register">Registration</a></li><li class="nav-item"><a class="nav-link" href="/dic_26/landing">Personal Status</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/dic_26/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="dc57d1bf2dccb9c9c93c17d48a7672ebc139d8dad252d43cb902f418d7ebf5ce7cdc6439e1131a7fbf53ecce5f8af993eb41e16afddc489eb1012f3153645b9a" id="Token1687399079" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Username" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Password" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Remember me</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.sic.saarland/dic_26/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="26f8fa0c2b9a399ddb806b50178bf763a4d857d6%3AUser.redirect" id="TokenFields1805580345" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked792890916" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/dic_26/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registration</a>        </li>
+        <li>
+            <a href="/dic_26/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Forgot Password?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Enable dark mode            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Enable light mode            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/dic_26/../system" class="site-logo" title="Front Page"><img src="/system/theme/Sic/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					Differential Equations in Image Processing and Computer Vision				</h1>
+				<div>
+				<small class="text-muted">
+					<a href="https://www.mia.uni-saarland.de/weickert/index.shtml">Prof. Dr. Joachim Weickert</a>				</small>
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	<p><i class="text-muted">Currently, no news are available</i></p></section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<h2><strong>Differential Equations in Image Processing and Computer Vision</strong></h2>
+
+<h3><span style="color:#c0392b"><strong>Five Teaching Awards (4 in Computer Science, 1 in Mathematics)</strong></span></h3>
+
+<p>Lecturer: <a href="http://www.mia.uni-saarland.de/weickert/index.shtml">Prof. Dr. Joachim Weickert</a><br />
+<br />
+Assistant: <a href="mailto:chizhov@cs.uni-saarland.de">Vassillen Chizhov</a>&nbsp;<br />
+<br />
+Winter Term 2026 / 2027</p>
+
+<p>Lectures (4h) with tutorials (2h)<br />
+(9 ECTS points)<br />
+<br />
+<strong>Online</strong> lectures based on the&nbsp;<a href="https://zoom.us/">Zoom</a>&nbsp;platform (<a href="https://www.mia.uni-saarland.de/Teaching/zoom-privacy.shtml">privacy information</a>):<br />
+Wednesday, 10:15-12:00<br />
+Friday, 10:15-12:00</p>
+
+<p>First lecture:&nbsp;<strong>Wednesday, October 14</strong><br />
+The Zoom link can be found in the <a href="https://cms.sic.saarland/dic_26/materials/">Materials section</a>.<br />
+Due to bad experiences in the past, lecture recordings will <strong>not</strong> be provided.<br />
+<br />
+Tutorials: 2 hours each week <strong>in person</strong>; see below.</p>
+
+<p>Based on the maximum capacity of our tutorials, this lecture is limited to 40 registrations.</p>
+
+<hr />
+<p><a href="#synopsis">Synopsis</a>&nbsp;&ndash;&nbsp;<a href="#prerequisites">Prerequisites</a><a href="#prerequisites">&nbsp;</a>&ndash;&nbsp;<a href="#tut">Tutorials</a>&nbsp;&ndash;&nbsp;<a href="#Registration">Registration&nbsp;</a>&ndash;&nbsp;<a href="#WrittenExams">Written Exams</a>&nbsp;&ndash;&nbsp;<a href="#Contents">Contents</a>&nbsp;&ndash;&nbsp;<a href="#References">References</a></p>
+
+<hr />
+<div>&nbsp;</div>
+
+<h3><strong><a name="synopsis">Synopsis</a></strong></h3>
+
+<div id="Synopsis">
+<p>Many model-based techniques in image processing and computer vision make use of methods based on partial differential equations (PDEs) and variational calculus. Moreover, many classical methods may be reinterpreted as approximations of PDE-based techniques. In this course we will get an in-depth insight into these methods. For each of these techniques, we will discuss the basic ideas as well as theoretical and algorithmic aspects. Examples from medical imaging and other fields illustrate the various application possibilities.<br />
+In this lecture we focus on classical, model-based image processing methods, not on deep learning.<br />
+<br />
+Since this class guides its participants to many research topics in our group, its attendance is required for everyone who wishes to pursue a master thesis in our group.</p>
+</div>
+
+<div>&nbsp;</div>
+
+<h3><strong><a id="prerequisites" name="prerequisites">Prerequisites</a></strong></h3>
+
+<p>Equally suited for students of visual computing, mathematics, computer science, and related study programs. It is based on undergraduate mathematical knowledge from the first three semesters (such as &quot;Mathematics for Computer Scientists I-III&quot;). For the programming assignments, some elementary knowledge of C is required. It is strongly recommended that students have some prior knowledge of image processing and computer vision, e.g. obtained through our earlier class on &quot;<a href="https://cms.sic.saarland/ipcv_26/">Image Processing and Computer Vision</a>&quot;. Knowledge in differential equations is useful, but not required. The lectures will be given in English.</p>
+
+<div>&nbsp;</div>
+
+<h3><strong><a name="tut">Assignments and Tutorials</a></strong></h3>
+
+<p>The tutorials include homework assignments (theory and programming) as well as classroom assignments. The programming assignments give an intuition about the way how image processing and computer vision algorithms work, while the theoretical assignments provide additional mathematical insights. Classroom assignments are supposed to be easier and should guide you gently to the main themes.</p>
+
+<p>For the homework assignments you can obtain up to 24 points per week. Actively participating in the classroom assignments gives you 12 more points per week, regardless of the correctness of your solutions. You can earn up to 2 bonus points in a tutorial by presenting a solution to a classroom assignment. To qualify for both exams you need 2/3 of all possible points. For 13 weeks, this comes down to 13 x 24 = 312 points. Working in groups of up to 3 people is permitted and strongly encouraged.</p>
+
+<p>If you miss a tutorial because you are sick, you can still get the points for participation, if you provide a doctor&#39;s certificate.</p>
+
+<p>If you have questions concerning the tutorials, please do not hesitate to contact <a href="mailto:chizhov@cs.uni-saarland.de">Vassillen Chizhov</a>.</p>
+
+<p>There is one tutorial group scheduled:</p>
+
+<ul>
+	<li>Tuesday, 16:15-18:00<br />
+	Tutor:&nbsp;<a href="mailto:chizhov@cs.uni-saarland.de">Vassillen Chizhov</a><br />
+	Building E1.3, Seminar Room 016</li>
+</ul>
+
+<p>First tutorial: <strong>Tuesday, October 20</strong></p>
+
+<p>Additionally the following office hour is offered:</p>
+
+<ul>
+	<li>Tuesday, 11:00-12:00<br />
+	Tutor:&nbsp;<a href="mailto:chizhov@cs.uni-saarland.de">Vassillen Chizhov</a><br />
+	Building E1.7, Room 4.05</li>
+</ul>
+
+<div>&nbsp;</div>
+
+<h3><strong><a id="Registration" name="Registration">Registration</a></strong></h3>
+
+<p>You can register for this course via the CMS.<br />
+Please do not forget to register for the exam also in the HISPOS/LSF system (apart from Erasmus students). This system administrates your exam admission and your grades.</p>
+
+<div>&nbsp;</div>
+
+<h3><strong><a name="WrittenExams">Written Exams</a></strong></h3>
+
+<p>It is planned to have two written exams, one at the beginning and one at the end of the semester break.</p>
+
+<p>The&nbsp;<strong>first</strong>&nbsp;written exam takes place on<strong>&nbsp;Friday, February 19, 2027, 14:00 - 17:00</strong>, in <strong>E1.3, HS002</strong>.</p>
+
+<p>The&nbsp;<strong>second</strong>&nbsp;written exam takes place on<strong>&nbsp;Friday, March 19, 2027, 14:00 - 17:00</strong>, in <strong>E1.3, HS002</strong>.</p>
+
+<p>Please be at the exam hall at 13:30 to allow for sufficient time for all organisational matters to be handled.</p>
+
+<p>In order to qualify for the exams you need a total amount of 2/3 of all possible points from the homework and classroom assignments. In case of qualification, you are allowed to take part in both exams. <strong>The better grade counts, but each exam will count as an attempt individually. </strong>Exam admissions from previous semesters do not qualify you to take part in the exams of this course.&nbsp;</p>
+
+<p>The exams will be&nbsp;<strong>closed book</strong>. These are the rules during the exams:</p>
+
+<ul>
+	<li><strong>You are allowed and obliged to bring three things to your desk only:</strong>&nbsp;Your student ID card (Studierendenausweis), a ball-pen that has no function other than writing, and a so-called&nbsp;<strong>cheat sheet</strong>. This cheat sheet is a A4 page with formulas or important equations from the lecture. Please note that the cheat sheet has to be handwritten by yourself. It will be collected at the end of the exam, and you can get it back at the exam inspection.</li>
+	<li>Everything else has to be deposited at the walls of the exam hall. In particular, electronic devices (including your cell phone), bags, jackets, briefcases, lecture notes, homework and classroom work solutions, additional handwritten notes, books, dictionaries, and paper are&nbsp;<strong>not allowed</strong>&nbsp;at your desk.</li>
+	<li>Please keep your student ID card ready for an attendance check during the exam.</li>
+	<li>Do not use pencils or pens that are erasable with a normal rubber.</li>
+	<li>You are not allowed to take anything with you that contains information about the exam.&nbsp;<br />
+	<strong>A violation of this rule means failing the DIC course.</strong></li>
+	<li>You must stay until the exam is completely over.</li>
+</ul>
+
+<p>If a student is unable to attend the written exams due to reasons beyond their control (e.g. because of an illness (medical certificate required immediately), or another exam at the same day), we aim to offer alternative options such as an oral exam. It takes 30 minutes, no aids are permitted, and the candidate should demonstrate that they have understood the main concepts and relations and knows important formulas. For fairness reasons, the difficulties, grades and passing chances are comparable to those in the written exams.</p>
+
+<div>&nbsp;</div>
+
+<h3><strong><a name="Contents">Contents</a></strong></h3>
+
+<p>Course material is available on this webpage in order to <strong>support</strong> the teaching and the tutorials, not to <strong>replace</strong> them. Additional organisational information, examples and explanations that may be relevant for your understanding and the exam are provided in the lectures and tutorials. It is solely <strong>your</strong> responsibility - not ours - to make sure that you receive this information.<br />
+Here is a preliminary list of the planned contents:</p>
+
+<table border="1" cellpadding="6">
+	<tbody>
+		<tr>
+			<th>Date</th>
+			<th>Topic</th>
+		</tr>
+		<tr>
+			<td>14/10</td>
+			<td>Introduction, Overview</td>
+		</tr>
+		<tr>
+			<td>16/10</td>
+			<td>Homogeneous Diffusion I: Basic Concepts<br />
+			(contains classroom assignment C1 and homework H1)</td>
+		</tr>
+		<tr>
+			<td>21/10</td>
+			<td>Homogeneous Diffusion II: Key Points, Algorithms, Limitations, Alternatives</td>
+		</tr>
+		<tr>
+			<td>23/10</td>
+			<td>Nonlinear Isotropic Diffusion I: Modelling and Continuous Theory<br />
+			(contains classroom assignment C2 and homework H2)</td>
+		</tr>
+		<tr>
+			<td>28/10</td>
+			<td>Nonlinear Isotropic Diffusion II: Semidiscrete and Fully Discrete Theory</td>
+		</tr>
+		<tr>
+			<td>30/10</td>
+			<td>Nonlinear Isotropic Diffusion III: Diffusion Echo and Efficient Algorithms<br />
+			(contains classroom assignment C3 and homework H3)</td>
+		</tr>
+		<tr>
+			<td>04/11</td>
+			<td>Nonlinear Anisotropic Diffusion I: Modelling</td>
+		</tr>
+		<tr>
+			<td>06/11</td>
+			<td>Nonlinear Anisotropic Diffusion II: Continuous and Discrete Theory<br />
+			(contains classroom assignment C4 and homework H4)</td>
+		</tr>
+		<tr>
+			<td>11/11</td>
+			<td>Diffusion Filtering: Parameter Selection</td>
+		</tr>
+		<tr>
+			<td>13/11</td>
+			<td>Variational Methods I: Modelling and Theory<br />
+			(contains classroom assignment C5 and homework H5)</td>
+		</tr>
+		<tr>
+			<td>18/11</td>
+			<td>Variational Methods II: Discrete Aspects</td>
+		</tr>
+		<tr>
+			<td>20/11</td>
+			<td>Variational Methods III: TV Regularisation and Primal-Dual Methods<br />
+			(contains classroom assignment C6 and homework H6)</td>
+		</tr>
+		<tr>
+			<td>25/11</td>
+			<td>Variational Methods IV: Functionals of Two Variables</td>
+		</tr>
+		<tr>
+			<td>27/11</td>
+			<td>Vector- and Matrix-Valued Images<br />
+			(contains classroom assignment C7 and homework H7)</td>
+		</tr>
+		<tr>
+			<td>02/12</td>
+			<td>Image Sequence Analysis I: Models for the Smoothness Term</td>
+		</tr>
+		<tr>
+			<td>04/12</td>
+			<td>Image Sequence Analysis II: Models for the Data Term<br />
+			(contains classroom assignment C8 and homework H8)</td>
+		</tr>
+		<tr>
+			<td>09/12</td>
+			<td>Image Sequence Analysis III: Practical Aspects</td>
+		</tr>
+		<tr>
+			<td>11/12</td>
+			<td>Image Sequence Analysis IV: Numerical Methods<br />
+			(contains classroom assignment C9 and homework H9)</td>
+		</tr>
+		<tr>
+			<td>16/12</td>
+			<td>Osmosis I: Continuous Theory and Modelling</td>
+		</tr>
+		<tr>
+			<td>18/12</td>
+			<td>Osmosis II: Discrete Theory and Efficient Algorithms<br />
+			(contains classroom assignment C10 and homework H10)</td>
+		</tr>
+		<tr>
+			<td>06/01</td>
+			<td>Continuous-Scale Morphology I: Basic Ideas</td>
+		</tr>
+		<tr>
+			<td>08/01</td>
+			<td>Continuous-Scale Morphology II: Shock Filters and Nonflat Morphology<br />
+			(contains classroom assignment C11 and homework H11)</td>
+		</tr>
+		<tr>
+			<td>13/01</td>
+			<td>Curvature-Based Morphology I: Mean Curvature Motion</td>
+		</tr>
+		<tr>
+			<td>15/01</td>
+			<td>Curvature-Based Morphology II: Affine Morphological Scale-Space<br />
+			(contains classroom assignment C12 and homework H12)</td>
+		</tr>
+		<tr>
+			<td>20/01</td>
+			<td>Self-Snakes and Active Contours</td>
+		</tr>
+		<tr>
+			<td>22/01</td>
+			<td>Backward Parabolic PDEs and M-smoothers<br />
+			(contains classroom assignment C13 and homework H13)</td>
+		</tr>
+		<tr>
+			<td>27/01</td>
+			<td>PDE-Based Image Compression I: Data Selection</td>
+		</tr>
+		<tr>
+			<td>29/01</td>
+			<td>PDE-Based Image Compression II: Optimised Encoding and Better PDEs<br />
+			(please take a look at the self-test problems)</td>
+		</tr>
+		<tr>
+			<td>03/02</td>
+			<td>PDEs and Learning</td>
+		</tr>
+		<tr>
+			<td>05/02</td>
+			<td>Summary and Outlook</td>
+		</tr>
+	</tbody>
+</table>
+
+<div>&nbsp;</div>
+
+<p>The slides for these lectures will be made available in the <a href="https://cms.sic.saarland/dic_26/materials/">Materials section</a> before each lecture.</p>
+
+<div>&nbsp;</div>
+
+<h3><strong><a name="References">References</a></strong></h3>
+
+<ul>
+	<li>J. Weickert:&nbsp;<a href="https://www.mia.uni-saarland.de/weickert/Papers/book.pdf">Anisotropic Diffusion in Image Processing</a>. Teubner, Stuttgart, 1998.</li>
+	<li>G. Aubert and P. Kornprobst:&nbsp;<a href="https://link.springer.com/book/10.1007/b97428">Mathematical Problems in Image Processing: Partial Differential Equations and the Calculus of Variations.</a>&nbsp;Second Edition, Springer, New York, 2006.</li>
+	<li>T. F. Chan and J. Shen: <a href="https://epubs.siam.org/doi/10.1137/1.9780898717877">Image Processing and Analysis: Variational, PDE, Wavelet, and Stochastic Methods</a>. SIAM, Philadelphia, 2005.</li>
+	<li>K. Bredies, D. Lorenz:&nbsp;<a href="https://link.springer.com/book/10.1007/978-3-030-01458-2">Mathematical Image Processing.</a>&nbsp;Birkh&auml;user, Basel, 2018.</li>
+	<li>F. Cao:&nbsp;<a href="https://link.springer.com/book/10.1007/b10404">Geometric Curve Evolutions and Image Processing.</a>&nbsp;Lecture Notes in Mathematics, Vol. 1805, Springer, Berlin, 2003.</li>
+	<li>Articles from journals and conferences.</li>
+</ul>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/en/privacy.html" target="_blank">Privacy Policy</a> | <a href="https://www.uni-saarland.de/en/legal-notice.html" target="_blank">Legal Notice</a><br/>
+	If you encounter technical problems, please contact <a href="mailto:cakecms@cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">the administrators</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

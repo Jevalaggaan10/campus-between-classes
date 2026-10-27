@@ -1,0 +1,354 @@
+Course Overview
+CISPA Courses
+Lectures
+Course list
+Winter term 2026/2027
+Formal analysis of real-world security protocols
+Advanced Lecture - 
+										Cas Cremers
+Imprecise Probabilistic Machine Learning
+Advanced Lecture - 
+										Krikamol Muandet
+Lean for Algorithms
+Advanced Lecture - 
+										Sebastian Brandt, Henrik Lievonen, Shreyas Srinivas
+Side-Channel Attacks and Defenses
+Advanced Lecture - 
+										Michael Schwarz
+Systems Security
+Advanced Lecture - 
+										Ali Abbasi, Moritz Schloegel
+Foundations of Cybersecurity 1
+Basic Lecture - 
+										Ben Stock
+Security (WS 2026/2027)
+Core Lecture - 
+										Nils Ole Tippenhauer
+CySec Lab (english BSc CySec only!)
+Lab - 
+										Sven Bugiel
+CySec Project Winter Term '26/27
+Project - 
+										CISPA
+Automata Learning: Learnability of Computational Models
+Proseminar - 
+										Noa Izsak, Swen Jacobs
+Usable Security in the Last Decade
+Proseminar - 
+										Divyanshu Bhardwaj, Sumair Ijaz Hashmi, Katharina Krombholz, Taha Taha
+Autonomous Offensive Security
+Seminar - 
+										Pellegrino
+Bachelor- and Master Seminar (Winter 2026/27)
+Seminar - 
+										CISPA Staff
+Computer Architecture (Seminar and Proseminar)
+Seminar - 
+										Michael Schwarz, Abdullah Giray Yaglikci
+Coping with computational hardness: approximation, moderately exponential-time, and parameterized algorithms
+Seminar - 
+										Daniel Marx
+Cybersecurity in Organizational Practice
+Seminar - 
+										Jonas Hielscher
+Deep Learning Efficiency: Smarter AI, Not Just Bigger
+Seminar - 
+										Rebekka Burkholz
+Hack-a-Sat
+Seminar - 
+										Ali Abbasi
+Humans and Trustworthy AI Systems
+Seminar - 
+										Maximilian Golla, Lea Schönherr
+Program Synthesis
+Seminar - 
+										Rayna Dimitrova
+Reproducibility in Fuzzing
+Seminar - 
+										Addison Crump, Moritz Schloegel
+Robustness in Generative AI
+Seminar - 
+										Xiao Zhang
+Space Informatics Cybersecurity
+Seminar - 
+										Ali Abbasi
+The Web Security Seminar
+Seminar - 
+										Pellegrino, Stock
+Topics in Privacy-Preserving Machine Learning and Optimization
+Seminar - 
+										Andrew Lowy
+Trustworthy Machine Learning
+Seminar - 
+										Adam Dziedzic
+Privacy Systems and Applications Seminar
+Seminar and Proseminar - 
+										Sylvain Chatel, Wouter Lueks
+Summer term 2026
+Trustworthy Machine Learning
+advanced lecture - 
+										Adam Dziedzic and Franziska Boenisch
+Algorithms for Cryptanalysis
+Advanced Lecture - 
+										Antoine Joux
+Cyber-Physical Systems Security
+Advanced Lecture - 
+										Nils Ole Tippenhauer
+Distributed Graph Algorithms
+Advanced Lecture - 
+										Sebastian Brandt
+Foundation of Wireless Security: Sniff, Sense, Secure
+Advanced Lecture - 
+										Mridula Singh
+Foundations of Firmware Security
+Advanced Lecture - 
+										Ali Abbasi
+Foundations of Web Security
+Advanced Lecture - 
+										Ben Stock
+IT Forensics
+Advanced Lecture - 
+										Christoph Sorge
+IT-Recht für Informatiker
+Advanced Lecture - 
+										Christoph Sorge
+Parameterized Algorithms
+Advanced Lecture - 
+										Dániel Marx, Florian Hörsch
+Parameterized Verification
+Advanced Lecture - 
+										Swen Jacobs
+Privacy-Enhancing Technologies
+Advanced Lecture - 
+										Wouter Lueks
+Usable Security Advanced Lecture
+Advanced Lecture - 
+										Katharina Krombholz
+Reactive Synthesis
+Advanced Lecture (Block Course) - 
+										Rayna Dimitrova
+Optimization for Machine Learning
+Advanced Lecture (Block Format) - 
+										Sebastian Stich
+Foundations of Cybersecurity 2
+Basic Lecture - 
+										Michael Schwarz
+Cryptography
+Core Lecture - 
+										Nico Döttling and Lucjan Hanzlik
+CySec Project Summer Term '26
+Project - 
+										CISPA
+Algorithms and Complexity
+Proseminar - 
+										Antoine Joux
+Advanced Topics in Rational Intelligence: Prediction, Causation, Decision, Incentive, and Regulation All at Once
+Seminar - 
+										Krikamol Muandet
+Data anonymization and how to break it
+Seminar - 
+										Ana-Maria Crețu
+Data-driven Understanding of the Disinformation Epidemic (DUDE)
+Seminar - 
+										Yang Zhang
+Embedded Systems Security
+Seminar - 
+										Ali Abbasi
+Opportunities and Risks of Large Language Models and Foundation Models
+Seminar - 
+										Prof. Dr. Mario Fritz
+Research Problems in Machine Learning and Security
+Seminar - 
+										Thorsten Eisenhofer
+The Rise of Agentic Networks - Risks in Collaboration
+Seminar - 
+										Rebekka Burkholz
+Topics in Privacy-Preserving Machine Learning and Optimization
+Seminar - 
+										Andrew Lowy
+Twelve test generators for twelve programming languages
+Seminar - 
+										Andreas Zeller + Alexi Turcotte
+Van Horn to Fuchsia: Capability-based Access Control
+Seminar - 
+										Noah Mauthe, Huda Dawoud, Sven Bugiel
+Computer Architecture
+Seminar and Proseminar - 
+										Michael Schwarz, Abdullah Giray Yaglikci
+Winter term 2025/2026
+Formal analysis of real-world security protocols
+Advanced Lecture - 
+										Cas Cremers
+Machine Learning in Cybersecurity
+Advanced Lecture - 
+										Mario Fritz
+Mobile Security
+Advanced Lecture - 
+										Sven Bugiel
+Security Testing
+Advanced Lecture - 
+										Andreas Zeller + Valentin Huber + Alexander Liggesmeyer + Tural Mammadov
+Side-Channel Attacks and Defenses
+Advanced Lecture - 
+										Michael Schwarz
+Foundations of Cybersecurity 1
+Basic Lecture - 
+										Ben Stock
+Security (WS 2025/2026)
+Core Lecture - 
+										Nils Ole Tippenhauer
+CySec Lab (english BSc CySec only!)
+Lab - 
+										Ben Stock
+IT Founders’ Lab 1 - Launchpad
+Lecture Series - 
+										Sven Bugiel, Andreas Zeller
+CySec Project Winter Term '25/26
+Project - 
+										CISPA
+Wireless and Mobile Security
+Pro-seminar - 
+										Mridula Singh
+Deep Generative Models
+Proseminar - 
+										Xiao Zhang
+Distributed Algorithms for Optimization Problems
+Proseminar - 
+										Yann Bourreau, Sebastian Brandt, Ananth Narayanan Karunattillam, Chiara Piombi, Philipp Schneider
+AI Safety
+Seminar - 
+										Yihan Ma, Bo Shao, Ziqing Yang, Yang Zhang
+Bachelor- and Master Seminar (WS 2025/2026)
+Seminar - 
+										CISPA Staff
+Complexity of Games
+Seminar - 
+										Dániel Marx, Tim Hartmann
+Deep Learning Efficiency
+Seminar - 
+										Rebekka Burkholz
+Differential Privacy in the Era of Foundation Models
+Seminar - 
+										Franziska Boenisch
+Privacy in Computations and Communications
+Seminar - 
+										Sajin Sasy
+Privacy Systems and Applications Seminar
+Seminar - 
+										Sylvain Chatel, Wouter Lueks
+Program Synthesis
+Seminar - 
+										Rayna Dimitrova
+The Web Security Seminar
+Seminar - 
+										Pellegrino, Stock
+Topics in Optimization for Machine Learning
+Seminar - 
+										Sebastian Stich
+Trustworthy Agentic Systems
+Seminar - 
+										Lea Schönherr
+Trustworthy Machine Learning
+Seminar - 
+										Adam Dziedzic
+Summer term 2025
+Algorithms for Cryptanalysis
+Advanced Lecture - 
+										Antoine Joux
+Attacks Against Machine Learning Models
+Advanced Lecture - 
+										Yang Zhang
+Coinductive Proofs
+Advanced Lecture - 
+										Arthur Correnson, Bernd Finkbeiner
+Cyber-Physical Systems Security
+Advanced Lecture - 
+										Nils Ole Tippenhauer
+Distributed Graph Algorithms
+Advanced Lecture - 
+										Sebastian Brandt
+Foundations of Firmware Security
+Advanced Lecture - 
+										Ali Abbasi
+Foundations of Web Security
+Advanced Lecture - 
+										Ben Stock
+IT Forensics
+Advanced Lecture - 
+										Janine Schneider, Christoph Sorge
+Optimization for Machine Learning
+Advanced Lecture - 
+										Sebastian Stich
+Privacy-Enhancing Technologies
+Advanced Lecture - 
+										Wouter Lueks
+Trustworthy Machine Learning
+Advanced Lecture - 
+										Adam Dziedzic and Franziska Boenisch
+Lectures on Modern Optimization Methods
+Advanced Lecture (Block Format) - 
+										Anton Rodomanov, Sebastian Stich
+Foundations of Cybersecurity 2
+Basic Lecture - 
+										Michael Schwarz
+Cryptography
+Core Lecture - 
+										Nico Döttling and Lucjan Hanzlik
+CySec Project Summer Term '25
+Project - 
+										CISPA
+Algorithms and Complexity
+Proseminar - 
+										Antoine Joux
+Playing Roles To Discover Deep Learning
+Proseminar - 
+										Rebekka Burkholz
+Secure Messaging
+Proseminar - 
+										Aurora Naska, Erik Pallas
+Advanced Topics in Program Analysis
+Seminar - 
+										Rayna Dimitrova
+Coping with computational hardness: approximation, moderately exponential-time, and parameterized algorithms
+Seminar - 
+										Dániel Marx
+Cybersecurity in Organizational Practice
+Seminar - 
+										Jonas Hielscher
+Data-driven Understanding of the Disinformation Epidemic (DUDE)
+Seminar - 
+										Yang Zhang
+Imprecise Probabilistic Machine Learning
+Seminar - 
+										Krikamol Muandet
+Politics of Security and Privacy
+Seminar - 
+										Matthias Fassl, Carolyn Guthoff, Katharina Krombholz, Alexander Ponticello
+Privacy in Computations and Communications
+Seminar - 
+										Lucjan Hanzlik, Sajin Sasy
+Provable Security of Key Exchange Protocols
+Seminar - 
+										Doreen Riepel
+Research Methods in Human-centric Security
+Seminar - 
+										Simon Anell, Dañiel Gerhardt, Katharina Krombholz
+Selected Topics in Mobile Security
+Seminar - 
+										Sven Bugiel
+The Web Security Seminar
+Seminar - 
+										Aurore Fass, Giancarlo Pellegrino, Cristian-Alexandru Staicu, Ben Stock
+Verification of Distributed Systems
+Seminar - 
+										Swen Jacobs
+Wireless Security
+Seminar - 
+										Mridula Singh
+Show older courses...
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

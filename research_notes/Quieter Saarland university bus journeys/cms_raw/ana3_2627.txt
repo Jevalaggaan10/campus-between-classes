@@ -1,0 +1,80 @@
+Hauptseite
+Kurse
+Hauptseite
+Informationen
+Termine
+Team
+Anmeldung
+Persönliche Statusseite
+Login
+Angemeldet bleiben
+Login
+Registrierung
+Passwort vergessen?
+Dunklen Modus aktivieren
+Hellen Modus aktivieren
+Analysis 3
+Michael Hartz
+News
+Einteilung der Kleingruppenübungen
+Geschrieben am
+18.10.26
+von Jens De Vries
+Die Kleingruppenübungen sind nun eingeteilt (siehe CMS). Die ersten Termine finden am 20.10. bzw. am 23.10 statt.
+Erste Vorlesung am Mittwoch
+Geschrieben am
+10.10.26
+von Michael Hartz
+Auf Grund der zentralen Eröffnungsveranstaltung findet die erste Vorlesung am Mittwoch statt.
+Analysis 3
+Dozent
+: Michael Hartz
+Assistent
+: Jens de Vries
+Vorlesung
+Montag, 10:15 - 12 Uhr in Hörsaal III
+Mittwoch, 10:15 - 12 Uhr in Hörsaal IV
+Die erste Vorlesung ist am Mi, 14.10.26. Ein Skript zur Vorlesung wird schrittweise unter Informationen/Materialien bereitgestellt.
+Kleingruppenübungen
+Die Kleingruppenübungen beginnen in der zweiten Vorlesungswoche.
+Tutorium Nr.
+Tag
+Zeit
+Tutor
+Raum
+Sprechstunde
+1
+Di
+14-16
+Benjamin Klasen
+SR5
+keine
+2
+Fr
+10-12
+Yann Fahs
+SR10
+Do 16-17
+Alle Sprechstunden finden im Gruppenarbeitsraum (Raum 317) statt. Zusätzlich gibt es eine Sprechstunde des Assistenten, die jede Woche mittwochs von 12 - 13 Uhr in Raum 4.35 (E2.4) stattfindet.
+Klausurtermine (vorläufig)
+Die erste Klausur findet voraussichtlich am 24.02. und die zweite Klausur am 24.03. statt.
+Inhalt
+Grundzüge der Maß- und Integrationstheorie
+Konstruktion des Lebesgue-Maßes
+Konvergenzsätze, Satz von Fubini, Transformationsformel
+Lebesgueräume
+Integration auf Untermannigfaltigkeiten, Satz von Gauß, Satz von Stokes
+Literatur
+Siehe Semesterapparat
+Übungsbetrieb/Klausurzulassung
+Jeden Montag werden ein Hausaufgabenblatt und ein Präsenzübungsblatt veröffentlicht. Die Präsenzübungen werden in den Kleingruppenübungen gemeinsam gelöst und besprochen. Das Hausaufgabenblatt wird im Anschluss selbstständig bearbeitet und in Gruppen von maximal 3 Studierenden bis zum Dienstag, 12:00 Uhr, der Folgewoche über CMS abgegeben.
+Um die Zulassung zur Klausur zu erhalten, müssen Sie mindestens 2/3 aller möglichen Übungspunkte erlangen. Die Übungspunkte entfallen zu 2/3 auf die Übungsblätter und zu 1/3 auf die Anwesenheit in den Kleingruppen (bei letzterem ist die maximale Ausbeute bereits nach 10 besuchten Übungsterminen erreicht).
+Zulassungen aus früheren Iterationen der Analysis 3 sind
+nicht
+für diese Veranstaltung gültig!
+Datenschutz
+|
+Impressum
+Bitte wenden Sie sich bei technischen Problemen an
+die Administratoren
+.

@@ -1,0 +1,39 @@
+Timetable
+Side-Channel Attacks and Defenses
+Michael Schwarz
+Timetable
+Date Overview
+Export as .ics-file
+Export as .ics-file with prefix
+Export a category ...
+Exam
+Lecture
+Practical
+Tutorial
+Export a category with prefix ...
+Exam
+Lecture
+Practical
+Tutorial
+You can import this calendar in your calendar app by copying an export link from the "Date Overview" menu.
+Upcoming Events
+Timing Side Channels
+27.10.2026 10:00 -  12:00
+Introduction to Microarchitecture
+03.11.2026 10:00 -  12:00
+Cache Attacks I
+10.11.2026 10:00 -  12:00
+Cache Attacks II
+17.11.2026 10:00 -  12:00
+Other Side Channels and Frameworks
+01.12.2026 10:00 -  12:00
+Page Table Attacks
+08.12.2026 10:00 -  12:00
+Mitigations
+15.12.2026 10:00 -  12:00
+Privacy Policy
+|
+Legal Notice
+If you encounter technical problems, please contact
+the administrators
+.

@@ -1,0 +1,18 @@
+{
+  "catalog_entries": 86,
+  "cispa_catalog_entries": 27,
+  "seminar_entries": 50,
+  "proseminar_entries": 9,
+  "canonical_course_ids": 63,
+  "meeting_pattern_rows": 42,
+  "courses_with_meeting_rows": 27,
+  "cispa_courses_with_timed_rows": 17,
+  "status_counts_by_entry": {
+    "recurring_or_irregular_timed": 39,
+    "no_public_recurring_time_found": 29,
+    "one_off_or_date_only_no_recurring_time": 4,
+    "block_or_kickoff_not_weekly": 9,
+    "SIC_CMS_researcher_coverage": 4,
+    "online_only_recurring": 1
+  }
+}

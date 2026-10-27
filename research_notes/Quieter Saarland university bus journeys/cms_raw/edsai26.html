@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Main Page	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="4231d285cf1947148cfee86aa34b2ec9a0b05a05@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Sic/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Sic/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Sic/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Sic/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Sic/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/edsai26/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/edsai26/../system" class="navbar-brand">Courses</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/edsai26/">Main Page</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Information</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/edsai26/termine/calendar/index">Timetable</a></li><li><hr class="dropdown-divider" /></li><li><a class="dropdown-item" href="/edsai26/5/Organization">Organization</a></li><li><hr class="dropdown-divider" /></li><li><a class="dropdown-item" href="/edsai26/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/edsai26/students/register">Registration</a></li><li class="nav-item"><a class="nav-link" href="/edsai26/landing">Personal Status</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/edsai26/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="2d8d268ca89e86c6ccf3cf9d8097a32b8f1cf81aeed286b7563a08cd290966f8e9f708b4e441d24c33e06dc4d4ec9ed7180bc84d6f27aa3839a65c2e6910d81a" id="Token1544012976" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Username" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Password" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Remember me</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.sic.saarland/edsai26/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="cef3b8ef762f827d2e8ab19d9021015d650b512b%3AUser.redirect" id="TokenFields234783038" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked928005812" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/edsai26/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registration</a>        </li>
+        <li>
+            <a href="/edsai26/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Forgot Password?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Enable dark mode            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Enable light mode            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/edsai26/../system" class="site-logo" title="Front Page"><img src="/system/theme/Sic/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					Elements of Data Science and Artificial Intelligence				</h1>
+				<div>
+				<small class="text-muted">
+					Andrea Volkamer, Vera Demberg, Ingmar Weber, Bernt Schiele, Till Koebe				</small>
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	
+<table class="table">
+	<colgroup>
+				<col span="1" style="width: auto;" />
+	</colgroup>
+	<tbody>
+	<tr>						<td class="align-top">
+				<a id="newsElement3"></a>
+				<h4 class="fs-5"><a href="/edsai26/news/view/3">Team Assignment Deadline upcoming</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="23.10.2026 13:02:02">23.10.26</span>												by Lisa-Marie Rolli					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse3">
+					<p>Dear all,</p>
+
+<p>I noticed that only about half of the registered students are also part of a team. While it is allowed to work on the assignments individually, we strongly recommend forming groups with fellow students. Working in a team allows you to distribute the workload and discuss problems together&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse3" href="#newsElement3">Read more</a></p>				</div>
+				<div class="collapse newsCollapse3">
+					<p>Dear all,</p>
+
+<p>I noticed that only about half of the registered students are also part of a team. While it is allowed to work on the assignments individually, we strongly recommend forming groups with fellow students. Working in a team allows you to distribute the workload and discuss problems together when you get stuck.</p>
+
+<p>The deadline for the team groupings is this<strong> Sunday (25.10.).</strong></p>
+
+<p>If you have troubles finding a team, please use the <a href="https://edsai26.forum.mi.uni-saarland.de/">forum</a>. There are already several posts from students looking for teammates. Given the number of students who are not yet part of a team, I encourage you to make use of the forum if you are still searching.</p>
+
+<p>Have a nice weekend,</p>
+
+<p>Lisa (on behalf of the EDSAI team)</p>
+				</div>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement2"></a>
+				<h4 class="fs-5"><a href="/edsai26/news/view/2">Tutorial Assignment</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="16.10.2026 17:08:00">16.10.26</span>												by Lisa-Marie Rolli					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse2">
+					<p>Dear all,</p>
+
+<p>I just ran the tutorial assignment. You should be able to see the time, date, and tutor of your assigned tutorial on your <a href="https://cms.sic.saarland/edsai26/students/view">personal status page</a>.&nbsp;</p>
+
+<p>The tutorials start next week. Since submission groups may only consist of students from the same tutorial, we strongly encourage you to&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse2" href="#newsElement2">Read more</a></p>				</div>
+				<div class="collapse newsCollapse2">
+					<p>Dear all,</p>
+
+<p>I just ran the tutorial assignment. You should be able to see the time, date, and tutor of your assigned tutorial on your <a href="https://cms.sic.saarland/edsai26/students/view">personal status page</a>.&nbsp;</p>
+
+<p>The tutorials start next week. Since submission groups may only consist of students from the same tutorial, we strongly encourage you to attend your tutorial and use the opportunity to get to know your fellow students.</p>
+
+<p>We wish you a nice weekend!</p>
+
+<p>Lisa (on behalf of the EDSAI team)</p>
+				</div>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement1"></a>
+				<h4 class="fs-5"><a href="/edsai26/news/view/1">Tutorial Preferences</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="16.10.2026 12:14:04">16.10.26</span>												by Lisa-Marie Rolli					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse1">
+					<p>Dear all,</p>
+
+<p>welcome to this year&#39;s EDSAI course, and a special welcome to our university for the first-semester students among you! :)</p>
+
+<p>This is a kind reminder to please enter your tutorial preferences if you have not done so already, as the deadline is <strong>today (16.10.) 16:59.&nbsp;</strong>Once the deadline is&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse1" href="#newsElement1">Read more</a></p>				</div>
+				<div class="collapse newsCollapse1">
+					<p>Dear all,</p>
+
+<p>welcome to this year&#39;s EDSAI course, and a special welcome to our university for the first-semester students among you! :)</p>
+
+<p>This is a kind reminder to please enter your tutorial preferences if you have not done so already, as the deadline is <strong>today (16.10.) 16:59.&nbsp;</strong>Once the deadline is over, the tutorial assignment will be performed using a constraint-solving algorithm to find a solution that best satisfies everyone&#39;s preferences.</p>
+
+<p>If you have any questions, don&#39;t hesitate to contact us using the <a href="https://edsai26.forum.mi.uni-saarland.de/">Forum</a>.&nbsp;If your question is of a more personal nature and you would prefer not to discuss it publicly, you can contact me or your tutor via email. You can find our contact details on the&nbsp;<a href="https://cms.sic.saarland/edsai26/tutors">Team Page</a>.&nbsp;</p>
+
+<p>All important dates, such as deadlines, lectures, tutorials, and exams, can be found in the <a href="https://cms.sic.saarland/edsai26/termine/calendar/index">calendar</a>.<br />
+<br />
+I look forward to the new semester and wish you all a nice weekend!</p>
+
+<p>Lisa (on behalf of the EDSAI team)</p>
+				</div>
+							</td>
+		</tr>		
+		</tbody>
+</table>
+
+</section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<h2>Elements of Data Science and Artificial Intelligence</h2>
+
+<p>&nbsp;</p>
+
+<div style="background-color:#43894b; border-radius:25px; border:1px solid green; color:#ffffff; display:inline-block; padding-left:10px; padding-right:10px">You will find all administrative information&nbsp;here: <u><a href="https://cms.sic.saarland/edsai26/5/Organization"><span style="color:#ffffff"><span style="background-color:#2980b9">Organization</span></span></a></u></div>
+
+<p>&nbsp;</p>
+
+<p>Artificial intelligence is a long-standing branch of computer science concerned with the design of algorithms and systems exhibiting intelligent behavior. Data science is a comparatively young area concerned with the extraction of knowledge and insights from structured and unstructured data. Increasingly, the real power of computer science applications lies in combining the two, exploiting insights from data to take intelligent decisions.</p>
+
+<p>Both artificial intelligence (AI) and data science (DS) are complex multi-disciplinary scientific fields. This course provides an overview of central concepts and ideas, structured and motivated by prominent applications requiring elements from both DS and AI.&nbsp; As a headstarter, we provide a <strong>crash course on Python</strong> in the first three lectures. Then, we will introduce how data science and AI can be used to research questions at the intersection of <strong>society and technology,</strong> encompassing both (i) computing of society, i.e., using computational methods to understand societal phenomena, and (ii) computing for society, i.e., using digitally assisted interventions to improve society.&nbsp; This will be followed by&nbsp;a brief introduction to <strong>machine learning (ML)</strong>, which lies at the heart of the intersection between DS and AI.&nbsp; We will cover <strong>autonomous driving</strong> as a prominent application of sensing, system design, control, and learning, as well as&nbsp;<strong>neural language models</strong> and the associated learning and reasoning techniques for <strong>natural language processing</strong>. We finally cover the <strong>computer-accelerated drug design (CADD)&nbsp;</strong>and ML techniques for <strong>prioritizing molecules.</strong></p>
+
+<p>The aim is for students to understand the scope of DSAI and to obtain intuitions about its central algorithmic elements. Detailed technical expositions and analyses of these elements are not covered; these are the subject of later more specialized courses.</p>
+
+<p>The course is accompanied by exercises, covering technical concepts through examples, as well as posing simple programming exercises (suitable for first-term students) in the Python language.&nbsp;</p>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/en/privacy.html" target="_blank">Privacy Policy</a> | <a href="https://www.uni-saarland.de/en/legal-notice.html" target="_blank">Legal Notice</a><br/>
+	If you encounter technical problems, please contact <a href="mailto:cakecms@cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">the administrators</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

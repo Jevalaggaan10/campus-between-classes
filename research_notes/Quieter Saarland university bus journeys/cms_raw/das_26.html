@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Hauptseite	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="4231d285cf1947148cfee86aa34b2ec9a0b05a05@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Sic/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Sic/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Sic/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Sic/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Sic/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Sic/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/das_26/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/das_26/../system" class="navbar-brand">Courses</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/das_26/">Main Page</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Information</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/das_26/termine/calendar/index">Timetable</a></li><li><a class="dropdown-item" href="/das_26/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/das_26/students/register">Registration</a></li><li class="nav-item"><a class="nav-link" href="/das_26/landing">Personal Status</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/das_26/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="6be3b11a13317dac46d7099d1c63bfa45076b2f3262a0a2001ada053cbbe8a682e7a1e6b804bf7f52173ab1a8c7a0112d5c4f6ff88710eab8d5de8955f0f7fd7" id="Token705508739" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Username" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Password" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Remember me</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.sic.saarland/das_26/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="370c075415b22de6d34b42896d096dd4a2e2cae8%3AUser.redirect" id="TokenFields1652302126" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked1174270171" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/das_26/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registration</a>        </li>
+        <li>
+            <a href="/das_26/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Forgot Password?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Enable dark mode            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Enable light mode            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/das_26/../system" class="site-logo" title="Front Page"><img src="/system/theme/Sic/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					Data and Society				</h1>
+				<div>
+				<small class="text-muted">
+					Ankan Mullick, Till Koebe, Ingmar Weber				</small>
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	
+<table class="table">
+	<colgroup>
+				<col span="1" style="width: auto;" />
+	</colgroup>
+	<tbody>
+	<tr>						<td class="align-top">
+				<a id="newsElement2"></a>
+								<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="23.10.2026 14:19:25">23.10.26</span>						(last change on <span data-bs-toggle="tooltip" data-bs-title="23.10.2026 14:35:47">23.10.26</span>)						by Ankan Mullick					</i></small>
+				</p>
+
+								<div class="collapse show transitions-none newsCollapse2">
+					<p>Hello everyone - there will be a special seminar &quot;<a href="https://www.uni-saarland.de/verwaltung/gleichstellung/news/deepfakes-wenn-ein-bild-zur-waffe-wird-digitale-gewalt-gegen-frauen-51340.html" id="menur1bf" rel="noreferrer noopener" target="_blank" title="https://www.uni-saarland.de/verwaltung/gleichstellung/news/deepfakes-wenn-ein-bild-zur-waffe-wird-digitale-gewalt-gegen-frauen-51340.html">Deepfakes: Wenn ein Bild zur Waffe wird &ndash; digitale Gewalt gegen Frauen</a>&quot; (as mentioned in the class) on&nbsp;November 11, 2026, at 5:30pm, at the Innovation Center on campus. Registration link online. Registration link: <a href="https://forms.cloud.microsoft/e/fxTbLKeWpT" id="menur3qg" rel="noreferrer noopener" target="_blank" title="https://forms.cloud.microsoft/e/fxtblkewpt">Please fill out this&#8230; <a data-bs-toggle="collapse" data-bs-target=".newsCollapse2" href="#newsElement2">Read more</a></a></p></p>				</div>
+				<div class="collapse newsCollapse2">
+					<p>Hello everyone - there will be a special seminar &quot;<a href="https://www.uni-saarland.de/verwaltung/gleichstellung/news/deepfakes-wenn-ein-bild-zur-waffe-wird-digitale-gewalt-gegen-frauen-51340.html" id="menur1bf" rel="noreferrer noopener" target="_blank" title="https://www.uni-saarland.de/verwaltung/gleichstellung/news/deepfakes-wenn-ein-bild-zur-waffe-wird-digitale-gewalt-gegen-frauen-51340.html">Deepfakes: Wenn ein Bild zur Waffe wird &ndash; digitale Gewalt gegen Frauen</a>&quot; (as mentioned in the class) on&nbsp;November 11, 2026, at 5:30pm, at the Innovation Center on campus. Registration link online. Registration link: <a href="https://forms.cloud.microsoft/e/fxTbLKeWpT" id="menur3qg" rel="noreferrer noopener" target="_blank" title="https://forms.cloud.microsoft/e/fxtblkewpt">Please fill out this form</a>.</p>
+
+<p>&nbsp;</p>
+				</div>
+							</td>
+		</tr>		
+	<tr>						<td class="align-top">
+				<a id="newsElement1"></a>
+				<h4 class="fs-5"><a href="/das_26/news/view/1">Seminar Series</a></h4>				<p>
+					<small class="text-muted"><i>
+						Written on <span data-bs-toggle="tooltip" data-bs-title="23.10.2026 10:18:36">23.10.26</span>												by Ankan Mullick					</i></small>
+				</p>
+
+									<p>&nbsp; The Data and Society Seminar will take place from 10 am to 12 pm every Friday at E1 7 building, room 3.23.</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+							</td>
+		</tr>		
+		</tbody>
+</table>
+
+</section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<h2>Data and Society</h2>
+
+<hr />
+<div>
+<p>From finding a mate, to booking a holiday, our lives are increasingly mediated by online platforms. Digital traces left by these interactions provide opportunities to study societal phenomena while creating challenges around the responsible use of data. In this seminar, students will learn how computational methods and machine learning can be applied to study society through such data.&nbsp;</p>
+</div>
+
+<div>
+<p>The first part of the seminar will familiarize students with existing work in computational social science, with each week focused on a topic such as &ldquo;Digital Democracy&rdquo; or &ldquo;Gender Gaps&rdquo; and methods to quantify it. The second part of the seminar will be about projects in which students are asked to quantify a societal phenomenon of their choice using computational methods. Here, students can both propose topics or choose from topics defined by the lecturers.</p>
+</div>
+
+<div>
+<p>The overall course performance will be based on (i) overall course participation, (ii) assigned paper presentations, (iii) literature review and &ldquo;project pitch&rdquo; (prior to in-depth work), and (iv) the written project report.</p>
+</div>
+
+<div>
+<p>Apart from learning about interdisciplinary research and applications of machine learning, students will also learn research skills such as how to read and discuss papers, how to plan a project, how to present their work, how to write a scientific paper, and how to work in teams.&nbsp;</p>
+</div>
+
+<div>
+<p>Students can take this course as a seminar.&nbsp;</p>
+</div>
+
+<p>Requirements: MSc students only &ndash; the project-based element of the seminar will require some Python programming and data analysis experience.  An interest beyond the foundations of CS, and caring about societal problems is a must.&nbsp;</p>
+
+<p>The Data and Society Seminar will take place from 10 am to 12 pm every Friday at E1 7 building, room 3.23.</p>
+
+<p>&nbsp;</p>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/en/privacy.html" target="_blank">Privacy Policy</a> | <a href="https://www.uni-saarland.de/en/legal-notice.html" target="_blank">Legal Notice</a><br/>
+	If you encounter technical problems, please contact <a href="mailto:cakecms@cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">the administrators</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>

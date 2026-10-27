@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+		Main Page	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Markus Bauer, Marc Jose, Sigurd Schneider">
+	<meta name="commit" content="300c92296ba275f6ef119c2f4d421cdb55afc9be@develop">
+    <style>
+		html[data-bs-theme=dark] .site-logo > img { content: url("/system/theme/Cispa/img/logo-dark.png"); }    </style>
+	<link rel="stylesheet" type="text/css" href="/system/css/cakecms.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/fontawesome.min.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/css/theme.css" course="system"/><link rel="stylesheet" type="text/css" href="/system/theme/Cispa/css/theme-custom.css" course="system"/><script type="text/javascript" src="/system/js/modern/bootstrap.bundle.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/tempus-dominus.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/popper.min.js" course="system"></script><script type="text/javascript" src="/system/js/modern/custom.js" course="system"></script>	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/system/theme/Cispa/img/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/system/theme/Cispa/img/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/system/theme/Cispa/img/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/system/theme/Cispa/img/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/system/theme/Cispa/img/favicon.png">
+	<link rel="icon" type="image/x-icon" href="/system/theme/Cispa/img/favicon.png">
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="/scad2627/js/ie_html5shiv.js"></script>	<![endif]-->
+</head>
+
+<body class="bg-body-tertiary d-flex flex-column py-0" style="min-height: 100vh;">
+<nav class="navbar navbar-dark border-bottom navbar-expand-lg fixed-top">
+	<div class="container-lg">
+		<a href="/scad2627/../system" class="navbar-brand">CMS</a>		<div class="navbar-expand flex-grow-1 flex-s d-lg-none overflow-none">
+			<ul class="navbar-nav d-lg-none flex-wrap" id="navbar-overflow"></ul>
+		</div>
+		<button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-course" aria-controls="navbar-system" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-course">
+			<ul class="navbar-nav me-auto mb-2 mb-md-0" id="navbar-main">
+				<li class="nav-item"><a class="nav-link active" href="/scad2627/">Main Page</a></li><li class="nav-item dropdown"><button class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown">Information</button><ul class="dropdown-menu"><li><a class="dropdown-item" href="/scad2627/termine/calendar/index">Timetable</a></li><li><hr class="dropdown-divider" /></li><li><a class="dropdown-item" href="/scad2627/2/Discord">Discord</a></li><li><hr class="dropdown-divider" /></li><li><a class="dropdown-item" href="/scad2627/tutors">Team</a></li></ul></li><li class="nav-item"><a class="nav-link" href="/scad2627/students/register">Registration</a></li><li class="nav-item"><a class="nav-link" href="/scad2627/landing">Personal Status</a></li>			</ul>
+			<div class="navbar-nav">
+				<div class="dropdown">
+    <button class="dropdown-toggle nav-link user-menu-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">
+        <i class="fa fa-user fa-fw"></i> 
+        Login 
+        <b class="caret"></b>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+                <form action="/scad2627/users/login" class="p-2 dropdown-item-text d-grid gap-2" style="min-width: 240px" id="UserLoginMenuForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="b9f6142cfbddf7bebbeef02e0110c04fa5180391965fefbfb3ddef99757a4c0153ce042daef685c02526c01db5d975ce09dbd17f5e485a7e4efd1d48deca4686" id="Token750393274" autocomplete="off"/></div>        <input name="data[User][username]" placeholder="Username" id="MenuUserUsername" maxlength="100" class="form-control" type="text" required="required"/>        <input name="data[User][password]" placeholder="Password" id="MenuUserPassword" class="form-control" type="password" required="required"/>        <div class="my-2"><input type="hidden" name="data[Auth][remember_me]" id="MenuAuthRememberMe_" value="0"/><input type="checkbox" name="data[Auth][remember_me]" id="MenuAuthRememberMe" class="form-check-input" value="1"/><label for="MenuAuthRememberMe" class="mx-2 form-check-label">Remember me</label></div>        <input type="hidden" name="data[User][redirect]" value="https://cms.cispa.saarland/scad2627/landing" id="MenuRedirect" class="form-control"/>        <li class="d-grid">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-right-to-bracket"></i> Login</button>
+        </li>
+        <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="a03b3730524bb9b2b9ae11c348b15a57444c4c91%3AUser.redirect" id="TokenFields2015386386" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked1002335859" autocomplete="off"/></div></form>        <li class="dropdown-divider"></li>
+        <li>
+            <a href="/scad2627/students/register" class="dropdown-item"><i class="fa fa-user-plus fa-fw"></i> Registration</a>        </li>
+        <li>
+            <a href="/scad2627/Users/lost" class="dropdown-item"><i class="fa fa-lock-open fa-fw"></i> Forgot Password?</a>        </li>
+        
+                <li><hr class="dropdown-divider"></li>
+        <li style="min-width: 270px;">
+            <button class="dropdown-item lightmode-only" data-toggle="theme" data-bs-theme="dark">
+                <i class="fa fa-moon fa-fw"></i>
+                Enable dark mode            </button>
+            <button class="dropdown-item darkmode-only" data-toggle="theme" data-bs-theme="light">
+                <i class="fa fa-sun fa-fw"></i>
+                Enable light mode            </button>
+        </li>
+    </ul>
+</div>			</div>
+		</div>
+	</div>
+</nav>
+
+<!-- page-header -->
+<div class="border-bottom flex-shrink-0">
+	<!-- This navbar is just a vertical spacer -->
+	<div class="navbar bg-body-tertiary">
+		<div class="container-lg">
+			<a class="navbar-brand" href="#">&nbsp;</a>
+		</div>
+	</div>
+	<div class="container-lg py-3">
+		<div class="page-header">
+			<div class="page-logo">
+				<a href="/scad2627/../system" class="site-logo" title="Front Page"><img src="/system/theme/Cispa/img/logo.png" course="system" alt=""/></a>			</div>
+			<div class="page-title">
+				<h1 class="mt-1">
+					Side-Channel Attacks and Defenses				</h1>
+				<div>
+				<small class="text-muted">
+					Michael Schwarz				</small>
+					</div>
+							</div>
+		</div>
+	</div>
+</div>
+<!-- /page-header -->
+
+<!-- main-content -->
+<div class="bg-body py-3 flex-shrink-0 flex-grow-1">
+	<div class="container-lg main-layout">
+		<div class="row">
+						<main class="col-12">
+										
+				<div id="content" class="content">
+					
+<section>
+	<h2>News</h2>
+	<div class="action-row">
+					</div>
+	<p><i class="text-muted">Currently, no news are available</i></p></section>
+
+<section>
+	<div class="action-row">
+			</div>
+	<div class="page overflow-auto">
+		<h2>Side-Channel Attacks and Defenses&nbsp;<img alt="" src="https://misc0110.net/scad_square.svg" style="float:right; height:30px; margin-left:4px; margin-right:4px; width:30px" /></h2>
+
+<p>In this lecture, you will learn about <strong>side channels</strong> in software and hardware, their security implications, how they can be <strong>exploited from software</strong>, and ways to <strong>prevent data leakage</strong>. Since 2018, side channels received a lot of attention as they are a vital part of Meltdown and Spectre attacks. Meltdown and Spectre showed that the security boundaries of modern CPUs can be circumvented with the help of side channels. However, besides these publicly known attacks, there are many more attacks relying on side channels. In particular, this lecture provides an <strong>overview of attack techniques and countermeasures</strong> for</p>
+
+<ul>
+	<li>Timing Attacks</li>
+	<li>Cache Attacks</li>
+	<li>Page Table Attacks</li>
+	<li>Transient Execution Attacks (Meltdown- and Spectre-type Attacks)</li>
+	<li>Fault Attacks</li>
+	<li>Software-based Power Attacks</li>
+	<li>CPU Vulnerabilities</li>
+</ul>
+
+<p>This course provides <strong>hands-on experience</strong> with various exercises, in which attacks and defenses have to be <strong>implemented and evaluated</strong>.</p>
+
+<p>Note that this is <strong>not an easy course</strong>.&nbsp;Previous students&nbsp;liked the course&nbsp;but noted the <strong>workload is above an average course</strong>.</p>
+
+<h3>Prerequisites</h3>
+
+<p>There are no formal prerequisites for this course. However, if you want to participate, you should</p>
+
+<ul>
+	<li>be familiar with programming C (it helps if you also have a basic understanding of x86 Assembly)</li>
+	<li>have a basic understanding of operating systems (e.g., the concept of virtual memory)</li>
+	<li>be able to work on Linux, as some exercises are only officially supported on Linux</li>
+	<li>have access to a system (laptop, PC, cloud) with an x86 CPU (Intel or AMD)&nbsp;</li>
+</ul>
+
+<h3>Time and Location</h3>
+
+<p>The lecture will take place in-presence every <strong>Tuesday from 10.00 (c.t.) - 12.00</strong>, starting 20.10.2026. Location: <strong>E9 1 (CISPA), room 0.05</strong> (lecture hall ground floor).&nbsp;</p>
+
+<h3>Grading</h3>
+
+<p>There is a total of <strong>100 points</strong> for this course. There are up to 50 points for the <strong>practical assignments</strong>&nbsp;and 50 points for the final <strong>exam</strong>. Additionally, there are optional <strong>lecture challenges</strong> that give you bonus points if you solve them.</p>
+
+<p>Note that you need a minimum of 26 points in the practical assignments and a minimum of 26 points in the exam to pass this course. Bonus points can only be used to get a better grade if you already passed the course, i.e., if you have <strong>at least 52 points without the bonus points</strong>.</p>
+
+<h4>Practical Assignments</h4>
+
+<p>There are four practical assignments with a total of 50 points. You need at least 26 points in total to pass the course. The practical assignments cover the topics covered in the lecture and aim to deepen your knowledge of the topics.</p>
+
+<p>You can discuss the assignments with other students, but you should not collaborate on the solution with anyone. Your solution should be original and not be an existing solution (e.g., from someone else, from the internet, or from generative AI). All submissions will be automatically checked for plagiarism. Plagiarism automatically results in zero points.</p>
+
+<h4>Written Exam</h4>
+
+<p>Exams are done in writing. The <strong>final exam</strong>&nbsp;will take place on <strong>TBD&nbsp;</strong>in&nbsp;<strong>E2 2 - H&ouml;rsaal 0.01 (G&uuml;nter-Hotz-H&ouml;rsaal).</strong>&nbsp;Note that physical presence is required for the exam.</p>
+
+<p>Exams consist of <strong>both theoretical questions and practical questions</strong>. Theoretic questions are basically the theoretic parts of the slides and possibly additional content presented in the lecture, which is not part of the slides. Practical questions are, in principle, similar to the tasks given in the lecture challenges as well as in the practicals. However, the complexity of the questions is scaled to make them adequate for the time available during an exam.</p>
+
+<p>All questions of the exam are in English. Answers can be given either in English or in German, at the student&rsquo;s discretion.</p>
+
+<p>No lecture notes or any other materials are allowed during an exam. All materials required to solve the practical questions are provided at the exam. The re-exam is only for students who failed the exam or did not participate - it can&#39;t be used to improve the grade.</p>
+
+<h4>Lecture Challenges</h4>
+
+<p>During the lecture, there will be small &ldquo;Lecture Challenges&rdquo; that you can <strong>optionally solve as a bonus</strong>. These challenges are optional, but solving them results in bonus points. The aim of the challenges is to dig deeper into a certain topic of the respective lecture. Thus, it is advisable to try to complete the challenge soon after the lecture.</p>
+	</div>
+</section>				</div>
+
+															</main> <!-- span9 -->
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div> <!-- bg-body -->
+<!-- main-content-->
+
+<!-- page-footer -->
+<div class="border-top flex-shrink-0">
+	<div class="container text-center py-4">
+		
+
+<small class="page-footer text-muted">
+	<a href="https://www.uni-saarland.de/en/privacy.html" target="_blank">Privacy Policy</a> | <a href="https://www.uni-saarland.de/en/legal-notice.html" target="_blank">Legal Notice</a><br/>
+	If you encounter technical problems, please contact <a href="mailto:cms-devs@mail-infsec.cs.uni-saarland.de?subject=[]&amp;body=Please%20provide%20sufficient%20informations%20as%3A%20Name%2C%20Date%2C%20Role%2C%20Which%20System%2C%20What%20Error%21">the administrators</a>.</small>	</div>
+</div>
+<!-- /page-footer -->
+
+</body>
+</html>
